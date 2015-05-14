@@ -1,0 +1,5 @@
+<div class="row" ng-repeat="course in coursesCtrl.courses">
+    <div class="col-md-12">
+        <a href="/{{coursesCtrl.underscorify(coursesCtrl.school)}}/{{coursesCtrl.underscorify(course)}}/" type="button" class="btn btn-lg btn-default center-block outline" role="button">{{course}}</a>
+    </div>
+</div>

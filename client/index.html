@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="kramster">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kramster!</title>
+    <base href="/">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <navbar></navbar>
+
+    <div class="container">
+        <div ng-view ng-controller="Tracker as tracker"></div>
+    </div>
+
+    <script src="scripts/dependencies/angular.min.js"></script>
+    <script src="scripts/dependencies/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="scripts/dependencies/ui-bootstrap-tpls-0.13.0.min.js"></script>
+    <script src="scripts/directives/navbar.js"></script>
+    <script src="scripts/controllers/school_list_controller.js"></script>
+    <script src="scripts/controllers/course_list_controller.js"></script>
+    <script src="scripts/controllers/document_list_controller.js"></script>
+    <script src="scripts/controllers/questions_controller.js"></script>
+    <script src="scripts/controllers/tracker.js"></script>
+    <script src="scripts/google-analytics.js"></script>
+
+</body>
+</html>

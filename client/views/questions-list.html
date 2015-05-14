@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-12">
+        <progress>
+            <bar ng-repeat="i in questionsCtrl.stats.numAnsweredArray() track by $index" value="questionsCtrl.stats.progress.value()" type="{{questionsCtrl.stats.progress.type($index)}}">
+                {{$index + 1}}
+            </bar>
+        </progress>
+    </div>
+</div>
+
+<div class="row" ng-if="questionsCtrl.questions">
+    <div class="col-md-12">
+        <h3>{{questionsCtrl.currentQuestion().question}}</h3>
+    </div>
+</div>
+
+<div class="row" ng-if="questionsCtrl.questions" >
+    <div class="col-md-12">
+        <div class="btn-group">
+            <a role="button" ng-repeat="option in questionsCtrl.currentQuestion().options" type="button" class="btn btn-default btn-lg button center-block outline" ng-click="questionsCtrl.answer(option)">{{option}}</a>
+        </div>
+    </div>
+</div>
+
+<div class="row" ng-if="! questionsCtrl.currentQuestion()">
+    <div class="col-md-12">
+        <h1>Grade: {{questionsCtrl.stats.grade()}}</h1>
+        <h3>Score: {{questionsCtrl.stats.string()}}</h3>
+        <a href="/{{questionsCtrl.route.school}}/{{questionsCtrl.route.course}}" type="button" role="button" class="btn btn-success outline">Try another</a>
+    </div>
+</div>

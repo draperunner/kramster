@@ -1,0 +1,74 @@
+body {
+  background-color: white;
+}
+
+.jumbotron {
+  border-radius: 0 !important;
+  background: rgb(255,179,71);
+  margin-bottom: 15px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background: rgba(0,0,0,0);
+  border: none;
+}
+
+a.blue {
+  color: #0054A6 !important;
+}
+a:hover.blue {
+  color: #2276C8 !important;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+.btn {
+  margin-top: 8px;
+  white-space: normal;
+  outline: none;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border-radius: 0;
+}
+
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+.btn-default.outline {
+  border: 1px solid #0054A6;
+  color: #0054A6;
+}
+
+.btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
+  color: #00AEEF;
+  border-color: #00AEEF;
+}
+.btn-default.outline:active, .btn-default.outline.active {
+  border-color: #9090EE;
+  color: #9090EE;
+  box-shadow: none;
+}
+
+.btn-success.outline {
+  border: 1px solid #53A600;
+  color: #53A600;
+}
+
+.btn-success.outline:hover, .btn-success.outline:focus, .btn-success.outline:active, .btn-success.outline.active, .open > .dropdown-toggle.btn-success {
+  color: #77CC33;
+  border-color: #77CC33;;
+}
+.btn-success.outline:active, .btn-success.outline.active {
+  border-color: #77CC33;;
+  color: #77CC33;;
+  box-shadow: none;
+}
+
+.question {
+  display: block;
+  width: 100%;
+}
