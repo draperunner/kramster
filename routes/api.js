@@ -57,9 +57,4 @@ router.get('/courses/:school', function(req, res) {
     });
 });
 
-// Angular app route
-router.get('*', function(req, res) {
-    res.sendFile('../public/index.html');
-});
-
 module.exports = router;

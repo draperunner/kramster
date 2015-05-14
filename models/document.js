@@ -8,6 +8,7 @@ var mongoose = require('mongoose');
 var documentSchema = new mongoose.Schema({
     _id: mongoose.Schema.ObjectId,
     school: String,
+    course: String,
     name: String,
     questions: [{
         question: String,
