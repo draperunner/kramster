@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name suckfaceApp
- * @description
- * # suckfaceApp
- *
- * Main module of the application.
- */
 angular
   .module('kramster', [
     'ngRoute',
