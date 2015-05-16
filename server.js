@@ -7,11 +7,12 @@ var bodyParser = require('body-parser');
 var router = express.Router();
 
 // MongoDB
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://localhost/kramster');
 
 // Express
 var app = express();
 app.use(express.static('./client/'));
+app.use('/bower_components', express.static('./bower_components/'));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 app.use(function(req, res, next) {
@@ -29,5 +30,5 @@ app.use(function(req, res) {
 });
 
 // Start server
-app.listen(5600, '127.0.0.1');
-console.log('Server is running on port 5600');
+app.listen(8000, '127.0.0.1');
+console.log('Server is running on port 8000');

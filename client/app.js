@@ -47,4 +47,4 @@ angular
 
     $locationProvider.html5Mode(true);
   }])
-    .value('apiUrl', 'http://localhost:5600/api/');
+    .value('apiUrl', 'http://localhost:8000/api/');
