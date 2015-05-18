@@ -24,22 +24,31 @@ router.get('/documents', function(req, res) {
 
 // Return all documents of given school
 router.get('/documents/:school', function(req, res) {
-    Document.find({"school": req.params.school.replace(/_/g, " ")}, function(err, docs) {
-        res.json(docs);
+    Document.find({
+        "school": req.params.school.replace(/_/g, " ")},
+        function(err, docs) {
+            res.json(docs);
     });
 });
 
 // Return all documents of given course of given school
 router.get('/documents/:school/:course', function(req, res) {
-    Document.find({"school": req.params.school.replace(/_/g, " "), "course": req.params.course.replace(/_/g, " ")}, function(err, docs) {
-        res.json(docs);
+    Document.find({
+        "school": req.params.school.replace(/_/g, " "),
+        "course": req.params.course.replace(/_/g, " ")},
+        function(err, docs) {
+            res.json(docs);
     });
 });
 
 // Return (one) document by school,course and document name.
 router.get('/documents/:school/:course/:document', function(req, res) {
-    Document.findOne({"school": req.params.school.replace(/_/g, " "), "name": req.params.document.replace(/_/g, " ")}, function(err, docs) {
-        res.json(docs);
+    Document.findOne({
+        "school": req.params.school.replace(/_/g, " "),
+        "course": req.params.course.replace(/_/g, " "),
+        "name": req.params.document.replace(/_/g, " ")},
+        function(err, docs) {
+            res.json(docs);
     });
 });
 
