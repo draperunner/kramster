@@ -1,99 +1,109 @@
 'use strict';
 
 angular.module('kramster')
-  .controller('QuestionsController', ['$scope', '$route', '$http', '$routeParams', 'apiUrl', function($scope, $route, $http, $routeParams, apiUrl) {
+	.controller('QuestionsController', ['$scope', 'Helpers', '$route', '$http', '$routeParams', 'apiUrl', function($scope, helpers, $route, $http, $routeParams, apiUrl) {
 
-    var randomMode = $route.current.locals.random;
+	/* Random mode is when the user clicks the button "30 Random" or similar. The controller has to fetch from all documents. */
+	var randomMode = $route.current.locals.random;
 
-    var app = this;
-    app.questions = [];
+	var app = this;
+	app.questions = [];
 
-      app.route = {
-      school: $routeParams.school,
-      course: $routeParams.course,
-      doc: (randomMode) ? 'random30' : $routeParams.document
-    };
+	/* History of answers. Boolean array. True for correct answer. */
+	app.history = [];
 
-    app.questionIndex = 0;
+	/* Total number of answers */
+	app.numAnswered = function() {
+		return app.history.length;
+	};
 
-    app.stats = {
-      numCorrects: 0,
-      numAnswered: 0,
-      numAnsweredArray: function() {
-        return new Array(app.stats.numAnswered);
-      },
-      percentage: function() {
-        return (app.stats.numAnswered > 0) ? Math.round(10000 * app.stats.numCorrects / app.stats.numAnswered) / 100 : 0;
-      },
-      string: function() {
-        return '' + app.stats.numCorrects + '/' + app.stats.numAnswered + ' (' + app.stats.percentage() + '%)';
-      },
-      scale : [89, 77, 65, 53, 41],
-      grades: ['A', 'B', 'C', 'D', 'E'],
-      grade: function() {
-        for (var i = 0; i < app.stats.scale.length; i++) {
-          if (app.stats.percentage() >= app.stats.scale[i]) { return app.stats.grades[i]; }
-        }
-        return 'F';
-      },
+	/* Total number of correct answers */
+	app.numCorrects = function() {
+		return app.history.filter(function(e) {return e}).length;
+	};
 
-      progress: {
-        history: [],
-        value: function() {
-          if (app.questions.length > 0) {
-            return Math.floor(10000 / app.questions.length) / 100;
-          }
-        },
-        type: function(index) {
-          return (app.stats.progress.history[index]) ? 'success' : 'danger';
-        }
-      }
-    };
+	/* Route parameters. */
+	$scope.route = {
+	  school: $routeParams.school,
+	  course: $routeParams.course,
+	  doc: (randomMode) ? 'random30' : $routeParams.document
+	};
 
-    if (randomMode) {
-      $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course).
-        success(function(data) {
-          var allQuestions = [];
-          for (var i=0; i < data.length; i++) {
-            allQuestions.push.apply(allQuestions, data[i].questions);
-          }
-          app.shuffleQuestions(allQuestions);
-          app.questions = allQuestions.slice(0, 30);
-        });
-    }
-    else {
-      $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document).
-        success(function(data) {
-          app.shuffleQuestions(data.questions);
-          app.questions = data.questions;
-        });
-    }
+	/* Returns the current question */
+	$scope.currentQuestion = function() {
+	  return (app.questions.length > 0) ? app.questions[app.history.length] : {question: '', options: []};
+	};
 
-    this.currentQuestion = function() {
-      return (this.questions.length > 0) ? this.questions[this.questionIndex] : {queston: '', options: []};
-    };
+	/* Is called when the user selects an answer */
+	app.answer = function(answer) {
+		var q = $scope.currentQuestion();
+		app.history.push(q && q.options.indexOf(answer) === q.answer);
+	};
 
-    this.answer = function(answer) {
-      if (this.currentQuestion() && this.currentQuestion().options.indexOf(answer) === this.currentQuestion().answer) {
-        this.stats.progress.history.push(true);
-        this.stats.numCorrects++;
-      }
-      else {
-        this.stats.progress.history.push(false);
-      }
-      this.stats.numAnswered++;
-      this.questionIndex++;
-    };
+	/* Variables concerning the answering statistics for this session. */
+	app.stats = {
 
-    this.shuffleQuestions = function(questions) {
-      var size = questions.length;
-      for (var i=0; i < size; i++) {
-        var j = Math.round(i + (size - 1 - i) * Math.random());
-        var temp = questions[i];
-        questions[i] = questions[j];
-        questions[j] = temp;
-      }
-      return questions;
-    };
+	  /* Get the (current) ratio of correct answers per total number of answered questions. */
+	  percentage: function() {
+		return (app.numAnswered() > 0) ? Math.round(10000 * app.numCorrects() / app.numAnswered()) / 100 : 0;
+	  },
+
+	  /* Returns a status message. Example: "3/5 (60%)" */
+	  status: function() {
+		return '' + app.numCorrects() + '/' + app.numAnswered() + ' (' + app.stats.percentage() + '%)';
+	  },
+
+	  /* Returns the grade corresponding to the current percentage. Uses the NTNU scale. */
+	  grade: function() {
+			var scale = [89, 77, 65, 53, 41];
+			var grades = ['A', 'B', 'C', 'D', 'E'];
+
+			for (var i = 0; i < scale.length; i++) {
+				if (app.stats.percentage() >= scale[i]) {
+					return grades[i];
+				}
+			}
+			return 'F';
+		}
+	};
+
+	/* Variables used for the progress bar. */
+	app.progress = {
+		value: function() {
+			if (app.questions.length > 0) {
+				return Math.floor(10000 / app.questions.length) / 100;
+			}
+		},
+		type: function(index) {
+			return (app.history[index]) ? 'success' : 'danger';
+		}
+	};
+
+	/* RANDOM MODE.
+	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
+	 */
+	if (randomMode) {
+	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
+			.success(function(data) {
+				var allQuestions = [];
+				for (var i=0; i < data.length; i++) {
+					allQuestions.push.apply(allQuestions, data[i].questions);
+				}
+				helpers.shuffle(allQuestions);
+				app.questions = allQuestions.slice(0, 30);
+			});
+	}
+
+	/* NON-RANDOM MODE.
+	 * Fetches the selected document and shuffles its questions.
+	 */
+	else {
+	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document)
+			.success(function(data) {
+				helpers.shuffle(data.questions);
+				app.questions = data.questions;
+			});
+	}
+
 
   }]);

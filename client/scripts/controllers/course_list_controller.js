@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('kramster')
-  .controller('CourseListController', ['$http', '$routeParams', 'apiUrl', function($http, $routeParams, apiUrl) {
+  .controller('CourseListController', ['$scope', '$http', '$routeParams', 'apiUrl', 'Helpers', function($scope, $http, $routeParams, apiUrl, helpers) {
+    $scope.helpers = helpers;
     var app = this;
     app.courses = [];
     app.school = $routeParams.school;
@@ -10,7 +11,4 @@ angular.module('kramster')
         app.courses = data.sort();
       });
 
-    this.underscorify = function(courseName) {
-      return courseName.replace(/ /g, '_');
-    };
   }]);

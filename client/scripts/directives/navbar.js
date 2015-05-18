@@ -1,11 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc directive
- * @name suckfaceApp.directive:navbar
- * @description
- * # navbar
- */
 angular.module('kramster')
   .directive('navbar', function () {
     return {

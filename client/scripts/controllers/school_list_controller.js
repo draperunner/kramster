@@ -1,16 +1,13 @@
 'use strict';
 
 angular.module('kramster')
-  .controller('SchoolListController', ['$http', 'apiUrl', function($http, apiUrl) {
+  .controller('SchoolListController', ['$scope', 'Helpers', '$http', 'apiUrl', function($scope, helpers, $http, apiUrl) {
+    $scope.helpers = helpers;
     var app = this;
     app.schools = [];
     $http.get(apiUrl + 'schools').success(function(data) {
       app.schools = data.sort();
     });
 
-    this.underscorify = function(schoolName) {
-      return schoolName.replace(/ /g, '_');
-    };
-      
   }]);
 
