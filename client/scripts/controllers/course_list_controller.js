@@ -7,7 +7,7 @@ angular.module('kramster')
     app.school = $routeParams.school;
     $http.get(apiUrl + 'courses/' + $routeParams.school).
       success(function(data) {
-        app.courses = data;
+        app.courses = data.sort();
       });
 
     this.underscorify = function(courseName) {

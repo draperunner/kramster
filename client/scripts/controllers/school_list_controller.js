@@ -5,7 +5,7 @@ angular.module('kramster')
     var app = this;
     app.schools = [];
     $http.get(apiUrl + 'schools').success(function(data) {
-      app.schools = data;
+      app.schools = data.sort();
     });
 
     this.underscorify = function(schoolName) {
