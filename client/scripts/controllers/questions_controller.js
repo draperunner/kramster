@@ -3,7 +3,7 @@
 angular.module('kramster')
 	.controller('QuestionsController', ['$scope', 'Helpers', '$route', '$http', '$routeParams', 'apiUrl', function($scope, helpers, $route, $http, $routeParams, apiUrl) {
 
-	/* Random mode is when the user clicks the button "30 Random" or similar. The controller has to fetch from all documents. */
+	/* String representing the mode. Is set if one of the buttons 'All' or ' 30 Random' is clicked. */
 	var mode = $route.current.locals.mode;
 
 	var app = this;
@@ -26,7 +26,7 @@ angular.module('kramster')
 	$scope.route = {
 	  school: $routeParams.school,
 	  course: $routeParams.course,
-	  doc: (mode === 'random') ? 'random30' : $routeParams.document
+	  doc: (mode === 'random30') ? 'random30' : $routeParams.document
 	};
 
 	/* Returns the current question */
