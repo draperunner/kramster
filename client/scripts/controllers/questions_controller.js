@@ -4,7 +4,7 @@ angular.module('kramster')
 	.controller('QuestionsController', ['$scope', 'Helpers', '$route', '$http', '$routeParams', 'apiUrl', function($scope, helpers, $route, $http, $routeParams, apiUrl) {
 
 	/* Random mode is when the user clicks the button "30 Random" or similar. The controller has to fetch from all documents. */
-	var randomMode = $route.current.locals.random;
+	var mode = $route.current.locals.mode;
 
 	var app = this;
 	app.questions = [];
@@ -26,7 +26,7 @@ angular.module('kramster')
 	$scope.route = {
 	  school: $routeParams.school,
 	  course: $routeParams.course,
-	  doc: (randomMode) ? 'random30' : $routeParams.document
+	  doc: (mode === 'random') ? 'random30' : $routeParams.document
 	};
 
 	/* Returns the current question */
@@ -79,10 +79,25 @@ angular.module('kramster')
 		}
 	};
 
+	/* ALL MODE.
+	 * Fetches all documents, gathers all questions from all of them, shuffles.
+	 */
+	if (mode === 'all') {
+	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
+			.success(function(data) {
+				var allQuestions = [];
+				for (var i=0; i < data.length; i++) {
+					allQuestions.push.apply(allQuestions, data[i].questions);
+				}
+				helpers.shuffle(allQuestions);
+				app.questions = allQuestions;
+			});
+	}
+
 	/* RANDOM MODE.
 	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 	 */
-	if (randomMode) {
+	else if (mode === 'random30') {
 	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
 			.success(function(data) {
 				var allQuestions = [];

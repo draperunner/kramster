@@ -36,7 +36,15 @@ angular
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',
         resolve: {
-          random: function() {return true;}
+          mode: function() {return 'random30';}
+        }
+      }).
+      when('/:school/:course/all', {
+        templateUrl: 'views/questions-list.html',
+        controller: 'QuestionsController',
+        controllerAs: 'questionsCtrl',
+        resolve: {
+          mode: function() {return 'all';}
         }
       }).
       when('/:school/:course/:document', {
