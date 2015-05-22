@@ -17,7 +17,7 @@
 <div class="row" ng-if="questionsCtrl.questions" >
     <div class="col-xs-12">
         <div class="btn-group">
-            <a role="button" ng-repeat="option in currentQuestion().options" type="button" class="btn btn-default btn-lg button center-block outline" ng-click="questionsCtrl.answer(option)">{{option}}</a>
+            <a role="button" ng-repeat="option in currentQuestion().options" type="button" class="btn {{questionsCtrl.buttonClass(option)}} btn-lg button center-block outline" ng-click="questionsCtrl.answer(option)">{{option}}</a>
         </div>
     </div>
 </div>

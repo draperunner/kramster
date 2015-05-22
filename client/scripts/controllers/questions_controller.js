@@ -3,8 +3,20 @@
 angular.module('kramster')
 	.controller('QuestionsController', ['$scope', 'Helpers', '$route', '$http', '$routeParams', 'apiUrl', function($scope, helpers, $route, $http, $routeParams, apiUrl) {
 
-	/* String representing the mode. Is set if one of the buttons 'All' or ' 30 Random' is clicked. */
-	var mode = $route.current.locals.mode;
+	/* Different modes for the quizzing. */
+	var mode = {
+		/* String representing the doc fetch mode. 'all' if All button is clicked. 'random30' if 30 Random is clicked. */
+		docMode: $route.current.locals.mode,
+
+		/* If set to true, the correct answer will be shown after answering, before next question appears. */
+		showCorrectAnswerMode: false
+	};
+
+	/* Route parameters. */
+	$scope.route = {
+	  school: $routeParams.school,
+	  course: $routeParams.course
+	};
 
 	var app = this;
 	app.questions = [];
@@ -22,22 +34,41 @@ angular.module('kramster')
 		return app.history.filter(function(e) {return e}).length;
 	};
 
-	/* Route parameters. */
-	$scope.route = {
-	  school: $routeParams.school,
-	  course: $routeParams.course,
-	  doc: (mode === 'random30') ? 'random30' : $routeParams.document
-	};
+	/* True if an answer is selected. */
+	var answerGiven = false;
 
 	/* Returns the current question */
 	$scope.currentQuestion = function() {
-	  return (app.questions.length > 0) ? app.questions[app.history.length] : {question: '', options: []};
+		if (app.questions.length <= 0) {
+			return  {question: '', options: []};
+		}
+	  if (mode.showCorrectAnswerMode && answerGiven) {
+			return app.questions[app.history.length - 1];
+		}
+		return app.questions[app.history.length];
+	};
+
+	app.buttonClass = function(option) {
+		if (! answerGiven || ! mode.showCorrectAnswerMode) {
+			return 'btn-default';
+		}
+		var previousQuestion = app.questions[app.history.length - 1];
+		if (option === previousQuestion.options[previousQuestion.answer]) {
+			return 'btn-success';
+		}
+		return 'btn-danger';
 	};
 
 	/* Is called when the user selects an answer */
 	app.answer = function(answer) {
-		var q = $scope.currentQuestion();
-		app.history.push(q && q.options.indexOf(answer) === q.answer);
+		if (!answerGiven && mode.showCorrectAnswerMode || !mode.showCorrectAnswerMode) {
+			var q = $scope.currentQuestion();
+			app.history.push(q && q.options.indexOf(answer) === q.answer);
+			answerGiven = true;
+		}
+		else {
+			answerGiven = false;
+		}
 	};
 
 	/* Variables concerning the answering statistics for this session. */
@@ -82,7 +113,7 @@ angular.module('kramster')
 	/* ALL MODE.
 	 * Fetches all documents, gathers all questions from all of them, shuffles.
 	 */
-	if (mode === 'all') {
+	if (mode.docMode === 'all') {
 	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
 			.success(function(data) {
 				var allQuestions = [];
@@ -97,7 +128,7 @@ angular.module('kramster')
 	/* RANDOM MODE.
 	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 	 */
-	else if (mode === 'random30') {
+	else if (mode.docMode === 'random30') {
 	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
 			.success(function(data) {
 				var allQuestions = [];
@@ -119,6 +150,4 @@ angular.module('kramster')
 				app.questions = data.questions;
 			});
 	}
-
-
   }]);
