@@ -1,5 +1,5 @@
-<div ng-hide="clicked === 1" class="row" ng-repeat="school in schoolsCtrl.schools">
-    <div class="col-md-12">
+<div class="row" ng-repeat="school in schoolsCtrl.schools">
+    <div class="col-xs-12">
         <a href="/{{helpers.underscorify(school)}}" type="button" class="btn btn-lg btn-default center-block outline" role="button">{{school}}</a>
     </div>
 </div>
