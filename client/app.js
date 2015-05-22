@@ -3,7 +3,8 @@
 angular
   .module('kramster', [
     'ngRoute',
-    'ui.bootstrap'
+    'ui.bootstrap',
+		'ngSanitize'
   ])
   .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider.

@@ -10,7 +10,7 @@
 
 <div class="row" ng-if="questionsCtrl.questions">
     <div class="col-md-12">
-        <h3>{{currentQuestion().question}}</h3>
+        <h3 ng-bind-html="currentQuestion().question"></h3>
     </div>
 </div>
 
