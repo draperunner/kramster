@@ -13,7 +13,7 @@ var documentSchema = new mongoose.Schema({
     questions: [{
         question: String,
         options: [String],
-        answer: Number
+        answers: [Number]
     }]
 });
 

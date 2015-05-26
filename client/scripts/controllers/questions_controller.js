@@ -53,7 +53,8 @@ angular.module('kramster')
 			return 'btn-default';
 		}
 		var previousQuestion = app.questions[app.history.length - 1];
-		if (option === previousQuestion.options[previousQuestion.answer]) {
+		/* Check if the option the button represents is one of the correct answers. */
+		if (previousQuestion.answers.indexOf(previousQuestion.options.indexOf(option)) >= 0) {
 			return 'btn-success';
 		}
 		return 'btn-danger';
@@ -63,7 +64,7 @@ angular.module('kramster')
 	app.answer = function(answer) {
 		if (!answerGiven && mode.showCorrectAnswerMode || !mode.showCorrectAnswerMode) {
 			var q = $scope.currentQuestion();
-			app.history.push(q && q.options.indexOf(answer) === q.answer);
+			app.history.push(q && q.answers.indexOf(q.options.indexOf(answer)) >= 0);
 			answerGiven = true;
 		}
 		else {
