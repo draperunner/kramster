@@ -41,13 +41,19 @@
                 <tr>
                     <td>GET</td>
                     <td>Return array of all distinct schools</td>
-                    <td><a href="http://kramster.it/api/schools">http://kramster.it/api/schools</a></td>
+                    <td><a href="http://kramster.it/api/list/schools">http://kramster.it/api/list/schools</a></td>
                     <td>[String]</td>
                 </tr>
                 <tr>
                     <td>GET</td>
                     <td>Return array of all distinct courses at given school</td>
-                    <td><a href="http://kramster.it/api/courses/:school">http://kramster.it/api/courses/:school</a></td>
+                    <td><a href="http://kramster.it/api/list/:school">http://kramster.it/api/list/:school</a></td>
+                    <td>[String]</td>
+                </tr>
+                <tr>
+                    <td>GET</td>
+                    <td>Return array of all distinct documents at given school and course</td>
+                    <td><a href="http://kramster.it/api/list/:school/:course">http://kramster.it/api/list/:school/:course</a></td>
                     <td>[String]</td>
                 </tr>
             </tbody>

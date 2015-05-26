@@ -13,19 +13,20 @@ angular.module('kramster')
 			course: $routeParams.course
 		};
 
-    $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course).
+    $http.get(apiUrl + 'list/' + $routeParams.school + '/' + $routeParams.course).
       success(function(data) {
         app.documents = data.sort(function(a, b) {
 
-          /* Sorts in reversed order because we want the newest exams to be on top. (2014 above 2013, etc.) */
-          if (a.name < b.name) {
+          /* Sorts in reversed order because we want the newest exams to be on top. (2014 above 2013, etc.)
+          * Somehow simply returning b-a does not work.*/
+
+					if (a < b) {
             return 1;
           }
-          if (a.name > b.name) {
+          if (a > b) {
             return -1;
           }
           return 0;
-
         });
       });
   }]);

@@ -9,7 +9,7 @@ angular.module('kramster')
 		docMode: $route.current.locals.mode,
 
 		/* If set to true, the correct answer will be shown after answering, before next question appears. */
-		showCorrectAnswerMode: false
+		showCorrectAnswerMode: true
 	};
 
 	/* Route parameters. */

@@ -53,15 +53,22 @@ router.get('/documents/:school/:course/:document', function(req, res) {
 });
 
 // Return list of all distinct schools
-router.get('/schools', function(req, res) {
+router.get('/list/schools', function(req, res) {
     Document.distinct("school", function(err, docs) {
         res.json(docs);
     });
 });
 
 // Return list of all distinct courses at given school
-router.get('/courses/:school', function(req, res) {
+router.get('/list/:school', function(req, res) {
     Document.distinct("course",{school: req.params.school.replace(/_/g, " ")}, function(err, docs) {
+        res.json(docs);
+    });
+});
+
+// Return list of all distinct documents at given school and course
+router.get('/list/:school/:course', function(req, res) {
+    Document.distinct("name",{school: req.params.school.replace(/_/g, " "), course: req.params.course.replace(/_/g, " ")}, function(err, docs) {
         res.json(docs);
     });
 });

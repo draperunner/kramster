@@ -5,7 +5,7 @@ angular.module('kramster')
     $scope.helpers = helpers;
     var app = this;
     app.schools = [];
-    $http.get(apiUrl + 'schools').success(function(data) {
+    $http.get(apiUrl + 'list/schools').success(function(data) {
       app.schools = data.sort();
     });
 
