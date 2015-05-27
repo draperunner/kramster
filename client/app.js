@@ -32,6 +32,14 @@ angular
         controller: 'DocumentListController',
         controllerAs: 'documentsCtrl'
       }).
+      when('/:school/:course/random10', {
+        templateUrl: 'views/questions-list.html',
+        controller: 'QuestionsController',
+        controllerAs: 'questionsCtrl',
+        resolve: {
+          mode: function() {return 'random10';}
+        }
+      }).
       when('/:school/:course/random30', {
         templateUrl: 'views/questions-list.html',
         controller: 'QuestionsController',

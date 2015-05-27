@@ -5,7 +5,7 @@ angular.module('kramster')
 
 	/* Different modes for the quizzing. */
 	var mode = {
-		/* String representing the doc fetch mode. 'all' if All button is clicked. 'random30' if 30 Random is clicked. */
+		/* String representing the doc fetch mode. 'all' if All button is clicked. 'random30' if 30 Random is clicked, etc. */
 		docMode: $route.current.locals.mode,
 
 		/* If set to true, the correct answer will be shown after answering, before next question appears. */
@@ -126,7 +126,22 @@ angular.module('kramster')
 			});
 	}
 
-	/* RANDOM MODE.
+	/* RANDOM 10 MODE.
+	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
+	 */
+	else if (mode.docMode === 'random10') {
+	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
+			.success(function(data) {
+				var allQuestions = [];
+				for (var i=0; i < data.length; i++) {
+					allQuestions.push.apply(allQuestions, data[i].questions);
+				}
+				helpers.shuffle(allQuestions);
+				app.questions = allQuestions.slice(0, 10);
+			});
+	}
+
+	/* RANDOM 30 MODE.
 	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 	 */
 	else if (mode.docMode === 'random30') {
