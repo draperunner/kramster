@@ -14,8 +14,10 @@
     <navbar></navbar>
 
     <div class="container">
-        <div ng-view ng-controller="Tracker as tracker"></div>
+        <div ng-view ng-controller="Tracker"></div>
+        <img class="img-responsive" id="spinner" ng-src="img/spinner.gif" ng-show="loading"/>
     </div>
+
 
     <script src="../bower_components/angular/angular.min.js"></script>
     <script src="../bower_components/angular-route/angular-route.min.js"></script>

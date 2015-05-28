@@ -25,6 +25,10 @@ a:hover.blue {
   margin-bottom: 40px;
 }
 
+#spinner {
+    margin: auto;
+}
+
 .btn {
   margin-top: 8px;
   white-space: normal;

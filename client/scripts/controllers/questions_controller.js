@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('kramster')
-	.controller('QuestionsController', ['$scope', 'Helpers', '$route', '$http', '$routeParams', 'apiUrl', function($scope, helpers, $route, $http, $routeParams, apiUrl) {
+	.controller('QuestionsController', ['$scope', '$rootScope', 'Helpers', '$route', '$http', '$routeParams', 'apiUrl', function($scope, $rootScope, helpers, $route, $http, $routeParams, apiUrl) {
 
 	/* Different modes for the quizzing. */
 	var mode = {
@@ -115,8 +115,10 @@ angular.module('kramster')
 	 * Fetches all documents, gathers all questions from all of them, shuffles.
 	 */
 	if (mode.docMode === 'all') {
+		$rootScope.loading = true;
 	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
 			.success(function(data) {
+				$rootScope.loading = false;
 				var allQuestions = [];
 				for (var i=0; i < data.length; i++) {
 					allQuestions.push.apply(allQuestions, data[i].questions);
@@ -130,8 +132,10 @@ angular.module('kramster')
 	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 	 */
 	else if (mode.docMode === 'random10') {
+		$rootScope.loading = true;
 	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
 			.success(function(data) {
+				$rootScope.loading = false;
 				var allQuestions = [];
 				for (var i=0; i < data.length; i++) {
 					allQuestions.push.apply(allQuestions, data[i].questions);
@@ -145,8 +149,10 @@ angular.module('kramster')
 	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 	 */
 	else if (mode.docMode === 'random30') {
+		$rootScope.loading = true;
 	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
 			.success(function(data) {
+				$rootScope.loading = false;
 				var allQuestions = [];
 				for (var i=0; i < data.length; i++) {
 					allQuestions.push.apply(allQuestions, data[i].questions);
@@ -160,8 +166,10 @@ angular.module('kramster')
 	 * Fetches the selected document and shuffles its questions.
 	 */
 	else {
+		$rootScope.loading = true;
 	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document)
 			.success(function(data) {
+				$rootScope.loading = false;
 				helpers.shuffle(data.questions);
 				app.questions = data.questions;
 			});
