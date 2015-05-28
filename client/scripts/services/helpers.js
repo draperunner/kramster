@@ -24,4 +24,16 @@ angular.module('kramster')
             return array;
         };
 
+				/* Sorts in reversed order because we want the newest exams to be on top. (2014 above 2013, etc.)
+				 * Somehow simply returning b-a does not work.*/
+				this.reversedComparison = function(a, b) {
+					if (a < b) {
+						return 1;
+					}
+					if (a > b) {
+						return -1;
+					}
+					return 0;
+				}
+
     });

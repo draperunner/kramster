@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('kramster')
-	.controller('QuestionsController', ['$scope', '$rootScope', 'Helpers', '$route', '$http', '$routeParams', 'apiUrl', function($scope, $rootScope, helpers, $route, $http, $routeParams, apiUrl) {
+	.controller('QuestionsController', ['$scope', '$rootScope', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl', function($scope, $rootScope, helpers, httpRequest, $route, $routeParams, apiUrl) {
 
 	/* Different modes for the quizzing. */
 	var mode = {
@@ -115,63 +115,27 @@ angular.module('kramster')
 	 * Fetches all documents, gathers all questions from all of them, shuffles.
 	 */
 	if (mode.docMode === 'all') {
-		$rootScope.loading = true;
-	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
-			.success(function(data) {
-				$rootScope.loading = false;
-				var allQuestions = [];
-				for (var i=0; i < data.length; i++) {
-					allQuestions.push.apply(allQuestions, data[i].questions);
-				}
-				helpers.shuffle(allQuestions);
-				app.questions = allQuestions;
-			});
+		httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function(questions) {app.questions = questions;});
 	}
 
 	/* RANDOM 10 MODE.
 	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 	 */
 	else if (mode.docMode === 'random10') {
-		$rootScope.loading = true;
-	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
-			.success(function(data) {
-				$rootScope.loading = false;
-				var allQuestions = [];
-				for (var i=0; i < data.length; i++) {
-					allQuestions.push.apply(allQuestions, data[i].questions);
-				}
-				helpers.shuffle(allQuestions);
-				app.questions = allQuestions.slice(0, 10);
-			});
+		httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function(questions) {app.questions = questions;}, 10);
 	}
 
 	/* RANDOM 30 MODE.
 	 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 	 */
 	else if (mode.docMode === 'random30') {
-		$rootScope.loading = true;
-	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course)
-			.success(function(data) {
-				$rootScope.loading = false;
-				var allQuestions = [];
-				for (var i=0; i < data.length; i++) {
-					allQuestions.push.apply(allQuestions, data[i].questions);
-				}
-				helpers.shuffle(allQuestions);
-				app.questions = allQuestions.slice(0, 30);
-			});
+		httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function(questions) {app.questions = questions;}, 30);
 	}
 
 	/* NON-RANDOM MODE.
 	 * Fetches the selected document and shuffles its questions.
 	 */
 	else {
-		$rootScope.loading = true;
-	  $http.get(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document)
-			.success(function(data) {
-				$rootScope.loading = false;
-				helpers.shuffle(data.questions);
-				app.questions = data.questions;
-			});
+		httpRequest.getSelected(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document, function(questions) {app.questions = questions;});
 	}
   }]);

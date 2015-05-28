@@ -1,13 +1,15 @@
 'use strict';
 
 angular.module('kramster')
-  .controller('SchoolListController', ['$scope', 'Helpers', '$http', 'apiUrl', function($scope, helpers, $http, apiUrl) {
+  .controller('SchoolListController', ['$scope', 'Helpers', 'httpRequest', 'apiUrl', function($scope, helpers, httpRequest, apiUrl) {
+
     $scope.helpers = helpers;
     var app = this;
     app.schools = [];
-    $http.get(apiUrl + 'list/schools').success(function(data) {
-      app.schools = data.sort();
-    });
+
+		httpRequest.getArray(apiUrl + 'list/schools', function(data) {
+			app.schools = data.sort();
+		});
 
   }]);
 
