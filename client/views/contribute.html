@@ -9,27 +9,60 @@
 
         <p>If you're a hero, you can send me a .txt on the following format:</p>
 
-        <p>The <em>CorrectAnswerIndices</em> comprise the array of of indexes of the correct answers in the following
-            list of <em>options</em>. These are split by spaces.</p>
+        <p>The <em>CorrectAnswerIndices</em> comprise the array of of indices of the correct answers in the following
+            list of <em>options</em>. These indices are split by spaces. You can add code in your questions by encapsulating it with &lt;pre&gt; tags. Indent with spaces.</p>
 
-        <p><pre><code>
+        <p><pre>
         School
         Course
         Name
-        Question1 §§ CorrectAnswerIndex1 CorrectAnswerIndex2 ... CorrectAnswerIndexN §§ Option1 §§ Option1 §§ ... §§ OptionN<br/>
-        Question2 §§ CorrectAnswerIndex1 CorrectAnswerIndex2 ... CorrectAnswerIndexN §§ Option1 §§ Option1 §§ ... §§ OptionN<br/>
+        [Zero or more empty lines]
+        Q
+        CorrectAnswerIndex1 CorrectAnswerIndex2 ... CorrectAnswerIndexN
+        Question1, spanning over 1 or more lines
+        O
+        Option1, spanning over 1 or more lines
+        O
+        Option2, spanning over 1 or more lines
         ...
-        QuestionN §§ CorrectAnswerIndex1 CorrectAnswerIndex2 ... CorrectAnswerIndexN §§ Option1 §§ Option1 §§ ... §§ OptionN<br/>
-    </code></pre>
+        [Additional questions on above format]
+        ...
+        </pre>
         </p>
 
         <p>Example:</p>
-        <pre><code>
+        <pre>
             University of Foo, San Bar
             FOO1337 Foobarian Algebra
             Exam Spring 2014
-            What is foo? §§ 0 §§ Bar §§ Bob §§ Alice §§ Dijkstra
-            What is bar? §§ 0 1 §§ Pub §§ Foo §§ Chocolate
-        </code></pre>
+
+            Q
+            0 1
+            Which of the following words start with a B?
+            O
+            Bar
+            O
+            Bob
+            O
+            Alice
+            O
+            Dijkstra
+
+            Q
+            1
+            What is the result of the following code?
+            &lt;pre&gt;
+            def add(x, y):
+                return x + y
+            print(add(2, 3))
+            &lt;/pre&gt;
+            O
+            4
+            O
+            5
+            O
+            That depends on
+            the computer.
+        </pre>
     </div>
 </div>
