@@ -15,7 +15,7 @@ angular.module('kramster')
 				});
 		};
 
-		/* Gets the shuffled questions from selected document and passes on to callback. */
+		/* Gets the selected document and passes on to callback. */
 		this.getSelected = function(url, callback) {
 			$rootScope.loading = true;
 			$http.get(url)
@@ -25,8 +25,8 @@ angular.module('kramster')
 			});
 		};
 
-		/* Gets all shuffled questions of all documents of given url and passes to callback. Can be limited by parameter 'limit'. If limit not set, gets all. */
-		this.getAll = function(url, callback, limit) {
+		/* Gets all questions of all documents of given url and passes to callback. Passes also a meta object. */
+		this.getAll = function(url, callback) {
 			$rootScope.loading = true;
 			$http.get(url)
 				.success(function(data) {
@@ -35,8 +35,14 @@ angular.module('kramster')
 					for (var i=0; i < data.length; i++) {
 						allQuestions.push.apply(allQuestions, data[i].questions);
 					}
-					helpers.shuffle(allQuestions);
-					callback(allQuestions.slice(0, typeof limit !== 'undefined' ? limit : allQuestions.length));
+
+					var uniqueModes = helpers.removeDuplicates(data.map(function(doc) {return doc.mode}));
+
+					var meta = {
+						mode: (uniqueModes.length === 1) ? uniqueModes[0] : 'MC'
+					};
+
+					callback(allQuestions, meta);
 				});
 		};
 

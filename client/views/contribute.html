@@ -9,13 +9,14 @@
 
         <p>If you're a hero, you can send me a .txt on the following format:</p>
 
-        <p>The <em>CorrectAnswerIndices</em> comprise the array of of indices of the correct answers in the following
+        <p>The "Mode" should be <code>TF</code> if all answers are either True or False. If not, it should be <code>MC</code>. The <em>CorrectAnswerIndices</em> comprise the array of of indices of the correct answers in the following
             list of <em>options</em>. These indices are split by spaces. You can add code in your questions by encapsulating it with &lt;pre&gt; tags. Indent with spaces.</p>
 
         <p><pre>
         School
         Course
         Name
+        Mode
         [Zero or more empty lines]
         Q
         CorrectAnswerIndex1 CorrectAnswerIndex2 ... CorrectAnswerIndexN
@@ -35,6 +36,7 @@
             University of Foo, San Bar
             FOO1337 Foobarian Algebra
             Exam Spring 2014
+            MC
 
             Q
             0 1

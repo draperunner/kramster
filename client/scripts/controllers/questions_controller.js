@@ -117,8 +117,9 @@ angular.module('kramster')
 		 * Fetches all documents, gathers all questions from all of them, shuffles.
 		 */
 		if (mode.docMode === 'all') {
-			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions) {
+			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions, meta) {
 				app.questions = questions;
+				mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
 			});
 		}
 
@@ -126,18 +127,22 @@ angular.module('kramster')
 		 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 		 */
 		else if (mode.docMode === 'random10') {
-			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions) {
-				app.questions = questions;
-			}, 10);
+			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions, meta) {
+				app.questions = questions.slice(0, 10);
+				helpers.shuffle(app.questions);
+				mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
+			});
 		}
 
 		/* RANDOM 30 MODE.
 		 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
 		 */
 		else if (mode.docMode === 'random30') {
-			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions) {
-				app.questions = questions;
-			}, 30);
+			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions, meta) {
+				app.questions = questions.slice(0, 30);
+				helpers.shuffle(app.questions);
+				mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
+			});
 		}
 
 		/* NON-RANDOM MODE.
@@ -145,8 +150,9 @@ angular.module('kramster')
 		 */
 		else {
 			httpRequest.getSelected(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document, function (document) {
-				helpers.shuffle(document.questions);
 				app.questions = document.questions;
+				helpers.shuffle(document.questions);
+				mode.showCorrectAnswerMode = document.mode === 'MC' || document.mode === undefined;
 			});
 		}
 	}]);
