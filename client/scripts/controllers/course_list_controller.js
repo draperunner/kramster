@@ -7,7 +7,7 @@ angular.module('kramster')
 		app.courses = [];
 		app.school = $routeParams.school;
 
-		httpRequest.getArray(apiUrl + 'list/' + $routeParams.school, function (data) {
+		httpRequest.get(apiUrl + 'list/' + $routeParams.school, function (data) {
 			app.courses = data.sort();
 		});
 

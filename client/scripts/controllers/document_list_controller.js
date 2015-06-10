@@ -13,7 +13,7 @@ angular.module('kramster')
 			course: $routeParams.course
 		};
 
-		httpRequest.getArray(apiUrl + 'list/' + $routeParams.school + '/' + $routeParams.course, function (data) {
+		httpRequest.get(apiUrl + 'list/' + $routeParams.school + '/' + $routeParams.course, function (data) {
 			app.documents = data.sort(helpers.reversedComparison);
 		});
 

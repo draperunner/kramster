@@ -7,7 +7,7 @@ angular.module('kramster')
 		var app = this;
 		app.schools = [];
 
-		httpRequest.getArray(apiUrl + 'list/schools', function (data) {
+		httpRequest.get(apiUrl + 'list/schools', function (data) {
 			app.schools = data.sort();
 		});
 
