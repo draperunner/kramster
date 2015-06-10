@@ -144,8 +144,9 @@ angular.module('kramster')
 		 * Fetches the selected document and shuffles its questions.
 		 */
 		else {
-			httpRequest.getSelected(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document, function (questions) {
-				app.questions = questions;
+			httpRequest.getSelected(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document, function (document) {
+				helpers.shuffle(document.questions);
+				app.questions = document.questions;
 			});
 		}
 	}]);

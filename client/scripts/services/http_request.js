@@ -21,8 +21,7 @@ angular.module('kramster')
 			$http.get(url)
 				.success(function(data) {
 					$rootScope.loading = false;
-					helpers.shuffle(data.questions);
-					callback(data.questions);
+					callback(data);
 			});
 		};
 
