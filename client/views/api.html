@@ -1,78 +1,81 @@
 <div class="row">
     <div class="col-xs-12">
-        <h1>API</h1>
-        <p>The Kramster REST API is open and entirely free! Make awesome apps using the Kramster question data. An idea: Multiplayer quiz app.</p>
-        <p>PS! All underscores in URL are replaced with spaces by the server before querying the database.</p>
+        <div class="div-default">
 
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>API Verb</th>
-                    <th>Description</th>
-                    <th>URL</th>
-                    <th>Return type (as JSON)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>GET</td>
-                    <td>Return all documents</td>
-                    <td><a href="http://kramster.it/api/documents">http://kramster.it/api/documents</a></td>
-                    <td>[Object]</td>
-                </tr>
-                <tr>
-                    <td>GET</td>
-                    <td>Return all documents of given school</td>
-                    <td><a href="http://kramster.it/api/documents/:school">http://kramster.it/api/documents/:school</a></td>
-                    <td>[Object]</td>
-                </tr>
-                <tr>
-                    <td>GET</td>
-                    <td>Return all documents og given school and course</td>
-                    <td><a href="http://kramster.it/api/documents/:school/:course">http://kramster.it/api/documents/:school/:course</a></td>
-                    <td>[Object]</td>
-                </tr>
-                <tr>
-                    <td>GET</td>
-                    <td>Return single document by school, course and document name</td>
-                    <td><a href="http://kramster.it/api/documents/:school/:course/:document">http://kramster.it/api/documents/:school/:course/:document</a></td>
-                    <td>[Object]</td>
-                </tr>
-                <tr>
-                    <td>GET</td>
-                    <td>Return array of all distinct schools</td>
-                    <td><a href="http://kramster.it/api/list/schools">http://kramster.it/api/list/schools</a></td>
-                    <td>[String]</td>
-                </tr>
-                <tr>
-                    <td>GET</td>
-                    <td>Return array of all distinct courses at given school</td>
-                    <td><a href="http://kramster.it/api/list/:school">http://kramster.it/api/list/:school</a></td>
-                    <td>[String]</td>
-                </tr>
-                <tr>
-                    <td>GET</td>
-                    <td>Return array of all distinct documents at given school and course</td>
-                    <td><a href="http://kramster.it/api/list/:school/:course">http://kramster.it/api/list/:school/:course</a></td>
-                    <td>[String]</td>
-                </tr>
-            </tbody>
-        </table>
+            <h1>API</h1>
+            <p>The Kramster REST API is open and entirely free! Make awesome apps using the Kramster question data. An idea: Multiplayer quiz app.</p>
+            <p>PS! All underscores in URL are replaced with spaces by the server before querying the database.</p>
 
-        <h3>Document JSON schema</h3>
-        <pre><code>
-            {
-                _id: ObjectId,
-                school: String,
-                course: String,
-                name: String,
-                questions: [{
-                    question: String,
-                    options: [String],
-                    answers: [Number]
-                }]
-            }
-        </code></pre>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>API Verb</th>
+                        <th>Description</th>
+                        <th>URL</th>
+                        <th>Return type (as JSON)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return all documents</td>
+                        <td><a href="http://kramster.it/api/documents">http://kramster.it/api/documents</a></td>
+                        <td>[Object]</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return all documents of given school</td>
+                        <td><a href="http://kramster.it/api/documents/:school">http://kramster.it/api/documents/:school</a></td>
+                        <td>[Object]</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return all documents og given school and course</td>
+                        <td><a href="http://kramster.it/api/documents/:school/:course">http://kramster.it/api/documents/:school/:course</a></td>
+                        <td>[Object]</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return single document by school, course and document name</td>
+                        <td><a href="http://kramster.it/api/documents/:school/:course/:document">http://kramster.it/api/documents/:school/:course/:document</a></td>
+                        <td>[Object]</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return array of all distinct schools</td>
+                        <td><a href="http://kramster.it/api/list/schools">http://kramster.it/api/list/schools</a></td>
+                        <td>[String]</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return array of all distinct courses at given school</td>
+                        <td><a href="http://kramster.it/api/list/:school">http://kramster.it/api/list/:school</a></td>
+                        <td>[String]</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return array of all distinct documents at given school and course</td>
+                        <td><a href="http://kramster.it/api/list/:school/:course">http://kramster.it/api/list/:school/:course</a></td>
+                        <td>[String]</td>
+                    </tr>
+                </tbody>
+            </table>
 
+            <h3>Document JSON schema</h3>
+            <pre><code>
+                {
+                    _id: ObjectId,
+                    school: String,
+                    course: String,
+                    name: String,
+                    questions: [{
+                        question: String,
+                        options: [String],
+                        answers: [Number]
+                    }]
+                }
+            </code></pre>
+
+        </div>
     </div>
 </div>

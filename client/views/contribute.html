@@ -1,70 +1,73 @@
 <div class="row">
     <div class="col-xs-12">
-        <h1>Contribute</h1>
+        <div class="div-default">
 
-        <p>In the future this page will contain a sexy form, making you able to add your own exams and questions. But
-            this is coming later. Therefore, if you want to contribute to the
-            database, you can do this by sending your question documents (exams) per email to matsbyr<span ng-hide="true">SMDLFJMIOW4KLJRM1L31M423OIFDSJ90FSDFKL23JEØ|K2J34K2L3MD9C0V9DOSFJ</span>@gmail.com, and I will add it for you.
-            What a great way to help your fellow students, don't you think?</p>
+            <h1>Contribute</h1>
 
-        <p>If you're a hero, you can send me a .txt on the following format:</p>
+            <p>In the future this page will contain a sexy form, making you able to add your own exams and questions. But
+                this is coming later. Therefore, if you want to contribute to the
+                database, you can do this by sending your question documents (exams) per email to matsbyr<span ng-hide="true">SMDLFJMIOW4KLJRM1L31M423OIFDSJ90FSDFKL23JEØ|K2J34K2L3MD9C0V9DOSFJ</span>@gmail.com, and I will add it for you.
+                What a great way to help your fellow students, don't you think?</p>
 
-        <p>The "Mode" should be <code>TF</code> if all answers are either True or False. If not, it should be <code>MC</code>. The <em>CorrectAnswerIndices</em> comprise the array of of indices of the correct answers in the following
-            list of <em>options</em>. These indices are split by spaces. You can add code in your questions by encapsulating it with &lt;pre&gt; tags. Indent with spaces.</p>
+            <p>If you're a hero, you can send me a .txt on the following format:</p>
 
-        <p><pre>
-        School
-        Course
-        Name
-        Mode
-        [Zero or more empty lines]
-        Q
-        CorrectAnswerIndex1 CorrectAnswerIndex2 ... CorrectAnswerIndexN
-        Question1, spanning over 1 or more lines
-        O
-        Option1, spanning over 1 or more lines
-        O
-        Option2, spanning over 1 or more lines
-        ...
-        [Additional questions on above format]
-        ...
-        </pre>
-        </p>
+            <p>The "Mode" should be <code>TF</code> if all answers are either True or False. If not, it should be <code>MC</code>. The <em>CorrectAnswerIndices</em> comprise the array of of indices of the correct answers in the following
+                list of <em>options</em>. These indices are split by spaces. You can add code in your questions by encapsulating it with &lt;pre&gt; tags. Indent with spaces.</p>
 
-        <p>Example:</p>
-        <pre>
-            University of Foo, San Bar
-            FOO1337 Foobarian Algebra
-            Exam Spring 2014
-            MC
-
+            <p><pre>
+            School
+            Course
+            Name
+            Mode
+            [Zero or more empty lines]
             Q
-            0 1
-            Which of the following words start with a B?
+            CorrectAnswerIndex1 CorrectAnswerIndex2 ... CorrectAnswerIndexN
+            Question1, spanning over 1 or more lines
             O
-            Bar
+            Option1, spanning over 1 or more lines
             O
-            Bob
-            O
-            Alice
-            O
-            Dijkstra
+            Option2, spanning over 1 or more lines
+            ...
+            [Additional questions on above format]
+            ...
+            </pre>
+            </p>
 
-            Q
-            1
-            What is the result of the following code?
-            &lt;pre&gt;
-            def add(x, y):
-                return x + y
-            print(add(2, 3))
-            &lt;/pre&gt;
-            O
-            4
-            O
-            5
-            O
-            That depends on
-            the computer.
-        </pre>
+            <p>Example:</p>
+            <pre>
+                University of Foo, San Bar
+                FOO1337 Foobarian Algebra
+                Exam Spring 2014
+                MC
+
+                Q
+                0 1
+                Which of the following words start with a B?
+                O
+                Bar
+                O
+                Bob
+                O
+                Alice
+                O
+                Dijkstra
+
+                Q
+                1
+                What is the result of the following code?
+                &lt;pre&gt;
+                def add(x, y):
+                    return x + y
+                print(add(2, 3))
+                &lt;/pre&gt;
+                O
+                4
+                O
+                5
+                O
+                That depends on
+                the computer.
+            </pre>
+        </div>
     </div>
 </div>
