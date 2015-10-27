@@ -124,25 +124,14 @@ angular.module('kramster')
 			});
 		}
 
-		/* RANDOM 10 MODE.
-		 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
+		/* RANDOM N MODE.
+		 * Fetches n random questions from the course.
 		 */
-		else if (mode.docMode === 'random10') {
-			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions, meta) {
-				app.questions = questions.slice(0, 10);
-				helpers.shuffle(app.questions);
-				mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
-			});
-		}
-
-		/* RANDOM 30 MODE.
-		 * Fetches all documents, gathers all questions from all of them, shuffles, then takes the first 30.
-		 */
-		else if (mode.docMode === 'random30') {
-			httpRequest.getAll(apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course, function (questions, meta) {
-				app.questions = questions.slice(0, 30);
-				helpers.shuffle(app.questions);
-				mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
+		else if (mode.docMode === 'random') {
+			var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/random/' + $routeParams.number;
+			httpRequest.get(url, function (questions, meta) {
+				app.questions = questions;
+				mode.showCorrectAnswerMode = true;
 			});
 		}
 

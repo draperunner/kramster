@@ -41,7 +41,32 @@ router.get('/documents/:school/:course', function(req, res) {
     });
 });
 
-// Return (one) document by school,course and document name.
+// Return a given number of random questions from given course of given school
+router.get('/documents/:school/:course/random/:number', function(req, res) {
+    Document.find({
+        "school": req.params.school.replace(/_/g, " "),
+        "course": req.params.course.replace(/_/g, " ")},
+        function(err, docs) {
+            var questions = [];
+
+            for (var i = 0; i < docs.length; i++) {
+                questions = questions.concat(docs[i]['questions']);
+            }
+
+            var n = Math.min(questions.length, parseInt(req.params.number));
+
+            var random_questions = [];
+            for (var i = 0; i < n; i++) {
+                var random_index = Math.floor(Math.random() * questions.length);
+                random_questions.push(questions[random_index]);
+                questions.splice(random_index, 1);
+            }
+
+            res.json(random_questions);
+    });
+});
+
+// Return (one) document by school, course and document name.
 router.get('/documents/:school/:course/:document', function(req, res) {
     Document.findOne({
         "school": req.params.school.replace(/_/g, " "),
