@@ -15,7 +15,8 @@ angular.module('kramster')
 		/* Route parameters. */
 		$scope.route = {
 			school: $routeParams.school,
-			course: $routeParams.course
+			course: $routeParams.course,
+			document: $routeParams.document
 		};
 
 		var app = this;

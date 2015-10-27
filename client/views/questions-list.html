@@ -27,12 +27,14 @@
     </div>
 </div>
 
+<!-- No more questions, quiz is over -->
 <div class="row" ng-if="!currentQuestion()">
     <div class="col-xs-12">
         <div class="div-default">
             <h1>Grade: {{questionsCtrl.stats.grade()}}</h1>
             <h3>Score: {{questionsCtrl.stats.status()}}</h3>
         </div>
+        <a href="javascript:history.go(0)" type="button" role="button" class="btn btn-success outline">Try again</a>
         <a href="/{{route.school}}/{{route.course}}" type="button" role="button" class="btn btn-success outline">Try another</a>
     </div>
 </div>
