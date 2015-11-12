@@ -16,25 +16,18 @@
     </div>
 </div>
 
-<div class="row" ng-if="questionsCtrl.questions" >
+<div class="row" ng-if="questionsCtrl.questions">
     <div class="col-xs-12">
         <div class="btn-group">
             <a role="button" type="button"
-               class="btn {{questionsCtrl.buttonClass(option)}} button center-block outline"
-               ng-repeat="option in currentQuestion().options"
-               ng-click="questionsCtrl.answer(option)">{{option}}</a>
+                class="btn {{questionsCtrl.buttonClass(option)}} button center-block outline"
+                ng-repeat="option in currentQuestion().options"
+                ng-click="questionsCtrl.answer(option)"
+                ng-bind-html="option">
+            </a>
         </div>
     </div>
 </div>
 
-<!-- No more questions, quiz is over -->
-<div class="row" ng-if="!currentQuestion()">
-    <div class="col-xs-12">
-        <div class="div-default">
-            <h1>Grade: {{questionsCtrl.stats.grade()}}</h1>
-            <h3>Score: {{questionsCtrl.stats.status()}}</h3>
-        </div>
-        <a href="javascript:history.go(0)" type="button" role="button" class="btn btn-success outline">Try again</a>
-        <a href="/{{route.school}}/{{route.course}}" type="button" role="button" class="btn btn-success outline">Try another</a>
-    </div>
-</div>
+<!-- Show result when there are no more questions left -->
+<result ng-if="!currentQuestion()"></result>
