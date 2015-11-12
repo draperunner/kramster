@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('kramster')
-    .controller('QuestionsController', ['$scope', '$rootScope', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl', function ($scope, $rootScope, helpers, httpRequest, $route, $routeParams, apiUrl) {
+    .controller('QuestionsController', ['$scope', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl', function ($scope, helpers, httpRequest, $route, $routeParams, apiUrl) {
 
         /* Different modes for the quizzing. */
         var mode = {
@@ -42,6 +42,7 @@ angular.module('kramster')
 
         /* Returns the current question */
         $scope.currentQuestion = function () {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
             if (app.questions.length <= 0) {
                 return {question: '', options: []};
             }
