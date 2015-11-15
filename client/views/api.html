@@ -30,8 +30,14 @@
                     </tr>
                     <tr>
                         <td>GET</td>
-                        <td>Return all documents og given school and course</td>
+                        <td>Return all documents of given school and course</td>
                         <td><a href="http://kramster.it/api/documents/:school/:course">http://kramster.it/api/documents/:school/:course</a></td>
+                        <td>[Object]</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>Return a given number of random questions from given course of given school</td>
+                        <td><a href="http://kramster.it/api/documents/:school/:course/random/:number">http://kramster.it/api/documents/:school/:course/random/:number</a></td>
                         <td>[Object]</td>
                     </tr>
                     <tr>
@@ -68,6 +74,7 @@
                     school: String,
                     course: String,
                     name: String,
+                    mode: String,
                     questions: [{
                         question: String,
                         options: [String],
