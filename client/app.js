@@ -14,9 +14,6 @@ angular
             when('/theapi', {
                 templateUrl: 'views/api.html'
             }).
-            when('/contribute', {
-                templateUrl: 'views/contribute.html'
-            }).
             when('/', {
                 templateUrl: 'views/schools-list.html',
                 controller: 'SchoolListController',
