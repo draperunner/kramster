@@ -1,4 +1,4 @@
-<div class="row" ng-hide="loading">
+<div class="row" ng-if="!loading">
     <div class="col-xs-12">
         <progress>
             <bar ng-repeat="i in questionsCtrl.history track by $index" value="questionsCtrl.progress.value()" type="{{questionsCtrl.progress.type($index)}}">
@@ -8,7 +8,7 @@
     </div>
 </div>
 
-<div class="row" ng-if="questionsCtrl.questions">
+<div class="row" ng-if="questionsCtrl.questions && !loading">
     <div class="col-xs-12">
         <div class="div-default" ng-if="currentQuestion()">
             <h3 ng-bind-html="currentQuestion().question"></h3>
@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<div class="row" ng-if="questionsCtrl.questions">
+<div class="row" ng-if="questionsCtrl.questions && !loading">
     <div class="col-xs-12">
         <div class="btn-group">
             <a role="button" type="button"
@@ -30,4 +30,4 @@
 </div>
 
 <!-- Show result when there are no more questions left -->
-<result ng-if="!currentQuestion()"></result>
+<result ng-if="!currentQuestion() && !loading"></result>
