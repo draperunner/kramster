@@ -7,7 +7,7 @@
 angular.module('kramster')
     .service('httpRequest', ['$http', '$rootScope', 'Helpers', function($http, $rootScope, helpers) {
 
-        /* Gets an array and forwards it to callback function. If order is given, sort data in that order. */
+        // Gets an array and forwards it to callback function. If order is given, sort data in that order.
         this.get = function(url, callback) {
             $http.get(url).
                 success(function(data) {
@@ -15,7 +15,7 @@ angular.module('kramster')
                 });
         };
 
-        /* Gets the selected document and passes on to callback. */
+        // Gets the selected document and passes on to callback.
         this.getSelected = function(url, callback) {
             $rootScope.loading = true;
             $http.get(url)
@@ -25,7 +25,7 @@ angular.module('kramster')
             });
         };
 
-        /* Gets all questions of all documents of given url and passes to callback. Passes also a meta object. */
+        // Gets all questions of all documents of given url and passes to callback. Passes also a meta object.
         this.getAll = function(url, callback) {
             $rootScope.loading = true;
             $http.get(url)
@@ -46,5 +46,9 @@ angular.module('kramster')
                 });
         };
 
+        // General http POST
+        this.post = function(url, data) {
+            $http.post(url, data);
+        }
     }
 ]);
