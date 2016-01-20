@@ -7,16 +7,6 @@ angular.module('kramster')
         var mode = {
             // String representing the doc fetch mode. 'all' if All button is clicked. 'random' if Random X is clicked, etc.
             docMode: $route.current.locals.mode,
-            // Returns name of doc as it should appear in result report sent to server
-            docReportName: function() {
-                if (!mode.docMode) {
-                    return $scope.route.document.replace(/_/g, " ");
-                }
-                if (mode.docMode === 'random') {
-                    return mode.docMode + $routeParams.number;
-                }
-                return mode.docMode;
-            },
             // If set to true, the correct answer will be shown after answering, before next question appears.
             showCorrectAnswerMode: true
         };
@@ -72,7 +62,7 @@ angular.module('kramster')
                     document: {
                         school: $routeParams.school.replace(/_/g, " "),
                         course: $routeParams.course.replace(/_/g, " "),
-                        documentName: mode.docReportName()
+                        documentName: (mode.docMode) ? mode.docMode : $scope.route.document.replace(/_/g, " ")
                     },
                     score: app.numCorrects(),
                     numQuestions: app.questions.length,
