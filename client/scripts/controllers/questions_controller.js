@@ -54,11 +54,11 @@ angular.module('kramster')
         // Prevents multiples of the same report being sent to server.
         var finishedReturnedTrue = false;
 
-        // Checks if exam is finished. Reports stats to server if true.
+        // Checks if exam is finished. Reports stats to server if true. Fetches aggregated stats from server.
         $scope.finished = function() {
             if ($scope.currentQuestion()) { return false; }
             if (!finishedReturnedTrue) {
-                httpRequest.post(apiUrl + 'reports/add', {
+                var report = {
                     document: {
                         school: $routeParams.school.replace(/_/g, " "),
                         course: $routeParams.course.replace(/_/g, " "),
@@ -68,8 +68,16 @@ angular.module('kramster')
                     numQuestions: app.questions.length,
                     percentage: app.stats.percentage(),
                     grade: app.stats.grade()
-                });
+                };
+                httpRequest.post(apiUrl + 'reports/add', report);
                 finishedReturnedTrue = true;
+
+                // Fetch aggregated statistics from server
+                var url = apiUrl + 'stats/' + $routeParams.school + '/' + $routeParams.course + '/' + report.document.documentName.replace(' ', '_');
+                httpRequest.get(url, function(stats) {
+                    app.stats.fromServer = stats;
+                    app.stats.fromServer.averageGrade = helpers.percentageToGrade(100 * stats.totalScore / report.numQuestions);
+                });
             }
             return true;
         };
@@ -102,26 +110,18 @@ angular.module('kramster')
         // Variables concerning the answering statistics for this session.
         app.stats = {
             // Get the (current) ratio of correct answers per total number of answered questions.
-            percentage: function () {
+            percentage: function() {
                 return (app.numAnswered() > 0) ? Math.round(10000 * app.numCorrects() / app.numAnswered()) / 100 : 0;
             },
 
             // Returns a status message. Example: "3/5 (60%)"
-            status: function () {
+            status: function() {
                 return '' + app.numCorrects() + '/' + app.numAnswered() + ' (' + app.stats.percentage() + '%)';
             },
 
             // Returns the grade corresponding to the current percentage. Uses the NTNU scale.
-            grade: function () {
-                var scale = [89, 77, 65, 53, 41];
-                var grades = ['A', 'B', 'C', 'D', 'E'];
-
-                for (var i = 0; i < scale.length; i++) {
-                    if (app.stats.percentage() >= scale[i]) {
-                        return grades[i];
-                    }
-                }
-                return 'F';
+            grade: function() {
+                return helpers.percentageToGrade(app.stats.percentage());
             }
         };
 

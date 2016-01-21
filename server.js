@@ -24,6 +24,7 @@ app.use(function(req, res, next) {
 // Routes
 app.use('/api', require('./routes/api'));
 app.use('/api/reports', require('./routes/reports'));
+app.use('/api/stats', require('./routes/stats'));
 
 app.use(function(req, res) {
     res.sendFile(__dirname + '/client/index.html');
