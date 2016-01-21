@@ -8,13 +8,46 @@ var router = express.Router();
 // Model
 var Report = require('../models/report');
 
-// Return all documents
-router.get('/all', function(req, res) {
-    Report.find({}, function(err, docs) {
-        res.json(docs);
+// Return all reports
+router.get('/', function(req, res) {
+    Report.find({}, function(err, reports) {
+        res.json(reports);
     });
 });
 
+// Return reports for a given school
+router.get('/:school', function(req, res) {
+    Report.find({"document.school": req.params.school.replace(/_/g, " ")}, function(err, reports) {
+        res.json(reports);
+    });
+});
+
+// Return reports for a given course
+router.get('/:school/:course', function(req, res) {
+    Report.find({
+            "document.school": req.params.school.replace(/_/g, " "),
+            "document.course": req.params.course.replace(/_/g, " "),
+        },
+        function(err, reports) {
+            res.json(reports);
+        }
+    );
+});
+
+// Return reports for a given document
+router.get('/:school/:course/:document', function(req, res) {
+    Report.find({
+            "document.school": req.params.school.replace(/_/g, " "),
+            "document.course": req.params.course.replace(/_/g, " "),
+            "document.documentName": req.params.document.replace(/_/g, " ")
+        },
+        function(err, reports) {
+            res.json(reports);
+        }
+    );
+});
+
+// Add a new report
 router.post('/add', function(req, res) {
     var report = new Report({
         document: {
