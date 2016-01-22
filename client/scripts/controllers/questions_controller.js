@@ -76,7 +76,7 @@ angular.module('kramster')
                 var url = apiUrl + 'stats/' + $routeParams.school + '/' + $routeParams.course + '/' + report.document.documentName.replace(' ', '_');
                 httpRequest.get(url, function(stats) {
                     app.stats.fromServer = stats;
-                    app.stats.fromServer.averageGrade = helpers.percentageToGrade(100 * stats.totalScore / report.numQuestions);
+                    app.stats.fromServer.averageGrade = helpers.percentageToGrade(app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions));
                 });
             }
             return true;
@@ -110,13 +110,21 @@ angular.module('kramster')
         // Variables concerning the answering statistics for this session.
         app.stats = {
             // Get the (current) ratio of correct answers per total number of answered questions.
-            percentage: function() {
-                return (app.numAnswered() > 0) ? Math.round(10000 * app.numCorrects() / app.numAnswered()) / 100 : 0;
+            percentage: function(dividend, divisor) {
+                if (!dividend && !divisor) {
+                    return (app.numAnswered() > 0) ? Math.round(10000 * app.numCorrects() / app.numAnswered()) / 100 : 0;
+                }
+                else if (dividend && divisor) {
+                    return (divisor > 0) ? Math.round(10000 * dividend / divisor) / 100 : 0;
+                }
             },
 
-            // Returns a status message. Example: "3/5 (60%)"
-            status: function() {
-                return '' + app.numCorrects() + '/' + app.numAnswered() + ' (' + app.stats.percentage() + '%)';
+            // Returns a score status message. Example: "3 (60%)"
+            status: function(score) {
+                if (!score) {
+                    return '' + app.numCorrects() + ' (' + app.stats.percentage() + '%)';
+                }
+                return '' + score.toFixed(2) + ' (' + app.stats.percentage(score, app.questions.length) + '%)';
             },
 
             // Returns the grade corresponding to the current percentage. Uses the NTNU scale.

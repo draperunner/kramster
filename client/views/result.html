@@ -2,8 +2,14 @@
 <div class="row">
     <div class="col-xs-12 col-md-6">
         <div class="div-default">
-            <h1>Grade: {{questionsCtrl.stats.grade()}}</h1>
-            <h3>Score: {{questionsCtrl.stats.status()}}</h3>
+            <h1>Your Grade: {{questionsCtrl.stats.grade()}}</h1>
+            <h3>Your Score: {{questionsCtrl.stats.status()}}</h3>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <div class="div-default">
+            <h1>Average Grade: {{questionsCtrl.stats.fromServer.averageGrade}}</h1>
+            <h3>Average Score: {{questionsCtrl.stats.status(questionsCtrl.stats.fromServer.averageScore)}}</h3>
         </div>
     </div>
 </div>
