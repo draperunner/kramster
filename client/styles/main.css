@@ -1,14 +1,27 @@
 body {
-  background-color: #f7f7f7;
+  background-color: #3498db;
+}
+
+h1, h2, h3, h4, h5, p, a, b, {
+  font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron {
+  font-family: 'Roboto', sans-serif;
   border-radius: 0 !important;
-  background: rgb(255,179,71);
+  background: #3498db;
   margin-bottom: 15px;
+  color: rgb(236, 240, 241);
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 400px;
 }
 
 .div-default {
+  font-family: 'Roboto', sans-serif;
   padding: 13px;
   background: white;
   border-radius: 0;
@@ -51,6 +64,7 @@ body {
 }
 
 .btn {
+  font-family: 'Roboto', sans-serif;
   margin: 5px;
   white-space: normal;
   outline: none;

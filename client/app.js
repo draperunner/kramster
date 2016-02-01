@@ -4,8 +4,16 @@ angular
     .module('kramster', [
         'ngRoute',
         'ui.bootstrap',
-        'ngSanitize'
+        'ngSanitize',
+        'chart.js'
     ])
+    .config(['ChartJsProvider', function (ChartJsProvider) {
+        // Configure all charts
+        ChartJsProvider.setOptions({
+            colours: ['#FF5252', '#FF8A80'],
+            responsive: true
+        });
+    }])
     .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
         $routeProvider.
             when('/about', {

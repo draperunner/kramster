@@ -1,3 +1,19 @@
+<div class="jumbotron">
+    <div id="main-chart" class="container" ng-controller="BarCtrl">
+        <h1>Kramster!</h1>
+        <canvas
+                id="bar"
+                class="chart chart-bar"
+                chart-data="data"
+                chart-labels="labels"
+                chart-series="series"
+                chart-options="options"
+                chart-colours="colors">
+        </canvas>
+        <h3>Can you improve the statistics?</h3>
+    </div>
+</div>
+
 <div class="row" ng-repeat="school in schoolsCtrl.schools">
     <div class="col-xs-12">
         <a href="/{{helpers.underscorify(school)}}" type="button" class="btn btn-default center-block outline" role="button">{{school}}</a>
