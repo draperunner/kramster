@@ -18,11 +18,9 @@
     background: #2ecc71;
     width: 100%;
     height: 100%;
-    padding: 8px 0;
+    padding: 2px 0;
 }
 .btn-school > .body {
-    width: 100%;
-    height: 100%;
     padding: 6px 6px;
 }
 .btn-school > h1 {
@@ -30,44 +28,38 @@
 }
 
 .btn-course {
-    background: #27ae60;
-    padding: 16px 24px;
+    background: #8e44ad;
+    padding: 0;
     display: block;
+}
+.btn-course > .header {
+    background: #9b59b6;
+    width: 100%;
+    height: 100%;
+    padding: 8px 0;
+}
+.btn-course > .body {
+    width: 100%;
+    height: 100%;
+    padding: 6px 6px;
+}
+.btn-course > h1 {
+    font-weight: 700;
 }
 
 .btn-document {
-    background: #27ae60;
-    padding: 16px 24px;
+    background: #2980b9;
+    padding: 20px;
+    display: block;
+}
+
+.btn-document-special {
+    background: #f39c12;
+    padding: 20px;
     display: block;
 }
 
 .btn-question {
-    background: #27ae60;
+    background: #2980b9;
     padding: 16px 24px;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    color: #0054A6;
-}
-
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.open > .dropdown-toggle.btn-success, .btn-success:active {
-    color: #77CC33;
-}
-
-.btn-danger {
-    color: #cc0000;
-}
-
-.btn-danger:hover,
-.btn-danger:focus,
-.btn-danger:active,
-.open > .dropdown-toggle.btn-danger, .btn-danger:active {
-    color: #ff3333;
 }

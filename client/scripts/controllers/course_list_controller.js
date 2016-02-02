@@ -1,7 +1,23 @@
 'use strict';
 
 angular.module('kramster')
-    .controller('CourseListController', ['$scope', 'httpRequest', '$routeParams', 'apiUrl', 'Helpers', function ($scope, httpRequest, $routeParams, apiUrl, helpers) {
+    .controller('CourseListController', ['$scope', '$location', 'httpRequest', '$routeParams', 'apiUrl', 'Helpers',
+        function ($scope, $location, httpRequest, $routeParams, apiUrl, helpers) {
+
+        // Returns a pretty header for the course (the course code)
+        this.header = function (course) {
+            return course.split(' ')[0].toUpperCase();
+        };
+
+        // Returns the full name of the course. Removes course code
+        this.name = function (course) {
+            return course.replace(course.split(' ')[0], '').trim();
+        };
+
+        $scope.go = function (path) {
+            $location.path(path);
+        };
+
         $scope.helpers = helpers;
         var app = this;
         app.courses = [];

@@ -9,6 +9,7 @@
 }
 
 .navbar-default .navbar-brand {
+    font-family: 'Roboto', sans-serif;
     color: #2980b9;
     letter-spacing: 1px;
 }

@@ -62,6 +62,6 @@ angular.module('kramster')
         this.findSubstringEnclosedInParenthesis = function (s) {
             const regExp = /\(([^)]+)\)/;
             return regExp.exec(s);
-        }
+        };
 
     });
