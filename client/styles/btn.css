@@ -1,0 +1,59 @@
+.btn {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    white-space: normal;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border: none;
+    color: rgb(236, 240, 241);
+}
+
+.btn-school {
+    background: #27ae60;
+    padding: 16px 24px;
+    display: block;
+}
+
+.btn-course {
+    background: #27ae60;
+    padding: 16px 24px;
+    display: block;
+}
+
+.btn-document {
+    background: #27ae60;
+    padding: 16px 24px;
+    display: block;
+}
+
+.btn-question {
+    background: #27ae60;
+    padding: 16px 24px;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    color: #0054A6;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.open > .dropdown-toggle.btn-success, .btn-success:active {
+    color: #77CC33;
+}
+
+.btn-danger {
+    color: #cc0000;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.open > .dropdown-toggle.btn-danger, .btn-danger:active {
+    color: #ff3333;
+}

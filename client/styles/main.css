@@ -6,21 +6,23 @@ h1, h2, h3, h4, h5, p, a, b, {
   font-family: 'Roboto', sans-serif;
 }
 
-.jumbotron {
-  font-family: 'Roboto', sans-serif;
-  border-radius: 0 !important;
-  background: #3498db;
-  margin-bottom: 5px;
-  color: rgb(236, 240, 241);
-}
-
 canvas {
   width: 100% !important;
   height: auto !important;
   max-height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.btn {
+#spinner {
+    margin: auto;
+}
+
+.jumbotron {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  background: none;
+  margin-bottom: 5px;
   color: rgb(236, 240, 241);
 }
 
@@ -35,80 +37,8 @@ canvas {
   margin-bottom: 20px;
 }
 
-.navbar {
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 3px -1px #333;
-  background: rgba(255, 255, 255, 1);
-  border-radius: 0;
-  border: none;
-  height: 28px;
-  z-index: 9999;
-}
-
-.navbar .collapse ul {
-  background: white;
-  box-shadow: 0 1px 2px -2px #333;
-}
-
-.navbar a {
-  padding-left: 20px;
-  color: #0054A6 !important;
-}
-
-.navbar a:hover {
-  color: #2276C8 !important;
-}
-
 .container {
   margin-bottom: 40px;
-}
-
-#spinner {
-    margin: auto;
-}
-
-.btn {
-  font-family: 'Roboto', sans-serif;
-  margin: 5px;
-  white-space: normal;
-  outline: none;
-  letter-spacing: 1px;
-  border-radius: 0;
-  border: none;
-  box-shadow: 1px 2px 3px -1px #333;
-  color: rgb(236, 240, 241);
-}
-
-.btn.outline {
-  background: #27ae60;
-  padding: 12px 22px;
-}
-
-.btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active,
-.open > .dropdown-toggle.btn-default {
-  color: #0054A6;
-}
-
-.btn-default.outline:active, .btn-default.outline.active {
-  box-shadow: none;
-}
-
-.btn-success.outline {
-  color: #53A600;
-}
-
-.btn-success.outline:hover, .btn-success.outline:focus, .btn-success.outline:active, .btn-success.outline.active,
-.open > .dropdown-toggle.btn-success, .btn-success.outline:active, .btn-success.outline.active {
-  color: #77CC33;
-}
-
-.btn-danger {
-  color: #cc0000;
-}
-
-.btn-danger.outline:hover, .btn-danger.outline:focus, .btn-danger.outline:active, .btn-danger.outline.active,
-.open > .dropdown-toggle.btn-danger, .btn-danger.outline:active, .btn-danger.outline.active  {
-  color: #ff3333;
 }
 
 .question {

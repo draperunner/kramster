@@ -7,15 +7,16 @@
     <title>Kramster!</title>
     <base href="/">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="../bower_components/angular-chart.js/dist/angular-chart.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-</head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'></head>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/btn.css">
 <body>
 
-    <!--
-    <navbar></navbar>
-    -->
+    <div ng-controller="NavbarCtrl">
+        <navbar></navbar>
+    </div>
 
     <div class="container">
         <div ng-view ng-controller="Tracker"></div>
@@ -38,6 +39,7 @@
     <script src="scripts/controllers/document_list_controller.js"></script>
     <script src="scripts/controllers/questions_controller.js"></script>
     <script src="scripts/controllers/tracker.js"></script>
+    <script src="scripts/controllers/navbar_controller.js"></script>
     <script src="scripts/services/helpers.js"></script>
     <script src="scripts/services/http_request.js"></script>
     <script src="scripts/google-analytics.js"></script>
