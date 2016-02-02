@@ -1,6 +1,14 @@
-<div class="jumbotron hidden-xs hidden-sm">
-    <div class="container">
-        <em>Cram for your exam with </em>
+<div class="jumbotron">
+    <div id="main-chart" class="container" ng-controller="BarCtrl">
         <h1>Kramster!</h1>
+        <canvas
+                id="bar"
+                class="chart chart-bar"
+                chart-data="data"
+                chart-labels="labels"
+                chart-options="options"
+                chart-colours="colors">
+        </canvas>
+        <h3>Can you improve the statistics?</h3>
     </div>
 </div>
