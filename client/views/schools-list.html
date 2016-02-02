@@ -2,8 +2,22 @@
 
 <div class="container">
     <div class="row">
+
         <div class="col-school col-xs-12 col-md-3" ng-repeat="school in schoolsCtrl.schools">
-            <a href="/{{helpers.underscorify(school)}}" type="button" class="btn btn-school" role="button">{{school}}</a>
+            <div ng-click="go('/'+helpers.underscorify(school))" class="div-school btn btn-school" type="button" role="button">
+
+            <!--
+            <school-item school="school"></school-item>
+            -->
+
+                <div class="header">
+                    <h3>{{schoolsCtrl.header(school)}}</h3>
+                </div>
+                <div class="body">
+                    <p>{{schoolsCtrl.name(school)}}</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

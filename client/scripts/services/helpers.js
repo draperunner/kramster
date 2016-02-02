@@ -58,4 +58,10 @@ angular.module('kramster')
             }, []);
         };
 
+        // Search a string for a substring that is enclosed in parenthesis
+        this.findSubstringEnclosedInParenthesis = function (s) {
+            const regExp = /\(([^)]+)\)/;
+            return regExp.exec(s);
+        }
+
     });
