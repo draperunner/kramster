@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, p, a, b, {
   font-family: 'Roboto', sans-serif;
   border-radius: 0 !important;
   background: #3498db;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   color: rgb(236, 240, 241);
 }
 
@@ -18,6 +18,10 @@ canvas {
   width: 100% !important;
   height: auto !important;
   max-height: 400px;
+}
+
+.btn {
+  color: rgb(236, 240, 241);
 }
 
 .div-default {
@@ -68,15 +72,15 @@ canvas {
   margin: 5px;
   white-space: normal;
   outline: none;
-  font-weight: lighter;
   letter-spacing: 1px;
   border-radius: 0;
   border: none;
   box-shadow: 1px 2px 3px -1px #333;
+  color: rgb(236, 240, 241);
 }
 
 .btn.outline {
-  background: white;
+  background: #27ae60;
   padding: 12px 22px;
 }
 

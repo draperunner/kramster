@@ -6,7 +6,6 @@
                 class="chart chart-bar"
                 chart-data="data"
                 chart-labels="labels"
-                chart-series="series"
                 chart-options="options"
                 chart-colours="colors">
         </canvas>
@@ -14,8 +13,10 @@
     </div>
 </div>
 
-<div class="row" ng-repeat="school in schoolsCtrl.schools">
-    <div class="col-xs-12">
-        <a href="/{{helpers.underscorify(school)}}" type="button" class="btn btn-default center-block outline" role="button">{{school}}</a>
+<div class="container">
+    <div class="row">
+        <div class="col-school col-xs-12 col-md-3" ng-repeat="school in schoolsCtrl.schools">
+            <a href="/{{helpers.underscorify(school)}}" type="button" class="btn btn-default center-block outline" role="button">{{school}}</a>
+        </div>
     </div>
 </div>
