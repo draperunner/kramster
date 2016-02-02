@@ -1,9 +1,16 @@
 body {
-  background-color: #3498db;
+  background-color: #ecf0f1;
 }
 
 h1, h2, h3, h4, h5, p, a, b, {
   font-family: 'Roboto', sans-serif;
+}
+.container > h1 {
+  color: #2980b9;
+}
+
+.container > h3 {
+  color: #34495e;
 }
 
 canvas {

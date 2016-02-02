@@ -1,7 +1,7 @@
 .navbar {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
-    background: rgba(255, 255, 255, 0);
+    background: none;
     border-radius: 0;
     border: none;
     height: 28px;
@@ -9,27 +9,27 @@
 }
 
 .navbar-default .navbar-brand {
-    color: white;
+    color: #2980b9;
     letter-spacing: 1px;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: white;
+    color: #2980b9;
     text-decoration: underline;
 }
 
 .navbar-default .navbar-nav > li > a {
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
+    color: #2980b9;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
+    color: #2980b9;
     text-decoration: underline;
 }
 
