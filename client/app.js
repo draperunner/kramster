@@ -3,7 +3,6 @@
 angular
     .module('kramster', [
         'ngRoute',
-        'ui.bootstrap',
         'ngSanitize',
         'chart.js'
     ])

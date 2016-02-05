@@ -165,7 +165,7 @@ angular.module('kramster')
                 }
             },
             type: function(index) {
-                return (app.history[index]) ? 'success' : 'danger';
+                return (app.history[index]) ? 'correct' : 'wrong';
             }
         };
 
