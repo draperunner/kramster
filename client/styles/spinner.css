@@ -1,0 +1,38 @@
+#spinner {
+    border-radius: 50%;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    animation-name: loading-spinner;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading-spinner {
+    0%   { background-color: #c0392b; }
+    25%  { background-color: #2ecc71; }
+    50%  { background-color: #3498db; }
+    75%  { background-color: #f1c40f; }
+    100% { background-color: #c0392b; }
+}
+@-moz-keyframes loading-spinner {
+    0%   { background-color: #c0392b; }
+    25%  { background-color: #2ecc71; }
+    50%  { background-color: #3498db; }
+    75%  { background-color: #f1c40f; }
+    100% { background-color: #c0392b; }
+}
+@-webkit-keyframes loading-spinner {
+    0%   { background-color: #c0392b; }
+    25%  { background-color: #2ecc71; }
+    50%  { background-color: #3498db; }
+    75%  { background-color: #f1c40f; }
+    100% { background-color: #c0392b; }
+}
+@-o-keyframes loading-spinner {
+    0%   { background-color: #c0392b; }
+    25%  { background-color: #2ecc71; }
+    50%  { background-color: #3498db; }
+    75%  { background-color: #f1c40f; }
+    100% { background-color: #c0392b; }
+}

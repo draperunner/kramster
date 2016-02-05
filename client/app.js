@@ -7,10 +7,19 @@ angular
         'ngSanitize',
         'chart.js'
     ])
+    .run(function($rootScope, $window, $location) {
+        $rootScope.goExternal = function (path) {
+            $window.location.href = path;
+        };
+        $rootScope.go = function (path) {
+            $location.path(path);
+        };
+    })
     .config(['ChartJsProvider', function (ChartJsProvider) {
         // Configure all charts
         ChartJsProvider.setOptions({
-            colours: ['#FF5252', '#FF8A80'],
+            // A: green, B: blue, C: purple, D: yellow, E: orange, F: red
+            colours: ['#2ecc71', '#3498db', '#9b59b6', '#f1c40f', '#e67e22', '#e74c3c'],
             responsive: true
         });
     }])

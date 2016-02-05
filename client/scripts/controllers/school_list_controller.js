@@ -20,10 +20,6 @@ angular.module('kramster')
             return school;
         };
 
-        $scope.go = function (path) {
-            $location.path(path);
-        };
-
         $scope.helpers = helpers;
         var app = this;
         app.schools = [];

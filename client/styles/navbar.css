@@ -6,6 +6,7 @@
     border: none;
     height: 28px;
     z-index: 9999;
+    padding: 0 10px;
 }
 
 .navbar-default .navbar-brand {

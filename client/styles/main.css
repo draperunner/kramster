@@ -2,11 +2,29 @@ body {
   background-color: #ecf0f1;
 }
 
-h1, h2, h3, h4, h5, p, a, b, {
+h1, h2, h3, h4, h5, p, a, b {
   font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+  line-height: 30px;
+}
+
+.grey {
+  color: #34495e;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
 .container > h1 {
   color: #2980b9;
+  font-family: 'Roboto', sans-serif;
+}
+
+#about {
+  color: #34495e;
 }
 
 .container > h3 {
@@ -17,15 +35,6 @@ h1, h2, h3, h4, h5, p, a, b, {
   margin-top: 40px;
 }
 
-/*
-.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
-*/
-
 canvas {
   width: 100% !important;
   height: auto !important;
@@ -34,27 +43,12 @@ canvas {
   margin-bottom: 20px;
 }
 
-#spinner {
-    margin: auto;
-}
-
 .jumbotron {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   background: none;
   margin-bottom: 5px;
   color: rgb(236, 240, 241);
-}
-
-.div-default {
-  font-family: 'Roboto', sans-serif;
-  padding: 13px;
-  background: white;
-  border-radius: 0;
-  border: none;
-  box-shadow: 1px 2px 3px -1px #333;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .container {

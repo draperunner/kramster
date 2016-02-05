@@ -1,21 +1,36 @@
 'use strict';
 
 angular.module('kramster')
-    .controller('QuestionsController', ['$scope', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl', function ($scope, helpers, httpRequest, $route, $routeParams, apiUrl) {
-
-        // Different modes for the quizzing.
-        var mode = {
-            // String representing the doc fetch mode. 'all' if All button is clicked. 'random' if Random X is clicked, etc.
-            docMode: $route.current.locals.mode,
-            // If set to true, the correct answer will be shown after answering, before next question appears.
-            showCorrectAnswerMode: true
-        };
+    .controller('QuestionsController', ['$scope', '$location', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl',
+        function ($scope, $location, helpers, httpRequest, $route, $routeParams, apiUrl) {
 
         // Route parameters.
         $scope.route = {
             school: $routeParams.school,
             course: $routeParams.course,
             document: $routeParams.document
+        };
+
+        $scope.reloadRoute = function () {
+            $route.reload();
+        };
+
+        // A: green, B: blue, C: purple, D: yellow, E: orange, F: red
+        $scope.colors = { A: 'green', B: 'blue', C: 'purple', D: 'yellow', E: 'orange', F: 'red',
+            fromUser: function () {
+                return $scope.colors[app.stats.grade()];
+            },
+            fromServer: function () {
+                return $scope.colors[app.stats.fromServer && app.stats.fromServer.averageGrade || 'B'];
+            }
+        };
+
+        // Different modes for the quizzing.
+        $scope.mode = {
+            // String representing the doc fetch mode. 'all' if All button is clicked. 'random' if Random X is clicked, etc.
+            docMode: $route.current.locals.mode,
+            // If set to true, the correct answer will be shown after answering, before next question appears.
+            showCorrectAnswerMode: true
         };
 
         var app = this;
@@ -37,19 +52,21 @@ angular.module('kramster')
         // True if an answer is selected.
         var answerGiven = false;
 
+        const emptyQuestion = {question: '', options: []};
+
         // Returns the current question
         $scope.currentQuestion = function() {
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
             // If questions still are being fetched, return an empty question.
+
             if (app.questions.length <= 0) {
-                return {question: '', options: []};
+                return emptyQuestion;
             }
-            if (mode.showCorrectAnswerMode && answerGiven) {
+            if ($scope.mode.showCorrectAnswerMode && answerGiven) {
                 return app.questions[app.history.length - 1];
             }
             return app.questions[app.history.length];
         };
-
 
         // Prevents multiples of the same report being sent to server.
         var finishedReturnedTrue = false;
@@ -62,7 +79,7 @@ angular.module('kramster')
                     document: {
                         school: $routeParams.school.replace(/_/g, " "),
                         course: $routeParams.course.replace(/_/g, " "),
-                        documentName: (mode.docMode) ? mode.docMode : $scope.route.document.replace(/_/g, " ")
+                        documentName: ($scope.mode.docMode) ? $scope.mode.docMode : $scope.route.document.replace(/_/g, " ")
                     },
                     score: app.numCorrects(),
                     numQuestions: app.questions.length,
@@ -76,7 +93,9 @@ angular.module('kramster')
                 var url = apiUrl + 'stats/' + $routeParams.school + '/' + $routeParams.course + '/' + report.document.documentName.replace(' ', '_');
                 httpRequest.get(url, function(stats) {
                     app.stats.fromServer = stats;
+                    app.stats.fromServer.averageScore = stats.averageScore.toFixed(2);
                     app.stats.fromServer.averageGrade = helpers.percentageToGrade(app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions));
+                    app.stats.fromServer.percentage = app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions);
                 });
             }
             return true;
@@ -84,20 +103,20 @@ angular.module('kramster')
 
         // Returns the class (color, mostly) of the option button decided by if it's the right answer or not.
         app.buttonClass = function(option) {
-            if (!answerGiven || !mode.showCorrectAnswerMode) {
-                return 'btn-default';
+            if (!answerGiven || !$scope.mode.showCorrectAnswerMode) {
+                return 'btn-question';
             }
             var previousQuestion = app.questions[app.history.length - 1];
             // Check if the option the button represents is one of the correct answers.
             if (previousQuestion.answers.indexOf(previousQuestion.options.indexOf(option)) >= 0) {
-                return 'btn-success';
+                return 'btn-correct-answer';
             }
-            return 'btn-danger';
+            return 'btn-wrong-answer';
         };
 
         // Is called when the user selects an answer.
         app.answer = function(answer) {
-            if (!answerGiven && mode.showCorrectAnswerMode || !mode.showCorrectAnswerMode) {
+            if (!answerGiven && $scope.mode.showCorrectAnswerMode || !$scope.mode.showCorrectAnswerMode) {
                 var q = $scope.currentQuestion();
                 app.history.push(q && q.answers.indexOf(q.options.indexOf(answer)) >= 0);
                 answerGiven = true;
@@ -128,8 +147,13 @@ angular.module('kramster')
             },
 
             // Returns the grade corresponding to the current percentage. Uses the NTNU scale.
-            grade: function() {
+            grade: function () {
                 return helpers.percentageToGrade(app.stats.percentage());
+            },
+
+            // Number of correct answers
+            score: function () {
+                return app.numAnswered();
             }
         };
 
@@ -146,20 +170,20 @@ angular.module('kramster')
         };
 
         // ALL MODE. Fetches all documents, gathers all questions from all of them, shuffles.
-        if (mode.docMode === 'all') {
+        if ($scope.mode.docMode === 'all') {
             var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course;
             httpRequest.getAll(url, function(questions, meta) {
                 app.questions = questions;
-                mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
+                $scope.mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
             });
         }
 
         // RANDOM N MODE. Fetches n random questions from the course.
-        else if (mode.docMode === 'random') {
+        else if ($scope.mode.docMode === 'random') {
             var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/random/' + $routeParams.number;
             httpRequest.get(url, function(questions, meta) {
                 app.questions = questions;
-                mode.showCorrectAnswerMode = true;
+                $scope.mode.showCorrectAnswerMode = true;
             });
         }
 
@@ -169,7 +193,7 @@ angular.module('kramster')
             httpRequest.getSelected(url, function (document) {
                 app.questions = document.questions;
                 helpers.shuffle(document.questions);
-                mode.showCorrectAnswerMode = document.mode === 'MC' || document.mode === undefined;
+                $scope.mode.showCorrectAnswerMode = document.mode === 'MC' || document.mode === undefined;
             });
         }
     }]);

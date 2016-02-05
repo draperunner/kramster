@@ -10,17 +10,17 @@
 
 <div class="row" ng-if="questionsCtrl.questions && !loading">
     <div class="col-xs-12">
-        <div class="div-default" ng-if="currentQuestion()">
+        <div ng-if="currentQuestion()">
             <h3 ng-bind-html="currentQuestion().question"></h3>
         </div>
     </div>
 </div>
 
-<div class="row" ng-if="questionsCtrl.questions && !loading">
+<div class="row top-buffer" ng-if="questionsCtrl.questions && !loading">
     <div class="col-xs-12">
         <div class="btn-group">
             <a role="button" type="button"
-                class="btn {{questionsCtrl.buttonClass(option)}} button center-block outline"
+                class="btn {{questionsCtrl.buttonClass(option)}}"
                 ng-repeat="option in currentQuestion().options"
                 ng-click="questionsCtrl.answer(option)"
                 ng-bind-html="option">

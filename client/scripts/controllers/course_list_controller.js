@@ -14,10 +14,6 @@ angular.module('kramster')
             return course.replace(course.split(' ')[0], '').trim();
         };
 
-        $scope.go = function (path) {
-            $location.path(path);
-        };
-
         $scope.helpers = helpers;
         var app = this;
         app.courses = [];

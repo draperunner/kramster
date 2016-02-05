@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/btn.css">
+    <link rel="stylesheet" href="styles/kitem.css">
+    <link rel="stylesheet" href="styles/spinner.css">
 <body>
 
     <navbar></navbar>
 
     <div class="container main-container">
         <div ng-view ng-controller="Tracker"></div>
-        <img class="img-responsive" id="spinner" ng-src="img/spinner.gif" ng-show="loading"/>
+        <div id="spinner" ng-show="loading"></div>
     </div>
 
     <script src="../bower_components/angular/angular.min.js"></script>
@@ -29,15 +31,17 @@
     <script src="../bower_components/Chart.js/Chart.js"></script>
     <script src="../bower_components/angular-chart.js/dist/angular-chart.js"></script>
     <script src="app.js"></script>
-    <script src="scripts/controllers/bar_controller.js"></script>
     <script src="scripts/directives/navbar.js"></script>
     <script src="scripts/directives/result.js"></script>
     <script src="scripts/directives/jumbotron.js"></script>
+    <script src="scripts/directives/kitem.js"></script>
     <script src="scripts/controllers/school_list_controller.js"></script>
     <script src="scripts/controllers/course_list_controller.js"></script>
     <script src="scripts/controllers/document_list_controller.js"></script>
     <script src="scripts/controllers/questions_controller.js"></script>
     <script src="scripts/controllers/tracker.js"></script>
+    <script src="scripts/controllers/bar_controller.js"></script>
+    <script src="scripts/controllers/pie_controller.js"></script>
     <script src="scripts/services/helpers.js"></script>
     <script src="scripts/services/http_request.js"></script>
     <script src="scripts/google-analytics.js"></script>

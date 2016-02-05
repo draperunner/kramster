@@ -4,20 +4,14 @@
     <div class="row">
 
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="school in schoolsCtrl.schools">
-            <div class="div-school btn btn-school" ng-click="go('/'+helpers.underscorify(school))" type="button" role="button">
 
-            <!--
-            <school-item school="school"></school-item>
-            -->
-
-                <div class="header">
-                    <h3>{{schoolsCtrl.header(school)}}</h3>
-                </div>
-                <div class="body">
-                    <p>{{schoolsCtrl.name(school)}}</p>
-                </div>
-            </div>
+            <kitem head="{{schoolsCtrl.header(school)}}"
+                   body="{{schoolsCtrl.name(school)}}"
+                   color="green"
+                   ng-click="go('/'+helpers.underscorify(school))">
+            </kitem>
 
         </div>
+
     </div>
 </div>

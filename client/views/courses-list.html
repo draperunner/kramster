@@ -1,21 +1,18 @@
 <div class="row">
+    <div ng-repeat="course in coursesCtrl.courses">
+        <div ng-if="$index % 2 == 0" class="clearfix visible-sm-block"></div>
+        <div ng-if="$index % 3 == 0" class="clearfix visible-md-block"></div>
+        <div ng-if="$index % 4 == 0" class="clearfix visible-lg-block"></div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="course in coursesCtrl.courses">
-        <div class="div-course btn btn-course" type="button" role="button"
-            ng-click="go('/'+helpers.underscorify(coursesCtrl.school)+'/'+helpers.underscorify(course))">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" >
 
-            <!--
-            <course-item course="course"></course-item>
-            -->
+            <kitem head="{{coursesCtrl.header(course)}}"
+                   body="{{coursesCtrl.name(course)}}"
+                   color="purple"
+                   min-height="true"
+                   ng-click="go('/'+helpers.underscorify(coursesCtrl.school)+'/'+helpers.underscorify(course))">
+            </kitem>
 
-            <div class="header">
-                <h3>{{coursesCtrl.header(course)}}</h3>
-            </div>
-            <div class="body">
-                <p>{{coursesCtrl.name(course)}}</p>
-            </div>
         </div>
-
     </div>
-
 </div>
