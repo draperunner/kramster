@@ -10,8 +10,8 @@ mongoose.connect('mongodb://localhost/kramster');
 
 // Express
 var app = express();
-app.use(express.static('./client/'));
-app.use('/bower_components', express.static('./bower_components/'));
+app.use(express.static(__dirname + '/../client/'));
+app.use('/bower_components', express.static(__dirname + '/../bower_components/'));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 app.use(function(req, res, next) {
@@ -27,7 +27,7 @@ app.use('/api/reports', require('./routes/reports'));
 app.use('/api/stats', require('./routes/stats'));
 
 app.use(function(req, res) {
-    res.sendFile(__dirname + '/client/index.html');
+    res.sendFile(__dirname + '/../client/index.html');
 });
 
 // Start server
