@@ -12,6 +12,7 @@
     "body-parser": "^1.12.3",
     "express": "^4.13.3",
     "jquery": "^2.1.4",
-    "mongoose": "^4.0.2"
+    "mongoose": "^4.0.2",
+    "path": "^0.12.7"
   }
 }

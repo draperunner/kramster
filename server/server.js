@@ -4,6 +4,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var path = require('path');
 
 // MongoDB
 mongoose.connect('mongodb://localhost/kramster');
@@ -27,7 +28,7 @@ app.use('/api/reports', require('./routes/reports'));
 app.use('/api/stats', require('./routes/stats'));
 
 app.use(function(req, res) {
-    res.sendFile(__dirname + '/../client/index.html');
+    res.sendFile(path.resolve(__dirname + '/../client/index.html'));
 });
 
 // Start server
