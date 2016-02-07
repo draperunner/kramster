@@ -1,7 +1,7 @@
 angular.module('kramster')
     .controller("PieCtrl", ['$scope', 'httpRequest', function ($scope, httpRequest) {
 
-        const baseUrl = 'http://localhost:8000/api/stats/';
+        const baseUrl = '/api/stats/';
         const r = $scope.$parent.$parent.route;
         const mode = $scope.$parent.$parent.mode;
         const dataUrl = r ? baseUrl + r.school + '/' + r.course + '/' + (r.document || mode.docMode): baseUrl;

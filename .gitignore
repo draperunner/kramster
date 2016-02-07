@@ -1,6 +1,9 @@
 .idea/
 node_modules/
 bower_components/
+build/
+client/scripts.min.js
+client/styles.min.css
 *.iml
 *.sh
 *.bson
