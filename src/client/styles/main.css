@@ -1,0 +1,79 @@
+body {
+  background-color: #ecf0f1;
+}
+
+h1, h2, h3, h4, h5, p, a, b {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  line-height: 30px;
+}
+
+.progress {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  background-color: #ecf0f1;
+}
+.progress-bar {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+.progress-bar-correct {
+  background-color: #2ecc71;
+}
+.progress-bar-wrong {
+  background-color: #e74c3c;
+}
+
+.grey {
+  color: #34495e;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.container > h1 {
+  color: #2980b9;
+  font-family: 'Roboto', sans-serif;
+}
+
+#about {
+  color: #34495e;
+}
+
+.container > h3 {
+  color: #34495e;
+}
+
+.main-container {
+  margin-top: 40px;
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  background: none;
+  margin-bottom: 5px;
+  color: rgb(236, 240, 241);
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+.question {
+  display: block;
+  width: 100%;
+}

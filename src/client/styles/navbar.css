@@ -1,0 +1,44 @@
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    background: none;
+    border-radius: 0;
+    border: none;
+    height: 28px;
+    z-index: 9999;
+    padding: 0 10px;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: #2980b9;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2980b9;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.navbar-nav > li, .navbar-nav {
+    float: left !important;
+}
+
+.navbar-right {
+    float: right!important;
+}

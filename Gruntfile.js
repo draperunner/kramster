@@ -6,31 +6,31 @@ module.exports = function (grunt) {
                 separator: ';'
             },
             scripts: {
-                src: ['client/scripts/**/*.js'],
-                dest: 'client/scripts.min.js'
+                src: ['src/client/scripts/**/*.js'],
+                dest: 'src/client/scripts.min.js'
             }
         },
         watch: {
             express: {
-                files: ['**/*.js'],
+                files: ['src/**/*.js'],
                 tasks: ['express:dev'],
                 options: {
                     spawn: false
                 }
             },
             scripts: {
-                files: ['client/scripts/**/*.js'],
+                files: ['src/client/scripts/**/*.js'],
                 tasks: ['concat:scripts']
             },
             styles: {
-                files: ['client/styles/**/*.css'],
+                files: ['src/client/styles/**/*.css'],
                 tasks: ['cssmin']
             }
         },
         uglify: {
             scripts: {
                 files: {
-                    'client/scripts.min.js': ['client/scripts.min.js']
+                    'src/client/scripts.min.js': ['src/client/scripts.min.js']
                 }
             }
         },
@@ -41,32 +41,40 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'client/styles.min.css': ['client/styles/*.css']
+                    'src/client/styles.min.css': ['src/client/styles/*.css']
                 }
             }
         },
         copy: {
-            prod: {
-                files: [
-                    // includes files within path and its sub-directories
-                    {expand: true, src: ['client/index.html'], dest: 'build/'},
-                    {expand: true, src: ['client/app.js'], dest: 'build/'},
-                    {expand: true, src: ['client/scripts.min.js'], dest: 'build/'},
-                    {expand: true, src: ['client/styles.min.css'], dest: 'build/'},
-                    {expand: true, src: ['client/views/**'], dest: 'build/'},
-                    {expand: true, src: ['client/icons/**'], dest: 'build/'},
-                    {expand: true, src: ['bower_components/**'], dest: 'build/'},
-                    {expand: true, src: ['server/**'], dest: 'build/'}
+            build: {
+                expand: true,
+                cwd: 'src/',
+                dest: 'build/',
+                src: [
+                    'client/index.html',
+                    'client/app.js',
+                    'client/scripts.min.js',
+                    'client/styles.min.css',
+                    'client/views/**',
+                    'client/icons/**',
+                    'server/**',
+                    '../bower.json',
+                    '../package.json'
                 ]
+            },
+            package: {
+                expand: true,
+                src: ['bower.json', 'package.json'],
+                dest: 'build/'
             }
         },
         express: {
             dev: {
                 options: {
-                    script: 'server/server.js'
+                    script: 'src/server/server.js'
                 }
             },
-            prod: {
+            build: {
                 options: {
                     script: 'build/server/server.js',
                     node_env: 'production'
@@ -74,13 +82,14 @@ module.exports = function (grunt) {
             }
         },
         clean: {
-            dev: ['client/scripts.min.js', 'client/styles.min.css'],
-            prod: ['build']
+            dev: ['src/client/scripts.min.js', 'src/client/styles.min.css'],
+            build: ['build']
         }
     });
 
     grunt.registerTask('default', ['clean:dev', 'concat', 'cssmin', 'express:dev', 'watch']);
-    grunt.registerTask('prod', ['clean', 'concat', 'uglify', 'cssmin', 'copy:prod', 'express:prod', 'watch']);
+    grunt.registerTask('staging', ['clean', 'concat', 'uglify', 'cssmin', 'copy', 'express:build', 'watch']);
+    grunt.registerTask('build', ['clean', 'concat', 'uglify', 'cssmin', 'copy']);
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');

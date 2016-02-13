@@ -1,0 +1,64 @@
+.btn {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    white-space: normal;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border: none;
+    color: rgb(236, 240, 241);
+}
+
+.btn-document {
+    background: #2980b9;
+    padding: 20px;
+    display: block;
+}
+
+.btn-document:hover {
+    background: #3498db;
+}
+
+.btn-document-special {
+    background: #e67e22;
+    padding: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+.btn-document-special:hover {
+    background-color: #f39c12;
+}
+
+.btn-question {
+    background-color: white;
+    color: #2c3e50;
+    padding: 20px;
+    display: block;
+}
+
+.btn-question:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+.btn-correct-answer {
+    background: #2ecc71;
+    padding: 20px;
+    display: block;
+}
+.btn-wrong-answer {
+    background: #e74c3c;
+    padding: 20px;
+    display: block;
+}
+
+.btn-result-btn {
+    background: #2ecc71;
+    padding: 0;
+    display: block;
+}
+.btn-result-btn > .header {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}

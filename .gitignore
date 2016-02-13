@@ -2,9 +2,10 @@
 node_modules/
 bower_components/
 build/
-client/scripts.min.js
-client/styles.min.css
+src/client/scripts.min.js
+src/client/styles.min.css
 *.iml
 *.sh
 *.bson
 *.json
+*.tar.gz
