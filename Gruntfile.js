@@ -57,9 +57,7 @@ module.exports = function (grunt) {
                     'client/styles.min.css',
                     'client/views/**',
                     'client/icons/**',
-                    'server/**',
-                    '../bower.json',
-                    '../package.json'
+                    'server/**'
                 ]
             },
             package: {
