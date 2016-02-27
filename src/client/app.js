@@ -4,7 +4,8 @@ angular
     .module('kramster', [
         'ngRoute',
         'ngSanitize',
-        'chart.js'
+        'chart.js',
+        'ng.deviceDetector'
     ])
     .run(function($rootScope, $window, $location) {
         $rootScope.goExternal = function (path) {
