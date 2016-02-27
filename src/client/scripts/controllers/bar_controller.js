@@ -12,8 +12,11 @@ angular.module('kramster')
         $scope.colors = [{fillColor: '#e74c3c'}];
 
         $scope.options = {
-            scaleBeginAtZero : false,
-            scaleShowGridLines : false,
+            scaleOverride: true,
+            scaleStartValue: 0,
+            scaleSteps: 0,
+            scaleStepWidth: 1,
+            scaleShowGridLines:  false,
             scaleShowHorizontalLines: false,
             scaleShowVerticalLines: false,
             showScale: false,
@@ -28,6 +31,20 @@ angular.module('kramster')
                 data.push(res.grades[$scope.labels[i]]);
             }
             $scope.data[0] = data;
+
+            // Update scale start value and number of steps
+            var minVal = data[0];
+            var maxVal = data[0];
+            for (var i = 0; i < data.length; i++) {
+                if (data[i] < minVal) {
+                    minVal = data[i];
+                }
+                if (data[i] > maxVal) {
+                    maxVal = data[i];
+                }
+            }
+            $scope.options.scaleStartValue = (minVal <= 1) ? 0 : minVal - 1;
+            $scope.options.scaleSteps = maxVal - minVal + 1;
         });
 
     }]);
