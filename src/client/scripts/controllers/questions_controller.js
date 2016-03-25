@@ -169,9 +169,10 @@ angular.module('kramster')
             }
         };
 
+        var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course;
+
         // ALL MODE. Fetches all documents, gathers all questions from all of them, shuffles.
         if ($scope.mode.docMode === 'all') {
-            var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course;
             httpRequest.getAll(url, function(questions, meta) {
                 app.questions = questions;
                 $scope.mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
@@ -180,7 +181,7 @@ angular.module('kramster')
 
         // RANDOM N MODE. Fetches n random questions from the course.
         else if ($scope.mode.docMode === 'random') {
-            var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/random/' + $routeParams.number;
+            url += '/random/' + $routeParams.number;
             httpRequest.get(url, function(questions, meta) {
                 app.questions = questions;
                 $scope.mode.showCorrectAnswerMode = true;
@@ -189,7 +190,7 @@ angular.module('kramster')
 
         // NON-RANDOM MODE. Fetches the selected document and shuffles its questions.
         else {
-            var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course + '/' + $routeParams.document;
+            url += '/' + $routeParams.document;
             httpRequest.getSelected(url, function (document) {
                 app.questions = document.questions;
                 helpers.shuffle(document.questions);
