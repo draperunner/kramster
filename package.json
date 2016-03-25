@@ -2,9 +2,9 @@
   "name": "kramster",
   "version": "1.0.0",
   "description": "",
-  "main": "server/server.js",
+  "main": "src/server/server.js",
   "scripts": {
-    "start": "nodemon src/server/server.js",
+    "start": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
