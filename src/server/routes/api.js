@@ -10,90 +10,66 @@ var Document = require('../models/document');
 
 /**
  * API routing for Kramster!
- *
- * All underscores in url are replaced with spaces.
- *
  */
 
-// Return all documents
+// TODO: Not hardcode this
+var schoolAbbs = {
+    ntnu: 'Norges Teknisk-Naturvitenskaplige Universitet (NTNU)',
+};
+
+var courseCodes = {
+    tdt4136: 'TDT4136 Introduction to Artificial Intelligence',
+};
+
 router.get('/documents', function(req, res) {
-    Document.find({}, function(err, docs) {
-        res.json(docs);
-    });
-});
 
-// Return all documents of given school
-router.get('/documents/:school', function(req, res) {
-    Document.find({
-        "school": req.params.school.replace(/_/g, " ")},
-        function(err, docs) {
-            res.json(docs);
-    });
-});
+    console.log(req.query);
 
-// Return all documents of given course of given school
-router.get('/documents/:school/:course', function(req, res) {
-    Document.find({
-        "school": req.params.school.replace(/_/g, " "),
-        "course": req.params.course.replace(/_/g, " ")},
-        function(err, docs) {
-            res.json(docs);
-    });
-});
+    // MongoDB query object
+    var query = {};
 
-// Return a given number of random questions from given course of given school
-router.get('/documents/:school/:course/random/:number', function(req, res) {
-    Document.find({
-        "school": req.params.school.replace(/_/g, " "),
-        "course": req.params.course.replace(/_/g, " ")},
-        function(err, docs) {
+    if (req.query.school) {
+        query.school = (schoolAbbs.hasOwnProperty(req.query.school)) ? schoolAbbs[req.query.school] : req.query.school;
+    }
+    if (req.query.course) {
+        query.course = (courseCodes.hasOwnProperty(req.query.course)) ? courseCodes[req.query.course] : req.query.course;
+    }
+    if (req.query.document) {
+        query.name = req.query.document;
+    }
+
+    Document.find(query, function(err, docs) {
+
+        // Return a given number of random questions from given course of given school
+        if (req.query.random) {
+            var numberOfQuestions = req.query.randomNumber ? req.query.randomNumber : 10;
             var questions = [];
 
             for (var i = 0; i < docs.length; i++) {
                 questions = questions.concat(docs[i]['questions']);
             }
 
-            var n = Math.min(questions.length, parseInt(req.params.number));
+            var n = Math.min(questions.length, parseInt(numberOfQuestions));
 
             var random_questions = [];
-            for (var i = 0; i < n; i++) {
+            for (var j = 0; j < n; j++) {
                 var random_index = Math.floor(Math.random() * questions.length);
                 random_questions.push(questions[random_index]);
                 questions.splice(random_index, 1);
             }
-
             res.json(random_questions);
-    });
-});
+            return;
+        }
 
-// Return (one) document by school, course and document name.
-router.get('/documents/:school/:course/:document', function(req, res) {
-    Document.findOne({
-        "school": req.params.school.replace(/_/g, " "),
-        "course": req.params.course.replace(/_/g, " "),
-        "name": req.params.document.replace(/_/g, " ")},
-        function(err, docs) {
-            res.json(docs);
-    });
-});
-
-// Return list of all distinct schools
-router.get('/list/schools', function(req, res) {
-    Document.distinct("school", function(err, docs) {
         res.json(docs);
     });
 });
 
-// Return list of all distinct courses at given school
-router.get('/list/:school', function(req, res) {
-    Document.distinct("course",{school: req.params.school.replace(/_/g, " ")}, function(err, docs) {
-        res.json(docs);
-    });
-});
-
-// Return list of all distinct documents at given school and course
-router.get('/list/:school/:course', function(req, res) {
-    Document.distinct("name",{school: req.params.school.replace(/_/g, " "), course: req.params.course.replace(/_/g, " ")}, function(err, docs) {
+// Return list of all distinct schools, courses or document names
+router.get('/:item/list', function(req, res) {
+    var item = req.params.item.substring(0, req.params.item.length - 1);
+    if (item === 'document') item = 'name';
+    Document.distinct(item, req.query, function(err, docs) {
         res.json(docs);
     });
 });
