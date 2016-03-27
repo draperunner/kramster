@@ -11,16 +11,11 @@ mongoose.connect('mongodb://localhost/kramster');
 
 // Express
 var app = express();
+app.disable('x-powered-by');
 app.use(express.static(__dirname + '/../client/'));
 app.use('/bower_components', express.static(__dirname + '/../../bower_components/'));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
-app.use(function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Methods', 'GET');
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    next();
-});
 
 // Routes
 app.use('/api', require('./routes/api'));
