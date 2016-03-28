@@ -1,45 +1,138 @@
 # Kramster!
 See it live here: [http://kramster.it](http://kramster.it)
 
-## About
-Kramster is a quiz app for making exam preparation more fun. It works for all exams having multiple choice questions, where there is only one correct answer per question.
+Kramster is a quiz app for making exam preparation more fun. It works for all exams having multiple choice questions.
 
 ## API
-__DEPRECATION WARNING!__ There will be big changes to the API. See the branch [new-api](https://github.com/draperunner/Kramster/tree/new-api) for details.  
-The API has three parts: Questions, Reports and Stats. You can use the Questions part to get access to all the questions Kramster has to offer, and their answers. The Reports part is for getting the reports generated when a person has finished an exam. Use this for detailed analysis of how well the Kramster users do. Lastly, the Stats part is for getting some standard accumulated statistics based on the reports.
+The API has four parts: __Exams__, __Reports__, __Stats__, __List__. 
+You can use the Exams part to get access to all the questions Kramster has to offer, and their answers. 
+The Reports part is for getting the reports generated when a person has finished an exam. 
+Use this for detailed analysis of how well the Kramster users do. 
+The Stats part is for getting some standard accumulated statistics based on the reports. 
+The List part is for getting a string array of names of schools, courses or exams.
 
-### Questions
-The response from asking the Questions API will be in form of the following JSON object we'll call **Document**:
+### Exams
+
+#### Endpoints:
+```
+GET http://kramster.it/api/exams
+```
+Returns exams for all schools and courses.
+
+```
+GET http://kramster.it/api/exams/:school
+```
+Returns exams for a given school. School parameter can either be a
+full school name or an abbreviation.
+
+```
+GET http://kramster.it/api/exams/:school/:course
+```
+Returns exams for a given course at a given school. Course parameter can
+either be a full course name or a course code.
+
+```
+GET http://kramster.it/api/exams/:school/:course/:name
+```
+Returns a specific exam for a given course at a given school. Full name
+of exam must be given.
+
+#### Query Parameters
+All above endpoints can be given the following query parameters:
+
+| Key       | Allowed Values               | Default value/behavior (if omitted) | Description
+| ----------|:-----------------------------|:---------------------------|:---------------------------------------------------------
+| mode      | `tf`, `mc`                   | `tf,mc`                    | Returns True/False (tf) exams only, Multiple Choice (mc) only, or both.
+| shuffle   | `q`, `a`                     | `q,a`                      | Shuffles questions (q), their answers (a), or both. Comma-separated.
+| random    | `true`, `false`              | `false`                    | Picks a number of random questions from resulting set of exams. PS! See below for response.
+| numRandom | An integer >= 0              | 10                         | If random=true, this is the number of random questions to return.
+| sort      | `created`, `name`, `school`, `course` | `created` (chronologically) | Sort the result by one or more fields separated by commas. Put a - before a field for descending order.
+| limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number.
+
+#### Response
+The response from asking the Exams API will be an array containing objects of the following form that we'll call **Exam**:
 
 ```javascript
- {
-    _id: ObjectId,
-    school: String,
-    course: String,
-    name: String,
-    mode: String,
-    questions: [{
+[
+    {
+        _id: ObjectId,
+        school: String,
+        course: String,
+        name: String,
+        mode: String,
+        questions: [{
+            question: String,
+            options: [String],
+            answers: [Number]
+        }]
+    },
+    ...
+]
+```
+The **answers** array will contain the indexes of the correct answers in the **options** array.
+The questions might contain HTML. Images are base64 encoded and embedded in the question string as HTML img elements.
+Mathematical equations are embedded as MathJax equations.
+
+PS! If the `random` parameter is set to true, the response will only contain an array of question objects:
+```javascript
+[
+    {
         question: String,
         options: [String],
         answers: [Number]
-    }]
-}
+    },
+    ...
+]
 ```
-The **answers** array will contain the indices of the correct answers in the **options** array.
 
+#### Examples
+Return all exams from The Norwegian University of Science and Technology (NTNU):  
+[http://kramster.it/api/exams/ntnu](http://kramster.it/api/exams/ntnu)
 
-| Method | URL                                                             | Description                                                                 | Return        |
-| ------ |:----------------------------------------------------------------|:----------------------------------------------------------------------------|:--------------|
-| GET    | http://kramster.it/api/documents                                | Return all documents                                                        | [Document]
-| GET    | http://kramster.it/api/documents/:school                        | Return all documents of given school                                        | [Document]
-| GET    | http://kramster.it/api/documents/:school/:course                | Return all documents of given school and course                             | [Document]
-| GET    | http://kramster.it/api/documents/:school/:course/random/:number | Return a given number of random questions from given course of given school | [Document]
-| GET	 | http://kramster.it/api/documents/:school/:course/:document      | Return single document by school, course and document name                  | Document
-| GET    | http://kramster.it/api/list/schools                             | Return array of all distinct schools                                        | [String]
-| GET    | http://kramster.it/api/list/:school                             | Return array of all distinct courses at given school                        | [String]
-| GET    | http://kramster.it/api/list/:school/:course                     | Return array of all distinct documents at given school and course           | [String]
+Return True/False exams from The Norwegian University of Science and Technology (NTNU):  
+[http://kramster.it/api/exams/ntnu?mode=tf](http://kramster.it/api/exams/ntnu?mode=tf)
+
+Return 20 random questions from The Norwegian University of Science and Technology (NTNU):  
+[http://kramster.it/api/exams/ntnu?random=true&numRandom=20](http://kramster.it/api/exams/ntnu?random=true&numRandom=20)
 
 ### Reports
+
+#### Endpoints
+```
+GET http://kramster.it/api/reports
+```
+Returns reports for all schools and courses.
+
+```
+GET http://kramster.it/api/reports/:school
+```
+Returns reports for a given school. School parameter can either be a
+full school name or an abbreviation.
+
+```
+GET http://kramster.it/api/reports/:school/:course
+```
+Returns reports for a given course at a given school. Course parameter can
+either be a full course name or a course code.
+
+```
+GET http://kramster.it/api/reports/:school/:course/:name
+```
+Returns reports for a specific exam for a given course at a given school. Full name
+of exam must be given.
+
+#### Query Parameters
+The above endpoints can be given the following query parameters:
+
+| Key       | Allowed values               | Default value/behavior (if omitted) | Description                                      
+| ----------|:-----------------------------|:---------------------------|:---------------------------------------------------------
+| mode      | `tf`, `mc`                   | `tf,mc` (shuffles both)                | Returns reports from True/False (tf) exams only, Multiple Choice (mc) only, or both.
+| after     | A timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ` | No limitations | Returns reports created after this time.
+| before     | A timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ` | No limitations | Returns reports created before this time.
+| sort      | `created`, `score`, `numQuestions`, `percentage`, `grade` | `created` (chronologically) | Sort the result by one or more fields separated by commas. Put a - before a field for descending order.
+| limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number.
+
+#### Response
 The response from asking the Reports API will be in form of the following JSON object we'll call **Report**:
 
 ```javascript
@@ -56,17 +149,48 @@ The response from asking the Reports API will be in form of the following JSON o
     grade: String
 }
 ```
-The **answers** array will contain the indices of the correct answers in the **options** array.
+The **answers** array will contain the indexes of the correct answers in the **options** array.
 
-| Method | URL                                                      | Description                                                  | Return
-| ------ |:---------------------------------------------------------|:-------------------------------------------------------------|:--------
-| GET    | http://kramster.it/api/reports/                          | Return all reports                                           | [Report]
-| GET    | http://kramster.it/api/reports/:school                   | Return all reports of given school                           | [Report]
-| GET    | http://kramster.it/api/reports/:school/:course           | Return all reports of given school and course                | [Report]
-| GET	 | http://kramster.it/api/reports/:school/:course/:document | Return all reports of given school, course and document name | [Report]
+#### Examples
+Return all reports for The Norwegian University of Science and Technology (NTNU):  
+[http://kramster.it/api/reports/ntnu](http://kramster.it/api/reports/ntnu)
 
+Return the top ten reports for any exam:  
+[http://kramster.it/api/reports?sort=-percentage&limit=10](http://kramster.it/api/reports?sort=-percentage&limit=10)
+
+Return the best report for course TDT4136 at NTNU in 2015:  
+[http://kramster.it/api/reports/ntnu/tdt4136?sort=-percentage&limit=1&before=2016-01-01T00:00:00Z&after=2014-12-31T23:59:59Z](http://kramster.it/api/reports?sort=-percentage&limit=10)
 
 ### Stats
+#### Endpoints
+```
+GET http://kramster.it/api/stats
+```
+Returns stats for all schools and courses.
+
+```
+GET http://kramster.it/api/stats/:school
+```
+Returns stats for a given school. School parameter can either be a
+full school name or an abbreviation.
+
+```
+GET http://kramster.it/api/stats/:school/:course
+```
+Returns stats for a given course at a given school. Course parameter can
+either be a full course name or a course code.
+
+```
+GET http://kramster.it/api/stats/:school/:course/:name
+```
+Returns stats for a specific exam for a given course at a given school. Full name
+of exam must be given.
+
+
+#### Query Parameters
+There are no available parameters.
+
+#### Response
 The response from asking the Stats API will be in form of the following JSON object we'll call **Stats**:
 
 ```javascript
@@ -84,11 +208,45 @@ The response from asking the Stats API will be in form of the following JSON obj
     averageScore: Number
 }
 ```
-The **answers** array will contain the indices of the correct answers in the **options** array.
 
-| Method | URL                                                    | Description                                                         | Return
-| ------ |:-------------------------------------------------------|:--------------------------------------------------------------------|:------
-| GET    | http://kramster.it/api/stats/                          | Return stats for all reports                                        | Stats
-| GET    | http://kramster.it/api/stats/:school                   | Return stats for reports for given school                           | Stats
-| GET    | http://kramster.it/api/stats/:school/:course           | Return stats for reports for given school and course                | Stats
-| GET	 | http://kramster.it/api/stats/:school/:course/:document | Return stats for reports for given school, course and document name | Stats
+#### Examples
+Return stats for NTNU:  
+[http://kramster.it/api/stats/ntnu/](http://kramster.it/api/stats/ntnu)
+
+Return stats for course TDT4136 at NTNU:  
+[http://kramster.it/api/stats/ntnu/tdt4136](http://kramster.it/api/stats/ntnu/tdt4136)
+
+### List
+#### Endpoints
+```
+GET http://kramster.it/api/list/schools
+```
+Returns an array of all the (distinct) school names.
+```
+GET http://kramster.it/api/list/courses/:school
+```
+Returns an array of all the course names at a given school.
+```
+GET http://kramster.it/api/list/exams/:school/:course
+```
+Returns an array of all the names of the exams for a given course at
+a given school.
+
+#### Query Parameters
+There are no available parameters.
+
+#### Response
+The response is an array of strings:
+```javascript
+[String]
+```
+
+### Examples
+Return all existing schools  
+[http://kramster.it/api/list/schools](http://kramster.it/api/schools)
+
+Return all courses at NTNU:  
+[http://kramster.it/api/list/courses/ntnu](http://kramster.it/api/list/courses/ntnu)
+
+Return all exams for the course TDT4136 at NTNU:  
+[http://kramster.it/api/list/exams/ntnu/tdt4136](http://kramster.it/api/list/exams/ntnu/tdt4136)
