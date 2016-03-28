@@ -5,6 +5,7 @@ See it live here: [http://kramster.it](http://kramster.it)
 Kramster is a quiz app for making exam preparation more fun. It works for all exams having multiple choice questions, where there is only one correct answer per question.
 
 ## API
+__DEPRECATION WARNING!__ There will be big changes to the API. See the branch [new-api](draperunner/Kramster/tree/new-api) for details.  
 The API has three parts: Questions, Reports and Stats. You can use the Questions part to get access to all the questions Kramster has to offer, and their answers. The Reports part is for getting the reports generated when a person has finished an exam. Use this for detailed analysis of how well the Kramster users do. Lastly, the Stats part is for getting some standard accumulated statistics based on the reports.
 
 ### Questions
