@@ -11,7 +11,14 @@ Use this for detailed analysis of how well the Kramster users do.
 The Stats part is for getting some standard accumulated statistics based on the reports. 
 The List part is for getting a string array of names of schools, courses or exams.
 
-### Exams
+__Table of Contents__:
+* [Exams](#exams)
+* [Reports](#reports)
+* [Stats](#stats)
+* [List](#list)
+
+### Exams <a name="exams"/>
+An exam contains a bunch of questions and some meta data.
 
 #### Endpoints:
 ```
@@ -45,7 +52,7 @@ All above endpoints can be given the following query parameters:
 | mode      | `tf`, `mc`                   | `tf,mc`                    | Returns True/False (tf) exams only, Multiple Choice (mc) only, or both.
 | shuffle   | `q`, `a`                     | `q,a`                      | Shuffles questions (q), their answers (a), or both. Comma-separated.
 | random    | `true`, `false`              | `false`                    | Picks a number of random questions from resulting set of exams. PS! See below for response.
-| numRandom | An integer >= 0              | 10                         | If random=true, this is the number of random questions to return.
+| numRandom | An integer >= 0              | `10`                       | If random=true, this is the number of random questions to return.
 | sort      | `created`, `name`, `school`, `course` | `created` (chronologically) | Sort the result by one or more fields separated by commas. Put a - before a field for descending order.
 | limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number.
 
@@ -95,7 +102,8 @@ Return True/False exams from The Norwegian University of Science and Technology 
 Return 20 random questions from The Norwegian University of Science and Technology (NTNU):  
 [http://kramster.it/api/exams/ntnu?random=true&numRandom=20](http://kramster.it/api/exams/ntnu?random=true&numRandom=20)
 
-### Reports
+### Reports <a name="reports"/>
+When a user finishes an exam on Kramster, the results are saved as a Report.
 
 #### Endpoints
 ```
@@ -161,7 +169,9 @@ Return the top ten reports for any exam:
 Return the best report for course TDT4136 at NTNU in 2015:  
 [http://kramster.it/api/reports/ntnu/tdt4136?sort=-percentage&limit=1&before=2016-01-01T00:00:00Z&after=2014-12-31T23:59:59Z](http://kramster.it/api/reports?sort=-percentage&limit=10)
 
-### Stats
+### Stats <a name="stats"/>
+Accumulated statistics for one or multiple exams based on reports.
+
 #### Endpoints
 ```
 GET http://kramster.it/api/stats
@@ -216,7 +226,7 @@ Return stats for NTNU:
 Return stats for course TDT4136 at NTNU:  
 [http://kramster.it/api/stats/ntnu/tdt4136](http://kramster.it/api/stats/ntnu/tdt4136)
 
-### List
+### List <a name="list"/>
 #### Endpoints
 ```
 GET http://kramster.it/api/list/schools
