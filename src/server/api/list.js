@@ -39,7 +39,7 @@ router.get('/courses/:school', function (req, res) {
 
 // Return list of all exams at a given school and course
 router.get('/exams/:school/:course', function (req, res) {
-    Validator.validate(req.params.school, req.params.course, function (isValid, validSchool, validCourse) {
+    Validator.validate(req.params.school, req.params.course, null, function (isValid, validSchool, validCourse) {
         if (!isValid) {
             res.status(404).send('404: No course called "' + req.params.course + '" at school "' + req.params.school + '".');
             return;
