@@ -51,10 +51,9 @@ All above endpoints can be given the following query parameters:
 | ----------|:-----------------------------|:---------------------------|:---------------------------------------------------------
 | mode      | `tf`, `mc`                   | `tf,mc`                    | Returns True/False (tf) exams only, Multiple Choice (mc) only, or both.
 | shuffle   | `q`, `a`                     | `q,a`                      | Shuffles questions (q), their answers (a), or both. Comma-separated.
-| random    | `true`, `false`              | `false`                    | Picks a number of random questions from resulting set of exams. PS! See below for response.
-| numRandom | An integer >= 0              | `10`                       | If random=true, this is the number of random questions to return.
+| random    | `true`, `false`              | `false`                    | Picks a number of random questions (10, unless limit is set) from resulting set of exams. PS! See below for response.
 | sort      | `created`, `name`, `school`, `course` | `created` (chronologically) | Sort the result by one or more fields separated by commas. Put a - before a field for descending order.
-| limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number.
+| limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number. If random=true, this is the number of random questions to return.
 
 #### Response
 The response from asking the Exams API will be an array containing objects of the following form that we'll call **Exam**:
