@@ -4,7 +4,7 @@
 
 var express = require('express');
 var router = express.Router();
-var Validate = require('./Validate');
+var Validator = require('./Validator');
 
 // Model
 var Exam = require('../models/exam');
@@ -22,8 +22,8 @@ router.get('/schools', function(req, res) {
 
 // Return list of all courses at a given school
 router.get('/courses/:school', function (req, res) {
-    Validate.school(req.params.school, function (valid, validSchool) {
-        if (!valid) {
+    Validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+        if (!isValid) {
             res.status(404).send('404: No school called "' + req.params.school + '".');
             return;
         }
@@ -39,24 +39,17 @@ router.get('/courses/:school', function (req, res) {
 
 // Return list of all exams at a given school and course
 router.get('/exams/:school/:course', function (req, res) {
-    Validate.school(req.params.school, function (valid, validSchool) {
-        if (!valid) {
-            res.status(404).send('404: No school called "' + req.params.school + '".');
+    Validator.validate(req.params.school, req.params.course, function (isValid, validSchool, validCourse) {
+        if (!isValid) {
+            res.status(404).send('404: No course called "' + req.params.course + '" at school "' + req.params.school + '".');
             return;
         }
-        Validate.course(req.params.course, function (valid, validCourse) {
-            if (!valid) {
-                res.status(404).send('404: No course called "' + req.params.course + '".');
+        Exam.find({school: validSchool, course: validCourse}).distinct('name', function(err, docs) {
+            if (err) {
+                res.status(500).send("Something went wrong.");
                 return;
             }
-            Exam.find({school: validSchool, course: validCourse}).distinct('name', function(err, docs) {
-                if (err) {
-                    res.status(500).send("Something went wrong.");
-                    return;
-                }
-                res.json(docs);
-            });
-
+            res.json(docs);
         });
     });
 });
