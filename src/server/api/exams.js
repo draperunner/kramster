@@ -5,72 +5,108 @@
 var express = require('express');
 var router = express.Router();
 
-// Model
-var Document = require('../models/document');
+var Validator = require('./Validator');
+var Exam = require('../models/exam');
 
-/**
- * API routing for Kramster!
- */
+var getRandomQuestionsFromExams = function (exams, numberOfQuestions) {
+    // Merge all questions from resulting exams to one array
+    var questions = [];
+    for (var i = 0; i < exams.length; i++) {
+        questions = questions.concat(exams[i]['questions']);
+    }
 
-// TODO: Not hardcode this
-var schoolAbbs = {
-    ntnu: 'Norges Teknisk-Naturvitenskaplige Universitet (NTNU)',
+    var n = Math.min(questions.length, numberOfQuestions);
+
+    // Randomly pick questions from questions array and put in random_questions array.
+    var random_questions = [];
+    for (var j = 0; j < n; j++) {
+        var random_index = Math.floor(Math.random() * questions.length);
+        random_questions.push(questions[random_index]);
+        questions.splice(random_index, 1);
+    }
+    return random_questions;
 };
 
-var courseCodes = {
-    tdt4136: 'TDT4136 Introduction to Artificial Intelligence',
-};
+var handleExamsQuery = function (queryObject, reqQuery, res) {
 
-router.get('/documents', function(req, res) {
-
-    console.log(req.query);
-
-    // MongoDB query object
-    var query = {};
-
-    if (req.query.school) {
-        query.school = (schoolAbbs.hasOwnProperty(req.query.school)) ? schoolAbbs[req.query.school] : req.query.school;
-    }
-    if (req.query.course) {
-        query.course = (courseCodes.hasOwnProperty(req.query.course)) ? courseCodes[req.query.course] : req.query.course;
-    }
-    if (req.query.document) {
-        query.name = req.query.document;
+    // Handle mode parameter
+    if (reqQuery.mode) {
+        var lower = reqQuery.mode.toLowerCase();
+        if (lower === 'tf') {
+            queryObject.mode = 'TF';
+        }
+        else if (lower === 'mc') {
+            queryObject.mode = 'MC';
+        }
     }
 
-    Document.find(query, function(err, docs) {
+    // Generate query
+    var query = Exam.find(queryObject);
 
-        // Return a given number of random questions from given course of given school
-        if (req.query.random) {
-            var numberOfQuestions = req.query.randomNumber ? req.query.randomNumber : 10;
-            var questions = [];
+    /*
+    // TODO: Sort
+    if (req.query.sort) {
+        query = query.sort();
+    }
+    */
 
-            for (var i = 0; i < docs.length; i++) {
-                questions = questions.concat(docs[i]['questions']);
-            }
+    // Limit exams (if not random=true)
+    if (reqQuery.random !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
+        query = query.limit(Number(reqQuery.limit));
+    }
 
-            var n = Math.min(questions.length, parseInt(numberOfQuestions));
-
-            var random_questions = [];
-            for (var j = 0; j < n; j++) {
-                var random_index = Math.floor(Math.random() * questions.length);
-                random_questions.push(questions[random_index]);
-                questions.splice(random_index, 1);
-            }
-            res.json(random_questions);
+    // Execute query
+    query.exec(function (err, exams) {
+        if (err) {
+            res.status(500).send("500: Something went wrong.");
             return;
         }
 
-        res.json(docs);
+        if (reqQuery.random !== true) {
+            // TODO: Shuffle
+            console.log(queryObject);
+            res.json(exams);
+        }
+
+        else if (reqQuery.random === 'true') {
+            var numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
+            res.json(getRandomQuestionsFromExams(exams, numberOfQuestions));
+        }
+    });
+
+};
+
+router.get('/exams', function(req, res) {
+    handleExamsQuery({}, req.query, res);
+});
+
+router.get('/exams/:school', function(req, res) {
+    Validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+        if (!isValid) {
+            res.status(404).send('404: No school called "' + req.params.school + '".');
+            return;
+        }
+        handleExamsQuery({school: validSchool}, req.query, res);
     });
 });
 
-// Return list of all distinct schools, courses or document names
-router.get('/:item/list', function(req, res) {
-    var item = req.params.item.substring(0, req.params.item.length - 1);
-    if (item === 'document') item = 'name';
-    Document.distinct(item, req.query, function(err, docs) {
-        res.json(docs);
+router.get('/exams/:school/:course', function(req, res) {
+    Validator.validate(req.params.school, req.params.course, null, function (isValid, validSchool, validCourse) {
+        if (!isValid) {
+            res.status(404).send('404: No course called "' + req.params.course + '" at school "' + req.params.school + '".');
+            return;
+        }
+        handleExamsQuery({school: validSchool, course: validCourse}, req.query, res);
+    });
+});
+
+router.get('/exams/:school/:course/:exam', function(req, res) {
+    Validator.validate(req.params.school, req.params.course, req.params.exam, function (isValid, validSchool, validCourse, validExam) {
+        if (!isValid) {
+            res.status(404).send('404: No exam called "' + req.params.exam + '" for course "' + req.params.course + '" at school "' + req.params.school + '".');
+            return;
+        }
+        handleExamsQuery({school: validSchool, course: validCourse, name: validExam}, req.query, res);
     });
 });
 
