@@ -18,9 +18,10 @@ app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api', require('./routes/api'));
-app.use('/api/reports', require('./routes/reports'));
-app.use('/api/stats', require('./routes/stats'));
+app.use('/api', require('./api/exams'));
+app.use('/api/reports', require('./api/reports'));
+app.use('/api/stats', require('./api/stats'));
+app.use('/api/list', require('./api/list'));
 
 app.use(function(req, res) {
     res.sendFile(path.resolve(__dirname + '/../client/index.html'));
