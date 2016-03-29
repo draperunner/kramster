@@ -5,7 +5,7 @@
 var mongoose = require('mongoose');
 
 // Schema
-var documentSchema = new mongoose.Schema({
+var examSchema = new mongoose.Schema({
     _id: mongoose.Schema.ObjectId,
     school: String,
     course: String,
@@ -18,4 +18,4 @@ var documentSchema = new mongoose.Schema({
     }]
 });
 
-module.exports = mongoose.model('Document', documentSchema);
+module.exports = mongoose.model('Exam', examSchema);
