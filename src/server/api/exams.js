@@ -11,96 +11,105 @@ var errors = require('./../utils/errors');
 var Exam = require('../models/exam');
 
 var getRandomQuestionsFromExams = function (exams, numberOfQuestions) {
-    // Merge all questions from resulting exams to one array
-    var questions = [];
-    for (var i = 0; i < exams.length; i++) {
-        questions = questions.concat(exams[i].questions);
-    }
+  // Merge all questions from resulting exams to one array
+  var questions = [];
+  for (var i = 0; i < exams.length; i++) {
+    questions = questions.concat(exams[i].questions);
+  }
 
-    var n = Math.min(questions.length, numberOfQuestions);
+  var n = Math.min(questions.length, numberOfQuestions);
 
-    // Randomly pick questions from questions array and put in random_questions array.
-    var random_questions = [];
-    for (var j = 0; j < n; j++) {
-        var random_index = Math.floor(Math.random() * questions.length);
-        random_questions.push(questions[random_index]);
-        questions.splice(random_index, 1);
-    }
-    return random_questions;
+  // Randomly pick questions from questions array and put in random_questions array.
+  var randomQuestions = [];
+  for (var j = 0; j < n; j++) {
+    var randomIndex = Math.floor(Math.random() * questions.length);
+    randomQuestions.push(questions[randomIndex]);
+    questions.splice(randomIndex, 1);
+  }
+
+  return randomQuestions;
 };
 
 var handleExamsQuery = function (queryObject, reqQuery, res) {
 
-    // Handle mode parameter
-    if (reqQuery.mode) {
-        var lower = reqQuery.mode.toLowerCase();
-        if (lower === 'tf') {
-            queryObject.mode = 'TF';
-        }
-        else if (lower === 'mc') {
-            queryObject.mode = 'MC';
-        }
+  // Handle mode parameter
+  if (reqQuery.mode) {
+    var lower = reqQuery.mode.toLowerCase();
+    if (lower === 'tf') {
+      queryObject.mode = 'TF';
+    }    else if (lower === 'mc') {
+      queryObject.mode = 'MC';
+    }
+  }
+
+  // Generate query
+  var query = Exam.find(queryObject);
+
+  /*
+  // TODO: Sort
+  if (req.query.sort) {
+      query = query.sort();
+  }
+  */
+
+  // Limit exams (if not random=true)
+  if (reqQuery.random !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
+    query = query.limit(Number(reqQuery.limit));
+  }
+
+  // Execute query
+  query.exec(function (err, exams) {
+    if (err) {
+      res.status(500).send('500: Something went wrong.');
+      return;
     }
 
-    // Generate query
-    var query = Exam.find(queryObject);
-
-    /*
-    // TODO: Sort
-    if (req.query.sort) {
-        query = query.sort();
+    if (reqQuery.random !== true) {
+      helpers.handleShuffle(exams, reqQuery.shuffle);
+      res.json(exams);
+    }    else if (reqQuery.random === 'true') {
+      var numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
+      var questions = getRandomQuestionsFromExams(exams, numberOfQuestions);
+      helpers.handleShuffle([{ questions: questions }], reqQuery.shuffle);
+      res.json(questions);
     }
-    */
-
-    // Limit exams (if not random=true)
-    if (reqQuery.random !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
-        query = query.limit(Number(reqQuery.limit));
-    }
-
-    // Execute query
-    query.exec(function (err, exams) {
-        if (err) {
-            res.status(500).send("500: Something went wrong.");
-            return;
-        }
-
-        if (reqQuery.random !== true) {
-            helpers.handleShuffle(exams, reqQuery.shuffle);
-            res.json(exams);
-        }
-
-        else if (reqQuery.random === 'true') {
-            var numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
-            var questions = getRandomQuestionsFromExams(exams, numberOfQuestions);
-            helpers.handleShuffle([{questions: questions}], reqQuery.shuffle);
-            res.json(questions);
-        }
-    });
+  });
 
 };
 
-router.get('/exams', function(req, res) {
-    handleExamsQuery({}, req.query, res);
+router.get('/exams', function (req, res) {
+  handleExamsQuery({}, req.query, res);
 });
 
-router.get('/exams/:school', function(req, res) {
-    validator.validate(req.params.school, null, null, function (isValid, validSchool) {
-        if (!isValid) return errors.noSchoolFound(res, req.params.school);
-        handleExamsQuery({school: validSchool}, req.query, res);
+router.get('/exams/:school', function (req, res) {
+  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+    if (!isValid) return errors.noSchoolFound(res, req.params.school);
+    handleExamsQuery({ school: validSchool }, req.query, res);
+  });
+});
+
+router.get('/exams/:school/:course', function (req, res) {
+  validator.validate(req.params.school, req.params.course, null,
+    function (isValid, validSchool, validCourse) {
+      if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
+      handleExamsQuery({ school: validSchool, course: validCourse }, req.query, res);
     });
 });
 
-router.get('/exams/:school/:course', function(req, res) {
-    validator.validate(req.params.school, req.params.course, null, function (isValid, validSchool, validCourse) {
-        if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-        handleExamsQuery({school: validSchool, course: validCourse}, req.query, res);
-    });
-});
+router.get('/exams/:school/:course/:exam', function (req, res) {
+  validator.validate(req.params.school, req.params.course, req.params.exam,
+    function (isValid, validSchool, validCourse, validExam) {
+      if (!isValid) {
+        return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
+      }
 
-router.get('/exams/:school/:course/:exam', function(req, res) {
-    validator.validate(req.params.school, req.params.course, req.params.exam, function (isValid, validSchool, validCourse, validExam) {
-        if (!isValid) return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
-        handleExamsQuery({school: validSchool, course: validCourse, name: validExam}, req.query, res);
+      handleExamsQuery(
+        {
+          school: validSchool,
+          course: validCourse,
+          name: validExam,
+        },
+        req.query, res);
     });
 });
 
