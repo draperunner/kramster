@@ -5,14 +5,16 @@
 var express = require('express');
 var router = express.Router();
 
-var Validator = require('./Validator');
+var validator = require('./../utils/validator');
+var helpers = require('./../utils/helpers');
+var errors = require('./../utils/errors');
 var Exam = require('../models/exam');
 
 var getRandomQuestionsFromExams = function (exams, numberOfQuestions) {
     // Merge all questions from resulting exams to one array
     var questions = [];
     for (var i = 0; i < exams.length; i++) {
-        questions = questions.concat(exams[i]['questions']);
+        questions = questions.concat(exams[i].questions);
     }
 
     var n = Math.min(questions.length, numberOfQuestions);
@@ -63,14 +65,15 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
         }
 
         if (reqQuery.random !== true) {
-            // TODO: Shuffle
-            console.log(queryObject);
+            helpers.handleShuffle(exams, reqQuery.shuffle);
             res.json(exams);
         }
 
         else if (reqQuery.random === 'true') {
             var numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
-            res.json(getRandomQuestionsFromExams(exams, numberOfQuestions));
+            var questions = getRandomQuestionsFromExams(exams, numberOfQuestions);
+            helpers.handleShuffle([{questions: questions}], reqQuery.shuffle);
+            res.json(questions);
         }
     });
 
@@ -81,31 +84,22 @@ router.get('/exams', function(req, res) {
 });
 
 router.get('/exams/:school', function(req, res) {
-    Validator.validate(req.params.school, null, null, function (isValid, validSchool) {
-        if (!isValid) {
-            res.status(404).send('404: No school called "' + req.params.school + '".');
-            return;
-        }
+    validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+        if (!isValid) return errors.noSchoolFound(res, req.params.school);
         handleExamsQuery({school: validSchool}, req.query, res);
     });
 });
 
 router.get('/exams/:school/:course', function(req, res) {
-    Validator.validate(req.params.school, req.params.course, null, function (isValid, validSchool, validCourse) {
-        if (!isValid) {
-            res.status(404).send('404: No course called "' + req.params.course + '" at school "' + req.params.school + '".');
-            return;
-        }
+    validator.validate(req.params.school, req.params.course, null, function (isValid, validSchool, validCourse) {
+        if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
         handleExamsQuery({school: validSchool, course: validCourse}, req.query, res);
     });
 });
 
 router.get('/exams/:school/:course/:exam', function(req, res) {
-    Validator.validate(req.params.school, req.params.course, req.params.exam, function (isValid, validSchool, validCourse, validExam) {
-        if (!isValid) {
-            res.status(404).send('404: No exam called "' + req.params.exam + '" for course "' + req.params.course + '" at school "' + req.params.school + '".');
-            return;
-        }
+    validator.validate(req.params.school, req.params.course, req.params.exam, function (isValid, validSchool, validCourse, validExam) {
+        if (!isValid) return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
         handleExamsQuery({school: validSchool, course: validCourse, name: validExam}, req.query, res);
     });
 });
