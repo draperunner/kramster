@@ -15,6 +15,10 @@ var errorMessages = {
     res.status(404).send('404: No exam called "' + exam + '" for course "' +
         course + '" at school "' + school + '".');
   },
+
+  somethingWentWrong: function (res) {
+    res.status(500).send('500: Something went wrong.');
+  },
 };
 
 module.exports = errorMessages;

@@ -130,3 +130,24 @@ exports.validate = function (school, course, exam, callback) {
     validateSchool(school, callback);
   }
 };
+
+exports.validateSortParameter = function (sortParameter, callback) {
+  if (!sortParameter) {
+    callback(true, { _id: 1 });
+    return;
+  }
+
+  const validParams = ['created', 'school', 'course', 'name'];
+  var sortObject = {};
+  var isValid = true;
+
+  if (validParams.indexOf(sortParameter) > -1) {
+    sortObject[sortParameter] = 1;
+  } else if (sortParameter[0] === '-' && validParams.indexOf(sortParameter.substring(1)) > -1) {
+    sortObject[sortParameter.substring(1) === 'created' ? '_id' : sortParameter.substring(1)] = -1;
+  } else {
+    isValid = false;
+  }
+
+  callback(isValid, sortObject);
+};
