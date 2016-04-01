@@ -45,12 +45,10 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
   // Generate query
   var query = Exam.find(queryObject);
 
-  /*
-  // TODO: Sort
-  if (req.query.sort) {
-      query = query.sort();
-  }
-  */
+  // Sort
+  validator.validateSortParameter(reqQuery.sort, function (isValid, sortObject) {
+    if (isValid) query = query.sort(sortObject);
+  });
 
   // Limit exams (if not random=true)
   if (reqQuery.random !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
@@ -59,10 +57,7 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
 
   // Execute query
   query.exec(function (err, exams) {
-    if (err) {
-      res.status(500).send('500: Something went wrong.');
-      return;
-    }
+    if (err) return errors.somethingWentWrong(res);
 
     if (reqQuery.random !== true) {
       helpers.handleShuffle(exams, reqQuery.shuffle);
