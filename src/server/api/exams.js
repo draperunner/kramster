@@ -37,7 +37,7 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
     var lower = reqQuery.mode.toLowerCase();
     if (lower === 'tf') {
       queryObject.mode = 'TF';
-    }    else if (lower === 'mc') {
+    } else if (lower === 'mc') {
       queryObject.mode = 'MC';
     }
   }
@@ -62,7 +62,7 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
     if (reqQuery.random !== true) {
       helpers.handleShuffle(exams, reqQuery.shuffle);
       res.json(exams);
-    }    else if (reqQuery.random === 'true') {
+    } else if (reqQuery.random === 'true') {
       var numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
       var questions = getRandomQuestionsFromExams(exams, numberOfQuestions);
       helpers.handleShuffle([{ questions: questions }], reqQuery.shuffle);
