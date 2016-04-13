@@ -5,6 +5,7 @@
 var express = require('express');
 var router = express.Router();
 
+var validator = require('./../utils/validator');
 var Report = require('../models/report');
 
 // Return aggregated statistics for all reports
@@ -16,34 +17,46 @@ router.get('/', function (req, res) {
 
 // Return aggregated statistics for a given school
 router.get('/:school', function (req, res) {
-  Report.find({ 'document.school': req.params.school.replace(/_/g, ' ') }, function (err, reports) {
-    buildStats(err, reports, res);
+  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+    if (!isValid) return errors.noSchoolFound(res, req.params.school);
+    Report.find({ 'document.school': validSchool }, function (err, reports) {
+      buildStats(err, reports, res);
+    });
   });
 });
 
 // Return aggregated statistics for a given course
 router.get('/:school/:course', function (req, res) {
-  Report.find({
-    'document.school': req.params.school.replace(/_/g, ' '),
-    'document.course': req.params.course.replace(/_/g, ' '),
-  },
+  validator.validate(req.params.school, req.params.course, null,
+    function (isValid, validSchool, validCourse) {
+      if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
+      Report.find({ 'document.school': validSchool, 'document.course': validCourse, },
         function (err, reports) {
           buildStats(err, reports, res);
         }
-    );
+      );
+    });
 });
 
 // Return aggregated statistics for a given document
-router.get('/:school/:course/:document', function (req, res) {
-  Report.find({
-    'document.school': req.params.school.replace(/_/g, ' '),
-    'document.course': req.params.course.replace(/_/g, ' '),
-    'document.documentName': req.params.document.replace(/_/g, ' '),
-  },
+router.get('/:school/:course/:exam', function (req, res) {
+  validator.validate(req.params.school, req.params.course, req.params.exam,
+    function (isValid, validSchool, validCourse, validExam) {
+      if (!isValid) {
+        return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
+      }
+
+      Report.find(
+        {
+          'document.school': validSchool,
+          'document.course': validCourse,
+          'document.documentName': validExam,
+        },
         function (err, reports) {
           buildStats(err, reports, res);
         }
-    );
+      );
+    });
 });
 
 // Function for building stats from an array of reports
