@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api', require('./api/exams'));
+app.use('/api/exams', require('./api/exams'));
 app.use('/api/reports', require('./api/reports'));
 app.use('/api/stats', require('./api/stats'));
 app.use('/api/list', require('./api/list'));

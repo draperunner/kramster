@@ -72,18 +72,18 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
 
 };
 
-router.get('/exams', function (req, res) {
+router.get('/', function (req, res) {
   handleExamsQuery({}, req.query, res);
 });
 
-router.get('/exams/:school', function (req, res) {
+router.get('/:school', function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
     handleExamsQuery({ school: validSchool }, req.query, res);
   });
 });
 
-router.get('/exams/:school/:course', function (req, res) {
+router.get('/:school/:course', function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
@@ -91,7 +91,7 @@ router.get('/exams/:school/:course', function (req, res) {
     });
 });
 
-router.get('/exams/:school/:course/:exam', function (req, res) {
+router.get('/:school/:course/:exam', function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
     function (isValid, validSchool, validCourse, validExam) {
       if (!isValid) {
