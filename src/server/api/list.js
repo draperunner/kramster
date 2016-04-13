@@ -25,17 +25,10 @@ router.get('/schools', function (req, res) {
 // Return list of all courses at a given school
 router.get('/courses/:school', function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
-    if (!isValid) {
-      res.status(404).send('404: No school called "' + req.params.school + '".');
-      return;
-    }
+    if (!isValid) return errors.noSchoolFound(res, req.params.school);
 
     Exam.find({ school: validSchool }).distinct('course', function (err, docs) {
-      if (err) {
-        res.status(500).send('Something went wrong.');
-        return;
-      }
-
+      if (err) return errors.somethingWentWrong(res);
       res.json(docs);
     });
   });
@@ -49,11 +42,7 @@ router.get('/exams/:school/:course', function (req, res) {
 
       Exam.find({ school: validSchool, course: validCourse }).distinct('name',
         function (err, docs) {
-          if (err) {
-            res.status(500).send('Something went wrong.');
-            return;
-          }
-
+          if (err) return errors.somethingWentWrong(res);
           res.json(docs);
         });
     });
