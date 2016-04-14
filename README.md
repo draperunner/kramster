@@ -133,11 +133,15 @@ The above endpoints can be given the following query parameters:
 
 | Key       | Allowed values               | Default value/behavior (if omitted) | Description                                      
 | ----------|:-----------------------------|:---------------------------|:---------------------------------------------------------
-| mode      | `tf`, `mc`                   | `tf,mc` (shuffles both)                | Returns reports from True/False (tf) exams only, Multiple Choice (mc) only, or both.
+| mode      | `tf`, `mc`                   | `tf,mc`                | Returns reports from True/False (tf) exams only, Multiple Choice (mc) only, or both.
 | after     | A timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ` | No limitations | Returns reports created after this time.
 | before     | A timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ` | No limitations | Returns reports created before this time.
 | sort      | `created`, `score`, `numQuestions`, `percentage`, `grade` | `created` (chronologically) | Sort the result by one or more fields separated by commas. Put a - before a field for descending order.
 | limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number.
+| TODO: score      | <, >, or = an integer | No limitations | Return only reports with score less than, greater than or equal to this integer.
+| TODO: numQuestions | <, >, or = an integer | No limitations | Return only reports with a number of questions less than, greater than or equal to this integer.
+| TODO: percentage | <, >, or = a decimal number | No limitations | Return only reports with a number of questions less than, greater than or equal to this number.
+| TODO: grade | <, >, or = a letter grade from A to F | No limitations | Return only reports with a grade worse than, better than or equal to this case-insensitive letter.
 
 #### Response
 The response from asking the Reports API will be in form of the following JSON object we'll call **Report**:
@@ -145,10 +149,10 @@ The response from asking the Reports API will be in form of the following JSON o
 ```javascript
 {
     _id: ObjectId,
-    document: {
+    document: { // TODO: Rename to 'exam'
         school: String,
         course: String,
-        documentName: String
+        documentName: String // TODO: Rename to 'name'
     },
     score: Number,
     numQuestions: Number,
