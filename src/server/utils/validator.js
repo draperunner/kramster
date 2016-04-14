@@ -122,6 +122,31 @@ var validateExam = function (school, course, exam, callback) {
   });
 };
 
+var validateSortParameter = function (validParams, sortParameter, callback) {
+  if (!sortParameter) {
+    callback(true, { _id: 1 });
+    return;
+  }
+
+  var sortObject = {};
+  var isValid = true;
+
+  var sortItems = sortParameter.split(',');
+
+  for (var i = 0; i < sortItems.length; i++) {
+    if (validParams.indexOf(sortItems[i]) > -1) {
+      sortObject[sortItems[i]] = 1;
+    } else if (sortItems[i][0] === '-' && validParams.indexOf(sortItems[i].substring(1)) > -1) {
+      sortObject[sortItems[i].substring(1) === 'created' ? '_id' : sortItems[i].substring(1)] = -1;
+    } else {
+      isValid = false;
+    }
+  }
+
+  console.log("sortObject", sortObject);
+  callback(isValid, sortObject);
+};
+
 exports.validate = function (school, course, exam, callback) {
   if (school && course && exam) {
     validateExam(school, course, exam, callback);
@@ -132,25 +157,14 @@ exports.validate = function (school, course, exam, callback) {
   }
 };
 
-exports.validateSortParameter = function (sortParameter, callback) {
-  if (!sortParameter) {
-    callback(true, { _id: 1 });
-    return;
-  }
+exports.validateExamsSortParameter = function (sortParameter, callback) {
+  var valids = ['created', 'school', 'course', 'name'];
+  validateSortParameter(valids, sortParameter, callback);
+};
 
-  const validParams = ['created', 'school', 'course', 'name'];
-  var sortObject = {};
-  var isValid = true;
-
-  if (validParams.indexOf(sortParameter) > -1) {
-    sortObject[sortParameter] = 1;
-  } else if (sortParameter[0] === '-' && validParams.indexOf(sortParameter.substring(1)) > -1) {
-    sortObject[sortParameter.substring(1) === 'created' ? '_id' : sortParameter.substring(1)] = -1;
-  } else {
-    isValid = false;
-  }
-
-  callback(isValid, sortObject);
+exports.validateReportsSortParameter = function (sortParameter, callback) {
+  var val = ['created', 'school', 'course', 'name', 'score', 'numQuestions', 'percentage', 'grade'];
+  validateSortParameter(val, sortParameter, callback);
 };
 
 exports.validateDate = function (dateParameter, callback) {

@@ -46,7 +46,7 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
   var query = Exam.find(queryObject);
 
   // Sort
-  validator.validateSortParameter(reqQuery.sort, function (isValid, sortObject) {
+  validator.validateExamsSortParameter(reqQuery.sort, function (isValid, sortObject) {
     if (isValid) query = query.sort(sortObject);
   });
 

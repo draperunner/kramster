@@ -25,37 +25,41 @@ var handleReportsQuery = function (queryObject, reqQuery, res) {
   // After
   var afterParamIsValid = false;
   validator.validateDate(reqQuery.after, function (isValid, validDateAsObjectId) {
+    if (!isValid) return;
     if (!queryObject._id) queryObject._id = {};
-    if (isValid) queryObject._id.$gt = validDateAsObjectId;
-    afterParamIsValid = typeof reqQuery.after === 'undefined' || isValid;
+    queryObject._id.$gt = validDateAsObjectId;
+    afterParamIsValid = true;
   });
 
-  if (!afterParamIsValid) return errors.invalidDate(res, reqQuery.after);
+  if (!afterParamIsValid && typeof reqQuery.after !== 'undefined') {
+    return errors.invalidDate(res, reqQuery.after);
+  }
 
   // Before
   var beforeParamIsValid = false;
   validator.validateDate(reqQuery.before, function (isValid, validDateAsObjectId) {
+    if (!isValid) return;
     if (!queryObject._id) queryObject._id = {};
-    if (isValid) queryObject._id.$lt = validDateAsObjectId;
-    beforeParamIsValid = typeof reqQuery.before === 'undefined' || isValid;
+    queryObject._id.$lt = validDateAsObjectId;
+    beforeParamIsValid = true;
   });
 
-  if (!beforeParamIsValid) return errors.invalidDate(res, reqQuery.before);
+  if (!beforeParamIsValid && typeof reqQuery.before !== 'undefined') {
+    return errors.invalidDate(res, reqQuery.before);
+  }
 
   // Generate query
   var query = Report.find(queryObject);
 
   // Sort
-  validator.validateSortParameter(reqQuery.sort, function (isValid, sortObject) {
+  validator.validateReportsSortParameter(reqQuery.sort, function (isValid, sortObject) {
     if (isValid) query = query.sort(sortObject);
   });
 
-  // Limit exams (if not random=true)
-  if (reqQuery.random !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
+  // Limit reports
+  if (reqQuery.limit && Number(reqQuery.limit) > 0) {
     query = query.limit(Number(reqQuery.limit));
   }
-
-  console.log(queryObject);
 
   // Execute query
   query.exec(function (err, reports) {
@@ -75,7 +79,7 @@ router.get('/', function (req, res) {
 router.get('/:school', function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    handleReportsQuery({ school: validSchool }, req.query, res);
+    handleReportsQuery({ 'document.school': validSchool }, req.query, res);
   });
 });
 
@@ -84,7 +88,11 @@ router.get('/:school/:course', function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      handleReportsQuery({ school: validSchool, course: validCourse }, req.query, res);
+      handleReportsQuery(
+        {
+          'document.school': validSchool,
+          'document.course': validCourse,
+        }, req.query, res);
     });
 });
 
@@ -98,11 +106,10 @@ router.get('/:school/:course/:exam', function (req, res) {
 
       handleReportsQuery(
         {
-          school: validSchool,
-          course: validCourse,
-          name: validExam,
-        },
-        req.query, res);
+          'document.school': validSchool,
+          'document.course': validCourse,
+          'document.name': validExam,
+        }, req.query, res);
     });
 });
 
