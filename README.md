@@ -96,6 +96,8 @@ When a user finishes an exam on Kramster, the results are saved as a Report.
 | `GET http://kramster.it/api/reports/:school/:course` | A given course at a given school. Course parameter can either be a full course name or a course code.
 | `GET http://kramster.it/api/reports/:school/:course/:exam` | A specific exam for a given course at a given school. Full name of exam must be given.
 
+PS! In addition to a valid exam name, the `:exam` parameter can also be `random` or `all`.
+
 #### Query Parameters
 The above endpoints can be given the following query parameters:
 
