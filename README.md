@@ -21,28 +21,12 @@ __Table of Contents__:
 An exam contains a bunch of questions and some meta data.
 
 #### Endpoints:
-```
-GET http://kramster.it/api/exams
-```
-Returns exams for all schools and courses.
-
-```
-GET http://kramster.it/api/exams/:school
-```
-Returns exams for a given school. School parameter can either be a
-full school name or an abbreviation.
-
-```
-GET http://kramster.it/api/exams/:school/:course
-```
-Returns exams for a given course at a given school. Course parameter can
-either be a full course name or a course code.
-
-```
-GET http://kramster.it/api/exams/:school/:course/:name
-```
-Returns a specific exam for a given course at a given school. Full name
-of exam must be given.
+| Endpoint       | Returns exams for...
+| ---------------|:------------
+| `GET http://kramster.it/api/exams` | All schools and courses.
+| `GET http://kramster.it/api/exams/:school` | A given school. School parameter can either be a full school name or an abbreviation.
+| `GET http://kramster.it/api/exams/:school/:course` | A given course at a given school. Course parameter can either be a full course name or a course code.
+| `GET http://kramster.it/api/exams/:school/:course/:name` | A specific exam for a given course at a given school. Full name of exam must be given.
 
 #### Query Parameters
 All above endpoints can be given the following query parameters:
@@ -105,28 +89,12 @@ Return 20 random questions from The Norwegian University of Science and Technolo
 When a user finishes an exam on Kramster, the results are saved as a Report.
 
 #### Endpoints
-```
-GET http://kramster.it/api/reports
-```
-Returns reports for all schools and courses.
-
-```
-GET http://kramster.it/api/reports/:school
-```
-Returns reports for a given school. School parameter can either be a
-full school name or an abbreviation.
-
-```
-GET http://kramster.it/api/reports/:school/:course
-```
-Returns reports for a given course at a given school. Course parameter can
-either be a full course name or a course code.
-
-```
-GET http://kramster.it/api/reports/:school/:course/:name
-```
-Returns reports for a specific exam for a given course at a given school. Full name
-of exam must be given.
+| Endpoint       | Returns reports for...
+| ---------------|:------------
+| `GET http://kramster.it/api/reports` | All schools and courses.
+| `GET http://kramster.it/api/reports/:school` | A given school. School parameter can either be a full school name or an abbreviation.
+| `GET http://kramster.it/api/reports/:school/:course` | A given course at a given school. Course parameter can either be a full course name or a course code.
+| `GET http://kramster.it/api/reports/:school/:course/:exam` | A specific exam for a given course at a given school. Full name of exam must be given.
 
 #### Query Parameters
 The above endpoints can be given the following query parameters:
@@ -176,29 +144,12 @@ Return the best report for course TDT4136 at NTNU in 2015:
 Accumulated statistics for one or multiple exams based on reports.
 
 #### Endpoints
-```
-GET http://kramster.it/api/stats
-```
-Returns stats for all schools and courses.
-
-```
-GET http://kramster.it/api/stats/:school
-```
-Returns stats for a given school. School parameter can either be a
-full school name or an abbreviation.
-
-```
-GET http://kramster.it/api/stats/:school/:course
-```
-Returns stats for a given course at a given school. Course parameter can
-either be a full course name or a course code.
-
-```
-GET http://kramster.it/api/stats/:school/:course/:name
-```
-Returns stats for a specific exam for a given course at a given school. Full name
-of exam must be given.
-
+| Endpoint       | Returns stats for...
+| ---------------|:------------
+| `GET http://kramster.it/api/stats` | All schools and courses.
+| `GET http://kramster.it/api/stats/:school` | A given school. School parameter can either be a full school name or an abbreviation.
+| `GET http://kramster.it/api/stats/:school/:course` | A given course at a given school. Course parameter can either be a full course name or a course code.
+| `GET http://kramster.it/api/stats/:school/:course/:exam` | A specific exam for a given course at a given school. Full name of exam must be given.
 
 #### Query Parameters
 There are no available parameters.
@@ -231,19 +182,15 @@ Return stats for course TDT4136 at NTNU:
 
 ### List <a name="list"/>
 #### Endpoints
-```
-GET http://kramster.it/api/list/schools
-```
-Returns an array of all the (distinct) school names.
-```
-GET http://kramster.it/api/list/courses/:school
-```
-Returns an array of all the course names at a given school.
-```
-GET http://kramster.it/api/list/exams/:school/:course
-```
-Returns an array of all the names of the exams for a given course at
-a given school.
+
+| Endpoint       | Returns an array of all...
+| ---------------|:------------
+| `GET http://kramster.it/api/list/schools` | Distinct school names.
+| TODO: `GET http://kramster.it/api/list/courses` | Distinct course names.
+| `GET http://kramster.it/api/list/courses/:school` | Course names at a given school.
+| TODO: `GET http://kramster.it/api/list/exams` | Distinct names of exams.
+| TODO: `GET http://kramster.it/api/list/exams/:school` | Distinct names of the exams at a given school.
+| `GET http://kramster.it/api/list/exams/:school/:course` | Names of the exams for a given course at a given school.
 
 #### Query Parameters
 There are no available parameters.
