@@ -3,6 +3,7 @@
  */
 
 var express = require('express');
+var mongoose = require('mongoose');
 var Exam = require('../models/exam');
 
 var getSchoolAbbreviation = function (schoolName) {
@@ -150,4 +151,17 @@ exports.validateSortParameter = function (sortParameter, callback) {
   }
 
   callback(isValid, sortObject);
+};
+
+exports.validateDate = function (dateParameter, callback) {
+  if (dateParameter && !isNaN(Date.parse(dateParameter))) {
+
+    // Convert date object to hex seconds since Unix epoch
+    var hexSeconds1 = Math.floor(new Date(dateParameter) / 1000).toString(16);
+
+    // Create an ObjectId with that hex timestamp
+    callback(true, new mongoose.Types.ObjectId(hexSeconds1 + '0000000000000000'));
+  } else {
+    callback(false);
+  }
 };

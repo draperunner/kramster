@@ -19,6 +19,10 @@ var errorMessages = {
   somethingWentWrong: function (res) {
     res.status(500).send('500: Something went wrong.');
   },
+
+  invalidDate: function (res, date) {
+    res.status(400).send('400: The given date is not on valid ISO 8601 format: ' + date);
+  },
 };
 
 module.exports = errorMessages;

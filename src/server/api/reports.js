@@ -5,46 +5,105 @@
 var express = require('express');
 var router = express.Router();
 
-// Model
+var mongoose = require('mongoose');
+var validator = require('./../utils/validator');
+var errors = require('./../utils/errors');
 var Report = require('../models/report');
+
+var handleReportsQuery = function (queryObject, reqQuery, res) {
+
+  // Handle mode parameter
+  if (reqQuery.mode) {
+    var lower = reqQuery.mode.toLowerCase();
+    if (lower === 'tf') {
+      queryObject.mode = 'TF';
+    } else if (lower === 'mc') {
+      queryObject.mode = 'MC';
+    }
+  }
+
+  // After
+  var afterParamIsValid = false;
+  validator.validateDate(reqQuery.after, function (isValid, validDateAsObjectId) {
+    if (!queryObject._id) queryObject._id = {};
+    if (isValid) queryObject._id.$gt = validDateAsObjectId;
+    afterParamIsValid = typeof reqQuery.after === 'undefined' || isValid;
+  });
+
+  if (!afterParamIsValid) return errors.invalidDate(res, reqQuery.after);
+
+  // Before
+  var beforeParamIsValid = false;
+  validator.validateDate(reqQuery.before, function (isValid, validDateAsObjectId) {
+    if (!queryObject._id) queryObject._id = {};
+    if (isValid) queryObject._id.$lt = validDateAsObjectId;
+    beforeParamIsValid = typeof reqQuery.before === 'undefined' || isValid;
+  });
+
+  if (!beforeParamIsValid) return errors.invalidDate(res, reqQuery.before);
+
+  // Generate query
+  var query = Report.find(queryObject);
+
+  // Sort
+  validator.validateSortParameter(reqQuery.sort, function (isValid, sortObject) {
+    if (isValid) query = query.sort(sortObject);
+  });
+
+  // Limit exams (if not random=true)
+  if (reqQuery.random !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
+    query = query.limit(Number(reqQuery.limit));
+  }
+
+  console.log(queryObject);
+
+  // Execute query
+  query.exec(function (err, reports) {
+    if (err) return errors.somethingWentWrong(res);
+    res.json(reports);
+  });
+
+};
 
 // Return all reports
 router.get('/', function (req, res) {
-  Report.find({}, function (err, reports) {
-    res.json(reports);
-  });
+  console.log(req.query);
+  handleReportsQuery({}, req.query, res);
 });
 
 // Return reports for a given school
 router.get('/:school', function (req, res) {
-  Report.find({ 'document.school': req.params.school.replace(/_/g, ' ') }, function (err, reports) {
-    res.json(reports);
+  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+    if (!isValid) return errors.noSchoolFound(res, req.params.school);
+    handleReportsQuery({ school: validSchool }, req.query, res);
   });
 });
 
 // Return reports for a given course
 router.get('/:school/:course', function (req, res) {
-  Report.find({
-    'document.school': req.params.school.replace(/_/g, ' '),
-    'document.course': req.params.course.replace(/_/g, ' '),
-  },
-        function (err, reports) {
-          res.json(reports);
-        }
-    );
+  validator.validate(req.params.school, req.params.course, null,
+    function (isValid, validSchool, validCourse) {
+      if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
+      handleReportsQuery({ school: validSchool, course: validCourse }, req.query, res);
+    });
 });
 
 // Return reports for a given document
-router.get('/:school/:course/:document', function (req, res) {
-  Report.find({
-    'document.school': req.params.school.replace(/_/g, ' '),
-    'document.course': req.params.course.replace(/_/g, ' '),
-    'document.documentName': req.params.document.replace(/_/g, ' '),
-  },
-        function (err, reports) {
-          res.json(reports);
-        }
-    );
+router.get('/:school/:course/:exam', function (req, res) {
+  validator.validate(req.params.school, req.params.course, req.params.exam,
+    function (isValid, validSchool, validCourse, validExam) {
+      if (!isValid) {
+        return errors.noExamFound(res, req.params.school, req.params.course, req.params.school);
+      }
+
+      handleReportsQuery(
+        {
+          school: validSchool,
+          course: validCourse,
+          name: validExam,
+        },
+        req.query, res);
+    });
 });
 
 // Add a new report
