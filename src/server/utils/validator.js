@@ -5,6 +5,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var Exam = require('../models/exam');
+var helpers = require('./helpers');
 
 var getSchoolAbbreviation = function (schoolName) {
   const regExp = /\(([^)]+)\)/;
@@ -178,4 +179,40 @@ exports.validateDate = function (dateParameter, callback) {
   } else {
     callback(false);
   }
+};
+
+exports.validateRangeBasedParameter = function (paramName, param, callback) {
+  var objectToReturn = {};
+
+  // Check for multiple values (an interval)
+  var params = param.split(',');
+
+  for (var i = 0; i < params.length; i++) {
+    var p = params[i];
+    var operator = (p[0] === '>' || p[0] === '<') ? p[0] : '=';
+    var paramValue = (operator === '=') ? p : p.substring(1);
+
+    var isInvalidGrade = paramName === 'grade' && !helpers.isGrade(paramValue);
+    var isInvalidNumber = paramName !== 'grade' && isNaN(paramValue);
+
+    if (isInvalidGrade || isInvalidNumber) {
+      callback(false);
+      return;
+    }
+
+    if (paramName === 'grade') paramValue = paramValue.toUpperCase();
+
+    // If an exact value is given (no lead operator), only this is considered.
+    if (operator === '=') {
+      callback(true, paramValue);
+      return;
+    }
+
+    // If same operator appears multiple times, only first is considered.
+    if (operator === '<' && !objectToReturn.$lt) objectToReturn.$lt = paramValue;
+    else if (operator === '>'  && !objectToReturn.$gt) objectToReturn.$gt = paramValue;
+
+  }
+
+  callback(true, objectToReturn);
 };

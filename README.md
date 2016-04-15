@@ -108,10 +108,10 @@ The above endpoints can be given the following query parameters:
 | before     | A timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ` | No limitations | Returns reports created before this time.
 | sort      | `created`, `score`, `numQuestions`, `percentage`, `grade` | `created` (chronologically) | Sort the result by one or more fields separated by commas. Put a - before a field for descending order.
 | limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number.
-| TODO: score      | <, >, or = an integer, i.e. `>8` | No limitations | Return only reports with score less than, greater than or equal to this integer.
-| TODO: numQuestions | <, >, or = an integer, i.e. `>10`  | No limitations | Return only reports with a number of questions less than, greater than or equal to this integer.
-| TODO: percentage | <, >, or = a decimal number, i.e. `>66.6`  | No limitations | Return only reports with a number of questions less than, greater than or equal to this number.
-| TODO: grade | <, >, or = a letter grade from A to F, i.e. `=A`  | No limitations | Return only reports with a grade worse than, better than or equal to this case-insensitive letter.
+| score      | A number. Prepend `<` or `>` for range check. Separate with comma for interval, i.e. `>8,<12`. | No limitations | Return only reports with score less than, greater than or equal to this integer.
+| numQuestions | A number. Prepend `<` or `>` for range check. Separate with comma for interval, i.e. `>8,<12`. | No limitations | Return only reports with a number of questions in given interval.
+| percentage | A number. Prepend `<` or `>` for range check. Separate with comma for interval, i.e. `>8,<12`.  | No limitations | Return only reports with a number of questions in given interval.
+| grade | A letter grade. Prepend `<` or `>` for range check. Separate with comma for interval, i.e. `>D,<A`.  | No limitations | Return only reports with a grade in given interval. Case-insensitive.
 
 #### Response
 The response from asking the Reports API will be in form of the following JSON object we'll call **Report**:

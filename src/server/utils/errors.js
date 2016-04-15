@@ -23,6 +23,10 @@ var errorMessages = {
   invalidDate: function (res, date) {
     res.status(400).send('400: The given date is not on valid ISO 8601 format: ' + date);
   },
+
+  invalidParam: function (res, paramName, rawParam) {
+    res.status(400).send('400: Invalid parameter "' + paramName + '": ' + rawParam);
+  },
 };
 
 module.exports = errorMessages;

@@ -22,37 +22,12 @@ var handleReportsQuery = function (queryObject, reqQuery, res) {
     }
   }
 
-  // Handle score parameter
-  validator.validateScore(reqQuery.score, function (isValid, validScoreObject) {
-    if (!isValid) return errors.invalidParam('score', reqQuery.score);
-    if (operator === '=') queryObject.score = validScore;
-    else if (operator === '<') queryObject.score = { $lt: validScore };
-    else if (operator === '>') queryObject.score = { $gt: validScore };
-  });
-
-  // Handle numQuestions parameter
-  validator.validateNumQuestions(reqQuery.numQuestions, function (isValid, operator, validNumQ) {
-    if (!isValid) return errors.invalidParam('numQuestions', reqQuery.numQuestions);
-    if (operator === '=') queryObject.numQuestions = validNumQ;
-    else if (operator === '<') queryObject.numQuestions = { $lt: validNumQ };
-    else if (operator === '>') queryObject.numQuestions = { $gt: validNumQ };
-  });
-
-  // Handle percentage parameter
-  validator.validatePercentage(reqQuery.percentage, function (isValid, operator, validPercentage) {
-    if (!isValid) return errors.invalidParam('percentage', reqQuery.percentage);
-    if (operator === '=') queryObject.percentage = validPercentage;
-    else if (operator === '<') queryObject.percentage = { $lt: validPercentage };
-    else if (operator === '>') queryObject.percentage = { $gt: validPercentage };
-  });
-
-  // Handle grade parameter
-  validator.validateGrade(reqQuery.grade, function (isValid, operator, validGrade) {
-    if (!isValid) return errors.invalidParam('grade', reqQuery.grade);
-    if (operator === '=') queryObject.grade = validGrade;
-    else if (operator === '<') queryObject.grade = { $lt: validGrade };
-    else if (operator === '>') queryObject.grade = { $gt: validGrade };
-  });
+  // Handle range based parameters. They start with =, < or > followed by a number or string.
+  var rangeParams = ['score', 'numQuestions', 'percentage', 'grade'];
+  for (var i = 0; i < rangeParams.length; i++) {
+    var paramName = rangeParams[i];
+    if (!handleRangeBasedParameter(res, queryObject, paramName, reqQuery[paramName])) return;
+  }
 
   // After
   var afterParamIsValid = false;
@@ -101,9 +76,20 @@ var handleReportsQuery = function (queryObject, reqQuery, res) {
 
 };
 
+var handleRangeBasedParameter = function (res, queryObject, paramName, rawParam) {
+  if (typeof rawParam === 'undefined') return true;
+  var success = false;
+  validator.validateRangeBasedParameter(paramName, rawParam, function (isValid, validParamObject) {
+    if (!isValid) return errors.invalidParam(res, paramName, rawParam);
+    queryObject[paramName] = validParamObject;
+    success = true;
+  });
+
+  return success;
+};
+
 // Return all reports
 router.get('/', function (req, res) {
-  console.log(req.query);
   handleReportsQuery({}, req.query, res);
 });
 

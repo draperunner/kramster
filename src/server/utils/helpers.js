@@ -62,3 +62,7 @@ exports.handleShuffle = function (exams, shuffleParameter) {
     }
   }
 };
+
+exports.isGrade = function (p) {
+  return typeof p === 'string' && ['A', 'B', 'C', 'D', 'E', 'F'].indexOf(p.toUpperCase()) > -1;
+};
