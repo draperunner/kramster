@@ -188,10 +188,10 @@ Return stats for course TDT4136 at NTNU:
 | Endpoint       | Returns an array of all...
 | ---------------|:------------
 | `GET http://kramster.it/api/list/schools` | Distinct school names.
-| TODO: `GET http://kramster.it/api/list/courses` | Distinct course names.
+| `GET http://kramster.it/api/list/courses` | Distinct course names.
 | `GET http://kramster.it/api/list/courses/:school` | Course names at a given school.
-| TODO: `GET http://kramster.it/api/list/exams` | Distinct names of exams.
-| TODO: `GET http://kramster.it/api/list/exams/:school` | Distinct names of the exams at a given school.
+| `GET http://kramster.it/api/list/exams` | Distinct names of exams.
+| `GET http://kramster.it/api/list/exams/:school` | Distinct names of the exams at a given school.
 | `GET http://kramster.it/api/list/exams/:school/:course` | Names of the exams for a given course at a given school.
 
 #### Query Parameters
