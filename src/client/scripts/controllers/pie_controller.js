@@ -16,7 +16,7 @@ angular.module('kramster')
             animateScale : false
         };
 
-        httpRequest.get(dataUrl, function (res) {
+        httpRequest.get(dataUrl, {}, function (res) {
             var data = [];
             for (var i = 0; i < $scope.labels.length; i++) {
                 data.push(res.grades[$scope.labels[i]]);

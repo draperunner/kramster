@@ -90,8 +90,8 @@ angular.module('kramster')
                 finishedReturnedTrue = true;
 
                 // Fetch aggregated statistics from server
-                var url = apiUrl + 'stats/' + $routeParams.school + '/' + $routeParams.course + '/' + report.document.documentName.replace(' ', '_');
-                httpRequest.get(url, function(stats) {
+                var url = apiUrl + 'stats/' + $routeParams.school + '/' + $routeParams.course + '/' + report.document.documentName;
+                httpRequest.get(url, {}, function(stats) {
                     app.stats.fromServer = stats;
                     app.stats.fromServer.averageScore = stats.averageScore.toFixed(2);
                     app.stats.fromServer.averageGrade = helpers.percentageToGrade(app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions));
@@ -169,7 +169,7 @@ angular.module('kramster')
             }
         };
 
-        var url = apiUrl + 'documents/' + $routeParams.school + '/' + $routeParams.course;
+        var url = apiUrl + 'exams/' + $routeParams.school + '/' + $routeParams.course;
 
         // ALL MODE. Fetches all documents, gathers all questions from all of them, shuffles.
         if ($scope.mode.docMode === 'all') {
@@ -193,7 +193,6 @@ angular.module('kramster')
             url += '/' + $routeParams.document;
             httpRequest.getSelected(url, function (document) {
                 app.questions = document.questions;
-                helpers.shuffle(document.questions);
                 $scope.mode.showCorrectAnswerMode = document.mode === 'MC' || document.mode === undefined;
             });
         }
