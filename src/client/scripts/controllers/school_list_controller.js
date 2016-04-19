@@ -24,8 +24,8 @@ angular.module('kramster')
         var app = this;
         app.schools = [];
 
-        httpRequest.get(apiUrl + 'list/schools', function (data) {
-            app.schools = data.sort();
+        httpRequest.get(apiUrl + 'list/schools', {}, function (data) {
+            app.schools = data;
         });
 
     }]);

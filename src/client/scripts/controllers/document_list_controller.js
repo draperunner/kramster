@@ -14,8 +14,8 @@ angular.module('kramster')
         var app = this;
         app.documents = [];
 
-        httpRequest.get(apiUrl + 'list/' + $routeParams.school + '/' + $routeParams.course, function (data) {
-            app.documents = data.sort(helpers.reversedComparison);
+        httpRequest.get(apiUrl + 'list/exams/' + $routeParams.school + '/' + $routeParams.course, {}, function (data) {
+            app.documents = data;
         });
 
     }]);

@@ -8,8 +8,8 @@ angular.module('kramster')
     .service('httpRequest', ['$http', '$rootScope', 'Helpers', function($http, $rootScope, helpers) {
 
         // Gets an array and forwards it to callback function. If order is given, sort data in that order.
-        this.get = function(url, callback) {
-            $http.get(url).then(function(res) {
+        this.get = function(url, params, callback) {
+            $http.get(url, {params: params}).then(function(res) {
                 callback(res.data);
             });
         };
