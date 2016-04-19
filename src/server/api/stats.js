@@ -6,6 +6,7 @@ var express = require('express');
 var router = express.Router();
 
 var validator = require('./../utils/validator');
+var errors = require('./../utils/errors');
 var Report = require('../models/report');
 
 // Return aggregated statistics for all reports

@@ -59,7 +59,7 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
   query.exec(function (err, exams) {
     if (err) return errors.somethingWentWrong(res);
 
-    if (reqQuery.random !== true) {
+    if (reqQuery.random !== 'true') {
       helpers.handleShuffle(exams, reqQuery.shuffle);
       res.json(exams);
     } else if (reqQuery.random === 'true') {
