@@ -195,7 +195,9 @@ Return stats for course TDT4136 at NTNU:
 | `GET http://kramster.it/api/list/exams/:school/:course` | Names of the exams for a given course at a given school.
 
 #### Query Parameters
-There are no available parameters.
+| Key   | Allowed values   | Default value/behavior (if omitted) | Description
+| ------|:-----------------|:------------------------------------|:---------------------------------------------------------
+| short | `true`, `false`  | `false`                             | Whether to return the full names (false) or the abbreviations (true). Not available for exam names, which don't have abbreviations.
 
 #### Response
 The response is an array of strings:

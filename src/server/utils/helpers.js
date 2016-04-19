@@ -66,3 +66,8 @@ exports.handleShuffle = function (exams, shuffleParameter) {
 exports.isGrade = function (p) {
   return typeof p === 'string' && ['A', 'B', 'C', 'D', 'E', 'F'].indexOf(p.toUpperCase()) > -1;
 };
+
+exports.findSubstringEnclosedInParenthesis = function (s) {
+  const regExp = /\(([^)]+)\)/;
+  return regExp.exec(s);
+};
