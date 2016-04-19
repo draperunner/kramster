@@ -32,15 +32,13 @@ var getCourseCodeFromFullName = function (courseName) {
 
 // type is either "schools" or "courses", names is the list of full names
 var handleShortParameter = function (type, names) {
+  if (type !== 'schools' && type !== 'courses') return names;
+
   var shorts = [];
-  if (type === 'schools') {
-    for (var i = 0; i < names.length; i++) {
-      shorts.push(getSchoolAbbreviationFromFullName(names[i]));
-    }
-  } else if (type === 'courses') {
-    for (var i = 0; i < names.length; i++) {
-      shorts.push(getCourseCodeFromFullName(names[i]));
-    }
+  var func = type === 'schools' ? getSchoolAbbreviationFromFullName : getCourseCodeFromFullName;
+
+  for (var i = 0; i < names.length; i++) {
+    shorts.push(func(names[i]));
   }
 
   return shorts;
