@@ -8,7 +8,7 @@
             <kitem head="{{schoolsCtrl.header(school)}}"
                    body="{{schoolsCtrl.name(school)}}"
                    color="green"
-                   ng-click="go('/'+helpers.underscorify(school))">
+                   ng-click="go('/'+schoolsCtrl.header(school))">
             </kitem>
 
         </div>
