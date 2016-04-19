@@ -60,6 +60,18 @@ describe('List API', function () {
     expectJsonStatus200('/list/courses/Norges Handelshøyskole (NHH)', done);
   });
 
+  it('courses/uoq', function (done) {
+    expectJsonStatus200('/list/courses/uoq', done);
+  });
+
+  it('courses/UoQ', function (done) {
+    expectJsonStatus200('/list/courses/UoQ', done);
+  });
+
+  it('courses/University of Queensland', function (done) {
+    expectJsonStatus200('/list/courses/University of Queensland', done);
+  });
+
   it('courses/Foobar University', function (done) {
     expect404('/list/courses/Foobar University', done);
   });
