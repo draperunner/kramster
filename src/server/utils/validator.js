@@ -7,12 +7,6 @@ var mongoose = require('mongoose');
 var Exam = require('../models/exam');
 var helpers = require('./helpers');
 
-var getSchoolAbbreviation = function (schoolName) {
-  const regExp = /\(([^)]+)\)/;
-  const result = regExp.exec(schoolName);
-  if (result) return result[1];
-};
-
 var getCourseCode = function (courseName) {
   return courseName.split(' ')[0].toUpperCase();
 };
@@ -34,7 +28,7 @@ var validateSchool = function (school, callback) {
 
     // Check if param is valid abbreviation/code
     for (var i = 0; i < schoolNames.length; i++) {
-      var abb = getSchoolAbbreviation(schoolNames[i]);
+      var abb = helpers.getSchoolAbbreviationFromFullName(schoolNames[i]);
       if (abb && abb.toLowerCase() === lower) {
         callback(true, schoolNames[i]);
         return;
@@ -144,7 +138,6 @@ var validateSortParameter = function (validParams, sortParameter, callback) {
     }
   }
 
-  console.log("sortObject", sortObject);
   callback(isValid, sortObject);
 };
 

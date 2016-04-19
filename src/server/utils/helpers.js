@@ -71,3 +71,22 @@ exports.findSubstringEnclosedInParenthesis = function (s) {
   const regExp = /\(([^)]+)\)/;
   return regExp.exec(s);
 };
+
+// Example argument: "Norges Teknisk-Naturvitenskaplige Universitet (NTNU)"
+// Example return value: "NTNU"
+exports.getSchoolAbbreviationFromFullName = function (schoolName) {
+  // Find abbreviation enclosed in parenthesis
+  const abb = this.findSubstringEnclosedInParenthesis(schoolName);
+  if (abb) return abb[1];
+
+  // If no abbreviation, make one from the leading letters in each word
+  return schoolName.split(' ').map(function (e) { return e[0]; }).join('');
+};
+
+// Example argument: "TDT4136 Introduction to Artificial Intelligence"
+// Example return value: "TDT4136"
+exports.getCourseCodeFromFullName = function (courseName) {
+  var splitName = courseName.split(' ');
+  if (splitName.length === 1) return courseName.substring(0, 7);
+  return courseName.split(' ')[0].toUpperCase();
+};

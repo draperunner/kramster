@@ -11,31 +11,14 @@ var helpers = require('./../utils/helpers');
 // Model
 var Exam = require('../models/exam');
 
-// Example argument: "Norges Teknisk-Naturvitenskaplige Universitet (NTNU)"
-// Example return value: "NTNU"
-var getSchoolAbbreviationFromFullName = function (schoolName) {
-  // Find abbreviation enclosed in parenthesis
-  const abb = helpers.findSubstringEnclosedInParenthesis(schoolName);
-  if (abb) return abb[1];
-
-  // If no abbreviation, make one from the leading letters in each word
-  return schoolName.split(' ').map(function (e) { return e[0]; }).join('');
-};
-
-// Example argument: "TDT4136 Introduction to Artificial Intelligence"
-// Example return value: "TDT4136"
-var getCourseCodeFromFullName = function (courseName) {
-  var splitName = courseName.split(' ');
-  if (splitName.length === 1) return courseName.substring(0, 7);
-  return courseName.split(' ')[0].toUpperCase();
-};
-
 // type is either "schools" or "courses", names is the list of full names
 var handleShortParameter = function (type, names) {
   if (type !== 'schools' && type !== 'courses') return names;
 
   var shorts = [];
-  var func = type === 'schools' ? getSchoolAbbreviationFromFullName : getCourseCodeFromFullName;
+  var func = type === 'schools'
+    ? helpers.getSchoolAbbreviationFromFullName
+    : helpers.getCourseCodeFromFullName;
 
   for (var i = 0; i < names.length; i++) {
     shorts.push(func(names[i]));
