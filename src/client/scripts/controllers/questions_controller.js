@@ -77,9 +77,9 @@ angular.module('kramster')
             if (!finishedReturnedTrue) {
                 var report = {
                     document: {
-                        school: $routeParams.school.replace(/_/g, " "),
-                        course: $routeParams.course.replace(/_/g, " "),
-                        documentName: ($scope.mode.docMode) ? $scope.mode.docMode : $scope.route.document.replace(/_/g, " ")
+                        school: $routeParams.school,
+                        course: $routeParams.course,
+                        documentName: ($scope.mode.docMode) ? $scope.mode.docMode : $scope.route.document
                     },
                     score: app.numCorrects(),
                     numQuestions: app.questions.length,
@@ -181,8 +181,12 @@ angular.module('kramster')
 
         // RANDOM N MODE. Fetches n random questions from the course.
         else if ($scope.mode.docMode === 'random') {
-            url += '/random/' + $routeParams.number;
-            httpRequest.get(url, function(questions, meta) {
+            var params = {
+              random: 'true',
+              limit: $routeParams.number
+            };
+
+            httpRequest.get(url, params, function(questions, meta) {
                 app.questions = questions;
                 $scope.mode.showCorrectAnswerMode = true;
             });
