@@ -154,7 +154,10 @@ Accumulated statistics for one or multiple exams based on reports.
 | `GET http://kramster.it/api/stats/:school/:course/:exam` | A specific exam for a given course at a given school. Full name of exam must be given.
 
 #### Query Parameters
-There are no available parameters.
+| Key   | Allowed values   | Default value/behavior (if omitted) | Description
+| ------|:-----------------|:------------------------------------|:---------------------------------------------------------
+| TODO: random    | `true`, `false`              | `false`             | If true, returns stats for reports with randomly picked questions. Not available if using endpoint where :exam is given.
+| TODO: numQuestions | An integer. | No limitations | Return stats for reports with this number of questions.
 
 #### Response
 The response from asking the Stats API will be in form of the following JSON object we'll call **Stats**:
