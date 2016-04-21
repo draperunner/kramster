@@ -209,3 +209,7 @@ exports.validateRangeBasedParameter = function (paramName, param, callback) {
 
   callback(true, objectToReturn);
 };
+
+exports.validateNumber = function (param, callback) {
+  callback(typeof param === 'undefined' || !isNaN(param));
+};

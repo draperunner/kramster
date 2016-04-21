@@ -39,6 +39,50 @@ router.get('/:school/:course', function (req, res) {
     });
 });
 
+// Return aggregated statistics 'all' mode.
+router.get('/:school/:course/all', function (req, res) {
+  validator.validate(req.params.school, req.params.course, null,
+    function (isValid, validSchool, validCourse) {
+      if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
+      validator.validateNumber(req.query.numQuestions, function (isValid) {
+        if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
+        Report.find(
+          {
+            'document.school': validSchool,
+            'document.course': validCourse,
+            'document.documentName': 'all',
+            numQuestions: req.query.numQuestions,
+          },
+          function (err, reports) {
+            buildStats(err, reports, res);
+          }
+        );
+      });
+    });
+});
+
+// Return aggregated statistics for 'random' mode
+router.get('/:school/:course/random', function (req, res) {
+  validator.validate(req.params.school, req.params.course, null,
+    function (isValid, validSchool, validCourse) {
+      if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
+      validator.validateNumber(req.query.numQuestions, function (isValid) {
+        if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
+        Report.find(
+          {
+            'document.school': validSchool,
+            'document.course': validCourse,
+            'document.documentName': 'random',
+            numQuestions: req.query.numQuestions,
+          },
+          function (err, reports) {
+            buildStats(err, reports, res);
+          }
+        );
+      });
+    });
+});
+
 // Return aggregated statistics for a given document
 router.get('/:school/:course/:exam', function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
@@ -78,7 +122,7 @@ var buildStats = function (err, reports, res) {
     numReports: reports.length,
     grades: grades,
     totalScore: totalScore,
-    averageScore: totalScore / reports.length,
+    averageScore: reports.length > 0 ? totalScore / reports.length : 0,
   };
   res.json(stats);
 };
