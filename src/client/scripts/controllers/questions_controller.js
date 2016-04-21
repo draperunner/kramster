@@ -75,6 +75,7 @@ angular.module('kramster')
         $scope.finished = function() {
             if ($scope.currentQuestion()) { return false; }
             if (!finishedReturnedTrue) {
+                finishedReturnedTrue = true;
                 var report = {
                     document: {
                         school: $routeParams.school,
@@ -86,16 +87,17 @@ angular.module('kramster')
                     percentage: app.stats.percentage(),
                     grade: app.stats.grade()
                 };
-                httpRequest.post(apiUrl + 'reports/add', report);
-                finishedReturnedTrue = true;
+                httpRequest.post(apiUrl + 'reports/add', report, function () {
 
-                // Fetch aggregated statistics from server
-                var url = apiUrl + 'stats/' + $routeParams.school + '/' + $routeParams.course + '/' + report.document.documentName;
-                httpRequest.get(url, {}, function(stats) {
-                    app.stats.fromServer = stats;
-                    app.stats.fromServer.averageScore = stats.averageScore.toFixed(2);
-                    app.stats.fromServer.averageGrade = helpers.percentageToGrade(app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions));
-                    app.stats.fromServer.percentage = app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions);
+                  // Fetch aggregated statistics from server
+                  var url = apiUrl + 'stats/' + $routeParams.school + '/' + $routeParams.course + '/' + report.document.documentName;
+                  httpRequest.get(url, {}, function(stats) {
+                      app.stats.fromServer = stats;
+                      app.stats.fromServer.averageScore = stats.averageScore.toFixed(2);
+                      app.stats.fromServer.averageGrade = helpers.percentageToGrade(app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions));
+                      app.stats.fromServer.percentage = app.stats.percentage(stats.totalScore, stats.numReports * report.numQuestions);
+                  });
+
                 });
             }
             return true;

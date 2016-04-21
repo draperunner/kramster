@@ -43,8 +43,10 @@ angular.module('kramster')
         };
 
         // General http POST
-        this.post = function(url, data) {
-            $http.post(url, data);
+        this.post = function(url, data, callback) {
+          $http.post(url, data).then(function (res) {
+            callback(res.data);
+          });
         }
     }
 ]);

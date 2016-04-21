@@ -119,7 +119,7 @@ router.get('/:school/:course/:exam', function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
     function (isValid, validSchool, validCourse, validExam) {
       if (!isValid) {
-        return errors.noExamFound(res, req.params.school, req.params.course, req.params.school);
+        return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
 
       handleReportsQuery(
@@ -133,24 +133,32 @@ router.get('/:school/:course/:exam', function (req, res) {
 
 // Add a new report
 router.post('/add', function (req, res) {
-  var report = new Report({
-    document: {
-      school: req.body.document.school,
-      course: req.body.document.course,
-      documentName: req.body.document.documentName,
-    },
-    score: req.body.score,
-    numQuestions: req.body.numQuestions,
-    percentage: req.body.percentage,
-    grade: req.body.grade,
-  });
-  report.save(function (err, post) {
-    if (err) {
-      res.status(500).send('Something went wrong.');
-    }
+  validator.validate(req.body.document.school, req.body.document.course, null,
+    function (isValid, validSchool, validCourse) {
+      if (!isValid) {
+        return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
+      }
 
-    res.status(201).json(post);
-  });
+      var report = new Report({
+        document: {
+          school: validSchool,
+          course: validCourse,
+          documentName: req.body.document.documentName,
+        },
+        score: req.body.score,
+        numQuestions: req.body.numQuestions,
+        percentage: req.body.percentage,
+        grade: req.body.grade,
+      });
+      report.save(function (err, post) {
+        if (err) {
+          res.status(500).send('Something went wrong.');
+        }
+
+        res.status(201).json(post);
+      });
+
+    });
 });
 
 module.exports = router;

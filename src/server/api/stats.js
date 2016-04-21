@@ -46,13 +46,14 @@ router.get('/:school/:course/all', function (req, res) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
       validator.validateNumber(req.query.numQuestions, function (isValid) {
         if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
-        Report.find(
-          {
-            'document.school': validSchool,
-            'document.course': validCourse,
-            'document.documentName': 'all',
-            numQuestions: req.query.numQuestions,
-          },
+        var query = {
+          'document.school': validSchool,
+          'document.course': validCourse,
+          'document.documentName': 'all',
+        };
+        if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
+
+        Report.find(query,
           function (err, reports) {
             buildStats(err, reports, res);
           }
@@ -68,13 +69,14 @@ router.get('/:school/:course/random', function (req, res) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
       validator.validateNumber(req.query.numQuestions, function (isValid) {
         if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
-        Report.find(
-          {
-            'document.school': validSchool,
-            'document.course': validCourse,
-            'document.documentName': 'random',
-            numQuestions: req.query.numQuestions,
-          },
+        var query = {
+          'document.school': validSchool,
+          'document.course': validCourse,
+          'document.documentName': 'random',
+        };
+
+        if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
+        Report.find(query,
           function (err, reports) {
             buildStats(err, reports, res);
           }
