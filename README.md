@@ -158,7 +158,7 @@ Accumulated statistics for one or multiple exams based on reports.
 #### Query Parameters
 | Key   | Allowed values   | Default value/behavior (if omitted) | Description
 | ------|:-----------------|:------------------------------------|:---------------------------------------------------------
-| TODO: numQuestions | An integer. | No limitations | Return stats for reports with this number of questions.
+| numQuestions | An integer. | No limitations | Return stats for reports with this number of questions.
 
 #### Response
 The response from asking the Stats API will be in form of the following JSON object we'll call **Stats**:
