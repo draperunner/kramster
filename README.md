@@ -152,11 +152,12 @@ Accumulated statistics for one or multiple exams based on reports.
 | `GET http://kramster.it/api/stats/:school` | A given school. School parameter can either be a full school name or an abbreviation.
 | `GET http://kramster.it/api/stats/:school/:course` | A given course at a given school. Course parameter can either be a full course name or a course code.
 | `GET http://kramster.it/api/stats/:school/:course/:exam` | A specific exam for a given course at a given school. Full name of exam must be given.
+| `GET http://kramster.it/api/stats/:school/:course/random` | Quizzes where a number of random questions were picked from the course. (One of the "random" buttons were clicked.)
+| `GET http://kramster.it/api/stats/:school/:course/all` | Quizzes where all the questions from the course were given. (The "all" button was clicked.)
 
 #### Query Parameters
 | Key   | Allowed values   | Default value/behavior (if omitted) | Description
 | ------|:-----------------|:------------------------------------|:---------------------------------------------------------
-| TODO: random    | `true`, `false`              | `false`             | If true, returns stats for reports with randomly picked questions. Not available if using endpoint where :exam is given.
 | TODO: numQuestions | An integer. | No limitations | Return stats for reports with this number of questions.
 
 #### Response
