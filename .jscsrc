@@ -1,3 +1,4 @@
 {
-	"preset": "airbnb"
+	"preset": "airbnb",
+	"safeContextKeyword": ["app", "_this"],
 }
