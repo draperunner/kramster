@@ -5,6 +5,34 @@
 
 var express = require('express');
 
+/**
+ * Checks if all of the argument exams have only True/False questions.
+ *
+ * @param {Object[]} exams - An array of Exam objects
+ * @param {Object[]} exams.questions - An array of Question objects
+ */
+var examsAreTrueFalse = function (exams) {
+  for (var i = 0; i < exams.length; i++) {
+    if (exams[i].mode && exams[i].mode.toLowerCase() !== 'tf') return false;
+    if (exams[i].mode && exams[i].mode.toLowerCase() === 'tf') continue;
+
+    if (!exams[i].mode) {
+      for (var j = 0; j < exams[i].questions.length; j++) {
+        var q = exams[i].questions[j];
+        if (q.options.length !== 2) return false;
+        for (var k = 0; k < 2; k++) {
+          var o = q.options[k].toLowerCase().replace(/\./g, '');
+
+          // TODO: Find a way to check this that is not hardcoded (especially for random mode)
+          if (o !== 'true' && o !== 'false' && o !== 'sant' && o !== 'usant') return false;
+        }
+      }
+    }
+  }
+
+  return true;
+};
+
 // Shuffles an array
 var shuffleArray = function (array) {
   var size = array.length;
@@ -39,28 +67,41 @@ var shuffleAnswers = function (question) {
 /**
  * Shuffles a set of exams depending on the shuffle parameter
  *
- * @param {array} exams
- * @param {string} shuffleParameter
+ * @param {Object[]} exams - An array of Exam objects
+ * @param {string} param - Comma-separated string of either "q", "a", "mc" or "tf"
  */
-exports.handleShuffle = function (exams, shuffleParameter) {
+exports.handleShuffle = function (exams, param) {
 
-  if (shuffleParameter === 'none') return;
+  if (param === 'none') return;
 
-  // Shuffle questions
-  if (!shuffleParameter
-      || shuffleParameter === 'q'
-      || (shuffleParameter.split(',').length === 2
-      && shuffleParameter.split(',').indexOf('q') > -1)) {
+  var undef = typeof param === 'undefined';
+  var q = !undef && param.indexOf('q') > -1;
+  var a = !undef && param.indexOf('a') > -1;
+  var tf = !undef && param.indexOf('tf') > -1;
+  var mc = !undef && param.indexOf('mc') > -1;
+
+  // Check if all questions in all the exams are True/False. If not, treat them as Multiple Choice.
+  var examsAreTF = examsAreTrueFalse(exams);
+
+  // If param is undefined, shuffle questions. (Default behavior)
+  // The following counts if param is defined.
+  // If 'q' is not set, don't shuffle questions.
+  // If 'q' and 'tf' is set, shuffle questions if all exams are True/False.
+  // If 'q' and 'mc' is set, shuffle questions if not all exams are True/False.
+  // Shuffle if 'q' is set, but neither of 'mc' or 'tf'.
+  if (undef || q && (tf && examsAreTF || mc && !examsAreTF || !tf && !mc)) {
     for (var i = 0; i < exams.length; i++) {
       exams[i].questions = shuffleArray(exams[i].questions);
     }
   }
 
-  // Shuffle answers
-  if (!shuffleParameter
-      || shuffleParameter === 'a'
-      || (shuffleParameter.split(',').length === 2
-      && shuffleParameter.split(',').indexOf('a') > -1)) {
+  // If param is undefined, shuffle answers if NOT examsAreTF. (Default behavior)
+  // The following counts if param is defined.
+  // If 'a' is not set, don't shuffle answers.
+  // If 'a' and 'tf' is set, shuffle answers if all exams are True/False.
+  // If 'a' and 'mc' is set, shuffle answers if not all exams are True/False.
+  // Shuffle if 'a' is set, but neither of 'mc' or 'tf'.
+  if (undef && !examsAreTF || a && (tf && examsAreTF || mc && !examsAreTF || !tf && !mc)) {
     for (var j = 0; j < exams.length; j++) {
       var exam = exams[j];
       for (var k = 0; k < exam.questions.length; k++) {

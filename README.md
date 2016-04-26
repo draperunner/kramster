@@ -34,7 +34,7 @@ All above endpoints can be given the following query parameters:
 | Key       | Allowed Values               | Default value/behavior (if omitted) | Description
 | ----------|:-----------------------------|:---------------------------|:---------------------------------------------------------
 | mode      | `tf`, `mc`                   | `tf,mc`                    | Returns True/False (tf) exams only, Multiple Choice (mc) only, or both.
-| shuffle   | `q`, `a`                     | `q,a`                      | Shuffles questions (q), their answers (a), or both. Comma-separated.
+| shuffle   | `q`, `a`, `mc`, `tf`, `none` | `mc`                       | Shuffles questions (`q`), their answers (`a`), or both (`q,a`). If `mc`, shuffling happens only if the exam has multiple choice questions. If `tf`, shuffling happens if the exam has only true/false questions.
 | random    | `true`, `false`              | `false`                    | Picks a number of random questions (10, unless limit is set) from resulting set of exams. PS! See below for response.
 | sort      | `created`, `name`, `school`, `course` | `created` (chronologically) | Sort the result by one or more fields separated by commas. Put a - before a field for descending order.
 | limit     | An integer >= 0 | No limitations | Number of returned exams will not exceed this number. If random=true, this is the number of random questions to return.
