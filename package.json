@@ -29,6 +29,8 @@
     "grunt-contrib-uglify": "^0.11.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.5.1",
+    "grunt-jsdoc": "^2.0.0",
+    "ink-docstrap": "^1.1.4",
     "jscs": "^2.11.0",
     "mocha": "^2.4.5",
     "should": "^8.3.0",

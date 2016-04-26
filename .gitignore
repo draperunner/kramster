@@ -4,6 +4,7 @@ bower_components/
 build/
 src/client/scripts.min.js
 src/client/styles.min.css
+doc/
 *.iml
 *.sh
 *.bson

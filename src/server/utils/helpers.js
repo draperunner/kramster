@@ -1,5 +1,6 @@
 /**
- * Created by mats on 3/29/16.
+ * @file Provides helper methods for all files
+ * @author Mats Byrkjeland
  */
 
 var express = require('express');
@@ -35,6 +36,12 @@ var shuffleAnswers = function (question) {
   question.answers = correctAnswerIndexes;
 };
 
+/**
+ * Shuffles a set of exams depending on the shuffle parameter
+ *
+ * @param {array} exams
+ * @param {string} shuffleParameter
+ */
 exports.handleShuffle = function (exams, shuffleParameter) {
 
   if (shuffleParameter === 'none') return;

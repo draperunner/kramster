@@ -1,5 +1,6 @@
 /**
- * Created by mats on 3/28/16.
+ * @file Provides validation methods
+ * @author Mats Byrkjeland
  */
 
 var express = require('express');
