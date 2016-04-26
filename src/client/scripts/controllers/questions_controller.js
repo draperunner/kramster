@@ -136,7 +136,7 @@ angular.module('kramster')
       // Is called when the user selects an answer.
       app.answer = function (answer) {
         var scam = $scope.mode.showCorrectAnswerMode;
-        var extraClickNeeded = scam || !answerGiven && scam;
+        var extraClickNeeded = !scam || !answerGiven && scam;
         if (extraClickNeeded) {
           var q = $scope.currentQuestion();
           app.history.push(q && q.answers.indexOf(q.options.indexOf(answer)) >= 0);
