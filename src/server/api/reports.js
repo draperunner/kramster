@@ -97,7 +97,7 @@ router.get('/', function (req, res) {
 router.get('/:school', function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    handleReportsQuery({ 'document.school': validSchool }, req.query, res);
+    handleReportsQuery({ 'exam.school': validSchool }, req.query, res);
   });
 });
 
@@ -108,13 +108,13 @@ router.get('/:school/:course', function (req, res) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
       handleReportsQuery(
         {
-          'document.school': validSchool,
-          'document.course': validCourse,
+          'exam.school': validSchool,
+          'exam.course': validCourse,
         }, req.query, res);
     });
 });
 
-// Return reports for a given document
+// Return reports for a given exam
 router.get('/:school/:course/:exam', function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
     function (isValid, validSchool, validCourse, validExam) {
@@ -124,26 +124,26 @@ router.get('/:school/:course/:exam', function (req, res) {
 
       handleReportsQuery(
         {
-          'document.school': validSchool,
-          'document.course': validCourse,
-          'document.name': validExam,
+          'exam.school': validSchool,
+          'exam.course': validCourse,
+          'exam.name': validExam,
         }, req.query, res);
     });
 });
 
 // Add a new report
 router.post('/add', function (req, res) {
-  validator.validate(req.body.document.school, req.body.document.course, null,
+  validator.validate(req.body.exam.school, req.body.exam.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) {
         return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
 
       var report = new Report({
-        document: {
+        exam: {
           school: validSchool,
           course: validCourse,
-          documentName: req.body.document.documentName,
+          name: req.body.exam.name,
         },
         score: req.body.score,
         numQuestions: req.body.numQuestions,

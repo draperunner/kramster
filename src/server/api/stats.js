@@ -20,7 +20,7 @@ router.get('/', function (req, res) {
 router.get('/:school', function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    Report.find({ 'document.school': validSchool }, function (err, reports) {
+    Report.find({ 'exam.school': validSchool }, function (err, reports) {
       buildStats(err, reports, res);
     });
   });
@@ -31,7 +31,7 @@ router.get('/:school/:course', function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      Report.find({ 'document.school': validSchool, 'document.course': validCourse, },
+      Report.find({ 'exam.school': validSchool, 'exam.course': validCourse, },
         function (err, reports) {
           buildStats(err, reports, res);
         }
@@ -47,9 +47,9 @@ router.get('/:school/:course/all', function (req, res) {
       validator.validateNumber(req.query.numQuestions, function (isValid) {
         if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
         var query = {
-          'document.school': validSchool,
-          'document.course': validCourse,
-          'document.documentName': 'all',
+          'exam.school': validSchool,
+          'exam.course': validCourse,
+          'exam.name': 'all',
         };
         if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
 
@@ -70,9 +70,9 @@ router.get('/:school/:course/random', function (req, res) {
       validator.validateNumber(req.query.numQuestions, function (isValid) {
         if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
         var query = {
-          'document.school': validSchool,
-          'document.course': validCourse,
-          'document.documentName': 'random',
+          'exam.school': validSchool,
+          'exam.course': validCourse,
+          'exam.name': 'random',
         };
 
         if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
@@ -85,7 +85,7 @@ router.get('/:school/:course/random', function (req, res) {
     });
 });
 
-// Return aggregated statistics for a given document
+// Return aggregated statistics for a given exam
 router.get('/:school/:course/:exam', function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
     function (isValid, validSchool, validCourse, validExam) {
@@ -95,9 +95,9 @@ router.get('/:school/:course/:exam', function (req, res) {
 
       Report.find(
         {
-          'document.school': validSchool,
-          'document.course': validCourse,
-          'document.documentName': validExam,
+          'exam.school': validSchool,
+          'exam.course': validCourse,
+          'exam.name': validExam,
         },
         function (err, reports) {
           buildStats(err, reports, res);

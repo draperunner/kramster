@@ -8,7 +8,7 @@ angular.module('kramster')
       $scope.route = {
         school: $routeParams.school,
         course: $routeParams.course,
-        document: $routeParams.document,
+        exam: $routeParams.exam,
       };
 
       $scope.reloadRoute = function () {
@@ -86,10 +86,10 @@ angular.module('kramster')
         if (!finishedReturnedTrue) {
           finishedReturnedTrue = true;
           var report = {
-            document: {
+            exam: {
               school: $routeParams.school,
               course: $routeParams.course,
-              documentName: ($scope.mode.docMode) ? $scope.mode.docMode : $scope.route.document,
+              name: ($scope.mode.docMode) ? $scope.mode.docMode : $scope.route.exam,
             },
             score: app.numCorrects(),
             numQuestions: app.questions.length,
@@ -100,7 +100,7 @@ angular.module('kramster')
 
             // Fetch aggregated statistics from server
             var url = apiUrl + 'stats/' + $routeParams.school
-              + '/' + $routeParams.course + '/' + report.document.documentName;
+              + '/' + $routeParams.course + '/' + report.exam.name;
             httpRequest.get(url, {}, function (stats) {
               var totalNumberOfQuestions = stats.numReports * report.numQuestions;
               var avgPercentage = app.stats.percentage(stats.totalScore, totalNumberOfQuestions);
@@ -192,7 +192,7 @@ angular.module('kramster')
 
       var url = apiUrl + 'exams/' + $routeParams.school + '/' + $routeParams.course;
 
-      // ALL MODE. Fetches all documents, gathers all questions from all of them, shuffles.
+      // ALL MODE. Fetches all exams, gathers all questions from all of them, shuffles.
       if ($scope.mode.docMode === 'all') {
         httpRequest.getAll(url, function (questions, meta) {
           app.questions = questions;
@@ -213,12 +213,12 @@ angular.module('kramster')
         });
       }
 
-      // NON-RANDOM MODE. Fetches the selected document and shuffles its questions.
+      // NON-RANDOM MODE. Fetches the selected exam and shuffles its questions.
       else {
-        url += '/' + $routeParams.document;
-        httpRequest.getSelected(url, function (document) {
-          app.questions = document.questions;
-          $scope.mode.showCorrectAnswerMode = document.mode === 'MC' || document.mode === undefined;
+        url += '/' + $routeParams.exam;
+        httpRequest.getSelected(url, function (exam) {
+          app.questions = exam.questions;
+          $scope.mode.showCorrectAnswerMode = exam.mode === 'MC' || exam.mode === undefined;
         });
       }
     },

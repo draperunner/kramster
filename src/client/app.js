@@ -65,7 +65,7 @@ angular
           },
         },
       }).
-      when('/:school/:course/:document', {
+      when('/:school/:course/:exam', {
         templateUrl: 'views/questions-list.html',
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',

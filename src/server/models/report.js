@@ -6,10 +6,10 @@ var mongoose = require('mongoose');
 
 // Schema
 var reportSchema = new mongoose.Schema({
-  document: {
+  exam: {
     school: String,
     course: String,
-    documentName: String,
+    name: String,
   },
   score: Number,
   numQuestions: Number,

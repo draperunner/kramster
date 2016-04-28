@@ -5,7 +5,7 @@ angular.module('kramster')
     const r = $scope.$parent.$parent.route;
     const mode = $scope.$parent.$parent.mode;
     const dataUrl = r
-      ? baseUrl + r.school + '/' + r.course + '/' + (r.document || mode.docMode)
+      ? baseUrl + r.school + '/' + r.course + '/' + (r.exam || mode.docMode)
       : baseUrl;
 
     $scope.labels = ['A', 'B', 'C', 'D', 'E', 'F'];

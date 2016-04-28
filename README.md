@@ -119,10 +119,10 @@ The response from asking the Reports API will be in form of the following JSON o
 ```javascript
 {
     _id: ObjectId,
-    document: { // TODO: Rename to 'exam'
+    exam: {
         school: String,
         course: String,
-        documentName: String // TODO: Rename to 'name'
+        name: String
     },
     score: Number,
     numQuestions: Number,
