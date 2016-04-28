@@ -1,8 +1,8 @@
 'use strict';
 
 angular.module('kramster')
-    .controller('QuestionsController', ['$scope', '$location', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl',
-        function ($scope, $location, helpers, httpRequest, $route, $routeParams, apiUrl) {
+    .controller('QuestionsController', ['$scope', '$location', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl', 'deviceDetector',
+        function ($scope, $location, helpers, httpRequest, $route, $routeParams, apiUrl, deviceDetector) {
 
         // Route parameters.
         $scope.route = {
@@ -104,7 +104,7 @@ angular.module('kramster')
         // Returns the class (color, mostly) of the option button decided by if it's the right answer or not.
         app.buttonClass = function(option) {
             if (!answerGiven || !$scope.mode.showCorrectAnswerMode) {
-                return 'btn-question';
+                return deviceDetector.isMobile() ? 'btn-question-mobile' : 'btn-question';
             }
             var previousQuestion = app.questions[app.history.length - 1];
             // Check if the option the button represents is one of the correct answers.

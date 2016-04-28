@@ -41,6 +41,18 @@
     color: white;
 }
 
+.btn-question-mobile {
+    background-color: white;
+    color: #2c3e50;
+    padding: 20px;
+    display: block;
+}
+
+.btn-question-mobile:hover {
+    background-color: white;
+    color: white;
+}
+
 .btn-correct-answer {
     background: #2ecc71;
     padding: 20px;
