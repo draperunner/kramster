@@ -14,7 +14,6 @@ var app = express();
 app.disable('x-powered-by');
 app.use(express.static(__dirname + '/../client/'));
 app.use('/doc', express.static(__dirname + '/../../doc/'));
-app.use('/bower_components', express.static(__dirname + '/../../bower_components/'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 

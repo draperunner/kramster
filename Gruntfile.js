@@ -114,11 +114,6 @@ module.exports = function (grunt) {
             'server/**',
         ],
       },
-      package: {
-        expand: true,
-        src: ['bower.json', 'package.json'],
-        dest: 'build/',
-      },
     },
     express: {
       dev: {
