@@ -176,7 +176,7 @@ angular.module('kramster')
 
         // Number of correct answers
         score: function () {
-          return app.numAnswered();
+          return app.numCorrects();
         },
       };
 
