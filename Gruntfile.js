@@ -1,12 +1,48 @@
 module.exports = function (grunt) {
 
   grunt.initConfig({
+    ngAnnotate: {
+      options: {
+        singleQuotes: true,
+        regexp: '^(ng\n?[\\ ]+(.*)|(module.*))$',
+      },
+      app: {
+        files: [
+          {
+            expand: true,
+            src: [
+              'bower_components/angular/angular.js',
+              'bower_components/angular-route/angular-route.js',
+              'bower_components/angular-sanitize/angular-sanitize.js',
+              'bower_components/angular-chart.js/dist/angular-chart.js',
+              'bower_components/Chart.js/Chart.js',
+              'bower_components/re-tree/re-tree.js',
+              'bower_components/ng-device-detector/ng-device-detector.js',
+              'src/client/app.js',
+              'src/client/scripts/**/*.js',
+            ],
+            ext: '.annotated.js',
+            extDot: 'last',
+          },
+        ],
+      },
+    },
     concat: {
       options: {
         separator: ';',
       },
       scripts: {
-        src: ['src/client/scripts/**/*.js'],
+        src: [
+          'bower_components/angular/angular.annotated.js',
+          'bower_components/angular-route/angular-route.annotated.js',
+          'bower_components/angular-sanitize/angular-sanitize.annotated.js',
+          'bower_components/Chart.js/Chart.annotated.js',
+          'bower_components/angular-chart.js/dist/angular-chart.annotated.js',
+          'bower_components/re-tree/re-tree.annotated.js',
+          'bower_components/ng-device-detector/ng-device-detector.annotated.js',
+          'src/client/app.annotated.js',
+          'src/client/scripts/**/*.annotated.js',
+        ],
         dest: 'src/client/scripts.min.js',
       },
     },
@@ -32,6 +68,9 @@ module.exports = function (grunt) {
       },
     },
     uglify: {
+      options: {
+        preserveComments: false,
+      },
       scripts: {
         files: {
           'src/client/scripts.min.js': ['src/client/scripts.min.js'],
@@ -84,6 +123,7 @@ module.exports = function (grunt) {
       },
     },
     clean: {
+      annotated: ['**/*.annotated.js'],
       dev: ['src/client/scripts.min.js', 'src/client/styles.min.css'],
       build: ['build'],
     },
@@ -99,10 +139,14 @@ module.exports = function (grunt) {
     },
   });
 
-  grunt.registerTask('default', ['clean:dev', 'concat', 'cssmin', 'express:dev', 'watch']);
-  grunt.registerTask('staging',
-    ['clean', 'concat', 'uglify', 'cssmin', 'copy', 'express:build', 'watch']);
-  grunt.registerTask('build', ['clean', 'concat', 'uglify', 'cssmin', 'copy']);
+  grunt.registerTask('default',
+    ['clean:dev', 'ngAnnotate', 'concat', 'cssmin', 'express:dev', 'watch']);
+
+  grunt.registerTask('stage',
+    ['clean', 'ngAnnotate', 'concat', 'uglify', 'cssmin', 'copy', 'express:build', 'watch']);
+
+  grunt.registerTask('build',
+    ['clean', 'ngAnnotate', 'concat', 'uglify', 'cssmin', 'copy']);
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -112,5 +156,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-express-server');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-jsdoc');
+  grunt.loadNpmTasks('grunt-ng-annotate');
 
 };

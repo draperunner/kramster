@@ -30,6 +30,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.5.1",
     "grunt-jsdoc": "^2.0.0",
+    "grunt-ng-annotate": "^2.0.2",
     "ink-docstrap": "^1.1.4",
     "jscs": "^2.11.0",
     "mocha": "^2.4.5",
