@@ -6,7 +6,7 @@ module.exports = function (grunt) {
         singleQuotes: true,
         regexp: '^(ng\n?[\\ ]+(.*)|(module.*))$',
       },
-      app: {
+      bower: {
         files: [
           {
             expand: true,
@@ -18,6 +18,17 @@ module.exports = function (grunt) {
               'bower_components/Chart.js/Chart.js',
               'bower_components/re-tree/re-tree.js',
               'bower_components/ng-device-detector/ng-device-detector.js',
+            ],
+            ext: '.annotated.js',
+            extDot: 'last',
+          },
+        ],
+      },
+      app: {
+        files: [
+          {
+            expand: true,
+            src: [
               'src/client/app.js',
               'src/client/scripts/**/*.js',
             ],
@@ -55,8 +66,8 @@ module.exports = function (grunt) {
         },
       },
       scripts: {
-        files: ['src/client/scripts/**/*.js'],
-        tasks: ['concat:scripts'],
+        files: ['src/client/**/*.js'],
+        tasks: ['ngAnnotate:app', 'concat:scripts', 'clean:annotatedClient'],
       },
       styles: {
         files: ['src/client/styles/**/*.css'],
@@ -124,6 +135,7 @@ module.exports = function (grunt) {
     },
     clean: {
       annotated: ['**/*.annotated.js'],
+      annotatedClient: ['src/client/**/*.annotated.js'],
       dev: ['src/client/scripts.min.js', 'src/client/styles.min.css'],
       build: ['build'],
     },
