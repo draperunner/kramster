@@ -41,9 +41,9 @@ angular
         controllerAs: 'coursesCtrl',
       }).
       when('/:school/:course', {
-        templateUrl: 'views/documents-list.html',
-        controller: 'DocumentListController',
-        controllerAs: 'documentsCtrl',
+        templateUrl: 'views/exams-list.html',
+        controller: 'ExamListController',
+        controllerAs: 'examsCtrl',
       }).
       when('/:school/:course/random/:number', {
         templateUrl: 'views/questions-list.html',

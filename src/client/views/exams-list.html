@@ -1,26 +1,26 @@
 <div class="row">
     <div class="col-sm-4">
         <a href="/{{route.school}}/{{route.course}}/random/10"
-           class="btn btn-document-special" role="button">10 Random</a>
+           class="btn btn-exam-special" role="button">10 Random</a>
     </div>
     <div class="col-sm-4">
         <a href="/{{route.school}}/{{route.course}}/random/30"
-           class="btn btn-document-special" role="button">30 Random</a>
+           class="btn btn-exam-special" role="button">30 Random</a>
     </div>
     <div class="col-sm-4">
         <a href="/{{route.school}}/{{route.course}}/all"
-           class="btn btn-document-special" role="button">All</a>
+           class="btn btn-exam-special" role="button">All</a>
     </div>
 </div>
 
 <div class="row top-buffer">
-    <div ng-repeat="document in documentsCtrl.documents">
+    <div ng-repeat="exam in examsCtrl.exams">
         <div ng-if="$index % 2 == 0" class="clearfix visible-sm-block"></div>
         <div ng-if="$index % 3 == 0" class="clearfix visible-md-block"></div>
         <div ng-if="$index % 4 == 0" class="clearfix visible-lg-block"></div>
 
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <a href="/{{route.school}}/{{route.course}}/{{document}}" class="btn btn-document" role="button">{{document}}</a>
+            <a href="/{{route.school}}/{{route.course}}/{{exam}}" class="btn btn-exam" role="button">{{exam}}</a>
         </div>
     </div>
 </div>
