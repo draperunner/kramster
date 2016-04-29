@@ -28,5 +28,6 @@ app.use(function (req, res) {
 });
 
 // Start server
-app.listen(8000, '127.0.0.1');
-console.log('Server is running on port 8000');
+var port = 8000;
+app.listen(port, '127.0.0.1');
+console.log('Server is running on port ' + port);
