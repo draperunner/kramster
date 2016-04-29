@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('kramster')
-  .controller('QuestionsController', ['$scope', '$location', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl',
+  .controller('QuestionsController',
+    ['$scope', '$location', 'Helpers', 'httpRequest', '$route', '$routeParams', 'apiUrl',
     function ($scope, $location, helpers, httpRequest, $route, $routeParams, apiUrl) {
 
       // Route parameters.
@@ -151,8 +152,9 @@ angular.module('kramster')
         // Get the (current) ratio of correct answers per total number of answered questions.
         percentage: function (dividend, divisor) {
           if (!dividend && !divisor) {
-            return (app.numAnswered() > 0) ? Math.round(10000 * app.numCorrects() / app.numAnswered()) / 100 : 0;
-          }              else if (dividend && divisor) {
+            return (app.numAnswered() > 0)
+              ? Math.round(10000 * app.numCorrects() / app.numAnswered()) / 100 : 0;
+          } else if (dividend && divisor) {
             return (divisor > 0) ? Math.round(10000 * dividend / divisor) / 100 : 0;
           }
         },
@@ -163,7 +165,8 @@ angular.module('kramster')
             return '' + app.numCorrects() + ' (' + app.stats.percentage() + '%)';
           }
 
-          return '' + score.toFixed(2) + ' (' + app.stats.percentage(score, app.questions.length) + '%)';
+          return '' + score.toFixed(2)
+            + ' (' + app.stats.percentage(score, app.questions.length) + '%)';
         },
 
         // Returns the grade corresponding to the current percentage. Uses the NTNU scale.

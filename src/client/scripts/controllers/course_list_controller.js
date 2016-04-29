@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('kramster')
-  .controller('CourseListController', ['$scope', '$location', 'httpRequest', '$routeParams', 'apiUrl', 'Helpers',
+  .controller('CourseListController',
+    ['$scope', '$location', 'httpRequest', '$routeParams', 'apiUrl', 'Helpers',
     function ($scope, $location, httpRequest, $routeParams, apiUrl, helpers) {
 
       // Returns a pretty header for the course (the course code)
