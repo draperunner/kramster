@@ -10,7 +10,7 @@
                    body="{{coursesCtrl.name(course)}}"
                    color="purple"
                    min-height="true"
-                   ng-click="go('/'+helpers.underscorify(coursesCtrl.school)+'/'+helpers.underscorify(course))">
+                   ng-click="go('/'+coursesCtrl.school+'/'+coursesCtrl.header(course))">
             </kitem>
 
         </div>

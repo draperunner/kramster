@@ -13,17 +13,18 @@ mongoose.connect('mongodb://localhost/kramster');
 var app = express();
 app.disable('x-powered-by');
 app.use(express.static(__dirname + '/../client/'));
-app.use('/bower_components', express.static(__dirname + '/../../bower_components/'));
-app.use(bodyParser.urlencoded({ extended: true}));
+app.use('/doc', express.static(__dirname + '/../../doc/'));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api', require('./routes/api'));
-app.use('/api/reports', require('./routes/reports'));
-app.use('/api/stats', require('./routes/stats'));
+app.use('/api/exams', require('./api/exams'));
+app.use('/api/reports', require('./api/reports'));
+app.use('/api/stats', require('./api/stats'));
+app.use('/api/list', require('./api/list'));
 
-app.use(function(req, res) {
-    res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+app.use(function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
 });
 
 // Start server

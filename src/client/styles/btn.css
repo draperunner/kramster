@@ -9,23 +9,23 @@
     color: rgb(236, 240, 241);
 }
 
-.btn-document {
+.btn-exam {
     background: #2980b9;
     padding: 20px;
     display: block;
 }
 
-.btn-document:hover {
+.btn-exam:hover {
     background: #3498db;
 }
 
-.btn-document-special {
+.btn-exam-special {
     background: #e67e22;
     padding: 20px;
     display: block;
     text-transform: uppercase;
 }
-.btn-document-special:hover {
+.btn-exam-special:hover {
     background-color: #f39c12;
 }
 

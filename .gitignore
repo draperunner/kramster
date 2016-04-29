@@ -2,8 +2,10 @@
 node_modules/
 bower_components/
 build/
+*.annotated.js
 src/client/scripts.min.js
 src/client/styles.min.css
+doc/
 *.iml
 *.sh
 *.bson
