@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('kramster')
-  .controller('DocumentListController', ['$scope', '$location', 'Helpers', 'httpRequest', '$routeParams', 'apiUrl',
+  .controller('DocumentListController',
+    ['$scope', '$location', 'Helpers', 'httpRequest', '$routeParams', 'apiUrl',
     function ($scope, $location, helpers, httpRequest, $routeParams, apiUrl) {
 
       $scope.helpers = helpers;
@@ -14,7 +15,10 @@ angular.module('kramster')
       var app = this;
       app.documents = [];
 
-      httpRequest.get(apiUrl + 'list/exams/' + $routeParams.school + '/' + $routeParams.course, {}, function (data) {
+      var url = apiUrl + 'list/exams/' + $routeParams.school + '/' + $routeParams.course;
+      var query = { sort: '-alphabetically' };
+
+      httpRequest.get(url, query, function (data) {
         app.documents = data;
       });
 

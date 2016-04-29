@@ -27,6 +27,17 @@ var handleShortParameter = function (type, names) {
   return shorts;
 };
 
+/**
+ * Checks the 'sort' parameter and returns the appropriate sorting function for Array.prototype.sort
+ *
+ * @param {string} sortParam
+ * @return {function} sortFunction
+ */
+var getSortFunction = function (sortParam) {
+  if (sortParam === '-alphabetically') return helpers.descSort;
+  return helpers.ascSort;
+};
+
 // Return list of all distinct schools
 router.get('/schools', function (req, res) {
   Exam.distinct('school', function (err, names) {
@@ -35,7 +46,9 @@ router.get('/schools', function (req, res) {
       return;
     }
 
-    res.json(req.query.short === 'true' ? handleShortParameter('schools', names) : names);
+    var resultNames = req.query.short === 'true' ? handleShortParameter('schools', names) : names;
+    resultNames.sort(getSortFunction(req.query.sort));
+    res.json(resultNames);
   });
 });
 
@@ -47,7 +60,9 @@ router.get('/courses', function (req, res) {
       return;
     }
 
-    res.json(req.query.short === 'true' ? handleShortParameter('courses', names) : names);
+    var resultNames = req.query.short === 'true' ? handleShortParameter('courses', names) : names;
+    resultNames.sort(getSortFunction(req.query.sort));
+    res.json(resultNames);
   });
 });
 
@@ -57,7 +72,9 @@ router.get('/courses/:school', function (req, res) {
     if (!isValid) return errors.noSchoolFound(res, req.query.school);
     Exam.find({ school: validSchool }).distinct('course', function (err, names) {
       if (err) return errors.somethingWentWrong(res);
-      res.json(req.query.short === 'true' ? handleShortParameter('courses', names) : names);
+      var resultNames = req.query.short === 'true' ? handleShortParameter('courses', names) : names;
+      resultNames.sort(getSortFunction(req.query.sort));
+      res.json(resultNames);
     });
   });
 });
@@ -70,6 +87,7 @@ router.get('/exams', function (req, res) {
       return;
     }
 
+    names.sort(getSortFunction(req.query.sort));
     res.json(names);
   });
 });
@@ -80,6 +98,7 @@ router.get('/exams/:school', function (req, res) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
     Exam.find({ school: validSchool }).distinct('name', function (err, names) {
       if (err) return errors.somethingWentWrong(res);
+      names.sort(getSortFunction(req.query.sort));
       res.json(names);
     });
   });
@@ -93,6 +112,7 @@ router.get('/exams/:school/:course', function (req, res) {
       Exam.find({ school: validSchool, course: validCourse }).distinct('name',
         function (err, names) {
           if (err) return errors.somethingWentWrong(res);
+          names.sort(getSortFunction(req.query.sort));
           res.json(names);
         });
     });

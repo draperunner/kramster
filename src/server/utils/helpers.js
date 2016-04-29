@@ -138,3 +138,15 @@ exports.getCourseCodeFromFullName = function (courseName) {
   if (splitName.length === 1) return courseName.substring(0, 7);
   return courseName.split(' ')[0].toUpperCase();
 };
+
+exports.ascSort = function (a, b) {
+  if (a < b) return -1;
+  if (a > b) return 1;
+  return 0;
+};
+
+exports.descSort = function (a, b) {
+  if (a < b) return 1;
+  if (a > b) return -1;
+  return 0;
+};
