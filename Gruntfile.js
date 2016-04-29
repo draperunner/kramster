@@ -140,13 +140,13 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('default',
-    ['clean:dev', 'ngAnnotate', 'concat', 'cssmin', 'express:dev', 'watch']);
-
-  grunt.registerTask('stage',
-    ['clean', 'ngAnnotate', 'concat', 'uglify', 'cssmin', 'copy', 'express:build', 'watch']);
+    ['clean:dev', 'ngAnnotate', 'concat', 'clean:annotated', 'cssmin', 'express:dev', 'watch']);
 
   grunt.registerTask('build',
-    ['clean', 'ngAnnotate', 'concat', 'uglify', 'cssmin', 'copy']);
+    ['clean', 'ngAnnotate', 'concat', 'clean:annotated', 'uglify', 'cssmin', 'copy']);
+
+  grunt.registerTask('stage',
+    ['build', 'express:build', 'watch']);
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
