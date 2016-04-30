@@ -67,7 +67,7 @@ module.exports = function (grunt) {
       },
       scripts: {
         files: ['src/client/**/*.js'],
-        tasks: ['ngAnnotate:app', 'concat:scripts', 'clean:annotatedClient'],
+        tasks: ['clean:dev', 'ngAnnotate:app', 'concat', 'clean:annotatedClient'],
       },
       styles: {
         files: ['src/client/styles/**/*.css'],
