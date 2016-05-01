@@ -11,6 +11,8 @@ Use this for detailed analysis of how well the Kramster users do.
 The Stats part is for getting some standard accumulated statistics based on the reports. 
 The List part is for getting a string array of names of schools, courses or exams.
 
+If you encounter any problems or have any questions regarding the API, please [contact me](mailto:matsbyr@gmail.com) or open an issue on GitHub.
+
 __Table of Contents__:
 * [Exams](#exams)
 * [Reports](#reports)
