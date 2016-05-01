@@ -59,18 +59,26 @@ angular.module('kramster')
 
       // Returns the current question
       $scope.currentQuestion = function () {
-        MathJax.Hub.Queue(['Typeset', MathJax.Hub]);
+
+        var question;
 
         // If questions still are being fetched, return an empty question.
         if (app.questions.length <= 0) {
-          return emptyQuestion;
+          question = emptyQuestion;
+        } else if (answerGiven) {
+          question = app.questions[app.history.length - 1];
+        } else {
+          question = app.questions[app.history.length];
         }
 
-        if (answerGiven) {
-          return app.questions[app.history.length - 1];
+        // Render math
+        var domElementsThatMightContainMath = document.getElementsByClassName('math');
+        for (var i = 0; i < domElementsThatMightContainMath.length; i++) {
+          renderMathInElement(domElementsThatMightContainMath[i]);
         }
 
-        return app.questions[app.history.length];
+        return question;
+
       };
 
       $scope.numberOfQuestions = function () {

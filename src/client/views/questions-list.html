@@ -18,7 +18,7 @@
 <div class="row" ng-if="questionsCtrl.questions && !loading">
     <div class="col-xs-12">
         <div ng-if="currentQuestion()">
-            <h3 ng-bind-html="currentQuestion().question"></h3>
+            <h3 class="math" ng-bind-html="currentQuestion().question"></h3>
         </div>
     </div>
 </div>
@@ -27,7 +27,7 @@
     <div class="col-xs-12">
         <div class="btn-group">
             <a role="button" type="button"
-                class="btn {{questionsCtrl.buttonClass(option)}}"
+                class="btn {{questionsCtrl.buttonClass(option)}} math"
                 ng-repeat="option in currentQuestion().options"
                 ng-click="questionsCtrl.answer(option)"
                 ng-bind-html="option">
