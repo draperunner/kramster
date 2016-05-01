@@ -6,7 +6,6 @@ angular
       'ngSanitize',
       'chart.js',
       'ng.deviceDetector',
-      'katex',
   ])
   .run(function ($rootScope, $window, $location) {
     $rootScope.goExternal = function (path) {
