@@ -35,14 +35,7 @@ angular.module('kramster')
               allQuestions.push.apply(allQuestions, res.data[i].questions);
             }
 
-            var uniqueModes = helpers.removeDuplicates(res.data.map(function (doc) {
-              return doc.mode;
-            }));
-
-            var meta = {
-              mode: (uniqueModes.length === 1) ? uniqueModes[0] : 'MC',
-            };
-            callback(allQuestions, meta);
+            callback(allQuestions);
           });
         };
 

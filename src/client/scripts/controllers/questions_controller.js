@@ -34,10 +34,6 @@ angular.module('kramster')
         // String representing the doc fetch mode.
         // 'all' if All button is clicked. 'random' if Random X is clicked, etc.
         docMode: $route.current.locals.mode,
-
-        // If set to true, the correct answer will be shown after answering,
-        // before next question appears.
-        showCorrectAnswerMode: true,
       };
 
       var app = this;
@@ -70,7 +66,7 @@ angular.module('kramster')
           return emptyQuestion;
         }
 
-        if ($scope.mode.showCorrectAnswerMode && answerGiven) {
+        if (answerGiven) {
           return app.questions[app.history.length - 1];
         }
 
@@ -84,7 +80,7 @@ angular.module('kramster')
       // Returns the class (color, mostly) of the option button
       // decided by if it's the right answer or not.
       app.buttonClass = function (option) {
-        if (!answerGiven || !$scope.mode.showCorrectAnswerMode) {
+        if (!answerGiven) {
           return deviceDetector.isMobile() ? 'btn-question-mobile' : 'btn-question';
         }
 
@@ -147,15 +143,12 @@ angular.module('kramster')
 
       // Is called when the user selects an answer.
       app.answer = function (answer) {
-        var scam = $scope.mode.showCorrectAnswerMode;
-        var extraClickNeeded = !scam || !answerGiven && scam;
-        if (extraClickNeeded) {
+        if (!answerGiven) {
           var q = $scope.currentQuestion();
           app.history.push(q && q.answers.indexOf(q.options.indexOf(answer)) >= 0);
-          answerGiven = true;
-        } else {
-          answerGiven = false;
         }
+
+        answerGiven = !answerGiven;
       };
 
       // Variables concerning the answering statistics for this session.
@@ -208,9 +201,8 @@ angular.module('kramster')
 
       // ALL MODE. Fetches all exams, gathers all questions from all of them, shuffles.
       if ($scope.mode.docMode === 'all') {
-        httpRequest.getAll(url, function (questions, meta) {
+        httpRequest.getAll(url, function (questions) {
           app.questions = questions;
-          $scope.mode.showCorrectAnswerMode = meta.mode === 'MC' || meta.mode === undefined;
         });
       }
 
@@ -221,9 +213,8 @@ angular.module('kramster')
           limit: $routeParams.number,
         };
 
-        httpRequest.get(url, params, function (questions, meta) {
+        httpRequest.get(url, params, function (questions) {
           app.questions = questions;
-          $scope.mode.showCorrectAnswerMode = true;
         });
       }
 
@@ -232,7 +223,6 @@ angular.module('kramster')
         url += '/' + $routeParams.exam;
         httpRequest.getSelected(url, function (exam) {
           app.questions = exam.questions;
-          $scope.mode.showCorrectAnswerMode = exam.mode === 'MC' || exam.mode === undefined;
         });
       }
     },
