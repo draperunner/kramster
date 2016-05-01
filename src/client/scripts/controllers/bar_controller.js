@@ -8,6 +8,11 @@ angular.module('kramster')
       ? baseUrl + r.school + '/' + r.course + '/' + (r.exam || mode.docMode)
       : baseUrl;
 
+    var params = {};
+    if (mode && mode.docMode && mode.docMode === 'random') {
+      params.numQuestions = $scope.numberOfQuestions();
+    }
+
     $scope.labels = ['A', 'B', 'C', 'D', 'E', 'F'];
     $scope.data = [[]];
 
@@ -27,7 +32,7 @@ angular.module('kramster')
       maintainAspectRatio: true,
     };
 
-    httpRequest.get(dataUrl, {}, function (res) {
+    httpRequest.get(dataUrl, params, function (res) {
       var data = [];
       for (var i = 0; i < $scope.labels.length; i++) {
         data.push(res.grades[$scope.labels[i]]);

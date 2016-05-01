@@ -77,6 +77,10 @@ angular.module('kramster')
         return app.questions[app.history.length];
       };
 
+      $scope.numberOfQuestions = function () {
+        return app.questions.length;
+      };
+
       // Returns the class (color, mostly) of the option button
       // decided by if it's the right answer or not.
       app.buttonClass = function (option) {
@@ -120,7 +124,13 @@ angular.module('kramster')
             // Fetch aggregated statistics from server
             var url = apiUrl + 'stats/' + $routeParams.school
               + '/' + $routeParams.course + '/' + report.exam.name;
-            httpRequest.get(url, {}, function (stats) {
+
+            var params = {};
+            if (report.exam.name === 'random') {
+              params.numQuestions = app.questions.length;
+            }
+
+            httpRequest.get(url, params, function (stats) {
               var totalNumberOfQuestions = stats.numReports * report.numQuestions;
               var avgPercentage = app.stats.percentage(stats.totalScore, totalNumberOfQuestions);
               app.stats.fromServer = stats;
