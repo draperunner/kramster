@@ -15,10 +15,10 @@
 <body>
 
     <navbar></navbar>
+    <div id="spinner" ng-show="loading"></div>
 
     <div class="container main-container">
         <div ng-view ng-controller="Tracker"></div>
-        <div id="spinner" ng-show="loading"></div>
     </div>
 
     <script async
