@@ -12,12 +12,12 @@ mongoose.connect('mongodb://localhost/kramster');
 // Express
 var app = express();
 app.disable('x-powered-by');
-app.use(express.static(__dirname + '/../client/'));
-app.use('/doc', express.static(__dirname + '/../../doc/'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Routes
+app.use(express.static(__dirname + '/../client/'));
+app.use('/doc', express.static(__dirname + '/../../doc/'));
 app.use('/api/exams', require('./api/exams'));
 app.use('/api/reports', require('./api/reports'));
 app.use('/api/stats', require('./api/stats'));
