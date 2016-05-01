@@ -51,6 +51,8 @@ module.exports = function (grunt) {
           'bower_components/angular-chart.js/dist/angular-chart.annotated.js',
           'bower_components/re-tree/re-tree.annotated.js',
           'bower_components/ng-device-detector/ng-device-detector.annotated.js',
+          'bower_components/KaTeX/dist/katex.min.js',
+          'bower_components/KaTeX/dist/contrib/auto-render.min.js',
           'src/client/app.annotated.js',
           'src/client/scripts/**/*.annotated.js',
         ],
@@ -61,21 +63,21 @@ module.exports = function (grunt) {
       express: {
         files: ['src/**/*'],
         tasks: ['express:dev'],
-        options: {
-          spawn: false,
-        },
       },
       scripts: {
-        files: ['src/client/**/*.js'],
-        tasks: ['clean:dev', 'ngAnnotate:app', 'concat', 'clean:annotatedClient'],
+        files: ['src/**/*.js'],
+        tasks: ['ngAnnotate', 'concat', 'clean:annotated', 'express:dev'],
       },
       styles: {
-        files: ['src/client/styles/**/*.css'],
+        files: ['src/**/*.css'],
         tasks: ['cssmin'],
       },
       qa: {
         files: ['src/**/*.js', '!src/**/*.min.js'],
         tasks: ['jsdoc'],
+        options: {
+          spawn: false,
+        },
       },
     },
     uglify: {
@@ -95,7 +97,10 @@ module.exports = function (grunt) {
       },
       target: {
         files: {
-          'src/client/styles.min.css': ['src/client/styles/*.css'],
+          'src/client/styles.min.css': [
+            'src/client/styles/*.css',
+            'bower_components/KaTeX/dist/katex.min.css',
+          ],
         },
       },
     },
