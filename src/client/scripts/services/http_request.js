@@ -15,8 +15,22 @@ angular.module('kramster')
           });
         };
 
-        // Gets the selected document and passes on to callback.
-        this.getSelected = function (url, callback) {
+        // Gets n random questions
+        this.getRandom = function (url, n, callback) {
+          var params = {
+            random: 'true',
+            limit: n,
+          };
+
+          $rootScope.loading = true;
+          $http.get(url, { params: params }).then(function (res) {
+            $rootScope.loading = false;
+            callback(res.data);
+          });
+        };
+
+        // Gets the selected exam(s) and passes on to callback.
+        this.getSelected = function (url, params, callback) {
           $rootScope.loading = true;
           $http.get(url).then(function (res) {
             $rootScope.loading = false;
@@ -24,8 +38,7 @@ angular.module('kramster')
           });
         };
 
-        // Gets all questions of all documents of given url and passes to callback.
-        // Passes also a meta object.
+        // Gets all questions of all exams of given url and passes to callback.
         this.getAll = function (url, callback) {
           $rootScope.loading = true;
           $http.get(url).then(function (res) {

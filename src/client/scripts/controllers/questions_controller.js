@@ -216,12 +216,7 @@ angular.module('kramster')
 
       // RANDOM N MODE. Fetches n random questions from the course.
       else if ($scope.mode.docMode === 'random') {
-        var params = {
-          random: 'true',
-          limit: $routeParams.number,
-        };
-
-        httpRequest.get(url, params, function (questions) {
+        httpRequest.getRandom(url, $routeParams.number, function (questions) {
           app.questions = questions;
         });
       }
@@ -229,7 +224,7 @@ angular.module('kramster')
       // NON-RANDOM MODE. Fetches the selected exam and shuffles its questions.
       else {
         url += '/' + $routeParams.exam;
-        httpRequest.getSelected(url, function (exam) {
+        httpRequest.getSelected(url, {}, function (exam) {
           app.questions = exam.questions;
         });
       }
