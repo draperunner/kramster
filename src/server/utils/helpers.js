@@ -6,6 +6,19 @@
 var express = require('express');
 
 /**
+ * Checks if a question's answers are "True" and "False"
+ */
+var questionIsTrueFalse = function (question) {
+  if (question.options.length !== 2) return false;
+  for (var k = 0; k < 2; k++) {
+    var o = question.options[k].toLowerCase().replace(/\./g, '');
+    if (o !== 'true' && o !== 'false' && o !== 'sant' && o !== 'usant') return false;
+  }
+
+  return true;
+};
+
+/**
  * Checks if all of the argument exams have only True/False questions.
  *
  * @param {Object[]} exams - An array of Exam objects
@@ -18,14 +31,7 @@ var examsAreTrueFalse = function (exams) {
 
     if (!exams[i].mode) {
       for (var j = 0; j < exams[i].questions.length; j++) {
-        var q = exams[i].questions[j];
-        if (q.options.length !== 2) return false;
-        for (var k = 0; k < 2; k++) {
-          var o = q.options[k].toLowerCase().replace(/\./g, '');
-
-          // TODO: Find a way to check this that is not hardcoded (especially for random mode)
-          if (o !== 'true' && o !== 'false' && o !== 'sant' && o !== 'usant') return false;
-        }
+        if (!questionIsTrueFalse(exams[i].questions[j])) return false;
       }
     }
   }
@@ -46,9 +52,12 @@ var shuffleArray = function (array) {
   return array;
 };
 
-// Takes a question and shuffles its answers
-// Question object is of form {question: String, options: [String], answers: [Integer]}
+/** Takes a question and shuffles its answers
+ *  If a question's answers are True and False, they will not be shuffled! "True" always first.
+ *  Question object is of form {question: String, options: [String], answers: [Integer]}
+ */
 var shuffleAnswers = function (question) {
+  if (questionIsTrueFalse(question)) return;
   var numCorrectAnswers = question.answers.length;
   var correctAnswers = [];
   for (var k = 0; k < numCorrectAnswers; k++) {
@@ -66,6 +75,7 @@ var shuffleAnswers = function (question) {
 
 /**
  * Shuffles a set of exams depending on the shuffle parameter
+ * If a question's answers are True and False, they will not be shuffled! "True" always first.
  *
  * @param {Object[]} exams - An array of Exam objects
  * @param {string} param - Comma-separated string of either "q", "a", "mc" or "tf"
