@@ -2,8 +2,9 @@
 
 angular.module('kramster')
   .controller('ExamListController',
-    ['$scope', '$location', 'Helpers', 'httpRequest', '$routeParams', 'apiUrl',
-    function ($scope, $location, helpers, httpRequest, $routeParams, apiUrl) {
+    ['$rootScope', '$scope', '$location', 'Helpers', 'httpRequest', '$routeParams', 'apiUrl',
+    function ($rootScope, $scope, $location, helpers, httpRequest, $routeParams, apiUrl) {
+      $rootScope.loading = false;
 
       $scope.helpers = helpers;
 
