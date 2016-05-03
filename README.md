@@ -11,7 +11,7 @@ Use this for detailed analysis of how well the Kramster users do.
 The Stats part is for getting some standard accumulated statistics based on the reports. 
 The List part is for getting a string array of names of schools, courses or exams.
 
-If you encounter any problems or have any questions regarding the API, please <a href="mailto:matsbyr@gmail.com">contact me</a> or open an issue on GitHub.
+If you encounter any problems or have any questions regarding the API, please [contact me](mailto:matsbyr@gmail.com) or open an issue on GitHub.
 
 __Table of Contents__:
 * [Exams](#exams)
@@ -85,7 +85,7 @@ Return True/False exams from The Norwegian University of Science and Technology 
 [http://kramster.it/api/exams/ntnu?mode=tf](http://kramster.it/api/exams/ntnu?mode=tf)
 
 Return 20 random questions from The Norwegian University of Science and Technology (NTNU):  
-[http://kramster.it/api/exams/ntnu?random=true&numRandom=20](http://kramster.it/api/exams/ntnu?random=true&numRandom=20)
+[http://kramster.it/api/exams/ntnu?random=true&limit=20](http://kramster.it/api/exams/ntnu?random=true&limit=20)
 
 ### Reports <a name="reports"/>
 When a user finishes an exam on Kramster, the results are saved as a Report.
@@ -214,7 +214,7 @@ The response is an array of strings:
 
 ### Examples
 Return all existing schools  
-[http://kramster.it/api/list/schools](http://kramster.it/api/schools)
+[http://kramster.it/api/list/schools](http://kramster.it/api/list/schools)
 
 Return all courses at NTNU:  
 [http://kramster.it/api/list/courses/ntnu](http://kramster.it/api/list/courses/ntnu)
