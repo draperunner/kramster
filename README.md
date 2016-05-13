@@ -11,4 +11,4 @@ Use this for detailed analysis of how well the Kramster users do.
 The Stats part is for getting some standard accumulated statistics based on the reports. 
 The List part is for getting a string array of names of schools, courses or exams.
 
-Please see the [API Reference](https://github.com/draperunner/Kramster/wiki) for details on the API.
+Please see the [API Reference](https://github.com/draperunner/Kramster/wiki/API-Reference) for details on the API.
