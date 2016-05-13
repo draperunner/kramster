@@ -98,6 +98,7 @@ module.exports = function (grunt) {
       target: {
         files: {
           'src/client/styles.min.css': [
+            'bower_components/bootstrap/dist/css/bootstrap.css',
             'src/client/styles/*.css',
             'bower_components/KaTeX/dist/katex.min.css',
           ],
