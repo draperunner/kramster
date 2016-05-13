@@ -10,6 +10,12 @@
     color: rgb(236, 240, 241);
     text-align: center;
 }
+@media (max-width: 767px) {
+    .kitem {
+        margin: 5px 5px 10px;
+    }
+}
+
 .kitem-clickable:hover {
     margin: 0;
     height: 110%;
