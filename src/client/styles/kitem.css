@@ -10,6 +10,10 @@
     color: rgb(236, 240, 241);
     text-align: center;
 }
+.kitem p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 @media (max-width: 767px) {
     .kitem {
         margin: 5px 5px 10px;
