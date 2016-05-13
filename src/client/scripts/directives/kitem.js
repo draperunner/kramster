@@ -17,6 +17,8 @@ angular.module('kramster')
         templateUrl: '../../views/kitem.html',
         link: function (scope, elem, attr) {
 
+          var mobile = deviceDetector.isMobile();
+
           scope.role = (!attr.hasOwnProperty('clickable') || attr.clickable !== 'false')
             ? 'button' : '';
 
@@ -24,12 +26,12 @@ angular.module('kramster')
             elem[0].firstChild.className = elem[0].firstChild.className + ' kitem-' + attr.color;
           }
 
-          if (attr.minHeight && elem[0].firstChild.className.indexOf('kitem-min-height') < 0) {
+          if (attr.minHeight && !mobile
+            && elem[0].firstChild.className.indexOf('kitem-min-height') < 0) {
             elem[0].firstChild.className = elem[0].firstChild.className + ' kitem-min-height';
           }
 
-          if (deviceDetector.isMobile()
-            || attr.hasOwnProperty('clickable') && attr.clickable === 'false') {
+          if (mobile || attr.hasOwnProperty('clickable') && attr.clickable === 'false') {
             var className = elem[0].firstChild.className;
             elem[0].firstChild.className = className.replace('kitem-clickable', '');
           }
