@@ -61,15 +61,23 @@ module.exports = function (grunt) {
     },
     watch: {
       express: {
-        files: ['src/**/*'],
+        files: [
+          'src/server/**/*',
+          'src/client/**/*.html',
+          'src/client/**/*.png',
+          'src/client/**/*.jpg',
+          'src/client/**/*.jpeg',
+          'src/client/scripts.min.js',
+          'src/client/styles.min.css',
+        ],
         tasks: ['express:dev'],
       },
       scripts: {
         files: ['src/**/*.js'],
-        tasks: ['ngAnnotate', 'concat', 'clean:annotated', 'express:dev'],
+        tasks: ['ngAnnotate', 'concat', 'clean:annotated'],
       },
       styles: {
-        files: ['src/**/*.css'],
+        files: ['src/client/styles/*.css'],
         tasks: ['cssmin'],
       },
       qa: {
