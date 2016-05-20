@@ -53,8 +53,9 @@ angular.module('kramster')
         }
       }
 
-      $scope.options.scaleStartValue = (minVal <= 1) ? 0 : minVal - 1;
-      $scope.options.scaleSteps = maxVal - minVal + 1;
+      var minColHeight = Math.max(1, Math.round((maxVal - minVal) / 10));
+      $scope.options.scaleStartValue = (minVal <= minColHeight) ? 0 : minVal - minColHeight;
+      $scope.options.scaleSteps = maxVal - minVal + minColHeight;
     });
 
   },
