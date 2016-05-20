@@ -10,6 +10,10 @@ h1 {
   line-height: 30px;
 }
 
+h3 {
+  line-height: 1.3em;
+}
+
 .progress {
   border-radius: 0;
   border: 0;
