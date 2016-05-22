@@ -1,13 +1,19 @@
 'use strict';
 
-/*
- * Contains static helper methods.
+/**
+ * @file Contains static helper methods.
+ * @author Mats Byrkjeland
  */
 
 angular.module('kramster')
     .service('Helpers', function () {
 
-      // Returns the mapping from a percentage to grade
+      /**
+       * Returns the mapping from a percentage to grade.
+       *
+       * @param {Number} percentage - An exam result as the percentage of correct answers.
+       * @returns {string} grade - A appropriate letter grade.
+       */
       this.percentageToGrade = function (percentage) {
         var scale = [89, 77, 65, 53, 41];
         var grades = ['A', 'B', 'C', 'D', 'E'];
@@ -20,7 +26,12 @@ angular.module('kramster')
         return 'F';
       };
 
-      // Shuffles an array randomly
+      /**
+       * Shuffles an array randomly
+       *
+       * @param {Object[]} array - The array to shuffle.
+       * @returns {Object[]} - The shuffled array
+       */
       this.shuffle = function (array) {
         var size = array.length;
         for (var i = 0; i < size; i++) {
@@ -33,7 +44,12 @@ angular.module('kramster')
         return array;
       };
 
-      // Search a string for a substring that is enclosed in parenthesis
+      /**
+       * Searches a string for a substring that is enclosed in parenthesis.
+       *
+       * @param {string} s - The string to search in.
+       * @returns {Object[]} - The result of RegExp.prototype.exec().
+       */
       this.findSubstringEnclosedInParenthesis = function (s) {
         const regExp = /\(([^)]+)\)/;
         return regExp.exec(s);

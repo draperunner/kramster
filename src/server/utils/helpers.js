@@ -7,6 +7,10 @@ var express = require('express');
 
 /**
  * Checks if a question's answers are "True" and "False"
+ *
+ * @param {Object} question - The question object.
+ * @returns {boolean} True if the possible answers are only "true" and "false" in either English
+ * or Norwegian. Returns false if not.
  */
 var questionIsTrueFalse = function (question) {
   if (question.options.length !== 2) return false;
@@ -23,6 +27,8 @@ var questionIsTrueFalse = function (question) {
  *
  * @param {Object[]} exams - An array of Exam objects
  * @param {Object[]} exams.questions - An array of Question objects
+ *
+ * @returns {boolean} - True if all of the argument exams have only True/False questions.
  */
 var examsAreTrueFalse = function (exams) {
   for (var i = 0; i < exams.length; i++) {
@@ -39,7 +45,12 @@ var examsAreTrueFalse = function (exams) {
   return true;
 };
 
-// Shuffles an array
+/**
+ * Shuffles an array.
+ *
+ * @param {Object[]} array - The array to shuffle.
+ * @returns {Object[]} - The shuffled array.
+ */
 var shuffleArray = function (array) {
   var size = array.length;
   for (var i = 0; i < size; i++) {

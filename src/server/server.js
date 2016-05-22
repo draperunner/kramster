@@ -1,6 +1,3 @@
-/**
- * Created by mats on 30.04.15.
- */
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');

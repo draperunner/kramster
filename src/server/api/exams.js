@@ -1,7 +1,3 @@
-/**
- * Created by mats on 30.04.15.
- */
-
 var express = require('express');
 var router = express.Router();
 
@@ -30,6 +26,13 @@ var getRandomQuestionsFromExams = function (exams, numberOfQuestions) {
   return randomQuestions;
 };
 
+/**
+ * Handles query parameters for any Exams API endpoint. Validates parameters and executes query.
+ *
+ * @param {Object} queryObject - The selector object for MongoDB's find method.
+ * @param {Object} reqQuery - The query parameters from the HTTP request.
+ * @param {Object} res - The Express response object.
+ */
 var handleExamsQuery = function (queryObject, reqQuery, res) {
 
   // Handle mode parameter
@@ -72,10 +75,16 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
 
 };
 
+/**
+ * Returns all exams.
+ */
 router.get('/', function (req, res) {
   handleExamsQuery({}, req.query, res);
 });
 
+/**
+ * Returns all exams for the given school.
+ */
 router.get('/:school', function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
@@ -83,6 +92,9 @@ router.get('/:school', function (req, res) {
   });
 });
 
+/**
+ * Returns all exams for the given school and course.
+ */
 router.get('/:school/:course', function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
@@ -91,6 +103,9 @@ router.get('/:school/:course', function (req, res) {
     });
 });
 
+/**
+ * Returns all exams for the given school, course and exam.
+ */
 router.get('/:school/:course/:exam', function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
     function (isValid, validSchool, validCourse, validExam) {

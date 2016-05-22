@@ -1,7 +1,3 @@
-/**
- * Created by mats on 3/28/16.
- */
-
 var express = require('express');
 var router = express.Router();
 var validator = require('./../utils/validator');

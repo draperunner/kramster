@@ -1,7 +1,3 @@
-/**
- * Created by mats on 1/20/16.
- */
-
 var express = require('express');
 var router = express.Router();
 

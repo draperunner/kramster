@@ -1,7 +1,3 @@
-/**
- * Created by mats on 3/29/16.
- */
-
 var errorMessages = {
   noSchoolFound: function (res, school) {
     res.status(404).send('404: No school called "' + school + '".');
