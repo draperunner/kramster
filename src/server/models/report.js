@@ -11,6 +11,7 @@ var reportSchema = new mongoose.Schema({
     course: String,
     name: String,
   },
+  createdAt: String,
   score: Number,
   numQuestions: Number,
   percentage: Number,

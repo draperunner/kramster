@@ -118,6 +118,7 @@ angular.module('kramster')
               course: $routeParams.course,
               name: ($scope.mode.docMode) ? $scope.mode.docMode : $scope.route.exam,
             },
+            createdAt: helpers.getLocalTime(),
             score: app.numCorrects(),
             numQuestions: app.questions.length,
             percentage: app.stats.percentage(),

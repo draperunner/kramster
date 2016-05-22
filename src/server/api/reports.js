@@ -145,6 +145,7 @@ router.post('/add', function (req, res) {
           course: validCourse,
           name: req.body.exam.name,
         },
+        createdAt: req.body.createdAt,
         score: req.body.score,
         numQuestions: req.body.numQuestions,
         percentage: req.body.percentage,

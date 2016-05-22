@@ -55,4 +55,28 @@ angular.module('kramster')
         return regExp.exec(s);
       };
 
+      /**
+       * Returns the current ISO 8601-formatted time with timezone offset.
+       *
+       * @returns {string} - ISO 860-formatted timestamp with timezone offset.
+       */
+      this.getLocalTime = function () {
+        var now = new Date();
+        var timezoneOffset = -now.getTimezoneOffset();
+        var sign = timezoneOffset >= 0 ? '+' : '-';
+        var pad = function (num) {
+          var norm = Math.abs(Math.floor(num));
+          return (norm < 10 ? '0' : '') + norm;
+        };
+
+        return now.getFullYear()
+          + '-' + pad(now.getMonth() + 1)
+          + '-' + pad(now.getDate())
+          + 'T' + pad(now.getHours())
+          + ':' + pad(now.getMinutes())
+          + ':' + pad(now.getSeconds())
+          + sign + pad(timezoneOffset / 60)
+          + ':' + pad(timezoneOffset % 60);
+      };
+
     });
