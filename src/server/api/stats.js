@@ -40,21 +40,22 @@ router.get('/:school/:course/all', function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      validator.validateNumber(req.query.numQuestions, function (isValid) {
-        if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
-        var query = {
-          'exam.school': validSchool,
-          'exam.course': validCourse,
-          'exam.name': 'all',
-        };
-        if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
+      if (typeof req.query.numQuestions !== 'undefined' && isNaN(req.query.numQuestions)) {
+        return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
+      }
 
-        Report.find(query,
-          function (err, reports) {
-            buildStats(err, reports, res);
-          }
-        );
-      });
+      var query = {
+        'exam.school': validSchool,
+        'exam.course': validCourse,
+        'exam.name': 'all',
+      };
+      if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
+
+      Report.find(query,
+        function (err, reports) {
+          buildStats(err, reports, res);
+        }
+      );
     });
 });
 
@@ -63,21 +64,22 @@ router.get('/:school/:course/random', function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      validator.validateNumber(req.query.numQuestions, function (isValid) {
-        if (!isValid) return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
-        var query = {
-          'exam.school': validSchool,
-          'exam.course': validCourse,
-          'exam.name': 'random',
-        };
+      if (typeof req.query.numQuestions !== 'undefined' && isNaN(req.query.numQuestions)) {
+        return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
+      }
 
-        if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
-        Report.find(query,
-          function (err, reports) {
-            buildStats(err, reports, res);
-          }
-        );
-      });
+      var query = {
+        'exam.school': validSchool,
+        'exam.course': validCourse,
+        'exam.name': 'random',
+      };
+
+      if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
+      Report.find(query,
+        function (err, reports) {
+          buildStats(err, reports, res);
+        }
+      );
     });
 });
 

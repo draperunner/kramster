@@ -25,31 +25,23 @@ var handleReportsQuery = function (queryObject, reqQuery, res) {
     if (!handleRangeBasedParameter(res, queryObject, paramName, reqQuery[paramName])) return;
   }
 
-  // After
-  var afterParamIsValid = false;
-  validator.validateDate(reqQuery.after, function (isValid, validDateAsObjectId) {
-    if (!isValid) return;
-    if (!queryObject._id) queryObject._id = {};
-    queryObject._id.$gt = validDateAsObjectId;
-    afterParamIsValid = true;
-  });
+  /**
+   * @param {string} param - Either 'after' or 'before'.
+   */
+  var handleDate = function (param) {
+    if (validator.isValidDate(reqQuery[param])) {
+      if (!queryObject.createdAt) queryObject.createdAt = {};
+      queryObject.createdAt[param === 'after' ? '$gt' : '$lt'] = reqQuery[param];
+    } else if (typeof reqQuery[param] !== 'undefined') {
+      errors.invalidDate(res, reqQuery[param]);
+      return false;
+    }
 
-  if (!afterParamIsValid && typeof reqQuery.after !== 'undefined') {
-    return errors.invalidDate(res, reqQuery.after);
-  }
+    return true;
+  };
 
-  // Before
-  var beforeParamIsValid = false;
-  validator.validateDate(reqQuery.before, function (isValid, validDateAsObjectId) {
-    if (!isValid) return;
-    if (!queryObject._id) queryObject._id = {};
-    queryObject._id.$lt = validDateAsObjectId;
-    beforeParamIsValid = true;
-  });
-
-  if (!beforeParamIsValid && typeof reqQuery.before !== 'undefined') {
-    return errors.invalidDate(res, reqQuery.before);
-  }
+  // Handle 'after' and 'before' parameters
+  if (!handleDate('after') || !handleDate('before')) return;
 
   // Generate query
   var query = Report.find(queryObject);
@@ -60,7 +52,7 @@ var handleReportsQuery = function (queryObject, reqQuery, res) {
   });
 
   // Limit reports
-  if (reqQuery.limit && Number(reqQuery.limit) > 0) {
+  if (reqQuery.limit && !isNaN(reqQuery.limit) && Number(reqQuery.limit) > 0) {
     query = query.limit(Number(reqQuery.limit));
   }
 
