@@ -63,17 +63,14 @@ module.exports = function (grunt) {
       express: {
         files: [
           'src/server/**/*',
-          'src/client/**/*.html',
-          'src/client/**/*.png',
-          'src/client/**/*.jpg',
-          'src/client/**/*.jpeg',
-          'src/client/scripts.min.js',
-          'src/client/styles.min.css',
         ],
         tasks: ['express:dev'],
+        options: {
+          spawn: false,
+        },
       },
       scripts: {
-        files: ['src/**/*.js'],
+        files: ['src/client/**/*.js'],
         tasks: ['ngAnnotate', 'concat', 'clean:annotated'],
       },
       styles: {
@@ -83,9 +80,6 @@ module.exports = function (grunt) {
       qa: {
         files: ['src/**/*.js', '!src/**/*.min.js'],
         tasks: ['jsdoc'],
-        options: {
-          spawn: false,
-        },
       },
     },
     uglify: {
