@@ -25,7 +25,7 @@ angular.module('kramster')
 
       return {
         restrict: 'E',
-        templateUrl: '../../views/jumbotron.html',
+        templateUrl: '/components/jumbotron/jumbotron.html',
         controller: controller,
       };
     });

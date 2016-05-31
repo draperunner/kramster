@@ -29,8 +29,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             src: [
-              'src/client/app.js',
-              'src/client/scripts/**/*.js',
+              'src/client/**/*.js', '!src/client/**/*.min.js',
             ],
             ext: '.annotated.js',
             extDot: 'last',
@@ -54,7 +53,8 @@ module.exports = function (grunt) {
           'bower_components/KaTeX/dist/katex.min.js',
           'bower_components/KaTeX/dist/contrib/auto-render.min.js',
           'src/client/app.annotated.js',
-          'src/client/scripts/**/*.annotated.js',
+          'src/client/pages/**/*.annotated.js',
+          'src/client/components/**/*.annotated.js',
         ],
         dest: 'src/client/scripts.min.js',
       },
@@ -74,7 +74,7 @@ module.exports = function (grunt) {
         tasks: ['ngAnnotate', 'concat', 'clean:annotated'],
       },
       styles: {
-        files: ['src/client/styles/*.css'],
+        files: ['src/client/**/*.css', '!src/client/**/*.min.css'],
         tasks: ['cssmin'],
       },
       qa: {
@@ -101,8 +101,9 @@ module.exports = function (grunt) {
         files: {
           'src/client/styles.min.css': [
             'bower_components/bootstrap/dist/css/bootstrap.css',
-            'src/client/styles/*.css',
             'bower_components/KaTeX/dist/katex.min.css',
+            'src/client/**/*.css',
+            '!src/client/**/*.min.css',
           ],
         },
       },
@@ -114,11 +115,10 @@ module.exports = function (grunt) {
         dest: 'build/',
         src: [
             'client/index.html',
-            'client/app.js',
             'client/scripts.min.js',
             'client/styles.min.css',
-            'client/views/**',
-            'client/icons/**',
+            'client/**/*.html',
+            'client/assets/**',
             'server/**',
         ],
       },

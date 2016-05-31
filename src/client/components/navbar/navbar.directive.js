@@ -12,7 +12,7 @@ angular.module('kramster')
 
       return {
         restrict: 'E',
-        templateUrl: '../../views/navbar.html',
+        templateUrl: '/components/navbar/navbar.html',
         controller: controller,
       };
     });

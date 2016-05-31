@@ -14,7 +14,7 @@ angular.module('kramster')
           minHeight: '@',
           clickable: '&',
         },
-        templateUrl: '../../views/kitem.html',
+        templateUrl: '/components/kitem/kitem.html',
         link: function (scope, elem, attr) {
 
           var mobile = deviceDetector.isMobile();
