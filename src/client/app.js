@@ -28,25 +28,25 @@ angular
   .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
     $routeProvider.
       when('/about', {
-        templateUrl: 'views/about.html',
+        templateUrl: 'pages/about/about.html',
       }).
       when('/', {
-        templateUrl: 'views/schools-list.html',
+        templateUrl: 'pages/schools/schools.html',
         controller: 'SchoolListController',
         controllerAs: 'schoolsCtrl',
       }).
       when('/:school', {
-        templateUrl: 'views/courses-list.html',
+        templateUrl: 'pages/courses/courses.html',
         controller: 'CourseListController',
         controllerAs: 'coursesCtrl',
       }).
       when('/:school/:course', {
-        templateUrl: 'views/exams-list.html',
+        templateUrl: 'pages/exams/exams.html',
         controller: 'ExamListController',
         controllerAs: 'examsCtrl',
       }).
       when('/:school/:course/random/:number', {
-        templateUrl: 'views/questions-list.html',
+        templateUrl: 'pages/questions/questions.html',
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',
         resolve: {
@@ -56,7 +56,7 @@ angular
         },
       }).
       when('/:school/:course/all', {
-        templateUrl: 'views/questions-list.html',
+        templateUrl: 'pages/questions/questions.html',
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',
         resolve: {
@@ -66,7 +66,7 @@ angular
         },
       }).
       when('/:school/:course/:exam', {
-        templateUrl: 'views/questions-list.html',
+        templateUrl: 'pages/questions/questions.html',
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',
       });

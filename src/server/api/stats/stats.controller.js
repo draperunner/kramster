@@ -1,29 +1,27 @@
 var express = require('express');
-var router = express.Router();
-
-var validator = require('./../utils/validator');
-var errors = require('./../utils/errors');
-var Report = require('../models/report');
+var validator = require('./../../utils/validator');
+var errors = require('./../../utils/errors');
+var Report = require('./../reports/report.model');
 
 // Return aggregated statistics for all reports
-router.get('/', function (req, res) {
+exports.getStatsForAll = function (req, res) {
   Report.find({}, function (err, reports) {
     buildStats(err, reports, res);
   });
-});
+};
 
 // Return aggregated statistics for a given school
-router.get('/:school', function (req, res) {
+exports.getStatsForSchool = function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
     Report.find({ 'exam.school': validSchool }, function (err, reports) {
       buildStats(err, reports, res);
     });
   });
-});
+};
 
 // Return aggregated statistics for a given course
-router.get('/:school/:course', function (req, res) {
+exports.getStatsForCourse = function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
@@ -33,10 +31,10 @@ router.get('/:school/:course', function (req, res) {
         }
       );
     });
-});
+};
 
 // Return aggregated statistics 'all' mode.
-router.get('/:school/:course/all', function (req, res) {
+exports.getStatsForAllMode =  function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
@@ -57,10 +55,10 @@ router.get('/:school/:course/all', function (req, res) {
         }
       );
     });
-});
+};
 
 // Return aggregated statistics for 'random' mode
-router.get('/:school/:course/random', function (req, res) {
+exports.getStatsForRandomMode = function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
@@ -81,10 +79,10 @@ router.get('/:school/:course/random', function (req, res) {
         }
       );
     });
-});
+};
 
 // Return aggregated statistics for a given exam
-router.get('/:school/:course/:exam', function (req, res) {
+exports.getStatsForExam = function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
     function (isValid, validSchool, validCourse, validExam) {
       if (!isValid) {
@@ -102,7 +100,7 @@ router.get('/:school/:course/:exam', function (req, res) {
         }
       );
     });
-});
+};
 
 // Function for building stats from an array of reports
 var buildStats = function (err, reports, res) {
@@ -126,5 +124,3 @@ var buildStats = function (err, reports, res) {
   };
   res.json(stats);
 };
-
-module.exports = router;

@@ -5,7 +5,7 @@
 
 var express = require('express');
 var mongoose = require('mongoose');
-var Exam = require('../models/exam');
+var Exam = require('./../api/exams/exam.model');
 var helpers = require('./helpers');
 
 var getCourseCode = function (courseName) {

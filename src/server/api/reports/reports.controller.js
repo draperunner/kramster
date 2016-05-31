@@ -1,10 +1,8 @@
 var express = require('express');
-var router = express.Router();
-
 var mongoose = require('mongoose');
-var validator = require('./../utils/validator');
-var errors = require('./../utils/errors');
-var Report = require('../models/report');
+var validator = require('./../../utils/validator');
+var errors = require('./../../utils/errors');
+var Report = require('./../reports/report.model');
 
 var handleReportsQuery = function (queryObject, reqQuery, res) {
 
@@ -77,20 +75,20 @@ var handleRangeBasedParameter = function (res, queryObject, paramName, rawParam)
 };
 
 // Return all reports
-router.get('/', function (req, res) {
+exports.getAllReports = function (req, res) {
   handleReportsQuery({}, req.query, res);
-});
+};
 
 // Return reports for a given school
-router.get('/:school', function (req, res) {
+exports.getReportsForSchool = function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
     handleReportsQuery({ 'exam.school': validSchool }, req.query, res);
   });
-});
+};
 
 // Return reports for a given course
-router.get('/:school/:course', function (req, res) {
+exports.getReportsForCourse = function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
@@ -100,10 +98,10 @@ router.get('/:school/:course', function (req, res) {
           'exam.course': validCourse,
         }, req.query, res);
     });
-});
+};
 
 // Return reports for a given exam
-router.get('/:school/:course/:exam', function (req, res) {
+exports.getReportsForExam = function (req, res) {
   validator.validate(req.params.school, req.params.course, req.params.exam,
     function (isValid, validSchool, validCourse, validExam) {
       if (!isValid) {
@@ -117,10 +115,10 @@ router.get('/:school/:course/:exam', function (req, res) {
           'exam.name': validExam,
         }, req.query, res);
     });
-});
+};
 
 // Add a new report
-router.post('/add', function (req, res) {
+exports.addReport = function (req, res) {
   validator.validate(req.body.exam.school, req.body.exam.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) {
@@ -148,6 +146,4 @@ router.post('/add', function (req, res) {
       });
 
     });
-});
-
-module.exports = router;
+};
