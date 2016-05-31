@@ -1,11 +1,8 @@
 var express = require('express');
-var router = express.Router();
-var validator = require('./../utils/validator');
-var errors = require('./../utils/errors');
-var helpers = require('./../utils/helpers');
-
-// Model
-var Exam = require('../models/exam');
+var validator = require('./../../utils/validator');
+var errors = require('./../../utils/errors');
+var helpers = require('./../../utils/helpers');
+var Exam = require('./../exams/exam.model');
 
 // type is either "schools" or "courses", names is the list of full names
 var handleShortParameter = function (type, names) {
@@ -35,7 +32,7 @@ var getSortFunction = function (sortParam) {
 };
 
 // Return list of all distinct schools
-router.get('/schools', function (req, res) {
+exports.getSchools = function (req, res) {
   Exam.distinct('school', function (err, names) {
     if (err) {
       res.status(500).send('Something went wrong.');
@@ -46,10 +43,10 @@ router.get('/schools', function (req, res) {
     resultNames.sort(getSortFunction(req.query.sort));
     res.json(resultNames);
   });
-});
+};
 
 // Return list of all distinct courses
-router.get('/courses', function (req, res) {
+exports.getCourses = function (req, res) {
   Exam.distinct('course', function (err, names) {
     if (err) {
       res.status(500).send('Something went wrong.');
@@ -60,10 +57,10 @@ router.get('/courses', function (req, res) {
     resultNames.sort(getSortFunction(req.query.sort));
     res.json(resultNames);
   });
-});
+};
 
 // Return list of all courses at a given school
-router.get('/courses/:school', function (req, res) {
+exports.getCoursesAtSchool = function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.query.school);
     Exam.find({ school: validSchool }).distinct('course', function (err, names) {
@@ -73,10 +70,10 @@ router.get('/courses/:school', function (req, res) {
       res.json(resultNames);
     });
   });
-});
+};
 
 // Return list of all distinct exams
-router.get('/exams', function (req, res) {
+exports.getExams = function (req, res) {
   Exam.distinct('name', function (err, names) {
     if (err) {
       res.status(500).send('Something went wrong.');
@@ -86,10 +83,10 @@ router.get('/exams', function (req, res) {
     names.sort(getSortFunction(req.query.sort));
     res.json(names);
   });
-});
+};
 
 // Return list of all exams at a given school
-router.get('/exams/:school', function (req, res) {
+exports.getExamsAtSchool =  function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
     Exam.find({ school: validSchool }).distinct('name', function (err, names) {
@@ -98,10 +95,10 @@ router.get('/exams/:school', function (req, res) {
       res.json(names);
     });
   });
-});
+};
 
 // Return list of all exams at a given school and course
-router.get('/exams/:school/:course', function (req, res) {
+exports.getExamsForCourseAtSchool = function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
@@ -112,6 +109,4 @@ router.get('/exams/:school/:course', function (req, res) {
           res.json(names);
         });
     });
-});
-
-module.exports = router;
+};
