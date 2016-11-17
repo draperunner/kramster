@@ -26,8 +26,8 @@ angular.module('kramster')
 
     httpRequest.get(dataUrl, params, (res) => {
       const data = [];
-      for (let i = 0; i < $scope.labels.length; i++) {
-        data.push(res.grades[$scope.labels[i]]);
+      for (let i = 0; i < vm.labels.length; i++) {
+        data.push(res.grades[vm.labels[i]]);
       }
 
       vm.data = data;

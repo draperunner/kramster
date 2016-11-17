@@ -80,7 +80,9 @@ angular.module('kramster')
         return question;
       };
 
-      vm.numberOfQuestions = () => vm.questions.length;
+      /* eslint-disable angular/controller-as */
+      $scope.numberOfQuestions = () => vm.questions.length;
+      /* eslint-enable angular/controller-as */
 
       // Returns the class (color, mostly) of the option button
       // decided by if it's the right answer or not.

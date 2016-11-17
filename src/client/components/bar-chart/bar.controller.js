@@ -35,11 +35,11 @@ angular.module('kramster')
 
     httpRequest.get(dataUrl, params, (res) => {
       const data = [];
-      for (let i = 0; i < $scope.labels.length; i++) {
-        data.push(res.grades[$scope.labels[i]]);
+      for (let i = 0; i < vm.labels.length; i++) {
+        data.push(res.grades[vm.labels[i]]);
       }
 
-      $scope.data[0] = data;
+      vm.data[0] = data;
 
       // Update scale start value and number of steps
       let minVal = data[0];
@@ -55,8 +55,8 @@ angular.module('kramster')
       }
 
       const minColHeight = Math.max(1, Math.round((maxVal - minVal) / 10));
-      $scope.options.scaleStartValue = (minVal <= minColHeight) ? 0 : minVal - minColHeight;
-      $scope.options.scaleSteps = (maxVal - minVal) + minColHeight;
+      vm.options.scaleStartValue = (minVal <= minColHeight) ? 0 : minVal - minColHeight;
+      vm.options.scaleSteps = (maxVal - minVal) + minColHeight;
     });
   },
   ]);
