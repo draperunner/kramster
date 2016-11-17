@@ -6,11 +6,11 @@ angular
     'ng.deviceDetector',
   ])
   .run(['$rootScope', '$window', '$location', function run($rootScope, $window, $location) {
-    $rootScope.goExternal = function goExternal(path) {
+    $rootScope.goExternal = (path) => {
       $window.location.href = path;
     };
 
-    $rootScope.go = function go(path) {
+    $rootScope.go = (path) => {
       $location.path(path);
     };
   }])

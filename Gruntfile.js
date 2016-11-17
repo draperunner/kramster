@@ -8,7 +8,7 @@ module.exports = function Grunt(grunt) {
       dist: {
         expand: true,
         cwd: 'dist/client',
-        src: '*.js',
+        src: 'scripts.min.js',
         dest: 'dist/client',
       },
     },
@@ -59,14 +59,14 @@ module.exports = function Grunt(grunt) {
         files: [
           'src/server/**/*',
         ],
-        tasks: ['express'],
+        tasks: ['copy', 'express'],
         options: {
           spawn: false,
         },
       },
       scripts: {
         files: ['src/client/**/*.js'],
-        tasks: ['ngAnnotate', 'babel', 'concat:scripts'],
+        tasks: ['ngAnnotate', 'babel', 'concat:scripts', 'clean:scripts'],
       },
       styles: {
         files: ['src/client/**/*.css', '!src/client/**/*.min.css'],

@@ -1,7 +1,7 @@
 .idea/
 node_modules/
 bower_components/
-build/
+dist/
 *.annotated.js
 src/client/scripts.min.js
 src/client/styles.min.css
