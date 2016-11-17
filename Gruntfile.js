@@ -11,6 +11,12 @@ module.exports = function Grunt(grunt) {
         src: 'scripts.min.js',
         dest: 'dist/client',
       },
+      server: {
+        expand: true,
+        cwd: 'src/server/',
+        src: ['**/*.js'],
+        dest: 'dist/server',
+      },
     },
     ngAnnotate: {
       options: {
@@ -113,7 +119,6 @@ module.exports = function Grunt(grunt) {
           'client/index.html',
           'client/**/*.html',
           'client/assets/**',
-          'server/**',
         ],
       },
     },
