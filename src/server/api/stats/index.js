@@ -1,6 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var controller = require('./stats.controller');
+import express from 'express';
+import controller from './stats.controller';
+
+const router = express.Router();
 
 router.get('/', controller.getStatsForAll);
 router.get('/:school', controller.getStatsForSchool);

@@ -1,19 +1,18 @@
-var express = require('express');
-var validator = require('./../../utils/validator');
-var errors = require('./../../utils/errors');
-var helpers = require('./../../utils/helpers');
-var Exam = require('./../exams/exam.model');
+import validator from './../../utils/validator';
+import errors from './../../utils/errors';
+import helpers from './../../utils/helpers';
+import Exam from './../exams/exam.model';
 
 // type is either "schools" or "courses", names is the list of full names
-var handleShortParameter = function (type, names) {
+const handleShortParameter = (type, names) => {
   if (type !== 'schools' && type !== 'courses') return names;
 
-  var shorts = [];
-  var func = type === 'schools'
+  const shorts = [];
+  const func = type === 'schools'
     ? helpers.getSchoolAbbreviationFromFullName
     : helpers.getCourseCodeFromFullName;
 
-  for (var i = 0; i < names.length; i++) {
+  for (let i = 0; i < names.length; i++) {
     shorts.push(func(names[i]));
   }
 
@@ -26,46 +25,52 @@ var handleShortParameter = function (type, names) {
  * @param {string} sortParam
  * @return {function} sortFunction
  */
-var getSortFunction = function (sortParam) {
+const getSortFunction = (sortParam) => {
   if (sortParam === '-alphabetically') return helpers.descSort;
   return helpers.ascSort;
 };
 
 // Return list of all distinct schools
-exports.getSchools = function (req, res) {
-  Exam.distinct('school', function (err, names) {
+exports.getSchools = (req, res) => {
+  Exam.distinct('school', (err, names) => {
     if (err) {
       res.status(500).send('Something went wrong.');
       return;
     }
 
-    var resultNames = req.query.short === 'true' ? handleShortParameter('schools', names) : names;
+    const resultNames = req.query.short === 'true' ? handleShortParameter('schools', names) : names;
     resultNames.sort(getSortFunction(req.query.sort));
     res.json(resultNames);
   });
 };
 
 // Return list of all distinct courses
-exports.getCourses = function (req, res) {
-  Exam.distinct('course', function (err, names) {
+exports.getCourses = (req, res) => {
+  Exam.distinct('course', (err, names) => {
     if (err) {
       res.status(500).send('Something went wrong.');
       return;
     }
 
-    var resultNames = req.query.short === 'true' ? handleShortParameter('courses', names) : names;
+    const resultNames = req.query.short === 'true' ? handleShortParameter('courses', names) : names;
     resultNames.sort(getSortFunction(req.query.sort));
     res.json(resultNames);
   });
 };
 
 // Return list of all courses at a given school
-exports.getCoursesAtSchool = function (req, res) {
-  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
-    if (!isValid) return errors.noSchoolFound(res, req.query.school);
-    Exam.find({ school: validSchool }).distinct('course', function (err, names) {
-      if (err) return errors.somethingWentWrong(res);
-      var resultNames = req.query.short === 'true' ? handleShortParameter('courses', names) : names;
+exports.getCoursesAtSchool = (req, res) => {
+  validator.validate(req.params.school, null, null, (isValid, validSchool) => {
+    if (!isValid) {
+      errors.noSchoolFound(res, req.query.school);
+      return;
+    }
+    Exam.find({ school: validSchool }).distinct('course', (err, names) => {
+      if (err) {
+        errors.somethingWentWrong(res);
+        return;
+      }
+      const resultNames = req.query.short === 'true' ? handleShortParameter('courses', names) : names;
       resultNames.sort(getSortFunction(req.query.sort));
       res.json(resultNames);
     });
@@ -73,8 +78,8 @@ exports.getCoursesAtSchool = function (req, res) {
 };
 
 // Return list of all distinct exams
-exports.getExams = function (req, res) {
-  Exam.distinct('name', function (err, names) {
+exports.getExams = (req, res) => {
+  Exam.distinct('name', (err, names) => {
     if (err) {
       res.status(500).send('Something went wrong.');
       return;
@@ -86,27 +91,34 @@ exports.getExams = function (req, res) {
 };
 
 // Return list of all exams at a given school
-exports.getExamsAtSchool =  function (req, res) {
-  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
-    if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    Exam.find({ school: validSchool }).distinct('name', function (err, names) {
-      if (err) return errors.somethingWentWrong(res);
-      names.sort(getSortFunction(req.query.sort));
-      res.json(names);
+exports.getExamsAtSchool = (req, res) => {
+  validator.validate(req.params.school, null, null, (isValid, validSchool) => {
+    if (!isValid) {
+      errors.noSchoolFound(res, req.params.school);
+      return;
+    }
+    Exam.find({ school: validSchool }).distinct('name', (err, names) => {
+      if (err) {
+        return errors.somethingWentWrong(res);
+      }
+      return names.sort(getSortFunction(req.query.sort));
     });
   });
 };
 
 // Return list of all exams at a given school and course
-exports.getExamsForCourseAtSchool = function (req, res) {
+exports.getExamsForCourseAtSchool = (req, res) => {
   validator.validate(req.params.school, req.params.course, null,
-    function (isValid, validSchool, validCourse) {
-      if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
+    (isValid, validSchool, validCourse) => {
+      if (!isValid) {
+        errors.noCourseFound(res, req.params.school, req.params.course);
+        return;
+      }
       Exam.find({ school: validSchool, course: validCourse }).distinct('name',
-        function (err, names) {
+        (err, names) => {
           if (err) return errors.somethingWentWrong(res);
           names.sort(getSortFunction(req.query.sort));
-          res.json(names);
+          return res.json(names);
         });
     });
 };

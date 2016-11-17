@@ -1,6 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var controller = require('./exams.controller');
+import express from 'express';
+import controller from './exams.controller';
+
+const router = express.Router();
 
 router.get('/', controller.getAllExams);
 router.get('/:school', controller.getExamsBySchool);

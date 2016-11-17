@@ -1,36 +1,48 @@
-var express = require('express');
-var mongoose = require('mongoose');
-var validator = require('./../../utils/validator');
-var errors = require('./../../utils/errors');
-var Report = require('./../reports/report.model');
+import validator from './../../utils/validator';
+import errors from './../../utils/errors';
+import Report from './../reports/report.model';
 
-var handleReportsQuery = function (queryObject, reqQuery, res) {
+const handleRangeBasedParameter = (res, queryObject, paramName, rawParam) => {
+  if (typeof rawParam === 'undefined') return true;
+  let success = false;
+  validator.validateRangeBasedParameter(paramName, rawParam, (isValid, validParamObject) => {
+    if (!isValid) return errors.invalidParam(res, paramName, rawParam);
+    queryObject[paramName] = validParamObject;
+    success = true;
+    return true;
+  });
 
+  return success;
+};
+
+const handleReportsQuery = (queryObject, reqQuery, res) => {
   // Handle mode parameter
   if (reqQuery.mode) {
-    var lower = reqQuery.mode.toLowerCase();
+    const lower = reqQuery.mode.toLowerCase();
     if (lower === 'tf') {
       queryObject.mode = 'TF';
-    } else if (lower === 'mc') {
+    }
+    else if (lower === 'mc') {
       queryObject.mode = 'MC';
     }
   }
 
   // Handle range based parameters. They start with =, < or > followed by a number or string.
-  var rangeParams = ['score', 'numQuestions', 'percentage', 'grade'];
-  for (var i = 0; i < rangeParams.length; i++) {
-    var paramName = rangeParams[i];
+  const rangeParams = ['score', 'numQuestions', 'percentage', 'grade'];
+  for (let i = 0; i < rangeParams.length; i++) {
+    const paramName = rangeParams[i];
     if (!handleRangeBasedParameter(res, queryObject, paramName, reqQuery[paramName])) return;
   }
 
   /**
    * @param {string} param - Either 'after' or 'before'.
    */
-  var handleDate = function (param) {
+  const handleDate = (param) => {
     if (validator.isValidDate(reqQuery[param])) {
       if (!queryObject.createdAt) queryObject.createdAt = {};
       queryObject.createdAt[param === 'after' ? '$gt' : '$lt'] = reqQuery[param];
-    } else if (typeof reqQuery[param] !== 'undefined') {
+    }
+    else if (typeof reqQuery[param] !== 'undefined') {
       errors.invalidDate(res, reqQuery[param]);
       return false;
     }
@@ -42,10 +54,10 @@ var handleReportsQuery = function (queryObject, reqQuery, res) {
   if (!handleDate('after') || !handleDate('before')) return;
 
   // Generate query
-  var query = Report.find(queryObject);
+  let query = Report.find(queryObject);
 
   // Sort
-  validator.validateReportsSortParameter(reqQuery.sort, function (isValid, sortObject) {
+  validator.validateReportsSortParameter(reqQuery.sort, (isValid, sortObject) => {
     if (isValid) query = query.sort(sortObject);
   });
 
@@ -55,44 +67,35 @@ var handleReportsQuery = function (queryObject, reqQuery, res) {
   }
 
   // Execute query
-  query.exec(function (err, reports) {
-    if (err) return errors.somethingWentWrong(res);
-    res.json(reports);
+  query.exec((err, reports) => {
+    if (err) {
+      errors.somethingWentWrong(res);
+    }
+    else {
+      res.json(reports);
+    }
   });
-
-};
-
-var handleRangeBasedParameter = function (res, queryObject, paramName, rawParam) {
-  if (typeof rawParam === 'undefined') return true;
-  var success = false;
-  validator.validateRangeBasedParameter(paramName, rawParam, function (isValid, validParamObject) {
-    if (!isValid) return errors.invalidParam(res, paramName, rawParam);
-    queryObject[paramName] = validParamObject;
-    success = true;
-  });
-
-  return success;
 };
 
 // Return all reports
-exports.getAllReports = function (req, res) {
+exports.getAllReports = (req, res) => {
   handleReportsQuery({}, req.query, res);
 };
 
 // Return reports for a given school
-exports.getReportsForSchool = function (req, res) {
-  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+exports.getReportsForSchool = (req, res) => {
+  validator.validate(req.params.school, null, null, (isValid, validSchool) => {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    handleReportsQuery({ 'exam.school': validSchool }, req.query, res);
+    return handleReportsQuery({ 'exam.school': validSchool }, req.query, res);
   });
 };
 
 // Return reports for a given course
-exports.getReportsForCourse = function (req, res) {
+exports.getReportsForCourse = (req, res) => {
   validator.validate(req.params.school, req.params.course, null,
-    function (isValid, validSchool, validCourse) {
+    (isValid, validSchool, validCourse) => {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      handleReportsQuery(
+      return handleReportsQuery(
         {
           'exam.school': validSchool,
           'exam.course': validCourse,
@@ -101,14 +104,14 @@ exports.getReportsForCourse = function (req, res) {
 };
 
 // Return reports for a given exam
-exports.getReportsForExam = function (req, res) {
+exports.getReportsForExam = (req, res) => {
   validator.validate(req.params.school, req.params.course, req.params.exam,
-    function (isValid, validSchool, validCourse, validExam) {
+    (isValid, validSchool, validCourse, validExam) => {
       if (!isValid) {
         return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
 
-      handleReportsQuery(
+      return handleReportsQuery(
         {
           'exam.school': validSchool,
           'exam.course': validCourse,
@@ -118,14 +121,14 @@ exports.getReportsForExam = function (req, res) {
 };
 
 // Add a new report
-exports.addReport = function (req, res) {
+exports.addReport = (req, res) => {
   validator.validate(req.body.exam.school, req.body.exam.course, null,
-    function (isValid, validSchool, validCourse) {
+    (isValid, validSchool, validCourse) => {
       if (!isValid) {
         return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
 
-      var report = new Report({
+      const report = new Report({
         exam: {
           school: validSchool,
           course: validCourse,
@@ -137,13 +140,15 @@ exports.addReport = function (req, res) {
         percentage: req.body.percentage,
         grade: req.body.grade,
       });
-      report.save(function (err, post) {
+      report.save((err, post) => {
         if (err) {
           res.status(500).send('Something went wrong.');
         }
-
-        res.status(201).json(post);
+        else {
+          res.status(201).json(post);
+        }
       });
 
+      return null;
     });
 };

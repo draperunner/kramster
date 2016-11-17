@@ -1,22 +1,21 @@
-var express = require('express');
-var validator = require('./../../utils/validator');
-var helpers = require('./../../utils/helpers');
-var errors = require('./../../utils/errors');
-var Exam = require('./../exams/exam.model');
+import validator from './../../utils/validator';
+import helpers from './../../utils/helpers';
+import errors from './../../utils/errors';
+import Exam from './../exams/exam.model';
 
-var getRandomQuestionsFromExams = function (exams, numberOfQuestions) {
+const getRandomQuestionsFromExams = (exams, numberOfQuestions) => {
   // Merge all questions from resulting exams to one array
-  var questions = [];
-  for (var i = 0; i < exams.length; i++) {
+  let questions = [];
+  for (let i = 0; i < exams.length; i++) {
     questions = questions.concat(exams[i].questions);
   }
 
-  var n = Math.min(questions.length, numberOfQuestions);
+  const n = Math.min(questions.length, numberOfQuestions);
 
   // Randomly pick questions from questions array and put in random_questions array.
-  var randomQuestions = [];
-  for (var j = 0; j < n; j++) {
-    var randomIndex = Math.floor(Math.random() * questions.length);
+  const randomQuestions = [];
+  for (let j = 0; j < n; j++) {
+    const randomIndex = Math.floor(Math.random() * questions.length);
     randomQuestions.push(questions[randomIndex]);
     questions.splice(randomIndex, 1);
   }
@@ -31,23 +30,23 @@ var getRandomQuestionsFromExams = function (exams, numberOfQuestions) {
  * @param {Object} reqQuery - The query parameters from the HTTP request.
  * @param {Object} res - The Express response object.
  */
-var handleExamsQuery = function (queryObject, reqQuery, res) {
-
+const handleExamsQuery = (queryObject, reqQuery, res) => {
   // Handle mode parameter
   if (reqQuery.mode) {
-    var lower = reqQuery.mode.toLowerCase();
+    const lower = reqQuery.mode.toLowerCase();
     if (lower === 'tf') {
       queryObject.mode = 'TF';
-    } else if (lower === 'mc') {
+    }
+    else if (lower === 'mc') {
       queryObject.mode = 'MC';
     }
   }
 
   // Generate query
-  var query = Exam.find(queryObject);
+  let query = Exam.find(queryObject);
 
   // Sort
-  validator.validateExamsSortParameter(reqQuery.sort, function (isValid, sortObject) {
+  validator.validateExamsSortParameter(reqQuery.sort, (isValid, sortObject) => {
     if (isValid) query = query.sort(sortObject);
   });
 
@@ -57,61 +56,63 @@ var handleExamsQuery = function (queryObject, reqQuery, res) {
   }
 
   // Execute query
-  query.exec(function (err, exams) {
+  query.exec((err, exams) => {
     if (err) return errors.somethingWentWrong(res);
 
     if (reqQuery.random !== 'true') {
       helpers.handleShuffle(exams, reqQuery.shuffle);
       res.json(exams);
-    } else if (reqQuery.random === 'true') {
-      var numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
-      var questions = getRandomQuestionsFromExams(exams, numberOfQuestions);
-      helpers.handleShuffle([{ questions: questions }], reqQuery.shuffle);
+    }
+    else if (reqQuery.random === 'true') {
+      const numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
+      const questions = getRandomQuestionsFromExams(exams, numberOfQuestions);
+      helpers.handleShuffle([{ questions }], reqQuery.shuffle);
       res.json(questions);
     }
-  });
 
+    return null;
+  });
 };
 
 /**
  * Returns all exams.
  */
-exports.getAllExams = function (req, res) {
+exports.getAllExams = (req, res) => {
   handleExamsQuery({}, req.query, res);
 };
 
 /**
  * Returns all exams for the given school.
  */
-exports.getExamsBySchool = function (req, res) {
-  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+exports.getExamsBySchool = (req, res) => {
+  validator.validate(req.params.school, null, null, (isValid, validSchool) => {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    handleExamsQuery({ school: validSchool }, req.query, res);
+    return handleExamsQuery({ school: validSchool }, req.query, res);
   });
 };
 
 /**
  * Returns all exams for the given school and course.
  */
-exports.getExamsByCourse = function (req, res) {
+exports.getExamsByCourse = (req, res) => {
   validator.validate(req.params.school, req.params.course, null,
-    function (isValid, validSchool, validCourse) {
+    (isValid, validSchool, validCourse) => {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      handleExamsQuery({ school: validSchool, course: validCourse }, req.query, res);
+      return handleExamsQuery({ school: validSchool, course: validCourse }, req.query, res);
     });
 };
 
 /**
  * Returns specific exam for the given school and course and with given name.
  */
-exports.getExam = function (req, res) {
+exports.getExam = (req, res) => {
   validator.validate(req.params.school, req.params.course, req.params.exam,
-    function (isValid, validSchool, validCourse, validExam) {
+    (isValid, validSchool, validCourse, validExam) => {
       if (!isValid) {
         return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
 
-      handleExamsQuery(
+      return handleExamsQuery(
         {
           school: validSchool,
           course: validCourse,

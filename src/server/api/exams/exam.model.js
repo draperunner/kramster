@@ -1,7 +1,7 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 // Schema
-var examSchema = new mongoose.Schema({
+const examSchema = new mongoose.Schema({
   _id: mongoose.Schema.ObjectId,
   school: String,
   course: String,

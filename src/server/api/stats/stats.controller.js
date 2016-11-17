@@ -1,48 +1,73 @@
-var express = require('express');
-var validator = require('./../../utils/validator');
-var errors = require('./../../utils/errors');
-var Report = require('./../reports/report.model');
+import validator from './../../utils/validator';
+import errors from './../../utils/errors';
+import Report from './../reports/report.model';
+
+// Function for building stats from an array of reports
+const buildStats = (err, reports, res) => {
+  if (err) res.status(500).send('Something went wrong.');
+
+  const grades = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0 };
+  let totalScore = 0;
+
+  for (let i = 0; i < reports.length; i++) {
+    const doc = reports[i].toObject();
+    grades[doc.grade] += 1;
+    totalScore += doc.score;
+  }
+
+  // Resulting JSON stats object to return
+  const stats = {
+    numReports: reports.length,
+    grades,
+    totalScore,
+    averageScore: reports.length > 0 ? totalScore / reports.length : 0,
+  };
+  res.json(stats);
+};
+
 
 // Return aggregated statistics for all reports
-exports.getStatsForAll = function (req, res) {
-  Report.find({}, function (err, reports) {
+exports.getStatsForAll = (req, res) => {
+  Report.find({}, (err, reports) => {
     buildStats(err, reports, res);
   });
 };
 
 // Return aggregated statistics for a given school
-exports.getStatsForSchool = function (req, res) {
-  validator.validate(req.params.school, null, null, function (isValid, validSchool) {
+exports.getStatsForSchool = (req, res) => {
+  validator.validate(req.params.school, null, null, (isValid, validSchool) => {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    Report.find({ 'exam.school': validSchool }, function (err, reports) {
+    Report.find({ 'exam.school': validSchool }, (err, reports) => {
       buildStats(err, reports, res);
     });
+    return null;
   });
 };
 
 // Return aggregated statistics for a given course
-exports.getStatsForCourse = function (req, res) {
+exports.getStatsForCourse = (req, res) => {
   validator.validate(req.params.school, req.params.course, null,
-    function (isValid, validSchool, validCourse) {
+    (isValid, validSchool, validCourse) => {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      Report.find({ 'exam.school': validSchool, 'exam.course': validCourse, },
-        function (err, reports) {
+      Report.find({ 'exam.school': validSchool, 'exam.course': validCourse },
+        (err, reports) => {
           buildStats(err, reports, res);
         }
       );
+      return null;
     });
 };
 
 // Return aggregated statistics 'all' mode.
-exports.getStatsForAllMode =  function (req, res) {
+exports.getStatsForAllMode = (req, res) => {
   validator.validate(req.params.school, req.params.course, null,
-    function (isValid, validSchool, validCourse) {
+    (isValid, validSchool, validCourse) => {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
       if (typeof req.query.numQuestions !== 'undefined' && isNaN(req.query.numQuestions)) {
         return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
       }
 
-      var query = {
+      const query = {
         'exam.school': validSchool,
         'exam.course': validCourse,
         'exam.name': 'all',
@@ -50,23 +75,24 @@ exports.getStatsForAllMode =  function (req, res) {
       if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
 
       Report.find(query,
-        function (err, reports) {
+        (err, reports) => {
           buildStats(err, reports, res);
         }
       );
+      return null;
     });
 };
 
 // Return aggregated statistics for 'random' mode
-exports.getStatsForRandomMode = function (req, res) {
+exports.getStatsForRandomMode = (req, res) => {
   validator.validate(req.params.school, req.params.course, null,
-    function (isValid, validSchool, validCourse) {
+    (isValid, validSchool, validCourse) => {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
       if (typeof req.query.numQuestions !== 'undefined' && isNaN(req.query.numQuestions)) {
         return errors.invalidParam(res, 'numQuestions', req.query.numQuestions);
       }
 
-      var query = {
+      const query = {
         'exam.school': validSchool,
         'exam.course': validCourse,
         'exam.name': 'random',
@@ -74,17 +100,18 @@ exports.getStatsForRandomMode = function (req, res) {
 
       if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
       Report.find(query,
-        function (err, reports) {
+        (err, reports) => {
           buildStats(err, reports, res);
         }
       );
+      return null;
     });
 };
 
 // Return aggregated statistics for a given exam
-exports.getStatsForExam = function (req, res) {
+exports.getStatsForExam = (req, res) => {
   validator.validate(req.params.school, req.params.course, req.params.exam,
-    function (isValid, validSchool, validCourse, validExam) {
+    (isValid, validSchool, validCourse, validExam) => {
       if (!isValid) {
         return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
@@ -95,32 +122,10 @@ exports.getStatsForExam = function (req, res) {
           'exam.course': validCourse,
           'exam.name': validExam,
         },
-        function (err, reports) {
+        (err, reports) => {
           buildStats(err, reports, res);
         }
       );
+      return null;
     });
-};
-
-// Function for building stats from an array of reports
-var buildStats = function (err, reports, res) {
-  if (err) res.status(500).send('Something went wrong.');
-
-  var grades = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0 };
-  var totalScore = 0;
-
-  for (var i = 0; i < reports.length; i++) {
-    var doc = reports[i].toObject();
-    grades[doc.grade]++;
-    totalScore += doc.score;
-  }
-
-  // Resulting JSON stats object to return
-  var stats = {
-    numReports: reports.length,
-    grades: grades,
-    totalScore: totalScore,
-    averageScore: reports.length > 0 ? totalScore / reports.length : 0,
-  };
-  res.json(stats);
 };
