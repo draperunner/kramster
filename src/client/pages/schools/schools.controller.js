@@ -1,34 +1,30 @@
-'use strict';
-
 angular.module('kramster')
   .controller('SchoolListController', ['$scope', '$location', 'Helpers', 'httpRequest', 'apiUrl',
-    function ($scope, $location, helpers, httpRequest, apiUrl) {
+    function SchoolListController($scope, $location, Helpers, httpRequest, apiUrl) {
+      const vm = this;
 
       // Returns a pretty header for the school (the abbreviated name)
-      this.header = function (school) {
+      vm.header = (school) => {
         // Find abbreviation enclosed in parenthesis
-        const abb = helpers.findSubstringEnclosedInParenthesis(school);
+        const abb = Helpers.findSubstringEnclosedInParenthesis(school);
         if (abb) return abb[1];
 
         // If no abbreviation, make one from the leading letters in each word
-        return school.split(' ').map(function (e) { return e[0];}).join('');
+        return school.split(' ').map(e => e[0]).join('');
       };
 
       // Returns the full name of the school. Removes abbr. and parenthesis from school string
-      this.name = function (school) {
+      vm.name = (school) => {
         // Find abbreviation enclosed in parenthesis
-        const abb = helpers.findSubstringEnclosedInParenthesis(school);
-        if (abb) return school.replace(abb[0], '');
-        return school;
+        const abb = Helpers.findSubstringEnclosedInParenthesis(school);
+        return (abb) ? school.replace(abb[0], '') : school;
       };
 
-      $scope.helpers = helpers;
-      var app = this;
-      app.schools = [];
+      vm.helpers = Helpers;
+      vm.schools = [];
 
-      httpRequest.get(apiUrl + 'list/schools', {}, function (data) {
-        app.schools = data;
+      httpRequest.get(`${apiUrl}list/schools`, {}, (data) => {
+        vm.schools = data;
       });
-
     },
   ]);

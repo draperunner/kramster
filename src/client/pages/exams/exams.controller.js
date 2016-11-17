@@ -1,27 +1,24 @@
-'use strict';
+
 
 angular.module('kramster')
   .controller('ExamListController',
-    ['$rootScope', '$scope', '$location', 'Helpers', 'httpRequest', '$routeParams', 'apiUrl',
-    function ($rootScope, $scope, $location, helpers, httpRequest, $routeParams, apiUrl) {
+  ['$rootScope', '$scope', '$location', 'httpRequest', '$routeParams', 'apiUrl',
+    function ExamListController($rootScope, $scope, $location, httpRequest, $routeParams, apiUrl) {
+      const vm = this;
       $rootScope.loading = false;
 
-      $scope.helpers = helpers;
-
-      $scope.route = {
+      vm.route = {
         school: $routeParams.school,
         course: $routeParams.course,
       };
 
-      var app = this;
-      app.exams = [];
+      vm.exams = [];
 
-      var url = apiUrl + 'list/exams/' + $routeParams.school + '/' + $routeParams.course;
-      var query = { sort: '-alphabetically' };
+      const url = `${apiUrl}list/exams/${$routeParams.school}/${$routeParams.course}`;
+      const query = { sort: '-alphabetically' };
 
-      httpRequest.get(url, query, function (data) {
-        app.exams = data;
+      httpRequest.get(url, query, (data) => {
+        vm.exams = data;
       });
-
     },
-    ]);
+  ]);

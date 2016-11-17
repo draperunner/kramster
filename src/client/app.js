@@ -1,22 +1,20 @@
-'use strict';
-
 angular
   .module('kramster', [
-      'ngRoute',
-      'ngSanitize',
-      'chart.js',
-      'ng.deviceDetector',
+    'ngRoute',
+    'ngSanitize',
+    'chart.js',
+    'ng.deviceDetector',
   ])
-  .run(function ($rootScope, $window, $location) {
-    $rootScope.goExternal = function (path) {
+  .run(['$rootScope', '$window', '$location', function run($rootScope, $window, $location) {
+    $rootScope.goExternal = function goExternal(path) {
       $window.location.href = path;
     };
 
-    $rootScope.go = function (path) {
+    $rootScope.go = function go(path) {
       $location.path(path);
     };
-  })
-  .config(['ChartJsProvider', function (ChartJsProvider) {
+  }])
+  .config(['ChartJsProvider', function configChartJsProvider(ChartJsProvider) {
     // Configure all charts
     ChartJsProvider.setOptions({
       // A: green, B: blue, C: purple, D: yellow, E: orange, F: red
@@ -25,47 +23,47 @@ angular
     });
   },
   ])
-  .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
-    $routeProvider.
-      when('/about', {
+  .config(['$routeProvider', '$locationProvider', function configRoutes($routeProvider, $locationProvider) {
+    $routeProvider
+      .when('/about', {
         templateUrl: 'pages/about/about.html',
-      }).
-      when('/', {
+      })
+      .when('/', {
         templateUrl: 'pages/schools/schools.html',
         controller: 'SchoolListController',
         controllerAs: 'schoolsCtrl',
-      }).
-      when('/:school', {
+      })
+      .when('/:school', {
         templateUrl: 'pages/courses/courses.html',
         controller: 'CourseListController',
         controllerAs: 'coursesCtrl',
-      }).
-      when('/:school/:course', {
+      })
+      .when('/:school/:course', {
         templateUrl: 'pages/exams/exams.html',
         controller: 'ExamListController',
         controllerAs: 'examsCtrl',
-      }).
-      when('/:school/:course/random/:number', {
+      })
+      .when('/:school/:course/random/:number', {
         templateUrl: 'pages/questions/questions.html',
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',
         resolve: {
-          mode: function () {
+          mode() {
             return 'random';
           },
         },
-      }).
-      when('/:school/:course/all', {
+      })
+      .when('/:school/:course/all', {
         templateUrl: 'pages/questions/questions.html',
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',
         resolve: {
-          mode: function () {
+          mode() {
             return 'all';
           },
         },
-      }).
-      when('/:school/:course/:exam', {
+      })
+      .when('/:school/:course/:exam', {
         templateUrl: 'pages/questions/questions.html',
         controller: 'QuestionsController',
         controllerAs: 'questionsCtrl',

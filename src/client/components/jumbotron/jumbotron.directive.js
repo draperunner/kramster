@@ -1,22 +1,19 @@
-'use strict';
-
 angular.module('kramster')
-    .directive('jumbotron', function () {
-
-      var controller = ['$scope', function ($scope) {
+    .directive('jumbotron', () => {
+      const controller = ['$scope', function jumbotronController($scope) {
         const subtitles = [
-            'Will you improve the statistics?',
-            'Where are you on the chart?',
-            "It's OK to fail.",
-            'Practice makes perfect.',
-            "You'll do great!",
-            "Remember, grades aren't everything.",
-            'Cram with Kramster!',
+          'Will you improve the statistics?',
+          'Where are you on the chart?',
+          "It's OK to fail.",
+          'Practice makes perfect.',
+          "You'll do great!",
+          "Remember, grades aren't everything.",
+          'Cram with Kramster!',
         ];
 
-        var picked = '';
+        let picked = '';
 
-        $scope.subtitle = function () {
+        $scope.subtitle = () => {
           picked = picked || subtitles[Math.floor(Math.random() * subtitles.length)];
           return picked;
         };
@@ -26,6 +23,6 @@ angular.module('kramster')
       return {
         restrict: 'E',
         templateUrl: '/components/jumbotron/jumbotron.html',
-        controller: controller,
+        controller,
       };
     });

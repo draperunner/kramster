@@ -1,28 +1,19 @@
-'use strict';
-
 angular.module('kramster')
   .controller('CourseListController',
-    ['$scope', '$location', 'httpRequest', '$routeParams', 'apiUrl', 'Helpers',
-    function ($scope, $location, httpRequest, $routeParams, apiUrl, helpers) {
-
+  ['$scope', '$location', 'httpRequest', '$routeParams', 'apiUrl',
+    function CourseListController($scope, $location, httpRequest, $routeParams, apiUrl) {
+      const vm = this;
       // Returns a pretty header for the course (the course code)
-      this.header = function (course) {
-        return course.split(' ')[0].toUpperCase();
-      };
+      vm.header = course => course.split(' ')[0].toUpperCase();
 
       // Returns the full name of the course. Removes course code
-      this.name = function (course) {
-        return course.replace(course.split(' ')[0], '').trim();
-      };
+      vm.name = course => course.replace(course.split(' ')[0], '').trim();
 
-      $scope.helpers = helpers;
-      var app = this;
-      app.courses = [];
-      app.school = $routeParams.school;
+      vm.courses = [];
+      vm.school = $routeParams.school;
 
-      httpRequest.get(apiUrl + 'list/courses/' + $routeParams.school, {}, function (data) {
-        app.courses = data;
+      httpRequest.get(`${apiUrl}list/courses/${$routeParams.school}`, {}, (data) => {
+        vm.courses = data;
       });
-
     },
   ]);

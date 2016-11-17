@@ -6,7 +6,10 @@ module.exports = {
   "env": {
     "browser": true,
   },
+  "globals": {
+    "renderMathInElement": false,
+  },
   "rules": {
-    "no-param-reassign": "off",
+    "angular/di": ["error", "array"],
   }
 };

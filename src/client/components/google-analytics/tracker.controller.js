@@ -1,10 +1,8 @@
-'use strict';
-
 /* Google Analytics */
 angular.module('kramster')
     .controller('TrackerController', ['$scope', '$location', '$window',
-      function ($scope, $location, $window) {
-        $scope.$on('$viewContentLoaded', function (event) {
+      function TrackerController($scope, $location, $window) {
+        $scope.$on('$viewContentLoaded', () => {
           $window.ga('send', 'pageview', { page: $location.url() });
         });
       },

@@ -17,8 +17,8 @@
 
 <div class="row" ng-if="questionsCtrl.questions && !loading">
     <div class="col-xs-12">
-        <div ng-if="currentQuestion()">
-            <h3 class="question math" ng-bind-html="currentQuestion().question"></h3>
+        <div ng-if="questionsCtrl.currentQuestion()">
+            <h3 class="question math" ng-bind-html="questionsCtrl.currentQuestion().question"></h3>
         </div>
     </div>
 </div>
@@ -28,7 +28,7 @@
         <div class="btn-group">
             <a role="button" type="button"
                 class="btn {{questionsCtrl.buttonClass(option)}} math"
-                ng-repeat="option in currentQuestion().options"
+                ng-repeat="option in questionsCtrl.currentQuestion().options"
                 ng-click="questionsCtrl.answer(option)"
                 ng-bind-html="option">
             </a>
@@ -37,4 +37,4 @@
 </div>
 
 <!-- Show result when there are no more questions left -->
-<result ng-if="finished() && !loading"></result>
+<result ng-if="questionsCtrl.finished() && !loading"></result>
