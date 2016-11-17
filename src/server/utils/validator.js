@@ -4,7 +4,7 @@
  */
 
 import Exam from './../api/exams/exam.model';
-import { getSchoolAbbreviationFromFullName, isGrade } from './helpers';
+import helpers from './helpers';
 
 const getCourseCode = courseName => courseName.split(' ')[0].toUpperCase();
 
@@ -21,7 +21,7 @@ const validateSchool = (school, callback) => {
 
     // Check if param is valid abbreviation/code
     for (let i = 0; i < schoolNames.length; i++) {
-      const abb = getSchoolAbbreviationFromFullName(schoolNames[i]);
+      const abb = helpers.getSchoolAbbreviationFromFullName(schoolNames[i]);
       if (abb && abb.toLowerCase() === lower) {
         callback(true, schoolNames[i]);
         return;
@@ -161,7 +161,7 @@ exports.validateRangeBasedParameter = (paramName, param, callback) => {
     const operator = (p[0] === '>' || p[0] === '<') ? p[0] : '=';
     let paramValue = (operator === '=') ? p : p.substring(1);
 
-    const isInvalidGrade = paramName === 'grade' && !isGrade(paramValue);
+    const isInvalidGrade = paramName === 'grade' && !helpers.isGrade(paramValue);
     const isInvalidNumber = paramName !== 'grade' && isNaN(paramValue);
 
     if (isInvalidGrade || isInvalidNumber) {

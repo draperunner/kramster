@@ -136,7 +136,7 @@ const findSubstringEnclosedInParenthesis = s => /\(([^)]+)\)/.exec(s);
 // Example return value: "NTNU"
 const getSchoolAbbreviationFromFullName = (schoolName) => {
   // Find abbreviation enclosed in parenthesis
-  const abb = this.findSubstringEnclosedInParenthesis(schoolName);
+  const abb = findSubstringEnclosedInParenthesis(schoolName);
   if (abb) return abb[1];
 
   // If no abbreviation, make one from the leading letters in each word
