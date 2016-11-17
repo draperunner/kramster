@@ -5,7 +5,8 @@
   "main": "src/server/server.js",
   "scripts": {
     "start": "grunt",
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
