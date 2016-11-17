@@ -1,3 +1,5 @@
+import bluebird from 'bluebird';
+
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -5,6 +7,7 @@ const path = require('path');
 
 // MongoDB
 mongoose.connect('mongodb://localhost/kramster');
+mongoose.Promise = bluebird;
 
 // Express
 const app = express();

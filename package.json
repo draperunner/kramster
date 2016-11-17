@@ -15,6 +15,7 @@
   "author": "Mats Byrkjeland",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "body-parser": "^1.12.3",
     "express": "^4.13.3",
     "jquery": "^2.1.4",
