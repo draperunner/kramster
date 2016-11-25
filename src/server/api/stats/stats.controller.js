@@ -2,6 +2,47 @@ var express = require('express');
 var validator = require('./../../utils/validator');
 var errors = require('./../../utils/errors');
 var Report = require('./../reports/report.model');
+var Stats = require('./stats.model');
+
+var updateStatsByKey = function (key, report) {
+  var query = {
+    key: key
+  };
+  var updateObject = {
+    $inc: {
+      numReports: 1,
+      totalScore: report.score
+    },
+    $set: {
+      lastUpdated: report.createdAt
+    }
+  };
+  updateObject.$inc['grades.' + report.grade] = 1;
+
+  var options = {
+    upsert: true
+  };
+
+  console.log(updateObject);
+  Stats.findOneAndUpdate(query, updateObject, options,
+    function (err, res) {
+      if (err) {
+        console.log(err);
+      }
+      else {
+        console.log(res);
+      }
+    }
+  );
+};
+
+// This is called when a new Report is inserted
+exports.updateStats = function (report) {
+  updateStatsByKey({}, report);
+  updateStatsByKey({ school: report.exam.school }, report);
+  updateStatsByKey({ school: report.exam.school, course: report.exam.course }, report);
+  updateStatsByKey({ school: report.exam.school, course: report.exam.course, name: report.exam.name }, report);
+};
 
 // Return aggregated statistics for all reports
 exports.getStatsForAll = function (req, res) {

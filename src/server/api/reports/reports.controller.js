@@ -1,8 +1,9 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var validator = require('./../../utils/validator');
+var statsCtrl = require('./../stats/stats.controller');
 var errors = require('./../../utils/errors');
-var Report = require('./../reports/report.model');
+var Report = require('./report.model');
 
 var handleReportsQuery = function (queryObject, reqQuery, res) {
 
@@ -143,6 +144,10 @@ exports.addReport = function (req, res) {
         }
 
         res.status(201).json(post);
+
+        // Update stats based on this report
+        statsCtrl.updateStats(report);
+
       });
 
     });
