@@ -16,7 +16,10 @@ var questionIsTrueFalse = function (question) {
   if (question.options.length !== 2) return false;
   for (var k = 0; k < 2; k++) {
     var o = question.options[k].toLowerCase().replace(/\./g, '');
-    if (o !== 'true' && o !== 'false' && o !== 'sant' && o !== 'usant') return false;
+    if (o !== 'true' && o !== 'false'
+        && o !== 'sant' && o !== 'usant'
+        && o !== 'rett' && o !== 'galt'
+    ) return false;
   }
 
   return true;
