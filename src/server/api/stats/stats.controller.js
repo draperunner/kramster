@@ -1,13 +1,16 @@
 var express = require('express');
 var validator = require('./../../utils/validator');
 var errors = require('./../../utils/errors');
-var Report = require('./../reports/report.model');
 var Stats = require('./stats.model');
 
 var updateStatsByKey = function (key, report) {
   var query = {
     key: key
   };
+  if (key.name === 'random') {
+    query.key.numQuestions = report.numQuestions;
+  }
+
   var updateObject = {
     $inc: {
       numReports: 1,
@@ -46,8 +49,8 @@ exports.updateStats = function (report) {
 
 // Return aggregated statistics for all reports
 exports.getStatsForAll = function (req, res) {
-  Report.find({}, function (err, reports) {
-    buildStats(err, reports, res);
+  Stats.findOne({key: {}}, function (err, stats) {
+    buildStats(err, stats, res);
   });
 };
 
@@ -55,8 +58,8 @@ exports.getStatsForAll = function (req, res) {
 exports.getStatsForSchool = function (req, res) {
   validator.validate(req.params.school, null, null, function (isValid, validSchool) {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    Report.find({ 'exam.school': validSchool }, function (err, reports) {
-      buildStats(err, reports, res);
+    Stats.findOne({ 'key.school': validSchool }, function (err, stats) {
+      buildStats(err, stats, res);
     });
   });
 };
@@ -66,9 +69,9 @@ exports.getStatsForCourse = function (req, res) {
   validator.validate(req.params.school, req.params.course, null,
     function (isValid, validSchool, validCourse) {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      Report.find({ 'exam.school': validSchool, 'exam.course': validCourse, },
-        function (err, reports) {
-          buildStats(err, reports, res);
+      Stats.findOne({ 'key.school': validSchool, 'key.course': validCourse },
+        function (err, stats) {
+          buildStats(err, stats, res);
         }
       );
     });
@@ -84,13 +87,13 @@ exports.getStatsForAllMode =  function (req, res) {
       }
 
       var query = {
-        'exam.school': validSchool,
-        'exam.course': validCourse,
-        'exam.name': 'all',
+        'key.school': validSchool,
+        'key.course': validCourse,
+        'key.name': 'all',
       };
       if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
 
-      Report.find(query,
+      Stats.findOne(query,
         function (err, reports) {
           buildStats(err, reports, res);
         }
@@ -108,15 +111,15 @@ exports.getStatsForRandomMode = function (req, res) {
       }
 
       var query = {
-        'exam.school': validSchool,
-        'exam.course': validCourse,
-        'exam.name': 'random',
+        'key.school': validSchool,
+        'key.course': validCourse,
+        'key.name': 'random',
       };
 
-      if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
-      Report.find(query,
-        function (err, reports) {
-          buildStats(err, reports, res);
+      if (req.query.numQuestions) query['key.numQuestions'] = parseInt(req.query.numQuestions, 10);
+      Stats.findOne(query,
+        function (err, stats) {
+          buildStats(err, stats, res);
         }
       );
     });
@@ -130,38 +133,55 @@ exports.getStatsForExam = function (req, res) {
         return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
 
-      Report.find(
+      Stats.findOne(
         {
-          'exam.school': validSchool,
-          'exam.course': validCourse,
-          'exam.name': validExam,
+          'key.school': validSchool,
+          'key.course': validCourse,
+          'key.name': validExam,
         },
-        function (err, reports) {
-          buildStats(err, reports, res);
+        function (err, stats) {
+          buildStats(err, stats, res);
         }
       );
     });
 };
 
 // Function for building stats from an array of reports
-var buildStats = function (err, reports, res) {
-  if (err) res.status(500).send('Something went wrong.');
+var buildStats = function (err, stats, res) {
+  const stat = stats.toObject();
+  if (err) {
+    res.status(500).send('Something went wrong.');
+    return;
+  }
+  console.log('stats.grades');
+  console.log(stats);
 
-  var grades = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0 };
-  var totalScore = 0;
-
-  for (var i = 0; i < reports.length; i++) {
-    var doc = reports[i].toObject();
-    grades[doc.grade]++;
-    totalScore += doc.score;
+  if (!stats) {
+    res.json({
+      totalScore: 0,
+      numReports: 0,
+      averageScore: 0,
+      grades: {
+        A: 0,
+        B: 0,
+        C: 0,
+        D: 0,
+        E: 0,
+        F: 0,
+      },
+    });
+    return;
   }
 
-  // Resulting JSON stats object to return
-  var stats = {
-    numReports: reports.length,
-    grades: grades,
-    totalScore: totalScore,
-    averageScore: reports.length > 0 ? totalScore / reports.length : 0,
-  };
-  res.json(stats);
+  stat.grades = {
+    A: stat.grades.A || 0,
+    B: stat.grades.B || 0,
+    C: stat.grades.C || 0,
+    D: stat.grades.D || 0,
+    E: stat.grades.E || 0,
+    F: stat.grades.F || 0,
+  }
+  const averageScore = stats.numReports > 0 ? stats.totalScore / stats.numReports : 0;
+  stat.averageScore = averageScore;
+  res.json(stat);
 };
