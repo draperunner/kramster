@@ -26,14 +26,10 @@ var updateStatsByKey = function (key, report) {
     upsert: true
   };
 
-  console.log(updateObject);
   Stats.findOneAndUpdate(query, updateObject, options,
     function (err, res) {
       if (err) {
-        console.log(err);
-      }
-      else {
-        console.log(res);
+        console.error(err);
       }
     }
   );
@@ -148,13 +144,10 @@ exports.getStatsForExam = function (req, res) {
 
 // Function for building stats from an array of reports
 var buildStats = function (err, stats, res) {
-  const stat = stats.toObject();
   if (err) {
     res.status(500).send('Something went wrong.');
     return;
   }
-  console.log('stats.grades');
-  console.log(stats);
 
   if (!stats) {
     res.json({
@@ -172,6 +165,8 @@ var buildStats = function (err, stats, res) {
     });
     return;
   }
+
+  const stat = stats.toObject();
 
   stat.grades = {
     A: stat.grades.A || 0,
