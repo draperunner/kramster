@@ -1,35 +1,91 @@
 import validator from './../../utils/validator';
 import errors from './../../utils/errors';
-import Report from './../reports/report.model';
+import Stats from './stats.model';
 
 // Function for building stats from an array of reports
-const buildStats = (err, reports, res) => {
-  if (err) res.status(500).send('Something went wrong.');
-
-  const grades = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0 };
-  let totalScore = 0;
-
-  for (let i = 0; i < reports.length; i++) {
-    const doc = reports[i].toObject();
-    grades[doc.grade] += 1;
-    totalScore += doc.score;
+const buildStats = (err, stats, res) => {
+  if (err) {
+    res.status(500).send('Something went wrong.');
+    return;
   }
 
-  // Resulting JSON stats object to return
-  const stats = {
-    numReports: reports.length,
-    grades,
-    totalScore,
-    averageScore: reports.length > 0 ? totalScore / reports.length : 0,
+  if (!stats) {
+    res.json({
+      totalScore: 0,
+      numReports: 0,
+      averageScore: 0,
+      grades: {
+        A: 0,
+        B: 0,
+        C: 0,
+        D: 0,
+        E: 0,
+        F: 0,
+      },
+    });
+    return;
+  }
+
+  const stat = stats.toObject();
+
+  stat.grades = {
+    A: stat.grades.A || 0,
+    B: stat.grades.B || 0,
+    C: stat.grades.C || 0,
+    D: stat.grades.D || 0,
+    E: stat.grades.E || 0,
+    F: stat.grades.F || 0,
   };
-  res.json(stats);
+  const averageScore = stats.numReports > 0 ? stats.totalScore / stats.numReports : 0;
+  stat.averageScore = averageScore;
+  res.json(stat);
 };
 
+const updateStatsByKey = (key, report) => {
+  const query = {
+    key,
+  };
+
+  if (key.name === 'random') {
+    query.key.numQuestions = report.numQuestions;
+  }
+
+  const updateObject = {
+    $inc: {
+      numReports: 1,
+      totalScore: report.score,
+    },
+    $set: {
+      lastUpdated: report.createdAt,
+    },
+  };
+  updateObject.$inc[`grades.${report.grade}`] = 1;
+
+  const options = {
+    upsert: true,
+  };
+
+  Stats.findOneAndUpdate(query, updateObject, options,
+    (err) => {
+      if (err) {
+        console.error(err);
+      }
+    }
+  );
+};
+
+// This is called when a new Report is inserted
+exports.updateStats = (report) => {
+  updateStatsByKey({}, report);
+  updateStatsByKey({ school: report.exam.school }, report);
+  updateStatsByKey({ school: report.exam.school, course: report.exam.course }, report);
+  updateStatsByKey({ school: report.exam.school, course: report.exam.course, name: report.exam.name }, report);
+};
 
 // Return aggregated statistics for all reports
 exports.getStatsForAll = (req, res) => {
-  Report.find({}, (err, reports) => {
-    buildStats(err, reports, res);
+  Stats.findOne({ key: {} }, (err, stats) => {
+    buildStats(err, stats, res);
   });
 };
 
@@ -37,8 +93,8 @@ exports.getStatsForAll = (req, res) => {
 exports.getStatsForSchool = (req, res) => {
   validator.validate(req.params.school, null, null, (isValid, validSchool) => {
     if (!isValid) return errors.noSchoolFound(res, req.params.school);
-    Report.find({ 'exam.school': validSchool }, (err, reports) => {
-      buildStats(err, reports, res);
+    Stats.findOne({ 'key.school': validSchool }, (err, stats) => {
+      buildStats(err, stats, res);
     });
     return null;
   });
@@ -49,9 +105,9 @@ exports.getStatsForCourse = (req, res) => {
   validator.validate(req.params.school, req.params.course, null,
     (isValid, validSchool, validCourse) => {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
-      Report.find({ 'exam.school': validSchool, 'exam.course': validCourse },
-        (err, reports) => {
-          buildStats(err, reports, res);
+      Stats.findOne({ 'key.school': validSchool, 'key.course': validCourse },
+        (err, stats) => {
+          buildStats(err, stats, res);
         }
       );
       return null;
@@ -68,13 +124,13 @@ exports.getStatsForAllMode = (req, res) => {
       }
 
       const query = {
-        'exam.school': validSchool,
-        'exam.course': validCourse,
-        'exam.name': 'all',
+        'key.school': validSchool,
+        'key.course': validCourse,
+        'key.name': 'all',
       };
       if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
 
-      Report.find(query,
+      Stats.findOne(query,
         (err, reports) => {
           buildStats(err, reports, res);
         }
@@ -93,15 +149,15 @@ exports.getStatsForRandomMode = (req, res) => {
       }
 
       const query = {
-        'exam.school': validSchool,
-        'exam.course': validCourse,
-        'exam.name': 'random',
+        'key.school': validSchool,
+        'key.course': validCourse,
+        'key.name': 'random',
       };
 
-      if (req.query.numQuestions) query.numQuestions = req.query.numQuestions;
-      Report.find(query,
-        (err, reports) => {
-          buildStats(err, reports, res);
+      if (req.query.numQuestions) query['key.numQuestions'] = parseInt(req.query.numQuestions, 10);
+      Stats.findOne(query,
+        (err, stats) => {
+          buildStats(err, stats, res);
         }
       );
       return null;
@@ -116,14 +172,14 @@ exports.getStatsForExam = (req, res) => {
         return errors.noExamFound(res, req.params.school, req.params.course, req.params.exam);
       }
 
-      Report.find(
+      Stats.findOne(
         {
-          'exam.school': validSchool,
-          'exam.course': validCourse,
-          'exam.name': validExam,
+          'key.school': validSchool,
+          'key.course': validCourse,
+          'key.name': validExam,
         },
-        (err, reports) => {
-          buildStats(err, reports, res);
+        (err, stats) => {
+          buildStats(err, stats, res);
         }
       );
       return null;

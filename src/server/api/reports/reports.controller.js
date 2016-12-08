@@ -1,6 +1,7 @@
 import validator from './../../utils/validator';
 import errors from './../../utils/errors';
-import Report from './../reports/report.model';
+import Report from './report.model';
+import * as statsCtrl from './../stats/stats.controller';
 
 const handleRangeBasedParameter = (res, queryObject, paramName, rawParam) => {
   if (typeof rawParam === 'undefined') return true;
@@ -144,9 +145,10 @@ exports.addReport = (req, res) => {
         if (err) {
           res.status(500).send('Something went wrong.');
         }
-        else {
-          res.status(201).json(post);
-        }
+        res.status(201).json(post);
+
+        // Update stats based on this report
+        statsCtrl.updateStats(report);
       });
 
       return null;
