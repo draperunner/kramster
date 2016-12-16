@@ -18,32 +18,16 @@ module.exports = function Grunt(grunt) {
         dest: 'dist/server',
       },
     },
-    ngAnnotate: {
-      options: {
-        singleQuotes: true,
-        regexp: '^(ng\n?[\\ ]+(.*)|(module.*))$',
-      },
-      app: {
-        files: [
-          {
-            expand: true,
-            src: ['src/client/**/*.js', '!src/client/**/*.min.js'],
-            dest: 'dist/client',
-            flatten: true,
-          },
-        ],
-      },
-    },
     concat: {
       options: {
         separator: ';',
       },
       bower: {
         src: [
+          'bower_components/Chart.js/Chart.js',
           'bower_components/angular/angular.js',
           'bower_components/angular-route/angular-route.js',
           'bower_components/angular-sanitize/angular-sanitize.js',
-          'bower_components/Chart.js/Chart.js',
           'bower_components/angular-chart.js/dist/angular-chart.js',
           'bower_components/re-tree/re-tree.js',
           'bower_components/ng-device-detector/ng-device-detector.js',
@@ -53,10 +37,7 @@ module.exports = function Grunt(grunt) {
         dest: 'dist/client/bower.min.js',
       },
       scripts: {
-        src: [
-          'dist/client/app.js',
-          'dist/client/**/*.js',
-        ],
+        src: ['src/client/**/*.js', '!src/client/**/*.min.js'],
         dest: 'dist/client/scripts.min.js',
       },
     },
@@ -72,7 +53,7 @@ module.exports = function Grunt(grunt) {
       },
       scripts: {
         files: ['src/client/**/*.js'],
-        tasks: ['ngAnnotate', 'babel', 'concat:scripts', 'clean:scripts'],
+        tasks: ['concat', 'babel', 'concat:scripts', 'clean:scripts'],
       },
       styles: {
         files: ['src/client/**/*.css', '!src/client/**/*.min.css'],
@@ -149,7 +130,7 @@ module.exports = function Grunt(grunt) {
   grunt.registerTask('default', ['base', 'express', 'watch']);
 
   grunt.registerTask('base',
-    ['clean', 'ngAnnotate', 'babel', 'concat', 'clean:scripts', 'cssmin', 'copy']);
+    ['clean', 'concat', 'babel', 'clean:scripts', 'cssmin', 'copy']);
 
   grunt.registerTask('build', ['base', 'uglify']);
 
@@ -164,5 +145,4 @@ module.exports = function Grunt(grunt) {
   grunt.loadNpmTasks('grunt-express-server');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-jsdoc');
-  grunt.loadNpmTasks('grunt-ng-annotate');
 };
