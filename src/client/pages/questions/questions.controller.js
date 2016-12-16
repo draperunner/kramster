@@ -25,11 +25,11 @@ angular.module('kramster')
         E: 'orange',
         F: 'red',
         fromUser() {
-          return $scope.colors[vm.stats.grade()];
+          return vm.colors[vm.stats.grade()];
         },
 
         fromServer() {
-          return $scope.colors[(vm.stats.fromServer && vm.stats.fromServer.averageGrade) || 'B'];
+          return vm.colors[(vm.stats.fromServer && vm.stats.fromServer.averageGrade) || 'B'];
         },
       };
 
@@ -49,7 +49,7 @@ angular.module('kramster')
       vm.numAnswered = () => vm.history.length;
 
       // Total number of correct answers.
-      vm.numCorrects = () => vm.history.filter(e => e).length;
+      vm.numCorrects = () => vm.history.filter(Boolean).length;
 
       // True if an answer is selected.
       let answerGiven = false;
@@ -57,7 +57,7 @@ angular.module('kramster')
       const emptyQuestion = { question: '', options: [] };
 
       // Returns the current question
-      vm.currentQuestion = () => {
+      vm.currentQuestion = function currentQuestion() {
         let question;
 
         // If questions still are being fetched, return an empty question.
@@ -72,7 +72,7 @@ angular.module('kramster')
         }
 
         // Render math
-        const domElementsThatMightContainMath = $document.getElementsByClassName('math');
+        const domElementsThatMightContainMath = $document[0].getElementsByClassName('math');
         for (let i = 0; i < domElementsThatMightContainMath.length; i++) {
           renderMathInElement(domElementsThatMightContainMath[i]);
         }
@@ -107,7 +107,7 @@ angular.module('kramster')
       // Checks if exam is finished. Reports stats to server if true.
       // Fetches aggregated stats from server.
       vm.finished = () => {
-        if ($scope.currentQuestion()) {
+        if (vm.currentQuestion()) {
           return false;
         }
 
@@ -117,7 +117,7 @@ angular.module('kramster')
             exam: {
               school: $routeParams.school,
               course: $routeParams.course,
-              name: ($scope.mode.docMode) ? $scope.mode.docMode : $scope.route.exam,
+              name: (vm.mode.docMode) ? vm.mode.docMode : vm.route.exam,
             },
             createdAt: Helpers.getLocalTime(),
             score: vm.numCorrects(),
@@ -208,14 +208,14 @@ angular.module('kramster')
       let url = `${apiUrl}exams/${$routeParams.school}/${$routeParams.course}`;
 
       // ALL MODE. Fetches all exams, gathers all questions from all of them, shuffles.
-      if ($scope.mode.docMode === 'all') {
+      if (vm.mode.docMode === 'all') {
         httpRequest.getAll(url, (questions) => {
           vm.questions = questions;
         });
       }
 
       // RANDOM N MODE. Fetches n random questions from the course.
-      else if ($scope.mode.docMode === 'random') {
+      else if (vm.mode.docMode === 'random') {
         httpRequest.getRandom(url, $routeParams.number, (questions) => {
           vm.questions = questions;
         });

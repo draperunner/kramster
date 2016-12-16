@@ -1,3 +1,5 @@
+/* eslint-disable angular/controller-as */
+
 angular.module('kramster')
   .controller('PieController', ['$scope', 'httpRequest', function PieController($scope, httpRequest) {
     const baseUrl = '/api/stats/';
@@ -12,11 +14,9 @@ angular.module('kramster')
       params.numQuestions = $scope.numberOfQuestions();
     }
 
-    const vm = this;
+    $scope.labels = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-    vm.labels = ['A', 'B', 'C', 'D', 'E', 'F'];
-
-    vm.options = {
+    $scope.options = {
       segmentShowStroke: false,
       percentageInnerCutout: 0,
       animationEasing: 'easeOutBounce',
@@ -26,11 +26,11 @@ angular.module('kramster')
 
     httpRequest.get(dataUrl, params, (res) => {
       const data = [];
-      for (let i = 0; i < vm.labels.length; i++) {
-        data.push(res.grades[vm.labels[i]]);
+      for (let i = 0; i < $scope.labels.length; i++) {
+        data.push(res.grades[$scope.labels[i]]);
       }
 
-      vm.data = data;
+      $scope.data = data;
     });
   },
   ]);

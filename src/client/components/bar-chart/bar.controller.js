@@ -1,3 +1,4 @@
+/* eslint-disable angular/controller-as */
 angular.module('kramster')
   .controller('BarController', ['$scope', 'httpRequest', function BarController($scope, httpRequest) {
     const baseUrl = '/api/stats/';
@@ -12,14 +13,12 @@ angular.module('kramster')
       params.numQuestions = $scope.numberOfQuestions();
     }
 
-    const vm = this;
+    $scope.labels = ['A', 'B', 'C', 'D', 'E', 'F'];
+    $scope.data = [[]];
 
-    vm.labels = ['A', 'B', 'C', 'D', 'E', 'F'];
-    vm.data = [[]];
+    $scope.colors = [{ fillColor: '#e74c3c' }];
 
-    vm.colors = [{ fillColor: '#e74c3c' }];
-
-    vm.options = {
+    $scope.options = {
       scaleOverride: true,
       scaleStartValue: 0,
       scaleSteps: 0,
@@ -35,11 +34,11 @@ angular.module('kramster')
 
     httpRequest.get(dataUrl, params, (res) => {
       const data = [];
-      for (let i = 0; i < vm.labels.length; i++) {
-        data.push(res.grades[vm.labels[i]]);
+      for (let i = 0; i < $scope.labels.length; i++) {
+        data.push(res.grades[$scope.labels[i]]);
       }
 
-      vm.data[0] = data;
+      $scope.data[0] = data;
 
       // Update scale start value and number of steps
       let minVal = data[0];
@@ -55,8 +54,8 @@ angular.module('kramster')
       }
 
       const minColHeight = Math.max(1, Math.round((maxVal - minVal) / 10));
-      vm.options.scaleStartValue = (minVal <= minColHeight) ? 0 : minVal - minColHeight;
-      vm.options.scaleSteps = (maxVal - minVal) + minColHeight;
+      $scope.options.scaleStartValue = (minVal <= minColHeight) ? 0 : minVal - minColHeight;
+      $scope.options.scaleSteps = (maxVal - minVal) + minColHeight;
     });
   },
   ]);
