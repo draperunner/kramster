@@ -78,12 +78,14 @@
         </canvas>
     </div>
     <div class="col-xs-12 col-md-4">
-        <div class="div-result btn btn-result-btn" ng-click="reloadRoute()" role="button">
+        <div class="div-result btn btn-result-btn" ng-click="questionsCtrl.reloadRoute()" role="button">
             <div class="header">
                 <h4>Try again</h4>
             </div>
         </div>
-        <div class="div-result btn btn-result-btn" ng-click="go('/'+route.school+'/'+route.course)" role="button">
+        <div class="div-result btn btn-result-btn"
+            ng-click="go('/'+questionsCtrl.route.school+'/'+questionsCtrl.route.course)"
+            role="button">
             <div class="header">
                 <h4>Try another</h4>
             </div>
