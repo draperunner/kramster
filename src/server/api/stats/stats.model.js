@@ -1,12 +1,12 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 // Schema
-var statsSchema = new mongoose.Schema({
+const statsSchema = new mongoose.Schema({
   key: {
     school: String,
     course: String,
     name: String,
-    numQuestions: Number
+    numQuestions: Number,
   },
   lastUpdated: Date,
   totalScore: Number,

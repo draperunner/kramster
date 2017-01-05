@@ -65,13 +65,7 @@ const updateStatsByKey = (key, report) => {
     upsert: true,
   };
 
-  Stats.findOneAndUpdate(query, updateObject, options,
-    (err) => {
-      if (err) {
-        console.error(err);
-      }
-    }
-  );
+  Stats.findOneAndUpdate(query, updateObject, options).exec();
 };
 
 // This is called when a new Report is inserted
