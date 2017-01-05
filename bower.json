@@ -21,7 +21,6 @@
     "ng-device-detector": "~3.0.1",
     "KaTeX": "katex#^0.6.0",
     "bootstrap": "^3.3.6",
-    "chart.js": "1.0.2",
     "angular-chart.js": "0.8.8"
   }
 }
