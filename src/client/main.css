@@ -61,17 +61,8 @@ h3.question {
 canvas {
   width: 100% !important;
   height: auto !important;
-  max-height: 400px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.jumbotron {
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  background: none;
-  margin-bottom: 5px;
-  color: rgb(236, 240, 241);
+  max-height: 370px;
+  margin: 20px 0;
 }
 
 .container {

@@ -31,7 +31,7 @@ angular.module('kramster')
         showScale: false,
         barShowStroke: false,
         barValueSpacing: 5,
-        maintainAspectRatio: false,
+        maintainAspectRatio: true,
       };
 
       httpRequest.get(dataUrl, params, (res) => {
