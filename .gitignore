@@ -9,5 +9,5 @@ doc/
 *.iml
 *.sh
 *.bson
-*.json
+*.metadata.json
 *.tar.gz
