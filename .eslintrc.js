@@ -6,7 +6,7 @@ module.exports = {
       "airbnb-base"
     ],
     "parserOptions": {
-        "sourceType": "module"
+      "sourceType": "module"
     },
     "rules": {
       "brace-style": ["warn", "stroustrup"],

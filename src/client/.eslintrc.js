@@ -1,15 +1,9 @@
 module.exports = {
-  "plugins": [
-    "angular"
-  ],
-  "extends": "angular",
+  "extends": "airbnb",
   "env": {
     "browser": true,
   },
   "globals": {
     "renderMathInElement": false,
   },
-  "rules": {
-    "angular/di": ["error", "array"],
-  }
 };
