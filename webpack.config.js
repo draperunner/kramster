@@ -2,11 +2,9 @@ const path = require('path');
 const webpack = require('webpack');
 
 const base = {
-  entry: {
-    app: ['./src/client/main.jsx'],
-  },
+  entry: './src/client/main.jsx',
   output: {
-    path: path.resolve(__dirname, 'app'),
+    path: path.resolve(__dirname, 'src', 'client'),
     filename: 'bundle.js',
   },
   module: {
@@ -27,7 +25,7 @@ const base = {
     ],
   },
   resolve: {
-    root: path.resolve('app'),
+    root: path.resolve('src', 'client'),
     extensions: ['', '.js', '.jsx', '.scss'],
     modulesDirectories: ['node_modules'],
   },

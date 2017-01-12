@@ -1,56 +1,66 @@
 import React from 'react';
-import Jumbotron from '../components/Jumbotron';
+import Jumbotron from '../../components/Jumbotron';
+import Helpers from '../../components/util/Helpers';
+import API from '../../components/API/API';
 
-const Schools = () => {
-  angular.module('kramster')
-    .controller('SchoolListController', ['$scope', '$location', 'Helpers', 'httpRequest', 'apiUrl',
-      function SchoolListController($scope, $location, Helpers, httpRequest, apiUrl) {
-        const vm = this;
+class Schools extends React.Component {
 
-        // Returns a pretty header for the school (the abbreviated name)
-        vm.header = (school) => {
-          // Find abbreviation enclosed in parenthesis
-          const abb = Helpers.findSubstringEnclosedInParenthesis(school);
-          if (abb) return abb[1];
+  // Returns a pretty header for the school (the abbreviated name)
+  static header(school) {
+    // Find abbreviation enclosed in parenthesis
+    const abb = Helpers.findSubstringEnclosedInParenthesis(school);
+    if (abb) return abb[1];
 
-          // If no abbreviation, make one from the leading letters in each word
-          return school.split(' ').map(e => e[0]).join('');
-        };
+    // If no abbreviation, make one from the leading letters in each word
+    return school.split(' ').map(e => e[0]).join('');
+  }
 
-        // Returns the full name of the school. Removes abbr. and parenthesis from school string
-        vm.name = (school) => {
-          // Find abbreviation enclosed in parenthesis
-          const abb = Helpers.findSubstringEnclosedInParenthesis(school);
-          return (abb) ? school.replace(abb[0], '') : school;
-        };
+  // Returns the full name of the school. Removes abbr. and parenthesis from school string
+  static name(school) {
+    // Find abbreviation enclosed in parenthesis
+    const abb = Helpers.findSubstringEnclosedInParenthesis(school);
+    return (abb) ? school.replace(abb[0], '') : school;
+  }
 
-        vm.helpers = Helpers;
-        vm.schools = [];
+  constructor() {
+    super();
+    this.state = {
+      schools: [],
+    };
 
-        httpRequest.get(`${apiUrl}list/schools`, {}, (data) => {
-          vm.schools = data;
-        });
-      },
-    ]);
+    this.fetchSchools();
+  }
 
-  return (<div>
-    <Jumbotron />
+  fetchSchools() {
+    API.get('/api/list/schools', {}, (data) => {
+      this.setState({ schools: data });
+    });
+  }
 
-    <div className="container">
-      <div className="row">
+  render() {
+    return (
+      <div>
+        <Jumbotron />
 
-        <div className="col-xs-12 col-sm-6 col-lg-3" ng-repeat="school in schoolsCtrl.schools">
+        <div className="container">
+          <div className="row">
 
-          <kitem
-            head="{{schoolsCtrl.header(school)}}"
-            body="{{schoolsCtrl.name(school)}}"
-            color="green"
-            ng-click="go('/'+schoolsCtrl.header(school))"
-          />
+            {this.state.schools.forEach(school => <div className="col-xs-12 col-sm-6 col-lg-3">
 
+              <kitem
+                head={this.header(school)}
+                body={this.name(school)}
+                color="green"
+                onClick="console.log('I AM YOUR FATHER')"
+              />
+
+            </div>)}
+
+          </div>
         </div>
-
       </div>
-    </div>
-  </div>);
-};
+    );
+  }
+}
+
+export default Schools;

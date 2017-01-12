@@ -8,18 +8,18 @@ const About = () => (
       </div>
       <div className="container">
         <h3>
-          {Kramster helps making exam preparation a little more fun. Select your school and course and cram for your
-          exam by doing the multiple choice questions with instant feedback!}
+          Kramster helps making exam preparation a little more fun. Select your school and course and cram for your
+          exam by doing the multiple choice questions with instant feedback!
         </h3>
         <p>
-          {Can't find your course's exams on Kramster? Just send the PDFs to
+          Can&apos;t find your course&apos;s exams on Kramster? Just send the PDFs to
           <a href="mailto:matsbyr@gmail.com">matsbyr@gmail.com</a>, and the small Kramster elves will add them for you.
-            That's a great way to help your fellow students, don't you think?}
+            That&apos;s a great way to help your fellow students, don&apos;t you think?
         </p>
         <p>
-          {Kramster is made by <a href="http://byrkje.land">Mats Byrkjeland</a>, a computer science student at NTNU,
+          Kramster is made by <a href="http://byrkje.land">Mats Byrkjeland</a>, a computer science student at NTNU,
           Norway. It is <a href="http://github.com/draperunner/Kramster">open source</a> and has a free, open
-          <a href="http://github.com/draperunner/Kramster#api">API</a>.}
+          <a href="http://github.com/draperunner/Kramster#api">API</a>.
         </p>
       </div>
     </div>
