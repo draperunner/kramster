@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 const App = props => (
   <div>
     <Navbar />
-    <div id="spinner" ng-show="loading" />
+    <div id="spinner" />
 
     {props.children}
   </div>

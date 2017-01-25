@@ -4,7 +4,8 @@
   "description": "Kramster is a quiz app for making exam preparation more fun",
   "main": "src/server/server.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --content-base src/client",
+    "start": "babel-node src/server/server.js",
+    "dev": "webpack-dev-server --inline --content-base src/client",
     "build": "export NODE_ENV=production && webpack -p --progress && babel server.js -o server.dist.js",
     "prod": "npm run build && node server.dist.js",
     "lint": "eslint src/"
@@ -43,6 +44,8 @@
     "style-loader": "^0.13.1",
     "supertest": "^1.2.0",
     "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.15.0"
   }
 }

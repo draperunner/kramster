@@ -4,13 +4,28 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const path = require('path');
+const webpack = require('webpack');
+
+const app = express();
+
+// Webpack
+/* eslint-disable global-require */
+  // Step 1: Create & configure a webpack compiler
+const webpackConfig = require(process.env.WEBPACK_CONFIG ? process.env.WEBPACK_CONFIG : '../../webpack.config');
+const compiler = webpack(webpackConfig);
+
+  // Step 2: Attach the dev middleware to the compiler & the server
+app.use(require('webpack-dev-middleware')(compiler, {
+  noInfo: true, publicPath: webpackConfig.output.publicPath,
+}));
+
+  // Step 3: Attach the hot middleware to the compiler & the server
+app.use(require('webpack-hot-middleware')(compiler));
 
 // MongoDB
 mongoose.connect('mongodb://localhost/kramster');
 mongoose.Promise = bluebird;
 
-// Express
-const app = express();
 app.disable('x-powered-by');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

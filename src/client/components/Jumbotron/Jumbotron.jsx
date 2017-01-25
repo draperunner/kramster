@@ -16,9 +16,11 @@ const Jumbotron = () => {
   };
 
   return (<div className="jumbotron">
-    <div id="main-chart" className="container" ng-controller="BarController">
+    <div id="main-chart" className="container">
       <h1>Kramster!</h1>
       <div id="chart-wrapper">
+        {
+          /*
         <canvas
           id="bar"
           className="chart chart-bar"
@@ -27,6 +29,8 @@ const Jumbotron = () => {
           chart-options="options"
           chart-colours="colors"
         />
+        */
+      }
       </div>
       <h3>{subtitle()}</h3>
     </div>

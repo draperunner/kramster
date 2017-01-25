@@ -2,9 +2,14 @@ const path = require('path');
 const webpack = require('webpack');
 
 const base = {
-  entry: './src/client/main.jsx',
+  context: __dirname,
+  entry: [
+    'webpack-hot-middleware/client',
+    './src/client/main.jsx',
+  ],
   output: {
-    path: path.resolve(__dirname, 'src', 'client'),
+    // path: path.resolve(__dirname, 'src', 'client'),
+    path: '/',
     filename: 'bundle.js',
   },
   module: {
@@ -33,6 +38,9 @@ const base = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
     }),
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
   ],
   devServer: {
     historyApiFallback: true,

@@ -4,7 +4,7 @@ const Navbar = () => (
   <div className="container">
     <nav className="navbar navbar-default">
       <div className="container">
-        <div className="navbar-header pull-left" ng-hide="onRootLocation()">
+        <div className="navbar-header pull-left">
           <a className="navbar-brand" href="/">Kramster!</a>
         </div>
         <div className="navbar-header pull-right">

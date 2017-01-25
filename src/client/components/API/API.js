@@ -4,10 +4,9 @@
 const API = {
 
   // Gets an array and forwards it to callback function.
-  get(url, params, callback) {
-    fetch(url, { params }).then((res) => {
-      callback(res.data);
-    });
+  get(url, params) {
+    return fetch(url, { params })
+      .then(res => res.json());
   },
 
   // Gets n random questions
