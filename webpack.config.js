@@ -21,7 +21,7 @@ const base = {
       {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
-        loader: 'babel-loader',
+        loaders: ['react-hot', 'babel-loader'],
       },
       {
         test: /\.svg$/,
