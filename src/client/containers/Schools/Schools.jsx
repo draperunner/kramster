@@ -1,6 +1,7 @@
 import React from 'react';
-import Jumbotron from '../../components/Jumbotron';
 import API from '../../components/API/API';
+import Jumbotron from '../../components/Jumbotron';
+import Kitem from '../../components/Kitem';
 import { header, name } from './methods';
 
 
@@ -32,9 +33,9 @@ class Schools extends React.Component {
         <div className="container">
           <div className="row">
 
-            {this.state.schools.forEach(school => <div className="col-xs-12 col-sm-6 col-lg-3">
+            {this.state.schools.map(school => <div key={school} className="col-xs-12 col-sm-6 col-lg-3">
 
-              <kitem
+              <Kitem
                 head={header(school)}
                 body={name(school)}
                 color="green"
