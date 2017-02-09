@@ -8,5 +8,6 @@ module.exports = {
   },
   'rules': {
     'max-len': ['warn', 120],
+    'react/prop-types': ['error', { ignore: ['params', 'location'] }]
   }
 };

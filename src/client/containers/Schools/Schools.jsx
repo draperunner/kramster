@@ -1,9 +1,9 @@
 import React from 'react';
+import { browserHistory } from 'react-router';
 import API from '../../components/API/API';
 import Jumbotron from '../../components/Jumbotron';
 import Kitem from '../../components/Kitem';
 import { header, name } from './methods';
-
 
 class Schools extends React.Component {
 
@@ -34,16 +34,13 @@ class Schools extends React.Component {
           <div className="row">
 
             {this.state.schools.map(school => <div key={school} className="col-xs-12 col-sm-6 col-lg-3">
-
               <Kitem
                 head={header(school)}
                 body={name(school)}
                 color="green"
-                onClick="console.log('I AM YOUR FATHER')"
+                onClick={() => browserHistory.push(`/${header(school)}`)}
               />
-
             </div>)}
-
           </div>
         </div>
       </div>

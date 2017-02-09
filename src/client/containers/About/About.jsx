@@ -1,7 +1,8 @@
 import React from 'react';
+import Kitem from '../../components/Kitem';
 
 const About = () => (
-  <div>
+  <div className="container">
     <div id="about" className="jumbotron">
       <div className="container">
         <h1>Cram with Kramster!</h1>
@@ -26,21 +27,21 @@ const About = () => (
 
     <div className="row top-buffer">
       <div className="col-md-4">
-        <kitem
+        <Kitem
           head="Add exam" body="As easy as sending an email. Literally." color="red"
-          ng-click="goExternal('mailto:matsbyr@gmail.com')"
+          onClick="goExternal('mailto:matsbyr@gmail.com')"
         />
       </div>
       <div className="col-md-4">
-        <kitem
+        <Kitem
           head="API" body="Do cool stuff with Kramster data." color="red"
-          ng-click="goExternal('http://github.com/draperunner/Kramster#api')"
+          onClick="goExternal('http://github.com/draperunner/Kramster#api')"
         />
       </div>
       <div className="col-md-4">
-        <kitem
+        <Kitem
           head="Code" body="It's all out there." color="red"
-          ng-click="goExternal('http://github.com/draperunner/Kramster')"
+          onClick="goExternal('http://github.com/draperunner/Kramster')"
         />
       </div>
     </div>
