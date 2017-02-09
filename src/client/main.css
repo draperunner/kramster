@@ -14,24 +14,6 @@ h3.question {
   line-height: 1.3em;
 }
 
-.progress {
-  border-radius: 0;
-  border: 0;
-  box-shadow: none;
-  background-color: #ecf0f1;
-}
-.progress-bar {
-  border-radius: 0;
-  border: 0;
-  box-shadow: none;
-}
-.progress-bar-correct {
-  background-color: #2ecc71;
-}
-.progress-bar-wrong {
-  background-color: #e74c3c;
-}
-
 .grey {
   color: #34495e;
 }
