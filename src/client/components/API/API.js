@@ -1,3 +1,5 @@
+import qs from 'qs';
+
 /*
  * Methods for communicating with API.
  */
@@ -5,52 +7,48 @@ const API = {
 
   // Gets an array and forwards it to callback function.
   get(url, params) {
-    return fetch(url, { params })
+    return fetch(`${url}?${qs.stringify(params)}`)
       .then(res => res.json());
   },
 
   // Gets n random questions
-  getRandom(url, n, callback) {
+  getRandom(url, n) {
     const params = {
       random: 'true',
       limit: n,
     };
 
     // $rootScope.loading = true;
-    fetch(url, { params }).then((res) => {
+    return fetch(`${url}?${qs.stringify(params)}`).then(res =>
       // $rootScope.loading = false;
-      callback(res.data);
-    });
+       res.json());
   },
 
         // Gets the selected exam(s) and passes on to callback.
-  getSelected(url, params, callback) {
+  getSelected(url, params) {
     // $rootScope.loading = true;
-    fetch(url).then((res) => {
+    return fetch(`${url}?${qs.stringify(params)}`).then(res =>
       // $rootScope.loading = false;
-      callback(res.data[0]);
-    });
+       res.json());
   },
 
   // Gets all questions of all exams of given url and passes to callback.
-  getAll(url, callback) {
+  getAll(url) {
     // $rootScope.loading = true;
-    fetch(url).then((res) => {
+    return fetch(url).then((res) => {
       // $rootScope.loading = false;
       const allQuestions = [];
       for (let i = 0; i < res.data.length; i++) {
         allQuestions.push(...res.data[i].questions);
       }
 
-      callback(allQuestions);
+      return allQuestions;
     });
   },
 
   // General http POST
-  post(url, data, callback) {
-    fetch(url, { method: 'POST' }, data).then((res) => {
-      callback(res.data);
-    });
+  post(url, data) {
+    fetch(url, { method: 'POST' }, data).then(res => res.json());
   },
 };
 
