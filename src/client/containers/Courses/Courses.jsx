@@ -32,26 +32,28 @@ class Courses extends React.Component {
     const name = course => course.replace(course.split(' ')[0], '').trim();
 
     return (
-      <div className="row">
-        { this.state.courses.map((course, index) =>
-          <div key={index}>
-            {index % 2 === 0 ? <div className="clearfix visible-sm-block" /> : null }
-            {index % 3 === 0 ? <div className="clearfix visible-sm-block" /> : null }
-            {index % 4 === 0 ? <div className="clearfix visible-sm-block" /> : null }
+      <div className="container">
+        <div className="row">
+          { this.state.courses.map((course, index) =>
+            <div key={index}>
+              {index % 2 === 0 ? <div className="clearfix visible-sm-block" /> : null }
+              {index % 3 === 0 ? <div className="clearfix visible-sm-block" /> : null }
+              {index % 4 === 0 ? <div className="clearfix visible-sm-block" /> : null }
 
-            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" >
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" >
 
-              <Kitem
-                head={header(course)}
-                body={name(course)}
-                color="purple"
-                minHeight
-                onClick={() => browserHistory.push(`/${this.state.school}/${header(course)}`)}
-              />
+                <Kitem
+                  head={header(course)}
+                  body={name(course)}
+                  color="purple"
+                  minHeight
+                  onClick={() => browserHistory.push(`/${this.state.school}/${header(course)}`)}
+                />
 
-            </div>
-          </div>,
-        )}
+              </div>
+            </div>,
+          )}
+        </div>
       </div>
 
     );

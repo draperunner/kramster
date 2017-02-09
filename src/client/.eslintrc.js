@@ -7,6 +7,7 @@ module.exports = {
     'renderMathInElement': false,
   },
   'rules': {
+    'jsx-a11y/no-static-element-interactions': 'off',
     'max-len': ['warn', 120],
     'react/prop-types': ['error', { ignore: ['params', 'location'] }]
   }
