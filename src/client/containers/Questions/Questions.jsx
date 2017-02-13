@@ -88,17 +88,6 @@ class Questions extends React.Component {
         return this.numCorrects();
       },
     };
-
-    // Functions used for the progress bar.
-    this.progress = {
-      value() {
-        return (this.state.questions.length > 0) ? Math.floor(10000 / this.state.questions.length) / 100 : 0;
-      },
-
-      type(index) {
-        return this.state.history[index] ? 'correct' : 'wrong';
-      },
-    };
   }
 
   componentDidMount() {
@@ -123,7 +112,7 @@ class Questions extends React.Component {
       url += `/${this.state.route.exam}`;
       API.getSelected(url, {}).then((exam) => {
         this.setState({
-          questions: exam.questions,
+          questions: exam[0].questions,
         });
       });
     }
@@ -152,11 +141,13 @@ class Questions extends React.Component {
       question = this.state.questions[this.state.history.length];
     }
 
+    /*
     // Render math
     const domElementsThatMightContainMath = document.getElementsByClassName('math');
     for (let i = 0; i < domElementsThatMightContainMath.length; i++) {
       renderMathInElement(domElementsThatMightContainMath[i]);
     }
+    */
 
     return question;
   }
@@ -231,14 +222,14 @@ class Questions extends React.Component {
   }
 
   // Is called when the user selects an answer.
-  answer(answer) {
+  answer(option) {
     const newState = {
       answerGiven: !this.state.answerGiven,
     };
 
     if (!this.state.answerGiven) {
       const q = this.currentQuestion();
-      newState.history = [...this.state.history, q && q.answers.indexOf(q.options.indexOf(answer)) >= 0];
+      newState.history = [...this.state.history, q && q.answers.indexOf(q.options.indexOf(option)) >= 0];
     }
 
     this.setState(newState);
@@ -249,15 +240,17 @@ class Questions extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            <ProgressBar history={this.state.history} progress={this.progress} />
+            <ProgressBar history={this.state.history} questions={this.state.questions} />
           </div>
         </div>
 
         { this.state.questions.length /* && !loading */ ?
           <div className="row">
             <div className="col-xs-12">
-              <div ng-if="questionsCtrl.currentQuestion()">
-                <h3 className="question math" ng-bind-html="questionsCtrl.currentQuestion().question" />
+              <div>
+                <h3 className="question math">
+                  { this.currentQuestion() && this.currentQuestion().question }
+                </h3>
               </div>
             </div>
           </div>
@@ -272,9 +265,10 @@ class Questions extends React.Component {
                     key={option}
                     role="button" type="button"
                     className={`btn mats ${this.buttonClass(option)}`}
-                    onClick={this.answer(option)}
-                    ng-bind-html="option"
-                  />,
+                    onClick={() => this.answer(option)}
+                  >
+                    {option}
+                  </a>,
                 )}
               </div>
             </div>
@@ -282,7 +276,7 @@ class Questions extends React.Component {
         : null }
 
         { /* Show result when there are no more questions left --> */ }
-        { this.finished() /* && !loading */ ? <result /> : null }
+        { /* this.finished() /* && !loading ? <result /> : null */ }
       </div>
     );
   }
