@@ -46,9 +46,17 @@ const API = {
     });
   },
 
-  // General http POST
+  // HTTP POST JSON body
   post(url, data) {
-    fetch(url, { method: 'POST' }, data).then(res => res.json());
+    return fetch(url, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+    .then(res => res.json());
   },
 };
 
