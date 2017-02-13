@@ -4,7 +4,7 @@
   "description": "Kramster is a quiz app for making exam preparation more fun",
   "main": "src/server/server.js",
   "scripts": {
-    "start": "babel-node src/server/server.js",
+    "start": "nodemon src/server/server.js --exec babel-node",
     "dev": "webpack-dev-server --inline --content-base src/client",
     "build": "export NODE_ENV=production && webpack -p --progress && babel server.js -o server.dist.js",
     "prod": "npm run build && node server.dist.js",
