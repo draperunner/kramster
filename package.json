@@ -20,7 +20,7 @@
     "bluebird": "^3.4.6",
     "body-parser": "^1.12.3",
     "express": "^4.13.3",
-    "mongoose": "^4.0.2",
+    "mongoose": "^4.8.2",
     "qs": "^6.3.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
