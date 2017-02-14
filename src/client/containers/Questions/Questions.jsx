@@ -1,4 +1,5 @@
 import React from 'react';
+import { browserHistory } from 'react-router';
 import API from '../../components/API/API';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
@@ -19,11 +20,11 @@ class Questions extends React.Component {
       E: 'orange',
       F: 'red',
       fromUser() {
-        return this.colors[this.stats.grade()];
+        return this.colors[this.grade()];
       },
 
       fromServer() {
-        return this.colors[(this.stats.fromServer && this.stats.fromServer.averageGrade) || 'B'];
+        return this.colors[(this.fromServer && this.fromServer.averageGrade) || 'B'];
       },
     };
   }
@@ -55,39 +56,6 @@ class Questions extends React.Component {
 
     // Empty dummy question
     this.emptyQuestion = { question: '', options: [] };
-
-    // Variables concerning the answering statistics for this session.
-    this.stats = {
-      // Get the (current) ratio of correct answers per total number of answered questions.
-      percentage(dividend, divisor) {
-        if (!dividend && !divisor) {
-          return (this.numAnswered() > 0)
-            ? Math.round((10000 * this.numCorrects()) / this.numAnswered()) / 100 : 0;
-        } else if (dividend && divisor) {
-          return (divisor > 0) ? Math.round((10000 * dividend) / divisor) / 100 : 0;
-        }
-        return 0;
-      },
-
-      // Returns a score status message. Example: "3 (60%)"
-      status(score) {
-        if (!score) {
-          return `${this.numCorrects()} (${this.stats.percentage()}%)`;
-        }
-
-        return `${score.toFixed(2)} (${this.stats.percentage(score, this.state.questions.length)}%)`;
-      },
-
-      // Returns the grade corresponding to the current percentage. Uses the NTNU scale.
-      grade() {
-        return Helpers.percentageToGrade(this.stats.percentage());
-      },
-
-      // Number of correct answers
-      score() {
-        return this.numCorrects();
-      },
-    };
   }
 
   componentDidMount() {
@@ -116,6 +84,36 @@ class Questions extends React.Component {
         });
       });
     }
+  }
+
+  // Get the (current) ratio of correct answers per total number of answered questions.
+  percentage(dividend, divisor) {
+    if (!dividend && !divisor) {
+      return (this.numAnswered() > 0)
+      ? Math.round((10000 * this.numCorrects()) / this.numAnswered()) / 100 : 0;
+    } else if (dividend && divisor) {
+      return (divisor > 0) ? Math.round((10000 * dividend) / divisor) / 100 : 0;
+    }
+    return 0;
+  }
+
+  // Returns a score status message. Example: "3 (60%)"
+  status(score) {
+    if (!score) {
+      return `${this.numCorrects()} (${this.percentage()}%)`;
+    }
+
+    return `${score.toFixed(2)} (${this.percentage(score, this.state.questions.length)}%)`;
+  }
+
+  // Returns the grade corresponding to the current percentage. Uses the NTNU scale.
+  grade() {
+    return Helpers.percentageToGrade(this.percentage());
+  }
+
+  // Number of correct answers
+  score() {
+    return this.numCorrects();
   }
 
   // Total number of answers.
@@ -195,10 +193,10 @@ class Questions extends React.Component {
         createdAt: Helpers.getLocalTime(),
         score: this.numCorrects(),
         numQuestions: this.state.questions.length,
-        percentage: this.state.stats.percentage(),
-        grade: this.state.stats.grade(),
+        percentage: this.percentage(),
+        grade: this.grade(),
       };
-      API.post('/api/reports/add', report, () => {
+      API.post('/api/reports/add', report).then(() => {
         // Fetch aggregated statistics from server
         const url = `/api/stats/${this.state.route.school}/${this.state.route.course}/${report.exam.name}`;
 
@@ -207,13 +205,13 @@ class Questions extends React.Component {
           params.numQuestions = this.state.questions.length;
         }
 
-        API.get(url, params, (stats) => {
+        API.get(url, params).then((stats) => {
           const totalNumberOfQuestions = stats.numReports * report.numQuestions;
-          const avgPercentage = this.state.stats.percentage(stats.totalScore, totalNumberOfQuestions);
-          this.state.stats.fromServer = stats;
-          this.state.stats.fromServer.averageScore = stats.averageScore.toFixed(2);
-          this.state.stats.fromServer.averageGrade = Helpers.percentageToGrade(avgPercentage);
-          this.state.stats.fromServer.percentage = avgPercentage;
+          const avgPercentage = this.percentage(stats.totalScore, totalNumberOfQuestions);
+          this.fromServer = stats;
+          this.fromServer.averageScore = stats.averageScore.toFixed(2);
+          this.fromServer.averageGrade = Helpers.percentageToGrade(avgPercentage);
+          this.fromServer.percentage = avgPercentage;
         });
       });
     }
@@ -232,10 +230,15 @@ class Questions extends React.Component {
       newState.history = [...this.state.history, q && q.answers.indexOf(q.options.indexOf(option)) >= 0];
     }
 
-    this.setState(newState);
+    this.setState(newState, () => {
+      if (this.finished()) {
+        browserHistory.push('/result');
+      }
+    });
   }
 
   render() {
+    const question = this.currentQuestion();
     return (
       <div className="container">
         <div className="row">
@@ -247,11 +250,9 @@ class Questions extends React.Component {
         { this.state.questions.length /* && !loading */ ?
           <div className="row">
             <div className="col-xs-12">
-              <div>
-                <h3 className="question math">
-                  { this.currentQuestion() && this.currentQuestion().question }
-                </h3>
-              </div>
+              <h3 className="question math">
+                { question && question.question }
+              </h3>
             </div>
           </div>
         : null }
@@ -260,7 +261,7 @@ class Questions extends React.Component {
           <div className="row top-buffer">
             <div className="col-xs-12">
               <div className="btn-group">
-                { this.currentQuestion().options.map(option =>
+                { question && question.options.map(option =>
                   <a
                     key={option}
                     role="button" type="button"
@@ -274,9 +275,6 @@ class Questions extends React.Component {
             </div>
           </div>
         : null }
-
-        { /* Show result when there are no more questions left --> */ }
-        { /* this.finished() /* && !loading ? <result /> : null */ }
       </div>
     );
   }
