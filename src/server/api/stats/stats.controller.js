@@ -42,9 +42,11 @@ const buildStats = (err, stats, res) => {
 };
 
 const updateStatsByKey = (key, report) => {
-  const query = {
-    key,
-  };
+  const query = {};
+
+  Object.keys(key).forEach((k) => {
+    query[`key.${k}`] = key[k];
+  });
 
   if (key.name === 'random') {
     query.key.numQuestions = report.numQuestions;
@@ -63,9 +65,11 @@ const updateStatsByKey = (key, report) => {
 
   const options = {
     upsert: true,
+    new: true,
   };
 
-  Stats.findOneAndUpdate(query, updateObject, options).exec();
+  Stats.findOneAndUpdate(query, updateObject, options)
+    .catch(err => console.error('error', err));
 };
 
 // This is called when a new Report is inserted
@@ -102,7 +106,7 @@ exports.getStatsForCourse = (req, res) => {
       Stats.findOne({ 'key.school': validSchool, 'key.course': validCourse },
         (err, stats) => {
           buildStats(err, stats, res);
-        }
+        },
       );
       return null;
     });
@@ -127,7 +131,7 @@ exports.getStatsForAllMode = (req, res) => {
       Stats.findOne(query,
         (err, reports) => {
           buildStats(err, reports, res);
-        }
+        },
       );
       return null;
     });
@@ -152,7 +156,7 @@ exports.getStatsForRandomMode = (req, res) => {
       Stats.findOne(query,
         (err, stats) => {
           buildStats(err, stats, res);
-        }
+        },
       );
       return null;
     });
@@ -174,7 +178,7 @@ exports.getStatsForExam = (req, res) => {
         },
         (err, stats) => {
           buildStats(err, stats, res);
-        }
+        },
       );
       return null;
     });
