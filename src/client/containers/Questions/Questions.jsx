@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-// import { browserHistory } from 'react-router';
+import { browserHistory } from 'react-router';
 import API from '../../components/API/API';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
@@ -70,6 +70,10 @@ class Questions extends React.Component {
     }
   }
 
+  componentWillReceiveProps() {
+    this.finished();
+  }
+
   // Get the (current) ratio of correct answers per total number of answered questions.
   percentage(dividend, divisor) {
     if (!dividend && !divisor) {
@@ -116,47 +120,50 @@ class Questions extends React.Component {
   // Checks if exam is finished. Reports stats to server if true.
   // Fetches aggregated stats from server.
   finished() {
-    if (this.props.currentQuestion) {
+    if (this.props.history.length < this.props.questions.length || this.props.questions.length === 0) {
       return false;
     }
 
-    if (!this.state.finishedReturnedTrue) {
-      this.setState({
-        finishedReturnedTrue: true,
-      });
-
-      const report = {
-        exam: {
-          school: this.props.params.school,
-          course: this.props.params.course,
-          name: (this.state.mode.docMode) ? this.state.mode.docMode : this.props.params.exam,
-        },
-        createdAt: Helpers.getLocalTime(),
-        score: this.props.history.filter(Boolean).length,
-        numQuestions: this.props.questions.length,
-        percentage: this.percentage(),
-        grade: this.grade(),
-      };
-      API.post('/api/reports/add', report).then(() => {
-        // Fetch aggregated statistics from server
-        const url = `/api/stats/${this.props.params.school}/${this.props.params.course}/${report.exam.name}`;
-
-        const params = {};
-        if (report.exam.name === 'random') {
-          params.numQuestions = this.props.questions.length;
-        }
-
-        API.get(url, params).then((stats) => {
-          const totalNumberOfQuestions = stats.numReports * report.numQuestions;
-          const avgPercentage = this.percentage(stats.totalScore, totalNumberOfQuestions);
-          this.fromServer = stats;
-          this.fromServer.averageScore = stats.averageScore.toFixed(2);
-          this.fromServer.averageGrade = Helpers.percentageToGrade(avgPercentage);
-          this.fromServer.percentage = avgPercentage;
-        });
-      });
+    if (this.state.finishedReturnedTrue) {
+      return true;
     }
 
+    this.setState({
+      finishedReturnedTrue: true,
+    });
+
+    const report = {
+      exam: {
+        school: this.props.params.school,
+        course: this.props.params.course,
+        name: (this.state.mode.docMode) ? this.state.mode.docMode : this.props.params.exam,
+      },
+      createdAt: Helpers.getLocalTime(),
+      score: this.props.history.filter(Boolean).length,
+      numQuestions: this.props.questions.length,
+      percentage: this.percentage(),
+      grade: this.grade(),
+    };
+    API.post('/api/reports/add', report).then(() => {
+        // Fetch aggregated statistics from server
+      const url = `/api/stats/${this.props.params.school}/${this.props.params.course}/${report.exam.name}`;
+
+      const params = {};
+      if (report.exam.name === 'random') {
+        params.numQuestions = this.props.questions.length;
+      }
+
+      API.get(url, params).then((stats) => {
+        const totalNumberOfQuestions = stats.numReports * report.numQuestions;
+        const avgPercentage = this.percentage(stats.totalScore, totalNumberOfQuestions);
+        this.fromServer = stats;
+        this.fromServer.averageScore = stats.averageScore.toFixed(2);
+        this.fromServer.averageGrade = Helpers.percentageToGrade(avgPercentage);
+        this.fromServer.percentage = avgPercentage;
+      });
+    });
+
+    browserHistory.push(`${this.props.location}/results`);
     return true;
   }
 
