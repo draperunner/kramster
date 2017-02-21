@@ -7,6 +7,7 @@ import Schools from './containers/Schools';
 import Courses from './containers/Courses';
 import Exams from './containers/Exams';
 import Questions from './containers/Questions';
+import Result from './containers/Result';
 
 export default
   <Router history={browserHistory}>
@@ -18,5 +19,6 @@ export default
       <Route path="/:school/:course/random/:number" component={Questions} />
       <Route path="/:school/:course/all" component={Questions} />
       <Route path="/:school/:course/:exam" component={Questions} />
+      <Route path="**/*/result" component={Result} />
     </Route>
   </Router>;

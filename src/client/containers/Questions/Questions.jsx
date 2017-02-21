@@ -1,8 +1,10 @@
 import React from 'react';
-import { browserHistory } from 'react-router';
+import { connect } from 'react-redux';
+// import { browserHistory } from 'react-router';
 import API from '../../components/API/API';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
+import { giveAnswer, loadQuestions } from '../../actions/QuestionActions';
 
 class Questions extends React.Component {
 
@@ -33,16 +35,7 @@ class Questions extends React.Component {
     super(props);
 
     this.state = {
-      questions: [],
-      history: [],
-      answerGiven: false, // True if an answer is selected.
       finishedReturnedTrue: false, // Prevents multiples of the same report being sent to server.
-      route: {
-        school: props.params.school,
-        course: props.params.course,
-        exam: props.params.exam,
-        number: props.params.number,
-      },
       // String representing the doc fetch mode.
       // 'all' if All button is clicked. 'random' if Random X is clicked, etc.
       mode: {
@@ -53,35 +46,26 @@ class Questions extends React.Component {
     if (!props.params.exam) {
       this.state.mode.docMode = props.params.number ? 'random' : 'all';
     }
-
-    // Empty dummy question
-    this.emptyQuestion = { question: '', options: [] };
   }
 
   componentDidMount() {
-    let url = `/api/exams/${this.state.route.school}/${this.state.route.course}`;
+    let url = `/api/exams/${this.props.params.school}/${this.props.params.course}`;
 
     if (this.state.mode.docMode === 'all') {
       // ALL MODE. Fetches all exams, gathers all questions from all of them, shuffles.
       API.getAll(url, (questions) => {
-        this.setState({
-          questions,
-        });
+        this.props.loadQuestions(questions);
       });
     } else if (this.state.mode.docMode === 'random') {
       // RANDOM N MODE. Fetches n random questions from the course.
-      API.getRandom(url, this.state.route.number).then((questions) => {
-        this.setState({
-          questions,
-        });
+      API.getRandom(url, this.props.params.number).then((questions) => {
+        this.props.loadQuestions(questions);
       });
     } else {
       // NON-RANDOM MODE. Fetches the selected exam and shuffles its questions.
-      url += `/${this.state.route.exam}`;
+      url += `/${this.props.params.exam}`;
       API.getSelected(url, {}).then((exam) => {
-        this.setState({
-          questions: exam[0].questions,
-        });
+        this.props.loadQuestions(exam[0].questions);
       });
     }
   }
@@ -89,8 +73,8 @@ class Questions extends React.Component {
   // Get the (current) ratio of correct answers per total number of answered questions.
   percentage(dividend, divisor) {
     if (!dividend && !divisor) {
-      return (this.numAnswered() > 0)
-      ? Math.round((10000 * this.numCorrects()) / this.numAnswered()) / 100 : 0;
+      return (this.props.history.length > 0)
+      ? Math.round((10000 * this.props.history.filter(Boolean).length) / this.props.history.length) / 100 : 0;
     } else if (dividend && divisor) {
       return (divisor > 0) ? Math.round((10000 * dividend) / divisor) / 100 : 0;
     }
@@ -100,10 +84,10 @@ class Questions extends React.Component {
   // Returns a score status message. Example: "3 (60%)"
   status(score) {
     if (!score) {
-      return `${this.numCorrects()} (${this.percentage()}%)`;
+      return `${this.props.history.filter(Boolean).length} (${this.percentage()}%)`;
     }
 
-    return `${score.toFixed(2)} (${this.percentage(score, this.state.questions.length)}%)`;
+    return `${score.toFixed(2)} (${this.percentage(score, this.props.questions.length)}%)`;
   }
 
   // Returns the grade corresponding to the current percentage. Uses the NTNU scale.
@@ -111,58 +95,15 @@ class Questions extends React.Component {
     return Helpers.percentageToGrade(this.percentage());
   }
 
-  // Number of correct answers
-  score() {
-    return this.numCorrects();
-  }
-
-  // Total number of answers.
-  numAnswered() {
-    return this.state.history.length;
-  }
-
-  // Total number of correct answers.
-  numCorrects() {
-    return this.state.history.filter(Boolean).length;
-  }
-
-  // Returns the current question
-  currentQuestion() {
-    let question;
-
-    // If questions still are being fetched, return an empty question.
-    if (this.state.questions.length <= 0) {
-      question = this.emptyQuestion;
-    } else if (this.state.answerGiven) {
-      question = this.state.questions[this.state.history.length - 1];
-    } else {
-      question = this.state.questions[this.state.history.length];
-    }
-
-    /*
-    // Render math
-    const domElementsThatMightContainMath = document.getElementsByClassName('math');
-    for (let i = 0; i < domElementsThatMightContainMath.length; i++) {
-      renderMathInElement(domElementsThatMightContainMath[i]);
-    }
-    */
-
-    return question;
-  }
-
-  numberOfQuestions() {
-    return this.state.questions.length;
-  }
-
   // Returns the class (color, mostly) of the option button
   // decided by if it's the right answer or not.
   buttonClass(option) {
-    if (!this.state.answerGiven) {
+    if (!this.props.answerGiven) {
       const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
       return mobile ? 'btn-question-mobile' : 'btn-question';
     }
 
-    const previousQuestion = this.state.questions[this.state.history.length - 1];
+    const previousQuestion = this.props.questions[this.props.history.length - 1];
 
     // Check if the option the button represents is one of the correct answers.
     if (previousQuestion.answers.indexOf(previousQuestion.options.indexOf(option)) >= 0) {
@@ -175,7 +116,7 @@ class Questions extends React.Component {
   // Checks if exam is finished. Reports stats to server if true.
   // Fetches aggregated stats from server.
   finished() {
-    if (this.currentQuestion()) {
+    if (this.props.currentQuestion) {
       return false;
     }
 
@@ -186,23 +127,23 @@ class Questions extends React.Component {
 
       const report = {
         exam: {
-          school: this.state.route.school,
-          course: this.state.route.course,
-          name: (this.state.mode.docMode) ? this.state.mode.docMode : this.state.route.exam,
+          school: this.props.params.school,
+          course: this.props.params.course,
+          name: (this.state.mode.docMode) ? this.state.mode.docMode : this.props.params.exam,
         },
         createdAt: Helpers.getLocalTime(),
-        score: this.numCorrects(),
-        numQuestions: this.state.questions.length,
+        score: this.props.history.filter(Boolean).length,
+        numQuestions: this.props.questions.length,
         percentage: this.percentage(),
         grade: this.grade(),
       };
       API.post('/api/reports/add', report).then(() => {
         // Fetch aggregated statistics from server
-        const url = `/api/stats/${this.state.route.school}/${this.state.route.course}/${report.exam.name}`;
+        const url = `/api/stats/${this.props.params.school}/${this.props.params.course}/${report.exam.name}`;
 
         const params = {};
         if (report.exam.name === 'random') {
-          params.numQuestions = this.state.questions.length;
+          params.numQuestions = this.props.questions.length;
         }
 
         API.get(url, params).then((stats) => {
@@ -221,33 +162,20 @@ class Questions extends React.Component {
 
   // Is called when the user selects an answer.
   answer(option) {
-    const newState = {
-      answerGiven: !this.state.answerGiven,
-    };
-
-    if (!this.state.answerGiven) {
-      const q = this.currentQuestion();
-      newState.history = [...this.state.history, q && q.answers.indexOf(q.options.indexOf(option)) >= 0];
-    }
-
-    this.setState(newState, () => {
-      if (this.finished()) {
-        browserHistory.push('/result');
-      }
-    });
+    this.props.answer(option);
   }
 
   render() {
-    const question = this.currentQuestion();
+    const question = this.props.currentQuestion;
     return (
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            <ProgressBar history={this.state.history} questions={this.state.questions} />
+            <ProgressBar history={this.props.history} questions={this.props.questions} />
           </div>
         </div>
 
-        { this.state.questions.length /* && !loading */ ?
+        { this.props.questions.length /* && !loading */ ?
           <div className="row">
             <div className="col-xs-12">
               <h3 className="question math">
@@ -257,7 +185,7 @@ class Questions extends React.Component {
           </div>
         : null }
 
-        { this.state.questions.length /* && !loading */ ?
+        { this.props.questions.length /* && !loading */ ?
           <div className="row top-buffer">
             <div className="col-xs-12">
               <div className="btn-group">
@@ -280,4 +208,37 @@ class Questions extends React.Component {
   }
 }
 
-export default Questions;
+Questions.propTypes = {
+  answer: React.PropTypes.func,
+  answerGiven: React.PropTypes.bool,
+  loadQuestions: React.PropTypes.func,
+  history: React.PropTypes.arrayOf(React.PropTypes.bool),
+  currentQuestion: React.PropTypes.shape({
+    answers: React.PropTypes.arrayOf(React.PropTypes.number),
+    options: React.PropTypes.arrayOf(React.PropTypes.string),
+    question: React.PropTypes.string,
+  }),
+  questions: React.PropTypes.arrayOf(React.PropTypes.shape({
+    answers: React.PropTypes.arrayOf(React.PropTypes.number),
+    options: React.PropTypes.arrayOf(React.PropTypes.string),
+    question: React.PropTypes.string,
+  })),
+};
+
+const mapStateToProps = state => ({
+  answerGiven: state.questions.answerGiven,
+  currentQuestion: state.questions.currentQuestion,
+  history: state.questions.history,
+  questions: state.questions.questions,
+});
+
+const mapDispatchToProps = dispatch => ({
+  answer: (option) => {
+    dispatch(giveAnswer(option));
+  },
+  loadQuestions: (questions) => {
+    dispatch(loadQuestions(questions));
+  },
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Questions);
