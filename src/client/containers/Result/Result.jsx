@@ -119,7 +119,7 @@ Result.propTypes = {
   score: React.PropTypes.number,
   percentage: React.PropTypes.number,
   averageGrade: React.PropTypes.string,
-  averageScore: React.PropTypes.number,
+  averageScore: React.PropTypes.string,
 };
 
 const mapStateToProps = (state) => {

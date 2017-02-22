@@ -8,10 +8,6 @@ import './main.css';
 
 const store = createStore(reducers);
 
-store.subscribe(() =>
-  console.log(store.getState().questions),
-);
-
 render(
   <Provider store={store}>
     { routes }
