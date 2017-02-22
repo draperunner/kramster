@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { browserHistory } from 'react-router';
 import API from '../../components/API/API';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
@@ -47,10 +46,6 @@ class Questions extends React.Component {
     }
   }
 
-  componentWillReceiveProps() {
-    this.finished();
-  }
-
   // Get the (current) ratio of correct answers per total number of answered questions.
   percentage() {
     if (this.props.history.length === 0) return 0;
@@ -73,6 +68,14 @@ class Questions extends React.Component {
     }
 
     return 'btn-wrong-answer';
+  }
+
+  answer(givenAnswer) {
+    if (this.finished()) {
+      this.props.router.push(`${this.props.location.pathname}/results`);
+    } else {
+      this.props.answer(givenAnswer);
+    }
   }
 
   // Checks if exam is finished. Reports stats to server if true.
@@ -114,16 +117,10 @@ class Questions extends React.Component {
 
       API.get(url, params).then((stats) => {
         this.props.statsReceived({ ...stats, numQuestions: report.numQuestions });
-        browserHistory.push(`${this.props.location.pathname}/results`);
       });
     });
 
     return true;
-  }
-
-  // Is called when the user selects an answer.
-  answer(option) {
-    this.props.answer(option);
   }
 
   render() {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { browserHistory } from 'react-router';
 import Kitem from '../../components/Kitem';
 import Helpers from '../../components/util/Helpers';
 
@@ -92,14 +93,14 @@ const Result = props => (
       </div>
       */}
       <div className="col-xs-12 col-md-4">
-        <div className="div-result btn btn-result-btn" onClick={Helpers.reloadRoute()} role="button">
+        <div className="div-result btn btn-result-btn" onClick={Helpers.reloadRoute} role="button">
           <div className="header">
             <h4>Try again</h4>
           </div>
         </div>
         <div
           className="div-result btn btn-result-btn"
-          ng-click="go('/'+questionsCtrl.route.school+'/'+questionsCtrl.route.course)"
+          onClick={() => browserHistory.push(`/${props.params.school}/${props.params.course}`)}
           role="button"
         >
           <div className="header">
@@ -118,7 +119,7 @@ Result.propTypes = {
   score: React.PropTypes.number,
   percentage: React.PropTypes.number,
   averageGrade: React.PropTypes.string,
-  averageScore: React.PropTypes.string,
+  averageScore: React.PropTypes.number,
 };
 
 const mapStateToProps = (state) => {
@@ -135,7 +136,7 @@ const mapStateToProps = (state) => {
 
   return {
     averageGrade,
-    averageScore: stats.averageScore.toFixed(2),
+    averageScore: stats.averageScore && stats.averageScore.toFixed(2),
     colorFromUser,
     colorFromServer,
     grade,
