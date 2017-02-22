@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 import Kitem from '../../components/Kitem';
 import Helpers from '../../components/util/Helpers';
+import BarChart from '../../components/BarChart';
 
 const Result = props => (
   <div className="container">
@@ -72,7 +73,8 @@ const Result = props => (
     </div>
 
     <div className="row top-buffer">
-      {/*
+      {
+        /*
       <div className="col-xs-12 col-md-4" ng-controller="PieController as PieCtrl">
         <canvas
           id="pie"
@@ -82,16 +84,11 @@ const Result = props => (
           chart-options="options"
         />
       </div>
-      <div className="col-xs-12 col-md-4" ng-controller="BarController as BarCtrl">
-        <canvas
-          className="chart chart-bar"
-          chart-data="data"
-          chart-labels="labels"
-          chart-options="options"
-          chart-colours="colors"
-        />
+      */
+      }
+      <div className="col-xs-12 col-md-4">
+        { props.stats.grades ? <BarChart data={props.stats.grades} /> : null }
       </div>
-      */}
       <div className="col-xs-12 col-md-4">
         <div className="div-result btn btn-result-btn" onClick={Helpers.reloadRoute} role="button">
           <div className="header">
@@ -120,6 +117,16 @@ Result.propTypes = {
   percentage: React.PropTypes.number,
   averageGrade: React.PropTypes.string,
   averageScore: React.PropTypes.string,
+  stats: React.PropTypes.shape({
+    grades: React.PropTypes.shape({
+      A: React.PropTypes.number,
+      B: React.PropTypes.number,
+      C: React.PropTypes.number,
+      D: React.PropTypes.number,
+      E: React.PropTypes.number,
+      F: React.PropTypes.number,
+    }),
+  }),
 };
 
 const mapStateToProps = (state) => {
@@ -142,6 +149,7 @@ const mapStateToProps = (state) => {
     grade,
     percentage,
     score,
+    stats,
   };
 };
 

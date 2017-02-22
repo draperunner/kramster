@@ -11,16 +11,24 @@ class Schools extends React.Component {
     super();
 
     this.state = {
+      gradesData: {},
       schools: [],
     };
   }
 
   componentDidMount() {
+    this.fetchGrades();
     this.fetchSchools();
   }
 
+  fetchGrades() {
+    API.get('/api/stats/').then((data) => {
+      this.setState({ gradesData: data.grades });
+    });
+  }
+
   fetchSchools() {
-    API.get('/api/list/schools', {}).then((data) => {
+    API.get('/api/list/schools').then((data) => {
       this.setState({ schools: data });
     });
   }
@@ -28,7 +36,7 @@ class Schools extends React.Component {
   render() {
     return (
       <div>
-        <Jumbotron />
+        <Jumbotron gradesData={this.state.gradesData} />
 
         <div className="container">
           <div className="row">

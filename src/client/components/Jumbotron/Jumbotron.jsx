@@ -1,6 +1,7 @@
 import React from 'react';
+import BarChart from '../BarChart';
 
-const Jumbotron = () => {
+const Jumbotron = (props) => {
   const subtitle = () => {
     const subtitles = [
       'Will you improve the statistics?',
@@ -15,26 +16,26 @@ const Jumbotron = () => {
     return subtitles[Math.floor(Math.random() * subtitles.length)];
   };
 
-  return (<div className="jumbotron">
-    <div id="main-chart" className="container">
-      <h1>Kramster!</h1>
-      <div id="chart-wrapper">
-        {
-          /*
-        <canvas
-          id="bar"
-          className="chart chart-bar"
-          chart-data="data"
-          chart-labels="labels"
-          chart-options="options"
-          chart-colours="colors"
-        />
-        */
-      }
+  return (
+    <div className="jumbotron">
+      <div id="main-chart" className="container">
+        <h1>Kramster!</h1>
+        <BarChart data={props.gradesData} />
+        <h3>{subtitle()}</h3>
       </div>
-      <h3>{subtitle()}</h3>
     </div>
-  </div>);
+  );
+};
+
+Jumbotron.propTypes = {
+  gradesData: React.PropTypes.shape({
+    A: React.PropTypes.number,
+    B: React.PropTypes.number,
+    C: React.PropTypes.number,
+    D: React.PropTypes.number,
+    E: React.PropTypes.number,
+    F: React.PropTypes.number,
+  }),
 };
 
 export default Jumbotron;
