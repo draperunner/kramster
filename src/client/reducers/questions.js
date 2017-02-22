@@ -1,4 +1,4 @@
-import { ANSWER, LOAD_QUESTIONS } from '../actions/QuestionActions';
+import { ANSWER, LOAD_QUESTIONS, STATS_RECEIVED } from '../actions/QuestionActions';
 
 const EMPTY_QUESTION = { question: '', options: [], answers: [] };
 
@@ -7,6 +7,7 @@ const initialState = {
   currentQuestion: EMPTY_QUESTION,
   history: [],
   questions: [],
+  stats: {},
 };
 
 // Returns the current question
@@ -63,6 +64,13 @@ export default (state = initialState, action) => {
         ...state,
         currentQuestion,
         questions,
+      };
+    }
+    case STATS_RECEIVED: {
+      const stats = action.payload.stats;
+      return {
+        ...state,
+        stats,
       };
     }
     default:

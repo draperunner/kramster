@@ -4,32 +4,9 @@ import { browserHistory } from 'react-router';
 import API from '../../components/API/API';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
-import { giveAnswer, loadQuestions } from '../../actions/QuestionActions';
+import { giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
 
 class Questions extends React.Component {
-
-  static reloadRoute() {
-    location.reload();
-  }
-
-  static colors() {
-    // A: green, B: blue, C: purple, D: yellow, E: orange, F: red
-    return {
-      A: 'green',
-      B: 'blue',
-      C: 'purple',
-      D: 'yellow',
-      E: 'orange',
-      F: 'red',
-      fromUser() {
-        return this.colors[this.grade()];
-      },
-
-      fromServer() {
-        return this.colors[(this.fromServer && this.fromServer.averageGrade) || 'B'];
-      },
-    };
-  }
 
   constructor(props) {
     super(props);
@@ -75,28 +52,9 @@ class Questions extends React.Component {
   }
 
   // Get the (current) ratio of correct answers per total number of answered questions.
-  percentage(dividend, divisor) {
-    if (!dividend && !divisor) {
-      return (this.props.history.length > 0)
-      ? Math.round((10000 * this.props.history.filter(Boolean).length) / this.props.history.length) / 100 : 0;
-    } else if (dividend && divisor) {
-      return (divisor > 0) ? Math.round((10000 * dividend) / divisor) / 100 : 0;
-    }
-    return 0;
-  }
-
-  // Returns a score status message. Example: "3 (60%)"
-  status(score) {
-    if (!score) {
-      return `${this.props.history.filter(Boolean).length} (${this.percentage()}%)`;
-    }
-
-    return `${score.toFixed(2)} (${this.percentage(score, this.props.questions.length)}%)`;
-  }
-
-  // Returns the grade corresponding to the current percentage. Uses the NTNU scale.
-  grade() {
-    return Helpers.percentageToGrade(this.percentage());
+  percentage() {
+    if (this.props.history.length === 0) return 0;
+    return Math.round((10000 * this.props.history.filter(Boolean).length) / this.props.history.length) / 100;
   }
 
   // Returns the class (color, mostly) of the option button
@@ -136,14 +94,15 @@ class Questions extends React.Component {
       exam: {
         school: this.props.params.school,
         course: this.props.params.course,
-        name: (this.state.mode.docMode) ? this.state.mode.docMode : this.props.params.exam,
+        name: (this.state.mode.docMode !== 'exam') ? this.state.mode.docMode : this.props.params.exam,
       },
       createdAt: Helpers.getLocalTime(),
       score: this.props.history.filter(Boolean).length,
       numQuestions: this.props.questions.length,
       percentage: this.percentage(),
-      grade: this.grade(),
+      grade: Helpers.percentageToGrade(this.percentage()),
     };
+
     API.post('/api/reports/add', report).then(() => {
         // Fetch aggregated statistics from server
       const url = `/api/stats/${this.props.params.school}/${this.props.params.course}/${report.exam.name}`;
@@ -154,16 +113,11 @@ class Questions extends React.Component {
       }
 
       API.get(url, params).then((stats) => {
-        const totalNumberOfQuestions = stats.numReports * report.numQuestions;
-        const avgPercentage = this.percentage(stats.totalScore, totalNumberOfQuestions);
-        this.fromServer = stats;
-        this.fromServer.averageScore = stats.averageScore.toFixed(2);
-        this.fromServer.averageGrade = Helpers.percentageToGrade(avgPercentage);
-        this.fromServer.percentage = avgPercentage;
+        this.props.statsReceived({ ...stats, numQuestions: report.numQuestions });
+        browserHistory.push(`${this.props.location.pathname}/results`);
       });
     });
 
-    browserHistory.push(`${this.props.location}/results`);
     return true;
   }
 
@@ -219,6 +173,7 @@ Questions.propTypes = {
   answer: React.PropTypes.func,
   answerGiven: React.PropTypes.bool,
   loadQuestions: React.PropTypes.func,
+  statsReceived: React.PropTypes.func,
   history: React.PropTypes.arrayOf(React.PropTypes.bool),
   currentQuestion: React.PropTypes.shape({
     answers: React.PropTypes.arrayOf(React.PropTypes.number),
@@ -245,6 +200,9 @@ const mapDispatchToProps = dispatch => ({
   },
   loadQuestions: (questions) => {
     dispatch(loadQuestions(questions));
+  },
+  statsReceived: (stats) => {
+    dispatch(statsReceived(stats));
   },
 });
 

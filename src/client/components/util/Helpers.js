@@ -5,6 +5,30 @@
 
 const Helpers = {
 
+  colors() {
+    return {
+      A: 'green',
+      B: 'blue',
+      C: 'purple',
+      D: 'yellow',
+      E: 'orange',
+      F: 'red',
+    };
+  },
+
+  formatPercentage(dividend, divisor) {
+    return Math.round((10000 * dividend) / divisor) / 100;
+  },
+
+  // Returns a score status message. Example: "3 (60%)"
+  formatStatusMessage(score, percentage) {
+    return `${score.toFixed(2)} (${percentage}%)`;
+  },
+
+  reloadRoute() {
+    location.reload();
+  },
+
   /**
    * Returns the mapping from a percentage to grade.
    *

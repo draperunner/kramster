@@ -1,5 +1,6 @@
 export const ANSWER = 'ANSWER';
 export const LOAD_QUESTIONS = 'LOAD_QUESTIONS';
+export const STATS_RECEIVED = 'STATS_RECEIVED';
 
 export const giveAnswer = givenAnswer => ({
   type: ANSWER,
@@ -12,5 +13,12 @@ export const loadQuestions = questions => ({
   type: LOAD_QUESTIONS,
   payload: {
     questions,
+  },
+});
+
+export const statsReceived = stats => ({
+  type: STATS_RECEIVED,
+  payload: {
+    stats,
   },
 });

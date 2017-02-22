@@ -19,6 +19,6 @@ export default
       <Route path="/:school/:course/random/:number" component={Questions} />
       <Route path="/:school/:course/all" component={Questions} />
       <Route path="/:school/:course/:exam" component={Questions} />
-      <Route path="**/*/result" component={Result} />
+      <Route path="/**/*/results" component={Result} />
     </Route>
   </Router>;
