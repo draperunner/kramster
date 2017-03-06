@@ -1,4 +1,4 @@
-import { ANSWER, LOAD_QUESTIONS, STATS_RECEIVED } from '../actions/QuestionActions';
+import { ANSWER, CLEAR, LOAD_QUESTIONS, STATS_RECEIVED } from '../actions/QuestionActions';
 
 const EMPTY_QUESTION = { question: '', options: [], answers: [] };
 
@@ -56,6 +56,9 @@ export default (state = initialState, action) => {
         currentQuestion,
         history,
       };
+    }
+    case CLEAR: {
+      return { ...initialState };
     }
     case LOAD_QUESTIONS: {
       const questions = action.payload.questions;

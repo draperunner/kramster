@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import API from '../../components/API/API';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
-import { giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
+import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
 
 class Questions extends React.Component {
 
@@ -22,6 +22,9 @@ class Questions extends React.Component {
     if (!props.params.exam) {
       this.state.mode.docMode = props.params.number ? 'random' : 'all';
     }
+
+    // Clear quiz history in case this is not the first quiz
+    this.props.clear();
   }
 
   componentDidMount() {
@@ -169,6 +172,7 @@ class Questions extends React.Component {
 Questions.propTypes = {
   answer: React.PropTypes.func,
   answerGiven: React.PropTypes.bool,
+  clear: React.PropTypes.func,
   loadQuestions: React.PropTypes.func,
   statsReceived: React.PropTypes.func,
   history: React.PropTypes.arrayOf(React.PropTypes.bool),
@@ -194,6 +198,9 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   answer: (option) => {
     dispatch(giveAnswer(option));
+  },
+  clear: () => {
+    dispatch(clear());
   },
   loadQuestions: (questions) => {
     dispatch(loadQuestions(questions));

@@ -81,7 +81,11 @@ const Result = props => (
         { props.stats.grades ? <BarChart data={props.stats.grades} /> : null }
       </div>
       <div className="col-xs-12 col-md-4">
-        <div className="div-result btn btn-result-btn" onClick={Helpers.reloadRoute} role="button">
+        <div
+          className="div-result btn btn-result-btn"
+          onClick={() => browserHistory.push(`/${props.params.splat}`)}
+          role="button"
+        >
           <div className="header">
             <h4>Try again</h4>
           </div>

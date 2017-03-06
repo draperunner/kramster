@@ -1,4 +1,5 @@
 export const ANSWER = 'ANSWER';
+export const CLEAR = 'CLEAR';
 export const LOAD_QUESTIONS = 'LOAD_QUESTIONS';
 export const STATS_RECEIVED = 'STATS_RECEIVED';
 
@@ -7,6 +8,10 @@ export const giveAnswer = givenAnswer => ({
   payload: {
     givenAnswer,
   },
+});
+
+export const clear = () => ({
+  type: CLEAR,
 });
 
 export const loadQuestions = questions => ({
