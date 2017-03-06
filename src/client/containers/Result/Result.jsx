@@ -4,6 +4,7 @@ import { browserHistory } from 'react-router';
 import Kitem from '../../components/Kitem';
 import Helpers from '../../components/util/Helpers';
 import BarChart from '../../components/BarChart';
+import PieChart from '../../components/PieChart';
 
 const Result = props => (
   <div className="container">
@@ -73,19 +74,9 @@ const Result = props => (
     </div>
 
     <div className="row top-buffer">
-      {
-        /*
-      <div className="col-xs-12 col-md-4" ng-controller="PieController as PieCtrl">
-        <canvas
-          id="pie"
-          className="chart chart-pie"
-          chart-data="data"
-          chart-labels="labels"
-          chart-options="options"
-        />
+      <div className="col-xs-12 col-md-4">
+        { props.stats.grades ? <PieChart data={props.stats.grades} /> : null }
       </div>
-      */
-      }
       <div className="col-xs-12 col-md-4">
         { props.stats.grades ? <BarChart data={props.stats.grades} /> : null }
       </div>
