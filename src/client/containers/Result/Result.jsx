@@ -92,7 +92,7 @@ const Result = props => (
         </div>
         <div
           className="div-result btn btn-result-btn"
-          onClick={() => browserHistory.push(`/${props.params.school}/${props.params.course}`)}
+          onClick={() => browserHistory.push(`/${props.params.splat.split('/').slice(0, -1).join('/')}`)}
           role="button"
         >
           <div className="header">
