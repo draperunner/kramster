@@ -1,10 +1,7 @@
 import React from 'react';
-import { Bar, defaults } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 
 const BarChart = (props) => {
-  defaults.global.legend.display = false;
-  defaults.global.tooltips.displayColors = false;
-
   const sortedKeys = Object.keys(props.data).sort();
 
   const data = {
@@ -19,6 +16,9 @@ const BarChart = (props) => {
   };
 
   const options = {
+    legend: {
+      display: false,
+    },
     maintainAspectRatio: false,
     responsive: true,
     scales: {
@@ -32,6 +32,19 @@ const BarChart = (props) => {
           beginAtZero: true,
         },
       }],
+    },
+    tooltips: {
+      displayColors: false,
+      bodyFontFamily: "'Roboto', sans-serif",
+      footerFontFamily: "'Roboto', sans-serif",
+      callbacks: {
+        title(tooltipItems) {
+          return tooltipItems[0].xLabel;
+        },
+        label(tooltipItems) {
+          return `${tooltipItems.yLabel}`;
+        },
+      },
     },
   };
 
