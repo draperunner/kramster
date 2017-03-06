@@ -19,7 +19,7 @@ const BarChart = (props) => {
     legend: {
       display: false,
     },
-    maintainAspectRatio: false,
+    maintainAspectRatio: true,
     responsive: true,
     scales: {
       xAxes: [{
