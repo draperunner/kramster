@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import sanitizeHtml from 'sanitize-html';
 import API from '../../components/API/API';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
@@ -139,9 +140,10 @@ class Questions extends React.Component {
         { this.props.questions.length /* && !loading */ ?
           <div className="row">
             <div className="col-xs-12">
-              <h3 className="question math">
-                { question && question.question }
-              </h3>
+              <h3
+                className="question math"
+                dangerouslySetInnerHTML={{ __html: question && sanitizeHtml(question.question) }}
+              />
             </div>
           </div>
         : null }
@@ -156,9 +158,8 @@ class Questions extends React.Component {
                     role="button" type="button"
                     className={`btn mats ${this.buttonClass(option)}`}
                     onClick={() => this.answer(option)}
-                  >
-                    {option}
-                  </a>,
+                    dangerouslySetInnerHTML={{ __html: sanitizeHtml(option) }}
+                  />,
                 )}
               </div>
             </div>

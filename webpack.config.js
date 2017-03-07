@@ -24,6 +24,10 @@ const base = {
         loaders: ['react-hot', 'babel-loader'],
       },
       {
+        test: /\.json$/,
+        loader: 'json-loader',
+      },
+      {
         test: /\.svg$/,
         loader: 'babel!svg-react-loader',
       },
