@@ -6,7 +6,7 @@ const Navbar = () => (
     <nav className="navbar navbar-default">
       <div className="container">
         <div className="navbar-header pull-left">
-          <Link className="navbar-brand" to="/">Kramster!</Link>
+          { window.location.pathname !== '/' ? <Link className="navbar-brand" to="/">Kramster!</Link> : null }
         </div>
         <div className="navbar-header pull-right">
           <ul className="nav navbar-nav">
