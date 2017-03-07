@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import sanitizeHtml from 'sanitize-html';
 import API from '../../components/API/API';
+import MathElement from '../../components/MathElement';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
 import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
@@ -140,10 +141,14 @@ class Questions extends React.Component {
         { this.props.questions.length /* && !loading */ ?
           <div className="row">
             <div className="col-xs-12">
-              <h3
-                className="question math"
-                dangerouslySetInnerHTML={{ __html: question && sanitizeHtml(question.question) }}
-              />
+              <MathElement>
+                <h3
+                  className="question math"
+                  dangerouslySetInnerHTML={{ __html: question && sanitizeHtml(question.question, {
+                    allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
+                  }) }}
+                />
+              </MathElement>
             </div>
           </div>
         : null }
@@ -154,12 +159,16 @@ class Questions extends React.Component {
               <div className="btn-group">
                 { question && question.options.map(option =>
                   <a
-                    key={option}
                     role="button" type="button"
-                    className={`btn mats ${this.buttonClass(option)}`}
+                    className={`btn ${this.buttonClass(option)}`}
                     onClick={() => this.answer(option)}
-                    dangerouslySetInnerHTML={{ __html: sanitizeHtml(option) }}
-                  />,
+                  >
+                    <MathElement
+                      dangerouslySetInnerHTML={{ __html: sanitizeHtml(option, {
+                        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
+                      }) }}
+                    />
+                  </a>,
                 )}
               </div>
             </div>
