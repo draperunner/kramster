@@ -18,9 +18,9 @@ const Jumbotron = (props) => {
 
   return (
     <div className="jumbotron">
-      <div id="main-chart" className="container">
+      <div className="container">
         <h1>Kramster!</h1>
-        <BarChart data={props.gradesData} />
+        { props.gradesData ? <BarChart data={props.gradesData} /> : null }
         <h3>{subtitle()}</h3>
       </div>
     </div>

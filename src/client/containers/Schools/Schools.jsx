@@ -11,7 +11,7 @@ class Schools extends React.Component {
     super();
 
     this.state = {
-      gradesData: {},
+      gradesData: null,
       schools: [],
     };
   }
