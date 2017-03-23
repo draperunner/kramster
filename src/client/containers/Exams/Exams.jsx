@@ -30,22 +30,22 @@ class Exams extends React.Component {
 
         <div className="row">
           <div className="col-sm-4">
-            <a
-              href={`/${this.state.school}/${this.state.course}/random/10`}
+            <Link
+              to={`/${this.state.school}/${this.state.course}/random/10`}
               className="btn btn-exam-special" role="button"
-            >10 Random</a>
+            >10 Random</Link>
           </div>
           <div className="col-sm-4">
-            <a
-              href={`/${this.state.school}/${this.state.course}/random/30`}
+            <Link
+              to={`/${this.state.school}/${this.state.course}/random/30`}
               className="btn btn-exam-special" role="button"
-            >30 Random</a>
+            >30 Random</Link>
           </div>
           <div className="col-sm-4">
-            <a
-              href={`/${this.state.school}/${this.state.course}/all`}
+            <Link
+              to={`/${this.state.school}/${this.state.course}/all`}
               className="btn btn-exam-special" role="button"
-            >All</a>
+            >All</Link>
           </div>
         </div>
 
