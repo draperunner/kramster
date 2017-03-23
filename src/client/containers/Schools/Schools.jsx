@@ -35,7 +35,7 @@ class Schools extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Jumbotron gradesData={this.state.gradesData} />
 
         <div className="container">

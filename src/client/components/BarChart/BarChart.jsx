@@ -35,8 +35,8 @@ const BarChart = (props) => {
     },
     tooltips: {
       displayColors: false,
-      bodyFontFamily: "'Roboto', sans-serif",
-      footerFontFamily: "'Roboto', sans-serif",
+      titleFontSize: 16,
+      bodyFontSize: 16,
       callbacks: {
         title(tooltipItems) {
           return tooltipItems[0].xLabel;
