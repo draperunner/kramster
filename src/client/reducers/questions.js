@@ -10,30 +10,6 @@ const initialState = {
   stats: {},
 };
 
-// Returns the current question
-/*
-const currentQuestion = state =>
-  let question;
-
-  // If questions still are being fetched, return an empty question.
-  if (state.questions.length <= 0) {
-    question = { question: '', options: [], answers: [] };
-  } else if (state.answerGiven) {
-    question = state.questions[state.history.length - 1];
-  } else {
-    question = state.questions[state.history.length];
-  }
-
-  // Render math
-  const domElementsThatMightContainMath = document.getElementsByClassName('math');
-  for (let i = 0; i < domElementsThatMightContainMath.length; i++) {
-    renderMathInElement(domElementsThatMightContainMath[i]);
-  }
-
-   question;
-
- */
-
 const answerIsCorrect = (givenAnswer, state) => {
   const q = state.currentQuestion;
   return q && q.answers.indexOf(q.options.indexOf(givenAnswer)) >= 0;
