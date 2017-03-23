@@ -49,7 +49,7 @@ const updateStatsByKey = (key, report) => {
   });
 
   if (key.name === 'random') {
-    query.key.numQuestions = report.numQuestions;
+    query['key.numQuestions'] = report.numQuestions;
   }
 
   const updateObject = {
