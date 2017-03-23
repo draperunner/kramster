@@ -35,15 +35,9 @@ const API = {
   // Gets all questions of all exams of given url and passes to callback.
   getAll(url) {
     // $rootScope.loading = true;
-    return fetch(url).then((res) => {
+    return fetch(url).then(res => res.json().then(data =>
       // $rootScope.loading = false;
-      const allQuestions = [];
-      for (let i = 0; i < res.data.length; i++) {
-        allQuestions.push(...res.data[i].questions);
-      }
-
-      return allQuestions;
-    });
+       data.map(exam => exam.questions).reduce((a, b) => a.concat(b))));
   },
 
   // HTTP POST JSON body

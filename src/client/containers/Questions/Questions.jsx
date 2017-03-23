@@ -2,10 +2,12 @@ import React from 'react';
 import { connect } from 'react-redux';
 import sanitizeHtml from 'sanitize-html';
 import API from '../../components/API/API';
+import LoadingSpinner from '../../components/LoadingSpinner';
 import MathElement from '../../components/MathElement';
 import Helpers from '../../components/util/Helpers';
 import ProgressBar from '../../components/ProgressBar';
 import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
+import { startLoading, stopLoading } from '../../actions/LoadingActions';
 
 class Questions extends React.Component {
 
@@ -32,20 +34,25 @@ class Questions extends React.Component {
   componentDidMount() {
     let url = `/api/exams/${this.props.params.school}/${this.props.params.course}`;
 
+    this.props.startLoading();
+
     if (this.state.mode.docMode === 'all') {
       // ALL MODE. Fetches all exams, gathers all questions from all of them, shuffles.
-      API.getAll(url, (questions) => {
+      API.getAll(url).then((questions) => {
+        this.props.stopLoading();
         this.props.loadQuestions(questions);
       });
     } else if (this.state.mode.docMode === 'random') {
       // RANDOM N MODE. Fetches n random questions from the course.
       API.getRandom(url, this.props.params.number).then((questions) => {
+        this.props.stopLoading();
         this.props.loadQuestions(questions);
       });
     } else {
       // NON-RANDOM MODE. Fetches the selected exam and shuffles its questions.
       url += `/${this.props.params.exam}`;
       API.getSelected(url, {}).then((exam) => {
+        this.props.stopLoading();
         this.props.loadQuestions(exam[0].questions);
       });
     }
@@ -130,6 +137,11 @@ class Questions extends React.Component {
 
   render() {
     const question = this.props.currentQuestion;
+
+    if (this.props.loading) {
+      return <LoadingSpinner />;
+    }
+
     return (
       <div className="container">
         <div className="row">
@@ -138,7 +150,7 @@ class Questions extends React.Component {
           </div>
         </div>
 
-        { this.props.questions.length /* && !loading */ ?
+        { this.props.questions.length ?
           <div className="row">
             <div className="col-xs-12">
               <MathElement>
@@ -153,12 +165,13 @@ class Questions extends React.Component {
           </div>
         : null }
 
-        { this.props.questions.length /* && !loading */ ?
+        { this.props.questions.length ?
           <div className="row top-buffer">
             <div className="col-xs-12">
               <div className="btn-group">
                 { question && question.options.map(option =>
                   <a
+                    key={option}
                     role="button" type="button"
                     className={`btn ${this.buttonClass(option)}`}
                     onClick={() => this.answer(option)}
@@ -183,8 +196,11 @@ Questions.propTypes = {
   answer: React.PropTypes.func,
   answerGiven: React.PropTypes.bool,
   clear: React.PropTypes.func,
+  loading: React.PropTypes.bool,
   loadQuestions: React.PropTypes.func,
   statsReceived: React.PropTypes.func,
+  startLoading: React.PropTypes.func,
+  stopLoading: React.PropTypes.func,
   history: React.PropTypes.arrayOf(React.PropTypes.bool),
   currentQuestion: React.PropTypes.shape({
     answers: React.PropTypes.arrayOf(React.PropTypes.number),
@@ -203,6 +219,7 @@ const mapStateToProps = state => ({
   currentQuestion: state.questions.currentQuestion,
   history: state.questions.history,
   questions: state.questions.questions,
+  loading: state.loading.loading,
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -217,6 +234,12 @@ const mapDispatchToProps = dispatch => ({
   },
   statsReceived: (stats) => {
     dispatch(statsReceived(stats));
+  },
+  startLoading: () => {
+    dispatch(startLoading());
+  },
+  stopLoading: () => {
+    dispatch(stopLoading());
   },
 });
 

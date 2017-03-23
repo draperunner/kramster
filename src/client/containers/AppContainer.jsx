@@ -4,7 +4,6 @@ import Navbar from '../components/Navbar';
 const App = props => (
   <div>
     <Navbar />
-    <div id="spinner" />
 
     {props.children}
   </div>
