@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import sanitizeHtml from 'sanitize-html';
 import API from '../../components/API/API';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import MathElement from '../../components/MathElement';
@@ -153,14 +152,10 @@ class Questions extends React.Component {
         { this.props.questions.length ?
           <div className="row">
             <div className="col-xs-12">
-              <MathElement>
-                <h3
-                  className="question math"
-                  dangerouslySetInnerHTML={{ __html: question && sanitizeHtml(question.question, {
-                    allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
-                  }) }}
-                />
-              </MathElement>
+              <h3
+                className="question math"
+                dangerouslySetInnerHTML={{ __html: question && Helpers.sanitize(question.question) }}
+              />
             </div>
           </div>
         : null }
@@ -176,11 +171,7 @@ class Questions extends React.Component {
                     className={`btn ${this.buttonClass(option)}`}
                     onClick={() => this.answer(option)}
                   >
-                    <MathElement
-                      dangerouslySetInnerHTML={{ __html: sanitizeHtml(option, {
-                        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
-                      }) }}
-                    />
+                    <MathElement dangerouslySetInnerHTML={{ __html: Helpers.sanitize(option) }} />
                   </a>,
                 )}
               </div>

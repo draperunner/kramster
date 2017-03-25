@@ -1,3 +1,5 @@
+import sanitizeHtml from 'sanitize-html';
+
 /**
  * @file Contains static helper methods.
  * @author Mats Byrkjeland
@@ -99,6 +101,21 @@ const Helpers = {
            }:${pad(now.getSeconds())
            }${sign}${pad(timezoneOffset / 60)
            }:${pad(timezoneOffset % 60)}`;
+  },
+
+  /**
+   * Sanitizes an HTML string
+   */
+  sanitize(dirtyHtml) {
+    return sanitizeHtml(dirtyHtml, {
+      allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
+      allowedAttributes: {
+        ...sanitizeHtml.defaults.allowedAttributes,
+        img: ['class', 'src'],
+      },
+      allowedSchemes: sanitizeHtml.defaults.allowedSchemes.concat(['data']),
+
+    });
   },
 };
 
