@@ -21,6 +21,11 @@ const PieChart = (props) => {
     },
     maintainAspectRatio: true,
     responsive: true,
+    tooltips: {
+      displayColors: false,
+      titleFontSize: 16,
+      bodyFontSize: 16,
+    },
   };
 
   return <Pie data={data} options={options} />;
