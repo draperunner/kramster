@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Kitem = (props) => {
-  const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  const mobile = window.screen.width < 800;
 
   const role = (!props.clickable || props.clickable !== 'false') ? 'button' : '';
 
