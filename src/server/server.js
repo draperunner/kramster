@@ -9,8 +9,8 @@ const app = express();
 
 if (process.env.NODE_ENV !== 'production') {
   // Webpack
+  /* eslint-disable global-require, import/no-extraneous-dependencies, import/no-dynamic-require */
   const webpack = require('webpack');
-  /* eslint-disable global-require */
     // Step 1: Create & configure a webpack compiler
   const webpackConfig = require(process.env.WEBPACK_CONFIG ? process.env.WEBPACK_CONFIG : '../../webpack.config');
   const compiler = webpack(webpackConfig);
