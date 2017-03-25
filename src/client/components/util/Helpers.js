@@ -114,7 +114,6 @@ const Helpers = {
         img: ['class', 'src'],
       },
       allowedSchemes: sanitizeHtml.defaults.allowedSchemes.concat(['data']),
-
     });
   },
 };

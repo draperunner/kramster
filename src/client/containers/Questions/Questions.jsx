@@ -152,10 +152,12 @@ class Questions extends React.Component {
         { this.props.questions.length ?
           <div className="row">
             <div className="col-xs-12">
-              <h3
-                className="question math"
-                dangerouslySetInnerHTML={{ __html: question && Helpers.sanitize(question.question) }}
-              />
+              <MathElement>
+                <h3
+                  className="question math"
+                  dangerouslySetInnerHTML={{ __html: Helpers.sanitize(question.question) }}
+                />
+              </MathElement>
             </div>
           </div>
         : null }

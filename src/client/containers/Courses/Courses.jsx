@@ -37,8 +37,8 @@ class Courses extends React.Component {
           { this.state.courses.map((course, index) =>
             <div key={index}>
               {index % 2 === 0 ? <div className="clearfix visible-sm-block" /> : null }
-              {index % 3 === 0 ? <div className="clearfix visible-sm-block" /> : null }
-              {index % 4 === 0 ? <div className="clearfix visible-sm-block" /> : null }
+              {index % 3 === 0 ? <div className="clearfix visible-md-block" /> : null }
+              {index % 4 === 0 ? <div className="clearfix visible-lg-block" /> : null }
 
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" >
 

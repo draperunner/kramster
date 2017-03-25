@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import API from '../../components/API/API';
+import Button from '../../components/Button';
 
 class Exams extends React.Component {
 
@@ -53,15 +54,11 @@ class Exams extends React.Component {
           { this.state.exams.map((exam, index) => (
             <div key={index}>
               {index % 2 === 0 ? <div className="clearfix visible-sm-block" /> : null }
-              {index % 3 === 0 ? <div className="clearfix visible-sm-block" /> : null }
-              {index % 4 === 0 ? <div className="clearfix visible-sm-block" /> : null }
+              {index % 3 === 0 ? <div className="clearfix visible-md-block" /> : null }
+              {index % 4 === 0 ? <div className="clearfix visible-lg-block" /> : null }
 
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <Link
-                  to={`/${this.state.school}/${this.state.course}/${exam}`}
-                  className="btn btn-exam"
-                  role="button"
-                >{ exam }</Link>
+                <Button href={`/${this.state.school}/${this.state.course}/${exam}`}>{ exam }</Button>
               </div>
             </div>
           ))}
