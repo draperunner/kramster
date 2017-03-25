@@ -52,6 +52,7 @@ const base = {
 };
 
 if (process.env.NODE_ENV === 'production') {
+  base.output.path = path.join(__dirname, 'dist', 'client');
   base.plugins.push(new webpack.optimize.UglifyJsPlugin());
 }
 

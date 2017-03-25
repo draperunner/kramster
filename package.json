@@ -6,8 +6,8 @@
   "scripts": {
     "start": "nodemon src/server/server.js --exec babel-node",
     "dev": "webpack-dev-server --inline --content-base src/client",
-    "build": "export NODE_ENV=production && webpack -p --progress && babel server.js -o server.dist.js",
-    "prod": "npm run build && node server.dist.js",
+    "build": "rm -rf dist/ && NODE_ENV=production webpack -p --progress && babel src/server -d dist/server && cp src/client/index.html dist/client/index.html",
+    "prod": "npm run build && node dist/server/server.js",
     "lint": "eslint src/"
   },
   "repository": {
