@@ -1,6 +1,6 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
-import API from '../../components/API/API';
+import API from '../../components/API';
 import Kitem from '../../components/Kitem';
 
 class Courses extends React.Component {

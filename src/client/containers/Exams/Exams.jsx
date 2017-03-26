@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import API from '../../components/API/API';
+import API from '../../components/API';
 import Button from '../../components/Button';
 
 class Exams extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import API from '../../components/API/API';
+import API from '../../components/API';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import MathElement from '../../components/MathElement';
 import Helpers from '../../components/util/Helpers';
