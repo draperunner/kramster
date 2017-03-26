@@ -5,6 +5,7 @@ const base = {
   context: __dirname,
   entry: [
     'webpack-hot-middleware/client',
+    'whatwg-fetch',
     './src/client/main.jsx',
   ],
   output: {

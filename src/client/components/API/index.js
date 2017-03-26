@@ -1,4 +1,5 @@
 import qs from 'qs';
+import 'whatwg-fetch';
 
 /*
  * Methods for communicating with API.
