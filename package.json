@@ -1,6 +1,6 @@
 {
   "name": "kramster",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Kramster is a quiz app for making exam preparation more fun",
   "main": "src/server/server.js",
   "scripts": {
