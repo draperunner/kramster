@@ -6,8 +6,6 @@ const About = () => (
     <div id="about" className="jumbotron">
       <div className="container">
         <h1>Cram with Kramster!</h1>
-      </div>
-      <div className="container">
         <h3>
           Kramster helps making exam preparation a little more fun. Select your school and course and cram for your
            exam by doing the multiple choice questions with instant feedback!
