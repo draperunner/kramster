@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
   /* eslint-disable global-require, import/no-extraneous-dependencies, import/no-dynamic-require */
   const webpack = require('webpack');
     // Step 1: Create & configure a webpack compiler
-  const webpackConfig = require(process.env.WEBPACK_CONFIG ? process.env.WEBPACK_CONFIG : '../../webpack.config');
+  const webpackConfig = require('../../webpack.config.dev')();
   const compiler = webpack(webpackConfig);
 
     // Step 2: Attach the dev middleware to the compiler & the server

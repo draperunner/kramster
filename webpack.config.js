@@ -1,60 +1,45 @@
 const path = require('path');
 const webpack = require('webpack');
 
-const base = {
+module.exports = () => ({
   context: __dirname,
   entry: [
-    'webpack-hot-middleware/client',
     'whatwg-fetch',
     './src/client/main.jsx',
   ],
-  output: {
-    // path: path.resolve(__dirname, 'src', 'client'),
-    path: '/',
-    filename: 'bundle.js',
-  },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader',
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.jsx?$/,
-        exclude: /(node_modules|bower_components)/,
-        loaders: ['react-hot', 'babel-loader'],
-      },
-      {
-        test: /\.json$/,
-        loader: 'json-loader',
+        exclude: /(node_modules)/,
+        use: ['react-hot-loader', 'babel-loader'],
       },
       {
         test: /\.svg$/,
-        loader: 'babel!svg-react-loader',
+        use: ['babel-loader', 'svg-react-loader'],
       },
     ],
   },
   resolve: {
-    root: path.resolve('src', 'client'),
-    extensions: ['', '.js', '.jsx', '.scss'],
-    modulesDirectories: ['node_modules'],
+    modules: [
+      path.resolve('src', 'client'),
+      'node_modules',
+    ],
+    extensions: ['.js', '.jsx', '.scss'],
   },
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
     }),
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin(),
+    new webpack.LoaderOptionsPlugin({
+      debug: false,
+      minimize: true,
+    }),
+    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en|nb/),
   ],
-  devServer: {
-    historyApiFallback: true,
-  },
-};
-
-if (process.env.NODE_ENV === 'production') {
-  base.output.path = path.join(__dirname, 'dist', 'client');
-  base.plugins.push(new webpack.optimize.UglifyJsPlugin());
-}
-
-module.exports = base;
+});
