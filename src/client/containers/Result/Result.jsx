@@ -6,109 +6,119 @@ import Helpers from '../../components/util/Helpers';
 import BarChart from '../../components/BarChart';
 import PieChart from '../../components/PieChart';
 
-const Result = props => (
-  <div className="container">
-    <div className="row">
-      <div className="col-xs-12">
-        <h1 className="grey">Your results</h1>
-      </div>
+class Result extends React.Component {
 
-      <div className="col-xs-12 col-md-4">
-        <Kitem
-          head={props.grade}
-          body="Grade"
-          clickable={false}
-          color={props.colorFromUser}
-        />
-      </div>
+  componentWillMount() {
+    if (!this.props.history.length) {
+      browserHistory.push(`/${this.props.params.splat}`);
+    }
+  }
 
-      <div className="col-xs-6 col-md-4">
-        <Kitem
-          head={props.score}
-          body="Score"
-          clickable={false}
-          color={props.colorFromUser}
-        />
-      </div>
-
-      <div className="col-xs-6 col-md-4">
-        <Kitem
-          head={props.percentage}
-          body="%"
-          clickable={false}
-          color={props.colorFromUser}
-        />
-      </div>
-
-    </div>
-
-    <div className="row top-buffer">
-      <div className="col-xs-12">
-        <h1 className="grey">Stats for this exam</h1>
-      </div>
-
-      <div className="col-xs-12 col-md-4">
-        <Kitem
-          head={props.averageGrade}
-          body="Average Grade"
-          clickable={false}
-          color={props.colorFromServer}
-        />
-      </div>
-      <div className="col-xs-6 col-md-4">
-        <Kitem
-          head={props.averageScore}
-          body="Average Score"
-          clickable={false}
-          color={props.colorFromServer}
-        />
-      </div>
-      <div className="col-xs-6 col-md-4">
-        <Kitem
-          head={props.percentage}
-          body="Average %"
-          clickable={false}
-          color={props.colorFromServer}
-        />
-      </div>
-    </div>
-
-    <div className="row top-buffer">
-      <div className="col-xs-12 col-md-4">
-        { props.stats.grades ? <PieChart data={props.stats.grades} /> : null }
-      </div>
-      <div className="col-xs-12 col-md-4">
-        { props.stats.grades ? <BarChart data={props.stats.grades} /> : null }
-      </div>
-      <div className="col-xs-12 col-md-4">
-        <div
-          className="div-result btn btn-result-btn"
-          onClick={() => browserHistory.push(`/${props.params.splat}`)}
-          role="button"
-        >
-          <div className="header">
-            <h4>Try again</h4>
-          </div>
+  render() {
+    return (<div className="container">
+      <div className="row">
+        <div className="col-xs-12">
+          <h1 className="grey">Your results</h1>
         </div>
-        <div
-          className="div-result btn btn-result-btn"
-          onClick={() => browserHistory.push(`/${props.params.splat.split('/').slice(0, -1).join('/')}`)}
-          role="button"
-        >
-          <div className="header">
-            <h4>Try another</h4>
-          </div>
+
+        <div className="col-xs-12 col-md-4">
+          <Kitem
+            head={this.props.grade}
+            body="Grade"
+            clickable={false}
+            color={this.props.colorFromUser}
+          />
+        </div>
+
+        <div className="col-xs-6 col-md-4">
+          <Kitem
+            head={this.props.score}
+            body="Score"
+            clickable={false}
+            color={this.props.colorFromUser}
+          />
+        </div>
+
+        <div className="col-xs-6 col-md-4">
+          <Kitem
+            head={this.props.percentage}
+            body="%"
+            clickable={false}
+            color={this.props.colorFromUser}
+          />
+        </div>
+
+      </div>
+
+      <div className="row top-buffer">
+        <div className="col-xs-12">
+          <h1 className="grey">Stats for this exam</h1>
+        </div>
+
+        <div className="col-xs-12 col-md-4">
+          <Kitem
+            head={this.props.averageGrade}
+            body="Average Grade"
+            clickable={false}
+            color={this.props.colorFromServer}
+          />
+        </div>
+        <div className="col-xs-6 col-md-4">
+          <Kitem
+            head={this.props.averageScore}
+            body="Average Score"
+            clickable={false}
+            color={this.props.colorFromServer}
+          />
+        </div>
+        <div className="col-xs-6 col-md-4">
+          <Kitem
+            head={this.props.percentage}
+            body="Average %"
+            clickable={false}
+            color={this.props.colorFromServer}
+          />
         </div>
       </div>
-    </div>
-  </div>
-);
+
+      <div className="row top-buffer">
+        <div className="col-xs-12 col-md-4">
+          { this.props.stats.grades ? <PieChart data={this.props.stats.grades} /> : null }
+        </div>
+        <div className="col-xs-12 col-md-4">
+          { this.props.stats.grades ? <BarChart data={this.props.stats.grades} /> : null }
+        </div>
+        <div className="col-xs-12 col-md-4">
+          <div
+            className="div-result btn btn-result-btn"
+            onClick={() => browserHistory.push(`/${this.props.params.splat}`)}
+            role="button"
+          >
+            <div className="header">
+              <h4>Try again</h4>
+            </div>
+          </div>
+          <div
+            className="div-result btn btn-result-btn"
+            onClick={() => browserHistory.push(`/${this.props.params.splat.split('/').slice(0, -1).join('/')}`)}
+            role="button"
+          >
+            <div className="header">
+              <h4>Try another</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>);
+  }
+}
 
 Result.propTypes = {
   colorFromUser: React.PropTypes.string,
   colorFromServer: React.PropTypes.string,
   grade: React.PropTypes.string,
   score: React.PropTypes.number,
+  history: React.PropTypes.arrayOf(React.PropTypes.bool),
   percentage: React.PropTypes.number,
   averageGrade: React.PropTypes.string,
   averageScore: React.PropTypes.string,
@@ -141,6 +151,7 @@ const mapStateToProps = (state) => {
     averageScore: stats.averageScore && stats.averageScore.toFixed(2),
     colorFromUser,
     colorFromServer,
+    history,
     grade,
     percentage,
     score,
