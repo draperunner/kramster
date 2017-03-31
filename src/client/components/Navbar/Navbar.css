@@ -22,14 +22,17 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: #2980b9;
 }
 
+.navbar-nav {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: #2980b9;
     text-decoration: underline;
