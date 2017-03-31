@@ -100,7 +100,7 @@ class Result extends React.Component {
           </div>
           <div
             className="div-result btn btn-result-btn"
-            onClick={() => browserHistory.push(`/${this.props.params.splat.split('/').slice(0, -1).join('/')}`)}
+            onClick={() => browserHistory.push(`/${this.props.params.splat.split('/').slice(0, 2).join('/')}`)}
             role="button"
           >
             <div className="header">
