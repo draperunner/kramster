@@ -5,6 +5,8 @@ body {
 
 h1 {
   line-height: 40px;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 2px;
 }
 
 h3.question {

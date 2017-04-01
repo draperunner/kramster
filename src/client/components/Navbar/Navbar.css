@@ -1,5 +1,5 @@
 .navbar {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka One', cursive;
     margin-bottom: 20px;
     background: none;
     border-radius: 0;
@@ -10,9 +10,8 @@
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Roboto', sans-serif;
     color: #2980b9;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .navbar-default .navbar-brand:hover,
