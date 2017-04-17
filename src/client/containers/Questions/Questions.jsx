@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import API from '../../components/API';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import MathElement from '../../components/MathElement';
-import Helpers from '../../components/util/Helpers';
+import Helpers from '../../utils/Helpers';
 import ProgressBar from '../../components/ProgressBar';
 import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
 import { startLoading, stopLoading } from '../../actions/LoadingActions';

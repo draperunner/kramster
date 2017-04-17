@@ -1,4 +1,4 @@
-import Helpers from '../../components/util/Helpers';
+import Helpers from '../../utils/Helpers';
 
 // Returns a pretty header for the school (the abbreviated name)
 export const header = (school) => {

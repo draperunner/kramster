@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 import Kitem from '../../components/Kitem';
-import Helpers from '../../components/util/Helpers';
+import Helpers from '../../utils/Helpers';
 import BarChart from '../../components/BarChart';
 import PieChart from '../../components/PieChart';
 
