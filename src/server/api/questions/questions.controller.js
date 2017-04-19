@@ -55,9 +55,6 @@ const handleExamsQuery = (queryObject, reqQuery, res) => {
     query = query.limit(Number(reqQuery.limit));
   }
 
-  // Populate question objects
-  query = query.populate('questions');
-
   // Execute query
   query.exec((err, exams) => {
     if (err) return errors.somethingWentWrong(res);
