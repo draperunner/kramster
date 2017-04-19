@@ -60,7 +60,8 @@ class Questions extends React.Component {
   // Get the (current) ratio of correct answers per total number of answered questions.
   percentage() {
     if (this.props.history.length === 0) return 0;
-    return Math.round((10000 * this.props.history.filter(Boolean).length) / this.props.history.length) / 100;
+    const numCorrect = this.props.history.map(q => q.wasCorrect).filter(Boolean).length;
+    return Math.round((10000 * numCorrect) / this.props.history.length) / 100;
   }
 
   // Returns the class (color, mostly) of the option button
@@ -111,7 +112,8 @@ class Questions extends React.Component {
         name: (this.state.mode.docMode !== 'exam') ? this.state.mode.docMode : this.props.params.exam,
       },
       createdAt: Helpers.getLocalTime(),
-      score: this.props.history.filter(Boolean).length,
+      history: this.props.history,
+      score: this.props.history.filter(q => q.wasCorrect).length,
       numQuestions: this.props.questions.length,
       percentage: this.percentage(),
       grade: Helpers.percentageToGrade(this.percentage()),
@@ -145,7 +147,7 @@ class Questions extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            <ProgressBar history={this.props.history} questions={this.props.questions} />
+            <ProgressBar history={this.props.history.map(q => q.wasCorrect)} questions={this.props.questions} />
           </div>
         </div>
 
@@ -194,7 +196,11 @@ Questions.propTypes = {
   statsReceived: React.PropTypes.func,
   startLoading: React.PropTypes.func,
   stopLoading: React.PropTypes.func,
-  history: React.PropTypes.arrayOf(React.PropTypes.bool),
+  history: React.PropTypes.arrayOf(React.PropTypes.shape({
+    questionId: React.PropTypes.string,
+    givenAnswer: React.PropTypes.string,
+    wasCorrect: React.PropTypes.bool,
+  })),
   currentQuestion: React.PropTypes.shape({
     answers: React.PropTypes.arrayOf(React.PropTypes.number),
     options: React.PropTypes.arrayOf(React.PropTypes.string),

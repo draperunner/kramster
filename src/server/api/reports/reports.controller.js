@@ -1,5 +1,7 @@
+import mongoose from 'mongoose';
 import validator from './../../utils/validator';
 import errors from './../../utils/errors';
+import Question from '../questions/question.model';
 import Report from './report.model';
 import * as statsCtrl from './../stats/stats.controller';
 
@@ -136,11 +138,13 @@ exports.addReport = (req, res) => {
           name: req.body.exam.name,
         },
         createdAt: req.body.createdAt,
+        history: req.body.history.map(q => ({ ...q, questionId: mongoose.Types.ObjectId(q.questionId) })),
         score: req.body.score,
         numQuestions: req.body.numQuestions,
         percentage: req.body.percentage,
         grade: req.body.grade,
       });
+
       report.save((err, post) => {
         if (err) {
           res.status(500).send('Something went wrong.');
@@ -149,6 +153,12 @@ exports.addReport = (req, res) => {
 
         // Update stats based on this report
         statsCtrl.updateStats(report);
+      });
+
+      // Update each question with respective answer history
+      report.history.forEach((question) => {
+        const { givenAnswer, wasCorrect } = question;
+        Question.findOneAndUpdate({ _id: question.questionId }, { $push: { history: { givenAnswer, wasCorrect } } });
       });
 
       return null;

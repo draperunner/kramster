@@ -118,7 +118,11 @@ Result.propTypes = {
   colorFromServer: React.PropTypes.string,
   grade: React.PropTypes.string,
   score: React.PropTypes.number,
-  history: React.PropTypes.arrayOf(React.PropTypes.bool),
+  history: React.PropTypes.arrayOf(React.PropTypes.shape({
+    questionId: React.PropTypes.string,
+    givenAnswer: React.PropTypes.string,
+    wasCorrect: React.PropTypes.bool,
+  })),
   percentage: React.PropTypes.number,
   averageGrade: React.PropTypes.string,
   averageScore: React.PropTypes.string,
@@ -139,7 +143,7 @@ const mapStateToProps = (state) => {
   const totalNumberOfQuestions = stats.numReports * stats.numQuestions;
   const avgPercentage = Helpers.formatPercentage(stats.totalScore, totalNumberOfQuestions);
   const averageGrade = Helpers.percentageToGrade(avgPercentage);
-  const score = history.filter(Boolean).length;
+  const score = history.filter(q => q.wasCorrect).length;
   const percentage = Helpers.formatPercentage(score, history.length);
   const grade = Helpers.percentageToGrade(percentage);
   const colors = Helpers.colors();

@@ -8,6 +8,12 @@ const reportSchema = new mongoose.Schema({
     name: String,
   },
   createdAt: String,
+  history: [{
+    _id: false, // Prevent mongoose from automatically creating ids for subdocuments
+    questionId: { type: mongoose.Schema.Types.ObjectId, ref: 'Question' },
+    givenAnswer: String,
+    wasCorrect: Boolean,
+  }],
   score: Number,
   numQuestions: Number,
   percentage: Number,

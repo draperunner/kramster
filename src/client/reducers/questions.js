@@ -21,7 +21,14 @@ export default (state = initialState, action) => {
       let { history, currentQuestion } = state;
 
       if (!state.answerGiven) {
-        history = [...state.history, answerIsCorrect(action.payload.givenAnswer, state)];
+        history = [
+          ...state.history,
+          {
+            questionId: currentQuestion._id,
+            givenAnswer: action.payload.givenAnswer,
+            wasCorrect: answerIsCorrect(action.payload.givenAnswer, state),
+          },
+        ];
       } else {
         currentQuestion = state.questions[state.history.length];
       }
