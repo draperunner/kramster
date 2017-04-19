@@ -24,6 +24,45 @@ const getRandomQuestionsFromExams = (exams, numberOfQuestions) => {
 };
 
 /**
+ * Return the numberOfQuestions hardest questions from argument exams
+ * @param  {Object[]} exams             Exams to fetch hardest questions from
+ * @param  {Number} numberOfQuestions   Number of questions to fetch
+ * @return {Object[]}                   The hardest questions from given exam
+ */
+const getHardestQuestionsFromExams = (exams, numberOfQuestions) => {
+  // Merge all questions from resulting exams to one array
+  let questions = [];
+  for (let i = 0; i < exams.length; i++) {
+    questions = questions.concat(exams[i].questions);
+  }
+
+  const n = Math.min(questions.length, numberOfQuestions);
+
+  const hardnessComparator = (q1, q2) => {
+    const hardnessA = q1.stats ? q1.stats.totalCorrect / q1.stats.totalAnswers : -1;
+    const hardnessB = q2.stats ? q2.stats.totalCorrect / q2.stats.totalAnswers : -1;
+
+    if (hardnessA === -1 && hardnessB === -1) {
+      return Math.random() - 0.5;
+    }
+
+    if (hardnessA === -1) {
+      return 1;
+    }
+
+    if (hardnessB === -1) {
+      return -1;
+    }
+
+    return hardnessA - hardnessB;
+  };
+
+  const sortedQuestions = questions.slice().sort(hardnessComparator);
+
+  return sortedQuestions.slice(0, n);
+};
+
+/**
  * Handles query parameters for any Exams API endpoint. Validates parameters and executes query.
  *
  * @param {Object} queryObject - The selector object for MongoDB's find method.
@@ -62,15 +101,21 @@ const handleExamsQuery = (queryObject, reqQuery, res) => {
   query.exec((err, exams) => {
     if (err) return errors.somethingWentWrong(res);
 
-    if (reqQuery.random !== 'true') {
-      helpers.handleShuffle(exams, reqQuery.shuffle);
-      res.json(exams);
-    }
-    else if (reqQuery.random === 'true') {
+    if (reqQuery.random === 'true') {
       const numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
       const questions = getRandomQuestionsFromExams(exams, numberOfQuestions);
       helpers.handleShuffle([{ questions }], reqQuery.shuffle);
       res.json(questions);
+    }
+    else if (reqQuery.hardest === 'true') {
+      const numberOfQuestions = reqQuery.limit ? Number(reqQuery.limit) : 10;
+      const questions = getHardestQuestionsFromExams(exams, numberOfQuestions);
+      helpers.handleShuffle([{ questions }], reqQuery.shuffle);
+      res.json(questions);
+    }
+    else {
+      helpers.handleShuffle(exams, reqQuery.shuffle);
+      res.json(exams);
     }
 
     return null;
