@@ -10,6 +10,10 @@ const questionSchema = new mongoose.Schema({
     givenAnswer: String,
     wasCorrect: Boolean,
   }],
+  stats: {
+    totalAnswers: Number, // Should equal history.length
+    totalCorrect: Number, // Should equal history.filter(q => wasCorrect).length
+  },
 });
 
 module.exports = mongoose.model('Question', questionSchema);

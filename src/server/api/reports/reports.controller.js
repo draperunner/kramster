@@ -158,7 +158,12 @@ exports.addReport = (req, res) => {
       // Update each question with respective answer history
       report.history.forEach((question) => {
         const { givenAnswer, wasCorrect } = question;
-        Question.findOneAndUpdate({ _id: question.questionId }, { $push: { history: { givenAnswer, wasCorrect } } });
+        Question.findOneAndUpdate(
+          { _id: question.questionId },
+          {
+            $push: { history: { givenAnswer, wasCorrect } },
+            $inc: { 'stats.totalAnswers': 1, 'stats.totalCorrect': wasCorrect ? 1 : 0 },
+          });
       });
 
       return null;
