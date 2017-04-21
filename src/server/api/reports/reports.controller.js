@@ -163,7 +163,7 @@ exports.addReport = (req, res) => {
           {
             $push: { history: { givenAnswer, wasCorrect } },
             $inc: { 'stats.totalAnswers': 1, 'stats.totalCorrect': wasCorrect ? 1 : 0 },
-          });
+          }).exec();
       });
 
       return null;

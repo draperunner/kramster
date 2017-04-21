@@ -1,3 +1,4 @@
+import wilson from 'wilson-score';
 import validator from './../../utils/validator';
 import helpers from './../../utils/helpers';
 import errors from './../../utils/errors';
@@ -26,7 +27,7 @@ const getRandomQuestionsFromExams = (exams, numberOfQuestions) => {
 /**
  * Return the numberOfQuestions hardest questions from argument exams
  * @param  {Object[]} exams             Exams to fetch hardest questions from
- * @param  {Number} numberOfQuestions   Number of questions to fetch
+ * @param  {Number} numberOfQuestions   Maximum number of questions to fetch.
  * @return {Object[]}                   The hardest questions from given exam
  */
 const getHardestQuestionsFromExams = (exams, numberOfQuestions) => {
@@ -36,30 +37,23 @@ const getHardestQuestionsFromExams = (exams, numberOfQuestions) => {
     questions = questions.concat(exams[i].questions);
   }
 
-  const n = Math.min(questions.length, numberOfQuestions);
-
-  const hardnessComparator = (q1, q2) => {
-    const hardnessA = q1.stats ? q1.stats.totalCorrect / q1.stats.totalAnswers : -1;
-    const hardnessB = q2.stats ? q2.stats.totalCorrect / q2.stats.totalAnswers : -1;
-
-    if (hardnessA === -1 && hardnessB === -1) {
-      return Math.random() - 0.5;
+  /**
+   * Calculate difficulty. A score of 0 is the easiest. A score of 1 is the hardest.
+   * @param  {Object} question A question object to calculate difficulty for
+   * @return {Number}          The difficulty value
+   */
+  const calculateDifficulty = (question) => {
+    if (!question.stats || !question.stats.totalAnswers) {
+      return 0;
     }
-
-    if (hardnessA === -1) {
-      return 1;
-    }
-
-    if (hardnessB === -1) {
-      return -1;
-    }
-
-    return hardnessA - hardnessB;
+    return wilson(question.stats.totalAnswers - question.stats.totalCorrect, question.stats.totalAnswers);
   };
 
-  const sortedQuestions = questions.slice().sort(hardnessComparator);
+  // Sort by decreasing difficulty
+  const sortedQuestions = questions.slice().sort((q1, q2) => calculateDifficulty(q2) - calculateDifficulty(q1));
 
-  return sortedQuestions.slice(0, n);
+  // Return the numberOfQuestions hardest questions
+  return sortedQuestions.slice(0, numberOfQuestions);
 };
 
 /**
@@ -90,7 +84,7 @@ const handleExamsQuery = (queryObject, reqQuery, res) => {
   });
 
   // Limit exams (if not random=true)
-  if (reqQuery.random !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
+  if (reqQuery.random !== 'true' && reqQuery.hardest !== 'true' && reqQuery.limit && Number(reqQuery.limit) > 0) {
     query = query.limit(Number(reqQuery.limit));
   }
 
