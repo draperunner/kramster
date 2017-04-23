@@ -25,7 +25,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // MongoDB
-mongoose.connect('mongodb://localhost/kramster-test');
+mongoose.connect('mongodb://localhost/kramster');
 mongoose.Promise = bluebird;
 
 app.disable('x-powered-by');
