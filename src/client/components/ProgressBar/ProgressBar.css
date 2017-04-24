@@ -2,7 +2,7 @@
   border-radius: 0;
   border: 0;
   box-shadow: none;
-  background-color: #ecf0f1;
+  background-color: #fff;
 }
 .progress-bar {
   border-radius: 0;
@@ -14,4 +14,9 @@
 }
 .progress-bar-wrong {
   background-color: #e74c3c;
+}
+.progress-text {
+  color: #2980b9;
+  text-align: right;
+  font-weight: bold;
 }
