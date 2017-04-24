@@ -179,6 +179,11 @@ class Questions extends React.Component {
                   </a>,
                 )}
               </div>
+              { this.props.answerGiven ?
+                <div>
+                  <b style={{ color: '#2980b9' }}>Click any answer to continue</b>
+                </div>
+              : null }
             </div>
           </div>
         : null }
