@@ -17,13 +17,13 @@ class Questions extends React.Component {
       finishedReturnedTrue: false, // Prevents multiples of the same report being sent to server.
       // String representing the doc fetch mode.
       // 'all' if All button is clicked. 'random' if Random X is clicked, etc.
-      mode: {
-        docMode: 'exam',
-      },
+      mode: 'exam',
     };
 
-    if (!props.params.exam) {
-      this.state.mode.docMode = props.params.number ? 'random' : 'all';
+    if (!props.params.exam && !props.params.mode) {
+      this.state.mode = 'all';
+    } else if (props.params.mode) {
+      this.state.mode = props.params.mode;
     }
 
     // Clear quiz history in case this is not the first quiz
@@ -35,15 +35,21 @@ class Questions extends React.Component {
 
     this.props.startLoading();
 
-    if (this.state.mode.docMode === 'all') {
+    if (this.state.mode === 'all') {
       // ALL MODE. Fetches all exams, gathers all questions from all of them, shuffles.
       API.getAll(url).then((questions) => {
         this.props.stopLoading();
         this.props.loadQuestions(questions);
       });
-    } else if (this.state.mode.docMode === 'random') {
+    } else if (this.state.mode === 'random') {
       // RANDOM N MODE. Fetches n random questions from the course.
       API.getRandom(url, this.props.params.number).then((questions) => {
+        this.props.stopLoading();
+        this.props.loadQuestions(questions);
+      });
+    } else if (this.state.mode === 'hardest') {
+      // HARDEST N MODE. Fetches n random questions from the course.
+      API.getHardest(url, this.props.params.number).then((questions) => {
         this.props.stopLoading();
         this.props.loadQuestions(questions);
       });
@@ -109,7 +115,7 @@ class Questions extends React.Component {
       exam: {
         school: this.props.params.school,
         course: this.props.params.course,
-        name: (this.state.mode.docMode !== 'exam') ? this.state.mode.docMode : this.props.params.exam,
+        name: (this.state.mode !== 'exam') ? this.state.mode : this.props.params.exam,
       },
       createdAt: Helpers.getLocalTime(),
       history: this.props.history,
