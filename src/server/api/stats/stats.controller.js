@@ -137,8 +137,7 @@ exports.getStatsForAllMode = (req, res) => {
     });
 };
 
-// Return aggregated statistics for 'random' mode
-exports.getStatsForRandomMode = (req, res) => {
+const getStatsForMode = (mode, req, res) => {
   validator.validate(req.params.school, req.params.course, null,
     (isValid, validSchool, validCourse) => {
       if (!isValid) return errors.noCourseFound(res, req.params.school, req.params.course);
@@ -149,7 +148,7 @@ exports.getStatsForRandomMode = (req, res) => {
       const query = {
         'key.school': validSchool,
         'key.course': validCourse,
-        'key.name': 'random',
+        'key.name': mode,
       };
 
       if (req.query.numQuestions) query['key.numQuestions'] = parseInt(req.query.numQuestions, 10);
@@ -161,6 +160,12 @@ exports.getStatsForRandomMode = (req, res) => {
       return null;
     });
 };
+
+// Return aggregated statistics for 'random' mode
+exports.getStatsForRandomMode = (req, res) => getStatsForMode('random', req, res);
+
+// Return aggregated statistics for 'hardest' mode
+exports.getStatsForHardestMode = (req, res) => getStatsForMode('hardest', req, res);
 
 // Return aggregated statistics for a given exam
 exports.getStatsForExam = (req, res) => {
