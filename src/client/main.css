@@ -9,6 +9,14 @@ h1 {
   letter-spacing: 2px;
 }
 
+a {
+  color: #2980b9;
+}
+
+a:hover {
+  color: #3498db;
+}
+
 h3.question {
   line-height: 1.3em;
 }
