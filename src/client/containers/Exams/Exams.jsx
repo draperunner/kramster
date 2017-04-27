@@ -44,15 +44,15 @@ class Exams extends React.Component {
           </div>
           <div className="col-sm-4">
             <Link
-              to={`/${this.state.school}/${this.state.course}/all`}
+              to={`/${this.state.school}/${this.state.course}/hardest/10`}
               className="btn btn-exam-special" role="button"
-            >All</Link>
+            >10 Hardest</Link>
           </div>
         </div>
 
         <div className="row top-buffer">
           { this.state.exams.map((exam, index) => (
-            <div key={index}>
+            <div key={exam}>
               {index % 2 === 0 ? <div className="clearfix visible-sm-block" /> : null }
               {index % 3 === 0 ? <div className="clearfix visible-md-block" /> : null }
               {index % 4 === 0 ? <div className="clearfix visible-lg-block" /> : null }
