@@ -1,76 +1,79 @@
 .btn {
-    font-family: 'Roboto', sans-serif;
-    margin: 5px;
-    white-space: normal;
-    outline: none;
-    letter-spacing: 1px;
-    border-radius: 0;
-    border: none;
-    color: rgb(236, 240, 241);
-    transition: all .2s;
+  font-family: 'Roboto', sans-serif;
+  margin: 5px;
+  white-space: normal;
+  outline: none;
+  letter-spacing: 1px;
+  border-radius: 0;
+  border: none;
+  color: rgb(236, 240, 241);
+  transition: all 0.2s;
 }
 
 .btn-exam {
-    background: #2980b9;
-    padding: 20px;
-    display: block;
+  background: #2980b9;
+  padding: 20px;
+  display: block;
 }
 
 .btn-exam:hover {
-    background: #3498db;
+  background: #3498db;
 }
 
 .btn-exam-special {
-    background: #e67e22;
-    padding: 20px;
-    display: block;
-    text-transform: uppercase;
+  background: #e67e22;
+  padding: 20px;
+  display: block;
+  text-transform: uppercase;
 }
+
 .btn-exam-special:hover {
-    background-color: #f39c12;
+  background-color: #f39c12;
 }
 
 .btn-question {
-    background-color: white;
-    color: #2c3e50;
-    padding: 20px;
-    display: block;
+  background-color: white;
+  color: #2c3e50;
+  padding: 20px;
+  display: block;
 }
 
 .btn-question:hover {
-    background-color: #2980b9;
-    color: white;
+  background-color: #2980b9;
+  color: white;
 }
 
 .btn-question-mobile {
-    background-color: white;
-    color: #2c3e50;
-    padding: 20px;
-    display: block;
+  background-color: white;
+  color: #2c3e50;
+  padding: 20px;
+  display: block;
 }
 
 .btn-question-mobile:hover {
-    background-color: white;
-    color: #2c3e50;
+  background-color: white;
+  color: #2c3e50;
 }
 
 .btn-correct-answer {
-    background: #2ecc71;
-    padding: 20px;
-    display: block;
+  background: #2ecc71;
+  padding: 20px;
+  display: block;
 }
+
 .btn-wrong-answer {
-    background: #e74c3c;
-    padding: 20px;
-    display: block;
+  background: #e74c3c;
+  padding: 20px;
+  display: block;
 }
 
 .btn-result-btn {
-    background: #2ecc71;
-    padding: 0;
-    display: block;
+  background: #2ecc71;
+  padding: 0;
+  display: block;
 }
+
 .btn-result-btn > .header {
-    width: 100%;
-    padding: 8px;
+  width: 100%;
+  padding: 8px;
 }
