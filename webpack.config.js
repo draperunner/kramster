@@ -11,6 +11,21 @@ module.exports = () => ({
     rules: [
       {
         test: /\.css$/,
+        exclude: /node_modules/,
+        loaders: [
+          'style-loader', {
+            loader: 'css-loader',
+            query: {
+              modules: true,
+              importLoaders: 1,
+              localIdentName: '[name]__[local]___[hash:base64:5]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.css$/,
+        include: /node_modules/,
         use: ['style-loader', 'css-loader'],
       },
       {
@@ -40,6 +55,6 @@ module.exports = () => ({
       minimize: true,
     }),
     new webpack.NoEmitOnErrorsPlugin(),
-    new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en|nb/),
+    new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /en|nb/),
   ],
 });

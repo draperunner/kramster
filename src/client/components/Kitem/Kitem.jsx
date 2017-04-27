@@ -1,14 +1,15 @@
 import React from 'react';
+import styles from './Kitem.css';
 
 const Kitem = (props) => {
   const mobile = window.screen.width < 800;
 
   const role = (!props.clickable || props.clickable !== 'false') ? 'button' : '';
 
-  let className = 'kitem kitem-clickable ';
+  let className = `${styles.kitem} ${styles.clickable} `;
 
   if (props.color) {
-    className += `kitem-${props.color} `;
+    className += `${styles[props.color]} `;
   }
 
   if (props.minHeight && !mobile) {

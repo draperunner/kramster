@@ -20,7 +20,7 @@
     }
 }
 
-.kitem-clickable {
+.clickable {
     transition: all .1s ease-in;
 }
 
@@ -43,9 +43,9 @@
 /*
  * GREEN
  */
-.kitem-green {
-    background: #27ae60;
-    display: block;
+.green {
+  composes: greenBackground from '../../base-styles/colors.css';
+  display: block;
 }
 .kitem-green > .head {
     background: #2ecc71;
