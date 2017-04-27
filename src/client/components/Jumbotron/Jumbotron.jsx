@@ -1,5 +1,6 @@
 import React from 'react';
 import BarChart from '../BarChart';
+import styles from './Jumbotron.css';
 
 const Jumbotron = (props) => {
   const subtitle = () => {
@@ -17,9 +18,9 @@ const Jumbotron = (props) => {
   };
 
   return (
-    <div className="jumbotron">
+    <div className={`jumbotron ${styles.jumbotron}`}>
       <div className="container">
-        <h1>Kramster!</h1>
+        <h1 className={styles.title}>Kramster!</h1>
         { props.gradesData ? <BarChart data={props.gradesData} /> : null }
         <h3>{subtitle()}</h3>
       </div>

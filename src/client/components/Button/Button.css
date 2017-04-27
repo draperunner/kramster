@@ -1,79 +1,78 @@
-.btn {
-  font-family: 'Roboto', sans-serif;
+.button {
+  composes: bodyFont from '../../base-styles/types.css';
+  composes: gray from '../../base-styles/colors.css';
+  composes: blueBackground from '../../base-styles/colors.css';
   margin: 5px;
   white-space: normal;
   outline: none;
   letter-spacing: 1px;
   border-radius: 0;
   border: none;
-  color: rgb(236, 240, 241);
   transition: all 0.2s;
-}
-
-.btn-exam {
-  background: #2980b9;
   padding: 20px;
   display: block;
 }
 
-.btn-exam:hover {
-  background: #3498db;
+.button:hover {
+  background: blueLight from '../../base-styles/colors.css';
 }
 
-.btn-exam-special {
-  background: #e67e22;
-  padding: 20px;
-  display: block;
+.buttonSpecial {
+  composes: button;
+  composes: orangeLight from '../../base-styles/colors.css';
   text-transform: uppercase;
 }
 
-.btn-exam-special:hover {
-  background-color: #f39c12;
+/*
+.buttonSpecial:hover {
+  composes: buttonSpecial;
+  composes: yellowBackground from '../../base-styles/colors.css';
 }
+*/
 
-.btn-question {
+.question {
   background-color: white;
   color: #2c3e50;
   padding: 20px;
   display: block;
 }
 
-.btn-question:hover {
+.question:hover {
   background-color: #2980b9;
   color: white;
 }
 
-.btn-question-mobile {
+.questionMobile {
   background-color: white;
   color: #2c3e50;
   padding: 20px;
   display: block;
 }
 
-.btn-question-mobile:hover {
+.questionMobile:hover {
   background-color: white;
   color: #2c3e50;
 }
 
-.btn-correct-answer {
+.correctAnswer {
   background: #2ecc71;
   padding: 20px;
   display: block;
 }
 
-.btn-wrong-answer {
+.wrongAnswer {
   background: #e74c3c;
   padding: 20px;
   display: block;
 }
 
-.btn-result-btn {
+.result {
   background: #2ecc71;
   padding: 0;
   display: block;
 }
 
-.btn-result-btn > .header {
+.resultHeader {
   width: 100%;
   padding: 8px;
 }

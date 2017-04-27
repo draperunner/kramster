@@ -2,7 +2,7 @@
   border-radius: 0;
   border: 0;
   box-shadow: none;
-  background-color: #fff;
+  background-color: white;
 }
 
 .progress-bar {
@@ -11,11 +11,11 @@
   box-shadow: none;
 }
 
-.progress-bar-correct {
+.correct {
   background-color: #2ecc71;
 }
 
-.progress-bar-wrong {
+.wrong {
   background-color: #e74c3c;
 }
 

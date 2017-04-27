@@ -1,15 +1,15 @@
-body {
+:global(body) {
   background-color: #ecf0f1;
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+:h1 {
   line-height: 40px;
   font-family: 'Fredoka One', cursive;
   letter-spacing: 2px;
 }
 
-a {
+:a {
   color: #2980b9;
 }
 

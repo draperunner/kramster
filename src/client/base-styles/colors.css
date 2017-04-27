@@ -47,7 +47,13 @@
  * RED
  */
 .red { color: #c0392b; }
-.red { background-color: #c0392b; }
+.redBackground { background-color: #c0392b; }
 
 .redLight { color: #e74c3c; }
 .redLightBackground { background-color: #e74c3c; }
+
+/*
+ * GRAY
+ */
+.gray { color: #ecf0f1; }
+.grayBackground { background-color: #ecf0f1; }

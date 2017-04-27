@@ -1,5 +1,5 @@
 .kitem {
-  font-family: 'Roboto', sans-serif;
+  composes: bodyFont from '../../base-styles/types.css';
   margin: 5px 5px 30px;
   padding: 0;
   white-space: normal;
@@ -26,7 +26,7 @@
   transition: all 0.1s ease-in;
 }
 
-.kitem-clickable:hover {
+.clickable:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -34,12 +34,19 @@
   transform: scale(1.1);
 }
 
-.kitem > h1 {
-  font-weight: 700;
+.minHeight {
+  min-height: 135px;
 }
 
-.kitem-min-height {
-  min-height: 135px;
+.head {
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+}
+
+.body {
+  padding: 6px;
 }
 
 /*
@@ -50,103 +57,72 @@
   display: block;
 }
 
-.kitem-green > .head {
-  background: #2ecc71;
-  width: 100%;
-  padding: 8px 0;
-}
-
-.kitem-green > .body {
-  padding: 6px;
+.greenhead {
+  composes: head;
+  background: greenLightBackground from '../../base-styles/colors.css';
 }
 
 /*
 * BLUE
 */
-.kitem-blue {
-  background: #2980b9;
+.blue {
+  composes: blueBackground from '../../base-styles/colors.css';
   display: block;
 }
 
-.kitem-blue > .head {
-  background: #3498db;
-  width: 100%;
-  height: 100%;
-  padding: 8px 0;
-}
-
-.kitem-blue > .body {
-  padding: 6px;
+.bluehead {
+  composes: head;
+  background: blueLightBackground from '../../base-styles/colors.css';
 }
 
 /*
 * PURPLE
 */
-.kitem-purple {
-  background: #8e44ad;
+.purple {
+  composes: purpleBackground from '../../base-styles/colors.css';
   display: block;
 }
 
-.kitem-purple > .head {
-  background: #9b59b6;
-  width: 100%;
-  padding: 8px 0;
-}
-
-.kitem-purple > .body {
-  padding: 6px;
+.purplehead {
+  composes: head;
+  background: purpleLightBackground from '../../base-styles/colors.css';
 }
 
 /*
 * YELLOW
 */
-.kitem-yellow {
-  background: #f39c12;
+.yellow {
+  composes: yellowBackground from '../../base-styles/colors.css';
   display: block;
 }
 
-.kitem-yellow > .head {
-  background: #f1c40f;
-  width: 100%;
-  padding: 8px 0;
-}
-
-.kitem-yellow > .body {
-  padding: 6px;
+.yellowhead {
+  composes: head;
+  background: yellowLightBackground from '../../base-styles/colors.css';
 }
 
 /*
 * ORANGE
 */
-.kitem-orange {
-  background: #d35400;
+.orange {
+  composes: orangeBackground from '../../base-styles/colors.css';
   display: block;
 }
 
-.kitem-orange > .head {
-  background: #e67e22;
-  width: 100%;
-  padding: 8px 0;
-}
-
-.kitem-orange > .body {
-  padding: 6px;
+.orangehead {
+  composes: head;
+  background: orangeLightBackground from '../../base-styles/colors.css';
 }
 
 /*
 * RED
 */
-.kitem-red {
-  background: #c0392b;
+.red {
+  composes: redBackground from '../../base-styles/colors.css';
   display: block;
 }
 
-.kitem-red > .head {
-  background: #e74c3c;
-  width: 100%;
-  padding: 8px 0;
-}
-
-.kitem-red > .body {
-  padding: 6px;
+.redhead {
+  composes: head;
+  background: redLightBackground from '../../base-styles/colors.css';
 }

@@ -1,5 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
+import styles from './ProgressBar.css';
 
 const ProgressBar = (props) => {
   const value = props.questions.length > 0 ? 100 / props.questions.length : 0;
@@ -12,7 +13,7 @@ const ProgressBar = (props) => {
         { props.history.map((answer, i) =>
           <div
             key={i}
-            className={`progress-bar progress-bar-${type(i)}`}
+            className={`progress-bar ${styles[type(i)]}`}
             aria-valuenow={value}
             aria-valuemin="0"
             aria-valuemax="100"

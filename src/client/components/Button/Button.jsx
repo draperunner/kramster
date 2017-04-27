@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router';
+import styles from './Button.css';
 
 const Button = props => (
   <Link
     to={props.href}
-    className="btn btn-exam"
+    className={styles.button}
     role="button"
   >
     {props.children}

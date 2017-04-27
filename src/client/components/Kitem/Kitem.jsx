@@ -6,26 +6,26 @@ const Kitem = (props) => {
 
   const role = (!props.clickable || props.clickable !== 'false') ? 'button' : '';
 
-  let className = `${styles.kitem} ${styles.clickable} `;
+  let className = `${styles.kitem} `;
 
   if (props.color) {
     className += `${styles[props.color]} `;
   }
 
   if (props.minHeight && !mobile) {
-    className += 'kitem-min-height ';
+    className += `${styles.minHeight} `;
   }
 
-  if (mobile || (props.clickable && props.clickable === 'false')) {
-    className = className.replace('kitem-clickable', '');
+  if (!mobile && (!props.clickable || props.clickable !== 'false')) {
+    className += `${styles.clickable} `;
   }
 
   return (
     <div className={className} role={role} onClick={props.onClick}>
-      <div className="head">
+      <div className={`${props.color}head`}>
         <h3>{ props.head }</h3>
       </div>
-      <div className="body">
+      <div className={styles.body}>
         <p>{ props.body }</p>
       </div>
     </div>

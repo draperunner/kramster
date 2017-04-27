@@ -1,5 +1,5 @@
-.navbar {
-  font-family: 'Fredoka One', cursive;
+.wrapper {
+  composes: headerFont from '../../base-styles/types.css';
   margin-bottom: 20px;
   background: none;
   border-radius: 0;
@@ -9,33 +9,37 @@
   padding: 0 10px;
 }
 
-.navbar-default .navbar-brand {
-  color: #2980b9;
-  letter-spacing: 2px;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #3498db;
-  text-decoration: underline;
-}
-
-.navbar-default .navbar-nav > li > a {
-  letter-spacing: 1px;
-  color: #2980b9;
-}
-
-.navbar-nav {
+.links {
   margin-top: 6px;
   margin-bottom: 0;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.logo {
+  composes: headerFont from '../../base-styles/types.css';
+  letter-spacing: 2px;
+}
+
+/*
+.logo:hover,
+.logo:focus {
+  composes: blueLight from '../../base-styles/colors.css';
+  text-decoration: underline;
+}
+*/
+
+.link {
+  composes: blue from '../../base-styles/colors.css';
+  letter-spacing: 1px;
+}
+
+/*
+.link:hover,
+.link:focus {
   letter-spacing: 1px;
   color: #3498db;
   text-decoration: underline;
 }
+*/
 
 .navbar-nav > li,
 .navbar-nav {

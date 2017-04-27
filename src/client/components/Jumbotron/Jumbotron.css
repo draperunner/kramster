@@ -1,7 +1,12 @@
 .jumbotron {
-  font-family: 'Roboto', sans-serif;
+  composes: bodyFont from '../../base-styles/types.css';
+  composes: gray from '../../base-styles/colors.css';
   padding: 0;
   background: none;
   margin-bottom: 5px;
-  color: rgb(236, 240, 241);
+}
+
+.title {
+  composes: headerFont from '../../base-styles/types.css';
+  composes: blue from '../../base-styles/colors.css';
 }

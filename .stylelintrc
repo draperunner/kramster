@@ -2,6 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "string-quotes": "single",
-    "property-no-unknown": [true, { ignoreProperties: ["composes"] }]
+    "property-no-unknown": [true, { ignoreProperties: ["composes"] }],
+    "selector-pseudo-class-no-unknown": null,
   }
 }
