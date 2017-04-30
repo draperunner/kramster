@@ -147,7 +147,6 @@ class Questions extends React.Component {
     const question = this.props.currentQuestion;
 
     if (this.props.loading) {
-      console.log('Hello');
       return <LoadingSpinner />;
     }
 
