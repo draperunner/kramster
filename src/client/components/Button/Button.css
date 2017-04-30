@@ -1,5 +1,4 @@
 .base {
-  composes: bodyFont from '../../base-styles/types.css';
   margin: 5px;
   white-space: normal;
   outline: none;
@@ -15,6 +14,7 @@
 
 .standard {
   composes: base;
+  composes: bodyFont from '../../base-styles/types.css';
   composes: white from '../../base-styles/colors.css';
   composes: bodyFontColor from '../../base-styles/types.css';
   composes: blueBackground from '../../base-styles/colors.css';
@@ -24,6 +24,7 @@
 
 .special {
   composes: base;
+  composes: headerFont from '../../base-styles/types.css';
   composes: white from '../../base-styles/colors.css';
   composes: orangeLightBackground from '../../base-styles/colors.css';
   composes: yellowBackgroundHover from '../../base-styles/colors.css';
@@ -33,6 +34,7 @@
 
 .result {
   composes: base;
+  composes: bodyFont from '../../base-styles/types.css';
   composes: white from '../../base-styles/colors.css';
   composes: greenLightBackground from '../../base-styles/colors.css';
   composes: darkGrayHover from '../../base-styles/colors.css';
@@ -41,6 +43,7 @@
 
 .questionBase {
   composes: base;
+  composes: bodyFont from '../../base-styles/types.css';
   padding: 20px;
   display: inline-block;
   margin: 3px;
