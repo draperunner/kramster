@@ -1,6 +1,6 @@
 :global body {
   background-color: #ecf0f1;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 :global h1 {
@@ -12,6 +12,7 @@
 
 :global h3.question {
   line-height: 1.3em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 :global .top-buffer {
