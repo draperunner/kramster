@@ -4,7 +4,7 @@ import styles from './Kitem.css';
 const Kitem = (props) => {
   const mobile = window.screen.width < 800;
 
-  const role = (!props.clickable || props.clickable !== 'false') ? 'button' : '';
+  const role = (props.onClick) ? 'button' : '';
 
   let className = `${styles.kitem} `;
 
@@ -16,13 +16,13 @@ const Kitem = (props) => {
     className += `${styles.minHeight} `;
   }
 
-  if (!mobile && (!props.clickable || props.clickable !== 'false')) {
+  if (!mobile && props.onClick) {
     className += `${styles.clickable} `;
   }
 
   return (
     <div className={className} role={role} onClick={props.onClick}>
-      <div className={`${props.color}head`}>
+      <div className={styles[`${props.color}head`]}>
         <h3>{ props.head }</h3>
       </div>
       <div className={styles.body}>
@@ -36,7 +36,6 @@ Kitem.propTypes = {
   body: React.PropTypes.string,
   head: React.PropTypes.node,
   color: React.PropTypes.node,
-  clickable: React.PropTypes.bool,
   minHeight: React.PropTypes.bool,
   onClick: React.PropTypes.func,
 };

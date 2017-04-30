@@ -22,7 +22,7 @@ const Jumbotron = (props) => {
       <div className="container">
         <h1 className={styles.title}>Kramster!</h1>
         { props.gradesData ? <BarChart data={props.gradesData} /> : null }
-        <h3>{subtitle()}</h3>
+        <h3 className={styles.subtitle}>{subtitle()}</h3>
       </div>
     </div>
   );

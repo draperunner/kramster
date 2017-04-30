@@ -1,26 +1,26 @@
-.progress {
+:global(.progress) {
   border-radius: 0;
   border: 0;
   box-shadow: none;
   background-color: white;
 }
 
-.progress-bar {
+:global(.progress-bar) {
   border-radius: 0;
   border: 0;
   box-shadow: none;
 }
 
 .correct {
-  background-color: #2ecc71;
+  composes: greenLightBackground from '../../base-styles/colors.css';
 }
 
 .wrong {
-  background-color: #e74c3c;
+  composes: redLightBackground from '../../base-styles/colors.css';
 }
 
-.progress-text {
-  color: #2980b9;
+.progressText {
+  composes: blue from '../../base-styles/colors.css';
   text-align: right;
   font-weight: bold;
 }

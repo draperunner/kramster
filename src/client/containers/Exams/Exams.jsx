@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 import API from '../../components/API';
 import Button from '../../components/Button';
 
@@ -31,22 +30,22 @@ class Exams extends React.Component {
 
         <div className="row">
           <div className="col-sm-4">
-            <Link
-              to={`/${this.state.school}/${this.state.course}/random/10`}
-              className="btn btn-exam-special" role="button"
-            >10 Random</Link>
+            <Button
+              type="special"
+              href={`/${this.state.school}/${this.state.course}/random/10`}
+            >10 Random</Button>
           </div>
           <div className="col-sm-4">
-            <Link
-              to={`/${this.state.school}/${this.state.course}/random/30`}
-              className="btn btn-exam-special" role="button"
-            >30 Random</Link>
+            <Button
+              type="special"
+              href={`/${this.state.school}/${this.state.course}/random/30`}
+            >30 Random</Button>
           </div>
           <div className="col-sm-4">
-            <Link
-              to={`/${this.state.school}/${this.state.course}/hardest/10`}
-              className="btn btn-exam-special" role="button"
-            >10 Hardest</Link>
+            <Button
+              type="special"
+              href={`/${this.state.school}/${this.state.course}/hardest/10`}
+            >10 Hardest</Button>
           </div>
         </div>
 

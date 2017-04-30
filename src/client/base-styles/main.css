@@ -1,58 +1,30 @@
-:global(body) {
+:global body {
   background-color: #ecf0f1;
   font-family: 'Roboto', sans-serif;
 }
 
-:h1 {
+:global h1 {
   line-height: 40px;
   font-family: 'Fredoka One', cursive;
   letter-spacing: 2px;
+  color: #2c3e50;
 }
 
-:a {
-  color: #2980b9;
-}
-
-a:hover {
-  color: #3498db;
-}
-
-h3.question {
+:global h3.question {
   line-height: 1.3em;
 }
 
-.grey {
-  color: #34495e;
-}
-
-.top-buffer {
+:global .top-buffer {
   margin-top: 20px;
 }
 
-.container > h1 {
-  color: #2980b9;
-}
-
-#about {
-  color: #34495e;
-}
-
-.container > h3 {
-  color: #34495e;
-}
-
-canvas {
+:global canvas {
   width: 100% !important;
   height: auto !important;
   max-height: 370px;
   margin: 20px 0;
 }
 
-.container {
+:global .container {
   margin-bottom: 40px;
-}
-
-.question {
-  display: block;
-  width: 100%;
 }

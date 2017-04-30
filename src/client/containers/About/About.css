@@ -1,0 +1,10 @@
+:global(.jumbotron).about {
+  color: #2c3e50;
+}
+
+:global(.jumbotron h1).title {
+  color: #2980b9;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: 'Fredoka One', cursive;
+}

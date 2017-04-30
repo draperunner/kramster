@@ -4,6 +4,7 @@ import API from '../../components/API';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import MathElement from '../../components/MathElement';
 import Helpers from '../../utils/Helpers';
+import Button from '../../components/Button';
 import ProgressBar from '../../components/ProgressBar';
 import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
 import { startLoading, stopLoading } from '../../actions/LoadingActions';
@@ -75,17 +76,17 @@ class Questions extends React.Component {
   buttonClass(option) {
     if (!this.props.answerGiven) {
       const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-      return mobile ? 'btn-question-mobile' : 'btn-question';
+      return mobile ? 'questionMobile' : 'question';
     }
 
     const previousQuestion = this.props.questions[this.props.history.length - 1];
 
     // Check if the option the button represents is one of the correct answers.
     if (previousQuestion.answers.indexOf(previousQuestion.options.indexOf(option)) >= 0) {
-      return 'btn-correct-answer';
+      return 'correctAnswer';
     }
 
-    return 'btn-wrong-answer';
+    return 'wrongAnswer';
   }
 
   answer(givenAnswer) {
@@ -146,6 +147,7 @@ class Questions extends React.Component {
     const question = this.props.currentQuestion;
 
     if (this.props.loading) {
+      console.log('Hello');
       return <LoadingSpinner />;
     }
 
@@ -173,16 +175,15 @@ class Questions extends React.Component {
         { this.props.questions.length ?
           <div className="row top-buffer">
             <div className="col-xs-12">
-              <div className="btn-group">
+              <div>
                 { question && question.options.map(option =>
-                  <a
+                  <Button
                     key={option}
-                    role="button" type="button"
-                    className={`btn ${this.buttonClass(option)}`}
+                    type={this.buttonClass(option)}
                     onClick={() => this.answer(option)}
                   >
                     <MathElement dangerouslySetInnerHTML={{ __html: Helpers.sanitize(option) }} />
-                  </a>,
+                  </Button>,
                 )}
               </div>
               { this.props.answerGiven ?

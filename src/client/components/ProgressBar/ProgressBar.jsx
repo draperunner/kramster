@@ -8,7 +8,7 @@ const ProgressBar = (props) => {
 
   return (
     <div>
-      <p className="progress-text">{`${props.history.length}/${props.questions.length}`}</p>
+      <p className={styles.progressText}>{`${props.history.length}/${props.questions.length}`}</p>
       <div className="progress">
         { props.history.map((answer, i) =>
           <div

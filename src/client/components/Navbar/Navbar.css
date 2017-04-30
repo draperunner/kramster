@@ -1,5 +1,4 @@
-.wrapper {
-  composes: headerFont from '../../base-styles/types.css';
+:global .navbar.navbar-default {
   margin-bottom: 20px;
   background: none;
   border-radius: 0;
@@ -9,43 +8,36 @@
   padding: 0 10px;
 }
 
-.links {
-  margin-top: 6px;
-  margin-bottom: 0;
-}
-
-.logo {
-  composes: headerFont from '../../base-styles/types.css';
-  letter-spacing: 2px;
-}
-
-/*
-.logo:hover,
-.logo:focus {
-  composes: blueLight from '../../base-styles/colors.css';
-  text-decoration: underline;
-}
-*/
-
-.link {
-  composes: blue from '../../base-styles/colors.css';
+:global(.navbar-default .navbar-nav>li>a) {
+  font-family: 'Fredoka One', cursive;
+  color: #2980b9;
   letter-spacing: 1px;
 }
 
-/*
-.link:hover,
-.link:focus {
+:global(.navbar-default .navbar-brand).logo {
+  font-family: 'Fredoka One', cursive;
+  color: #2980b9;
+  letter-spacing: 2px;
+}
+
+:global(.navbar-default .navbar-brand:hover:hover),
+:global(.navbar-default .navbar-brand:hover:focus) {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+:global(.navbar-default .navbar-nav>li>a:hover),
+:global(.navbar-default .navbar-nav>li>a:focus) {
   letter-spacing: 1px;
   color: #3498db;
   text-decoration: underline;
 }
-*/
 
-.navbar-nav > li,
-.navbar-nav {
+:global .navbar-nav > li,
+:global .navbar-nav {
   float: left !important;
 }
 
-.navbar-right {
+:global .navbar-right {
   float: right !important;
 }

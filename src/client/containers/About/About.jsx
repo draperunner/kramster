@@ -1,11 +1,12 @@
 import React from 'react';
 import Kitem from '../../components/Kitem';
+import styles from './About.css';
 
 const About = () => (
   <div className="container">
-    <div id="about" className="jumbotron">
+    <div className={`jumbotron ${styles.about}`}>
       <div className="container">
-        <h1>Cram with Kramster!</h1>
+        <h1 className={styles.title}>Cram with Kramster!</h1>
         <h3>
           Kramster helps making exam preparation a little more fun. Select your school and course and cram for your
            exam by doing the multiple choice questions with instant feedback!

@@ -1,2 +1,22 @@
-.headerFont { font-family: 'Fredoka One', cursive; }
-.bodyFont { font-family: 'Roboto', sans-serif; }
+.headerFont {
+  font-family: 'Fredoka One', cursive;
+}
+
+.bodyFont {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headerColor {
+  composes: blue from './colors.css';
+}
+
+.bodyFontColor {
+  composes: darkGray from './colors.css';
+}
+
+.title {
+  composes: headerFont;
+  composes: headerColor;
+  line-height: 40px;
+  letter-spacing: 2px;
+}

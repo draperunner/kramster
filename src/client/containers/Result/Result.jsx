@@ -5,6 +5,7 @@ import Kitem from '../../components/Kitem';
 import Helpers from '../../utils/Helpers';
 import BarChart from '../../components/BarChart';
 import PieChart from '../../components/PieChart';
+import Button from '../../components/Button';
 
 class Result extends React.Component {
 
@@ -89,24 +90,18 @@ class Result extends React.Component {
           { this.props.stats.grades ? <BarChart data={this.props.stats.grades} /> : null }
         </div>
         <div className="col-xs-12 col-md-4">
-          <div
-            className="div-result btn btn-result-btn"
-            onClick={() => browserHistory.push(`/${this.props.params.splat}`)}
-            role="button"
+          <Button
+            href={`/${this.props.params.splat}`}
+            type="result"
           >
-            <div className="header">
-              <h4>Try again</h4>
-            </div>
-          </div>
-          <div
-            className="div-result btn btn-result-btn"
-            onClick={() => browserHistory.push(`/${this.props.params.splat.split('/').slice(0, 2).join('/')}`)}
-            role="button"
+            <h4>Try again</h4>
+          </Button>
+          <Button
+            href={`/${this.props.params.splat.split('/').slice(0, 2).join('/')}`}
+            type="result"
           >
-            <div className="header">
-              <h4>Try another</h4>
-            </div>
-          </div>
+            <h4>Try another</h4>
+          </Button>
         </div>
       </div>
     </div>);

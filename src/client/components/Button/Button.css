@@ -1,7 +1,5 @@
-.button {
+.base {
   composes: bodyFont from '../../base-styles/types.css';
-  composes: gray from '../../base-styles/colors.css';
-  composes: blueBackground from '../../base-styles/colors.css';
   margin: 5px;
   white-space: normal;
   outline: none;
@@ -11,30 +9,48 @@
   transition: all 0.2s;
   padding: 20px;
   display: block;
+  text-align: center;
+  text-decoration: none !important;
 }
 
-.button:hover {
-  background: blueLight from '../../base-styles/colors.css';
+.standard {
+  composes: base;
+  composes: white from '../../base-styles/colors.css';
+  composes: bodyFontColor from '../../base-styles/types.css';
+  composes: blueBackground from '../../base-styles/colors.css';
+  composes: blueLightBackgroundHover from '../../base-styles/colors.css';
+  composes: darkGrayHover from '../../base-styles/colors.css';
 }
 
-.buttonSpecial {
-  composes: button;
-  composes: orangeLight from '../../base-styles/colors.css';
+.special {
+  composes: base;
+  composes: white from '../../base-styles/colors.css';
+  composes: orangeLightBackground from '../../base-styles/colors.css';
+  composes: yellowBackgroundHover from '../../base-styles/colors.css';
+  composes: darkGrayHover from '../../base-styles/colors.css';
   text-transform: uppercase;
 }
 
-/*
-.buttonSpecial:hover {
-  composes: buttonSpecial;
-  composes: yellowBackground from '../../base-styles/colors.css';
+.result {
+  composes: base;
+  composes: white from '../../base-styles/colors.css';
+  composes: greenLightBackground from '../../base-styles/colors.css';
+  composes: darkGrayHover from '../../base-styles/colors.css';
+  padding: 8px;
 }
-*/
+
+.questionBase {
+  composes: base;
+  padding: 20px;
+  display: inline-block;
+  margin: 3px;
+}
 
 .question {
-  background-color: white;
-  color: #2c3e50;
-  padding: 20px;
-  display: block;
+  composes: questionBase;
+  composes: darkGray from '../../base-styles/colors.css';
+  composes: whiteHover from '../../base-styles/colors.css';
+  composes: whiteBackground from '../../base-styles/colors.css';
 }
 
 .question:hover {
@@ -43,10 +59,7 @@
 }
 
 .questionMobile {
-  background-color: white;
-  color: #2c3e50;
-  padding: 20px;
-  display: block;
+  composes: question;
 }
 
 .questionMobile:hover {
@@ -55,24 +68,17 @@
 }
 
 .correctAnswer {
-  background: #2ecc71;
-  padding: 20px;
-  display: block;
+  composes: questionBase;
+  composes: greenLightBackground from '../../base-styles/colors.css';
+  composes: greenLightBackgroundHover from '../../base-styles/colors.css';
+  composes: white from '../../base-styles/colors.css';
+  composes: darkGrayHover from '../../base-styles/colors.css';
 }
 
 .wrongAnswer {
-  background: #e74c3c;
-  padding: 20px;
-  display: block;
-}
-
-.result {
-  background: #2ecc71;
-  padding: 0;
-  display: block;
-}
-
-.resultHeader {
-  width: 100%;
-  padding: 8px;
+  composes: questionBase;
+  composes: redLightBackground from '../../base-styles/colors.css';
+  composes: redLightBackgroundHover from '../../base-styles/colors.css';
+  composes: white from '../../base-styles/colors.css';
+  composes: darkGrayHover from '../../base-styles/colors.css';
 }

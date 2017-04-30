@@ -59,7 +59,7 @@
 
 .greenhead {
   composes: head;
-  background: greenLightBackground from '../../base-styles/colors.css';
+  composes: greenLightBackground from '../../base-styles/colors.css';
 }
 
 /*
@@ -72,7 +72,7 @@
 
 .bluehead {
   composes: head;
-  background: blueLightBackground from '../../base-styles/colors.css';
+  composes: blueLightBackground from '../../base-styles/colors.css';
 }
 
 /*
@@ -85,7 +85,7 @@
 
 .purplehead {
   composes: head;
-  background: purpleLightBackground from '../../base-styles/colors.css';
+  composes: purpleLightBackground from '../../base-styles/colors.css';
 }
 
 /*
@@ -98,7 +98,7 @@
 
 .yellowhead {
   composes: head;
-  background: yellowLightBackground from '../../base-styles/colors.css';
+  composes: yellowLightBackground from '../../base-styles/colors.css';
 }
 
 /*
@@ -111,7 +111,7 @@
 
 .orangehead {
   composes: head;
-  background: orangeLightBackground from '../../base-styles/colors.css';
+  composes: orangeLightBackground from '../../base-styles/colors.css';
 }
 
 /*
@@ -124,5 +124,5 @@
 
 .redhead {
   composes: head;
-  background: redLightBackground from '../../base-styles/colors.css';
+  composes: redLightBackground from '../../base-styles/colors.css';
 }
