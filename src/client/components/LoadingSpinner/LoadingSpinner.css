@@ -1,19 +1,17 @@
-:global {
-  #spinner {
-    display: inline-block;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    animation-name: loading-spinner;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
+.spinner {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation-name: loading-spinner;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes loading-spinner {
