@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
+import PropTypes from 'prop-types';
 import Kitem from '../../components/Kitem';
 import Helpers from '../../utils/Helpers';
 import BarChart from '../../components/BarChart';
@@ -109,26 +110,26 @@ class Result extends React.Component {
 }
 
 Result.propTypes = {
-  colorFromUser: React.PropTypes.string,
-  colorFromServer: React.PropTypes.string,
-  grade: React.PropTypes.string,
-  score: React.PropTypes.number,
-  history: React.PropTypes.arrayOf(React.PropTypes.shape({
-    questionId: React.PropTypes.string,
-    givenAnswer: React.PropTypes.string,
-    wasCorrect: React.PropTypes.bool,
+  colorFromUser: PropTypes.string,
+  colorFromServer: PropTypes.string,
+  grade: PropTypes.string,
+  score: PropTypes.number,
+  history: PropTypes.arrayOf(PropTypes.shape({
+    questionId: PropTypes.string,
+    givenAnswer: PropTypes.string,
+    wasCorrect: PropTypes.bool,
   })),
-  percentage: React.PropTypes.number,
-  averageGrade: React.PropTypes.string,
-  averageScore: React.PropTypes.string,
-  stats: React.PropTypes.shape({
-    grades: React.PropTypes.shape({
-      A: React.PropTypes.number,
-      B: React.PropTypes.number,
-      C: React.PropTypes.number,
-      D: React.PropTypes.number,
-      E: React.PropTypes.number,
-      F: React.PropTypes.number,
+  percentage: PropTypes.number,
+  averageGrade: PropTypes.string,
+  averageScore: PropTypes.string,
+  stats: PropTypes.shape({
+    grades: PropTypes.shape({
+      A: PropTypes.number,
+      B: PropTypes.number,
+      C: PropTypes.number,
+      D: PropTypes.number,
+      E: PropTypes.number,
+      F: PropTypes.number,
     }),
   }),
 };

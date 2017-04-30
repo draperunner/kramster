@@ -75,7 +75,4 @@ class Courses extends React.Component {
   }
 }
 
-Courses.propTypes = {
-};
-
 export default Courses;

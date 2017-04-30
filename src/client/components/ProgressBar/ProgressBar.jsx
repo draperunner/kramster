@@ -1,5 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './ProgressBar.css';
 
 const ProgressBar = (props) => {
@@ -28,8 +29,8 @@ const ProgressBar = (props) => {
 };
 
 ProgressBar.propTypes = {
-  history: React.PropTypes.arrayOf(React.PropTypes.bool),
-  questions: React.PropTypes.arrayOf(React.PropTypes.object),
+  history: PropTypes.arrayOf(PropTypes.bool),
+  questions: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default ProgressBar;

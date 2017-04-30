@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import PropTypes from 'prop-types';
 import styles from './Button.css';
 
 const Button = props => (
@@ -15,9 +16,9 @@ const Button = props => (
 );
 
 Button.propTypes = {
-  href: React.PropTypes.string,
-  type: React.PropTypes.string,
-  onClick: React.PropTypes.func,
+  href: PropTypes.string,
+  type: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 export default Button;

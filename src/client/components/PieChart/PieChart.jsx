@@ -1,5 +1,6 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2';
+import PropTypes from 'prop-types';
 
 const PieChart = (props) => {
   const sortedKeys = Object.keys(props.data).sort();
@@ -32,13 +33,13 @@ const PieChart = (props) => {
 };
 
 PieChart.propTypes = {
-  data: React.PropTypes.shape({
-    A: React.PropTypes.number,
-    B: React.PropTypes.number,
-    C: React.PropTypes.number,
-    D: React.PropTypes.number,
-    E: React.PropTypes.number,
-    F: React.PropTypes.number,
+  data: PropTypes.shape({
+    A: PropTypes.number,
+    B: PropTypes.number,
+    C: PropTypes.number,
+    D: PropTypes.number,
+    E: PropTypes.number,
+    F: PropTypes.number,
   }),
 };
 

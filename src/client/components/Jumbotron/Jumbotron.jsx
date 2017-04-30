@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import BarChart from '../BarChart';
 import styles from './Jumbotron.css';
 
@@ -29,13 +30,13 @@ const Jumbotron = (props) => {
 };
 
 Jumbotron.propTypes = {
-  gradesData: React.PropTypes.shape({
-    A: React.PropTypes.number,
-    B: React.PropTypes.number,
-    C: React.PropTypes.number,
-    D: React.PropTypes.number,
-    E: React.PropTypes.number,
-    F: React.PropTypes.number,
+  gradesData: PropTypes.shape({
+    A: PropTypes.number,
+    B: PropTypes.number,
+    C: PropTypes.number,
+    D: PropTypes.number,
+    E: PropTypes.number,
+    F: PropTypes.number,
   }),
 };
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Kitem.css';
 
 const Kitem = (props) => {
@@ -33,11 +34,11 @@ const Kitem = (props) => {
 };
 
 Kitem.propTypes = {
-  body: React.PropTypes.string,
-  head: React.PropTypes.node,
-  color: React.PropTypes.node,
-  minHeight: React.PropTypes.bool,
-  onClick: React.PropTypes.func,
+  body: PropTypes.string,
+  head: PropTypes.node,
+  color: PropTypes.node,
+  minHeight: PropTypes.bool,
+  onClick: PropTypes.func,
 };
 
 export default Kitem;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import API from '../../components/API';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import MathElement from '../../components/MathElement';
@@ -199,28 +200,28 @@ class Questions extends React.Component {
 }
 
 Questions.propTypes = {
-  answer: React.PropTypes.func,
-  answerGiven: React.PropTypes.bool,
-  clear: React.PropTypes.func,
-  loading: React.PropTypes.bool,
-  loadQuestions: React.PropTypes.func,
-  statsReceived: React.PropTypes.func,
-  startLoading: React.PropTypes.func,
-  stopLoading: React.PropTypes.func,
-  history: React.PropTypes.arrayOf(React.PropTypes.shape({
-    questionId: React.PropTypes.string,
-    givenAnswer: React.PropTypes.string,
-    wasCorrect: React.PropTypes.bool,
+  answer: PropTypes.func,
+  answerGiven: PropTypes.bool,
+  clear: PropTypes.func,
+  loading: PropTypes.bool,
+  loadQuestions: PropTypes.func,
+  statsReceived: PropTypes.func,
+  startLoading: PropTypes.func,
+  stopLoading: PropTypes.func,
+  history: PropTypes.arrayOf(PropTypes.shape({
+    questionId: PropTypes.string,
+    givenAnswer: PropTypes.string,
+    wasCorrect: PropTypes.bool,
   })),
-  currentQuestion: React.PropTypes.shape({
-    answers: React.PropTypes.arrayOf(React.PropTypes.number),
-    options: React.PropTypes.arrayOf(React.PropTypes.string),
-    question: React.PropTypes.string,
+  currentQuestion: PropTypes.shape({
+    answers: PropTypes.arrayOf(PropTypes.number),
+    options: PropTypes.arrayOf(PropTypes.string),
+    question: PropTypes.string,
   }),
-  questions: React.PropTypes.arrayOf(React.PropTypes.shape({
-    answers: React.PropTypes.arrayOf(React.PropTypes.number),
-    options: React.PropTypes.arrayOf(React.PropTypes.string),
-    question: React.PropTypes.string,
+  questions: PropTypes.arrayOf(PropTypes.shape({
+    answers: PropTypes.arrayOf(PropTypes.number),
+    options: PropTypes.arrayOf(PropTypes.string),
+    question: PropTypes.string,
   })),
 };
 
