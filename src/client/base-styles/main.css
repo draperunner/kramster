@@ -15,6 +15,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:global a {
+  color: #2980b9;
+}
+
+:global a:hover {
+  color: #3498db;
+}
+
 :global .top-buffer {
   margin-top: 20px;
 }
