@@ -1,5 +1,5 @@
 import React from 'react';
-import API from '../../components/API';
+import API from '../../api';
 import Button from '../../components/Button';
 
 class Exams extends React.Component {

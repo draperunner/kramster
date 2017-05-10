@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import API from '../../components/API';
+import API from '../../api';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import MathElement from '../../components/MathElement';
 import Helpers from '../../utils/Helpers';
