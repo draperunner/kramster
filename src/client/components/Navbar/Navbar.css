@@ -17,6 +17,7 @@
 }
 
 .logo {
+  composes: blue from '../../base-styles/colors.css';
   composes: blueLightHover from '../../base-styles/colors.css';
   letter-spacing: 2px;
   text-decoration: none;
@@ -29,6 +30,7 @@
 }
 
 .link {
+  composes: blue from '../../base-styles/colors.css';
   composes: blueLightHover from '../../base-styles/colors.css';
   text-decoration: none;
   font-size: 14px;

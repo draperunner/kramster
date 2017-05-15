@@ -16,14 +16,9 @@
   margin-right: 10px;
 }
 
-@media (max-width: 767px) {
-  .kitem {
-    margin: 5px 5px 10px;
-  }
-}
-
 .clickable {
   transition: all 0.1s ease-in;
+  cursor: pointer;
 }
 
 .clickable:hover {
@@ -45,8 +40,15 @@
   padding: 8px 0;
 }
 
+.head h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .body {
-  padding: 6px;
+  padding: 6px 20px;
+  font-size: 14px;
 }
 
 /*
@@ -125,4 +127,10 @@
 .redhead {
   composes: head;
   composes: redLightBackground from '../../base-styles/colors.css';
+}
+
+@media (max-width: 767px) {
+  .kitem {
+    margin: 5px 5px 10px;
+  }
 }
