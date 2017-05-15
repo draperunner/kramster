@@ -3,12 +3,12 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import API from '../../api';
 import LoadingSpinner from '../../components/LoadingSpinner';
-import MathElement from '../../components/MathElement';
 import Helpers from '../../utils/Helpers';
-import Button from '../../components/Button';
 import ProgressBar from '../../components/ProgressBar';
 import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
 import { startLoading, stopLoading } from '../../actions/LoadingActions';
+import Question from './Question';
+import Alternative from './Alternative';
 
 class Questions extends React.Component {
 
@@ -162,12 +162,7 @@ class Questions extends React.Component {
         { this.props.questions.length ?
           <div className="row">
             <div className="col-xs-12">
-              <MathElement>
-                <h3
-                  className="question math"
-                  dangerouslySetInnerHTML={{ __html: Helpers.sanitize(question.question) }}
-                />
-              </MathElement>
+              <Question text={question.question} />
             </div>
           </div>
         : null }
@@ -176,15 +171,14 @@ class Questions extends React.Component {
           <div className="row top-buffer">
             <div className="col-xs-12">
               <div>
-                { question && question.options.map(option =>
-                  (<Button
+                { question && question.options.map(option => (
+                  <Alternative
                     key={option}
+                    text={option}
                     type={this.buttonClass(option)}
                     onClick={() => this.answer(option)}
-                  >
-                    <MathElement dangerouslySetInnerHTML={{ __html: Helpers.sanitize(option) }} />
-                  </Button>),
-                )}
+                  />
+              ))}
               </div>
               { this.props.answerGiven ?
                 <div>
