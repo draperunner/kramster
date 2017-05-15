@@ -11,8 +11,17 @@
   margin: 20px 0;
 }
 
-/*
+:global a {
+  color: #2980b9;
+  text-decoration: none;
+}
 
+:global a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+/*
 :global h1 {
   line-height: 40px;
   font-family: 'Fredoka One', cursive;
