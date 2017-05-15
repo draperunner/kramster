@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 import PropTypes from 'prop-types';
+import { Row, Col } from 'react-flexbox-grid';
 import Kitem from '../../components/Kitem';
 import Helpers from '../../utils/Helpers';
 import BarChart from '../../components/BarChart';
@@ -17,95 +18,97 @@ class Result extends React.Component {
   }
 
   render() {
-    return (<div className="container">
-      <div className="row">
-        <div className="col-xs-12">
-          <h1 className="grey">Your results</h1>
-        </div>
+    return (
+      <div>
+        <Row>
+          <Col xs={12}>
+            <h1 className="grey">Your results</h1>
+          </Col>
 
-        <div className="col-xs-12 col-md-4">
-          <Kitem
-            head={this.props.grade}
-            body="Grade"
-            clickable={false}
-            color={this.props.colorFromUser}
-          />
-        </div>
+          <Col xs={12} md={4}>
+            <Kitem
+              head={this.props.grade}
+              body="Grade"
+              clickable={false}
+              color={this.props.colorFromUser}
+            />
+          </Col>
 
-        <div className="col-xs-6 col-md-4">
-          <Kitem
-            head={this.props.score}
-            body="Score"
-            clickable={false}
-            color={this.props.colorFromUser}
-          />
-        </div>
+          <Col xs={6} md={4}>
+            <Kitem
+              head={this.props.score}
+              body="Score"
+              clickable={false}
+              color={this.props.colorFromUser}
+            />
+          </Col>
 
-        <div className="col-xs-6 col-md-4">
-          <Kitem
-            head={this.props.percentage}
-            body="%"
-            clickable={false}
-            color={this.props.colorFromUser}
-          />
-        </div>
+          <Col xs={6} md={4}>
+            <Kitem
+              head={this.props.percentage}
+              body="%"
+              clickable={false}
+              color={this.props.colorFromUser}
+            />
+          </Col>
 
+        </Row>
+
+        <Row>
+          <Col xs={12}>
+            <h1 className="grey">Stats for this exam</h1>
+          </Col>
+
+          <Col xs={6} md={4}>
+            <Kitem
+              head={this.props.averageGrade}
+              body="Average Grade"
+              clickable={false}
+              color={this.props.colorFromServer}
+            />
+          </Col>
+          <Col xs={6} md={4}>
+            <Kitem
+              head={this.props.averageScore}
+              body="Average Score"
+              clickable={false}
+              color={this.props.colorFromServer}
+            />
+          </Col>
+          <Col xs={6} md={4}>
+            <Kitem
+              head={this.props.avgPercentage}
+              body="Average %"
+              clickable={false}
+              color={this.props.colorFromServer}
+            />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col xs={6} md={4}>
+            { this.props.stats.grades ? <PieChart data={this.props.stats.grades} /> : null }
+          </Col>
+          <Col xs={6} md={4}>
+            { this.props.stats.grades ? <BarChart data={this.props.stats.grades} /> : null }
+          </Col>
+          <Col xs={6} md={4}>
+            <Button
+              href={`/${this.props.params.splat}`}
+              type="result"
+            >
+              <h4>Try again</h4>
+            </Button>
+            <Button
+              href={`/${this.props.params.splat.split('/').slice(0, 2).join('/')}`}
+              type="result"
+            >
+              <h4>Try another</h4>
+            </Button>
+          </Col>
+        </Row>
       </div>
-
-      <div className="row top-buffer">
-        <div className="col-xs-12">
-          <h1 className="grey">Stats for this exam</h1>
-        </div>
-
-        <div className="col-xs-12 col-md-4">
-          <Kitem
-            head={this.props.averageGrade}
-            body="Average Grade"
-            clickable={false}
-            color={this.props.colorFromServer}
-          />
-        </div>
-        <div className="col-xs-6 col-md-4">
-          <Kitem
-            head={this.props.averageScore}
-            body="Average Score"
-            clickable={false}
-            color={this.props.colorFromServer}
-          />
-        </div>
-        <div className="col-xs-6 col-md-4">
-          <Kitem
-            head={this.props.avgPercentage}
-            body="Average %"
-            clickable={false}
-            color={this.props.colorFromServer}
-          />
-        </div>
-      </div>
-
-      <div className="row top-buffer">
-        <div className="col-xs-12 col-md-4">
-          { this.props.stats.grades ? <PieChart data={this.props.stats.grades} /> : null }
-        </div>
-        <div className="col-xs-12 col-md-4">
-          { this.props.stats.grades ? <BarChart data={this.props.stats.grades} /> : null }
-        </div>
-        <div className="col-xs-12 col-md-4">
-          <Button
-            href={`/${this.props.params.splat}`}
-            type="result"
-          >
-            <h4>Try again</h4>
-          </Button>
-          <Button
-            href={`/${this.props.params.splat.split('/').slice(0, 2).join('/')}`}
-            type="result"
-          >
-            <h4>Try another</h4>
-          </Button>
-        </div>
-      </div>
-    </div>);
+    );
   }
 }
 
