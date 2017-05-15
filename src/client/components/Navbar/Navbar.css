@@ -1,43 +1,49 @@
-:global .navbar.navbar-default {
+.navbar {
+  composes: blue from '../../base-styles/colors.css';
+  composes: headerFont from '../../base-styles/types.css';
   margin-bottom: 20px;
   background: none;
   border-radius: 0;
   border: none;
-  height: 28px;
+  height: 40px;
   z-index: 9999;
-  padding: 0 10px;
-}
-
-:global(.navbar-default .navbar-nav>li>a) {
-  font-family: 'Fredoka One', cursive;
-  color: #2980b9;
+  padding: 15px;
   letter-spacing: 1px;
 }
 
-:global(.navbar-default .navbar-brand).logo {
-  font-family: 'Fredoka One', cursive;
-  color: #2980b9;
+.navbar ul {
+  list-style: none;
+  margin: 0;
+}
+
+.logo {
+  composes: blueLightHover from '../../base-styles/colors.css';
   letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 18px;
+  height: 50px;
 }
 
-:global(.navbar-default .navbar-brand:hover:hover),
-:global(.navbar-default .navbar-brand:hover:focus) {
-  color: #3498db;
+.logo:hover {
   text-decoration: underline;
 }
 
-:global(.navbar-default .navbar-nav>li>a:hover),
-:global(.navbar-default .navbar-nav>li>a:focus) {
-  letter-spacing: 1px;
-  color: #3498db;
+.link {
+  composes: blueLightHover from '../../base-styles/colors.css';
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link:hover {
   text-decoration: underline;
 }
 
-:global .navbar-nav > li,
-:global .navbar-nav {
-  float: left !important;
+.pullLeft {
+  display: inline-block;
+  float: left;
 }
 
-:global .navbar-right {
-  float: right !important;
+.pullRight {
+  display: inline-block;
+  float: right;
 }
