@@ -75,7 +75,7 @@ class Result extends React.Component {
         </div>
         <div className="col-xs-6 col-md-4">
           <Kitem
-            head={this.props.percentage}
+            head={this.props.avgPercentage}
             body="Average %"
             clickable={false}
             color={this.props.colorFromServer}
@@ -122,6 +122,7 @@ Result.propTypes = {
   percentage: PropTypes.number,
   averageGrade: PropTypes.string,
   averageScore: PropTypes.string,
+  avgPercentage: PropTypes.string,
   stats: PropTypes.shape({
     grades: PropTypes.shape({
       A: PropTypes.number,
@@ -149,6 +150,7 @@ const mapStateToProps = (state) => {
   return {
     averageGrade,
     averageScore: stats.averageScore && stats.averageScore.toFixed(2),
+    avgPercentage,
     colorFromUser,
     colorFromServer,
     history,
