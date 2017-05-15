@@ -4,6 +4,15 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:global canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 370px;
+  margin: 20px 0;
+}
+
+/*
+
 :global h1 {
   line-height: 40px;
   font-family: 'Fredoka One', cursive;
@@ -27,14 +36,4 @@
 :global .top-buffer {
   margin-top: 20px;
 }
-
-:global canvas {
-  width: 100% !important;
-  height: auto !important;
-  max-height: 370px;
-  margin: 20px 0;
-}
-
-:global .container {
-  margin-bottom: 40px;
-}
+*/
