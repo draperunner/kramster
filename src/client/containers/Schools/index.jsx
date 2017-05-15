@@ -1,5 +1,6 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
+import { Row, Col } from 'react-flexbox-grid';
 import API from '../../api';
 import Jumbotron from '../../components/Jumbotron';
 import Kitem from '../../components/Kitem';
@@ -35,23 +36,23 @@ class Schools extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div>
         <Jumbotron gradesData={this.state.gradesData} />
 
         <div className="container">
-          <div className="row">
+          <Row>
 
             {this.state.schools.map(school => (
-              <div key={school} className="col-xs-12 col-sm-6 col-lg-3">
+              <Col xs={12} sm={6} lg={3} key={school}>
                 <Kitem
                   head={header(school)}
                   body={name(school)}
                   color="green"
                   onClick={() => browserHistory.push(`/${header(school)}`)}
                 />
-              </div>
+              </Col>
             ))}
-          </div>
+          </Row>
         </div>
       </div>
     );
