@@ -41,14 +41,16 @@ class Schools extends React.Component {
         <div className="container">
           <div className="row">
 
-            {this.state.schools.map(school => <div key={school} className="col-xs-12 col-sm-6 col-lg-3">
-              <Kitem
-                head={header(school)}
-                body={name(school)}
-                color="green"
-                onClick={() => browserHistory.push(`/${header(school)}`)}
-              />
-            </div>)}
+            {this.state.schools.map(school => (
+              <div key={school} className="col-xs-12 col-sm-6 col-lg-3">
+                <Kitem
+                  head={header(school)}
+                  body={name(school)}
+                  color="green"
+                  onClick={() => browserHistory.push(`/${header(school)}`)}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

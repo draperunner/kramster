@@ -177,13 +177,13 @@ class Questions extends React.Component {
             <div className="col-xs-12">
               <div>
                 { question && question.options.map(option =>
-                  <Button
+                  (<Button
                     key={option}
                     type={this.buttonClass(option)}
                     onClick={() => this.answer(option)}
                   >
                     <MathElement dangerouslySetInnerHTML={{ __html: Helpers.sanitize(option) }} />
-                  </Button>,
+                  </Button>),
                 )}
               </div>
               { this.props.answerGiven ?

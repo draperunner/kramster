@@ -49,7 +49,7 @@ class Courses extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          { this.state.courses.map((course, index) =>
+          { this.state.courses.map((course, index) => (
             <div key={course}>
               {index % 2 === 0 ? <div className="clearfix visible-sm-block" /> : null }
               {index % 3 === 0 ? <div className="clearfix visible-md-block" /> : null }
@@ -66,8 +66,8 @@ class Courses extends React.Component {
                 />
 
               </div>
-            </div>,
-          )}
+            </div>
+          ))}
         </div>
       </div>
 

@@ -12,7 +12,7 @@ const ProgressBar = (props) => {
       <p className={styles.progressText}>{`${props.history.length}/${props.questions.length}`}</p>
       <div className="progress">
         { props.history.map((answer, i) =>
-          <div
+          (<div
             key={i}
             className={`progress-bar ${styles[type(i)]}`}
             aria-valuenow={value}
@@ -21,7 +21,7 @@ const ProgressBar = (props) => {
             aria-valuetext={`${value}`}
             style={{ width: `${value}%` }}
             role="progressbar"
-          />,
+          />),
     )}
       </div>
     </div>
