@@ -30,7 +30,7 @@ class Exams extends React.Component {
   render() {
     return (
       <div className={styles.wrapper}>
-        <Row className={styles.row}>
+        <Row className={styles.categoriesRow}>
           <Col xs={12} sm={4} className={styles.col}>
             <CategoryButton href={`/${this.state.school}/${this.state.course}/random/10`}>10 Random</CategoryButton>
           </Col>
@@ -42,7 +42,7 @@ class Exams extends React.Component {
           </Col>
         </Row>
 
-        <Row className={styles.row}>
+        <Row className={styles.examsRow}>
           { this.state.exams.map(exam => (
             <Col key={exam} xs={12} sm={6} md={4} lg={3} className={styles.col}>
               <StandardButton href={`/${this.state.school}/${this.state.course}/${exam}`}>{ exam }</StandardButton>

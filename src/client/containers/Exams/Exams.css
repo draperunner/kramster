@@ -10,3 +10,12 @@
 .col {
   padding: 0 5px;
 }
+
+.categoriesRow {
+  composes: row;
+}
+
+.examsRow {
+  composes: row;
+  margin-top: 5px;
+}
