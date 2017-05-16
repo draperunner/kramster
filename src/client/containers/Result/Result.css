@@ -3,5 +3,9 @@
   composes: bodyFontColor from '../../base-styles/types.css';
   font-size: 36px;
   font-weight: 500;
-  margin: 10px 5px 0;
+  margin: 10px 0 0;
+}
+
+.row {
+  margin: 0;
 }

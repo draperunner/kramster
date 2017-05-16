@@ -21,7 +21,7 @@ class Result extends React.Component {
   render() {
     return (
       <div>
-        <Row>
+        <Row className={styles.row}>
           <Col xs={12}>
             <h1 className={styles.header}>Your results</h1>
           </Col>
@@ -54,7 +54,7 @@ class Result extends React.Component {
           </Col>
         </Row>
 
-        <Row>
+        <Row className={styles.row}>
           <Col xs={12}>
             <h1 className={styles.header}>Stats for this exam</h1>
           </Col>
@@ -85,7 +85,7 @@ class Result extends React.Component {
           </Col>
         </Row>
 
-        <Row>
+        <Row className={styles.row}>
           <Col xs={12} md={4}>
             { this.props.stats.grades ? <PieChart data={this.props.stats.grades} /> : null }
           </Col>

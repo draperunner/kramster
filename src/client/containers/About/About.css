@@ -22,8 +22,9 @@
   font-weight: 500;
 }
 
-.linksCol {
-  padding: 5px;
+.linksRow {
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 767px) {

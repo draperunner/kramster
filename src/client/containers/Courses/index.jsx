@@ -3,6 +3,7 @@ import { browserHistory } from 'react-router';
 import { Row, Col } from 'react-flexbox-grid';
 import API from '../../api';
 import Kitem from '../../components/Kitem';
+import styles from './Courses.css';
 
 class Courses extends React.Component {
 
@@ -48,7 +49,7 @@ class Courses extends React.Component {
     };
 
     return (
-      <Row>
+      <Row className={styles.coursesRow}>
         { this.state.courses.map(course => (
           <Col key={course} xs={12} sm={6} md={4} lg={3}>
 

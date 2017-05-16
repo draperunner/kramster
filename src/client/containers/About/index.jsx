@@ -23,7 +23,7 @@ const About = () => (
       </p>
     </div>
 
-    <Row className={styles.linksCol}>
+    <Row className={styles.linksRow}>
       <Col xs={12} md={4}>
         <Kitem
           head="Add exam"
