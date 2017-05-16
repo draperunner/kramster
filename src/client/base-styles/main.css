@@ -20,29 +20,3 @@
   color: #3498db;
   text-decoration: underline;
 }
-
-/*
-:global h1 {
-  line-height: 40px;
-  font-family: 'Fredoka One', cursive;
-  letter-spacing: 2px;
-  color: #2c3e50;
-}
-
-:global h3.question {
-  line-height: 1.3em;
-  font-family: 'Open Sans', sans-serif;
-}
-
-:global a {
-  color: #2980b9;
-}
-
-:global a:hover {
-  color: #3498db;
-}
-
-:global .top-buffer {
-  margin-top: 20px;
-}
-*/
