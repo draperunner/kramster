@@ -30,13 +30,13 @@ class Exams extends React.Component {
     return (
       <div>
         <Row>
-          <Col sm={4}>
+          <Col xs={12} sm={4}>
             <CategoryButton href={`/${this.state.school}/${this.state.course}/random/10`}>10 Random</CategoryButton>
           </Col>
-          <Col sm={4}>
+          <Col xs={12} sm={4}>
             <CategoryButton href={`/${this.state.school}/${this.state.course}/random/30`}>30 Random</CategoryButton>
           </Col>
-          <Col sm={4}>
+          <Col xs={12} sm={4}>
             <CategoryButton href={`/${this.state.school}/${this.state.course}/hardest/10`}>10 Hardest</CategoryButton>
           </Col>
         </Row>

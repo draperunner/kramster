@@ -12,8 +12,7 @@
 }
 
 .kitem p {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 5px;
 }
 
 .clickable {
@@ -131,6 +130,17 @@
 
 @media (max-width: 767px) {
   .kitem {
-    margin: 5px 5px 10px;
+    margin: 5px;
+  }
+
+  .head h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .body {
+    padding: 3px 5px;
+    font-size: 12px;
   }
 }

@@ -12,3 +12,11 @@
   text-decoration: none !important;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .base {
+    margin: 3px;
+    font-size: 14px;
+    padding: 12px;
+  }
+}

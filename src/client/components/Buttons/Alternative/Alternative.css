@@ -42,3 +42,9 @@
   composes: white from '../../../base-styles/colors.css';
   composes: darkGrayHover from '../../../base-styles/colors.css';
 }
+
+@media (max-width: 767px) {
+  .alternativeBase {
+    padding: 10px;
+  }
+}

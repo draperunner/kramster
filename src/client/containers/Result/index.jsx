@@ -8,6 +8,7 @@ import Helpers from '../../utils/Helpers';
 import BarChart from '../../components/BarChart';
 import PieChart from '../../components/PieChart';
 import ResultButton from '../../components/Buttons/ResultButton';
+import styles from './Result.css';
 
 class Result extends React.Component {
 
@@ -22,7 +23,7 @@ class Result extends React.Component {
       <div>
         <Row>
           <Col xs={12}>
-            <h1 className="grey">Your results</h1>
+            <h1 className={styles.header}>Your results</h1>
           </Col>
 
           <Col xs={12} md={4}>
@@ -51,15 +52,14 @@ class Result extends React.Component {
               color={this.props.colorFromUser}
             />
           </Col>
-
         </Row>
 
         <Row>
           <Col xs={12}>
-            <h1 className="grey">Stats for this exam</h1>
+            <h1 className={styles.header}>Stats for this exam</h1>
           </Col>
 
-          <Col xs={6} md={4}>
+          <Col xs={12} md={4}>
             <Kitem
               head={this.props.averageGrade}
               body="Average Grade"
@@ -86,13 +86,13 @@ class Result extends React.Component {
         </Row>
 
         <Row>
-          <Col xs={6} md={4}>
+          <Col xs={12} md={4}>
             { this.props.stats.grades ? <PieChart data={this.props.stats.grades} /> : null }
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={12} md={4}>
             { this.props.stats.grades ? <BarChart data={this.props.stats.grades} /> : null }
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={12} md={4}>
             <ResultButton href={`/${this.props.params.splat}`}>
               <h4>Try again</h4>
             </ResultButton>
