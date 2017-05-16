@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { Row, Col } from 'react-flexbox-grid';
 import API from '../../api';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import Helpers from '../../utils/Helpers';
@@ -9,6 +10,7 @@ import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/Q
 import { startLoading, stopLoading } from '../../actions/LoadingActions';
 import Question from './Question';
 import Alternative from './Alternative';
+import styles from './Questions.css';
 
 class Questions extends React.Component {
 
@@ -152,41 +154,39 @@ class Questions extends React.Component {
     }
 
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12">
+      <div>
+        <Row>
+          <Col xs={12}>
             <ProgressBar history={this.props.history.map(q => q.wasCorrect)} questions={this.props.questions} />
-          </div>
-        </div>
+          </Col>
+        </Row>
 
         { this.props.questions.length ?
-          <div className="row">
-            <div className="col-xs-12">
+          <Row className={styles.questionRow}>
+            <Col xs={12}>
               <Question text={question.question} />
-            </div>
-          </div>
+            </Col>
+          </Row>
         : null }
 
         { this.props.questions.length ?
-          <div className="row top-buffer">
-            <div className="col-xs-12">
-              <div>
-                { question && question.options.map(option => (
-                  <Alternative
-                    key={option}
-                    text={option}
-                    type={this.buttonClass(option)}
-                    onClick={() => this.answer(option)}
-                  />
+          <Row className={styles.alternativesRow}>
+            <Col xs={12}>
+              { question && question.options.map(option => (
+                <Alternative
+                  key={option}
+                  text={option}
+                  type={this.buttonClass(option)}
+                  onClick={() => this.answer(option)}
+                />
               ))}
-              </div>
               { this.props.answerGiven ?
                 <div>
                   <b style={{ color: '#2980b9' }}>Click any answer to continue</b>
                 </div>
               : null }
-            </div>
-          </div>
+            </Col>
+          </Row>
         : null }
       </div>
     );
