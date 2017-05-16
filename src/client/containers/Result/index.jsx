@@ -26,7 +26,7 @@ class Result extends React.Component {
             <h1 className={styles.header}>Your results</h1>
           </Col>
 
-          <Col xs={12} md={4}>
+          <Col xs={4} md={4}>
             <Kitem
               head={this.props.grade}
               body="Grade"
@@ -35,7 +35,7 @@ class Result extends React.Component {
             />
           </Col>
 
-          <Col xs={6} md={4}>
+          <Col xs={4} md={4}>
             <Kitem
               head={this.props.score}
               body="Score"
@@ -44,7 +44,7 @@ class Result extends React.Component {
             />
           </Col>
 
-          <Col xs={6} md={4}>
+          <Col xs={4} md={4}>
             <Kitem
               head={this.props.percentage}
               body="%"
@@ -59,7 +59,7 @@ class Result extends React.Component {
             <h1 className={styles.header}>Stats for this exam</h1>
           </Col>
 
-          <Col xs={12} md={4}>
+          <Col xs={4} md={4}>
             <Kitem
               head={this.props.averageGrade}
               body="Average Grade"
@@ -67,7 +67,7 @@ class Result extends React.Component {
               color={this.props.colorFromServer}
             />
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={4} md={4}>
             <Kitem
               head={this.props.averageScore}
               body="Average Score"
@@ -75,7 +75,7 @@ class Result extends React.Component {
               color={this.props.colorFromServer}
             />
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={4} md={4}>
             <Kitem
               head={this.props.avgPercentage}
               body="Average %"
@@ -86,13 +86,13 @@ class Result extends React.Component {
         </Row>
 
         <Row className={styles.row}>
-          <Col xs={12} md={4}>
+          <Col xs={6} sm={4}>
             { this.props.stats.grades ? <PieChart data={this.props.stats.grades} /> : null }
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={6} sm={4}>
             { this.props.stats.grades ? <BarChart data={this.props.stats.grades} /> : null }
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={4}>
             <ResultButton href={`/${this.props.params.splat}`}>
               <h4>Try again</h4>
             </ResultButton>
