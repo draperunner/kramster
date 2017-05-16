@@ -49,3 +49,11 @@
   display: inline-block;
   float: right;
 }
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 8px;
+    margin-bottom: 0;
+    height: 20px;
+  }
+}

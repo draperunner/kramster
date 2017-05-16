@@ -7,7 +7,7 @@ import Kitem from '../../components/Kitem';
 import Helpers from '../../utils/Helpers';
 import BarChart from '../../components/BarChart';
 import PieChart from '../../components/PieChart';
-import Button from '../../components/Button';
+import ResultButton from '../../components/Buttons/ResultButton';
 
 class Result extends React.Component {
 
@@ -93,18 +93,12 @@ class Result extends React.Component {
             { this.props.stats.grades ? <BarChart data={this.props.stats.grades} /> : null }
           </Col>
           <Col xs={6} md={4}>
-            <Button
-              href={`/${this.props.params.splat}`}
-              type="result"
-            >
+            <ResultButton href={`/${this.props.params.splat}`}>
               <h4>Try again</h4>
-            </Button>
-            <Button
-              href={`/${this.props.params.splat.split('/').slice(0, 2).join('/')}`}
-              type="result"
-            >
+            </ResultButton>
+            <ResultButton href={`/${this.props.params.splat.split('/').slice(0, 2).join('/')}`}>
               <h4>Try another</h4>
-            </Button>
+            </ResultButton>
           </Col>
         </Row>
       </div>

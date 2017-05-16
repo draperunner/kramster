@@ -1,0 +1,9 @@
+.standard {
+  composes: base from '../BaseButton.css';
+  composes: bodyFont from '../../../base-styles/types.css';
+  composes: white from '../../../base-styles/colors.css';
+  composes: bodyFontColor from '../../../base-styles/types.css';
+  composes: blueBackground from '../../../base-styles/colors.css';
+  composes: blueLightBackgroundHover from '../../../base-styles/colors.css';
+  composes: darkGrayHover from '../../../base-styles/colors.css';
+}

@@ -8,13 +8,13 @@ const ProgressBar = (props) => {
   const type = index => (props.history[index] ? 'correct' : 'wrong');
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <p className={styles.progressText}>{`${props.history.length}/${props.questions.length}`}</p>
-      <div className="progress">
+      <div className={styles.progress}>
         { props.history.map((answer, i) =>
           (<div
             key={i}
-            className={`progress-bar ${styles[type(i)]}`}
+            className={styles[type(i)]}
             aria-valuenow={value}
             aria-valuemin="0"
             aria-valuemax="100"

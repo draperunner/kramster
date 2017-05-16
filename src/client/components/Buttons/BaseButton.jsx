@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router';
 import PropTypes from 'prop-types';
-import styles from './Button.css';
 
-const Button = props => (
+const BaseButton = props => (
   <Link
     to={props.href}
-    className={styles[props.type || 'standard']}
+    className={props.className}
     onClick={props.onClick}
     role="button"
     type="button"
@@ -15,10 +14,10 @@ const Button = props => (
   </Link>
 );
 
-Button.propTypes = {
+BaseButton.propTypes = {
+  className: PropTypes.string,
   href: PropTypes.string,
-  type: PropTypes.string,
   onClick: PropTypes.func,
 };
 
-export default Button;
+export default BaseButton;

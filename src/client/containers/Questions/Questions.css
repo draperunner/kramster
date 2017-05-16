@@ -1,7 +1,28 @@
 .questionRow {
-  margin: 10px 0;
+  margin: 40px 0 20px;
 }
 
 .alternativesRow {
   margin: 20px 15px;
+}
+
+.alternativesCol {
+  padding: 0;
+}
+
+.continueTip {
+  composes: blue from '../../base-styles/colors.css';
+  display: block;
+  margin: 3px;
+}
+
+@media (max-width: 767px) {
+  .alternativesRow {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .alternativesCol {
+    padding: 0 5px;
+  }
 }

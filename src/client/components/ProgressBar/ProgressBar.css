@@ -1,21 +1,30 @@
-:global(.progress) {
+.wrapper {
+  margin: 0 20px;
+}
+
+.progress {
+  height: 20px;
   border-radius: 0;
   border: 0;
   box-shadow: none;
   background-color: white;
 }
 
-:global(.progress-bar) {
+.progressBar {
+  float: left;
+  height: 100%;
   border-radius: 0;
   border: 0;
   box-shadow: none;
 }
 
 .correct {
+  composes: progressBar;
   composes: greenLightBackground from '../../base-styles/colors.css';
 }
 
 .wrong {
+  composes: progressBar;
   composes: redLightBackground from '../../base-styles/colors.css';
 }
 
@@ -23,4 +32,17 @@
   composes: blue from '../../base-styles/colors.css';
   text-align: right;
   font-weight: bold;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    margin: 0;
+    padding: 0 8px;
+  }
+
+  .progressText {
+    margin: 5px 0 1px;
+    font-size: 12px;
+  }
 }

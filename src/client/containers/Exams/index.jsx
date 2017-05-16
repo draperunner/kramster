@@ -1,7 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 import API from '../../api';
-import Button from '../../components/Button';
+import CategoryButton from '../../components/Buttons/CategoryButton';
+import StandardButton from '../../components/Buttons/StandardButton';
 
 class Exams extends React.Component {
 
@@ -30,29 +31,20 @@ class Exams extends React.Component {
       <div>
         <Row>
           <Col sm={4}>
-            <Button
-              type="special"
-              href={`/${this.state.school}/${this.state.course}/random/10`}
-            >10 Random</Button>
+            <CategoryButton href={`/${this.state.school}/${this.state.course}/random/10`}>10 Random</CategoryButton>
           </Col>
           <Col sm={4}>
-            <Button
-              type="special"
-              href={`/${this.state.school}/${this.state.course}/random/30`}
-            >30 Random</Button>
+            <CategoryButton href={`/${this.state.school}/${this.state.course}/random/30`}>30 Random</CategoryButton>
           </Col>
           <Col sm={4}>
-            <Button
-              type="special"
-              href={`/${this.state.school}/${this.state.course}/hardest/10`}
-            >10 Hardest</Button>
+            <CategoryButton href={`/${this.state.school}/${this.state.course}/hardest/10`}>10 Hardest</CategoryButton>
           </Col>
         </Row>
 
         <Row>
           { this.state.exams.map(exam => (
             <Col key={exam} xs={12} sm={6} md={4} lg={3}>
-              <Button href={`/${this.state.school}/${this.state.course}/${exam}`}>{ exam }</Button>
+              <StandardButton href={`/${this.state.school}/${this.state.course}/${exam}`}>{ exam }</StandardButton>
             </Col>
           ))}
         </Row>
