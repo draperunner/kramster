@@ -23,8 +23,8 @@ const About = () => (
       </p>
     </div>
 
-    <Row>
-      <Col md={4}>
+    <Row className={styles.linksCol}>
+      <Col xs={12} md={4}>
         <Kitem
           head="Add exam"
           body="As easy as sending an email. Literally."
@@ -32,7 +32,7 @@ const About = () => (
           onClick={() => { window.location = 'mailto:matsbyr@gmail.com'; }}
         />
       </Col>
-      <Col md={4}>
+      <Col xs={12} md={4}>
         <Kitem
           head="API"
           body="Do cool stuff with Kramster data."
@@ -40,7 +40,7 @@ const About = () => (
           onClick={() => { window.location = 'https://github.com/draperunner/Kramster/wiki/API-Reference'; }}
         />
       </Col>
-      <Col md={4}>
+      <Col xs={12} md={4}>
         <Kitem
           head="Code"
           body="It's all out there."

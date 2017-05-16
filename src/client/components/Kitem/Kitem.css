@@ -130,7 +130,7 @@
 
 @media (max-width: 767px) {
   .kitem {
-    margin: 5px;
+    margin: 5px 0;
   }
 
   .head h3 {
