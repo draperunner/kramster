@@ -119,7 +119,7 @@ Result.propTypes = {
   percentage: PropTypes.number,
   averageGrade: PropTypes.string,
   averageScore: PropTypes.string,
-  avgPercentage: PropTypes.string,
+  avgPercentage: PropTypes.number,
   stats: PropTypes.shape({
     grades: PropTypes.shape({
       A: PropTypes.number,
