@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 0;
+  margin: 22px 0 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.col {
+  padding: 0 5px;
+}
+
+.categoriesRow {
+  composes: row;
+}
+
+.examsRow {
+  composes: row;
+  margin-top: 5px;
+}

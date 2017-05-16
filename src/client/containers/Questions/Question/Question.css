@@ -1,0 +1,13 @@
+.question {
+  composes: bodyFontColor from '../../../base-styles/types.css';
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .question {
+    margin: 0;
+    font-size: 16px;
+  }
+}

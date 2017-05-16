@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Grid } from 'react-flexbox-grid';
 import Navbar from '../components/Navbar';
 
 const App = props => (
-  <div>
+  <Grid>
     <Navbar />
 
     {props.children}
-  </div>
+  </Grid>
 );
 
 App.propTypes = {

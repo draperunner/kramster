@@ -1,10 +1,41 @@
-:global(.jumbotron).about {
+.about {
   color: #2c3e50;
+  padding: 0 80px;
+  margin-bottom: 40px;
 }
 
-:global(.jumbotron h1).title {
-  color: #2980b9;
-  line-height: 40px;
+.about {
+  composes: blue from '../../base-styles/colors.css';
+}
+
+.title {
+  composes: blue from '../../base-styles/colors.css';
+  composes: headerFont from '../../base-styles/types.css';
   letter-spacing: 2px;
-  font-family: 'Fredoka One', cursive;
+  line-height: 40px;
+  font-size: 63px;
+  font-weight: 500;
+}
+
+.intro {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.linksRow {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 0 8px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 500;
+  }
 }

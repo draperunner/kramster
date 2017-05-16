@@ -1,9 +1,11 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
+import { Row, Col } from 'react-flexbox-grid';
 import API from '../../api';
 import Jumbotron from '../../components/Jumbotron';
 import Kitem from '../../components/Kitem';
 import { header, name } from './methods';
+import styles from './Schools.css';
 
 class Schools extends React.Component {
 
@@ -35,24 +37,21 @@ class Schools extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div>
         <Jumbotron gradesData={this.state.gradesData} />
 
-        <div className="container">
-          <div className="row">
-
-            {this.state.schools.map(school => (
-              <div key={school} className="col-xs-12 col-sm-6 col-lg-3">
-                <Kitem
-                  head={header(school)}
-                  body={name(school)}
-                  color="green"
-                  onClick={() => browserHistory.push(`/${header(school)}`)}
-                />
-              </div>
+        <Row className={styles.schoolsRow}>
+          {this.state.schools.map(school => (
+            <Col xs={12} sm={6} lg={3} key={school}>
+              <Kitem
+                head={header(school)}
+                body={name(school)}
+                color="green"
+                onClick={() => browserHistory.push(`/${header(school)}`)}
+              />
+            </Col>
             ))}
-          </div>
-        </div>
+        </Row>
       </div>
     );
   }

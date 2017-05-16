@@ -1,3 +1,12 @@
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
 .kitem {
   composes: bodyFont from '../../base-styles/types.css';
   margin: 5px 5px 30px;
@@ -12,18 +21,12 @@
 }
 
 .kitem p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-@media (max-width: 767px) {
-  .kitem {
-    margin: 5px 5px 10px;
-  }
+  margin: 5px;
 }
 
 .clickable {
   transition: all 0.1s ease-in;
+  cursor: pointer;
 }
 
 .clickable:hover {
@@ -45,8 +48,16 @@
   padding: 8px 0;
 }
 
+.head h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .body {
-  padding: 6px;
+  composes: hyphenate;
+  padding: 6px 20px;
+  font-size: 14px;
 }
 
 /*
@@ -125,4 +136,21 @@
 .redhead {
   composes: head;
   composes: redLightBackground from '../../base-styles/colors.css';
+}
+
+@media (max-width: 767px) {
+  .kitem {
+    margin: 5px 0;
+  }
+
+  .head h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .body {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
 }

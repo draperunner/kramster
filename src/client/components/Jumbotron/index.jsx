@@ -19,12 +19,10 @@ const Jumbotron = (props) => {
   };
 
   return (
-    <div className={`jumbotron ${styles.jumbotron}`}>
-      <div className="container">
-        <h1 className={styles.title}>Kramster!</h1>
-        { props.gradesData ? <BarChart data={props.gradesData} /> : null }
-        <h3 className={styles.subtitle}>{subtitle()}</h3>
-      </div>
+    <div className={styles.jumbotron}>
+      <h1 className={styles.title}>Kramster!</h1>
+      { props.gradesData ? <BarChart data={props.gradesData} /> : null }
+      <h3 className={styles.subtitle}>{subtitle()}</h3>
     </div>
   );
 };

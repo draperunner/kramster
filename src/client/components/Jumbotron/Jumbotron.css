@@ -1,16 +1,38 @@
-:global .jumbotron {
-  padding: 0;
+.jumbotron {
+  padding: 0 60px;
   background: none;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 }
 
-:global(.container > h1).title {
-  color: #2980b9;
-  line-height: 40px;
+.title {
+  composes: headerFont from '../../base-styles/types.css';
+  composes: blue from '../../base-styles/colors.css';
+  font-size: 63px;
+  font-weight: 500;
   letter-spacing: 2px;
-  font-family: 'Fredoka One', cursive;
 }
 
-:global(.container > h3).subtitle {
-  color: #2c3e50;
+.subtitle {
+  composes: darkGray from '../../base-styles/colors.css';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    padding: 0 20px;
+    background: none;
+    margin-bottom: 15px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    padding: 0;
+  }
 }

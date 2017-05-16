@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { Row, Col } from 'react-flexbox-grid';
 import API from '../../api';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import Helpers from '../../utils/Helpers';
@@ -8,7 +9,8 @@ import ProgressBar from '../../components/ProgressBar';
 import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
 import { startLoading, stopLoading } from '../../actions/LoadingActions';
 import Question from './Question';
-import Alternative from './Alternative';
+import Alternative from '../../components/Buttons/Alternative';
+import styles from './Questions.css';
 
 class Questions extends React.Component {
 
@@ -77,7 +79,7 @@ class Questions extends React.Component {
   buttonClass(option) {
     if (!this.props.answerGiven) {
       const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-      return mobile ? 'questionMobile' : 'question';
+      return mobile ? 'alternativeMobile' : 'alternative';
     }
 
     const previousQuestion = this.props.questions[this.props.history.length - 1];
@@ -152,41 +154,33 @@ class Questions extends React.Component {
     }
 
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12">
-            <ProgressBar history={this.props.history.map(q => q.wasCorrect)} questions={this.props.questions} />
-          </div>
-        </div>
+      <div>
+        <ProgressBar history={this.props.history.map(q => q.wasCorrect)} questions={this.props.questions} />
 
         { this.props.questions.length ?
-          <div className="row">
-            <div className="col-xs-12">
+          <Row className={styles.questionRow}>
+            <Col xs={12}>
               <Question text={question.question} />
-            </div>
-          </div>
+            </Col>
+          </Row>
         : null }
 
         { this.props.questions.length ?
-          <div className="row top-buffer">
-            <div className="col-xs-12">
-              <div>
-                { question && question.options.map(option => (
-                  <Alternative
-                    key={option}
-                    text={option}
-                    type={this.buttonClass(option)}
-                    onClick={() => this.answer(option)}
-                  />
+          <Row className={styles.alternativesRow}>
+            <Col xs={12} className={styles.alternativesCol}>
+              { question && question.options.map(option => (
+                <Alternative
+                  key={option}
+                  text={option}
+                  type={this.buttonClass(option)}
+                  onClick={() => this.answer(option)}
+                />
               ))}
-              </div>
               { this.props.answerGiven ?
-                <div>
-                  <b style={{ color: '#2980b9' }}>Click any answer to continue</b>
-                </div>
+                <b className={styles.continueTip}>Click any answer to continue</b>
               : null }
-            </div>
-          </div>
+            </Col>
+          </Row>
         : null }
       </div>
     );

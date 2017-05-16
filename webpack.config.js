@@ -11,7 +11,7 @@ module.exports = () => ({
     rules: [
       {
         test: /\.css$/,
-        exclude: /node_modules/,
+        include: /src\/client|flexboxgrid/,
         loaders: [
           'style-loader', {
             loader: 'css-loader',
@@ -26,6 +26,7 @@ module.exports = () => ({
       {
         test: /\.css$/,
         include: /node_modules/,
+        exclude: /flexboxgrid/,
         use: ['style-loader', 'css-loader'],
       },
       {

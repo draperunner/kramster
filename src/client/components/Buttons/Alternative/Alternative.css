@@ -1,0 +1,50 @@
+.alternativeBase {
+  composes: base from '../BaseButton.css';
+  composes: bodyFont from '../../../base-styles/types.css';
+  padding: 20px;
+  display: inline-block;
+  margin: 3px;
+}
+
+.alternative {
+  composes: alternativeBase;
+  composes: darkGray from '../../../base-styles/colors.css';
+  composes: whiteHover from '../../../base-styles/colors.css';
+  composes: whiteBackground from '../../../base-styles/colors.css';
+}
+
+.alternative:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.alternativeMobile {
+  composes: alternative;
+}
+
+.alternativeMobile:hover {
+  background-color: white;
+  color: #2c3e50;
+}
+
+.correctAnswer {
+  composes: alternativeBase;
+  composes: greenLightBackground from '../../../base-styles/colors.css';
+  composes: greenLightBackgroundHover from '../../../base-styles/colors.css';
+  composes: white from '../../../base-styles/colors.css';
+  composes: darkGrayHover from '../../../base-styles/colors.css';
+}
+
+.wrongAnswer {
+  composes: alternativeBase;
+  composes: redLightBackground from '../../../base-styles/colors.css';
+  composes: redLightBackgroundHover from '../../../base-styles/colors.css';
+  composes: white from '../../../base-styles/colors.css';
+  composes: darkGrayHover from '../../../base-styles/colors.css';
+}
+
+@media (max-width: 767px) {
+  .alternativeBase {
+    padding: 10px;
+  }
+}

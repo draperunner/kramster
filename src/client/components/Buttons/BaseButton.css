@@ -1,0 +1,22 @@
+.base {
+  margin: 5px;
+  white-space: normal;
+  outline: none;
+  letter-spacing: 1px;
+  border-radius: 0;
+  border: none;
+  transition: all 0.2s;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .base {
+    margin: 3px;
+    font-size: 14px;
+    padding: 12px;
+  }
+}
