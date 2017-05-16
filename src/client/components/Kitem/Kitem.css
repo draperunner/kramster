@@ -1,3 +1,12 @@
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
 .kitem {
   composes: bodyFont from '../../base-styles/types.css';
   margin: 5px 5px 30px;
@@ -46,6 +55,7 @@
 }
 
 .body {
+  composes: hyphenate;
   padding: 6px 20px;
   font-size: 14px;
 }
