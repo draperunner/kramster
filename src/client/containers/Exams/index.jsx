@@ -29,7 +29,7 @@ class Exams extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.wrapper}>
         <Row className={styles.row}>
           <Col xs={12} sm={4} className={styles.col}>
             <CategoryButton href={`/${this.state.school}/${this.state.course}/random/10`}>10 Random</CategoryButton>
