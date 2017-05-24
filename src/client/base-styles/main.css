@@ -4,6 +4,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:global img {
+  display: block;
+  max-width: 100%;
+}
+
 :global canvas {
   width: 100% !important;
   height: auto !important;
