@@ -9,6 +9,7 @@ import ProgressBar from '../../components/ProgressBar';
 import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
 import { startLoading, stopLoading } from '../../actions/LoadingActions';
 import Question from './Question';
+import Explanation from './Explanation';
 import Alternative from '../../components/Buttons/Alternative';
 import styles from './Questions.css';
 
@@ -177,7 +178,10 @@ class Questions extends React.Component {
                 />
               ))}
               { this.props.answerGiven ?
-                <b className={styles.continueTip}>Click any answer to continue</b>
+                <div>
+                  <Explanation text={question.explanation} />
+                  <b className={styles.continueTip}>Click any answer to continue</b>
+                </div>
               : null }
             </Col>
           </Row>
