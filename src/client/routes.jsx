@@ -4,6 +4,7 @@ import ReactGA from 'react-ga';
 
 import AppContainer from './containers/AppContainer';
 import About from './containers/About';
+import Stats from './containers/Stats';
 import Schools from './containers/Schools';
 import Courses from './containers/Courses';
 import Exams from './containers/Exams';
@@ -22,6 +23,7 @@ export default
     <Route path="/" component={AppContainer}>
       <IndexRoute component={Schools} />
       <Route path="/about" component={About} />
+      <Route path="/stats" component={Stats} />
       <Route path="/**/results" component={Result} />
       <Route path="/:school" component={Courses} />
       <Route path="/:school/:course" component={Exams} />

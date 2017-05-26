@@ -1,0 +1,41 @@
+.stats {
+  color: #2c3e50;
+  padding: 0 80px;
+  margin-bottom: 40px;
+}
+
+.stats {
+  composes: blue from '../../base-styles/colors.css';
+}
+
+.title {
+  composes: blue from '../../base-styles/colors.css';
+  composes: headerFont from '../../base-styles/types.css';
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 63px;
+  font-weight: 500;
+}
+
+.intro {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.linksRow {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .stats {
+    padding: 0 8px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 500;
+  }
+}

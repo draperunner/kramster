@@ -11,7 +11,8 @@ const Navbar = () => (
     </div>
     <div className={styles.pullRight}>
       <ul>
-        <li><Link className={styles.link} to="/about">About</Link></li>
+        <li className={styles.menuItem}><Link className={styles.link} to="/stats">Stats</Link></li>
+        <li className={styles.menuItem}><Link className={styles.link} to="/about">About</Link></li>
       </ul>
     </div>
   </nav>

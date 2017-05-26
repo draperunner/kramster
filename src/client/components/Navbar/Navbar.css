@@ -29,11 +29,20 @@
   text-decoration: underline;
 }
 
+.menuItem {
+  float: left;
+  margin-left: 10px;
+}
+
 .link {
   composes: blue from '../../base-styles/colors.css';
   composes: blueLightHover from '../../base-styles/colors.css';
   text-decoration: none;
   font-size: 14px;
+}
+
+.link {
+  display: block;
 }
 
 .link:hover {
