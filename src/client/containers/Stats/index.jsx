@@ -28,7 +28,7 @@ class Stats extends React.Component {
   }
 
   fetchReports() {
-    API.get('/api/reports?after=2017-05-25').then((data) => {
+    API.get('/api/reports?after=2017-04-27').then((data) => {
       this.setState({ reports: data });
       this.makeBubbleChartData();
     });
@@ -43,7 +43,7 @@ class Stats extends React.Component {
     const reportsByWeekday = {};
 
     this.state.reports.forEach((report) => {
-      const weekday = new Date(report.createdAt.slice(0, 10)).getDay();
+      const weekday = (Number(new Date(report.createdAt.slice(0, 10)).getDay()) + 1) % 7;
 
       if (!reportsByWeekday[weekday]) {
         reportsByWeekday[weekday] = [];
@@ -65,7 +65,7 @@ class Stats extends React.Component {
       }
       Object.keys(ys).forEach((y) => {
         data.push({
-          x,
+          x: Number(x),
           y: Number(y),
           r: ys[y],
         });
