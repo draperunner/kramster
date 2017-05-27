@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 import API from '../../api';
-import BarChart from '../../components/BarChart';
+import BubbleChart from '../../components/BubbleChart';
 import styles from './Stats.css';
 
 class Stats extends React.Component {
@@ -11,13 +11,14 @@ class Stats extends React.Component {
 
     this.state = {
       gradesData: null,
-      schools: [],
+      reports: [],
+      bubbleData: [],
     };
   }
 
   componentDidMount() {
     this.fetchGrades();
-    this.fetchSchools();
+    this.fetchReports();
   }
 
   fetchGrades() {
@@ -26,10 +27,52 @@ class Stats extends React.Component {
     });
   }
 
-  fetchSchools() {
-    API.get('/api/list/schools').then((data) => {
-      this.setState({ schools: data });
+  fetchReports() {
+    API.get('/api/reports?after=2017-05-25').then((data) => {
+      this.setState({ reports: data });
+      this.makeBubbleChartData();
     });
+  }
+
+  makeBubbleChartData() {
+    if (this.state.reports.length === 0) {
+      return;
+    }
+
+    // { YYYY-MM-DD: { score, ... }}
+    const reportsByWeekday = {};
+
+    this.state.reports.forEach((report) => {
+      const weekday = new Date(report.createdAt.slice(0, 10)).getDay();
+
+      if (!reportsByWeekday[weekday]) {
+        reportsByWeekday[weekday] = [];
+      }
+
+      reportsByWeekday[weekday].push(report);
+    });
+
+    const xValues = Object.keys(reportsByWeekday).sort();
+
+    const data = [];
+
+    xValues.forEach((x) => {
+      const ys = {};
+      for (let i = 0; i < reportsByWeekday[x].length; i++) {
+        const report = reportsByWeekday[x][i];
+        const y = report.createdAt.slice(11, 13);
+        ys[y] = reportsByWeekday[x].filter(r => r.createdAt.slice(11, 13) === y).length;
+      }
+      Object.keys(ys).forEach((y) => {
+        data.push({
+          x,
+          y: Number(y),
+          r: ys[y],
+        });
+      });
+    });
+
+    this.setState({ bubbleData: data });
   }
 
   render() {
@@ -44,12 +87,12 @@ class Stats extends React.Component {
 
         <Row className={styles.linksRow}>
           <Col xs={12} md={4}>
-            <h3>Grade stats</h3>
-            { this.state.gradesData ? <BarChart data={this.state.gradesData} /> : null }
+            <h3>Time stats</h3>
+            { this.state.gradesData ? <BubbleChart data={this.state.bubbleData} /> : null }
           </Col>
           <Col xs={12} md={4}>
             <h3>Number of exams taken</h3>
-            <h3>12</h3>
+            <h3>{ this.state.reports.length }</h3>
           </Col>
           <Col xs={12} md={4}>
             <h3>Hardest question</h3>
