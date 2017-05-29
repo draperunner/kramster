@@ -5,6 +5,7 @@ const questionSchema = new mongoose.Schema({
   question: String,
   options: [String],
   answers: [Number],
+  explanation: String,
   history: [{
     _id: false, // Prevent mongoose from automatically creating ids for subdocuments
     givenAnswer: String,
