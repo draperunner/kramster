@@ -7,8 +7,11 @@ const BaseButton = props => (
     to={props.href}
     className={props.className}
     onClick={props.onClick}
+    onKeyDown={e => e.which === 13 && props.onClick && props.onClick(e)}
     role="button"
     type="button"
+    focusable
+    tabIndex={0}
   >
     {props.children}
   </Link>

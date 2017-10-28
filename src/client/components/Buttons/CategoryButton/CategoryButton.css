@@ -4,6 +4,8 @@
   composes: white from '../../../base-styles/colors.css';
   composes: orangeLightBackground from '../../../base-styles/colors.css';
   composes: yellowBackgroundHover from '../../../base-styles/colors.css';
+  composes: yellowBackgroundFocus from '../../../base-styles/colors.css';
   composes: darkGrayHover from '../../../base-styles/colors.css';
+  composes: darkGrayFocus from '../../../base-styles/colors.css';
   text-transform: uppercase;
 }

@@ -22,14 +22,21 @@ const Kitem = (props) => {
   }
 
   return (
-    <div className={className} role={role} onClick={props.onClick}>
+    <a
+      className={className}
+      role={role}
+      tabIndex={0}
+      focusable
+      onKeyDown={e => e.which === 13 && props.onClick(e)}
+      onClick={props.onClick}
+    >
       <div className={styles[`${props.color}head`]}>
         <h3>{ props.head }</h3>
       </div>
       <div className={styles.body}>
         <p>{ props.body }</p>
       </div>
-    </div>
+    </a>
   );
 };
 

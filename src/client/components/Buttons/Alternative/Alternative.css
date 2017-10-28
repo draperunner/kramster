@@ -13,7 +13,8 @@
   composes: whiteBackground from '../../../base-styles/colors.css';
 }
 
-.alternative:hover {
+.alternative:hover,
+.alternative:focus {
   background-color: #2980b9;
   color: white;
 }
@@ -22,7 +23,8 @@
   composes: alternative;
 }
 
-.alternativeMobile:hover {
+.alternativeMobile:hover,
+.alternativeMobile:focus {
   background-color: white;
   color: #2c3e50;
 }
