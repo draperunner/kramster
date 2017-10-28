@@ -82,7 +82,7 @@ exports.updateStats = (report) => {
 
 // Return aggregated statistics for all reports
 exports.getStatsForAll = (req, res) => {
-  Stats.findOne({ key: {} }, (err, stats) => {
+  Stats.findOne({ $or: [{ key: {} }, { key: { $exists: false } }] }, (err, stats) => {
     buildStats(err, stats, res);
   });
 };
