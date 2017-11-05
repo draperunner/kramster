@@ -180,7 +180,7 @@ class Questions extends React.Component {
               { this.props.answerGiven ?
                 <div>
                   <Explanation text={question.explanation} />
-                  <b className={styles.continueTip}>Click any answer to continue</b>
+                  <b role="alert" className={styles.continueTip}>Click any answer to continue</b>
                 </div>
               : null }
             </Col>
