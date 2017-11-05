@@ -20,6 +20,11 @@
   text-align: center;
 }
 
+a.kitem:hover {
+  text-decoration: none;
+  color: rgb(236, 240, 241);
+}
+
 .kitem p {
   margin: 5px;
 }
