@@ -4,6 +4,7 @@
   composes: white from '../../../base-styles/colors.css';
   composes: greenLightBackground from '../../../base-styles/colors.css';
   composes: darkGrayHover from '../../../base-styles/colors.css';
+  composes: darkGrayFocus from '../../../base-styles/colors.css';
   padding: 8px;
 }
 

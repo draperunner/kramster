@@ -93,6 +93,7 @@
  */
 .darkGray { color: #2c3e50; }
 .darkGrayHover:hover { color: #2c3e50; }
+.darkGrayFocus:focus { color: #2c3e50; }
 .darkGrayBackground { color: #2c3e50; }
 .darkGrayBackgroundHover:hover { color: #2c3e50; }
 .darkGrayBackgroundFocus:focus { color: #2c3e50; }
