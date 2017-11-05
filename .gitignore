@@ -8,6 +8,7 @@ src/client/styles.min.css
 doc/
 *.iml
 *.sh
+!deploy*.sh
 *.bson
 *.metadata.json
 *.tar.gz
