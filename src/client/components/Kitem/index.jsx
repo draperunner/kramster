@@ -5,8 +5,6 @@ import styles from './Kitem.css';
 const Kitem = (props) => {
   const mobile = window.screen.width < 800;
 
-  const role = (props.onClick) ? 'button' : '';
-
   let className = `${styles.kitem} `;
 
   if (props.color) {
@@ -21,10 +19,23 @@ const Kitem = (props) => {
     className += `${styles.clickable} `;
   }
 
+  if (!props.onClick) {
+    return (
+      <div className={className}>
+        <div className={styles[`${props.color}head`]}>
+          <h3>{ props.head }</h3>
+        </div>
+        <div className={styles.body}>
+          <p>{ props.body }</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <a
       className={className}
-      role={role}
+      role="button"
       tabIndex={0}
       focusable
       onKeyDown={e => e.which === 13 && props.onClick(e)}
