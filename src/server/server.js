@@ -45,7 +45,7 @@ app.use((req, res) => {
 });
 
 // Start server
-const port = 8000;
+const port = process.env.KRAMSTER_PORT || 8000;
 app.listen(port, '127.0.0.1');
 /* eslint-disable no-console */
 console.log(`Server is running on port ${port}`);
