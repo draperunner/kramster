@@ -13,6 +13,12 @@ The List part is for getting a string array of names of schools, courses or exam
 
 Please see the [API Reference](https://github.com/draperunner/Kramster/wiki/API-Reference) for details on the API.
 
+## Contributing to Data
+To add an exam to Kramster, the easiest is to just email me the PDF (matsbyr@gmail.com).
+
+If you want help out with the exam processing, or learn how to add exams to your Kramster clone,
+check out the Kramster Data repository (https://github.com/draperunner/kramster-data).
+
 ## Installation instructions
 
 To setup Kramster on your machine, you will first need to install Node.js and MongoDB. Then, follow the steps:
@@ -30,7 +36,6 @@ npm start
 This will run the development server on `http://localhost:8000`.
 If you want to run it on another port, specify it with the `KRAMSTER_PORT` environment variable.
 
-## Adding some data
-You might find that your version of Kramster is kind of boring. That's because your database is empty.
-Check out the Kramster Data repository (https://github.com/draperunner/kramster-data) to see how you can populate
+You might find that your version of Kramster is a bit boring. That's because your database is empty.
+Head over to the Kramster Data repository (https://github.com/draperunner/kramster-data) to see how you can populate
 your database.
