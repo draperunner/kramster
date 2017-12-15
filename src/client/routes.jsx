@@ -10,7 +10,7 @@ import Exams from './containers/Exams';
 import Questions from './containers/Questions';
 import Result from './containers/Result';
 
-ReactGA.initialize('UA-62911300-1');
+ReactGA.initialize(KRAMSTER_TRACKING_ID);
 
 function logPageView() {
   ReactGA.set({ page: window.location.pathname });

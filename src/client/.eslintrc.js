@@ -1,12 +1,13 @@
 module.exports = {
-  'extends': 'airbnb',
-  'env': {
-    'browser': true,
+  extends: 'airbnb',
+  env: {
+    browser: true,
   },
-  'globals': {
-    'renderMathInElement': false,
+  globals: {
+    renderMathInElement: false,
+    KRAMSTER_TRACKING_ID: false,
   },
-  'rules': {
+  rules: {
     'jsx-a11y/no-static-element-interactions': 'off',
     'max-len': ['warn', 120],
     'no-underscore-dangle': 'off',

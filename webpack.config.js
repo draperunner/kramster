@@ -50,6 +50,7 @@ module.exports = () => ({
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
+      KRAMSTER_TRACKING_ID: JSON.stringify(process.env.KRAMSTER_TRACKING_ID),
     }),
     new webpack.LoaderOptionsPlugin({
       debug: false,
