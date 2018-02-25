@@ -7,6 +7,7 @@ src/client/scripts.min.js
 src/client/styles.min.css
 doc/
 *.iml
+.DS_Store
 *.sh
 !deploy*.sh
 *.bson
