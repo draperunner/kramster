@@ -17,8 +17,8 @@ const About = () => (
         you. That&apos;s a great way to help your fellow students, don&apos;t you think?
       </p>
       <p>
-        Kramster is made by <a href="http://byrkje.land">Mats Byrkjeland</a>, a computer science student at NTNU,
-        Norway. It is <a href="http://github.com/draperunner/Kramster">open source</a> and has a free,
+        Kramster is made by <a href="http://byrkje.land">Mats Byrkjeland</a>.
+        It is <a href="http://github.com/draperunner/Kramster">open source</a> and has a free,
         open <a href="https://github.com/draperunner/Kramster/wiki/API-Reference">API</a>.
       </p>
     </div>
