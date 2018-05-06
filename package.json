@@ -16,7 +16,7 @@
     "url": "git://github.com/draperunner/Kramster.git"
   },
   "author": "Mats Byrkjeland",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "dependencies": {
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
