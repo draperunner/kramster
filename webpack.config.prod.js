@@ -6,6 +6,6 @@ module.exports = () => webpackMerge(commonConfig(), {
   mode: 'production',
   output: {
     path: path.join(__dirname, 'dist', 'client'),
-    filename: 'bundle.js',
+    filename: 'bundle.[hash].js',
   },
 });

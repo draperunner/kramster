@@ -10,7 +10,7 @@ module.exports = () => webpackMerge(commonConfig(), {
   output: {
     // path: path.resolve(__dirname, 'src', 'client'),
     path: '/',
-    filename: 'bundle.js',
+    filename: 'bundle.[hash].js',
   },
   devServer: {
     historyApiFallback: true,
