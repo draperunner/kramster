@@ -32,11 +32,10 @@ module.exports = () => ({
       {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,
-        use: ['react-hot-loader', 'babel-loader'],
-      },
-      {
-        test: /\.svg$/,
-        use: ['babel-loader', 'svg-react-loader'],
+        loader: 'babel-loader',
+        options: {
+          plugins: ['react-hot-loader/babel'],
+        },
       },
     ],
   },
@@ -56,7 +55,6 @@ module.exports = () => ({
       debug: false,
       minimize: true,
     }),
-    new webpack.NoEmitOnErrorsPlugin(),
     new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /en|nb/),
   ],
 });

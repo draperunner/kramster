@@ -39,14 +39,15 @@
     "wilson-score": "^1.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.22.2",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^6.4.1",
+    "babel-loader": "^7.1.5",
     "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
-    "css-loader": "^0.26.1",
+    "css-loader": "^1.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
@@ -57,16 +58,17 @@
     "json-loader": "^0.5.4",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.3",
-    "react-hot-loader": "^1.3.1",
+    "react-hot-loader": "^4.3.4",
     "should": "^13.2.1",
-    "style-loader": "^0.13.1",
+    "style-loader": "^0.21.0",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
     "supertest": "^3.1.0",
-    "webpack": "^2.3.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
     "webpack-dev-middleware": "^1.12.2",
-    "webpack-dev-server": "^2.11.2",
     "webpack-hot-middleware": "^2.22.3",
-    "webpack-merge": "^4.1.3"
+    "webpack-merge": "^4.1.3",
+    "webpack-serve": "^2.0.2"
   }
 }

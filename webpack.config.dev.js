@@ -3,6 +3,7 @@ import webpackMerge from 'webpack-merge';
 import commonConfig from './webpack.config';
 
 module.exports = () => webpackMerge(commonConfig(), {
+  mode: 'development',
   entry: [
     'webpack-hot-middleware/client',
   ],
