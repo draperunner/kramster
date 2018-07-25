@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = () => ({
   context: __dirname,
@@ -51,6 +52,11 @@ module.exports = () => ({
   plugins: [
     new CleanWebpackPlugin('./dist'),
     new HtmlWebpackPlugin({ template: 'src/client/index.html' }),
+    // "cp -r src/client/assets dist/client/assets && cp src/client/manifest.json dist/client/",
+    new CopyWebpackPlugin([
+      { from: 'assets', to: 'assets' },
+      { from: 'manifest.json' },
+    ], { context: 'src/client' }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
       KRAMSTER_TRACKING_ID: JSON.stringify(process.env.KRAMSTER_TRACKING_ID),
