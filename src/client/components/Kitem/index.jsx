@@ -23,10 +23,14 @@ const Kitem = (props) => {
     return (
       <div className={className}>
         <div className={styles[`${props.color}head`]}>
-          <h3>{ props.head }</h3>
+          <h3>
+            { props.head }
+          </h3>
         </div>
         <div className={styles.body}>
-          <p>{ props.body }</p>
+          <p>
+            { props.body }
+          </p>
         </div>
       </div>
     );
@@ -42,10 +46,14 @@ const Kitem = (props) => {
       onClick={props.onClick}
     >
       <div className={styles[`${props.color}head`]}>
-        <h3>{ props.head }</h3>
+        <h3>
+          { props.head }
+        </h3>
       </div>
       <div className={styles.body}>
-        <p>{ props.body }</p>
+        <p>
+          { props.body }
+        </p>
       </div>
     </a>
   );

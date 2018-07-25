@@ -1,5 +1,7 @@
 import React from 'react';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import {
+  Router, Route, IndexRoute, browserHistory,
+} from 'react-router';
 import ReactGA from 'react-ga';
 
 import AppContainer from './containers/AppContainer';

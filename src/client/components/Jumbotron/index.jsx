@@ -20,9 +20,13 @@ const Jumbotron = (props) => {
 
   return (
     <div className={styles.jumbotron}>
-      <h1 className={styles.title}>Kramster!</h1>
+      <h1 className={styles.title}>
+        Kramster!
+      </h1>
       { props.gradesData ? <BarChart data={props.gradesData} /> : null }
-      <h3 className={styles.subtitle}>{subtitle()}</h3>
+      <h3 className={styles.subtitle}>
+        {subtitle()}
+      </h3>
     </div>
   );
 };

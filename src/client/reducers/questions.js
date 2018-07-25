@@ -1,4 +1,6 @@
-import { ANSWER, CLEAR, LOAD_QUESTIONS, STATS_RECEIVED } from '../actions/QuestionActions';
+import {
+  ANSWER, CLEAR, LOAD_QUESTIONS, STATS_RECEIVED,
+} from '../actions/QuestionActions';
 
 const EMPTY_QUESTION = { question: '', options: [], answers: [] };
 
@@ -41,10 +43,12 @@ export default (state = initialState, action) => {
       };
     }
     case CLEAR: {
-      return { ...initialState };
+      return {
+        ...initialState,
+      };
     }
     case LOAD_QUESTIONS: {
-      const questions = action.payload.questions;
+      const { questions } = action.payload;
       const currentQuestion = state.questions.length === 0 ? questions[0] : state.currentQuestion;
       return {
         ...state,
@@ -53,7 +57,7 @@ export default (state = initialState, action) => {
       };
     }
     case STATS_RECEIVED: {
-      const stats = action.payload.stats;
+      const { stats } = action.payload;
       return {
         ...state,
         stats,

@@ -8,7 +8,6 @@ import { header, name } from './methods';
 import styles from './Schools.css';
 
 class Schools extends React.Component {
-
   constructor() {
     super();
 
@@ -50,7 +49,7 @@ class Schools extends React.Component {
                 onClick={() => browserHistory.push(`/${header(school)}`)}
               />
             </Col>
-            ))}
+          ))}
         </Row>
       </div>
     );

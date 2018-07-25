@@ -6,7 +6,6 @@ import sanitizeHtml from 'sanitize-html';
  */
 
 const Helpers = {
-
   colors() {
     return {
       A: 'green',
@@ -28,7 +27,7 @@ const Helpers = {
   },
 
   reloadRoute() {
-    location.reload();
+    window.location.reload();
   },
 
   /**
@@ -94,13 +93,13 @@ const Helpers = {
     };
 
     return `${now.getFullYear()
-           }-${pad(now.getMonth() + 1)
-           }-${pad(now.getDate())
-           }T${pad(now.getHours())
-           }:${pad(now.getMinutes())
-           }:${pad(now.getSeconds())
-           }${sign}${pad(timezoneOffset / 60)
-           }:${pad(timezoneOffset % 60)}`;
+    }-${pad(now.getMonth() + 1)
+    }-${pad(now.getDate())
+    }T${pad(now.getHours())
+    }:${pad(now.getMinutes())
+    }:${pad(now.getSeconds())
+    }${sign}${pad(timezoneOffset / 60)
+    }:${pad(timezoneOffset % 60)}`;
   },
 
   /**

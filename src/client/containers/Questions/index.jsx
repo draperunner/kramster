@@ -6,7 +6,9 @@ import API from '../../api';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import Helpers from '../../utils/Helpers';
 import ProgressBar from '../../components/ProgressBar';
-import { clear, giveAnswer, loadQuestions, statsReceived } from '../../actions/QuestionActions';
+import {
+  clear, giveAnswer, loadQuestions, statsReceived,
+} from '../../actions/QuestionActions';
 import { startLoading, stopLoading } from '../../actions/LoadingActions';
 import Question from './Question';
 import Explanation from './Explanation';
@@ -14,7 +16,6 @@ import Alternative from '../../components/Buttons/Alternative';
 import styles from './Questions.css';
 
 class Questions extends React.Component {
-
   constructor(props) {
     super(props);
 
@@ -131,7 +132,7 @@ class Questions extends React.Component {
     };
 
     API.post('/api/reports/add', report).then(() => {
-        // Fetch aggregated statistics from server
+      // Fetch aggregated statistics from server
       const url = `/api/stats/${this.props.params.school}/${this.props.params.course}/${report.exam.name}`;
 
       const params = {};
@@ -158,15 +159,15 @@ class Questions extends React.Component {
       <div>
         <ProgressBar history={this.props.history.map(q => q.wasCorrect)} questions={this.props.questions} />
 
-        { this.props.questions.length ?
+        { this.props.questions.length ? (
           <Row className={styles.questionRow}>
             <Col xs={12}>
               <Question text={question.question} />
             </Col>
           </Row>
-        : null }
+        ) : null }
 
-        { this.props.questions.length ?
+        { this.props.questions.length ? (
           <Row className={styles.alternativesRow}>
             <Col xs={12} className={styles.alternativesCol}>
               { question && question.options.map(option => (
@@ -177,15 +178,17 @@ class Questions extends React.Component {
                   onClick={() => this.answer(option)}
                 />
               ))}
-              { this.props.answerGiven ?
+              { this.props.answerGiven ? (
                 <div>
                   <Explanation text={question.explanation} />
-                  <b role="alert" className={styles.continueTip}>Click any answer to continue</b>
+                  <b role="alert" className={styles.continueTip}>
+                    Click any answer to continue
+                  </b>
                 </div>
-              : null }
+              ) : null }
             </Col>
           </Row>
-        : null }
+        ) : null }
       </div>
     );
   }

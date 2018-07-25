@@ -6,20 +6,42 @@ import styles from './About.css';
 const About = () => (
   <div>
     <div className={styles.about}>
-      <h1 className={styles.title}>Cram with Kramster!</h1>
+      <h1 className={styles.title}>
+        Cram with Kramster!
+      </h1>
       <h3 className={styles.intro}>
         Kramster helps making exam preparation a little more fun. Select your school and course and cram for your
          exam by doing the multiple choice questions with instant feedback!
       </h3>
       <p>
         Can&apos;t find your course&apos;s exams on Kramster? Just send the PDFs
-        to <a href="mailto:matsbyr@gmail.com">matsbyr@gmail.com</a>, and the small Kramster elves will add them for
+        to
+        {' '}
+        <a href="mailto:matsbyr@gmail.com">
+          matsbyr@gmail.com
+        </a>
+        , and the small Kramster elves will add them for
         you. That&apos;s a great way to help your fellow students, don&apos;t you think?
       </p>
       <p>
-        Kramster is made by <a href="http://byrkje.land">Mats Byrkjeland</a>.
-        It is <a href="http://github.com/draperunner/Kramster">open source</a> and has a free,
-        open <a href="https://github.com/draperunner/Kramster/wiki/API-Reference">API</a>.
+        Kramster is made by
+        {' '}
+        <a href="http://byrkje.land">
+          Mats Byrkjeland
+        </a>
+        .
+        It is
+        {' '}
+        <a href="http://github.com/draperunner/Kramster">
+          open source
+        </a>
+        {' '}
+        and has a free, open
+        {' '}
+        <a href="https://github.com/draperunner/Kramster/wiki/API-Reference">
+          API
+        </a>
+        .
       </p>
     </div>
 

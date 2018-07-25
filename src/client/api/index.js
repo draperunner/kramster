@@ -5,7 +5,6 @@ import 'whatwg-fetch';
  * Methods for communicating with API.
  */
 const API = {
-
   // Gets an array and forwards it to callback function.
   get(url, params) {
     return fetch(`${url}?${qs.stringify(params)}`)
@@ -19,10 +18,7 @@ const API = {
       limit: n,
     };
 
-    // $rootScope.loading = true;
-    return fetch(`${url}?${qs.stringify(params)}`).then(res =>
-      // $rootScope.loading = false;
-       res.json());
+    return fetch(`${url}?${qs.stringify(params)}`).then(res => res.json());
   },
 
   // Gets n hardest questions
@@ -32,26 +28,18 @@ const API = {
       limit: n,
     };
 
-    // $rootScope.loading = true;
-    return fetch(`${url}?${qs.stringify(params)}`).then(res =>
-      // $rootScope.loading = false;
-       res.json());
+    return fetch(`${url}?${qs.stringify(params)}`).then(res => res.json());
   },
 
-        // Gets the selected exam(s) and passes on to callback.
+  // Gets the selected exam(s) and passes on to callback.
   getSelected(url, params) {
-    // $rootScope.loading = true;
-    return fetch(`${url}?${qs.stringify(params)}`).then(res =>
-      // $rootScope.loading = false;
-       res.json());
+    return fetch(`${url}?${qs.stringify(params)}`).then(res => res.json());
   },
 
   // Gets all questions of all exams of given url and passes to callback.
   getAll(url) {
-    // $rootScope.loading = true;
-    return fetch(url).then(res => res.json().then(data =>
-      // $rootScope.loading = false;
-       data.map(exam => exam.questions).reduce((a, b) => a.concat(b))));
+    return fetch(url).then(res => res.json()
+      .then(data => data.map(exam => exam.questions).reduce((a, b) => a.concat(b))));
   },
 
   // HTTP POST JSON body
@@ -63,8 +51,7 @@ const API = {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
-    })
-    .then(res => res.json());
+    }).then(res => res.json());
   },
 };
 

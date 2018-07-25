@@ -1,7 +1,6 @@
 import React from 'react';
 
 class MathElement extends React.Component {
-
   componentDidMount() {
     renderMathInElement(this.mathElement);
   }

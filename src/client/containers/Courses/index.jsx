@@ -6,7 +6,6 @@ import Kitem from '../../components/Kitem';
 import styles from './Courses.css';
 
 class Courses extends React.Component {
-
   constructor(props) {
     super(props);
 
@@ -62,7 +61,7 @@ class Courses extends React.Component {
             />
 
           </Col>
-          ))}
+        ))}
       </Row>
 
     );

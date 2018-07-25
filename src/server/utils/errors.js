@@ -9,7 +9,7 @@ const errorMessages = {
 
   noExamFound(res, school, course, exam) {
     res.status(404).send(`404: No exam called "${exam}" for course "${
-        course}" at school "${school}".`);
+      course}" at school "${school}".`);
   },
 
   somethingWentWrong(res) {

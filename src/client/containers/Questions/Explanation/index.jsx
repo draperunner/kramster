@@ -11,14 +11,17 @@ const Explanation = (props) => {
   }
   return (
     <div className={styles.wrapper}>
-      <h3 className={styles.header}>Explanation</h3>
+      <h3 className={styles.header}>
+        Explanation
+      </h3>
       <MathElement>
         <h4
           className={styles.text}
           dangerouslySetInnerHTML={{ __html: Helpers.sanitize(props.text) }}
         />
       </MathElement>
-    </div>);
+    </div>
+  );
 };
 
 Explanation.propTypes = {

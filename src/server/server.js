@@ -11,16 +11,16 @@ if (process.env.NODE_ENV !== 'production') {
   // Webpack
   /* eslint-disable global-require, import/no-extraneous-dependencies, import/no-dynamic-require */
   const webpack = require('webpack');
-    // Step 1: Create & configure a webpack compiler
+  // Step 1: Create & configure a webpack compiler
   const webpackConfig = require('../../webpack.config.dev')();
   const compiler = webpack(webpackConfig);
 
-    // Step 2: Attach the dev middleware to the compiler & the server
+  // Step 2: Attach the dev middleware to the compiler & the server
   app.use(require('webpack-dev-middleware')(compiler, {
     noInfo: true, publicPath: webpackConfig.output.publicPath,
   }));
 
-    // Step 3: Attach the hot middleware to the compiler & the server
+  // Step 3: Attach the hot middleware to the compiler & the server
   app.use(require('webpack-hot-middleware')(compiler));
 }
 
