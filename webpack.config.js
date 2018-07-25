@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = () => ({
   context: __dirname,
@@ -47,6 +48,7 @@ module.exports = () => ({
     extensions: ['.js', '.jsx', '.scss'],
   },
   plugins: [
+    new CleanWebpackPlugin('./dist'),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
       KRAMSTER_TRACKING_ID: JSON.stringify(process.env.KRAMSTER_TRACKING_ID),
