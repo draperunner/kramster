@@ -10,5 +10,16 @@
   "plugins": [
     "transform-es2015-destructuring",
     "transform-object-rest-spread"
-  ]
+  ],
+  "env": {
+    "development": {
+      "plugins": [["react-transform", {
+        "transforms": [{
+          "transform": "react-transform-hmr",
+          "imports": ["react"],
+          "locals": ["module"]
+        }]
+      }]]
+    }
+  }
 }
