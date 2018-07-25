@@ -9,7 +9,9 @@
     "prod": "npm run build && NODE_ENV=production node dist/server/server.js",
     "copy": "cp src/client/index.html dist/client/ && cp -r src/client/assets dist/client/assets && cp src/client/manifest.json dist/client/",
     "lint": "eslint --ext js,jsx src/ && stylelint src/**/*.css",
-    "test": "mocha"
+    "test": "mocha",
+    "deploy": "./deploy-production.sh",
+    "deploy:staging": "./deploy-staging.sh"
   },
   "repository": {
     "type": "git",
