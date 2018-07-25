@@ -8,4 +8,9 @@ module.exports = () => webpackMerge(commonConfig(), {
     path: path.join(__dirname, 'dist', 'client'),
     filename: 'bundle.[hash].js',
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
+  },
 });
