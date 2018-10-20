@@ -5,6 +5,16 @@ import API from '../../api';
 import Kitem from '../../components/Kitem';
 import styles from './Courses.css';
 
+// Returns a pretty header for the course (the course code)
+function getCourseHeader(course) {
+  return course.split(' ')[0].toUpperCase();
+}
+
+// Returns the full name of the course. Removes course code
+function getCourseName(course) {
+  return course.replace(course.split(' ')[0], '').trim();
+}
+
 class Courses extends React.Component {
   constructor(props) {
     super(props);
@@ -26,12 +36,6 @@ class Courses extends React.Component {
   }
 
   render() {
-    // Returns a pretty header for the course (the course code)
-    const header = course => course.split(' ')[0].toUpperCase();
-
-    // Returns the full name of the course. Removes course code
-    const name = course => course.replace(course.split(' ')[0], '').trim();
-
     const availableColors = ['orange', 'green', 'red', 'blue', 'purple', 'yellow'];
     const assignedColors = {};
     let colorIndex = 0;
@@ -49,21 +53,22 @@ class Courses extends React.Component {
 
     return (
       <Row className={styles.coursesRow}>
-        { this.state.courses.map(course => (
-          <Col key={course} xs={12} sm={6} md={4} lg={3}>
-
-            <Kitem
-              head={header(course)}
-              body={name(course)}
-              color={assignColor(header(course))}
-              minHeight
-              onClick={() => browserHistory.push(`/${this.state.school}/${header(course)}`)}
-            />
-
-          </Col>
-        ))}
+        { this.state.courses.map((course) => {
+          const header = getCourseHeader(course);
+          const name = getCourseName(course);
+          return (
+            <Col key={course} xs={12} sm={6} md={4} lg={3}>
+              <Kitem
+                head={header}
+                body={name}
+                color={assignColor(header)}
+                minHeight
+                onClick={() => browserHistory.push(`/${this.state.school}/${header}`)}
+              />
+            </Col>
+          );
+        })}
       </Row>
-
     );
   }
 }
