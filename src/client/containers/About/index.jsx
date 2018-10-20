@@ -43,6 +43,16 @@ const About = () => (
         </a>
         .
       </p>
+      <p>
+        Do you enjoy Kramster? Like it on
+        {' '}
+        <a href="https://www.facebook.com/kramsterit">Facebook</a>
+        {' '}
+and star it on
+        {' '}
+        <a href="https://github.com/draperunner/kramster">GitHub</a>
+        !
+      </p>
     </div>
 
     <Row className={styles.linksRow}>
