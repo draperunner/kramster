@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
-import API from '../../api';
+import { getExams } from '../../api';
 import CategoryButton from '../../components/Buttons/CategoryButton';
 import StandardButton from '../../components/Buttons/StandardButton';
 import styles from './Exams.css';
@@ -17,11 +17,8 @@ class Exams extends React.Component {
   }
 
   componentDidMount() {
-    this.fetchExams();
-  }
-
-  fetchExams() {
-    API.get(`/api/list/exams/${this.state.school}/${this.state.course}`, { sort: '-alphabetically' }).then((data) => {
+    const { school, course } = this.state;
+    getExams(school, course).then((data) => {
       this.setState({ exams: data });
     });
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
 import { Row, Col } from 'react-flexbox-grid';
-import API from '../../api';
+import { getSchools, getStats } from '../../api';
 import Jumbotron from '../../components/Jumbotron';
 import Kitem from '../../components/Kitem';
 import { header, name } from './methods';
@@ -18,18 +18,10 @@ class Schools extends React.Component {
   }
 
   componentDidMount() {
-    this.fetchGrades();
-    this.fetchSchools();
-  }
-
-  fetchGrades() {
-    API.get('/api/stats/').then((data) => {
+    getStats().then((data) => {
       this.setState({ gradesData: data.grades });
     });
-  }
-
-  fetchSchools() {
-    API.get('/api/list/schools').then((data) => {
+    getSchools().then((data) => {
       this.setState({ schools: data });
     });
   }

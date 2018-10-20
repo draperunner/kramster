@@ -1,57 +1,52 @@
-import qs from 'qs';
+import { get, post } from './http';
 
-/*
- * Methods for communicating with API.
- */
-const API = {
-  // Gets an array and forwards it to callback function.
-  get(url, params) {
-    return fetch(`${url}?${qs.stringify(params)}`)
-      .then(res => res.json());
-  },
+export function getStats() {
+  return get('/api/stats/');
+}
 
-  // Gets n random questions
-  getRandom(url, n) {
-    const params = {
-      random: 'true',
-      limit: n,
-    };
+export function getSchools() {
+  return get('/api/list/schools');
+}
 
-    return fetch(`${url}?${qs.stringify(params)}`).then(res => res.json());
-  },
+export function getCourses(school) {
+  return get(`/api/list/courses/${school}`);
+}
 
-  // Gets n hardest questions
-  getHardest(url, n) {
-    const params = {
-      hardest: 'true',
-      limit: n,
-    };
+export function getExams(school, course) {
+  return get(`/api/list/exams/${school}/${course}`, { sort: '-alphabetically' });
+}
 
-    return fetch(`${url}?${qs.stringify(params)}`).then(res => res.json());
-  },
+export function getQuestions(school, course, options) {
+  const {
+    exam, limit, mode,
+  } = options;
 
-  // Gets the selected exam(s) and passes on to callback.
-  getSelected(url, params) {
-    return fetch(`${url}?${qs.stringify(params)}`).then(res => res.json());
-  },
+  const url = `/api/exams/${school}/${course}${exam ? `/${options.exam}` : ''}`;
 
-  // Gets all questions of all exams of given url and passes to callback.
-  getAll(url) {
-    return fetch(url).then(res => res.json()
-      .then(data => data.map(exam => exam.questions).reduce((a, b) => a.concat(b))));
-  },
+  return get(url, {
+    random: mode === 'random',
+    hardest: mode === 'hardest',
+    limit,
+  }).then((data) => {
+    if (exam) return data[0].questions;
+    if (mode !== 'all') return data;
+    return data
+      .map(({ questions }) => questions)
+      .reduce((a, b) => [...a, ...b]);
+  });
+}
 
-  // HTTP POST JSON body
-  post(url, data) {
-    return fetch(url, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    }).then(res => res.json());
-  },
-};
+export function sendReport(report) {
+  return post('/api/reports/add', report).then(() => {
+    // Fetch aggregated statistics from server
+    const { school, course, name } = report.exam;
+    const url = `/api/stats/${school}/${course}/${name}`;
 
-export default API;
+    const params = {};
+    if (name === 'random') {
+      params.numQuestions = report.numQuestions;
+    }
+
+    return get(url, params);
+  });
+}

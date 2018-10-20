@@ -1,7 +1,7 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
 import { Row, Col } from 'react-flexbox-grid';
-import API from '../../api';
+import { getCourses } from '../../api';
 import Kitem from '../../components/Kitem';
 import styles from './Courses.css';
 
@@ -26,11 +26,7 @@ class Courses extends React.Component {
   }
 
   componentDidMount() {
-    this.fetchCourses();
-  }
-
-  fetchCourses() {
-    API.get(`/api/list/courses/${this.state.school}`, {}).then((data) => {
+    getCourses(this.state.school).then((data) => {
       this.setState({ courses: data });
     });
   }

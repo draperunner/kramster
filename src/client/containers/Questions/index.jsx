@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Row, Col } from 'react-flexbox-grid';
-import API from '../../api';
+import { getQuestions, sendReport } from '../../api';
 import LoadingSpinner from '../../components/LoadingSpinner';
 import Helpers from '../../utils/Helpers';
 import ProgressBar from '../../components/ProgressBar';
@@ -37,36 +37,20 @@ class Questions extends React.Component {
   }
 
   componentDidMount() {
-    let url = `/api/exams/${this.props.params.school}/${this.props.params.course}`;
+    const {
+      school, course, exam, number,
+    } = this.props.params;
 
     this.props.startLoading();
 
-    if (this.state.mode === 'all') {
-      // ALL MODE. Fetches all exams, gathers all questions from all of them, shuffles.
-      API.getAll(url).then((questions) => {
-        this.props.stopLoading();
-        this.props.loadQuestions(questions);
-      });
-    } else if (this.state.mode === 'random') {
-      // RANDOM N MODE. Fetches n random questions from the course.
-      API.getRandom(url, this.props.params.number).then((questions) => {
-        this.props.stopLoading();
-        this.props.loadQuestions(questions);
-      });
-    } else if (this.state.mode === 'hardest') {
-      // HARDEST N MODE. Fetches n random questions from the course.
-      API.getHardest(url, this.props.params.number).then((questions) => {
-        this.props.stopLoading();
-        this.props.loadQuestions(questions);
-      });
-    } else {
-      // NON-RANDOM MODE. Fetches the selected exam and shuffles its questions.
-      url += `/${this.props.params.exam}`;
-      API.getSelected(url, {}).then((exam) => {
-        this.props.stopLoading();
-        this.props.loadQuestions(exam[0].questions);
-      });
-    }
+    getQuestions(school, course, {
+      mode: this.state.mode,
+      exam,
+      limit: number,
+    }).then((questions) => {
+      this.props.stopLoading();
+      this.props.loadQuestions(questions);
+    });
   }
 
   // Get the (current) ratio of correct answers per total number of answered questions.
@@ -131,18 +115,8 @@ class Questions extends React.Component {
       grade: Helpers.percentageToGrade(this.percentage()),
     };
 
-    API.post('/api/reports/add', report).then(() => {
-      // Fetch aggregated statistics from server
-      const url = `/api/stats/${this.props.params.school}/${this.props.params.course}/${report.exam.name}`;
-
-      const params = {};
-      if (report.exam.name === 'random') {
-        params.numQuestions = this.props.questions.length;
-      }
-
-      API.get(url, params).then((stats) => {
-        this.props.statsReceived({ ...stats, numQuestions: report.numQuestions });
-      });
+    sendReport(report).then((stats) => {
+      this.props.statsReceived({ ...stats, numQuestions: report.numQuestions });
     });
 
     return true;
