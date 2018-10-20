@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 // Schema
 const statsSchema = new mongoose.Schema({
@@ -19,7 +19,7 @@ const statsSchema = new mongoose.Schema({
     E: { type: Number },
     F: { type: Number },
   },
-});
+})
 
 
-module.exports = mongoose.model('Statistics', statsSchema);
+module.exports = mongoose.model('Statistics', statsSchema)

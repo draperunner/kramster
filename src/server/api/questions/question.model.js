@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 // Schema
 const questionSchema = new mongoose.Schema({
@@ -15,6 +15,6 @@ const questionSchema = new mongoose.Schema({
     totalAnswers: Number, // Should equal history.length
     totalCorrect: Number, // Should equal history.filter(q => wasCorrect).length
   },
-});
+})
 
-module.exports = mongoose.model('Question', questionSchema);
+module.exports = mongoose.model('Question', questionSchema)

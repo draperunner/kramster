@@ -1,10 +1,4 @@
 .about {
-  color: #2c3e50;
-  padding: 0 80px;
-  margin-bottom: 40px;
-}
-
-.about {
   composes: blue from '../../base-styles/colors.css';
 }
 

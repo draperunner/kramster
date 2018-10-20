@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-require('../questions/question.model');
+const mongoose = require('mongoose')
+require('../questions/question.model')
 
 // Schema
 const examSchema = new mongoose.Schema({
@@ -8,6 +8,6 @@ const examSchema = new mongoose.Schema({
   name: String,
   mode: String,
   questions: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Question' }],
-});
+})
 
-module.exports = mongoose.model('Exam', examSchema);
+module.exports = mongoose.model('Exam', examSchema)

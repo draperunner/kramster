@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 // Schema
 const reportSchema = new mongoose.Schema({
@@ -18,6 +18,6 @@ const reportSchema = new mongoose.Schema({
   numQuestions: Number,
   percentage: Number,
   grade: String,
-});
+})
 
-module.exports = mongoose.model('Report', reportSchema);
+module.exports = mongoose.model('Report', reportSchema)

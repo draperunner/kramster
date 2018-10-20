@@ -7,7 +7,9 @@
     "start": "nodemon src/server/server.js --exec babel-node",
     "build": "NODE_ENV=production webpack --progress --config webpack.config.prod.js && babel src/server -d dist/server",
     "prod": "npm run build && NODE_ENV=production node dist/server/server.js",
-    "lint": "eslint --ext js,jsx src/ && stylelint src/**/*.css",
+    "eslint": "eslint --ext js,js src/",
+    "stylelint": "stylelint src/**/*.css",
+    "lint": "npm run eslint && npm run stylelint",
     "test": "mocha",
     "deploy": "./deploy-production.sh",
     "deploy:staging": "./deploy-staging.sh"

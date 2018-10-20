@@ -14,5 +14,6 @@ module.exports = {
       'max-len': ['warn', 120],
       'no-param-reassign': 'off',
       'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
+      'semi': ['error', 'never'],
     }
 };
