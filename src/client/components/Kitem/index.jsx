@@ -24,7 +24,7 @@ const Kitem = (props) => {
       <div className={className}>
         <div className={styles[`${props.color}head`]}>
           <h3>
-            { props.head }
+            { props.head || '' }
           </h3>
         </div>
         <div className={styles.body}>
