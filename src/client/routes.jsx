@@ -28,7 +28,6 @@ export default
       <Route path="/:school" component={Courses} />
       <Route path="/:school/:course" component={Exams} />
       <Route path="/:school/:course/:mode/:number" component={Questions} />
-      <Route path="/:school/:course/all" component={Questions} />
       <Route path="/:school/:course/:exam" component={Questions} />
     </Route>
   </Router>;

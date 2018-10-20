@@ -21,8 +21,7 @@ class Questions extends React.Component {
 
     this.state = {
       finishedReturnedTrue: false, // Prevents multiples of the same report being sent to server.
-      // String representing the doc fetch mode.
-      // 'all' if All button is clicked. 'random' if Random X is clicked, etc.
+      // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
       mode: 'exam',
     };
 

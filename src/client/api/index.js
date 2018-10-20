@@ -29,10 +29,7 @@ export function getQuestions(school, course, options) {
     limit,
   }).then((data) => {
     if (exam) return data[0].questions;
-    if (mode !== 'all') return data;
-    return data
-      .map(({ questions }) => questions)
-      .reduce((a, b) => [...a, ...b]);
+    return data;
   });
 }
 
