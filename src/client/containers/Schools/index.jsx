@@ -14,10 +14,8 @@ class Schools extends React.Component {
     this.state = {
       gradesData: null,
       schools: [
-        'Norges Handelshøyskole (NHH)',
         'Norges Teknisk-Naturvitenskaplige Universitet (NTNU)',
-        'University of California, San Diego (UCSD)',
-        'University of Queensland (UQ)',
+        'Storbyuniversitetet (OsloMet)',
       ],
     };
   }
