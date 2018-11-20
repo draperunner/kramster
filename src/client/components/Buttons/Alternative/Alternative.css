@@ -11,6 +11,7 @@
   composes: darkGray from '../../../base-styles/colors.css';
   composes: whiteHover from '../../../base-styles/colors.css';
   composes: whiteBackground from '../../../base-styles/colors.css';
+  transition: all 300ms;
 }
 
 .alternative:hover,
