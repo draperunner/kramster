@@ -13,3 +13,4 @@ doc/
 *.bson
 *.metadata.json
 *.tar.gz
+.env

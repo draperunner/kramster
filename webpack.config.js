@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+const Dotenv = require('dotenv-webpack')
 
 module.exports = () => ({
   context: __dirname,
@@ -51,6 +52,7 @@ module.exports = () => ({
   },
   plugins: [
     new CleanWebpackPlugin('./dist'),
+    new Dotenv(),
     new HtmlWebpackPlugin({ template: 'src/client/index.html' }),
     // "cp -r src/client/assets dist/client/assets && cp src/client/manifest.json dist/client/",
     new CopyWebpackPlugin([

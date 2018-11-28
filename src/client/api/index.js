@@ -1,19 +1,21 @@
 import { get, post } from './http';
 
+const BASE_URL = process.env.API_BASE_URL;
+
 export function getStats() {
-  return get('/api/stats/');
+  return get(`${BASE_URL}/stats/`);
 }
 
 export function getSchools() {
-  return get('/api/list/schools');
+  return get(`${BASE_URL}/list/schools`);
 }
 
 export function getCourses(school) {
-  return get(`/api/list/courses/${school}`);
+  return get(`${BASE_URL}/list/courses/${school}`);
 }
 
 export function getExams(school, course) {
-  return get(`/api/list/exams/${school}/${course}`, { sort: '-alphabetically' });
+  return get(`${BASE_URL}/list/exams/${school}/${course}`, { sort: '-alphabetically' });
 }
 
 export function getQuestions(school, course, options) {
@@ -21,7 +23,7 @@ export function getQuestions(school, course, options) {
     exam, limit, mode,
   } = options;
 
-  const url = `/api/exams/${school}/${course}${exam ? `/${options.exam}` : ''}`;
+  const url = `${BASE_URL}/exams/${school}/${course}${exam ? `/${options.exam}` : ''}`;
 
   return get(url, {
     random: mode === 'random',
@@ -34,10 +36,10 @@ export function getQuestions(school, course, options) {
 }
 
 export function sendReport(report) {
-  return post('/api/reports/add', report).then(() => {
+  return post(`${BASE_URL}/reports/add`, report).then(() => {
     // Fetch aggregated statistics from server
     const { school, course, name } = report.exam;
-    const url = `/api/stats/${school}/${course}/${name}`;
+    const url = `${BASE_URL}/stats/${school}/${course}/${name}`;
 
     const params = {};
     if (name === 'random') {

@@ -1,6 +1,6 @@
-import webpack from 'webpack';
-import webpackMerge from 'webpack-merge';
-import commonConfig from './webpack.config';
+const webpack = require('webpack')
+const webpackMerge = require('webpack-merge')
+const commonConfig = require('./webpack.config')
 
 module.exports = () => webpackMerge(commonConfig(), {
   mode: 'development',
@@ -18,4 +18,4 @@ module.exports = () => webpackMerge(commonConfig(), {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
   ],
-});
+})
