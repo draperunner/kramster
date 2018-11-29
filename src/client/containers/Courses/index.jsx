@@ -3,6 +3,7 @@ import { browserHistory } from 'react-router';
 import { Row, Col } from 'react-flexbox-grid';
 import { getCourses } from '../../api';
 import Kitem from '../../components/Kitem';
+import LoadingSpinner from '../../components/LoadingSpinner';
 import styles from './Courses.css';
 
 // Returns a pretty header for the course (the course code)
@@ -32,6 +33,10 @@ class Courses extends React.Component {
   }
 
   render() {
+    if (!this.state.courses || !this.state.courses.length) {
+      return <LoadingSpinner />;
+    }
+
     const availableColors = ['orange', 'green', 'red', 'blue', 'purple', 'yellow'];
     const assignedColors = {};
     let colorIndex = 0;

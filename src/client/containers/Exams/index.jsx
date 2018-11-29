@@ -3,6 +3,7 @@ import { Row, Col } from 'react-flexbox-grid';
 import { getExams } from '../../api';
 import CategoryButton from '../../components/Buttons/CategoryButton';
 import StandardButton from '../../components/Buttons/StandardButton';
+import LoadingSpinner from '../../components/LoadingSpinner';
 import styles from './Exams.css';
 
 class Exams extends React.Component {
@@ -24,6 +25,10 @@ class Exams extends React.Component {
   }
 
   render() {
+    if (!this.state.exams || !this.state.exams.length) {
+      return <LoadingSpinner />;
+    }
+
     return (
       <div className={styles.wrapper}>
         <Row className={styles.categoriesRow}>
