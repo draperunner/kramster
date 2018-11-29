@@ -5,14 +5,13 @@
   "main": "src/server/server.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js",
-    "build": "NODE_ENV=production webpack --progress --config webpack.config.prod.js && babel src/server -d dist/server",
+    "build": "NODE_ENV=production webpack --progress --config webpack.config.prod.js",
     "prod": "npm run build && NODE_ENV=production node dist/server/server.js",
     "eslint": "eslint --ext js,js src/",
     "stylelint": "stylelint src/**/*.css",
     "lint": "npm run eslint && npm run stylelint",
     "test": "mocha",
-    "deploy": "./deploy-production.sh",
-    "deploy:staging": "./deploy-staging.sh"
+    "deploy": "npm run build && firebase deploy -P prod"
   },
   "repository": {
     "type": "git",
