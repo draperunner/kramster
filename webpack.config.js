@@ -52,7 +52,7 @@ module.exports = () => ({
   },
   plugins: [
     new CleanWebpackPlugin('./dist'),
-    new Dotenv(),
+    new Dotenv({ path: process.env.DOTENV_CONFIG_PATH }),
     new HtmlWebpackPlugin({ template: 'src/client/index.html' }),
     // "cp -r src/client/assets dist/client/assets && cp src/client/manifest.json dist/client/",
     new CopyWebpackPlugin([

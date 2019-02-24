@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "kramsterapp",
-    "prod": "kramsterapp"
+    "prod": "kramsterapp",
+    "staging": "kramster-staging"
   }
 }
