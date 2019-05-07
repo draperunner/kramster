@@ -8,7 +8,7 @@ module.exports = () => webpackMerge(commonConfig(), {
     'webpack-hot-middleware/client',
   ],
   output: {
-    // path: path.resolve(__dirname, 'src', 'client'),
+    // path: path.resolve(__dirname, 'src'),
     path: '/',
     filename: 'bundle.[hash].js',
   },

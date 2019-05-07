@@ -9,13 +9,13 @@ module.exports = () => ({
   context: __dirname,
   entry: [
     'whatwg-fetch',
-    './src/client/main.jsx',
+    './src/main.jsx',
   ],
   module: {
     rules: [
       {
         test: /\.css$/,
-        include: /src\/client|flexboxgrid/,
+        include: /src|flexboxgrid/,
         loaders: [
           'style-loader', {
             loader: 'css-loader',
@@ -45,7 +45,7 @@ module.exports = () => ({
   },
   resolve: {
     modules: [
-      path.resolve('src', 'client'),
+      path.resolve('src'),
       'node_modules',
     ],
     extensions: ['.js', '.jsx', '.scss'],
@@ -53,12 +53,12 @@ module.exports = () => ({
   plugins: [
     new CleanWebpackPlugin('./dist'),
     new Dotenv({ path: process.env.DOTENV_CONFIG_PATH }),
-    new HtmlWebpackPlugin({ template: 'src/client/index.html' }),
-    // "cp -r src/client/assets dist/client/assets && cp src/client/manifest.json dist/client/",
+    new HtmlWebpackPlugin({ template: 'src/index.html' }),
+    // "cp -r src/assets dist/assets && cp src/manifest.json dist/",
     new CopyWebpackPlugin([
       { from: 'assets', to: 'assets' },
       { from: 'manifest.json' },
-    ], { context: 'src/client' }),
+    ], { context: 'src' }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
       KRAMSTER_TRACKING_ID: JSON.stringify(process.env.KRAMSTER_TRACKING_ID),
