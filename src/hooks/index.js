@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import { getCourses } from '../api'
+import { getCourses, getExams } from '../api'
 
 export function useCourses(school) {
   const [courses, setCourses] = useState([])
@@ -10,4 +10,14 @@ export function useCourses(school) {
   }, [school])
 
   return courses
+}
+
+export function useExams(school, course) {
+  const [exams, setExams] = useState([])
+
+  useEffect(() => {
+    getExams(school, course).then(setExams)
+  }, [course, school])
+
+  return exams
 }
