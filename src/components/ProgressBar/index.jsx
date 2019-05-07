@@ -1,11 +1,11 @@
 /* eslint-disable react/no-array-index-key */
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './ProgressBar.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './ProgressBar.css'
 
 const ProgressBar = (props) => {
-  const value = props.questions.length > 0 ? 100 / props.questions.length : 0;
-  const type = index => (props.history[index] ? 'correct' : 'wrong');
+  const value = props.questions.length > 0 ? 100 / props.questions.length : 0
+  const type = index => (props.history[index] ? 'correct' : 'wrong')
 
   return (
     <div className={styles.wrapper}>
@@ -27,12 +27,12 @@ const ProgressBar = (props) => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
 ProgressBar.propTypes = {
   history: PropTypes.arrayOf(PropTypes.bool),
   questions: PropTypes.arrayOf(PropTypes.object),
-};
+}
 
-export default ProgressBar;
+export default ProgressBar

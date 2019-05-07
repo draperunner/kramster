@@ -1,20 +1,20 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { browserHistory } from 'react-router';
-import PropTypes from 'prop-types';
-import { Row, Col } from 'react-flexbox-grid';
-import Kitem from '../../components/Kitem';
-import Helpers from '../../utils/Helpers';
-import BarChart from '../../components/BarChart';
-import PieChart from '../../components/PieChart';
-import ResultButton from '../../components/Buttons/ResultButton';
-import styles from './Result.css';
+import React from 'react'
+import { connect } from 'react-redux'
+import { browserHistory } from 'react-router'
+import PropTypes from 'prop-types'
+import { Row, Col } from 'react-flexbox-grid'
+import Kitem from '../../components/Kitem'
+import Helpers from '../../utils/Helpers'
+import BarChart from '../../components/BarChart'
+import PieChart from '../../components/PieChart'
+import ResultButton from '../../components/Buttons/ResultButton'
+import styles from './Result.css'
 
 class Result extends React.Component {
   componentWillMount() {
-    const { history, params } = this.props;
+    const { history, params } = this.props
     if (!history.length) {
-      browserHistory.push(`/${params.splat}`);
+      browserHistory.push(`/${params.splat}`)
     }
   }
 
@@ -30,7 +30,7 @@ class Result extends React.Component {
       avgPercentage,
       params,
       stats,
-    } = this.props;
+    } = this.props
 
     return (
       <div>
@@ -123,7 +123,7 @@ Try another
           </Col>
         </Row>
       </div>
-    );
+    )
   }
 }
 
@@ -151,19 +151,19 @@ Result.propTypes = {
       F: PropTypes.number,
     }),
   }),
-};
+}
 
 const mapStateToProps = (state) => {
-  const { history, stats } = state.questions;
-  const totalNumberOfQuestions = stats.numReports * stats.numQuestions;
-  const avgPercentage = Helpers.formatPercentage(stats.totalScore, totalNumberOfQuestions);
-  const averageGrade = Helpers.percentageToGrade(avgPercentage);
-  const score = history.filter(q => q.wasCorrect).length;
-  const percentage = Helpers.formatPercentage(score, history.length);
-  const grade = Helpers.percentageToGrade(percentage);
-  const colors = Helpers.colors();
-  const colorFromUser = colors[grade];
-  const colorFromServer = colors[averageGrade];
+  const { history, stats } = state.questions
+  const totalNumberOfQuestions = stats.numReports * stats.numQuestions
+  const avgPercentage = Helpers.formatPercentage(stats.totalScore, totalNumberOfQuestions)
+  const averageGrade = Helpers.percentageToGrade(avgPercentage)
+  const score = history.filter(q => q.wasCorrect).length
+  const percentage = Helpers.formatPercentage(score, history.length)
+  const grade = Helpers.percentageToGrade(percentage)
+  const colors = Helpers.colors()
+  const colorFromUser = colors[grade]
+  const colorFromServer = colors[averageGrade]
 
   return {
     averageGrade,
@@ -176,7 +176,7 @@ const mapStateToProps = (state) => {
     percentage,
     score,
     stats,
-  };
-};
+  }
+}
 
-export default connect(mapStateToProps)(Result);
+export default connect(mapStateToProps)(Result)

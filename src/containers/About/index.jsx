@@ -1,7 +1,7 @@
-import React from 'react';
-import { Row, Col } from 'react-flexbox-grid';
-import Kitem from '../../components/Kitem';
-import styles from './About.css';
+import React from 'react'
+import { Row, Col } from 'react-flexbox-grid'
+import Kitem from '../../components/Kitem'
+import styles from './About.css'
 
 const About = () => (
   <div>
@@ -61,7 +61,9 @@ and star it on
           head="Add exam"
           body="As easy as sending an email. Literally."
           color="red"
-          onClick={() => { window.location = 'mailto:matsbyr@gmail.com'; }}
+          onClick={() => {
+            window.location = 'mailto:matsbyr@gmail.com'
+          }}
         />
       </Col>
       <Col xs={12} md={4}>
@@ -69,7 +71,9 @@ and star it on
           head="API"
           body="Do cool stuff with Kramster data."
           color="red"
-          onClick={() => { window.location = 'https://github.com/draperunner/Kramster/wiki/API-Reference'; }}
+          onClick={() => {
+            window.location = 'https://github.com/draperunner/Kramster/wiki/API-Reference'
+          }}
         />
       </Col>
       <Col xs={12} md={4}>
@@ -77,11 +81,13 @@ and star it on
           head="Code"
           body="It's all out there."
           color="red"
-          onClick={() => { window.location = 'http://github.com/draperunner/Kramster'; }}
+          onClick={() => {
+            window.location = 'http://github.com/draperunner/Kramster'
+          }}
         />
       </Col>
     </Row>
   </div>
-);
+)
 
-export default About;
+export default About

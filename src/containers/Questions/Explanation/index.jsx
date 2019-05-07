@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import MathElement from '../../../components/MathElement';
-import Helpers from '../../../utils/Helpers';
-import styles from './Explanation.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import MathElement from '../../../components/MathElement'
+import Helpers from '../../../utils/Helpers'
+import styles from './Explanation.css'
 
 /* eslint-disable react/no-danger */
 const Explanation = (props) => {
   if (!props.text) {
-    return null;
+    return null
   }
   return (
     <div className={styles.wrapper}>
@@ -21,11 +21,11 @@ const Explanation = (props) => {
         />
       </MathElement>
     </div>
-  );
-};
+  )
+}
 
 Explanation.propTypes = {
   text: PropTypes.string,
-};
+}
 
-export default Explanation;
+export default Explanation

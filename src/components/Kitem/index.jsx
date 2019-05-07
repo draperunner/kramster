@@ -1,22 +1,22 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './Kitem.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './Kitem.css'
 
 const Kitem = (props) => {
-  const mobile = window.screen.width < 800;
+  const mobile = window.screen.width < 800
 
-  let className = `${styles.kitem} `;
+  let className = `${styles.kitem} `
 
   if (props.color) {
-    className += `${styles[props.color]} `;
+    className += `${styles[props.color]} `
   }
 
   if (props.minHeight && !mobile) {
-    className += `${styles.minHeight} `;
+    className += `${styles.minHeight} `
   }
 
   if (!mobile && props.onClick) {
-    className += `${styles.clickable} `;
+    className += `${styles.clickable} `
   }
 
   if (!props.onClick) {
@@ -33,10 +33,10 @@ const Kitem = (props) => {
           </p>
         </div>
       </div>
-    );
+    )
   }
 
-  return (
+  return ( // eslint-disable-next-line jsx-a11y/anchor-is-valid
     <a
       className={className}
       role="button"
@@ -56,8 +56,8 @@ const Kitem = (props) => {
         </p>
       </div>
     </a>
-  );
-};
+  )
+}
 
 Kitem.propTypes = {
   body: PropTypes.string,
@@ -65,6 +65,6 @@ Kitem.propTypes = {
   color: PropTypes.node,
   minHeight: PropTypes.bool,
   onClick: PropTypes.func,
-};
+}
 
-export default Kitem;
+export default Kitem

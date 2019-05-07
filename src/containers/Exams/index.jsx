@@ -1,32 +1,32 @@
-import React from 'react';
-import { Row, Col } from 'react-flexbox-grid';
-import { getExams } from '../../api';
-import CategoryButton from '../../components/Buttons/CategoryButton';
-import StandardButton from '../../components/Buttons/StandardButton';
-import LoadingSpinner from '../../components/LoadingSpinner';
-import styles from './Exams.css';
+import React from 'react'
+import { Row, Col } from 'react-flexbox-grid'
+import { getExams } from '../../api'
+import CategoryButton from '../../components/Buttons/CategoryButton'
+import StandardButton from '../../components/Buttons/StandardButton'
+import LoadingSpinner from '../../components/LoadingSpinner'
+import styles from './Exams.css'
 
 class Exams extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
       school: props.params.school,
       course: props.params.course,
       exams: [],
-    };
+    }
   }
 
   componentDidMount() {
-    const { school, course } = this.state;
+    const { school, course } = this.state
     getExams(school, course).then((data) => {
-      this.setState({ exams: data });
-    });
+      this.setState({ exams: data })
+    })
   }
 
   render() {
     if (!this.state.exams || !this.state.exams.length) {
-      return <LoadingSpinner />;
+      return <LoadingSpinner />
     }
 
     return (
@@ -59,8 +59,8 @@ class Exams extends React.Component {
           ))}
         </Row>
       </div>
-    );
+    )
   }
 }
 
-export default Exams;
+export default Exams

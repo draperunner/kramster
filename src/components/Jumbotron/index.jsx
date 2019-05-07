@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import BarChart from '../BarChart';
-import styles from './Jumbotron.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import BarChart from '../BarChart'
+import styles from './Jumbotron.css'
 
 const Jumbotron = (props) => {
   const subtitle = () => {
@@ -13,10 +13,10 @@ const Jumbotron = (props) => {
       "You'll do great!",
       "Remember, grades aren't everything.",
       'Cram with Kramster!',
-    ];
+    ]
 
-    return subtitles[Math.floor(Math.random() * subtitles.length)];
-  };
+    return subtitles[Math.floor(Math.random() * subtitles.length)]
+  }
 
   return (
     <div className={styles.jumbotron}>
@@ -28,8 +28,8 @@ const Jumbotron = (props) => {
         {subtitle()}
       </h3>
     </div>
-  );
-};
+  )
+}
 
 Jumbotron.propTypes = {
   gradesData: PropTypes.shape({
@@ -40,6 +40,6 @@ Jumbotron.propTypes = {
     E: PropTypes.number,
     F: PropTypes.number,
   }),
-};
+}
 
-export default Jumbotron;
+export default Jumbotron

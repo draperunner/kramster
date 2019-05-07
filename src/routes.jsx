@@ -1,22 +1,22 @@
-import React from 'react';
+import React from 'react'
 import {
   Router, Route, IndexRoute, browserHistory,
-} from 'react-router';
-import ReactGA from 'react-ga';
+} from 'react-router'
+import ReactGA from 'react-ga'
 
-import AppContainer from './containers/AppContainer';
-import About from './containers/About';
-import Schools from './containers/Schools';
-import Courses from './containers/Courses';
-import Exams from './containers/Exams';
-import Questions from './containers/Questions';
-import Result from './containers/Result';
+import AppContainer from './containers/AppContainer'
+import About from './containers/About'
+import Schools from './containers/Schools'
+import Courses from './containers/Courses'
+import Exams from './containers/Exams'
+import Questions from './containers/Questions'
+import Result from './containers/Result'
 
-ReactGA.initialize(KRAMSTER_TRACKING_ID);
+ReactGA.initialize(KRAMSTER_TRACKING_ID)
 
 function logPageView() {
-  ReactGA.set({ page: window.location.pathname });
-  ReactGA.pageview(window.location.pathname);
+  ReactGA.set({ page: window.location.pathname })
+  ReactGA.pageview(window.location.pathname)
 }
 
 export default
@@ -30,4 +30,4 @@ export default
       <Route path="/:school/:course/:mode/:number" component={Questions} />
       <Route path="/:school/:course/:exam" component={Questions} />
     </Route>
-  </Router>;
+  </Router>

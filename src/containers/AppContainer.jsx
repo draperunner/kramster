@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Grid } from 'react-flexbox-grid';
-import Navbar from '../components/Navbar';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Grid } from 'react-flexbox-grid'
+import Navbar from '../components/Navbar'
 
 const App = props => (
   <Grid>
@@ -9,10 +9,10 @@ const App = props => (
 
     {props.children}
   </Grid>
-);
+)
 
 App.propTypes = {
   children: PropTypes.node,
-};
+}
 
-export default App;
+export default App

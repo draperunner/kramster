@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router';
-import PropTypes from 'prop-types';
+import React from 'react'
+import { Link } from 'react-router'
+import PropTypes from 'prop-types'
 
 const BaseButton = props => (
   <Link
@@ -15,12 +15,12 @@ const BaseButton = props => (
   >
     {props.children}
   </Link>
-);
+)
 
 BaseButton.propTypes = {
   className: PropTypes.string,
   href: PropTypes.string,
   onClick: PropTypes.func,
-};
+}
 
-export default BaseButton;
+export default BaseButton

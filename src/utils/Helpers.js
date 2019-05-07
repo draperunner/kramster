@@ -1,4 +1,4 @@
-import sanitizeHtml from 'sanitize-html';
+import sanitizeHtml from 'sanitize-html'
 
 /**
  * @file Contains static helper methods.
@@ -14,20 +14,20 @@ const Helpers = {
       D: 'yellow',
       E: 'orange',
       F: 'red',
-    };
+    }
   },
 
   formatPercentage(dividend, divisor) {
-    return Math.round((10000 * dividend) / divisor) / 100;
+    return Math.round((10000 * dividend) / divisor) / 100
   },
 
   // Returns a score status message. Example: "3 (60%)"
   formatStatusMessage(score, percentage) {
-    return `${score.toFixed(2)} (${percentage}%)`;
+    return `${score.toFixed(2)} (${percentage}%)`
   },
 
   reloadRoute() {
-    window.location.reload();
+    window.location.reload()
   },
 
   /**
@@ -37,15 +37,15 @@ const Helpers = {
    * @returns {string} grade - A appropriate letter grade.
    */
   percentageToGrade(percentage) {
-    const scale = [89, 77, 65, 53, 41];
-    const grades = ['A', 'B', 'C', 'D', 'E'];
+    const scale = [89, 77, 65, 53, 41]
+    const grades = ['A', 'B', 'C', 'D', 'E']
     for (let i = 0; i < scale.length; i++) {
       if (percentage >= scale[i]) {
-        return grades[i];
+        return grades[i]
       }
     }
 
-    return 'F';
+    return 'F'
   },
 
   /**
@@ -55,16 +55,16 @@ const Helpers = {
   * @returns {Object[]} - The shuffled array
   */
   shuffle(array) {
-    const size = array.length;
-    const arr = [...array];
+    const size = array.length
+    const arr = [...array]
     for (let i = 0; i < size; i++) {
-      const j = Math.round(i + ((size - 1 - i) * Math.random()));
-      const temp = array[i];
-      arr[i] = array[j];
-      arr[j] = temp;
+      const j = Math.round(i + ((size - 1 - i) * Math.random()))
+      const temp = array[i]
+      arr[i] = array[j]
+      arr[j] = temp
     }
 
-    return arr;
+    return arr
   },
 
   /**
@@ -74,7 +74,7 @@ const Helpers = {
    * @returns {Object[]} - The result of RegExp.prototype.exec().
    */
   findSubstringEnclosedInParenthesis(s) {
-    return /\(([^)]+)\)/.exec(s);
+    return /\(([^)]+)\)/.exec(s)
   },
 
 
@@ -84,13 +84,13 @@ const Helpers = {
    * @returns {string} - ISO 860-formatted timestamp with timezone offset.
    */
   getLocalTime() {
-    const now = new Date();
-    const timezoneOffset = -now.getTimezoneOffset();
-    const sign = timezoneOffset >= 0 ? '+' : '-';
+    const now = new Date()
+    const timezoneOffset = -now.getTimezoneOffset()
+    const sign = timezoneOffset >= 0 ? '+' : '-'
     const pad = (num) => {
-      const norm = Math.abs(Math.floor(num));
-      return (norm < 10 ? '0' : '') + norm;
-    };
+      const norm = Math.abs(Math.floor(num))
+      return (norm < 10 ? '0' : '') + norm
+    }
 
     return `${now.getFullYear()
     }-${pad(now.getMonth() + 1)
@@ -99,7 +99,7 @@ const Helpers = {
     }:${pad(now.getMinutes())
     }:${pad(now.getSeconds())
     }${sign}${pad(timezoneOffset / 60)
-    }:${pad(timezoneOffset % 60)}`;
+    }:${pad(timezoneOffset % 60)}`
   },
 
   /**
@@ -113,8 +113,8 @@ const Helpers = {
         img: ['class', 'src'],
       },
       allowedSchemes: sanitizeHtml.defaults.allowedSchemes.concat(['data']),
-    });
+    })
   },
-};
+}
 
-export default Helpers;
+export default Helpers

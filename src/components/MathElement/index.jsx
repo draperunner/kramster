@@ -1,21 +1,26 @@
-import React from 'react';
+import React from 'react'
 
 class MathElement extends React.Component {
   componentDidMount() {
-    renderMathInElement(this.mathElement);
+    renderMathInElement(this.mathElement)
   }
 
   componentDidUpdate() {
-    renderMathInElement(this.mathElement);
+    renderMathInElement(this.mathElement)
   }
 
   render() {
     return (
-      <span {...this.props} ref={(input) => { this.mathElement = input; }}>
+      <span
+        {...this.props}
+        ref={(input) => {
+          this.mathElement = input
+        }}
+      >
         { this.props.children }
       </span>
-    );
+    )
   }
 }
 
-export default MathElement;
+export default MathElement

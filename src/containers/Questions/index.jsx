@@ -1,87 +1,89 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-import { Row, Col } from 'react-flexbox-grid';
-import { getQuestions, sendReport } from '../../api';
-import LoadingSpinner from '../../components/LoadingSpinner';
-import Helpers from '../../utils/Helpers';
-import ProgressBar from '../../components/ProgressBar';
+import React from 'react'
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
+import { Row, Col } from 'react-flexbox-grid'
+import { getQuestions, sendReport } from '../../api'
+import LoadingSpinner from '../../components/LoadingSpinner'
+import Helpers from '../../utils/Helpers'
+import ProgressBar from '../../components/ProgressBar'
 import {
   clear, giveAnswer, loadQuestions, statsReceived,
-} from '../../actions/QuestionActions';
-import { startLoading, stopLoading } from '../../actions/LoadingActions';
-import Question from './Question';
-import Explanation from './Explanation';
-import Alternative from '../../components/Buttons/Alternative';
-import styles from './Questions.css';
+} from '../../actions/QuestionActions'
+import { startLoading, stopLoading } from '../../actions/LoadingActions'
+import Question from './Question'
+import Explanation from './Explanation'
+import Alternative from '../../components/Buttons/Alternative'
+import styles from './Questions.css'
 
 class Questions extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
       finishedReturnedTrue: false, // Prevents multiples of the same report being sent to server.
       // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
       mode: 'exam',
-    };
+    }
 
     if (!props.params.exam && !props.params.mode) {
-      this.state.mode = 'all';
-    } else if (props.params.mode) {
-      this.state.mode = props.params.mode;
+      this.state.mode = 'all'
+    }
+    else if (props.params.mode) {
+      this.state.mode = props.params.mode
     }
 
     // Clear quiz history in case this is not the first quiz
-    this.props.clear();
+    this.props.clear()
   }
 
   componentDidMount() {
     const {
       school, course, exam, number,
-    } = this.props.params;
+    } = this.props.params
 
-    this.props.startLoading();
+    this.props.startLoading()
 
     getQuestions(school, course, {
       mode: this.state.mode,
       exam,
       limit: number,
     }).then((questions) => {
-      this.props.stopLoading();
-      this.props.loadQuestions(questions);
-    });
+      this.props.stopLoading()
+      this.props.loadQuestions(questions)
+    })
   }
 
   // Get the (current) ratio of correct answers per total number of answered questions.
   percentage() {
-    if (this.props.history.length === 0) return 0;
-    const numCorrect = this.props.history.map(q => q.wasCorrect).filter(Boolean).length;
-    return Math.round((10000 * numCorrect) / this.props.history.length) / 100;
+    if (this.props.history.length === 0) return 0
+    const numCorrect = this.props.history.map(q => q.wasCorrect).filter(Boolean).length
+    return Math.round((10000 * numCorrect) / this.props.history.length) / 100
   }
 
   // Returns the class (color, mostly) of the option button
   // decided by if it's the right answer or not.
   buttonClass(option) {
     if (!this.props.answerGiven) {
-      const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-      return mobile ? 'alternativeMobile' : 'alternative';
+      const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+      return mobile ? 'alternativeMobile' : 'alternative'
     }
 
-    const previousQuestion = this.props.questions[this.props.history.length - 1];
+    const previousQuestion = this.props.questions[this.props.history.length - 1]
 
     // Check if the option the button represents is one of the correct answers.
     if (previousQuestion.answers.indexOf(previousQuestion.options.indexOf(option)) >= 0) {
-      return 'correctAnswer';
+      return 'correctAnswer'
     }
 
-    return 'wrongAnswer';
+    return 'wrongAnswer'
   }
 
   answer(givenAnswer) {
     if (this.finished()) {
-      this.props.router.push(`${this.props.location.pathname}/results`);
-    } else {
-      this.props.answer(givenAnswer);
+      this.props.router.push(`${this.props.location.pathname}/results`)
+    }
+    else {
+      this.props.answer(givenAnswer)
     }
   }
 
@@ -89,16 +91,16 @@ class Questions extends React.Component {
   // Fetches aggregated stats from server.
   finished() {
     if (this.props.history.length < this.props.questions.length || this.props.questions.length === 0) {
-      return false;
+      return false
     }
 
     if (this.state.finishedReturnedTrue) {
-      return true;
+      return true
     }
 
     this.setState({
       finishedReturnedTrue: true,
-    });
+    })
 
     const report = {
       exam: {
@@ -112,20 +114,20 @@ class Questions extends React.Component {
       numQuestions: this.props.questions.length,
       percentage: this.percentage(),
       grade: Helpers.percentageToGrade(this.percentage()),
-    };
+    }
 
     sendReport(report).then((stats) => {
-      this.props.statsReceived({ ...stats, numQuestions: report.numQuestions });
-    });
+      this.props.statsReceived({ ...stats, numQuestions: report.numQuestions })
+    })
 
-    return true;
+    return true
   }
 
   render() {
-    const question = this.props.currentQuestion;
+    const question = this.props.currentQuestion
 
     if (this.props.loading) {
-      return <LoadingSpinner />;
+      return <LoadingSpinner />
     }
 
     return (
@@ -163,7 +165,7 @@ class Questions extends React.Component {
           </Row>
         ) : null }
       </div>
-    );
+    )
   }
 }
 
@@ -191,7 +193,7 @@ Questions.propTypes = {
     options: PropTypes.arrayOf(PropTypes.string),
     question: PropTypes.string,
   })),
-};
+}
 
 const mapStateToProps = state => ({
   answerGiven: state.questions.answerGiven,
@@ -199,27 +201,27 @@ const mapStateToProps = state => ({
   history: state.questions.history,
   questions: state.questions.questions,
   loading: state.loading.loading,
-});
+})
 
 const mapDispatchToProps = dispatch => ({
   answer: (option) => {
-    dispatch(giveAnswer(option));
+    dispatch(giveAnswer(option))
   },
   clear: () => {
-    dispatch(clear());
+    dispatch(clear())
   },
   loadQuestions: (questions) => {
-    dispatch(loadQuestions(questions));
+    dispatch(loadQuestions(questions))
   },
   statsReceived: (stats) => {
-    dispatch(statsReceived(stats));
+    dispatch(statsReceived(stats))
   },
   startLoading: () => {
-    dispatch(startLoading());
+    dispatch(startLoading())
   },
   stopLoading: () => {
-    dispatch(stopLoading());
+    dispatch(stopLoading())
   },
-});
+})
 
-export default connect(mapStateToProps, mapDispatchToProps)(Questions);
+export default connect(mapStateToProps, mapDispatchToProps)(Questions)

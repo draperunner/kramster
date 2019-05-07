@@ -1,9 +1,9 @@
-import React from 'react';
-import { Bar } from 'react-chartjs-2';
-import PropTypes from 'prop-types';
+import React from 'react'
+import { Bar } from 'react-chartjs-2'
+import PropTypes from 'prop-types'
 
 const BarChart = (props) => {
-  const sortedKeys = Object.keys(props.data).sort();
+  const sortedKeys = Object.keys(props.data).sort()
 
   const data = {
     labels: sortedKeys,
@@ -14,7 +14,7 @@ const BarChart = (props) => {
       hoverBackgroundColor: '#ed5242',
       hoverBorderColor: '#ed5242',
     }],
-  };
+  }
 
   const options = {
     legend: {
@@ -40,17 +40,17 @@ const BarChart = (props) => {
       bodyFontSize: 16,
       callbacks: {
         title(tooltipItems) {
-          return tooltipItems[0].xLabel;
+          return tooltipItems[0].xLabel
         },
         label(tooltipItems) {
-          return `${tooltipItems.yLabel}`;
+          return `${tooltipItems.yLabel}`
         },
       },
     },
-  };
+  }
 
-  return <Bar data={data} options={options} />;
-};
+  return <Bar data={data} options={options} />
+}
 
 BarChart.propTypes = {
   data: PropTypes.shape({
@@ -61,6 +61,6 @@ BarChart.propTypes = {
     E: PropTypes.number,
     F: PropTypes.number,
   }),
-};
+}
 
-export default BarChart;
+export default BarChart
