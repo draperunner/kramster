@@ -10,12 +10,16 @@ module.exports = {
       jsx: true,
     }
   },
+  plugins: [
+    'react-hooks',
+  ],
   globals: {
     renderMathInElement: false,
     KRAMSTER_TRACKING_ID: false,
   },
   rules: {
     'brace-style': ['warn', 'stroustrup'],
+    'import/prefer-default-export': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'max-len': ['warn', 120],
     'no-param-reassign': 'off',
@@ -24,6 +28,8 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
+    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': 'error',
     'semi': ['error', 'never'],
   }
 };
