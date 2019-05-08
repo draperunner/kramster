@@ -41,6 +41,10 @@ module.exports = () => ({
           plugins: ['react-hot-loader/babel'],
         },
       },
+      {
+        test: /\.(eot|png|ttf|woff2?|otf)$/,
+        loader: 'file-loader',
+      },
     ],
   },
   resolve: {

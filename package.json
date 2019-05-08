@@ -7,12 +7,13 @@
     "start": "webpack-dev-server --config webpack.config.dev.js",
     "build": "NODE_ENV=production webpack --progress --config webpack.config.prod.js",
     "build:staging": "DOTENV_CONFIG_PATH=.env.staging npm run build",
-    "prod": "npm run build && NODE_ENV=production node dist/server/server.js",
+    "build:prod": "DOTENV_CONFIG_PATH=.env npm run build",
+    "prod": "npm run build:prod && NODE_ENV=production node dist/server/server.js",
     "eslint": "eslint --ext js,jsx src/",
     "stylelint": "stylelint src/**/*.css",
     "lint": "npm run eslint && npm run stylelint",
     "test": "mocha",
-    "deploy": "npm run build && firebase deploy -P prod",
+    "deploy": "npm run build:prod && firebase deploy -P prod",
     "deploy:staging": "npm run build:staging && firebase deploy -P staging"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "chart.js": "^2.8.0",
+    "katex": "^0.10.1",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "qs": "^6.7.0",
@@ -58,6 +60,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
+    "file-loader": "^3.0.1",
     "html-webpack-plugin": "^3.2.0",
     "ink-docstrap": "^1.3.2",
     "json-loader": "^0.5.4",

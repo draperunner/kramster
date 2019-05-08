@@ -4,6 +4,9 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import reducers from './reducers'
 import routes from './routes'
+import 'katex'
+import 'katex/dist/katex.min.css'
+
 import './base-styles/main.css'
 
 const store = createStore(reducers)

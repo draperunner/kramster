@@ -1,4 +1,5 @@
 import React from 'react'
+import renderMathInElement from 'katex/dist/contrib/auto-render'
 
 class MathElement extends React.Component {
   componentDidMount() {

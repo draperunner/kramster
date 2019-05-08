@@ -14,7 +14,6 @@ module.exports = {
     'react-hooks',
   ],
   globals: {
-    renderMathInElement: false,
     KRAMSTER_TRACKING_ID: false,
   },
   rules: {
