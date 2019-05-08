@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
 import { browserHistory } from 'react-router'
 import PropTypes from 'prop-types'
@@ -10,121 +10,119 @@ import PieChart from '../../components/PieChart'
 import ResultButton from '../../components/Buttons/ResultButton'
 import styles from './Result.css'
 
-class Result extends React.Component {
-  componentWillMount() {
-    const { history, params } = this.props
+function Result(props) {
+  const {
+    grade,
+    colorFromUser,
+    colorFromServer,
+    score,
+    percentage,
+    averageGrade,
+    averageScore,
+    avgPercentage,
+    params,
+    stats,
+    history,
+  } = props
+
+  useEffect(() => {
     if (!history.length) {
       browserHistory.push(`/${params.splat}`)
     }
-  }
+  }, [history.length, params.splat])
 
-  render() {
-    const {
-      grade,
-      colorFromUser,
-      colorFromServer,
-      score,
-      percentage,
-      averageGrade,
-      averageScore,
-      avgPercentage,
-      params,
-      stats,
-    } = this.props
+  return (
+    <div>
+      <Row className={styles.row}>
+        <Col xs={12}>
+          <h1 className={styles.header}>
+            Your results
+          </h1>
+        </Col>
 
-    return (
-      <div>
-        <Row className={styles.row}>
-          <Col xs={12}>
-            <h1 className={styles.header}>
-Your results
-            </h1>
-          </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={grade}
+            body="Grade"
+            clickable={false}
+            color={colorFromUser}
+          />
+        </Col>
 
-          <Col xs={4} md={4}>
-            <Kitem
-              head={grade}
-              body="Grade"
-              clickable={false}
-              color={colorFromUser}
-            />
-          </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={score}
+            body="Score"
+            clickable={false}
+            color={colorFromUser}
+          />
+        </Col>
 
-          <Col xs={4} md={4}>
-            <Kitem
-              head={score}
-              body="Score"
-              clickable={false}
-              color={colorFromUser}
-            />
-          </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={percentage}
+            body="%"
+            clickable={false}
+            color={colorFromUser}
+          />
+        </Col>
+      </Row>
 
-          <Col xs={4} md={4}>
-            <Kitem
-              head={percentage}
-              body="%"
-              clickable={false}
-              color={colorFromUser}
-            />
-          </Col>
-        </Row>
+      <Row className={styles.row}>
+        <Col xs={12}>
+          <h1 className={styles.header}>
+            Stats for this exam
+          </h1>
+        </Col>
 
-        <Row className={styles.row}>
-          <Col xs={12}>
-            <h1 className={styles.header}>
-Stats for this exam
-            </h1>
-          </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={averageGrade}
+            body="Average Grade"
+            clickable={false}
+            color={colorFromServer}
+          />
+        </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={averageScore}
+            body="Average Score"
+            clickable={false}
+            color={colorFromServer}
+          />
+        </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={avgPercentage}
+            body="Average %"
+            clickable={false}
+            color={colorFromServer}
+          />
+        </Col>
+      </Row>
 
-          <Col xs={4} md={4}>
-            <Kitem
-              head={averageGrade}
-              body="Average Grade"
-              clickable={false}
-              color={colorFromServer}
-            />
-          </Col>
-          <Col xs={4} md={4}>
-            <Kitem
-              head={averageScore}
-              body="Average Score"
-              clickable={false}
-              color={colorFromServer}
-            />
-          </Col>
-          <Col xs={4} md={4}>
-            <Kitem
-              head={avgPercentage}
-              body="Average %"
-              clickable={false}
-              color={colorFromServer}
-            />
-          </Col>
-        </Row>
-
-        <Row className={styles.row}>
-          <Col xs={6} sm={4}>
-            { stats.grades ? <PieChart data={stats.grades} /> : null }
-          </Col>
-          <Col xs={6} sm={4}>
-            { stats.grades ? <BarChart data={stats.grades} /> : null }
-          </Col>
-          <Col xs={12} sm={4}>
-            <ResultButton href={`/${params.splat}`}>
-              <h4>
-Try again
-              </h4>
-            </ResultButton>
-            <ResultButton href={`/${params.splat.split('/').slice(0, 2).join('/')}`}>
-              <h4>
-Try another
-              </h4>
-            </ResultButton>
-          </Col>
-        </Row>
-      </div>
-    )
-  }
+      <Row className={styles.row}>
+        <Col xs={6} sm={4}>
+          { stats.grades ? <PieChart data={stats.grades} /> : null }
+        </Col>
+        <Col xs={6} sm={4}>
+          { stats.grades ? <BarChart data={stats.grades} /> : null }
+        </Col>
+        <Col xs={12} sm={4}>
+          <ResultButton href={`/${params.splat}`}>
+            <h4>
+              Try again
+            </h4>
+          </ResultButton>
+          <ResultButton href={`/${params.splat.split('/').slice(0, 2).join('/')}`}>
+            <h4>
+              Try another
+            </h4>
+          </ResultButton>
+        </Col>
+      </Row>
+    </div>
+  )
 }
 
 Result.propTypes = {
