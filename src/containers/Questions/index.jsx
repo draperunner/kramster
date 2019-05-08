@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { Row, Col } from 'react-flexbox-grid'
 import { getQuestions, sendReport } from '../../api'
 import LoadingSpinner from '../../components/LoadingSpinner'
-import Helpers from '../../utils/Helpers'
+import { getLocalTime, percentageToGrade } from '../../utils'
 import ProgressBar from '../../components/ProgressBar'
 import {
   clear, giveAnswer, loadQuestions, statsReceived,
@@ -108,12 +108,12 @@ class Questions extends React.Component {
         course: this.props.params.course,
         name: (this.state.mode !== 'exam') ? this.state.mode : this.props.params.exam,
       },
-      createdAt: Helpers.getLocalTime(),
+      createdAt: getLocalTime(),
       history: this.props.history,
       score: this.props.history.filter(q => q.wasCorrect).length,
       numQuestions: this.props.questions.length,
       percentage: this.percentage(),
-      grade: Helpers.percentageToGrade(this.percentage()),
+      grade: percentageToGrade(this.percentage()),
     }
 
     sendReport(report).then((stats) => {

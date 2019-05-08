@@ -4,7 +4,7 @@ import { browserHistory } from 'react-router'
 import PropTypes from 'prop-types'
 import { Row, Col } from 'react-flexbox-grid'
 import Kitem from '../../components/Kitem'
-import Helpers from '../../utils/Helpers'
+import { formatPercentage, percentageToGrade, colors } from '../../utils'
 import BarChart from '../../components/BarChart'
 import PieChart from '../../components/PieChart'
 import ResultButton from '../../components/Buttons/ResultButton'
@@ -154,14 +154,13 @@ Result.propTypes = {
 const mapStateToProps = (state) => {
   const { history, stats } = state.questions
   const totalNumberOfQuestions = stats.numReports * stats.numQuestions
-  const avgPercentage = Helpers.formatPercentage(stats.totalScore, totalNumberOfQuestions)
-  const averageGrade = Helpers.percentageToGrade(avgPercentage)
+  const avgPercentage = formatPercentage(stats.totalScore, totalNumberOfQuestions)
+  const averageGrade = percentageToGrade(avgPercentage)
   const score = history.filter(q => q.wasCorrect).length
-  const percentage = Helpers.formatPercentage(score, history.length)
-  const grade = Helpers.percentageToGrade(percentage)
-  const colors = Helpers.colors()
-  const colorFromUser = colors[grade]
-  const colorFromServer = colors[averageGrade]
+  const percentage = formatPercentage(score, history.length)
+  const grade = percentageToGrade(percentage)
+  const colorFromUser = colors()[grade]
+  const colorFromServer = colors()[averageGrade]
 
   return {
     averageGrade,

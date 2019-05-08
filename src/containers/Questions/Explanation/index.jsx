@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import MathElement from '../../../components/MathElement'
-import Helpers from '../../../utils/Helpers'
+import { sanitize } from '../../../utils'
 import styles from './Explanation.css'
 
 /* eslint-disable react/no-danger */
@@ -17,7 +17,7 @@ const Explanation = (props) => {
       <MathElement>
         <h4
           className={styles.text}
-          dangerouslySetInnerHTML={{ __html: Helpers.sanitize(props.text) }}
+          dangerouslySetInnerHTML={{ __html: sanitize(props.text) }}
         />
       </MathElement>
     </div>

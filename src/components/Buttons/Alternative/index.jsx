@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import BaseButton from '../BaseButton'
 import MathElement from '../../MathElement'
-import Helpers from '../../../utils/Helpers'
+import { sanitize } from '../../../utils'
 import styles from './Alternative.css'
 
 /* eslint-disable react/no-danger */
 const Alternative = (props) => {
-  const text = Helpers.sanitize(props.text)
+  const text = sanitize(props.text)
 
   return (
     <BaseButton
