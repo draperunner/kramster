@@ -1,25 +1,6 @@
 {
   "presets": [
-    ["env", {
-      "es2015": {
-        "loose": true,
-        "modules": false
-      }
-    }], "react"
-  ],
-  "plugins": [
-    "transform-es2015-destructuring",
-    "transform-object-rest-spread"
-  ],
-  "env": {
-    "development": {
-      "plugins": [["react-transform", {
-        "transforms": [{
-          "transform": "react-transform-hmr",
-          "imports": ["react"],
-          "locals": ["module"]
-        }]
-      }]]
-    }
-  }
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
 }
