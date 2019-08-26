@@ -8,7 +8,7 @@ const PieChart = (props) => {
   const data = {
     labels: sortedKeys,
     datasets: [{
-      data: sortedKeys.map(k => props.data[k]),
+      data: sortedKeys.map((k) => props.data[k]),
       backgroundColor: ['#2ecc71', '#3498db', '#9b59b6', '#f1c40f', '#e67e22', '#e74c3c'],
       borderColor: ['#2ecc71', '#3498db', '#9b59b6', '#f1c40f', '#e67e22', '#e74c3c'],
       hoverBackgroundColor: ['#34d276', '#399de0', '#a05ebb', '#f6c915', '#eb8327', '#ed5242'],

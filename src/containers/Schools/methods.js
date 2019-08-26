@@ -7,7 +7,7 @@ export const header = (school) => {
   if (abb) return abb[1]
 
   // If no abbreviation, make one from the leading letters in each word
-  return school.split(' ').map(e => e[0]).join('')
+  return school.split(' ').map((e) => e[0]).join('')
 }
 
 // Returns the full name of the school. Removes abbr. and parenthesis from school string

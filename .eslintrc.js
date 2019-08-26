@@ -27,6 +27,7 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'semi': ['error', 'never'],

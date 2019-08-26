@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router'
 import PropTypes from 'prop-types'
 
-const BaseButton = props => (
+const BaseButton = (props) => (
   <Link
     to={props.href}
     className={props.className}
     onClick={props.onClick}
-    onKeyDown={e => e.which === 13 && props.onClick && props.onClick(e)}
+    onKeyDown={(e) => e.which === 13 && props.onClick && props.onClick(e)}
     role="button"
     type="button"
     focusable

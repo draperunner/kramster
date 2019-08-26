@@ -21,7 +21,7 @@ function Schools() {
       <Jumbotron gradesData={grades} />
 
       <Row className={styles.schoolsRow}>
-        {schools.map(school => (
+        {schools.map((school) => (
           <Col xs={12} sm={6} lg={3} key={school}>
             <Kitem
               head={header(school)}

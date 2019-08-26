@@ -5,7 +5,7 @@ import { sanitize } from '../../../utils'
 import styles from './Question.css'
 
 /* eslint-disable react/no-danger */
-const Question = props => (
+const Question = (props) => (
   <MathElement>
     <h3
       className={styles.question}

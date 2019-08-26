@@ -156,7 +156,7 @@ const mapStateToProps = (state) => {
   const totalNumberOfQuestions = stats.numReports * stats.numQuestions
   const avgPercentage = formatPercentage(stats.totalScore, totalNumberOfQuestions)
   const averageGrade = percentageToGrade(avgPercentage)
-  const score = history.filter(q => q.wasCorrect).length
+  const score = history.filter((q) => q.wasCorrect).length
   const percentage = formatPercentage(score, history.length)
   const grade = percentageToGrade(percentage)
   const colorFromUser = colors()[grade]

@@ -8,7 +8,7 @@ const BarChart = (props) => {
   const data = {
     labels: sortedKeys,
     datasets: [{
-      data: sortedKeys.map(k => props.data[k]),
+      data: sortedKeys.map((k) => props.data[k]),
       backgroundColor: '#e74c3c',
       borderColor: '#e74c3c',
       hoverBackgroundColor: '#ed5242',

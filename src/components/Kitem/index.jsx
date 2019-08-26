@@ -42,7 +42,7 @@ const Kitem = (props) => {
       role="button"
       tabIndex={0}
       focusable
-      onKeyDown={e => e.which === 13 && props.onClick(e)}
+      onKeyDown={(e) => e.which === 13 && props.onClick(e)}
       onClick={props.onClick}
     >
       <div className={styles[`${props.color}head`]}>

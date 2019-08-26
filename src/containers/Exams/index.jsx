@@ -35,7 +35,7 @@ function Exams(props) {
       </Row>
 
       <Row className={styles.examsRow}>
-        { exams.map(exam => (
+        { exams.map((exam) => (
           <Col key={exam} xs={6} md={4} lg={3} className={styles.col}>
             <StandardButton href={`/${school}/${course}/${exam}`}>
               { exam }

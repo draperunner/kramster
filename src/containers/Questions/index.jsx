@@ -56,7 +56,7 @@ class Questions extends React.Component {
   // Get the (current) ratio of correct answers per total number of answered questions.
   percentage() {
     if (this.props.history.length === 0) return 0
-    const numCorrect = this.props.history.map(q => q.wasCorrect).filter(Boolean).length
+    const numCorrect = this.props.history.map((q) => q.wasCorrect).filter(Boolean).length
     return Math.round((10000 * numCorrect) / this.props.history.length) / 100
   }
 
@@ -110,7 +110,7 @@ class Questions extends React.Component {
       },
       createdAt: getLocalTime(),
       history: this.props.history,
-      score: this.props.history.filter(q => q.wasCorrect).length,
+      score: this.props.history.filter((q) => q.wasCorrect).length,
       numQuestions: this.props.questions.length,
       percentage: this.percentage(),
       grade: percentageToGrade(this.percentage()),
@@ -132,7 +132,7 @@ class Questions extends React.Component {
 
     return (
       <div>
-        <ProgressBar history={this.props.history.map(q => q.wasCorrect)} questions={this.props.questions} />
+        <ProgressBar history={this.props.history.map((q) => q.wasCorrect)} questions={this.props.questions} />
 
         { this.props.questions.length ? (
           <Row className={styles.questionRow}>
@@ -145,7 +145,7 @@ class Questions extends React.Component {
         { this.props.questions.length ? (
           <Row className={styles.alternativesRow}>
             <Col xs={12} className={styles.alternativesCol}>
-              { question && question.options.map(option => (
+              { question && question.options.map((option) => (
                 <Alternative
                   key={option}
                   text={option}
@@ -195,7 +195,7 @@ Questions.propTypes = {
   })),
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   answerGiven: state.questions.answerGiven,
   currentQuestion: state.questions.currentQuestion,
   history: state.questions.history,
@@ -203,7 +203,7 @@ const mapStateToProps = state => ({
   loading: state.loading.loading,
 })
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   answer: (option) => {
     dispatch(giveAnswer(option))
   },
