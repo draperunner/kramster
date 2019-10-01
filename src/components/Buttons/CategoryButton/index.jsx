@@ -1,9 +1,9 @@
 import React from 'react'
 import BaseButton from '../BaseButton'
-import styles from './CategoryButton.css'
+import './CategoryButton.css'
 
 const StandardButton = (props) => (
-  <BaseButton {...props} className={styles.category}>
+  <BaseButton {...props} className="category">
     {props.children}
   </BaseButton>
 )

@@ -1,33 +1,33 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './Kitem.css'
+import './Kitem.css'
 
 const Kitem = (props) => {
   const mobile = window.screen.width < 800
 
-  let className = `${styles.kitem} `
+  let className = 'kitem '
 
   if (props.color) {
-    className += `${styles[props.color]} `
+    className += `${props.color} `
   }
 
   if (props.minHeight && !mobile) {
-    className += `${styles.minHeight} `
+    className += 'minHeight '
   }
 
   if (!mobile && props.onClick) {
-    className += `${styles.clickable} `
+    className += 'clickable '
   }
 
   if (!props.onClick) {
     return (
       <div className={className}>
-        <div className={styles[`${props.color}head`]}>
+        <div className={`${props.color}head`}>
           <h3>
             { props.head || '' }
           </h3>
         </div>
-        <div className={styles.body}>
+        <div className="body">
           <p>
             { props.body }
           </p>
@@ -45,12 +45,12 @@ const Kitem = (props) => {
       onKeyDown={(e) => e.which === 13 && props.onClick(e)}
       onClick={props.onClick}
     >
-      <div className={styles[`${props.color}head`]}>
+      <div className={`${props.color}head`}>
         <h3>
           { props.head }
         </h3>
       </div>
-      <div className={styles.body}>
+      <div className="body">
         <p>
           { props.body }
         </p>

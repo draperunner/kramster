@@ -1,20 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router'
-import styles from './Navbar.css'
+import './Navbar.css'
 
 const Navbar = () => (
-  <nav className={styles.navbar}>
-    <div className={styles.pullLeft}>
+  <nav className="navbar">
+    <div className="pullLeft">
       { window.location.pathname !== '/' ? (
-        <Link className={styles.logo} to="/" tabIndex={0}>
+        <Link className="logo" to="/" tabIndex={0}>
             Kramster!
         </Link>
       ) : null }
     </div>
-    <div className={styles.pullRight}>
+    <div className="pullRight">
       <ul>
         <li>
-          <Link className={styles.link} to="/about" tabIndex={0}>
+          <Link className="link" to="/about" tabIndex={0}>
               About
           </Link>
         </li>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import BaseButton from '../BaseButton'
 import MathElement from '../../MathElement'
 import { sanitize } from '../../../utils'
-import styles from './Alternative.css'
+import './Alternative.css'
 
 /* eslint-disable react/no-danger */
 const Alternative = (props) => {
@@ -11,7 +11,7 @@ const Alternative = (props) => {
 
   return (
     <BaseButton
-      className={styles[props.type]}
+      className={props.type}
       onClick={props.onClick}
     >
       <MathElement dangerouslySetInnerHTML={{ __html: text }} />

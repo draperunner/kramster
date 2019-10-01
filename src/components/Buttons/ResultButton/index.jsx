@@ -1,9 +1,9 @@
 import React from 'react'
 import BaseButton from '../BaseButton'
-import styles from './ResultButton.css'
+import './ResultButton.css'
 
 const ResultButton = (props) => (
-  <BaseButton {...props} className={styles.result}>
+  <BaseButton {...props} className="result">
     {props.children}
   </BaseButton>
 )
