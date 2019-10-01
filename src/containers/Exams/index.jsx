@@ -4,7 +4,7 @@ import { useExams } from '../../hooks'
 import CategoryButton from '../../components/Buttons/CategoryButton'
 import StandardButton from '../../components/Buttons/StandardButton'
 import LoadingSpinner from '../../components/LoadingSpinner'
-import styles from './Exams.css'
+import './Exams.css'
 
 function Exams(props) {
   const { school, course } = props.params
@@ -15,28 +15,28 @@ function Exams(props) {
   }
 
   return (
-    <div className={styles.wrapper}>
-      <Row className={styles.categoriesRow}>
-        <Col xs={4} className={styles.col}>
+    <div className="wrapper">
+      <Row className="categoriesRow">
+        <Col xs={4} className="col">
           <CategoryButton href={`/${school}/${course}/random/10`}>
               10 Random
           </CategoryButton>
         </Col>
-        <Col xs={4} className={styles.col}>
+        <Col xs={4} className="col">
           <CategoryButton href={`/${school}/${course}/random/30`}>
               30 Random
           </CategoryButton>
         </Col>
-        <Col xs={4} className={styles.col}>
+        <Col xs={4} className="col">
           <CategoryButton href={`/${school}/${course}/hardest/10`}>
               10 Hardest
           </CategoryButton>
         </Col>
       </Row>
 
-      <Row className={styles.examsRow}>
+      <Row className="examsRow">
         { exams.map((exam) => (
-          <Col key={exam} xs={6} md={4} lg={3} className={styles.col}>
+          <Col key={exam} xs={6} md={4} lg={3} className="col">
             <StandardButton href={`/${school}/${course}/${exam}`}>
               { exam }
             </StandardButton>

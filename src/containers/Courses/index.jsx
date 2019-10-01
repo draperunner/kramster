@@ -4,7 +4,7 @@ import { Row, Col } from 'react-flexbox-grid'
 import { useCourses } from '../../hooks'
 import Kitem from '../../components/Kitem'
 import LoadingSpinner from '../../components/LoadingSpinner'
-import styles from './Courses.css'
+import './Courses.css'
 
 // Returns a pretty header for the course (the course code)
 function getCourseHeader(course) {
@@ -40,7 +40,7 @@ function Courses(props) {
   }
 
   return (
-    <Row className={styles.coursesRow}>
+    <Row className="coursesRow">
       { courses.map((course) => {
         const header = getCourseHeader(course)
         const name = getCourseName(course)

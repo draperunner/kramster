@@ -5,7 +5,7 @@ import { useSchools, useStats } from '../../hooks'
 import Jumbotron from '../../components/Jumbotron'
 import Kitem from '../../components/Kitem'
 import { header, name } from './methods'
-import styles from './Schools.css'
+import './Schools.css'
 
 function Schools() {
   const schools = useSchools([
@@ -20,7 +20,7 @@ function Schools() {
     <div>
       <Jumbotron gradesData={grades} />
 
-      <Row className={styles.schoolsRow}>
+      <Row className="schoolsRow">
         {schools.map((school) => (
           <Col xs={12} sm={6} lg={3} key={school}>
             <Kitem

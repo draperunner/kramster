@@ -1,15 +1,15 @@
 import React from 'react'
 import { Row, Col } from 'react-flexbox-grid'
 import Kitem from '../../components/Kitem'
-import styles from './About.css'
+import './About.css'
 
 const About = () => (
   <div>
-    <div className={styles.about}>
-      <h1 className={styles.title}>
+    <div className="about">
+      <h1 className="title">
         Cram with Kramster!
       </h1>
-      <h3 className={styles.intro}>
+      <h3 className="intro">
         Kramster helps making exam preparation a little more fun. Select your school and course and cram for your
          exam by doing the multiple choice questions with instant feedback!
       </h3>
@@ -55,7 +55,7 @@ and star it on
       </p>
     </div>
 
-    <Row className={styles.linksRow}>
+    <Row className="linksRow">
       <Col xs={12} md={4}>
         <Kitem
           head="Add exam"

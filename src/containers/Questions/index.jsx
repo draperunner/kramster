@@ -13,7 +13,7 @@ import { startLoading, stopLoading } from '../../actions/LoadingActions'
 import Question from './Question'
 import Explanation from './Explanation'
 import Alternative from '../../components/Buttons/Alternative'
-import styles from './Questions.css'
+import './Questions.css'
 
 class Questions extends React.Component {
   constructor(props) {
@@ -135,7 +135,7 @@ class Questions extends React.Component {
         <ProgressBar history={this.props.history.map((q) => q.wasCorrect)} questions={this.props.questions} />
 
         { this.props.questions.length ? (
-          <Row className={styles.questionRow}>
+          <Row className="questionRow">
             <Col xs={12}>
               <Question text={question.question} />
             </Col>
@@ -143,8 +143,8 @@ class Questions extends React.Component {
         ) : null }
 
         { this.props.questions.length ? (
-          <Row className={styles.alternativesRow}>
-            <Col xs={12} className={styles.alternativesCol}>
+          <Row className="alternativesRow">
+            <Col xs={12} className="alternativesCol">
               { question && question.options.map((option) => (
                 <Alternative
                   key={option}
@@ -156,7 +156,7 @@ class Questions extends React.Component {
               { this.props.answerGiven ? (
                 <div>
                   <Explanation text={question.explanation} />
-                  <b role="alert" className={styles.continueTip}>
+                  <b role="alert" className="continueTip">
                     Click any answer to continue
                   </b>
                 </div>

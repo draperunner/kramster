@@ -8,7 +8,7 @@ import { formatPercentage, percentageToGrade, colors } from '../../utils'
 import BarChart from '../../components/BarChart'
 import PieChart from '../../components/PieChart'
 import ResultButton from '../../components/Buttons/ResultButton'
-import styles from './Result.css'
+import './Result.css'
 
 function Result(props) {
   const {
@@ -33,9 +33,9 @@ function Result(props) {
 
   return (
     <div>
-      <Row className={styles.row}>
+      <Row className="row">
         <Col xs={12}>
-          <h1 className={styles.header}>
+          <h1 className="header">
             Your results
           </h1>
         </Col>
@@ -68,9 +68,9 @@ function Result(props) {
         </Col>
       </Row>
 
-      <Row className={styles.row}>
+      <Row className="row">
         <Col xs={12}>
-          <h1 className={styles.header}>
+          <h1 className="header">
             Stats for this exam
           </h1>
         </Col>
@@ -101,7 +101,7 @@ function Result(props) {
         </Col>
       </Row>
 
-      <Row className={styles.row}>
+      <Row className="row">
         <Col xs={6} sm={4}>
           { stats.grades ? <PieChart data={stats.grades} /> : null }
         </Col>
