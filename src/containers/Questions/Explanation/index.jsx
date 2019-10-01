@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import MathElement from '../../../components/MathElement'
+import { MathElement } from '../../../components'
 import { sanitize } from '../../../utils'
 import styles from './Explanation.css'
 

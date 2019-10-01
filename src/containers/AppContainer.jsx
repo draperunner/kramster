@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid } from 'react-flexbox-grid'
-import Navbar from '../components/Navbar'
+import { Navbar } from '../components'
 
 const App = (props) => (
   <Grid>

@@ -3,9 +3,11 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { Row, Col } from 'react-flexbox-grid'
 import { getQuestions, sendReport } from '../../api'
-import LoadingSpinner from '../../components/LoadingSpinner'
+import {
+  LoadingSpinner,
+  ProgressBar,
+} from '../../components'
 import { getLocalTime, percentageToGrade } from '../../utils'
-import ProgressBar from '../../components/ProgressBar'
 import {
   clear, giveAnswer, loadQuestions, statsReceived,
 } from '../../actions/QuestionActions'

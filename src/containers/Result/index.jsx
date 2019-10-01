@@ -3,10 +3,12 @@ import { connect } from 'react-redux'
 import { browserHistory } from 'react-router'
 import PropTypes from 'prop-types'
 import { Row, Col } from 'react-flexbox-grid'
-import Kitem from '../../components/Kitem'
 import { formatPercentage, percentageToGrade, colors } from '../../utils'
-import BarChart from '../../components/BarChart'
-import PieChart from '../../components/PieChart'
+import {
+  BarChart,
+  PieChart,
+  Kitem,
+} from '../../components'
 import ResultButton from '../../components/Buttons/ResultButton'
 import styles from './Result.css'
 
