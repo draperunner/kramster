@@ -33,7 +33,7 @@ That's basically it. To fire up Kramster locally, run
 ```
 npm start
 ```
-This will run the development server on `http://localhost:8000`.
+This will run the development server on `http://localhost:8080`.
 If you want to run it on another port, specify it with the `KRAMSTER_PORT` environment variable.
 
 You might find that your version of Kramster is a bit boring. That's because your database is empty.

@@ -14,6 +14,7 @@ module.exports = () => webpackMerge(commonConfig(), {
   },
   devServer: {
     historyApiFallback: true,
+    open: true,
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
