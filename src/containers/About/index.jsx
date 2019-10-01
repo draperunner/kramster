@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-flexbox-grid'
-import Kitem from '../../components/Kitem'
+import { Kitem } from '../../components'
 import styles from './About.css'
 
 const About = () => (

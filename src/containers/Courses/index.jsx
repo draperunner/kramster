@@ -2,8 +2,10 @@ import React from 'react'
 import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
 import { useCourses } from '../../hooks'
-import Kitem from '../../components/Kitem'
-import LoadingSpinner from '../../components/LoadingSpinner'
+import {
+  Kitem,
+  LoadingSpinner,
+} from '../../components'
 import styles from './Courses.css'
 
 // Returns a pretty header for the course (the course code)

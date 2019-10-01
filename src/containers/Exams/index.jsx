@@ -3,7 +3,7 @@ import { Row, Col } from 'react-flexbox-grid'
 import { useExams } from '../../hooks'
 import CategoryButton from '../../components/Buttons/CategoryButton'
 import StandardButton from '../../components/Buttons/StandardButton'
-import LoadingSpinner from '../../components/LoadingSpinner'
+import { LoadingSpinner } from '../../components'
 import styles from './Exams.css'
 
 function Exams(props) {
