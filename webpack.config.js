@@ -51,8 +51,8 @@ module.exports = () => ({
       },
       {
         test: /\.js$/,
-        use: ["source-map-loader"],
-        enforce: "pre"
+        use: ['source-map-loader'],
+        enforce: 'pre',
       },
       {
         test: /\.(eot|png|ttf|woff2?|otf)$/,

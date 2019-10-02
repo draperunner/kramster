@@ -1,5 +1,7 @@
 import sanitizeHtml from 'sanitize-html'
 
+type Grade = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
+
 export function colors() {
   return {
     A: 'green',
@@ -11,11 +13,11 @@ export function colors() {
   }
 }
 
-export function formatPercentage(dividend, divisor) {
+export function formatPercentage(dividend: number, divisor: number): number {
   return Math.round((10000 * dividend) / divisor) / 100
 }
 
-export function formatStatusMessage(score, percentage) {
+export function formatStatusMessage(score: number, percentage: number): string {
   return `${score.toFixed(2)} (${percentage}%)`
 }
 
@@ -23,9 +25,9 @@ export function reloadRoute() {
   window.location.reload()
 }
 
-export function percentageToGrade(percentage) {
+export function percentageToGrade(percentage: number): Grade {
   const scale = [89, 77, 65, 53, 41]
-  const grades = ['A', 'B', 'C', 'D', 'E']
+  const grades: Array<Grade> = ['A', 'B', 'C', 'D', 'E']
   for (let i = 0; i < scale.length; i++) {
     if (percentage >= scale[i]) {
       return grades[i]
@@ -35,7 +37,7 @@ export function percentageToGrade(percentage) {
   return 'F'
 }
 
-export function shuffle(array) {
+export function shuffle<T>(array: Array<T>): Array<T> {
   const size = array.length
   const arr = [...array]
   for (let i = 0; i < size; i++) {
@@ -48,7 +50,7 @@ export function shuffle(array) {
   return arr
 }
 
-export function findSubstringEnclosedInParenthesis(s) {
+export function findSubstringEnclosedInParenthesis(s: string) {
   return /\(([^)]+)\)/.exec(s)
 }
 
@@ -56,7 +58,7 @@ export function getLocalTime() {
   const now = new Date()
   const timezoneOffset = -now.getTimezoneOffset()
   const sign = timezoneOffset >= 0 ? '+' : '-'
-  const pad = (num) => {
+  const pad = (num: number) => {
     const norm = Math.abs(Math.floor(num))
     return (norm < 10 ? '0' : '') + norm
   }
@@ -71,7 +73,7 @@ export function getLocalTime() {
   }:${pad(timezoneOffset % 60)}`
 }
 
-export function sanitize(dirtyHtml) {
+export function sanitize(dirtyHtml: string): string {
   return sanitizeHtml(dirtyHtml, {
     allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
     allowedAttributes: {
