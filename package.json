@@ -4,7 +4,7 @@
   "description": "Kramster is a quiz app for making exam preparation more fun",
   "main": "src/server/server.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "start": "DOTENV_CONFIG_PATH=.env.dev webpack-dev-server --config webpack.config.dev.js",
     "build": "NODE_ENV=production webpack --progress --config webpack.config.prod.js",
     "build:staging": "DOTENV_CONFIG_PATH=.env.staging npm run build",
     "build:prod": "DOTENV_CONFIG_PATH=.env npm run build",

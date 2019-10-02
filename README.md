@@ -21,21 +21,20 @@ check out the Kramster Data repository (https://github.com/draperunner/kramster-
 
 ## Installation instructions
 
-To setup Kramster on your machine, you will first need to install Node.js and MongoDB. Then, follow the steps:
+To setup Kramster on your machine, you will first need to install Node.js and MongoDB.
+
+Then, install dependencies from npm:
 
 ```
-git clone git@github.com:draperunner/kramster.git
-cd kramster
 npm install
 ```
 
-That's basically it. To fire up Kramster locally, run
+Follow the instructions for setting up the [backend server](https://github.com/draperunner/kramster-api)
+
+After that's all done, you can run this app with
+
 ```
 npm start
 ```
-This will run the development server on `http://localhost:8080`.
-If you want to run it on another port, specify it with the `KRAMSTER_PORT` environment variable.
 
-You might find that your version of Kramster is a bit boring. That's because your database is empty.
-Head over to the Kramster Data repository (https://github.com/draperunner/kramster-data) to see how you can populate
-your database.
+This will run the development server on `http://localhost:8080`. Make sure your `API_BASE_URL` variable in `.env.dev` matches the address the backend server runs on.
