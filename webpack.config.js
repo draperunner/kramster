@@ -9,7 +9,7 @@ module.exports = () => ({
   context: __dirname,
   entry: [
     'whatwg-fetch',
-    './src/main.jsx',
+    './src/main.tsx',
   ],
   module: {
     rules: [
@@ -40,6 +40,19 @@ module.exports = () => ({
         options: {
           plugins: ['react-hot-loader/babel'],
         },
+      },
+      {
+        test: /\.tsx?$/,
+        exclude: /(node_modules)/,
+        loader: 'babel-loader',
+        options: {
+          plugins: ['react-hot-loader/babel'],
+        },
+      },
+      {
+        test: /\.js$/,
+        use: ["source-map-loader"],
+        enforce: "pre"
       },
       {
         test: /\.(eot|png|ttf|woff2?|otf)$/,
