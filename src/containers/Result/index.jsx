@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { browserHistory } from 'react-router'
 import PropTypes from 'prop-types'
 import { Row, Col } from 'react-flexbox-grid'
-import { formatPercentage, percentageToGrade, colors } from '../../utils'
+import { formatPercentage, percentageToGrade, COLORS } from '../../utils'
 import {
   BarChart,
   PieChart,
@@ -161,8 +161,8 @@ const mapStateToProps = (state) => {
   const score = history.filter((q) => q.wasCorrect).length
   const percentage = formatPercentage(score, history.length)
   const grade = percentageToGrade(percentage)
-  const colorFromUser = colors()[grade]
-  const colorFromServer = colors()[averageGrade]
+  const colorFromUser = COLORS[grade]
+  const colorFromServer = COLORS[averageGrade]
 
   return {
     averageGrade,

@@ -2,15 +2,13 @@ import sanitizeHtml from 'sanitize-html'
 
 type Grade = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
 
-export function colors() {
-  return {
-    A: 'green',
-    B: 'blue',
-    C: 'purple',
-    D: 'yellow',
-    E: 'orange',
-    F: 'red',
-  }
+export const COLORS = {
+  A: 'green',
+  B: 'blue',
+  C: 'purple',
+  D: 'yellow',
+  E: 'orange',
+  F: 'red',
 }
 
 export function formatPercentage(dividend: number, divisor: number): number {
