@@ -19,7 +19,7 @@ export function formatStatusMessage(score: number, percentage: number): string {
   return `${score.toFixed(2)} (${percentage}%)`
 }
 
-export function reloadRoute() {
+export function reloadRoute(): void {
   window.location.reload()
 }
 
@@ -48,15 +48,15 @@ export function shuffle<T>(array: Array<T>): Array<T> {
   return arr
 }
 
-export function findSubstringEnclosedInParenthesis(s: string) {
+export function findSubstringEnclosedInParenthesis(s: string): RegExpExecArray {
   return /\(([^)]+)\)/.exec(s)
 }
 
-export function getLocalTime() {
+export function getLocalTime(): string {
   const now = new Date()
   const timezoneOffset = -now.getTimezoneOffset()
   const sign = timezoneOffset >= 0 ? '+' : '-'
-  const pad = (num: number) => {
+  const pad = (num: number): string => {
     const norm = Math.abs(Math.floor(num))
     return (norm < 10 ? '0' : '') + norm
   }
