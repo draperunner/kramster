@@ -1,16 +1,30 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: [
+    'airbnb',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript',
+  ],
   env: {
     es6: true,
     browser: true,
   },
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     }
   },
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.js', '.jsx', '.ts', '.tsx'],
+    },
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+  },
   plugins: [
+    '@typescript-eslint',
     'react-hooks',
   ],
   globals: {
@@ -27,6 +41,7 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
+    'react/jsx-filename-extension': ['error', { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     'react/jsx-props-no-spreading': 'off',
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
