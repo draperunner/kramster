@@ -1,7 +1,7 @@
 import { findSubstringEnclosedInParenthesis } from '../../utils'
 
 // Returns a pretty header for the school (the abbreviated name)
-export const header = (school) => {
+export const header = (school: string): string => {
   // Find abbreviation enclosed in parenthesis
   const abb = findSubstringEnclosedInParenthesis(school)
   if (abb) return abb[1]
@@ -11,7 +11,7 @@ export const header = (school) => {
 }
 
 // Returns the full name of the school. Removes abbr. and parenthesis from school string
-export const name = (school) => {
+export const name = (school: string): string => {
   // Find abbreviation enclosed in parenthesis
   const abb = findSubstringEnclosedInParenthesis(school)
   return (abb) ? school.replace(abb[0], '') : school
