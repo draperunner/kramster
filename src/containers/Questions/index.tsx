@@ -1,5 +1,5 @@
 import React from 'react'
-import { connect } from 'react-redux'
+import { connect, ConnectedProps } from 'react-redux'
 import { Row, Col } from 'react-flexbox-grid'
 import { getQuestions, sendReport } from '../../api'
 import { LoadingSpinner, ProgressBar } from '../../components'
@@ -15,7 +15,6 @@ import Question from './Question'
 import Explanation from './Explanation'
 import Alternative from '../../components/Buttons/Alternative'
 import {
-  HistoryEntry,
   Question as QuestionType,
   Stats,
   SendableReport,
@@ -25,18 +24,40 @@ import styles from './Questions.css'
 import { ReduxState } from '../../reducers'
 import { Dispatch } from '../../actions'
 
-interface Props {
-  answer: (option: string) => void
-  answerGiven: boolean
-  clear: () => void
-  loading: boolean
-  loadQuestions: (questions: QuestionType[]) => void
-  statsReceived: (stats: Stats & { numQuestions: number }) => void
-  startLoading: () => void
-  stopLoading: () => void
-  history: HistoryEntry[]
-  currentQuestion: QuestionType
-  questions: QuestionType[]
+const mapStateToProps = (state: ReduxState) => ({
+  answerGiven: state.questions.answerGiven,
+  currentQuestion: state.questions.currentQuestion,
+  history: state.questions.history,
+  questions: state.questions.questions,
+  loading: state.loading.loading,
+})
+
+const mapDispatchToProps = (dispatch: Dispatch) => ({
+  answer: (option: string): void => {
+    dispatch(giveAnswer(option))
+  },
+  clear: (): void => {
+    dispatch(clear())
+  },
+  loadQuestions: (questions: QuestionType[]): void => {
+    dispatch(loadQuestions(questions))
+  },
+  statsReceived: (stats: Stats): void => {
+    dispatch(statsReceived(stats))
+  },
+  startLoading: (): void => {
+    dispatch(startLoading())
+  },
+  stopLoading: (): void => {
+    dispatch(stopLoading())
+  },
+})
+
+const connector = connect(mapStateToProps, mapDispatchToProps)
+
+type PropsFromRedux = ConnectedProps<typeof connector>
+
+type Props = PropsFromRedux & {
   params: {
     exam: string
     school: string
@@ -221,33 +242,4 @@ class Questions extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = (state: ReduxState) => ({
-  answerGiven: state.questions.answerGiven,
-  currentQuestion: state.questions.currentQuestion,
-  history: state.questions.history,
-  questions: state.questions.questions,
-  loading: state.loading.loading,
-})
-
-const mapDispatchToProps = (dispatch: Dispatch) => ({
-  answer: (option: string): void => {
-    dispatch(giveAnswer(option))
-  },
-  clear: (): void => {
-    dispatch(clear())
-  },
-  loadQuestions: (questions: QuestionType[]): void => {
-    dispatch(loadQuestions(questions))
-  },
-  statsReceived: (stats: Stats): void => {
-    dispatch(statsReceived(stats))
-  },
-  startLoading: (): void => {
-    dispatch(startLoading())
-  },
-  stopLoading: (): void => {
-    dispatch(stopLoading())
-  },
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(Questions)
+export default connector(Questions)
