@@ -31,6 +31,7 @@ module.exports = {
     KRAMSTER_TRACKING_ID: false,
   },
   rules: {
+    '@typescript-eslint/ban-ts-ignore': 'warn',
     'brace-style': ['warn', 'stroustrup'],
     'import/prefer-default-export': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',

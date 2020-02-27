@@ -44,10 +44,7 @@ module.exports = () => ({
       {
         test: /\.tsx?$/,
         exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        options: {
-          plugins: ['react-hot-loader/babel'],
-        },
+        loader: 'ts-loader',
       },
       {
         test: /\.js$/,
@@ -65,7 +62,7 @@ module.exports = () => ({
       path.resolve('src'),
       'node_modules',
     ],
-    extensions: ['.js', '.jsx', '.scss'],
+    extensions: ['.tsx', '.ts', '.js', '.jsx', '.css', '.scss'],
   },
   plugins: [
     new CleanWebpackPlugin('./dist'),

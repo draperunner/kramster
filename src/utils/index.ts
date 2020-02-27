@@ -1,6 +1,6 @@
 import sanitizeHtml from 'sanitize-html'
 
-type Grade = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
+import { Grade } from '../interfaces'
 
 export const COLORS = {
   A: 'green',
@@ -48,7 +48,7 @@ export function shuffle<T>(array: Array<T>): Array<T> {
   return arr
 }
 
-export function findSubstringEnclosedInParenthesis(s: string): RegExpExecArray {
+export function findSubstringEnclosedInParenthesis(s: string): RegExpExecArray | null {
   return /\(([^)]+)\)/.exec(s)
 }
 
