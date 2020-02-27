@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
-    'airbnb',
+    'eslint:recommended',
+    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
@@ -25,20 +26,23 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
+    'react',
     'react-hooks',
+    'prettier'
   ],
   globals: {
     KRAMSTER_TRACKING_ID: false,
+    process: false,
   },
   rules: {
     '@typescript-eslint/ban-ts-ignore': 'warn',
-    'brace-style': ['warn', 'stroustrup'],
+    '@typescript-eslint/member-delimiter-style': 'off',
     'import/prefer-default-export': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
-    'max-len': ['warn', 120],
     'no-param-reassign': 'off',
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
     'no-underscore-dangle': 'off',
+    'prettier/prettier': 'error',
     'react/destructuring-assignment': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
@@ -46,6 +50,5 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
-    'semi': ['error', 'never'],
   }
 };

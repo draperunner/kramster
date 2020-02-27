@@ -1,8 +1,6 @@
 import { get, post } from './http'
 
-import {
-  Stats, Question, Exam, SendableReport,
-} from '../interfaces'
+import { Stats, Question, Exam, SendableReport } from '../interfaces'
 
 const BASE_URL = process.env.API_BASE_URL
 
@@ -18,29 +16,37 @@ export function getCourses(school: string): Promise<Array<string>> {
   return get<string[]>(`${BASE_URL}/list/courses/${school}`)
 }
 
-export function getExams(school: string, course: string): Promise<Array<string>> {
-  return get<string[]>(`${BASE_URL}/list/exams/${school}/${course}`, { sort: '-alphabetically' })
+export function getExams(
+  school: string,
+  course: string,
+): Promise<Array<string>> {
+  return get<string[]>(`${BASE_URL}/list/exams/${school}/${course}`, {
+    sort: '-alphabetically',
+  })
 }
 
 interface GetQuestionsOptions {
-  exam?: string;
-  limit?: number;
-  mode?: 'random' | 'hardest' | 'exam' | 'all';
+  exam?: string
+  limit?: number
+  mode?: 'random' | 'hardest' | 'exam' | 'all'
 }
 
-export function getQuestions(school: string, course: string, options: GetQuestionsOptions): Promise<Question[]> {
-  const {
-    exam, limit, mode,
-  } = options
+export function getQuestions(
+  school: string,
+  course: string,
+  options: GetQuestionsOptions,
+): Promise<Question[]> {
+  const { exam, limit, mode } = options
 
-
-  const url = `${BASE_URL}/exams/${school}/${course}${exam ? `/${options.exam}` : ''}`
+  const url = `${BASE_URL}/exams/${school}/${course}${
+    exam ? `/${options.exam}` : ''
+  }`
 
   return get<Question[] | Exam[]>(url, {
     random: mode === 'random',
     hardest: mode === 'hardest',
     limit,
-  }).then((data) => {
+  }).then(data => {
     // @ts-ignore
     if (exam) return data[0].questions
     return data

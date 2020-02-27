@@ -2,10 +2,7 @@ import React from 'react'
 import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
 import { useSchools, useStats } from '../../hooks'
-import {
-  Kitem,
-  Jumbotron,
-} from '../../components'
+import { Kitem, Jumbotron } from '../../components'
 import { header, name } from './methods'
 import styles from './Schools.css'
 

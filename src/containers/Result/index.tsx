@@ -3,11 +3,7 @@ import { connect, ConnectedProps } from 'react-redux'
 import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
 import { formatPercentage, percentageToGrade, COLORS } from '../../utils'
-import {
-  BarChart,
-  PieChart,
-  Kitem,
-} from '../../components'
+import { BarChart, PieChart, Kitem } from '../../components'
 import ResultButton from '../../components/Buttons/ResultButton'
 import { HistoryEntry } from '../../interfaces'
 
@@ -16,8 +12,13 @@ import { ReduxState } from '../../reducers'
 
 const mapStateToProps = (state: ReduxState) => {
   const { history, stats } = state.questions
-  const totalNumberOfQuestions = stats ? stats.numReports * stats.numQuestions : 0
-  const avgPercentage = formatPercentage(stats ? stats.totalScore : 0, totalNumberOfQuestions)
+  const totalNumberOfQuestions = stats
+    ? stats.numReports * stats.numQuestions
+    : 0
+  const avgPercentage = formatPercentage(
+    stats ? stats.totalScore : 0,
+    totalNumberOfQuestions,
+  )
   const averageGrade = percentageToGrade(avgPercentage)
   const score = history.filter((q: HistoryEntry) => q.wasCorrect).length
   const percentage = formatPercentage(score, history.length)
@@ -27,7 +28,9 @@ const mapStateToProps = (state: ReduxState) => {
 
   return {
     averageGrade,
-    averageScore: stats ? stats.averageScore && stats.averageScore.toFixed(2) : '',
+    averageScore: stats
+      ? stats.averageScore && stats.averageScore.toFixed(2)
+      : '',
     avgPercentage,
     colorFromUser,
     colorFromServer,
@@ -45,8 +48,8 @@ type PropsFromRedux = ConnectedProps<typeof connector>
 
 type Props = PropsFromRedux & {
   params: {
-    splat: string;
-  };
+    splat: string
+  }
 }
 
 function Result(props: Props): JSX.Element {
@@ -74,41 +77,25 @@ function Result(props: Props): JSX.Element {
     <div>
       <Row className={styles.row}>
         <Col xs={12}>
-          <h1 className={styles.header}>
-            Your results
-          </h1>
+          <h1 className={styles.header}>Your results</h1>
         </Col>
 
         <Col xs={4} md={4}>
-          <Kitem
-            head={grade}
-            body="Grade"
-            color={colorFromUser}
-          />
+          <Kitem head={grade} body="Grade" color={colorFromUser} />
         </Col>
 
         <Col xs={4} md={4}>
-          <Kitem
-            head={score}
-            body="Score"
-            color={colorFromUser}
-          />
+          <Kitem head={score} body="Score" color={colorFromUser} />
         </Col>
 
         <Col xs={4} md={4}>
-          <Kitem
-            head={percentage}
-            body="%"
-            color={colorFromUser}
-          />
+          <Kitem head={percentage} body="%" color={colorFromUser} />
         </Col>
       </Row>
 
       <Row className={styles.row}>
         <Col xs={12}>
-          <h1 className={styles.header}>
-            Stats for this exam
-          </h1>
+          <h1 className={styles.header}>Stats for this exam</h1>
         </Col>
 
         <Col xs={4} md={4}>
@@ -136,21 +123,22 @@ function Result(props: Props): JSX.Element {
 
       <Row className={styles.row}>
         <Col xs={6} sm={4}>
-          { stats && stats.grades ? <PieChart data={stats.grades} /> : null }
+          {stats && stats.grades ? <PieChart data={stats.grades} /> : null}
         </Col>
         <Col xs={6} sm={4}>
-          { stats && stats.grades ? <BarChart data={stats.grades} /> : null }
+          {stats && stats.grades ? <BarChart data={stats.grades} /> : null}
         </Col>
         <Col xs={12} sm={4}>
           <ResultButton href={`/${params.splat}`}>
-            <h4>
-              Try again
-            </h4>
+            <h4>Try again</h4>
           </ResultButton>
-          <ResultButton href={`/${params.splat.split('/').slice(0, 2).join('/')}`}>
-            <h4>
-              Try another
-            </h4>
+          <ResultButton
+            href={`/${params.splat
+              .split('/')
+              .slice(0, 2)
+              .join('/')}`}
+          >
+            <h4>Try another</h4>
           </ResultButton>
         </Col>
       </Row>

@@ -5,17 +5,17 @@ import styles from './Navbar.css'
 const Navbar = (): JSX.Element => (
   <nav className={styles.navbar}>
     <div className={styles.pullLeft}>
-      { window.location.pathname !== '/' ? (
+      {window.location.pathname !== '/' ? (
         <Link className={styles.logo} to="/" tabIndex={0}>
-            Kramster!
+          Kramster!
         </Link>
-      ) : null }
+      ) : null}
     </div>
     <div className={styles.pullRight}>
       <ul>
         <li>
           <Link className={styles.link} to="/about" tabIndex={0}>
-              About
+            About
           </Link>
         </li>
       </ul>

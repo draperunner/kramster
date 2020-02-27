@@ -6,7 +6,7 @@ import styles from './Explanation.css'
 /* eslint-disable react/no-danger */
 
 interface Props {
-  text?: string;
+  text?: string
 }
 
 const Explanation = (props: Props): JSX.Element | null => {
@@ -16,9 +16,7 @@ const Explanation = (props: Props): JSX.Element | null => {
 
   return (
     <div className={styles.wrapper}>
-      <h3 className={styles.header}>
-        Explanation
-      </h3>
+      <h3 className={styles.header}>Explanation</h3>
       <MathElement>
         <h4
           className={styles.text}

@@ -6,7 +6,7 @@ import styles from './Question.css'
 /* eslint-disable react/no-danger */
 
 interface Props {
-  text: string;
+  text: string
 }
 
 const Question = (props: Props): JSX.Element => (

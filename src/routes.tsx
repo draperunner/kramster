@@ -1,7 +1,5 @@
 import React from 'react'
-import {
-  Router, Route, IndexRoute, browserHistory,
-} from 'react-router'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import ReactGA from 'react-ga'
 
 import AppContainer from './containers/AppContainer'
@@ -20,7 +18,7 @@ function logPageView() {
   ReactGA.pageview(window.location.pathname)
 }
 
-export default
+export default (
   <Router history={browserHistory} onUpdate={logPageView}>
     <Route path="/" component={AppContainer}>
       <IndexRoute component={Schools} />
@@ -32,3 +30,4 @@ export default
       <Route path="/:school/:course/:exam" component={Questions} />
     </Route>
   </Router>
+)

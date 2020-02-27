@@ -39,7 +39,7 @@ export function shuffle<T>(array: Array<T>): Array<T> {
   const size = array.length
   const arr = [...array]
   for (let i = 0; i < size; i++) {
-    const j = Math.round(i + ((size - 1 - i) * Math.random()))
+    const j = Math.round(i + (size - 1 - i) * Math.random())
     const temp = array[i]
     arr[i] = array[j]
     arr[j] = temp
@@ -48,7 +48,9 @@ export function shuffle<T>(array: Array<T>): Array<T> {
   return arr
 }
 
-export function findSubstringEnclosedInParenthesis(s: string): RegExpExecArray | null {
+export function findSubstringEnclosedInParenthesis(
+  s: string,
+): RegExpExecArray | null {
   return /\(([^)]+)\)/.exec(s)
 }
 
@@ -61,14 +63,11 @@ export function getLocalTime(): string {
     return (norm < 10 ? '0' : '') + norm
   }
 
-  return `${now.getFullYear()
-  }-${pad(now.getMonth() + 1)
-  }-${pad(now.getDate())
-  }T${pad(now.getHours())
-  }:${pad(now.getMinutes())
-  }:${pad(now.getSeconds())
-  }${sign}${pad(timezoneOffset / 60)
-  }:${pad(timezoneOffset % 60)}`
+  return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(
+    now.getDate(),
+  )}T${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(
+    now.getSeconds(),
+  )}${sign}${pad(timezoneOffset / 60)}:${pad(timezoneOffset % 60)}`
 }
 
 export function sanitize(dirtyHtml: string): string {

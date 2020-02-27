@@ -8,9 +8,9 @@ import styles from './Exams.css'
 
 interface Props {
   params: {
-    school: string;
-    course: string;
-  };
+    school: string
+    course: string
+  }
 }
 
 function Exams(props: Props): JSX.Element {
@@ -26,26 +26,26 @@ function Exams(props: Props): JSX.Element {
       <Row className={styles.categoriesRow}>
         <Col xs={4} className={styles.col}>
           <CategoryButton href={`/${school}/${course}/random/10`}>
-              10 Random
+            10 Random
           </CategoryButton>
         </Col>
         <Col xs={4} className={styles.col}>
           <CategoryButton href={`/${school}/${course}/random/30`}>
-              30 Random
+            30 Random
           </CategoryButton>
         </Col>
         <Col xs={4} className={styles.col}>
           <CategoryButton href={`/${school}/${course}/hardest/10`}>
-              10 Hardest
+            10 Hardest
           </CategoryButton>
         </Col>
       </Row>
 
       <Row className={styles.examsRow}>
-        { exams.map((exam) => (
+        {exams.map(exam => (
           <Col key={exam} xs={6} md={4} lg={3} className={styles.col}>
             <StandardButton href={`/${school}/${course}/${exam}`}>
-              { exam }
+              {exam}
             </StandardButton>
           </Col>
         ))}

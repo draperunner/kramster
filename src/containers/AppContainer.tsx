@@ -11,7 +11,7 @@ const App = (props: Props): JSX.Element => (
 )
 
 interface Props {
-  children: ReactNode;
+  children: ReactNode
 }
 
 export default App

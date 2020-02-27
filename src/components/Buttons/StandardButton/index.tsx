@@ -3,9 +3,13 @@ import BaseButton from '../BaseButton'
 import styles from './StandardButton.css'
 
 interface Props {
-  href: string;
-  onClick?: (event: React.KeyboardEvent<HTMLAnchorElement> | React.MouseEvent<HTMLAnchorElement>) => void;
-  children?: string | JSX.Element | JSX.Element[];
+  href: string
+  onClick?: (
+    event:
+      | React.KeyboardEvent<HTMLAnchorElement>
+      | React.MouseEvent<HTMLAnchorElement>,
+  ) => void
+  children?: string | JSX.Element | JSX.Element[]
 }
 
 const StandardButton = (props: Props): JSX.Element => (

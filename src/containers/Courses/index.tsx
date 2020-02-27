@@ -2,10 +2,7 @@ import React from 'react'
 import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
 import { useCourses } from '../../hooks'
-import {
-  Kitem,
-  LoadingSpinner,
-} from '../../components'
+import { Kitem, LoadingSpinner } from '../../components'
 import styles from './Courses.css'
 
 // Returns a pretty header for the course (the course code)
@@ -20,8 +17,8 @@ function getCourseName(course: string): string {
 
 interface Props {
   params: {
-    school: string;
-  };
+    school: string
+  }
 }
 
 function Courses(props: Props): JSX.Element {
@@ -33,23 +30,26 @@ function Courses(props: Props): JSX.Element {
   }
 
   const availableColors = ['orange', 'green', 'red', 'blue', 'purple', 'yellow']
-  const assignedColors: {[depCode: string]: string} = {}
+  const assignedColors: { [depCode: string]: string } = {}
   let colorIndex = 0
 
   // Assign different colors to each department
   const assignColor = (courseCode: string): string => {
     const firstDigitMatch = courseCode.match(/\d/)
-    const indexOfFirstDigit = firstDigitMatch ? firstDigitMatch.index || courseCode.length : courseCode.length
+    const indexOfFirstDigit = firstDigitMatch
+      ? firstDigitMatch.index || courseCode.length
+      : courseCode.length
     const departmentCode = courseCode.slice(0, indexOfFirstDigit)
     if (assignedColors[departmentCode]) return assignedColors[departmentCode]
-    assignedColors[departmentCode] = availableColors[colorIndex % availableColors.length]
+    assignedColors[departmentCode] =
+      availableColors[colorIndex % availableColors.length]
     colorIndex += 1
     return assignedColors[departmentCode]
   }
 
   return (
     <Row className={styles.coursesRow}>
-      { courses.map((course) => {
+      {courses.map(course => {
         const header = getCourseHeader(course)
         const name = getCourseName(course)
         return (

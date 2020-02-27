@@ -2,20 +2,23 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Row, Col } from 'react-flexbox-grid'
 import { getQuestions, sendReport } from '../../api'
-import {
-  LoadingSpinner,
-  ProgressBar,
-} from '../../components'
+import { LoadingSpinner, ProgressBar } from '../../components'
 import { getLocalTime, percentageToGrade } from '../../utils'
 import {
-  clear, giveAnswer, loadQuestions, statsReceived,
+  clear,
+  giveAnswer,
+  loadQuestions,
+  statsReceived,
 } from '../../actions/QuestionActions'
 import { startLoading, stopLoading } from '../../actions/LoadingActions'
 import Question from './Question'
 import Explanation from './Explanation'
 import Alternative from '../../components/Buttons/Alternative'
 import {
-  HistoryEntry, Question as QuestionType, Stats, SendableReport,
+  HistoryEntry,
+  Question as QuestionType,
+  Stats,
+  SendableReport,
 } from '../../interfaces'
 
 import styles from './Questions.css'
@@ -23,31 +26,31 @@ import { ReduxState } from '../../reducers'
 import { Dispatch } from '../../actions'
 
 interface Props {
-  answer: (option: string) => void;
-  answerGiven: boolean;
-  clear: () => void;
-  loading: boolean;
-  loadQuestions: (questions: QuestionType[]) => void;
-  statsReceived: (stats: Stats & { numQuestions: number }) => void;
-  startLoading: () => void;
-  stopLoading: () => void;
-  history: HistoryEntry[];
-  currentQuestion: QuestionType;
-  questions: QuestionType[];
+  answer: (option: string) => void
+  answerGiven: boolean
+  clear: () => void
+  loading: boolean
+  loadQuestions: (questions: QuestionType[]) => void
+  statsReceived: (stats: Stats & { numQuestions: number }) => void
+  startLoading: () => void
+  stopLoading: () => void
+  history: HistoryEntry[]
+  currentQuestion: QuestionType
+  questions: QuestionType[]
   params: {
-    exam: string;
-    school: string;
-    course: string;
-    mode: 'all' | 'exam' | 'random' | 'hardest';
-    number: number;
-  };
-  router: any;
-  location: Location;
+    exam: string
+    school: string
+    course: string
+    mode: 'all' | 'exam' | 'random' | 'hardest'
+    number: number
+  }
+  router: any
+  location: Location
 }
 
 interface State {
-  finishedReturnedTrue: boolean;
-  mode: 'all' | 'exam' | 'random' | 'hardest';
+  finishedReturnedTrue: boolean
+  mode: 'all' | 'exam' | 'random' | 'hardest'
 }
 
 class Questions extends React.Component<Props, State> {
@@ -59,8 +62,7 @@ class Questions extends React.Component<Props, State> {
 
     if (!props.params.exam && !props.params.mode) {
       mode = 'all'
-    }
-    else if (props.params.mode) {
+    } else if (props.params.mode) {
       mode = props.params.mode
     }
 
@@ -74,9 +76,7 @@ class Questions extends React.Component<Props, State> {
   }
 
   componentDidMount(): void {
-    const {
-      school, course, exam, number,
-    } = this.props.params
+    const { school, course, exam, number } = this.props.params
 
     this.props.startLoading()
 
@@ -93,22 +93,30 @@ class Questions extends React.Component<Props, State> {
   // Get the (current) ratio of correct answers per total number of answered questions.
   percentage(): number {
     if (this.props.history.length === 0) return 0
-    const numCorrect = this.props.history.filter((q) => q.wasCorrect).length
+    const numCorrect = this.props.history.filter(q => q.wasCorrect).length
     return Math.round((10000 * numCorrect) / this.props.history.length) / 100
   }
 
   // Returns the class (color, mostly) of the option button
   // decided by if it's the right answer or not.
-  buttonClass(option: string): 'alternativeMobile' | 'alternative' | 'correctAnswer' | 'wrongAnswer' {
+  buttonClass(
+    option: string,
+  ): 'alternativeMobile' | 'alternative' | 'correctAnswer' | 'wrongAnswer' {
     if (!this.props.answerGiven) {
-      const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+      const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent,
+      )
       return mobile ? 'alternativeMobile' : 'alternative'
     }
 
     const previousQuestion = this.props.questions[this.props.history.length - 1]
 
     // Check if the option the button represents is one of the correct answers.
-    if (previousQuestion.answers.indexOf(previousQuestion.options.indexOf(option)) >= 0) {
+    if (
+      previousQuestion.answers.indexOf(
+        previousQuestion.options.indexOf(option),
+      ) >= 0
+    ) {
       return 'correctAnswer'
     }
 
@@ -118,8 +126,7 @@ class Questions extends React.Component<Props, State> {
   answer(givenAnswer: string): void {
     if (this.finished()) {
       this.props.router.push(`${this.props.location.pathname}/results`)
-    }
-    else {
+    } else {
       this.props.answer(givenAnswer)
     }
   }
@@ -127,7 +134,10 @@ class Questions extends React.Component<Props, State> {
   // Checks if exam is finished. Reports stats to server if true.
   // Fetches aggregated stats from server.
   finished(): boolean {
-    if (this.props.history.length < this.props.questions.length || this.props.questions.length === 0) {
+    if (
+      this.props.history.length < this.props.questions.length ||
+      this.props.questions.length === 0
+    ) {
       return false
     }
 
@@ -143,17 +153,18 @@ class Questions extends React.Component<Props, State> {
       exam: {
         school: this.props.params.school,
         course: this.props.params.course,
-        name: (this.state.mode !== 'exam') ? this.state.mode : this.props.params.exam,
+        name:
+          this.state.mode !== 'exam' ? this.state.mode : this.props.params.exam,
       },
       createdAt: getLocalTime(),
       history: this.props.history,
-      score: this.props.history.filter((q) => q.wasCorrect).length,
+      score: this.props.history.filter(q => q.wasCorrect).length,
       numQuestions: this.props.questions.length,
       percentage: this.percentage(),
       grade: percentageToGrade(this.percentage()),
     }
 
-    sendReport(report).then((stats) => {
+    sendReport(report).then(stats => {
       this.props.statsReceived({ ...stats, numQuestions: report.numQuestions })
     })
 
@@ -169,38 +180,42 @@ class Questions extends React.Component<Props, State> {
 
     return (
       <div>
-        <ProgressBar history={this.props.history.map((q) => q.wasCorrect)} questions={this.props.questions} />
+        <ProgressBar
+          history={this.props.history.map(q => q.wasCorrect)}
+          questions={this.props.questions}
+        />
 
-        { this.props.questions.length ? (
+        {this.props.questions.length ? (
           <Row className={styles.questionRow}>
             <Col xs={12}>
               <Question text={question.question} />
             </Col>
           </Row>
-        ) : null }
+        ) : null}
 
-        { this.props.questions.length ? (
+        {this.props.questions.length ? (
           <Row className={styles.alternativesRow}>
             <Col xs={12} className={styles.alternativesCol}>
-              { question && question.options.map((option) => (
-                <Alternative
-                  key={option}
-                  text={option}
-                  type={this.buttonClass(option)}
-                  onClick={(): void => this.answer(option)}
-                />
-              ))}
-              { this.props.answerGiven ? (
+              {question &&
+                question.options.map(option => (
+                  <Alternative
+                    key={option}
+                    text={option}
+                    type={this.buttonClass(option)}
+                    onClick={(): void => this.answer(option)}
+                  />
+                ))}
+              {this.props.answerGiven ? (
                 <div>
                   <Explanation text={question.explanation} />
                   <b role="alert" className={styles.continueTip}>
                     Click any answer to continue
                   </b>
                 </div>
-              ) : null }
+              ) : null}
             </Col>
           </Row>
-        ) : null }
+        ) : null}
       </div>
     )
   }

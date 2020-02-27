@@ -2,11 +2,15 @@ import React from 'react'
 import styles from './Kitem.css'
 
 interface Props {
-  body: string;
-  head: number | string;
-  color: string;
-  minHeight?: boolean;
-  onClick?: (event: React.MouseEvent<HTMLAnchorElement> | React.KeyboardEvent<HTMLAnchorElement>) => void;
+  body: string
+  head: number | string
+  color: string
+  minHeight?: boolean
+  onClick?: (
+    event:
+      | React.MouseEvent<HTMLAnchorElement>
+      | React.KeyboardEvent<HTMLAnchorElement>,
+  ) => void
 }
 
 const Kitem = (props: Props): JSX.Element => {
@@ -30,36 +34,28 @@ const Kitem = (props: Props): JSX.Element => {
     return (
       <div className={className}>
         <div className={styles[`${props.color}head`]}>
-          <h3>
-            { props.head || '' }
-          </h3>
+          <h3>{props.head || ''}</h3>
         </div>
         <div className={styles.body}>
-          <p>
-            { props.body }
-          </p>
+          <p>{props.body}</p>
         </div>
       </div>
     )
   }
 
-  return ( // eslint-disable-next-line jsx-a11y/anchor-is-valid
+  return (
     <a
       className={className}
       role="button"
       tabIndex={0}
-      onKeyDown={(e) => e.which === 13 && props.onClick && props.onClick(e)}
+      onKeyDown={e => e.which === 13 && props.onClick && props.onClick(e)}
       onClick={props.onClick}
     >
       <div className={styles[`${props.color}head`]}>
-        <h3>
-          { props.head }
-        </h3>
+        <h3>{props.head}</h3>
       </div>
       <div className={styles.body}>
-        <p>
-          { props.body }
-        </p>
+        <p>{props.body}</p>
       </div>
     </a>
   )

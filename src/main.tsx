@@ -12,8 +12,6 @@ import './base-styles/main.css'
 const store = createStore(reducers)
 
 render(
-  <Provider store={store}>
-    { routes }
-  </Provider>,
+  <Provider store={store}>{routes}</Provider>,
   document.getElementById('app'),
 )

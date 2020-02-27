@@ -6,10 +6,10 @@ export const LOAD_QUESTIONS = 'LOAD_QUESTIONS'
 export const STATS_RECEIVED = 'STATS_RECEIVED'
 
 interface GiveAnswer {
-  type: 'ANSWER';
+  type: 'ANSWER'
   payload: {
-    givenAnswer: string;
-  };
+    givenAnswer: string
+  }
 }
 export const giveAnswer = (givenAnswer: string): GiveAnswer => ({
   type: ANSWER,
@@ -19,7 +19,7 @@ export const giveAnswer = (givenAnswer: string): GiveAnswer => ({
 })
 
 interface Clear {
-  type: 'CLEAR';
+  type: 'CLEAR'
 }
 
 export const clear = (): Clear => ({
@@ -27,10 +27,10 @@ export const clear = (): Clear => ({
 })
 
 interface LoadQuestions {
-  type: 'LOAD_QUESTIONS';
+  type: 'LOAD_QUESTIONS'
   payload: {
-    questions: Question[];
-  };
+    questions: Question[]
+  }
 }
 export const loadQuestions = (questions: Question[]): LoadQuestions => ({
   type: LOAD_QUESTIONS,
@@ -40,10 +40,10 @@ export const loadQuestions = (questions: Question[]): LoadQuestions => ({
 })
 
 interface StatsReceived {
-  type: 'STATS_RECEIVED';
+  type: 'STATS_RECEIVED'
   payload: {
-    stats: Stats;
-  };
+    stats: Stats
+  }
 }
 
 export const statsReceived = (stats: Stats): StatsReceived => ({

@@ -2,7 +2,7 @@ import { Action } from '../actions'
 import { START_LOADING, STOP_LOADING } from '../actions/LoadingActions'
 
 export interface State {
-  loading: boolean;
+  loading: boolean
 }
 
 const initialState: State = {

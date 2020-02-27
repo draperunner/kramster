@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react'
 
-import { Stats, Exam } from '../interfaces'
+import { Stats } from '../interfaces'
 
-import {
-  getStats, getSchools, getCourses, getExams,
-} from '../api'
+import { getStats, getSchools, getCourses, getExams } from '../api'
 
 export function useStats(): Stats {
   const [stats, setStats] = useState()

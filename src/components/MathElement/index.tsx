@@ -3,8 +3,8 @@ import renderMathInElement from 'katex/dist/contrib/auto-render'
 
 interface Props {
   dangerouslySetInnerHTML?: {
-    __html: string;
-  };
+    __html: string
+  }
 }
 
 class MathElement extends React.Component<Props> {
@@ -22,11 +22,11 @@ class MathElement extends React.Component<Props> {
     return (
       <span
         {...this.props}
-        ref={(input) => {
+        ref={input => {
           this.mathElement = input
         }}
       >
-        { this.props.children }
+        {this.props.children}
       </span>
     )
   }

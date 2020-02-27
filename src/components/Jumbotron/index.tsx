@@ -5,9 +5,11 @@ import styles from './Jumbotron.css'
 import { Grade } from '../../interfaces'
 
 interface Props {
-  gradesData: null | {
-    [grade in Grade]: number;
-  };
+  gradesData:
+    | null
+    | {
+        [grade in Grade]: number
+      }
 }
 
 const Jumbotron = (props: Props): JSX.Element => {
@@ -27,13 +29,9 @@ const Jumbotron = (props: Props): JSX.Element => {
 
   return (
     <div className={styles.jumbotron}>
-      <h1 className={styles.title}>
-        Kramster!
-      </h1>
-      { props.gradesData ? <BarChart data={props.gradesData} /> : null }
-      <h3 className={styles.subtitle}>
-        {subtitle()}
-      </h3>
+      <h1 className={styles.title}>Kramster!</h1>
+      {props.gradesData ? <BarChart data={props.gradesData} /> : null}
+      <h3 className={styles.subtitle}>{subtitle()}</h3>
     </div>
   )
 }

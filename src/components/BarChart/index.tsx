@@ -6,7 +6,7 @@ import { Grade } from '../../interfaces'
 interface Props {
   data: {
     [grade in Grade]: number
-  };
+  }
 }
 
 const BarChart = (props: Props): JSX.Element => {
@@ -14,13 +14,15 @@ const BarChart = (props: Props): JSX.Element => {
 
   const data = {
     labels: sortedKeys,
-    datasets: [{
-      data: sortedKeys.map((k) => props.data[k]),
-      backgroundColor: '#e74c3c',
-      borderColor: '#e74c3c',
-      hoverBackgroundColor: '#ed5242',
-      hoverBorderColor: '#ed5242',
-    }],
+    datasets: [
+      {
+        data: sortedKeys.map(k => props.data[k]),
+        backgroundColor: '#e74c3c',
+        borderColor: '#e74c3c',
+        hoverBackgroundColor: '#ed5242',
+        hoverBorderColor: '#ed5242',
+      },
+    ],
   }
 
   const options = {
@@ -30,16 +32,20 @@ const BarChart = (props: Props): JSX.Element => {
     maintainAspectRatio: true,
     responsive: true,
     scales: {
-      xAxes: [{
-        display: false,
-        barPercentage: 1.1,
-      }],
-      yAxes: [{
-        display: false,
-        ticks: {
-          beginAtZero: true,
+      xAxes: [
+        {
+          display: false,
+          barPercentage: 1.1,
         },
-      }],
+      ],
+      yAxes: [
+        {
+          display: false,
+          ticks: {
+            beginAtZero: true,
+          },
+        },
+      ],
     },
     tooltips: {
       displayColors: false,
@@ -58,6 +64,5 @@ const BarChart = (props: Props): JSX.Element => {
 
   return <Bar data={data} options={options} />
 }
-
 
 export default BarChart

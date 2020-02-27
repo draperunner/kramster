@@ -2,10 +2,14 @@ import React from 'react'
 import { Link } from 'react-router'
 
 interface Props {
-  className?: string;
-  href: string;
-  onClick?: (event: React.KeyboardEvent<HTMLAnchorElement> | React.MouseEvent<HTMLAnchorElement>) => void;
-  children?: string | JSX.Element | JSX.Element[];
+  className?: string
+  href: string
+  onClick?: (
+    event:
+      | React.KeyboardEvent<HTMLAnchorElement>
+      | React.MouseEvent<HTMLAnchorElement>,
+  ) => void
+  children?: string | JSX.Element | JSX.Element[]
 }
 
 const BaseButton = (props: Props): JSX.Element => (
@@ -13,7 +17,7 @@ const BaseButton = (props: Props): JSX.Element => (
     to={props.href}
     className={props.className}
     onClick={props.onClick}
-    onKeyDown={(e) => e.which === 13 && props.onClick && props.onClick(e)}
+    onKeyDown={e => e.which === 13 && props.onClick && props.onClick(e)}
     role="button"
     type="button"
     tabIndex={0}
