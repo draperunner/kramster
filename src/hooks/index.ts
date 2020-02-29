@@ -4,8 +4,8 @@ import { Stats } from '../interfaces'
 
 import { getStats, getSchools, getCourses, getExams } from '../api'
 
-export function useStats(): Stats {
-  const [stats, setStats] = useState()
+export function useStats(): Stats | undefined {
+  const [stats, setStats] = useState<Stats | undefined>()
 
   useEffect(() => {
     getStats().then(setStats)

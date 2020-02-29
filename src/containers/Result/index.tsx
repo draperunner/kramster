@@ -1,17 +1,25 @@
-import React, { useEffect } from 'react'
-import { connect, ConnectedProps } from 'react-redux'
-import { browserHistory } from 'react-router'
+import React from 'react'
 import { Row, Col } from 'react-flexbox-grid'
 import { formatPercentage, percentageToGrade, COLORS } from '../../utils'
 import { BarChart, PieChart, Kitem } from '../../components'
+import { useHistory, useStats } from '../../hooks/contexts'
 import ResultButton from '../../components/Buttons/ResultButton'
 import { HistoryEntry } from '../../interfaces'
 
 import styles from './Result.css'
-import { ReduxState } from '../../reducers'
 
-const mapStateToProps = (state: ReduxState) => {
-  const { history, stats } = state.questions
+interface Props {
+  params: {
+    splat: string
+  }
+}
+
+function Result(props: Props): JSX.Element {
+  const { params } = props
+
+  const [stats] = useStats()
+  const [history] = useHistory()
+
   const totalNumberOfQuestions = stats
     ? stats.numReports * stats.numQuestions
     : 0
@@ -20,58 +28,14 @@ const mapStateToProps = (state: ReduxState) => {
     totalNumberOfQuestions,
   )
   const averageGrade = percentageToGrade(avgPercentage)
+  const averageScore = stats
+    ? stats.averageScore && stats.averageScore.toFixed(2)
+    : ''
   const score = history.filter((q: HistoryEntry) => q.wasCorrect).length
   const percentage = formatPercentage(score, history.length)
   const grade = percentageToGrade(percentage)
   const colorFromUser = COLORS[grade]
   const colorFromServer = COLORS[averageGrade]
-
-  return {
-    averageGrade,
-    averageScore: stats
-      ? stats.averageScore && stats.averageScore.toFixed(2)
-      : '',
-    avgPercentage,
-    colorFromUser,
-    colorFromServer,
-    history,
-    grade,
-    percentage,
-    score,
-    stats,
-  }
-}
-
-const connector = connect(mapStateToProps)
-
-type PropsFromRedux = ConnectedProps<typeof connector>
-
-type Props = PropsFromRedux & {
-  params: {
-    splat: string
-  }
-}
-
-function Result(props: Props): JSX.Element {
-  const {
-    grade,
-    colorFromUser,
-    colorFromServer,
-    score,
-    percentage,
-    averageGrade,
-    averageScore,
-    avgPercentage,
-    params,
-    stats,
-    history,
-  } = props
-
-  useEffect(() => {
-    if (!history.length) {
-      browserHistory.push(`/${params.splat}`)
-    }
-  }, [history.length, params.splat])
 
   return (
     <div>
@@ -146,4 +110,4 @@ function Result(props: Props): JSX.Element {
   )
 }
 
-export default connector(Result)
+export default Result

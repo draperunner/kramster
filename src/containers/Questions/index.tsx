@@ -1,63 +1,17 @@
-import React from 'react'
-import { connect, ConnectedProps } from 'react-redux'
+import React, { useState, useEffect } from 'react'
 import { Row, Col } from 'react-flexbox-grid'
 import { getQuestions, sendReport } from '../../api'
 import { LoadingSpinner, ProgressBar } from '../../components'
 import { getLocalTime, percentageToGrade } from '../../utils'
-import {
-  clear,
-  giveAnswer,
-  loadQuestions,
-  statsReceived,
-} from '../../actions/QuestionActions'
-import { startLoading, stopLoading } from '../../actions/LoadingActions'
 import Question from './Question'
 import Explanation from './Explanation'
 import Alternative from '../../components/Buttons/Alternative'
-import {
-  Question as QuestionType,
-  Stats,
-  SendableReport,
-} from '../../interfaces'
+import { Question as QuestionType, SendableReport } from '../../interfaces'
 
 import styles from './Questions.css'
-import { ReduxState } from '../../reducers'
-import { Dispatch } from '../../actions'
+import { useHistory, useStats } from '../../hooks/contexts'
 
-const mapStateToProps = (state: ReduxState) => ({
-  answerGiven: state.questions.answerGiven,
-  currentQuestion: state.questions.currentQuestion,
-  history: state.questions.history,
-  questions: state.questions.questions,
-  loading: state.loading.loading,
-})
-
-const mapDispatchToProps = (dispatch: Dispatch) => ({
-  answer: (option: string): void => {
-    dispatch(giveAnswer(option))
-  },
-  clear: (): void => {
-    dispatch(clear())
-  },
-  loadQuestions: (questions: QuestionType[]): void => {
-    dispatch(loadQuestions(questions))
-  },
-  statsReceived: (stats: Stats): void => {
-    dispatch(statsReceived(stats))
-  },
-  startLoading: (): void => {
-    dispatch(startLoading())
-  },
-  stopLoading: (): void => {
-    dispatch(stopLoading())
-  },
-})
-
-const connector = connect(mapStateToProps, mapDispatchToProps)
-
-type PropsFromRedux = ConnectedProps<typeof connector>
-
-type Props = PropsFromRedux & {
+type Props = {
   params: {
     exam: string
     school: string
@@ -69,68 +23,71 @@ type Props = PropsFromRedux & {
   location: Location
 }
 
-interface State {
-  finishedReturnedTrue: boolean
-  mode: 'all' | 'exam' | 'random' | 'hardest'
-}
+function Questions(props: Props): JSX.Element {
+  // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
+  let mode: 'all' | 'exam' | 'random' | 'hardest' = 'exam'
 
-class Questions extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props)
-
-    // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
-    let mode: 'all' | 'exam' | 'random' | 'hardest' = 'exam'
-
-    if (!props.params.exam && !props.params.mode) {
-      mode = 'all'
-    } else if (props.params.mode) {
-      mode = props.params.mode
-    }
-
-    this.state = {
-      finishedReturnedTrue: false, // Prevents multiples of the same report being sent to server.
-      mode,
-    }
-
-    // Clear quiz history in case this is not the first quiz
-    this.props.clear()
+  if (!props.params.exam && !props.params.mode) {
+    mode = 'all'
+  } else if (props.params.mode) {
+    mode = props.params.mode
   }
 
-  componentDidMount(): void {
-    const { school, course, exam, number } = this.props.params
+  const [, setStats] = useStats()
 
-    this.props.startLoading()
+  const [loading, setLoading] = useState<boolean>(false)
+  const [answerGiven, setAnswerGiven] = useState<boolean>(false)
+  const [questions, setQuestions] = useState<QuestionType[]>([])
+  const [currentQuestion, setCurrentQuestion] = useState<QuestionType | null>(
+    null,
+  )
+  const [history, setHistory] = useHistory()
+
+  const { school, course, exam, number } = props.params
+
+  useEffect(() => {
+    setLoading(true)
+    setHistory([])
 
     getQuestions(school, course, {
-      mode: this.state.mode,
+      mode,
       exam,
       limit: number,
     }).then((questions: QuestionType[]) => {
-      this.props.stopLoading()
-      this.props.loadQuestions(questions)
+      setLoading(false)
+      setQuestions(questions)
+      setCurrentQuestion(questions[0])
     })
+  }, [course, exam, mode, school, number, setHistory])
+
+  const answerIsCorrect = (
+    givenAnswer: string,
+    currentQuestion: QuestionType,
+  ): boolean => {
+    const q = currentQuestion
+    return q && q.answers.indexOf(q.options.indexOf(givenAnswer)) >= 0
   }
 
   // Get the (current) ratio of correct answers per total number of answered questions.
-  percentage(): number {
-    if (this.props.history.length === 0) return 0
-    const numCorrect = this.props.history.filter(q => q.wasCorrect).length
-    return Math.round((10000 * numCorrect) / this.props.history.length) / 100
+  const percentage = (): number => {
+    if (history.length === 0) return 0
+    const numCorrect = history.filter(q => q.wasCorrect).length
+    return Math.round((10000 * numCorrect) / history.length) / 100
   }
 
   // Returns the class (color, mostly) of the option button
   // decided by if it's the right answer or not.
-  buttonClass(
+  const buttonClass = (
     option: string,
-  ): 'alternativeMobile' | 'alternative' | 'correctAnswer' | 'wrongAnswer' {
-    if (!this.props.answerGiven) {
+  ): 'alternativeMobile' | 'alternative' | 'correctAnswer' | 'wrongAnswer' => {
+    if (!answerGiven) {
       const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
         navigator.userAgent,
       )
       return mobile ? 'alternativeMobile' : 'alternative'
     }
 
-    const previousQuestion = this.props.questions[this.props.history.length - 1]
+    const previousQuestion = questions[history.length - 1]
 
     // Check if the option the button represents is one of the correct answers.
     if (
@@ -144,102 +101,98 @@ class Questions extends React.Component<Props, State> {
     return 'wrongAnswer'
   }
 
-  answer(givenAnswer: string): void {
-    if (this.finished()) {
-      this.props.router.push(`${this.props.location.pathname}/results`)
-    } else {
-      this.props.answer(givenAnswer)
-    }
+  const finished = (): boolean => {
+    return history.length >= questions.length && questions.length !== 0
   }
 
-  // Checks if exam is finished. Reports stats to server if true.
-  // Fetches aggregated stats from server.
-  finished(): boolean {
-    if (
-      this.props.history.length < this.props.questions.length ||
-      this.props.questions.length === 0
-    ) {
-      return false
-    }
-
-    if (this.state.finishedReturnedTrue) {
-      return true
-    }
-
-    this.setState({
-      finishedReturnedTrue: true,
-    })
-
+  const reportResults = (): Promise<void> => {
     const report: SendableReport = {
       exam: {
-        school: this.props.params.school,
-        course: this.props.params.course,
-        name:
-          this.state.mode !== 'exam' ? this.state.mode : this.props.params.exam,
+        school: props.params.school,
+        course: props.params.course,
+        name: mode !== 'exam' ? mode : props.params.exam,
       },
       createdAt: getLocalTime(),
-      history: this.props.history,
-      score: this.props.history.filter(q => q.wasCorrect).length,
-      numQuestions: this.props.questions.length,
-      percentage: this.percentage(),
-      grade: percentageToGrade(this.percentage()),
+      history,
+      score: history.filter(q => q.wasCorrect).length,
+      numQuestions: questions.length,
+      percentage: percentage(),
+      grade: percentageToGrade(percentage()),
     }
 
-    sendReport(report).then(stats => {
-      this.props.statsReceived({ ...stats, numQuestions: report.numQuestions })
+    return sendReport(report).then(stats => {
+      setStats({ ...stats, numQuestions: report.numQuestions })
     })
-
-    return true
   }
 
-  render(): JSX.Element {
-    const question = this.props.currentQuestion
-
-    if (this.props.loading) {
-      return <LoadingSpinner />
+  const answer = (givenAnswer: string): void => {
+    if (finished()) {
+      reportResults().then(() => {
+        props.router.push(`${props.location.pathname}/results`)
+      })
+      return
     }
 
-    return (
-      <div>
-        <ProgressBar
-          history={this.props.history.map(q => q.wasCorrect)}
-          questions={this.props.questions}
-        />
+    if (!currentQuestion) return
+    if (!answerGiven) {
+      setHistory(prevHistory => [
+        ...prevHistory,
+        {
+          questionId: currentQuestion._id,
+          givenAnswer,
+          wasCorrect: answerIsCorrect(givenAnswer, currentQuestion),
+        },
+      ])
+    } else {
+      setCurrentQuestion(questions[history.length])
+    }
 
-        {this.props.questions.length ? (
-          <Row className={styles.questionRow}>
-            <Col xs={12}>
-              <Question text={question.question} />
-            </Col>
-          </Row>
-        ) : null}
-
-        {this.props.questions.length ? (
-          <Row className={styles.alternativesRow}>
-            <Col xs={12} className={styles.alternativesCol}>
-              {question &&
-                question.options.map(option => (
-                  <Alternative
-                    key={option}
-                    text={option}
-                    type={this.buttonClass(option)}
-                    onClick={(): void => this.answer(option)}
-                  />
-                ))}
-              {this.props.answerGiven ? (
-                <div>
-                  <Explanation text={question.explanation} />
-                  <b role="alert" className={styles.continueTip}>
-                    Click any answer to continue
-                  </b>
-                </div>
-              ) : null}
-            </Col>
-          </Row>
-        ) : null}
-      </div>
-    )
+    setAnswerGiven(prevAnswerGiven => !prevAnswerGiven)
   }
+
+  if (loading || !currentQuestion) {
+    return <LoadingSpinner />
+  }
+
+  return (
+    <div>
+      <ProgressBar
+        history={history.map(q => q.wasCorrect)}
+        questions={questions}
+      />
+
+      {questions.length ? (
+        <Row className={styles.questionRow}>
+          <Col xs={12}>
+            <Question text={currentQuestion.question} />
+          </Col>
+        </Row>
+      ) : null}
+
+      {questions.length ? (
+        <Row className={styles.alternativesRow}>
+          <Col xs={12} className={styles.alternativesCol}>
+            {currentQuestion.options.map(option => (
+              <Alternative
+                key={option}
+                text={option}
+                type={buttonClass(option)}
+                onClick={(): void => answer(option)}
+              />
+            ))}
+            {answerGiven ? (
+              <div>
+                <Explanation text={currentQuestion.explanation} />
+                <b role="alert" className={styles.continueTip}>
+                  Click any answer to continue
+                </b>
+              </div>
+            ) : null}
+          </Col>
+        </Row>
+      ) : null}
+    </div>
+  )
 }
 
-export default connector(Questions)
+export default Questions
