@@ -7,7 +7,7 @@ const Dotenv = require('dotenv-webpack')
 
 module.exports = () => ({
   context: __dirname,
-  entry: ['whatwg-fetch', './src/main.tsx'],
+  entry: ['./src/main.tsx'],
   module: {
     rules: [
       {
