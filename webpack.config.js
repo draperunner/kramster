@@ -1,6 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
@@ -60,7 +60,7 @@ module.exports = () => ({
     extensions: ['.tsx', '.ts', '.js', '.jsx', '.css', '.scss'],
   },
   plugins: [
-    new CleanWebpackPlugin('./dist'),
+    new CleanWebpackPlugin(),
     new Dotenv({ path: process.env.DOTENV_CONFIG_PATH }),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
     // "cp -r src/assets dist/assets && cp src/manifest.json dist/",
