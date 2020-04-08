@@ -17,7 +17,7 @@ const BaseButton = (props: Props): JSX.Element => (
     to={props.href}
     className={props.className}
     onClick={props.onClick}
-    onKeyDown={e => e.which === 13 && props.onClick && props.onClick(e)}
+    onKeyDown={(e) => e.which === 13 && props.onClick && props.onClick(e)}
     role="button"
     type="button"
     tabIndex={0}

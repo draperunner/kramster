@@ -97,10 +97,7 @@ function Result(props: Props): JSX.Element {
             <h4>Try again</h4>
           </ResultButton>
           <ResultButton
-            href={`/${params.splat
-              .split('/')
-              .slice(0, 2)
-              .join('/')}`}
+            href={`/${params.splat.split('/').slice(0, 2).join('/')}`}
           >
             <h4>Try another</h4>
           </ResultButton>

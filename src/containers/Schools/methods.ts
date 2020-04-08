@@ -9,7 +9,7 @@ export const header = (school: string): string => {
   // If no abbreviation, make one from the leading letters in each word
   return school
     .split(' ')
-    .map(e => e[0])
+    .map((e) => e[0])
     .join('')
 }
 

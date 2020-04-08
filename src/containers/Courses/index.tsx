@@ -49,7 +49,7 @@ function Courses(props: Props): JSX.Element {
 
   return (
     <Row className={styles.coursesRow}>
-      {courses.map(course => {
+      {courses.map((course) => {
         const header = getCourseHeader(course)
         const name = getCourseName(course)
         return (

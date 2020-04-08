@@ -46,7 +46,7 @@ export function getQuestions(
     random: mode === 'random',
     hardest: mode === 'hardest',
     limit,
-  }).then(data => {
+  }).then((data) => {
     // @ts-ignore
     if (exam) return data[0].questions
     return data

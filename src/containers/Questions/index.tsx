@@ -71,7 +71,7 @@ function Questions(props: Props): JSX.Element {
   // Get the (current) ratio of correct answers per total number of answered questions.
   const percentage = (): number => {
     if (history.length === 0) return 0
-    const numCorrect = history.filter(q => q.wasCorrect).length
+    const numCorrect = history.filter((q) => q.wasCorrect).length
     return Math.round((10000 * numCorrect) / history.length) / 100
   }
 
@@ -114,13 +114,13 @@ function Questions(props: Props): JSX.Element {
       },
       createdAt: getLocalTime(),
       history,
-      score: history.filter(q => q.wasCorrect).length,
+      score: history.filter((q) => q.wasCorrect).length,
       numQuestions: questions.length,
       percentage: percentage(),
       grade: percentageToGrade(percentage()),
     }
 
-    return sendReport(report).then(stats => {
+    return sendReport(report).then((stats) => {
       setStats({ ...stats, numQuestions: report.numQuestions })
     })
   }
@@ -135,7 +135,7 @@ function Questions(props: Props): JSX.Element {
 
     if (!currentQuestion) return
     if (!answerGiven) {
-      setHistory(prevHistory => [
+      setHistory((prevHistory) => [
         ...prevHistory,
         {
           questionId: currentQuestion._id,
@@ -147,7 +147,7 @@ function Questions(props: Props): JSX.Element {
       setCurrentQuestion(questions[history.length])
     }
 
-    setAnswerGiven(prevAnswerGiven => !prevAnswerGiven)
+    setAnswerGiven((prevAnswerGiven) => !prevAnswerGiven)
   }
 
   if (loading || !currentQuestion) {
@@ -157,7 +157,7 @@ function Questions(props: Props): JSX.Element {
   return (
     <div>
       <ProgressBar
-        history={history.map(q => q.wasCorrect)}
+        history={history.map((q) => q.wasCorrect)}
         questions={questions}
       />
 
@@ -172,7 +172,7 @@ function Questions(props: Props): JSX.Element {
       {questions.length ? (
         <Row className={styles.alternativesRow}>
           <Col xs={12} className={styles.alternativesCol}>
-            {currentQuestion.options.map(option => (
+            {currentQuestion.options.map((option) => (
               <Alternative
                 key={option}
                 text={option}

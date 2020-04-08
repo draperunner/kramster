@@ -22,7 +22,7 @@ class MathElement extends React.Component<Props> {
     return (
       <span
         {...this.props}
-        ref={input => {
+        ref={(input) => {
           this.mathElement = input
         }}
       >
