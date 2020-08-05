@@ -26,7 +26,20 @@ export interface Question {
   }
 }
 
+export interface School {
+  id: string
+  name: string
+  abbreviation: string
+}
+
+export interface Course {
+  id: string
+  name: string
+  code: string
+}
+
 export interface Exam {
+  id: string
   school: string
   course: string
   name: string

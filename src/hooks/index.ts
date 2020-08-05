@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import { Stats } from '../interfaces'
+import { Stats, School, Course, Exam } from '../interfaces'
 
 import { getStats, getSchools, getCourses, getExams } from '../api'
 
@@ -14,8 +14,8 @@ export function useStats(): Stats | undefined {
   return stats
 }
 
-export function useSchools(initialSchools: string[]): string[] {
-  const [schools, setSchools] = useState<string[]>(initialSchools)
+export function useSchools(initialSchools: School[]): School[] {
+  const [schools, setSchools] = useState<School[]>(initialSchools)
 
   useEffect(() => {
     getSchools().then(setSchools)
@@ -24,18 +24,18 @@ export function useSchools(initialSchools: string[]): string[] {
   return schools
 }
 
-export function useCourses(school: string): string[] {
-  const [courses, setCourses] = useState<string[]>([])
+export function useCourses(schoolId: string): Course[] {
+  const [courses, setCourses] = useState<Course[]>([])
 
   useEffect(() => {
-    getCourses(school).then(setCourses)
-  }, [school])
+    getCourses(schoolId).then(setCourses)
+  }, [schoolId])
 
   return courses
 }
 
-export function useExams(school: string, course: string): string[] {
-  const [exams, setExams] = useState<string[]>([])
+export function useExams(school: string, course: string): Exam[] {
+  const [exams, setExams] = useState<Exam[]>([])
 
   useEffect(() => {
     getExams(school, course).then(setExams)
