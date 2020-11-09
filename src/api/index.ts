@@ -9,7 +9,7 @@ import {
   School,
   Course,
 } from '../interfaces'
-import { get, post } from './http'
+import { get } from './http'
 
 const BASE_URL = process.env.API_BASE_URL
 
@@ -93,7 +93,7 @@ export async function getExam(
       .get()
 
     const questions = questionsSnapshot.docs.map(
-      (doc) => doc.data() as Question,
+      (doc) => ({ ...doc.data(), id: doc.id } as Question),
     )
 
     return {
@@ -139,17 +139,6 @@ export function getQuestions(
   })
 }
 
-export async function sendReport(report: SendableReport): Promise<Stats> {
-  await post(`${BASE_URL}/reports/add`, report)
-
-  // Fetch aggregated statistics from server
-  const { school, course, name } = report.exam
-  const url = `${BASE_URL}/stats/${school}/${course}/${name}`
-
-  const params: { numQuestions?: number } = {}
-  if (name === 'random') {
-    params.numQuestions = report.numQuestions
-  }
-
-  return get<Stats>(url, params)
+export async function sendReport(report: SendableReport): Promise<void> {
+  await firebase.firestore().collection('reports').add(report)
 }

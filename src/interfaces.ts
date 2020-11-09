@@ -15,7 +15,7 @@ export interface Stats {
 }
 
 export interface Question {
-  _id: string
+  id: string
   question: string
   options: string[]
   answers: number[]
