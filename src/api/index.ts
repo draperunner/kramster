@@ -14,7 +14,12 @@ import { get } from './http'
 const BASE_URL = process.env.API_BASE_URL
 
 export function getStats(): Promise<Stats> {
-  return get<Stats>(`${BASE_URL}/stats/`)
+  return firebase
+    .firestore()
+    .collection('stats')
+    .doc('global')
+    .get()
+    .then((doc) => doc.data() as Stats)
 }
 
 export function getSchools(): Promise<School[]> {
