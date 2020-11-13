@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from 'react'
-import firebase, { User } from 'firebase/app'
+import firebase from 'firebase/app'
 
 import 'firebase/analytics'
 import 'firebase/auth'
@@ -14,8 +14,8 @@ firebase.initializeApp({
   appId: '1:591159005378:web:fa1e2ed1914ec3f27f2b5b',
 })
 
-export function useAnonymousLogin(): User | null | undefined {
-  const [user, setUser] = useState<User | null | undefined>()
+export function useAnonymousLogin(): firebase.User | null | undefined {
+  const [user, setUser] = useState<firebase.User | null | undefined>()
 
   useEffect(() => {
     return firebase.auth().onAuthStateChanged((user) => {
@@ -31,6 +31,7 @@ export function useAnonymousLogin(): User | null | undefined {
   return user
 }
 
-export const UserContext = createContext<User | null | undefined>(null)
+export const UserContext = createContext<firebase.User | null | undefined>(null)
 
-export const useUser = (): User | null | undefined => useContext(UserContext)
+export const useUser = (): firebase.User | null | undefined =>
+  useContext(UserContext)

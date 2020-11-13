@@ -13,9 +13,14 @@ import { get } from './http'
 
 const BASE_URL = process.env.API_BASE_URL
 
+const db = firebase.firestore()
+
+if (process.env.NODE_ENV !== 'production') {
+  db.useEmulator('localhost', 8080)
+}
+
 export function getStats(): Promise<Stats> {
-  return firebase
-    .firestore()
+  return db
     .collection('stats')
     .doc('global')
     .get()
@@ -23,8 +28,7 @@ export function getStats(): Promise<Stats> {
 }
 
 export function getSchools(): Promise<School[]> {
-  return firebase
-    .firestore()
+  return db
     .collection('schools')
     .get()
     .then((snapshot) =>
@@ -36,8 +40,7 @@ export function getSchools(): Promise<School[]> {
 }
 
 export function getCourses(school: string): Promise<Course[]> {
-  return firebase
-    .firestore()
+  return db
     .collection('courses')
     .where('school', '==', school)
     .get()
@@ -50,8 +53,7 @@ export function getCourses(school: string): Promise<Course[]> {
 }
 
 export function getExams(school: string, course: string): Promise<Exam[]> {
-  return firebase
-    .firestore()
+  return db
     .collection('exams')
     .where('school', '==', school)
     .where('course', '==', course)
@@ -74,8 +76,7 @@ export async function getExam(
   examName: string,
 ): Promise<Exam | null> {
   try {
-    const snapshot = await firebase
-      .firestore()
+    const snapshot = await db
       .collection('exams')
       .where('name', '==', examName)
       .where('school', '==', school)
@@ -90,8 +91,7 @@ export async function getExam(
 
     if (!exam) return null
 
-    const questionsSnapshot = await firebase
-      .firestore()
+    const questionsSnapshot = await db
       .collection('exams')
       .doc(exam.id)
       .collection('questions')
@@ -145,5 +145,5 @@ export function getQuestions(
 }
 
 export async function sendReport(report: SendableReport): Promise<void> {
-  await firebase.firestore().collection('reports').add(report)
+  await db.collection('reports').add(report)
 }
