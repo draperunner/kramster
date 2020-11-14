@@ -9,9 +9,6 @@ import {
   School,
   Course,
 } from '../interfaces'
-import { get } from './http'
-
-const BASE_URL = process.env.API_BASE_URL
 
 const db = firebase.firestore()
 
@@ -74,40 +71,86 @@ export async function getExam(
   school: string,
   course: string,
   examName: string,
-): Promise<Exam | null> {
+): Promise<Question[]> {
   try {
     const snapshot = await db
-      .collection('exams')
-      .where('name', '==', examName)
+      .collection('questions')
+      .where('exam', '==', examName)
       .where('school', '==', school)
       .where('course', '==', course)
-      .limit(1)
       .get()
 
-    const exam = snapshot.docs.map((doc) => ({
-      ...(doc.data() as Exam),
+    const questions = snapshot.docs.map((doc) => ({
+      ...(doc.data() as Question),
       id: doc.id,
-    }))[0]
+    }))
 
-    if (!exam) return null
+    return questions
+  } catch (error) {
+    return []
+  }
+}
 
-    const questionsSnapshot = await db
-      .collection('exams')
-      .doc(exam.id)
+async function getRandom(
+  school: string,
+  course: string,
+  limit: number,
+): Promise<Question[]> {
+  const random = Math.floor(Math.random() * 10000)
+
+  const snap = await db
+    .collection('questions')
+    .where('school', '==', school)
+    .where('course', '==', course)
+    .where('random', '>=', random)
+    .orderBy('random')
+    .limit(limit)
+    .get()
+
+  let questions: Question[] = snap.docs.map((doc) => ({
+    ...(doc.data() as Question),
+    id: doc.id,
+  }))
+
+  if (snap.size < limit) {
+    const remainingSnap = await db
       .collection('questions')
+      .where('school', '==', school)
+      .where('course', '==', course)
+      .where('random', '<=', random)
+      .orderBy('random', 'desc')
+      .limit(limit - snap.size)
       .get()
 
-    const questions = questionsSnapshot.docs.map(
-      (doc) => ({ ...doc.data(), id: doc.id } as Question),
-    )
-
-    return {
-      ...exam,
-      questions,
-    }
-  } catch (error) {
-    return null
+    questions = [
+      ...questions,
+      ...remainingSnap.docs.map((doc) => ({
+        ...(doc.data() as Question),
+        id: doc.id,
+      })),
+    ]
   }
+
+  return questions
+}
+
+async function getHardest(
+  school: string,
+  course: string,
+  limit: number,
+): Promise<Question[]> {
+  const snap = await db
+    .collection('questions')
+    .where('school', '==', school)
+    .where('course', '==', course)
+    .orderBy('stats.successRate')
+    .limit(limit)
+    .get()
+
+  return snap.docs.map((doc) => ({
+    ...(doc.data() as Question),
+    id: doc.id,
+  }))
 }
 
 interface GetQuestionsOptions {
@@ -116,7 +159,7 @@ interface GetQuestionsOptions {
   mode?: 'random' | 'hardest' | 'exam' | 'all'
 }
 
-export function getQuestions(
+export async function getQuestions(
   school: string,
   course: string,
   options: GetQuestionsOptions,
@@ -124,24 +167,18 @@ export function getQuestions(
   const { exam, limit, mode } = options
 
   if (exam) {
-    return getExam(school, course, exam).then(
-      (examWithQuestions) => examWithQuestions?.questions || [],
-    )
+    return getExam(school, course, exam)
   }
 
-  const url = `${BASE_URL}/exams/${school}/${course}${
-    exam ? `/${options.exam}` : ''
-  }`
+  if (mode === 'random') {
+    return getRandom(school, course, limit || 10)
+  }
 
-  return get<Question[] | Exam[]>(url, {
-    random: mode === 'random',
-    hardest: mode === 'hardest',
-    limit,
-  }).then((data) => {
-    // @ts-ignore
-    if (exam) return data[0].questions
-    return data
-  })
+  if (mode === 'hardest') {
+    return getHardest(school, course, limit || 10)
+  }
+
+  return []
 }
 
 export async function sendReport(report: SendableReport): Promise<void> {

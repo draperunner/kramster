@@ -36,6 +36,7 @@ export interface Question {
   stats?: {
     totalAnswers: number
     totalCorrect: number
+    successRate: number
   }
 }
 
@@ -60,34 +61,43 @@ const batcher = createBatcher(db, {
 })
 
 export const onReportCreated = functions.firestore
-  .document('reports/{docId}')
+  .document('reports/{reportId}')
   .onCreate(async (snap) => {
     try {
       const report = snap.data() as Report
-      const { school, name, course } = report.exam
+      const questionIds = report.history.map((entry) => entry.questionId)
 
-      const examRes = await db
-        .collection('exams')
-        .where('school', '==', school)
-        .where('course', '==', course)
-        .where('name', '==', name)
-        .limit(1)
+      const questionsSnap = await db
+        .collection('questions')
+        .where(firestore.FieldPath.documentId(), 'in', questionIds)
         .get()
 
-      if (examRes.empty) {
-        throw new Error(
-          `Found no exam matching this report: ${school}, ${course}, ${name}`,
-        )
-      }
+      await Promise.all(
+        questionsSnap.docs.map(async (questionDoc) => {
+          const question = questionDoc.data() as Question
+          const { id, ref } = questionDoc
 
-      report.history.forEach(({ questionId, ...questionStat }) => {
-        const questionStatRef = examRes.docs[0].ref
-          .collection('questions')
-          .doc(questionId)
-          .collection('history')
-          .doc()
-        batcher.add(createOperation(questionStatRef, questionStat))
-      })
+          const stat = report.history.find(
+            ({ questionId }) => questionId === id,
+          )
+          const totalAnswers = (question.stats?.totalAnswers || 0) + 1
+          const totalCorrect =
+            (question.stats?.totalCorrect || 0) + (stat?.wasCorrect ? 1 : 0)
+
+          batcher.add(
+            updateOperation(ref, {
+              stats: {
+                totalAnswers,
+                totalCorrect,
+                successRate: totalCorrect / totalAnswers,
+              },
+              random: Math.floor(Math.random() * 10000),
+            }),
+          )
+
+          batcher.add(createOperation(ref.collection('history').doc(), stat))
+        }),
+      )
 
       const statsRef = db.collection('stats').doc('global')
 
