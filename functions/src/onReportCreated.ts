@@ -65,7 +65,9 @@ export const onReportCreated = functions.firestore
   .onCreate(async (snap) => {
     try {
       const report = snap.data() as Report
-      const questionIds = report.history.map((entry) => entry.questionId)
+      const { history, grade, score, numQuestions, exam } = report
+
+      const questionIds = history.map((entry) => entry.questionId)
 
       const questionsSnap = await db
         .collection('questions')
@@ -99,16 +101,62 @@ export const onReportCreated = functions.firestore
         }),
       )
 
-      const statsRef = db.collection('stats').doc('global')
+      const now = firestore.Timestamp.now()
+      const globalStatsRef = db.collection('stats').doc('global')
 
       batcher.add(
-        updateOperation(statsRef, {
+        updateOperation(globalStatsRef, {
           numReports: firestore.FieldValue.increment(1),
-          totalScore: firestore.FieldValue.increment(report.score),
-          [`grades.${report.grade}`]: firestore.FieldValue.increment(1),
-          lastUpdated: firestore.Timestamp.now(),
+          totalScore: firestore.FieldValue.increment(score),
+          [`grades.${grade}`]: firestore.FieldValue.increment(1),
+          lastUpdated: now,
         }),
       )
+
+      const examName =
+        exam.name === 'random' || exam.name === 'hardest'
+          ? `${exam.name}${numQuestions}`
+          : exam.name
+
+      const examStatsSnap = await db
+        .collection('stats')
+        .where('school', '==', exam.school)
+        .where('course', '==', exam.course)
+        .where('exam', '==', examName)
+        .limit(1)
+        .get()
+
+      if (examStatsSnap.empty) {
+        batcher.add(
+          createOperation(db.collection('stats').doc(), {
+            grades: {
+              A: 0,
+              B: 0,
+              C: 0,
+              D: 0,
+              E: 0,
+              F: 0,
+              [grade]: 1,
+            },
+            numReports: 1,
+            totalScore: score,
+            lastUpdated: now,
+            school: report.exam.school,
+            course: report.exam.course,
+            exam: examName,
+          }),
+        )
+      } else {
+        const examStats = examStatsSnap.docs[0]
+        batcher.add(
+          updateOperation(examStats.ref, {
+            numReports: firestore.FieldValue.increment(1),
+            totalScore: firestore.FieldValue.increment(report.score),
+            [`grades.${report.grade}`]: firestore.FieldValue.increment(1),
+            lastUpdated: now,
+          }),
+        )
+      }
 
       await batcher.commit()
     } catch (error) {

@@ -5,7 +5,10 @@ service cloud.firestore {
       return request.auth != null
     }
     match /stats/{stat} {
-      allow get: if isAuthenticated();
+      allow get, list: if isAuthenticated();
+    }
+    match /questions/{stat} {
+      allow get, list: if isAuthenticated();
     }
   	match /exams/{exam} {
       allow get, list: if isAuthenticated();

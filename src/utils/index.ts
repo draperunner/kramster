@@ -12,6 +12,7 @@ export const COLORS = {
 }
 
 export function formatPercentage(dividend: number, divisor: number): number {
+  if (divisor === 0) return 0
   return Math.round((10000 * dividend) / divisor) / 100
 }
 

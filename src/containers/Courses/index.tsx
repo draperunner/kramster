@@ -42,7 +42,7 @@ function Courses(props: Props): JSX.Element {
       {courses.map(({ id, code, name }) => (
         <Col key={id} xs={12} sm={6} md={4} lg={3}>
           <Kitem
-            head={code}
+            head={code.toUpperCase()}
             body={name}
             color={assignColor(code)}
             minHeight
