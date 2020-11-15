@@ -15,7 +15,7 @@ export interface Stats {
 }
 
 export interface Question {
-  _id: string
+  id: string
   question: string
   options: string[]
   answers: number[]
@@ -26,7 +26,20 @@ export interface Question {
   }
 }
 
+export interface School {
+  id: string
+  name: string
+  abbreviation: string
+}
+
+export interface Course {
+  id: string
+  name: string
+  code: string
+}
+
 export interface Exam {
+  id: string
   school: string
   course: string
   name: string

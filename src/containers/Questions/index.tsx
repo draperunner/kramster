@@ -9,7 +9,7 @@ import Alternative from '../../components/Buttons/Alternative'
 import { Question as QuestionType, SendableReport } from '../../interfaces'
 
 import styles from './Questions.css'
-import { useHistory, useStats } from '../../hooks/contexts'
+import { useHistory } from '../../hooks/contexts'
 
 type Props = {
   params: {
@@ -32,8 +32,6 @@ function Questions(props: Props): JSX.Element {
   } else if (props.params.mode) {
     mode = props.params.mode
   }
-
-  const [, setStats] = useStats()
 
   const [loading, setLoading] = useState<boolean>(false)
   const [answerGiven, setAnswerGiven] = useState<boolean>(false)
@@ -120,9 +118,7 @@ function Questions(props: Props): JSX.Element {
       grade: percentageToGrade(percentage()),
     }
 
-    return sendReport(report).then((stats) => {
-      setStats({ ...stats, numQuestions: report.numQuestions })
-    })
+    return sendReport(report)
   }
 
   const answer = (givenAnswer: string): void => {
@@ -138,7 +134,7 @@ function Questions(props: Props): JSX.Element {
       setHistory((prevHistory) => [
         ...prevHistory,
         {
-          questionId: currentQuestion._id,
+          questionId: currentQuestion.id,
           givenAnswer,
           wasCorrect: answerIsCorrect(givenAnswer, currentQuestion),
         },

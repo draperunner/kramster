@@ -9,7 +9,7 @@ export const StatsContext = createContext<[Stats | null, StatsSetter]>([
   (): void => {}, // eslint-disable-line @typescript-eslint/no-empty-function
 ])
 
-export function useStats() {
+export function useStats(): [Stats | null, StatsSetter] {
   return useContext(StatsContext)
 }
 
@@ -20,6 +20,6 @@ export const HistoryContext = createContext<[HistoryEntry[], HistorySetter]>([
   (): void => {}, // eslint-disable-line @typescript-eslint/no-empty-function
 ])
 
-export function useHistory() {
+export function useHistory(): [HistoryEntry[], HistorySetter] {
   return useContext(HistoryContext)
 }

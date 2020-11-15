@@ -17,7 +17,7 @@ function Exams(props: Props): JSX.Element {
   const { school, course } = props.params
   const exams = useExams(school, course)
 
-  if (!exams || !exams.length) {
+  if (!exams?.length) {
     return <LoadingSpinner />
   }
 
@@ -42,10 +42,10 @@ function Exams(props: Props): JSX.Element {
       </Row>
 
       <Row className={styles.examsRow}>
-        {exams.map((exam) => (
-          <Col key={exam} xs={6} md={4} lg={3} className={styles.col}>
-            <StandardButton href={`/${school}/${course}/${exam}`}>
-              {exam}
+        {exams.map(({ id, name }) => (
+          <Col key={id} xs={6} md={4} lg={3} className={styles.col}>
+            <StandardButton href={`/${school}/${course}/${name}`}>
+              {name}
             </StandardButton>
           </Col>
         ))}

@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAuthenticated() {
+      return request.auth != null
+    }
+    match /stats/{stat} {
+      allow get, list: if isAuthenticated();
+    }
+    match /questions/{stat} {
+      allow get, list: if isAuthenticated();
+    }
+  	match /exams/{exam} {
+      allow get, list: if isAuthenticated();
+      match /questions/{question} {
+        allow get, list: if isAuthenticated();
+      }
+    }
+    match /schools/{school} {
+      allow get, list: if isAuthenticated();
+    }
+    match /courses/{course} {
+      allow get, list: if isAuthenticated();
+    }
+  	match /reports/{report} {
+      allow create: if isAuthenticated();
+    }
+  }
+}

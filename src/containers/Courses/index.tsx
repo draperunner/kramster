@@ -5,16 +5,6 @@ import { useCourses } from '../../hooks'
 import { Kitem, LoadingSpinner } from '../../components'
 import styles from './Courses.css'
 
-// Returns a pretty header for the course (the course code)
-function getCourseHeader(course: string): string {
-  return course.split(' ')[0].toUpperCase()
-}
-
-// Returns the full name of the course. Removes course code
-function getCourseName(course: string): string {
-  return course.replace(course.split(' ')[0], '').trim()
-}
-
 interface Props {
   params: {
     school: string
@@ -49,21 +39,17 @@ function Courses(props: Props): JSX.Element {
 
   return (
     <Row className={styles.coursesRow}>
-      {courses.map((course) => {
-        const header = getCourseHeader(course)
-        const name = getCourseName(course)
-        return (
-          <Col key={course} xs={12} sm={6} md={4} lg={3}>
-            <Kitem
-              head={header}
-              body={name}
-              color={assignColor(header)}
-              minHeight
-              onClick={(): void => browserHistory.push(`/${school}/${header}`)}
-            />
-          </Col>
-        )
-      })}
+      {courses.map(({ id, code, name }) => (
+        <Col key={id} xs={12} sm={6} md={4} lg={3}>
+          <Kitem
+            head={code.toUpperCase()}
+            body={name}
+            color={assignColor(code)}
+            minHeight
+            onClick={(): void => browserHistory.push(`/${school}/${id}`)}
+          />
+        </Col>
+      ))}
     </Row>
   )
 }

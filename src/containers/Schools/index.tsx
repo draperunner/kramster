@@ -3,13 +3,21 @@ import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
 import { useSchools, useStats } from '../../hooks'
 import { Kitem, Jumbotron } from '../../components'
-import { header, name } from './methods'
 import styles from './Schools.css'
+import { School } from '../../interfaces'
 
 function Schools(): JSX.Element {
   const schools = useSchools([
-    'Norges Teknisk-Naturvitenskaplige Universitet (NTNU)',
-    'Storbyuniversitetet (OsloMet)',
+    {
+      id: 'ntnu',
+      abbreviation: 'NTNU',
+      name: 'Norges Teknisk-Naturvitenskaplige Universitet',
+    },
+    {
+      id: 'oslomet',
+      abbreviation: 'OsloMet',
+      name: 'Oslo Metropolitan University',
+    },
   ])
 
   const stats = useStats()
@@ -20,13 +28,13 @@ function Schools(): JSX.Element {
       <Jumbotron gradesData={grades} />
 
       <Row className={styles.schoolsRow}>
-        {schools.map((school: string) => (
-          <Col xs={12} sm={6} lg={3} key={school}>
+        {schools.map((school: School) => (
+          <Col xs={12} sm={6} lg={3} key={school.id}>
             <Kitem
-              head={header(school)}
-              body={name(school)}
+              head={school.abbreviation}
+              body={school.name}
               color="green"
-              onClick={(): void => browserHistory.push(`/${header(school)}`)}
+              onClick={(): void => browserHistory.push(`/${school.id}`)}
             />
           </Col>
         ))}

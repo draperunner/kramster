@@ -16,3 +16,4 @@ doc/
 .env*
 !.env.dev
 .firebase/
+*.log
