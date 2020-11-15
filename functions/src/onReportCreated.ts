@@ -69,32 +69,33 @@ export const onReportCreated = functions.firestore
 
       await Promise.all(
         history.map(async (entry) => {
-          const questionRef = await db
-            .collection('questions')
-            .doc(entry.questionId)
-            .get()
-          const question = questionRef.data() as Question
-          const { id, ref } = questionRef
+          const questionRef = db.collection('questions').doc(entry.questionId)
+          return db.runTransaction(async (transaction) => {
+            const questionSnap = await transaction.get(questionRef)
+            const question = questionSnap.data() as Question
+            const { id } = questionSnap
 
-          const stat = report.history.find(
-            ({ questionId }) => questionId === id,
-          )
-          const totalAnswers = (question.stats?.totalAnswers || 0) + 1
-          const totalCorrect =
-            (question.stats?.totalCorrect || 0) + (stat?.wasCorrect ? 1 : 0)
+            const stat = report.history.find(
+              ({ questionId }) => questionId === id,
+            )
 
-          batcher.add(
-            updateOperation(ref, {
+            const prevTotalAnswers = question.stats?.totalAnswers || 0
+            const totalAnswers = prevTotalAnswers + 1
+
+            const prevTotalCorrect = question.stats?.totalCorrect || 0
+            const totalCorrect = prevTotalCorrect + (stat?.wasCorrect ? 1 : 0)
+
+            transaction.update(questionRef, {
               stats: {
                 totalAnswers,
                 totalCorrect,
                 successRate: totalCorrect / totalAnswers,
               },
               random: Math.floor(Math.random() * 10000),
-            }),
-          )
+            })
 
-          batcher.add(createOperation(ref.collection('history').doc(), stat))
+            transaction.create(questionRef.collection('history').doc(), stat)
+          })
         }),
       )
 
