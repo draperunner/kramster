@@ -31,6 +31,24 @@
           "order": "ASCENDING"
         },
         {
+          "fieldPath": "random",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "questions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "course",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "school",
+          "order": "ASCENDING"
+        },
+        {
           "fieldPath": "stats.successRate",
           "order": "ASCENDING"
         }
