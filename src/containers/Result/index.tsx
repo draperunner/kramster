@@ -20,10 +20,22 @@ function Result(props: Props): JSX.Element {
   const [stats] = useStats()
   const [history] = useHistory()
 
+  const totalNumberOfQuestions = stats
+    ? stats.numReports * stats.numQuestions
+    : 0
+  const avgPercentage = formatPercentage(
+    stats ? stats.totalScore : 0,
+    totalNumberOfQuestions,
+  )
+  const averageGrade = percentageToGrade(avgPercentage)
+  const averageScore = stats
+    ? stats.averageScore && stats.averageScore.toFixed(2)
+    : ''
   const score = history.filter((q: HistoryEntry) => q.wasCorrect).length
   const percentage = formatPercentage(score, history.length)
   const grade = percentageToGrade(percentage)
   const colorFromUser = COLORS[grade]
+  const colorFromServer = COLORS[averageGrade]
 
   return (
     <div>
@@ -42,6 +54,34 @@ function Result(props: Props): JSX.Element {
 
         <Col xs={4} md={4}>
           <Kitem head={percentage} body="%" color={colorFromUser} />
+        </Col>
+      </Row>
+
+      <Row className={styles.row}>
+        <Col xs={12}>
+          <h1 className={styles.header}>Stats for this exam</h1>
+        </Col>
+
+        <Col xs={4} md={4}>
+          <Kitem
+            head={averageGrade}
+            body="Average Grade"
+            color={colorFromServer}
+          />
+        </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={averageScore}
+            body="Average Score"
+            color={colorFromServer}
+          />
+        </Col>
+        <Col xs={4} md={4}>
+          <Kitem
+            head={avgPercentage}
+            body="Average %"
+            color={colorFromServer}
+          />
         </Col>
       </Row>
 
