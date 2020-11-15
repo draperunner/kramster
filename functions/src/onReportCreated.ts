@@ -67,17 +67,14 @@ export const onReportCreated = functions.firestore
       const report = snap.data() as Report
       const { history, grade, score, numQuestions, exam } = report
 
-      const questionIds = history.map((entry) => entry.questionId)
-
-      const questionsSnap = await db
-        .collection('questions')
-        .where(firestore.FieldPath.documentId(), 'in', questionIds)
-        .get()
-
       await Promise.all(
-        questionsSnap.docs.map(async (questionDoc) => {
-          const question = questionDoc.data() as Question
-          const { id, ref } = questionDoc
+        history.map(async (entry) => {
+          const questionRef = await db
+            .collection('questions')
+            .doc(entry.questionId)
+            .get()
+          const question = questionRef.data() as Question
+          const { id, ref } = questionRef
 
           const stat = report.history.find(
             ({ questionId }) => questionId === id,
