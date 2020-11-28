@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+
 import { Row, Col } from 'react-flexbox-grid'
 import { getQuestions, sendReport } from '../../api'
 import { LoadingSpinner, ProgressBar } from '../../components'

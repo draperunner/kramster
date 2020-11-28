@@ -38,7 +38,7 @@ module.exports = {
     process: false,
   },
   rules: {
-    '@typescript-eslint/ban-ts-ignore': 'warn',
+    '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/member-delimiter-style': 'off',
     'import/prefer-default-export': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
