@@ -1,10 +1,45 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
-import { useSchools, useStats } from '../../hooks'
+import firebase from 'firebase/app'
+
 import { Kitem, Jumbotron } from '../../components'
 import styles from './Schools.css'
-import { School } from '../../interfaces'
+import { School, Stats } from '../../interfaces'
+
+const db = firebase.firestore()
+
+function useStats(): Stats | undefined {
+  const [stats, setStats] = useState<Stats | undefined>()
+
+  useEffect(() => {
+    db.collection('stats')
+      .doc('global')
+      .get()
+      .then((doc) => doc.data() as Stats)
+      .then(setStats)
+  }, [])
+
+  return stats
+}
+
+function useSchools(initialSchools: School[]): School[] {
+  const [schools, setSchools] = useState<School[]>(initialSchools)
+
+  useEffect(() => {
+    db.collection('schools')
+      .get()
+      .then((snapshot) =>
+        snapshot.docs.map((doc) => ({
+          ...(doc.data() as School),
+          id: doc.id,
+        })),
+      )
+      .then(setSchools)
+  }, [])
+
+  return schools
+}
 
 function Schools(): JSX.Element {
   const schools = useSchools([

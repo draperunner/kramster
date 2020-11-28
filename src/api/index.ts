@@ -1,14 +1,7 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
-import {
-  Stats,
-  Question,
-  Exam,
-  SendableReport,
-  School,
-  Course,
-} from '../interfaces'
+import { Question, SendableReport } from '../interfaces'
 
 const db = firebase.firestore()
 
@@ -16,58 +9,7 @@ if (process.env.NODE_ENV !== 'production') {
   db.useEmulator('localhost', 8080)
 }
 
-export function getStats(): Promise<Stats> {
-  return db
-    .collection('stats')
-    .doc('global')
-    .get()
-    .then((doc) => doc.data() as Stats)
-}
-
-export function getSchools(): Promise<School[]> {
-  return db
-    .collection('schools')
-    .get()
-    .then((snapshot) =>
-      snapshot.docs.map((doc) => ({
-        ...(doc.data() as School),
-        id: doc.id,
-      })),
-    )
-}
-
-export function getCourses(school: string): Promise<Course[]> {
-  return db
-    .collection('courses')
-    .where('school', '==', school)
-    .get()
-    .then((snapshot) =>
-      snapshot.docs.map((doc) => ({
-        ...(doc.data() as Course),
-        id: doc.id,
-      })),
-    )
-}
-
-export function getExams(school: string, course: string): Promise<Exam[]> {
-  return db
-    .collection('exams')
-    .where('school', '==', school)
-    .where('course', '==', course)
-    .get()
-    .then((snapshot) =>
-      snapshot.docs.map((doc) => {
-        const exam = doc.data() as Exam
-        return {
-          ...exam,
-          id: doc.id,
-          questions: exam.questions || [],
-        }
-      }),
-    )
-}
-
-export async function getExam(
+async function getExam(
   school: string,
   course: string,
   examName: string,

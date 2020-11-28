@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
-import { useCourses } from '../../hooks'
+import firebase from 'firebase/app'
+
+import { Course } from '../../interfaces'
 import { Kitem, LoadingSpinner } from '../../components'
 import styles from './Courses.css'
 
@@ -9,6 +11,27 @@ interface Props {
   params: {
     school: string
   }
+}
+
+const db = firebase.firestore()
+
+function useCourses(schoolId: string): Course[] {
+  const [courses, setCourses] = useState<Course[]>([])
+
+  useEffect(() => {
+    db.collection('courses')
+      .where('school', '==', schoolId)
+      .get()
+      .then((snapshot) =>
+        snapshot.docs.map((doc) => ({
+          ...(doc.data() as Course),
+          id: doc.id,
+        })),
+      )
+      .then(setCourses)
+  }, [schoolId])
+
+  return courses
 }
 
 function Courses(props: Props): JSX.Element {
