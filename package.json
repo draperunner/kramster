@@ -48,6 +48,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
     "@babel/preset-typescript": "^7.12.1",
+    "@types/chart.js": "^2.9.28",
     "@types/katex": "^0.11.0",
     "@types/mongodb": "^3.5.33",
     "@types/react": "^16.9.56",
