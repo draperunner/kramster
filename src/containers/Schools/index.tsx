@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { browserHistory } from 'react-router'
 import { Row, Col } from 'react-flexbox-grid'
 import firebase from 'firebase/app'
+import 'firebase/firestore'
 
 import { Kitem, Jumbotron } from '../../components'
 import styles from './Schools.css'
