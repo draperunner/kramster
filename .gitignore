@@ -13,7 +13,5 @@ doc/
 *.bson
 *.metadata.json
 *.tar.gz
-.env*
-!.env.dev
 .firebase/
 *.log
