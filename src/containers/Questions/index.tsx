@@ -80,9 +80,10 @@ function Questions(props: Props): JSX.Element {
     option: string,
   ): 'alternativeMobile' | 'alternative' | 'correctAnswer' | 'wrongAnswer' => {
     if (!answerGiven) {
-      const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent,
-      )
+      const mobile =
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent,
+        )
       return mobile ? 'alternativeMobile' : 'alternative'
     }
 
