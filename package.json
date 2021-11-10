@@ -15,8 +15,7 @@
     "test": "tsc --noEmit",
     "emulators": "firebase emulators:start",
     "deploy": "npm run build:prod && firebase deploy -P prod",
-    "deploy:staging": "npm run build:staging && firebase deploy -P staging",
-    "migrate": "ts-node scripts/migrate.ts"
+    "deploy:staging": "npm run build:staging && firebase deploy -P staging"
   },
   "repository": {
     "type": "git",
@@ -30,7 +29,6 @@
     "firebase-admin": "^9.8.0",
     "firestore-batcher": "^0.3.1",
     "katex": "^0.11.1",
-    "mongodb": "^3.6.6",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-chartjs-2": "^2.11.2",
@@ -49,7 +47,6 @@
     "@babel/preset-typescript": "^7.13.0",
     "@types/chart.js": "^2.9.32",
     "@types/katex": "^0.11.0",
-    "@types/mongodb": "^3.6.12",
     "@types/node": "^12.20.12",
     "@types/qs": "^6.9.6",
     "@types/react": "^16.14.6",
