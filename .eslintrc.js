@@ -34,7 +34,6 @@ module.exports = {
     'prettier'
   ],
   globals: {
-    KRAMSTER_TRACKING_ID: false,
     process: false,
   },
   rules: {

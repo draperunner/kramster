@@ -5,6 +5,7 @@ import 'firebase/analytics'
 import 'firebase/auth'
 
 firebase.initializeApp(JSON.parse(process.env.FIREBASE_CONFIG || ''))
+firebase.analytics()
 
 export function useAnonymousLogin(): firebase.User | null | undefined {
   const [user, setUser] = useState<firebase.User | null | undefined>()
