@@ -1,5 +1,5 @@
 import * as functions from 'firebase-functions'
-import { firestore, initializeApp } from 'firebase-admin'
+import * as admin from 'firebase-admin'
 import createBatcher, {
   createOperation,
   updateOperation,
@@ -49,9 +49,9 @@ export interface Exam {
   questions: Question[]
 }
 
-initializeApp()
+admin.initializeApp()
 
-const db = firestore()
+const db = admin.firestore()
 
 const batcher = createBatcher(db, {
   onBatchCommited: (stats) =>
@@ -99,14 +99,14 @@ export const onReportCreated = functions.firestore
         }),
       )
 
-      const now = firestore.Timestamp.now()
+      const now = admin.firestore.Timestamp.now()
       const globalStatsRef = db.collection('stats').doc('global')
 
       batcher.add(
         updateOperation(globalStatsRef, {
-          numReports: firestore.FieldValue.increment(1),
-          totalScore: firestore.FieldValue.increment(score),
-          [`grades.${grade}`]: firestore.FieldValue.increment(1),
+          numReports: admin.firestore.FieldValue.increment(1),
+          totalScore: admin.firestore.FieldValue.increment(score),
+          [`grades.${grade}`]: admin.firestore.FieldValue.increment(1),
           lastUpdated: now,
         }),
       )
@@ -148,9 +148,9 @@ export const onReportCreated = functions.firestore
         const examStats = examStatsSnap.docs[0]
         batcher.add(
           updateOperation(examStats.ref, {
-            numReports: firestore.FieldValue.increment(1),
-            totalScore: firestore.FieldValue.increment(report.score),
-            [`grades.${report.grade}`]: firestore.FieldValue.increment(1),
+            numReports: admin.firestore.FieldValue.increment(1),
+            totalScore: admin.firestore.FieldValue.increment(report.score),
+            [`grades.${report.grade}`]: admin.firestore.FieldValue.increment(1),
             lastUpdated: now,
           }),
         )
