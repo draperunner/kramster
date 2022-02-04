@@ -13,14 +13,15 @@ module.exports = () => ({
       {
         test: /\.css$/,
         include: /src|flexboxgrid/,
-        loaders: [
+        use: [
           'style-loader',
           {
             loader: 'css-loader',
-            query: {
-              modules: true,
+            options: {
+              modules: {
+                localIdentName: '[name]__[local]___[hash:base64:5]',
+              },
               importLoaders: 1,
-              localIdentName: '[name]__[local]___[hash:base64:5]',
             },
           },
         ],
@@ -45,11 +46,6 @@ module.exports = () => ({
         loader: 'ts-loader',
       },
       {
-        test: /\.js$/,
-        use: ['source-map-loader'],
-        enforce: 'pre',
-      },
-      {
         test: /\.(eot|png|ttf|woff2?|otf)$/,
         loader: 'file-loader',
       },
@@ -64,10 +60,16 @@ module.exports = () => ({
     new Dotenv({ path: process.env.DOTENV_CONFIG_PATH }),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
     // "cp -r src/assets dist/assets && cp src/manifest.json dist/",
-    new CopyWebpackPlugin(
-      [{ from: 'assets', to: 'assets' }, { from: 'manifest.json' }],
-      { context: 'src' },
-    ),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'assets',
+          to: 'assets',
+          context: 'src',
+        },
+        { from: 'manifest.json', context: 'src' },
+      ],
+    }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(
         process.env.NODE_ENV || 'development',

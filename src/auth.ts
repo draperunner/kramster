@@ -5,6 +5,10 @@ import 'firebase/auth'
 
 firebase.initializeApp(JSON.parse(process.env.FIREBASE_CONFIG || ''))
 
+if (process.env.NODE_ENV !== 'production') {
+  firebase.auth().useEmulator('http://localhost:9099')
+}
+
 export function useAnonymousLogin(): firebase.User | null | undefined {
   const [user, setUser] = useState<firebase.User | null | undefined>()
 
