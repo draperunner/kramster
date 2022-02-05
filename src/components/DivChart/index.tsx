@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './DivChart.css'
 
 const DivChart: React.FC<Props> = ({ height, data }) => {
   // Make data percentages of max value
@@ -14,26 +15,13 @@ const DivChart: React.FC<Props> = ({ height, data }) => {
   }, [data])
 
   return (
-    <div
-      style={{
-        height,
-        display: 'flex',
-        justifyContent: 'space-around',
-        alignItems: 'flex-end',
-      }}
-    >
+    <div className={styles.divChart} style={{ height }}>
       {normalizeData.map(({ label, value }) => (
         <div
           key={label}
+          className={styles.divChartBar}
           style={{
-            display: 'flex',
-            alignItems: 'flex-end',
-            flex: 1,
-            margin: '0 1rem',
             height: 100 * value + '%',
-            backgroundColor: '#e74c3c',
-            justifyContent: 'center',
-            borderRadius: 2,
           }}
         >
           <div style={{ padding: '1rem' }}>{label}</div>

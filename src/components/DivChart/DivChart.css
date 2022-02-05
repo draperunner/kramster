@@ -1,0 +1,21 @@
+.divChart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.divChartBar {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+  background-color: #e74c3c;
+  justify-content: center;
+  border-radius: 2;
+  margin-right: 1rem;
+}
+
+@media (max-width: 500px) {
+  .divChartBar {
+    margin-right: 5px;
+  }
+}
