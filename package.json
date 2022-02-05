@@ -13,7 +13,7 @@
     "stylelint": "stylelint src/**/*.css",
     "lint": "npm run eslint && npm run stylelint",
     "test": "tsc --noEmit",
-    "emulators": "firebase emulators:start",
+    "emulators": "firebase emulators:start --import=./firestore",
     "deploy": "npm run build:prod && firebase deploy -P prod",
     "deploy:staging": "npm run build:staging && firebase deploy -P staging"
   },
