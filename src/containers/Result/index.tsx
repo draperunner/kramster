@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Row, Col } from 'react-flexbox-grid'
 import firebase from 'firebase/app'
 
 import { formatPercentage, percentageToGrade, COLORS } from '../../utils'
@@ -67,68 +66,62 @@ function Result(props: Props): JSX.Element {
 
   return (
     <div>
-      <Row className={styles.row}>
-        <Col xs={12}>
-          <h1 className={styles.header}>Your results</h1>
-        </Col>
-
-        <Col xs={4} md={4}>
+      <h1 className={styles.header}>Your results</h1>
+      <div className={styles.row}>
+        <div>
           <Kitem head={grade} body="Grade" color={colorFromUser} />
-        </Col>
+        </div>
 
-        <Col xs={4} md={4}>
+        <div>
           <Kitem head={score} body="Score" color={colorFromUser} />
-        </Col>
+        </div>
 
-        <Col xs={4} md={4}>
+        <div>
           <Kitem head={percentage} body="%" color={colorFromUser} />
-        </Col>
-      </Row>
+        </div>
+      </div>
 
-      <Row className={styles.row}>
-        <Col xs={12}>
-          <h1 className={styles.header}>Stats for this exam</h1>
-        </Col>
-
-        <Col xs={4} md={4}>
+      <h1 className={styles.header}>Stats for this exam</h1>
+      <div className={styles.row}>
+        <div>
           <Kitem
             head={averageGrade}
             body="Average Grade"
             color={colorFromServer}
           />
-        </Col>
-        <Col xs={4} md={4}>
+        </div>
+        <div>
           <Kitem
             head={averageScore}
             body="Average Score"
             color={colorFromServer}
           />
-        </Col>
-        <Col xs={4} md={4}>
+        </div>
+        <div>
           <Kitem
             head={avgPercentage}
             body="Average %"
             color={colorFromServer}
           />
-        </Col>
-      </Row>
+        </div>
+      </div>
 
-      <Row className={styles.row}>
-        <Col xs={6} sm={4}>
+      <div className={styles.row}>
+        <div>
           {examStats?.grades ? <PieChart data={examStats.grades} /> : null}
-        </Col>
-        <Col xs={6} sm={4}>
+        </div>
+        <div>
           {examStats?.grades ? <BarChart data={examStats.grades} /> : null}
-        </Col>
-        <Col xs={12} sm={4}>
+        </div>
+        <div>
           <ResultButton href={`/${splat}`}>
             <h4>Try again</h4>
           </ResultButton>
           <ResultButton href={`/${splat.split('/').slice(0, 2).join('/')}`}>
             <h4>Try another</h4>
           </ResultButton>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </div>
   )
 }

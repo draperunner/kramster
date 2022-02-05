@@ -3,19 +3,49 @@
   margin: 22px 0 0;
 }
 
-.row {
-  margin: 0;
-}
-
-.col {
-  padding: 0 5px;
-}
-
 .categoriesRow {
-  composes: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
 }
 
-.examsRow {
-  composes: row;
-  margin-top: 5px;
+.examsGrid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, auto);
+  margin: 1rem;
+}
+
+.categoriesRow > div {
+  flex: 1;
+}
+
+@media (max-width: 1200px) {
+  .examsGrid {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 800px) {
+  .examsGrid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 800px) {
+  .examsGrid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 500px) {
+  .categoriesRow {
+    display: block;
+  }
+
+  .examsGrid {
+    grid-gap: 0;
+    grid-template-columns: repeat(1, auto);
+  }
 }

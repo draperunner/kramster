@@ -2,12 +2,10 @@
   margin: 40px 0 20px;
 }
 
-.alternativesRow {
+.alternatives {
   margin: 20px 15px;
-}
-
-.alternativesCol {
-  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .continueTip {
@@ -17,12 +15,7 @@
 }
 
 @media (max-width: 767px) {
-  .alternativesRow {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .alternativesCol {
-    padding: 0 5px;
+  .alternatives {
+    margin: 10px;
   }
 }

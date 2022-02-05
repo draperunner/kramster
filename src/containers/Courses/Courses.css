@@ -1,3 +1,31 @@
-.coursesRow {
-  margin: 20px 0 0;
+.coursesGrid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, auto);
+  margin: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .coursesGrid {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 800px) {
+  .coursesGrid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 800px) {
+  .coursesGrid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 500px) {
+  .coursesGrid {
+    grid-gap: 0;
+    grid-template-columns: repeat(1, auto);
+  }
 }

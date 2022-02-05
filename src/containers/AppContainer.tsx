@@ -1,5 +1,4 @@
 import React, { ReactNode, useState } from 'react'
-import { Grid } from 'react-flexbox-grid'
 
 import { Navbar } from '../components'
 import { Stats, HistoryEntry } from '../interfaces'
@@ -16,11 +15,11 @@ const App = (props: Props): JSX.Element => {
   return (
     <StatsContext.Provider value={[stats, setStats]}>
       <HistoryContext.Provider value={[history, setHistory]}>
-        <Grid>
+        <div style={{ margin: 'auto', maxWidth: 1184 }}>
           <Navbar />
 
           {props.children}
-        </Grid>
+        </div>
       </HistoryContext.Provider>
     </StatsContext.Provider>
   )

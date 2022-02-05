@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-import { Row, Col } from 'react-flexbox-grid'
 
 import { Exam } from '../../interfaces'
 import CategoryButton from '../../components/Buttons/CategoryButton'
@@ -53,33 +52,33 @@ function Exams(props: Props): JSX.Element {
 
   return (
     <div className={styles.wrapper}>
-      <Row className={styles.categoriesRow}>
-        <Col xs={4} className={styles.col}>
+      <div className={styles.categoriesRow}>
+        <div>
           <CategoryButton href={`/${school}/${course}/random/10`}>
             10 Random
           </CategoryButton>
-        </Col>
-        <Col xs={4} className={styles.col}>
+        </div>
+        <div>
           <CategoryButton href={`/${school}/${course}/random/30`}>
             30 Random
           </CategoryButton>
-        </Col>
-        <Col xs={4} className={styles.col}>
+        </div>
+        <div>
           <CategoryButton href={`/${school}/${course}/hardest/10`}>
             10 Hardest
           </CategoryButton>
-        </Col>
-      </Row>
+        </div>
+      </div>
 
-      <Row className={styles.examsRow}>
+      <div className={styles.examsGrid}>
         {exams.map(({ id, name }) => (
-          <Col key={id} xs={6} md={4} lg={3} className={styles.col}>
+          <div key={id}>
             <StandardButton href={`/${school}/${course}/${name}`}>
               {name}
             </StandardButton>
-          </Col>
+          </div>
         ))}
-      </Row>
+      </div>
     </div>
   )
 }

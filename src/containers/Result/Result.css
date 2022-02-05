@@ -7,5 +7,10 @@
 }
 
 .row {
-  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row > div {
+  flex: 1;
 }

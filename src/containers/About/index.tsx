@@ -1,5 +1,4 @@
 import React from 'react'
-import { Row, Col } from 'react-flexbox-grid'
 import { Kitem } from '../../components'
 import styles from './About.css'
 
@@ -34,8 +33,8 @@ const About = (): JSX.Element => (
       </p>
     </div>
 
-    <Row className={styles.linksRow}>
-      <Col xs={12} md={4}>
+    <div className={styles.linksRow}>
+      <div className={styles.linkItem}>
         <Kitem
           head="Add exam"
           body="As easy as sending an email. Literally."
@@ -44,8 +43,8 @@ const About = (): JSX.Element => (
             window.location.href = 'mailto:matsbyr@gmail.com'
           }}
         />
-      </Col>
-      <Col xs={12} md={4}>
+      </div>
+      <div className={styles.linkItem}>
         <Kitem
           head="API"
           body="Do cool stuff with Kramster data."
@@ -55,8 +54,8 @@ const About = (): JSX.Element => (
               'https://github.com/draperunner/Kramster/wiki/API-Reference'
           }}
         />
-      </Col>
-      <Col xs={12} md={4}>
+      </div>
+      <div className={styles.linkItem}>
         <Kitem
           head="Code"
           body="It's all out there."
@@ -65,8 +64,8 @@ const About = (): JSX.Element => (
             window.location.href = 'http://github.com/draperunner/Kramster'
           }}
         />
-      </Col>
-    </Row>
+      </div>
+    </div>
   </div>
 )
 

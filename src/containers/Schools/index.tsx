@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { browserHistory } from 'react-router'
-import { Row, Col } from 'react-flexbox-grid'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
@@ -63,18 +62,18 @@ function Schools(): JSX.Element {
     <div>
       <Jumbotron gradesData={grades} />
 
-      <Row className={styles.schoolsRow}>
+      <div className={styles.schoolsGrid}>
         {schools.map((school: School) => (
-          <Col xs={12} sm={6} lg={3} key={school.id}>
+          <div key={school.id}>
             <Kitem
               head={school.abbreviation}
               body={school.name}
               color="green"
               onClick={(): void => browserHistory.push(`/${school.id}`)}
             />
-          </Col>
+          </div>
         ))}
-      </Row>
+      </div>
     </div>
   )
 }

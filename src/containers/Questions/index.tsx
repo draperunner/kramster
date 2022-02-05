@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 
-import { Row, Col } from 'react-flexbox-grid'
 import { getQuestions, sendReport } from '../../api'
 import { LoadingSpinner, ProgressBar } from '../../components'
 import { getLocalTime, percentageToGrade } from '../../utils'
@@ -160,16 +159,16 @@ function Questions(props: Props): JSX.Element {
       />
 
       {questions.length ? (
-        <Row className={styles.questionRow}>
-          <Col xs={12}>
+        <div className={styles.questionRow}>
+          <div>
             <Question text={currentQuestion.question} />
-          </Col>
-        </Row>
+          </div>
+        </div>
       ) : null}
 
       {questions.length ? (
-        <Row className={styles.alternativesRow}>
-          <Col xs={12} className={styles.alternativesCol}>
+        <div className={styles.alternatives}>
+          <div className={styles.alternativesdiv}>
             {currentQuestion.options.map((option) => (
               <Alternative
                 key={option}
@@ -186,8 +185,8 @@ function Questions(props: Props): JSX.Element {
                 </b>
               </div>
             ) : null}
-          </Col>
-        </Row>
+          </div>
+        </div>
       ) : null}
     </div>
   )

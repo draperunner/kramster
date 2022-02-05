@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { browserHistory } from 'react-router'
-import { Row, Col } from 'react-flexbox-grid'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
@@ -62,9 +61,9 @@ function Courses(props: Props): JSX.Element {
   }
 
   return (
-    <Row className={styles.coursesRow}>
+    <div className={styles.coursesGrid}>
       {courses.map(({ id, code, name }) => (
-        <Col key={id} xs={12} sm={6} md={4} lg={3}>
+        <div key={id}>
           <Kitem
             head={code.toUpperCase()}
             body={name}
@@ -72,9 +71,9 @@ function Courses(props: Props): JSX.Element {
             minHeight
             onClick={(): void => browserHistory.push(`/${school}/${id}`)}
           />
-        </Col>
+        </div>
       ))}
-    </Row>
+    </div>
   )
 }
 
