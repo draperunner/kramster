@@ -16,7 +16,7 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-    }
+    },
   },
   settings: {
     'import/parsers': {
@@ -27,12 +27,7 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: [
-    '@typescript-eslint',
-    'react',
-    'react-hooks',
-    'prettier'
-  ],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks'],
   globals: {
     process: false,
   },
@@ -42,15 +37,17 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'no-param-reassign': 'off',
-    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'no-underscore-dangle': 'off',
-    'prettier/prettier': 'error',
     'react/destructuring-assignment': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
-    'react/jsx-filename-extension': ['error', { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    'react/jsx-filename-extension': [
+      'error',
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+    ],
     'react/jsx-props-no-spreading': 'off',
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
-  }
-};
+  },
+}

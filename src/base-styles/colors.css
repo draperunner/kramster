@@ -1,123 +1,350 @@
 /*
 * GREEN
 */
-.green { color: #27ae60; }
-.greenHover:hover { color: #27ae60; }
-.greenBackground { background-color: #27ae60; }
-.greenBackgroundHover:hover { background-color: #27ae60; }
-.greenBackgroundFocus:focus { background-color: #27ae60; }
+.green {
+  color: #27ae60;
+}
 
-.greenLight { color: #2ecc71; }
-.greenLightHover:hover { color: #2ecc71; }
-.greenLightBackground { background-color: #2ecc71; }
-.greenLightBackgroundHover:hover { background-color: #2ecc71; }
-.greenLightBackgroundFocus:focus { background-color: #2ecc71; }
+.greenHover:hover {
+  color: #27ae60;
+}
+
+.greenBackground {
+  background-color: #27ae60;
+}
+
+.greenBackgroundHover:hover {
+  background-color: #27ae60;
+}
+
+.greenBackgroundFocus:focus {
+  background-color: #27ae60;
+}
+
+.greenLight {
+  color: #2ecc71;
+}
+
+.greenLightHover:hover {
+  color: #2ecc71;
+}
+
+.greenLightBackground {
+  background-color: #2ecc71;
+}
+
+.greenLightBackgroundHover:hover {
+  background-color: #2ecc71;
+}
+
+.greenLightBackgroundFocus:focus {
+  background-color: #2ecc71;
+}
 
 /*
  * BLUE
  */
-.blue { color: #2980b9; }
-.blueHover:hover { color: #2980b9; }
-.blueBackground { background-color: #2980b9; }
-.blueBackgroundHover:hover { background-color: #2980b9; }
-.blueBackgroundFocus:focus { background-color: #2980b9; }
+.blue {
+  color: #2980b9;
+}
 
-.blueLight { color: #3498db; }
-.blueLightHover:hover { color: #3498db; }
-.blueLightBackground { background-color: #3498db; }
-.blueLightBackgroundHover:hover { background-color: #3498db; }
-.blueLightBackgroundFocus:focus { background-color: #3498db; }
+.blueHover:hover {
+  color: #2980b9;
+}
+
+.blueBackground {
+  background-color: #2980b9;
+}
+
+.blueBackgroundHover:hover {
+  background-color: #2980b9;
+}
+
+.blueBackgroundFocus:focus {
+  background-color: #2980b9;
+}
+
+.blueLight {
+  color: #3498db;
+}
+
+.blueLightHover:hover {
+  color: #3498db;
+}
+
+.blueLightBackground {
+  background-color: #3498db;
+}
+
+.blueLightBackgroundHover:hover {
+  background-color: #3498db;
+}
+
+.blueLightBackgroundFocus:focus {
+  background-color: #3498db;
+}
 
 /*
  * PURPLE
  */
-.purple { color: #8e44ad; }
-.purpleHover:hover { color: #8e44ad; }
-.purpleBackground { background-color: #8e44ad; }
-.purpleBackgroundHover:hover { background-color: #8e44ad; }
-.purpleBackgroundFocus:focus { background-color: #8e44ad; }
+.purple {
+  color: #8e44ad;
+}
 
-.purpleLight { color: #9b59b6; }
-.purpleLightHover:hover { color: #9b59b6; }
-.purpleLightBackground { background-color: #9b59b6; }
-.purpleLightBackgroundHover:hover { background-color: #9b59b6; }
-.purpleLightBackgroundFocus:focus { background-color: #9b59b6; }
+.purpleHover:hover {
+  color: #8e44ad;
+}
+
+.purpleBackground {
+  background-color: #8e44ad;
+}
+
+.purpleBackgroundHover:hover {
+  background-color: #8e44ad;
+}
+
+.purpleBackgroundFocus:focus {
+  background-color: #8e44ad;
+}
+
+.purpleLight {
+  color: #9b59b6;
+}
+
+.purpleLightHover:hover {
+  color: #9b59b6;
+}
+
+.purpleLightBackground {
+  background-color: #9b59b6;
+}
+
+.purpleLightBackgroundHover:hover {
+  background-color: #9b59b6;
+}
+
+.purpleLightBackgroundFocus:focus {
+  background-color: #9b59b6;
+}
 
 /*
  * YELLOW
  */
-.yellow { color: #f39c12; }
-.yellowHover:hover { color: #f39c12; }
-.yellowBackground { background-color: #f39c12; }
-.yellowBackgroundHover:hover { background-color: #f39c12; }
-.yellowBackgroundFocus:focus { background-color: #f39c12; }
+.yellow {
+  color: #f39c12;
+}
 
-.yellowLight { color: #f1c40f; }
-.yellowLightHover:hover { color: #f1c40f; }
-.yellowLightBackground { background-color: #f1c40f; }
-.yellowLightBackgroundHover:hover { background-color: #f1c40f; }
-.yellowLightBackgroundFocus:focus { background-color: #f1c40f; }
+.yellowHover:hover {
+  color: #f39c12;
+}
+
+.yellowBackground {
+  background-color: #f39c12;
+}
+
+.yellowBackgroundHover:hover {
+  background-color: #f39c12;
+}
+
+.yellowBackgroundFocus:focus {
+  background-color: #f39c12;
+}
+
+.yellowLight {
+  color: #f1c40f;
+}
+
+.yellowLightHover:hover {
+  color: #f1c40f;
+}
+
+.yellowLightBackground {
+  background-color: #f1c40f;
+}
+
+.yellowLightBackgroundHover:hover {
+  background-color: #f1c40f;
+}
+
+.yellowLightBackgroundFocus:focus {
+  background-color: #f1c40f;
+}
 
 /*
  * ORANGE
 */
-.orange { color: #d35400; }
-.orangeHover:hover { color: #d35400; }
-.orangeBackground { background-color: #d35400; }
-.orangeBackgroundHover:hover { background-color: #d35400; }
-.orangeBackgroundFocus:focus { background-color: #d35400; }
+.orange {
+  color: #d35400;
+}
 
-.orangeLight { color: #e67e22; }
-.orangeLightHover:hover { color: #e67e22; }
-.orangeLightBackground { background-color: #e67e22; }
-.orangeLightBackgroundHover:hover { background-color: #e67e22; }
-.orangeLightBackgroundFocus:focus { background-color: #e67e22; }
+.orangeHover:hover {
+  color: #d35400;
+}
+
+.orangeBackground {
+  background-color: #d35400;
+}
+
+.orangeBackgroundHover:hover {
+  background-color: #d35400;
+}
+
+.orangeBackgroundFocus:focus {
+  background-color: #d35400;
+}
+
+.orangeLight {
+  color: #e67e22;
+}
+
+.orangeLightHover:hover {
+  color: #e67e22;
+}
+
+.orangeLightBackground {
+  background-color: #e67e22;
+}
+
+.orangeLightBackgroundHover:hover {
+  background-color: #e67e22;
+}
+
+.orangeLightBackgroundFocus:focus {
+  background-color: #e67e22;
+}
 
 /*
  * RED
  */
-.red { color: #c0392b; }
-.redHover:hover { color: #c0392b; }
-.redBackground { background-color: #c0392b; }
-.redBackgroundHover:hover { background-color: #c0392b; }
-.redBackgroundFocus:focus { background-color: #c0392b; }
+.red {
+  color: #c0392b;
+}
 
-.redLight { color: #e74c3c; }
-.redLightHover:hover { color: #e74c3c; }
-.redLightBackground { background-color: #e74c3c; }
-.redLightBackgroundHover:hover { background-color: #e74c3c; }
-.redLightBackgroundFocus:focus { background-color: #e74c3c; }
+.redHover:hover {
+  color: #c0392b;
+}
+
+.redBackground {
+  background-color: #c0392b;
+}
+
+.redBackgroundHover:hover {
+  background-color: #c0392b;
+}
+
+.redBackgroundFocus:focus {
+  background-color: #c0392b;
+}
+
+.redLight {
+  color: #e74c3c;
+}
+
+.redLightHover:hover {
+  color: #e74c3c;
+}
+
+.redLightBackground {
+  background-color: #e74c3c;
+}
+
+.redLightBackgroundHover:hover {
+  background-color: #e74c3c;
+}
+
+.redLightBackgroundFocus:focus {
+  background-color: #e74c3c;
+}
 
 /*
  * GRAY
  */
-.darkGray { color: #2c3e50; }
-.darkGrayHover:hover { color: #2c3e50; }
-.darkGrayFocus:focus { color: #2c3e50; }
-.darkGrayBackground { color: #2c3e50; }
-.darkGrayBackgroundHover:hover { color: #2c3e50; }
-.darkGrayBackgroundFocus:focus { color: #2c3e50; }
+.darkGray {
+  color: #2c3e50;
+}
 
-.gray { color: #ecf0f1; }
-.grayHover:hover { color: #ecf0f1; }
-.grayBackground { background-color: #ecf0f1; }
-.grayBackgroundHover:hover { background-color: #ecf0f1; }
-.grayBackgroundFocus:focus { background-color: #ecf0f1; }
+.darkGrayHover:hover {
+  color: #2c3e50;
+}
+
+.darkGrayFocus:focus {
+  color: #2c3e50;
+}
+
+.darkGrayBackground {
+  color: #2c3e50;
+}
+
+.darkGrayBackgroundHover:hover {
+  color: #2c3e50;
+}
+
+.darkGrayBackgroundFocus:focus {
+  color: #2c3e50;
+}
+
+.gray {
+  color: #ecf0f1;
+}
+
+.grayHover:hover {
+  color: #ecf0f1;
+}
+
+.grayBackground {
+  background-color: #ecf0f1;
+}
+
+.grayBackgroundHover:hover {
+  background-color: #ecf0f1;
+}
+
+.grayBackgroundFocus:focus {
+  background-color: #ecf0f1;
+}
 
 /*
  * BLACK
  */
-.black { color: black; }
-.blackHover:hover { color: black; }
-.blackBackground { background-color: black; }
-.blackBackgroundHover:hover { background-color: black; }
-.blackBackgroundFocus:focus { background-color: black; }
+.black {
+  color: black;
+}
+
+.blackHover:hover {
+  color: black;
+}
+
+.blackBackground {
+  background-color: black;
+}
+
+.blackBackgroundHover:hover {
+  background-color: black;
+}
+
+.blackBackgroundFocus:focus {
+  background-color: black;
+}
 
 /*
  * WHITE
  */
-.white { color: white; }
-.whiteHover:hover { color: white; }
-.whiteBackground { background-color: white; }
-.whiteBackgroundHover:hover { background-color: white; }
-.whiteBackgroundFocus:focus { background-color: white; }
+.white {
+  color: white;
+}
+
+.whiteHover:hover {
+  color: white;
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.whiteBackgroundHover:hover {
+  background-color: white;
+}
+
+.whiteBackgroundFocus:focus {
+  background-color: white;
+}
