@@ -56,7 +56,7 @@ function Schools(): JSX.Element {
   ])
 
   const stats = useStats()
-  const grades = stats ? stats.grades : null
+  const grades = stats?.grades
 
   return (
     <div>

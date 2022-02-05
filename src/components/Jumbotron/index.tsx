@@ -1,15 +1,13 @@
 import React from 'react'
-import BarChart from '../BarChart'
 import styles from './Jumbotron.css'
 
 import { Grade } from '../../interfaces'
+import DivChart from '../DivChart'
 
 interface Props {
-  gradesData:
-    | null
-    | {
-        [grade in Grade]: number
-      }
+  gradesData?: {
+    [grade in Grade]: number
+  }
 }
 
 const Jumbotron = (props: Props): JSX.Element => {
@@ -30,7 +28,18 @@ const Jumbotron = (props: Props): JSX.Element => {
   return (
     <div className={styles.jumbotron}>
       <h1 className={styles.title}>Kramster!</h1>
-      {props.gradesData ? <BarChart data={props.gradesData} /> : null}
+      {props.gradesData ? (
+        <DivChart
+          height={370}
+          data={Object.keys(props.gradesData)
+            .sort()
+            .reverse()
+            .map((label) => ({
+              label,
+              value: props.gradesData?.[label as Grade] || 0,
+            }))}
+        />
+      ) : null}
       <h3 className={styles.subtitle}>{subtitle()}</h3>
     </div>
   )

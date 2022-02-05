@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react'
 import firebase from 'firebase/app'
 
 import { formatPercentage, percentageToGrade, COLORS } from '../../utils'
-import { BarChart, PieChart, Kitem } from '../../components'
+import { Kitem } from '../../components'
 import { useHistory } from '../../hooks/contexts'
 import ResultButton from '../../components/Buttons/ResultButton'
-import { HistoryEntry, Stats } from '../../interfaces'
+import { Grade, HistoryEntry, Stats } from '../../interfaces'
 
 import styles from './Result.css'
+import DivChart from '../../components/DivChart'
 
 interface Props {
   params: {
@@ -107,12 +108,18 @@ function Result(props: Props): JSX.Element {
       </div>
 
       <div className={styles.row}>
-        <div>
-          {examStats?.grades ? <PieChart data={examStats.grades} /> : null}
-        </div>
-        <div>
-          {examStats?.grades ? <BarChart data={examStats.grades} /> : null}
-        </div>
+        {examStats?.grades ? (
+          <DivChart
+            height={200}
+            data={Object.keys(examStats?.grades)
+              .sort()
+              .reverse()
+              .map((label) => ({
+                label,
+                value: examStats.grades[label as Grade] || 0,
+              }))}
+          />
+        ) : null}
         <div>
           <ResultButton href={`/${splat}`}>
             <h4>Try again</h4>
