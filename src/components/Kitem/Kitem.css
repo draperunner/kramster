@@ -14,7 +14,7 @@
   white-space: normal;
   outline: none;
   letter-spacing: 1px;
-  border-radius: 0;
+  border-radius: 0.5rem;
   border: none;
   color: rgb(236, 240, 241);
   text-align: center;
@@ -52,6 +52,8 @@ a.kitem:hover {
   width: 100%;
   height: 100%;
   padding: 8px 0;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .head h3 {

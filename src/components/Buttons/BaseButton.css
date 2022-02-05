@@ -3,7 +3,7 @@
   white-space: normal;
   outline: none;
   letter-spacing: 1px;
-  border-radius: 0;
+  border-radius: 0.5rem;
   border: none;
   transition: all 0.2s;
   padding: 20px;
