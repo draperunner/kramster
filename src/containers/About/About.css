@@ -18,17 +18,6 @@
   font-weight: 500;
 }
 
-.linksRow {
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-
-.linkItem {
-  flex: 1;
-  margin: 0 1rem;
-}
-
 @media (max-width: 767px) {
   .about {
     padding: 0 8px;
