@@ -24,7 +24,7 @@ const DivChart: React.FC<Props> = ({ height, data }) => {
             height: 100 * value + '%',
           }}
         >
-          <div style={{ padding: '1rem' }}>{label}</div>
+          <div className={styles.divChartLabel}>{label}</div>
         </div>
       ))}
     </div>
