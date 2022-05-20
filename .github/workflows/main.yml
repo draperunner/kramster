@@ -17,4 +17,4 @@ jobs:
         run: npm ci && cd functions && npm ci
 
       - name: Run test
-        run: npm test
+        run: npm run test:ci

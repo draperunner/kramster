@@ -5,25 +5,38 @@ service cloud.firestore {
       return request.auth != null
     }
     match /stats/{stat} {
-      allow get, list: if isAuthenticated();
+      allow read: if isAuthenticated();
     }
     match /questions/{stat} {
-      allow get, list: if isAuthenticated();
+      allow read: if isAuthenticated();
     }
   	match /exams/{exam} {
-      allow get, list: if isAuthenticated();
+      allow read: if isAuthenticated();
       match /questions/{question} {
-        allow get, list: if isAuthenticated();
+        allow read: if isAuthenticated();
       }
     }
     match /schools/{school} {
-      allow get, list: if isAuthenticated();
+      allow read: if isAuthenticated();
     }
     match /courses/{course} {
-      allow get, list: if isAuthenticated();
+      allow read: if isAuthenticated();
     }
   	match /reports/{report} {
-      allow create: if isAuthenticated();
+      allow create: if isAuthenticated() &&
+        request.resource.data.keys().hasAll(['exam', 'createdAt', 'history', 'score', 'numQuestions', 'percentage', 'grade']) &&
+        request.resource.data.keys().hasOnly(['exam', 'createdAt', 'history', 'score', 'numQuestions', 'percentage', 'grade']) &&
+        request.resource.data.grade != null &&
+        request.resource.data.grade in ['A', 'B', 'C', 'D', 'E', 'F'] &&
+        request.resource.data.percentage is number &&
+        request.resource.data.percentage >= 0 &&
+        request.resource.data.percentage <= 100 &&
+        request.resource.data.score is number &&
+        request.resource.data.score >= 0 &&
+        request.resource.data.numQuestions is number &&
+        request.resource.data.numQuestions >= 0 &&
+        request.resource.data.numQuestions >= request.resource.data.score &&
+        request.resource.data.numQuestions == request.resource.data.history.size();
     }
   }
 }
