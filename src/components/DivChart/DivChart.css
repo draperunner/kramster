@@ -10,7 +10,7 @@
   flex: 1;
   background-color: #e74c3c;
   justify-content: center;
-  border-radius: 2;
+  border-radius: 0.5rem;
   margin-right: 1rem;
 }
 
