@@ -16,5 +16,8 @@ jobs:
       - name: Install dependencies
         run: npm ci && cd functions && npm ci
 
+      - name: Build functions
+        run: cd functions && npm run build
+
       - name: Run test
-        run: npm test
+        run: npm run test:ci
