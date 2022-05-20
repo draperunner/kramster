@@ -1,4 +1,4 @@
-name: CI
+name: Build and test
 
 on:
   push:
@@ -19,5 +19,5 @@ jobs:
       - name: Build functions
         run: cd functions && npm run build
 
-      - name: Run test
+      - name: Run tests
         run: npm run test:ci
