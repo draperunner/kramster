@@ -54,6 +54,7 @@ export interface HistoryEntry {
 }
 
 export interface SendableReport {
+  uid: string
   exam: {
     school: string
     course: string

@@ -10,6 +10,7 @@ import { Question as QuestionType, SendableReport } from '../../interfaces'
 
 import styles from './Questions.css'
 import { useHistory } from '../../hooks/contexts'
+import { useUser } from '../../auth'
 
 type Props = {
   params: {
@@ -24,6 +25,8 @@ type Props = {
 }
 
 function Questions(props: Props): JSX.Element {
+  const user = useUser()
+
   // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
   let mode: 'all' | 'exam' | 'random' | 'hardest' = 'exam'
 
@@ -106,6 +109,7 @@ function Questions(props: Props): JSX.Element {
 
   const reportResults = (): Promise<void> => {
     const report: SendableReport = {
+      uid: user?.uid || 'unknown',
       exam: {
         school: props.params.school,
         course: props.params.course,

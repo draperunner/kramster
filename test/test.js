@@ -9,6 +9,7 @@ function setupDb(auth) {
 }
 
 const VALID_REPORT = {
+  uid: 'anonymous_1',
   exam: {
     school: 'ntnu',
     course: 'tdt4160',
@@ -77,6 +78,12 @@ describe('Reports', () => {
   it('Score cannot be negative', async () => {
     const reports = setupDb(anonymousUser).collection('reports')
     const report = { ...VALID_REPORT, score: -10 }
+    await firebase.assertFails(reports.add(report))
+  })
+
+  it('Cannot be for other user than self', async () => {
+    const reports = setupDb(anonymousUser).collection('reports')
+    const report = { ...VALID_REPORT, uid: 'another-user' }
     await firebase.assertFails(reports.add(report))
   })
 })
