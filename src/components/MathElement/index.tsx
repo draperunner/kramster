@@ -1,35 +1,23 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import renderMathInElement from 'katex/dist/contrib/auto-render'
 
 interface Props {
+  children?: React.ReactNode
   dangerouslySetInnerHTML?: {
     __html: string
   }
 }
 
-class MathElement extends React.Component<Props> {
-  mathElement: any
+const MathElement: React.FC<Props> = (props) => {
+  const mathElementRef = useRef<HTMLElement>(null)
 
-  componentDidMount() {
-    renderMathInElement(this.mathElement)
-  }
+  useEffect(() => {
+    if (mathElementRef.current) {
+      renderMathInElement(mathElementRef.current)
+    }
+  }, [props])
 
-  componentDidUpdate() {
-    renderMathInElement(this.mathElement)
-  }
-
-  render() {
-    return (
-      <span
-        {...this.props}
-        ref={(input) => {
-          this.mathElement = input
-        }}
-      >
-        {this.props.children}
-      </span>
-    )
-  }
+  return <span {...props} ref={mathElementRef} />
 }
 
 export default MathElement

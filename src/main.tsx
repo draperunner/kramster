@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import 'katex'
 import 'katex/dist/katex.min.css'
 
@@ -8,4 +8,7 @@ import './auth'
 
 import Routes from './routes'
 
-render(<Routes />, document.getElementById('app'))
+const element = document.getElementById('app')
+if (element) {
+  createRoot(element).render(<Routes />)
+}
