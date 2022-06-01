@@ -1,5 +1,7 @@
+import { initializeApp } from 'firebase-admin/app'
+import { FieldValue, getFirestore, Timestamp } from 'firebase-admin/firestore'
 import * as functions from 'firebase-functions'
-import * as admin from 'firebase-admin'
+
 import createBatcher, {
   createOperation,
   updateOperation,
@@ -49,14 +51,14 @@ export interface Exam {
   questions: Question[]
 }
 
-admin.initializeApp()
+initializeApp()
 
-const db = admin.firestore()
+const db = getFirestore()
 
 const batcher = createBatcher(db, {
   onBatchCommited: (stats) =>
     console.log(
-      `Batch committed ${stats.batchSize}. Num processed: ${stats.numberOfOperationsProcessed}`,
+      `Batch committed ${stats.batchSize}. Num processed: ${stats.operationsProcessed}`,
     ),
 })
 
@@ -99,14 +101,14 @@ export const onReportCreated = functions.firestore
         }),
       )
 
-      const now = admin.firestore.Timestamp.now()
+      const now = Timestamp.now()
       const globalStatsRef = db.collection('stats').doc('global')
 
       batcher.add(
         updateOperation(globalStatsRef, {
-          numReports: admin.firestore.FieldValue.increment(1),
-          totalScore: admin.firestore.FieldValue.increment(score),
-          [`grades.${grade}`]: admin.firestore.FieldValue.increment(1),
+          numReports: FieldValue.increment(1),
+          totalScore: FieldValue.increment(score),
+          [`grades.${grade}`]: FieldValue.increment(1),
           lastUpdated: now,
         }),
       )
@@ -148,9 +150,9 @@ export const onReportCreated = functions.firestore
         const examStats = examStatsSnap.docs[0]
         batcher.add(
           updateOperation(examStats.ref, {
-            numReports: admin.firestore.FieldValue.increment(1),
-            totalScore: admin.firestore.FieldValue.increment(report.score),
-            [`grades.${report.grade}`]: admin.firestore.FieldValue.increment(1),
+            numReports: FieldValue.increment(1),
+            totalScore: FieldValue.increment(report.score),
+            [`grades.${report.grade}`]: FieldValue.increment(1),
             lastUpdated: now,
           }),
         )
