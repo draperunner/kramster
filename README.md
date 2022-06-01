@@ -20,7 +20,13 @@ Start the emulators:
 npm run emulators
 ```
 
-Start the app:
+Fill the emulator database with some test data:
+
+```
+npm run fill-db
+```
+
+Start the frontend app:
 
 ```
 npm start

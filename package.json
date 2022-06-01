@@ -21,6 +21,7 @@
     "test": "mocha --exit",
     "test:ci": "firebase emulators:exec 'mocha --exit' -P staging",
     "emulators": "firebase emulators:start",
+    "fill-db": "FIRESTORE_EMULATOR_HOST=localhost:8080 ts-node ./scripts/fill-db.ts",
     "deploy": "npm run build:prod && firebase deploy -P prod",
     "deploy:staging": "npm run build:staging && firebase deploy -P staging"
   },
@@ -66,6 +67,7 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.5.0",
     "file-loader": "^6.2.0",
+    "firebase-admin": "^10.2.0",
     "firebase-tools": "^11.0.1",
     "html-webpack-plugin": "^5.5.0",
     "mocha": "^10.0.0",
