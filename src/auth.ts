@@ -1,23 +1,30 @@
 import { createContext, useContext, useState, useEffect } from 'react'
-import firebase from 'firebase/app'
+import { initializeApp } from 'firebase/app'
+import {
+  getAuth,
+  onAuthStateChanged,
+  signInAnonymously,
+  connectAuthEmulator,
+  User,
+} from 'firebase/auth'
 
-import 'firebase/auth'
+initializeApp(JSON.parse(process.env.FIREBASE_CONFIG || ''))
 
-firebase.initializeApp(JSON.parse(process.env.FIREBASE_CONFIG || ''))
+const auth = getAuth()
 
 if (process.env.NODE_ENV !== 'production') {
-  firebase.auth().useEmulator('http://localhost:9099')
+  connectAuthEmulator(auth, 'http://localhost:9099')
 }
 
-export function useAnonymousLogin(): firebase.User | null | undefined {
-  const [user, setUser] = useState<firebase.User | null | undefined>()
+export function useAnonymousLogin(): User | null | undefined {
+  const [user, setUser] = useState<User | null | undefined>()
 
   useEffect(() => {
-    return firebase.auth().onAuthStateChanged((user) => {
+    return onAuthStateChanged(auth, (user) => {
       setUser(user)
 
       if (!user) {
-        firebase.auth().signInAnonymously().catch(console.error)
+        signInAnonymously(auth).catch(console.error)
         return
       }
     })
@@ -26,7 +33,6 @@ export function useAnonymousLogin(): firebase.User | null | undefined {
   return user
 }
 
-export const UserContext = createContext<firebase.User | null | undefined>(null)
+export const UserContext = createContext<User | null | undefined>(null)
 
-export const useUser = (): firebase.User | null | undefined =>
-  useContext(UserContext)
+export const useUser = (): User | null | undefined => useContext(UserContext)

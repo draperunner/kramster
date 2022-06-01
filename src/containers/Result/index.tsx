@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import firebase from 'firebase/app'
+import {
+  collection,
+  getDocs,
+  getFirestore,
+  limit,
+  query,
+  where,
+} from 'firebase/firestore'
 
 import { formatPercentage, percentageToGrade, COLORS } from '../../utils'
 import { Kitem } from '../../components'
@@ -9,6 +16,8 @@ import { Grade, HistoryEntry, Stats } from '../../interfaces'
 
 import styles from './Result.css'
 import DivChart from '../../components/DivChart'
+
+const db = getFirestore()
 
 interface Props {
   params: {
@@ -28,23 +37,23 @@ function Result(props: Props): JSX.Element {
     exam === 'random' || exam === 'hardest' ? `${exam}${number}` : exam
 
   useEffect(() => {
-    firebase
-      .firestore()
-      .collection('stats')
-      .where('school', '==', school)
-      .where('course', '==', course)
-      .where('exam', '==', examName)
-      .limit(1)
-      .get()
-      .then((snap) => {
-        if (snap.empty) return
+    getDocs(
+      query(
+        collection(db, 'stats'),
+        where('school', '==', school),
+        where('course', '==', course),
+        where('exam', '==', examName),
+        limit(1),
+      ),
+    ).then((snap) => {
+      if (snap.empty) return
 
-        const stats = snap.docs[0].data() as Stats | null
+      const stats = snap.docs[0].data() as Stats | null
 
-        if (stats) {
-          setExamStats(stats)
-        }
-      })
+      if (stats) {
+        setExamStats(stats)
+      }
+    })
   }, [school, course, examName])
 
   const score = history.filter((q: HistoryEntry) => q.wasCorrect).length

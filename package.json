@@ -31,7 +31,7 @@
   "author": "Mats Byrkjeland",
   "license": "Apache-2.0",
   "dependencies": {
-    "firebase": "^8.6.0",
+    "firebase": "^9.8.2",
     "katex": "^0.15.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

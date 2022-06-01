@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { browserHistory } from 'react-router'
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+import {
+  collection,
+  getDocs,
+  getFirestore,
+  query,
+  where,
+} from 'firebase/firestore'
 
 import { Course } from '../../interfaces'
 import { Kitem, LoadingSpinner } from '../../components'
@@ -13,15 +18,13 @@ interface Props {
   }
 }
 
-const db = firebase.firestore()
+const db = getFirestore()
 
 function useCourses(schoolId: string): Course[] {
   const [courses, setCourses] = useState<Course[]>([])
 
   useEffect(() => {
-    db.collection('courses')
-      .where('school', '==', schoolId)
-      .get()
+    getDocs(query(collection(db, 'courses'), where('school', '==', schoolId)))
       .then((snapshot) =>
         snapshot.docs.map((doc) => ({
           ...(doc.data() as Course),

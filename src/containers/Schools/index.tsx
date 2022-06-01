@@ -1,21 +1,25 @@
 import React, { useState, useEffect } from 'react'
 import { browserHistory } from 'react-router'
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+import {
+  getFirestore,
+  getDoc,
+  doc,
+  collection,
+  getDocs,
+  query,
+} from 'firebase/firestore'
 
 import { Kitem, Jumbotron } from '../../components'
 import styles from './Schools.css'
 import { School, Stats } from '../../interfaces'
 
-const db = firebase.firestore()
+const db = getFirestore()
 
 function useStats(): Stats | undefined {
   const [stats, setStats] = useState<Stats | undefined>()
 
   useEffect(() => {
-    db.collection('stats')
-      .doc('global')
-      .get()
+    getDoc(doc(collection(db, 'stats'), 'global'))
       .then((doc) => doc.data() as Stats)
       .then(setStats)
   }, [])
@@ -27,8 +31,7 @@ function useSchools(initialSchools: School[]): School[] {
   const [schools, setSchools] = useState<School[]>(initialSchools)
 
   useEffect(() => {
-    db.collection('schools')
-      .get()
+    getDocs(query(collection(db, 'schools')))
       .then((snapshot) =>
         snapshot.docs.map((doc) => ({
           ...(doc.data() as School),

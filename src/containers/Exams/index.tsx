@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+import {
+  collection,
+  getDocs,
+  getFirestore,
+  query,
+  where,
+} from 'firebase/firestore'
 
 import { Exam } from '../../interfaces'
 import CategoryButton from '../../components/Buttons/CategoryButton'
@@ -16,16 +21,19 @@ interface Props {
   }
 }
 
+const db = getFirestore()
+
 export function useExams(school: string, course: string): Exam[] {
   const [exams, setExams] = useState<Exam[]>([])
 
   useEffect(() => {
-    firebase
-      .firestore()
-      .collection('exams')
-      .where('school', '==', school)
-      .where('course', '==', course)
-      .get()
+    getDocs(
+      query(
+        collection(db, 'exams'),
+        where('school', '==', school),
+        where('course', '==', course),
+      ),
+    )
       .then((snapshot) =>
         snapshot.docs.map((doc) => {
           const exam = doc.data() as Exam
