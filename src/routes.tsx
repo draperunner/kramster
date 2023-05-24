@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import AppContainer from './containers/AppContainer'
 import About from './containers/About'
@@ -13,19 +13,46 @@ import { useAnonymousLogin, UserContext } from './auth'
 export default function Routes(): JSX.Element {
   const user = useAnonymousLogin()
 
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <AppContainer />,
+      children: [
+        {
+          path: '/',
+          element: <Schools />,
+        },
+        {
+          path: '/about',
+          element: <About />,
+        },
+        {
+          path: '/:school/:course/:exam/:number?/results',
+          element: <Result />,
+        },
+        {
+          path: '/:school',
+          element: <Courses />,
+        },
+        {
+          path: '/:school/:course',
+          element: <Exams />,
+        },
+        {
+          path: '/:school/:course/:mode/:number',
+          element: <Questions />,
+        },
+        {
+          path: '/:school/:course/:exam',
+          element: <Questions />,
+        },
+      ],
+    },
+  ])
+
   return (
     <UserContext.Provider value={user}>
-      <Router history={browserHistory}>
-        <Route path="/" component={AppContainer}>
-          <IndexRoute component={Schools} />
-          <Route path="/about" component={About} />
-          <Route path="/**/results" component={Result} />
-          <Route path="/:school" component={Courses} />
-          <Route path="/:school/:course" component={Exams} />
-          <Route path="/:school/:course/:mode/:number" component={Questions} />
-          <Route path="/:school/:course/:exam" component={Questions} />
-        </Route>
-      </Router>
+      <RouterProvider router={router} />
     </UserContext.Provider>
   )
 }

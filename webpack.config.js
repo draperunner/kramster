@@ -33,14 +33,6 @@ module.exports = () => ({
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.jsx?$/,
-        exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        options: {
-          plugins: ['react-hot-loader/babel'],
-        },
-      },
-      {
         test: /\.tsx?$/,
         exclude: /(node_modules)/,
         loader: 'ts-loader',

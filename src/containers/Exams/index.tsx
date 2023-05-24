@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import {
   collection,
   getDocs,
@@ -13,13 +14,6 @@ import StandardButton from '../../components/Buttons/StandardButton'
 import { LoadingSpinner } from '../../components'
 
 import styles from './Exams.css'
-
-interface Props {
-  params: {
-    school: string
-    course: string
-  }
-}
 
 const db = getFirestore()
 
@@ -50,8 +44,8 @@ export function useExams(school: string, course: string): Exam[] {
   return exams
 }
 
-function Exams(props: Props): JSX.Element {
-  const { school, course } = props.params
+function Exams(): JSX.Element {
+  const { school = '', course = '' } = useParams()
   const exams = useExams(school, course)
 
   if (!exams?.length) {
@@ -81,7 +75,9 @@ function Exams(props: Props): JSX.Element {
       <div className={styles.examsGrid}>
         {exams.map(({ id, name }) => (
           <div key={id}>
-            <StandardButton href={`/${school}/${course}/${name}`}>
+            <StandardButton
+              href={`/${school}/${course}/${encodeURIComponent(name)}`}
+            >
               {name}
             </StandardButton>
           </div>

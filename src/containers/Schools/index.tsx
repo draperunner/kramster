@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { browserHistory } from 'react-router'
+import { useNavigate } from 'react-router-dom'
 import {
   getFirestore,
   getDoc,
@@ -45,6 +45,7 @@ function useSchools(initialSchools: School[]): School[] {
 }
 
 function Schools(): JSX.Element {
+  const navigate = useNavigate()
   const schools = useSchools([
     {
       id: 'ntnu',
@@ -72,7 +73,7 @@ function Schools(): JSX.Element {
               head={school.abbreviation}
               body={school.name}
               color="green"
-              onClick={(): void => browserHistory.push(`/${school.id}`)}
+              onClick={(): void => navigate(`/${school.id}`)}
             />
           </div>
         ))}

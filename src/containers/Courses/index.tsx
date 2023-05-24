@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { browserHistory } from 'react-router'
+import { useNavigate, useParams } from 'react-router-dom'
 import {
   collection,
   getDocs,
@@ -11,12 +11,6 @@ import {
 import { Course } from '../../interfaces'
 import { Kitem, LoadingSpinner } from '../../components'
 import styles from './Courses.css'
-
-interface Props {
-  params: {
-    school: string
-  }
-}
 
 const db = getFirestore()
 
@@ -37,9 +31,10 @@ function useCourses(schoolId: string): Course[] {
   return courses
 }
 
-function Courses(props: Props): JSX.Element {
-  const { school } = props.params
+function Courses(): JSX.Element {
+  const { school = '' } = useParams()
   const courses = useCourses(school)
+  const navigate = useNavigate()
 
   if (!courses || !courses.length) {
     return <LoadingSpinner />
@@ -72,7 +67,7 @@ function Courses(props: Props): JSX.Element {
             body={name}
             color={assignColor(code)}
             minHeight
-            onClick={(): void => browserHistory.push(`/${school}/${id}`)}
+            onClick={(): void => navigate(`/${school}/${id}`)}
           />
         </div>
       ))}

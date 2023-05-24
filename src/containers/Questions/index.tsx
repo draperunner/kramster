@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 
 import { getQuestions, sendReport } from '../../api'
 import { LoadingSpinner, ProgressBar } from '../../components'
@@ -12,28 +13,35 @@ import styles from './Questions.css'
 import { useHistory } from '../../hooks/contexts'
 import { useUser } from '../../auth'
 
-type Props = {
-  params: {
-    exam: string
-    school: string
-    course: string
-    mode: 'all' | 'exam' | 'random' | 'hardest'
-    number: number
-  }
-  router: any
-  location: Location
+type Params = {
+  exam: string | undefined
+  school: string | undefined
+  course: string | undefined
+  mode: 'all' | 'exam' | 'random' | 'hardest' | undefined
+  number: string | undefined
 }
 
-function Questions(props: Props): JSX.Element {
+function Questions(): JSX.Element {
   const user = useUser()
+
+  const navigate = useNavigate()
+  const location = useLocation()
 
   // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
   let mode: 'all' | 'exam' | 'random' | 'hardest' = 'exam'
 
-  if (!props.params.exam && !props.params.mode) {
+  const {
+    school = '',
+    course = '',
+    exam = '',
+    number = '',
+    mode: paramMode,
+  } = useParams<Params>()
+
+  if (!exam && !paramMode) {
     mode = 'all'
-  } else if (props.params.mode) {
-    mode = props.params.mode
+  } else if (paramMode) {
+    mode = paramMode
   }
 
   const [loading, setLoading] = useState<boolean>(false)
@@ -44,8 +52,6 @@ function Questions(props: Props): JSX.Element {
   )
   const [history, setHistory] = useHistory()
 
-  const { school, course, exam, number } = props.params
-
   useEffect(() => {
     setLoading(true)
     setHistory([])
@@ -53,7 +59,7 @@ function Questions(props: Props): JSX.Element {
     getQuestions(school, course, {
       mode,
       exam,
-      limit: number,
+      limit: Number(number),
     }).then((questions: QuestionType[]) => {
       setLoading(false)
       setQuestions(questions)
@@ -111,9 +117,9 @@ function Questions(props: Props): JSX.Element {
     const report: SendableReport = {
       uid: user?.uid || 'unknown',
       exam: {
-        school: props.params.school,
-        course: props.params.course,
-        name: mode !== 'exam' ? mode : props.params.exam,
+        school,
+        course,
+        name: mode !== 'exam' ? mode : exam,
       },
       createdAt: getLocalTime(),
       history,
@@ -129,7 +135,7 @@ function Questions(props: Props): JSX.Element {
   const answer = (givenAnswer: string): void => {
     if (finished()) {
       reportResults().then(() => {
-        props.router.push(`${props.location.pathname}/results`)
+        navigate(`${location.pathname}/results`)
       })
       return
     }

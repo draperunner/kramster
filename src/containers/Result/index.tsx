@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import {
   collection,
   getDocs,
@@ -19,16 +20,8 @@ import DivChart from '../../components/DivChart'
 
 const db = getFirestore()
 
-interface Props {
-  params: {
-    splat: string
-  }
-}
-
-function Result(props: Props): JSX.Element {
-  const { splat } = props.params
-
-  const [school, course, exam, number] = splat.split('/')
+function Result(): JSX.Element {
+  const { school, course, exam, number } = useParams()
 
   const [examStats, setExamStats] = useState<Stats>()
   const [history] = useHistory()
@@ -130,10 +123,14 @@ function Result(props: Props): JSX.Element {
           />
         ) : null}
         <div>
-          <ResultButton href={`/${splat}`}>
+          <ResultButton
+            href={
+              '/' + [school, course, exam, number].filter(Boolean).join('/')
+            }
+          >
             <h4>Try again</h4>
           </ResultButton>
-          <ResultButton href={`/${splat.split('/').slice(0, 2).join('/')}`}>
+          <ResultButton href={`/${school}/${course}`}>
             <h4>Try another</h4>
           </ResultButton>
         </div>
