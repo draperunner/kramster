@@ -3,9 +3,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:import/typescript",
   ],
   env: {
     es6: true,
@@ -19,10 +16,6 @@ module.exports = {
     },
   },
   settings: {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".js", ".jsx", ".ts", ".tsx"],
-    },
-    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
     react: {
       version: "detect",
     },
@@ -34,7 +27,6 @@ module.exports = {
   rules: {
     "@typescript-eslint/ban-ts-comment": "warn",
     "@typescript-eslint/member-delimiter-style": "off",
-    "import/prefer-default-export": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "no-param-reassign": "off",
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
