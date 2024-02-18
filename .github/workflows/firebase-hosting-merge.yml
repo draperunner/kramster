@@ -9,7 +9,7 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: npm ci && cd functions && npm ci && cd .. && npm run build:prod
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
