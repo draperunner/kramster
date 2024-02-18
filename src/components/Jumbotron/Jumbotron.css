@@ -5,15 +5,15 @@
 }
 
 .title {
-  composes: headerFont from '../../base-styles/types.css';
-  composes: blue from '../../base-styles/colors.css';
+  composes: headerFont from "../../base-styles/types.css";
+  composes: blue from "../../base-styles/colors.css";
   font-size: 63px;
   font-weight: 500;
   letter-spacing: 2px;
 }
 
 .subtitle {
-  composes: darkGray from '../../base-styles/colors.css';
+  composes: darkGray from "../../base-styles/colors.css";
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;

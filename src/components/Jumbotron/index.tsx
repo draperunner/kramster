@@ -1,29 +1,29 @@
-import React from 'react'
-import styles from './Jumbotron.css'
+import React from "react";
+import styles from "./Jumbotron.css";
 
-import { Grade } from '../../interfaces'
-import DivChart from '../DivChart'
+import { Grade } from "../../interfaces";
+import DivChart from "../DivChart";
 
 interface Props {
   gradesData?: {
-    [grade in Grade]: number
-  }
+    [grade in Grade]: number;
+  };
 }
 
 const Jumbotron = (props: Props): JSX.Element => {
   const subtitle = (): string => {
     const subtitles = [
-      'Will you improve the statistics?',
-      'Where are you on the chart?',
+      "Will you improve the statistics?",
+      "Where are you on the chart?",
       "It's OK to fail.",
-      'Practice makes perfect.',
+      "Practice makes perfect.",
       "You'll do great!",
       "Remember, grades aren't everything.",
-      'Cram with Kramster!',
-    ]
+      "Cram with Kramster!",
+    ];
 
-    return subtitles[Math.floor(Math.random() * subtitles.length)]
-  }
+    return subtitles[Math.floor(Math.random() * subtitles.length)];
+  };
 
   return (
     <div className={styles.jumbotron}>
@@ -42,7 +42,7 @@ const Jumbotron = (props: Props): JSX.Element => {
       ) : null}
       <h3 className={styles.subtitle}>{subtitle()}</h3>
     </div>
-  )
-}
+  );
+};
 
-export default Jumbotron
+export default Jumbotron;

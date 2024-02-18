@@ -1,55 +1,55 @@
-import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import {
   collection,
   getDocs,
   getFirestore,
   query,
   where,
-} from 'firebase/firestore'
+} from "firebase/firestore";
 
-import { Exam } from '../../interfaces'
-import CategoryButton from '../../components/Buttons/CategoryButton'
-import StandardButton from '../../components/Buttons/StandardButton'
-import { LoadingSpinner } from '../../components'
+import { Exam } from "../../interfaces";
+import CategoryButton from "../../components/Buttons/CategoryButton";
+import StandardButton from "../../components/Buttons/StandardButton";
+import { LoadingSpinner } from "../../components";
 
-import styles from './Exams.css'
+import styles from "./Exams.css";
 
-const db = getFirestore()
+const db = getFirestore();
 
 export function useExams(school: string, course: string): Exam[] {
-  const [exams, setExams] = useState<Exam[]>([])
+  const [exams, setExams] = useState<Exam[]>([]);
 
   useEffect(() => {
     getDocs(
       query(
-        collection(db, 'exams'),
-        where('school', '==', school),
-        where('course', '==', course),
+        collection(db, "exams"),
+        where("school", "==", school),
+        where("course", "==", course),
       ),
     )
       .then((snapshot) =>
         snapshot.docs.map((doc) => {
-          const exam = doc.data() as Exam
+          const exam = doc.data() as Exam;
           return {
             ...exam,
             id: doc.id,
             questions: exam.questions || [],
-          }
+          };
         }),
       )
-      .then(setExams)
-  }, [course, school])
+      .then(setExams);
+  }, [course, school]);
 
-  return exams
+  return exams;
 }
 
 function Exams(): JSX.Element {
-  const { school = '', course = '' } = useParams()
-  const exams = useExams(school, course)
+  const { school = "", course = "" } = useParams();
+  const exams = useExams(school, course);
 
   if (!exams?.length) {
-    return <LoadingSpinner />
+    return <LoadingSpinner />;
   }
 
   return (
@@ -84,7 +84,7 @@ function Exams(): JSX.Element {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default Exams
+export default Exams;

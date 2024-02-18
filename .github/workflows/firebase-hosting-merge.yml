@@ -1,5 +1,5 @@
 name: Deploy
-'on':
+"on":
   workflow_dispatch:
   push:
     branches:
@@ -13,8 +13,8 @@ jobs:
       - run: npm ci && cd functions && npm ci && cd .. && npm run build:prod
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KRAMSTERAPP }}'
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_KRAMSTERAPP }}"
           channelId: live
           projectId: kramsterapp
         env:

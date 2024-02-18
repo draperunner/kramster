@@ -1,18 +1,18 @@
 .headerFont {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   letter-spacing: 2px;
 }
 
 .bodyFont {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .headerColor {
-  composes: blue from './colors.css';
+  composes: blue from "./colors.css";
 }
 
 .bodyFontColor {
-  composes: darkGray from './colors.css';
+  composes: darkGray from "./colors.css";
 }
 
 .title {

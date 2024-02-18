@@ -8,14 +8,14 @@ import {
   getDocs,
   orderBy,
   addDoc,
-} from 'firebase/firestore'
+} from "firebase/firestore";
 
-import { Question, SendableReport } from '../interfaces'
+import { Question, SendableReport } from "../interfaces";
 
-const db = getFirestore()
+const db = getFirestore();
 
-if (process.env.NODE_ENV !== 'production') {
-  connectFirestoreEmulator(db, 'localhost', 8080)
+if (process.env.NODE_ENV !== "production") {
+  connectFirestoreEmulator(db, "localhost", 8080);
 }
 
 async function getExam(
@@ -26,21 +26,21 @@ async function getExam(
   try {
     const snapshot = await getDocs(
       query(
-        collection(db, 'questions'),
-        where('exam', '==', examName),
-        where('school', '==', school),
-        where('course', '==', course),
+        collection(db, "questions"),
+        where("exam", "==", examName),
+        where("school", "==", school),
+        where("course", "==", course),
       ),
-    )
+    );
 
     const questions = snapshot.docs.map((doc) => ({
       ...(doc.data() as Question),
       id: doc.id,
-    }))
+    }));
 
-    return questions
+    return questions;
   } catch (error) {
-    return []
+    return [];
   }
 }
 
@@ -49,35 +49,35 @@ async function getRandom(
   course: string,
   maxDocs: number,
 ): Promise<Question[]> {
-  const random = Math.floor(Math.random() * 10000)
+  const random = Math.floor(Math.random() * 10000);
 
   const snap = await getDocs(
     query(
-      collection(db, 'questions'),
-      where('school', '==', school),
-      where('course', '==', course),
-      where('random', '>=', random),
-      orderBy('random'),
+      collection(db, "questions"),
+      where("school", "==", school),
+      where("course", "==", course),
+      where("random", ">=", random),
+      orderBy("random"),
       limit(maxDocs),
     ),
-  )
+  );
 
   let questions: Question[] = snap.docs.map((doc) => ({
     ...(doc.data() as Question),
     id: doc.id,
-  }))
+  }));
 
   if (snap.size < maxDocs) {
     const remainingSnap = await getDocs(
       query(
-        collection(db, 'questions'),
-        where('school', '==', school),
-        where('course', '==', course),
-        where('random', '<=', random),
-        orderBy('random', 'desc'),
+        collection(db, "questions"),
+        where("school", "==", school),
+        where("course", "==", course),
+        where("random", "<=", random),
+        orderBy("random", "desc"),
         limit(maxDocs - snap.size),
       ),
-    )
+    );
 
     questions = [
       ...questions,
@@ -85,10 +85,10 @@ async function getRandom(
         ...(doc.data() as Question),
         id: doc.id,
       })),
-    ]
+    ];
   }
 
-  return questions
+  return questions;
 }
 
 async function getHardest(
@@ -98,24 +98,24 @@ async function getHardest(
 ): Promise<Question[]> {
   const snap = await getDocs(
     query(
-      collection(db, 'questions'),
-      where('school', '==', school),
-      where('course', '==', course),
-      orderBy('stats.successRate'),
+      collection(db, "questions"),
+      where("school", "==", school),
+      where("course", "==", course),
+      orderBy("stats.successRate"),
       limit(maxDocs),
     ),
-  )
+  );
 
   return snap.docs.map((doc) => ({
     ...(doc.data() as Question),
     id: doc.id,
-  }))
+  }));
 }
 
 interface GetQuestionsOptions {
-  exam?: string
-  limit?: number
-  mode?: 'random' | 'hardest' | 'exam' | 'all'
+  exam?: string;
+  limit?: number;
+  mode?: "random" | "hardest" | "exam" | "all";
 }
 
 export async function getQuestions(
@@ -123,23 +123,23 @@ export async function getQuestions(
   course: string,
   options: GetQuestionsOptions,
 ): Promise<Question[]> {
-  const { exam, limit, mode } = options
+  const { exam, limit, mode } = options;
 
   if (exam) {
-    return getExam(school, course, exam)
+    return getExam(school, course, exam);
   }
 
-  if (mode === 'random') {
-    return getRandom(school, course, limit || 10)
+  if (mode === "random") {
+    return getRandom(school, course, limit || 10);
   }
 
-  if (mode === 'hardest') {
-    return getHardest(school, course, limit || 10)
+  if (mode === "hardest") {
+    return getHardest(school, course, limit || 10);
   }
 
-  return []
+  return [];
 }
 
 export async function sendReport(report: SendableReport): Promise<void> {
-  await addDoc(collection(db, 'reports'), report)
+  await addDoc(collection(db, "reports"), report);
 }

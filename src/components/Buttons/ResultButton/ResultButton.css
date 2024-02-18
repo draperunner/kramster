@@ -1,10 +1,10 @@
 .result {
-  composes: base from '../BaseButton.css';
-  composes: bodyFont from '../../../base-styles/types.css';
-  composes: white from '../../../base-styles/colors.css';
-  composes: greenLightBackground from '../../../base-styles/colors.css';
-  composes: darkGrayHover from '../../../base-styles/colors.css';
-  composes: darkGrayFocus from '../../../base-styles/colors.css';
+  composes: base from "../BaseButton.css";
+  composes: bodyFont from "../../../base-styles/types.css";
+  composes: white from "../../../base-styles/colors.css";
+  composes: greenLightBackground from "../../../base-styles/colors.css";
+  composes: darkGrayHover from "../../../base-styles/colors.css";
+  composes: darkGrayFocus from "../../../base-styles/colors.css";
   padding: 8px;
 }
 

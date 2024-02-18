@@ -5,8 +5,8 @@
 }
 
 .title {
-  composes: blue from '../../base-styles/colors.css';
-  composes: headerFont from '../../base-styles/types.css';
+  composes: blue from "../../base-styles/colors.css";
+  composes: headerFont from "../../base-styles/types.css";
   letter-spacing: 2px;
   line-height: 40px;
   font-size: 63px;

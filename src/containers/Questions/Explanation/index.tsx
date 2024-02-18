@@ -1,17 +1,17 @@
-import React from 'react'
-import { MathElement } from '../../../components'
-import { sanitize } from '../../../utils'
-import styles from './Explanation.css'
+import React from "react";
+import { MathElement } from "../../../components";
+import { sanitize } from "../../../utils";
+import styles from "./Explanation.css";
 
 /* eslint-disable react/no-danger */
 
 interface Props {
-  text?: string
+  text?: string;
 }
 
 const Explanation = (props: Props): JSX.Element | null => {
   if (!props.text) {
-    return null
+    return null;
   }
 
   return (
@@ -24,7 +24,7 @@ const Explanation = (props: Props): JSX.Element | null => {
         />
       </MathElement>
     </div>
-  )
-}
+  );
+};
 
-export default Explanation
+export default Explanation;

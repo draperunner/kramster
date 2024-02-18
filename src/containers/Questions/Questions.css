@@ -9,7 +9,7 @@
 }
 
 .continueTip {
-  composes: blue from '../../base-styles/colors.css';
+  composes: blue from "../../base-styles/colors.css";
   display: block;
   margin: 3px;
 }

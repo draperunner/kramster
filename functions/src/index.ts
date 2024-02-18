@@ -1,1 +1,1 @@
-export { onReportCreated } from './onReportCreated'
+export { onReportCreated } from "./onReportCreated";

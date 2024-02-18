@@ -1,62 +1,69 @@
-import React, { useState, useEffect } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import React, { useState, useEffect } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import {
   collection,
   getDocs,
   getFirestore,
   query,
   where,
-} from 'firebase/firestore'
+} from "firebase/firestore";
 
-import { Course } from '../../interfaces'
-import { Kitem, LoadingSpinner } from '../../components'
-import styles from './Courses.css'
+import { Course } from "../../interfaces";
+import { Kitem, LoadingSpinner } from "../../components";
+import styles from "./Courses.css";
 
-const db = getFirestore()
+const db = getFirestore();
 
 function useCourses(schoolId: string): Course[] {
-  const [courses, setCourses] = useState<Course[]>([])
+  const [courses, setCourses] = useState<Course[]>([]);
 
   useEffect(() => {
-    getDocs(query(collection(db, 'courses'), where('school', '==', schoolId)))
+    getDocs(query(collection(db, "courses"), where("school", "==", schoolId)))
       .then((snapshot) =>
         snapshot.docs.map((doc) => ({
           ...(doc.data() as Course),
           id: doc.id,
         })),
       )
-      .then(setCourses)
-  }, [schoolId])
+      .then(setCourses);
+  }, [schoolId]);
 
-  return courses
+  return courses;
 }
 
 function Courses(): JSX.Element {
-  const { school = '' } = useParams()
-  const courses = useCourses(school)
-  const navigate = useNavigate()
+  const { school = "" } = useParams();
+  const courses = useCourses(school);
+  const navigate = useNavigate();
 
   if (!courses || !courses.length) {
-    return <LoadingSpinner />
+    return <LoadingSpinner />;
   }
 
-  const availableColors = ['orange', 'green', 'red', 'blue', 'purple', 'yellow']
-  const assignedColors: { [depCode: string]: string } = {}
-  let colorIndex = 0
+  const availableColors = [
+    "orange",
+    "green",
+    "red",
+    "blue",
+    "purple",
+    "yellow",
+  ];
+  const assignedColors: { [depCode: string]: string } = {};
+  let colorIndex = 0;
 
   // Assign different colors to each department
   const assignColor = (courseCode: string): string => {
-    const firstDigitMatch = courseCode.match(/\d/)
+    const firstDigitMatch = courseCode.match(/\d/);
     const indexOfFirstDigit = firstDigitMatch
       ? firstDigitMatch.index || courseCode.length
-      : courseCode.length
-    const departmentCode = courseCode.slice(0, indexOfFirstDigit)
-    if (assignedColors[departmentCode]) return assignedColors[departmentCode]
+      : courseCode.length;
+    const departmentCode = courseCode.slice(0, indexOfFirstDigit);
+    if (assignedColors[departmentCode]) return assignedColors[departmentCode];
     assignedColors[departmentCode] =
-      availableColors[colorIndex % availableColors.length]
-    colorIndex += 1
-    return assignedColors[departmentCode]
-  }
+      availableColors[colorIndex % availableColors.length];
+    colorIndex += 1;
+    return assignedColors[departmentCode];
+  };
 
   return (
     <div className={styles.coursesGrid}>
@@ -72,7 +79,7 @@ function Courses(): JSX.Element {
         </div>
       ))}
     </div>
-  )
+  );
 }
 
-export default Courses
+export default Courses;

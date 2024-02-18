@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import {
   collection,
   getDocs,
@@ -7,65 +7,65 @@ import {
   limit,
   query,
   where,
-} from 'firebase/firestore'
+} from "firebase/firestore";
 
-import { formatPercentage, percentageToGrade, COLORS } from '../../utils'
-import { Kitem } from '../../components'
-import { useHistory } from '../../hooks/contexts'
-import ResultButton from '../../components/Buttons/ResultButton'
-import { Grade, HistoryEntry, Stats } from '../../interfaces'
+import { formatPercentage, percentageToGrade, COLORS } from "../../utils";
+import { Kitem } from "../../components";
+import { useHistory } from "../../hooks/contexts";
+import ResultButton from "../../components/Buttons/ResultButton";
+import { Grade, HistoryEntry, Stats } from "../../interfaces";
 
-import styles from './Result.css'
-import DivChart from '../../components/DivChart'
+import styles from "./Result.css";
+import DivChart from "../../components/DivChart";
 
-const db = getFirestore()
+const db = getFirestore();
 
 function Result(): JSX.Element {
-  const { school, course, exam, number } = useParams()
+  const { school, course, exam, number } = useParams();
 
-  const [examStats, setExamStats] = useState<Stats>()
-  const [history] = useHistory()
+  const [examStats, setExamStats] = useState<Stats>();
+  const [history] = useHistory();
 
   const examName =
-    exam === 'random' || exam === 'hardest' ? `${exam}${number}` : exam
+    exam === "random" || exam === "hardest" ? `${exam}${number}` : exam;
 
   useEffect(() => {
     getDocs(
       query(
-        collection(db, 'stats'),
-        where('school', '==', school),
-        where('course', '==', course),
-        where('exam', '==', examName),
+        collection(db, "stats"),
+        where("school", "==", school),
+        where("course", "==", course),
+        where("exam", "==", examName),
         limit(1),
       ),
     ).then((snap) => {
-      if (snap.empty) return
+      if (snap.empty) return;
 
-      const stats = snap.docs[0].data() as Stats | null
+      const stats = snap.docs[0].data() as Stats | null;
 
       if (stats) {
-        setExamStats(stats)
+        setExamStats(stats);
       }
-    })
-  }, [school, course, examName])
+    });
+  }, [school, course, examName]);
 
-  const score = history.filter((q: HistoryEntry) => q.wasCorrect).length
-  const percentage = formatPercentage(score, history.length)
-  const grade = percentageToGrade(percentage)
+  const score = history.filter((q: HistoryEntry) => q.wasCorrect).length;
+  const percentage = formatPercentage(score, history.length);
+  const grade = percentageToGrade(percentage);
 
-  const totalScore = (examStats?.totalScore || 0) + score
-  const numReports = (examStats?.numReports || 0) + 1
+  const totalScore = (examStats?.totalScore || 0) + score;
+  const numReports = (examStats?.numReports || 0) + 1;
 
   const avgPercentage = formatPercentage(
     totalScore,
     numReports * history.length,
-  )
+  );
 
-  const averageGrade = percentageToGrade(avgPercentage)
-  const averageScore = totalScore / numReports
+  const averageGrade = percentageToGrade(avgPercentage);
+  const averageScore = totalScore / numReports;
 
-  const colorFromUser = COLORS[grade]
-  const colorFromServer = COLORS[averageGrade]
+  const colorFromUser = COLORS[grade];
+  const colorFromServer = COLORS[averageGrade];
 
   return (
     <div>
@@ -125,7 +125,7 @@ function Result(): JSX.Element {
         <div>
           <ResultButton
             href={
-              '/' + [school, course, exam, number].filter(Boolean).join('/')
+              "/" + [school, course, exam, number].filter(Boolean).join("/")
             }
           >
             <h4>Try again</h4>
@@ -136,7 +136,7 @@ function Result(): JSX.Element {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Result
+export default Result;

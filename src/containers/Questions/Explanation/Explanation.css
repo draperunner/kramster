@@ -1,12 +1,12 @@
 .wrapper {
-  composes: bodyFont from '../../../base-styles/types.css';
-  composes: bodyFontColor from '../../../base-styles/types.css';
+  composes: bodyFont from "../../../base-styles/types.css";
+  composes: bodyFontColor from "../../../base-styles/types.css";
   margin: 3px;
 }
 
 .header {
-  composes: headerFont from '../../../base-styles/types.css';
-  composes: blue from '../../../base-styles/colors.css';
+  composes: headerFont from "../../../base-styles/types.css";
+  composes: blue from "../../../base-styles/colors.css";
   font-weight: 500;
   margin-bottom: 2px;
 }

@@ -1,12 +1,12 @@
-import React from 'react'
-import { MathElement } from '../../../components'
-import { sanitize } from '../../../utils'
-import styles from './Question.css'
+import React from "react";
+import { MathElement } from "../../../components";
+import { sanitize } from "../../../utils";
+import styles from "./Question.css";
 
 /* eslint-disable react/no-danger */
 
 interface Props {
-  text: string
+  text: string;
 }
 
 const Question = (props: Props): JSX.Element => (
@@ -16,6 +16,6 @@ const Question = (props: Props): JSX.Element => (
       dangerouslySetInnerHTML={{ __html: sanitize(props.text) }}
     />
   </MathElement>
-)
+);
 
-export default Question
+export default Question;

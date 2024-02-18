@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styles from './Navbar.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import styles from "./Navbar.css";
 
 const Navbar = (): JSX.Element => (
   <nav className={styles.navbar}>
     <div className={styles.pullLeft}>
-      {window.location.pathname !== '/' ? (
+      {window.location.pathname !== "/" ? (
         <Link className={styles.logo} to="/" tabIndex={0}>
           Kramster!
         </Link>
@@ -21,6 +21,6 @@ const Navbar = (): JSX.Element => (
       </ul>
     </div>
   </nav>
-)
+);
 
-export default Navbar
+export default Navbar;

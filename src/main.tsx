@@ -1,14 +1,14 @@
-import React from 'react'
-import { createRoot } from 'react-dom/client'
-import 'katex'
-import 'katex/dist/katex.min.css'
+import React from "react";
+import { createRoot } from "react-dom/client";
+import "katex";
+import "katex/dist/katex.min.css";
 
-import './base-styles/main.css'
-import './auth'
+import "./base-styles/main.css";
+import "./auth";
 
-import Routes from './routes'
+import Routes from "./routes";
 
-const element = document.getElementById('app')
+const element = document.getElementById("app");
 if (element) {
-  createRoot(element).render(<Routes />)
+  createRoot(element).render(<Routes />);
 }

@@ -1,46 +1,46 @@
-import React from 'react'
-import styles from './Kitem.css'
+import React from "react";
+import styles from "./Kitem.css";
 
 interface Props {
-  body: string
-  head: number | string
-  color: string
-  minHeight?: boolean
+  body: string;
+  head: number | string;
+  color: string;
+  minHeight?: boolean;
   onClick?: (
     event:
       | React.MouseEvent<HTMLAnchorElement>
       | React.KeyboardEvent<HTMLAnchorElement>,
-  ) => void
+  ) => void;
 }
 
 const Kitem = (props: Props): JSX.Element => {
-  const mobile = window.screen.width < 800
+  const mobile = window.screen.width < 800;
 
-  let className = `${styles.kitem} `
+  let className = `${styles.kitem} `;
 
   if (props.color) {
-    className += `${styles[props.color]} `
+    className += `${styles[props.color]} `;
   }
 
   if (props.minHeight && !mobile) {
-    className += `${styles.minHeight} `
+    className += `${styles.minHeight} `;
   }
 
   if (!mobile && props.onClick) {
-    className += `${styles.clickable} `
+    className += `${styles.clickable} `;
   }
 
   if (!props.onClick) {
     return (
       <div className={className}>
         <div className={styles[`${props.color}head`]}>
-          <h3>{props.head || ''}</h3>
+          <h3>{props.head || ""}</h3>
         </div>
         <div className={styles.body}>
           <p>{props.body}</p>
         </div>
       </div>
-    )
+    );
   }
 
   return (
@@ -58,7 +58,7 @@ const Kitem = (props: Props): JSX.Element => {
         <p>{props.body}</p>
       </div>
     </a>
-  )
-}
+  );
+};
 
-export default Kitem
+export default Kitem;

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import styles from './About.css'
+import styles from "./About.css";
 
 const About = (): JSX.Element => (
   <div>
@@ -12,14 +12,14 @@ const About = (): JSX.Element => (
         questions with instant feedback.
       </p>
       <p>
-        Kramster is made by <a href="https://byrkje.land">Mats Byrkjeland</a>{' '}
-        and it is{' '}
+        Kramster is made by <a href="https://byrkje.land">Mats Byrkjeland</a>{" "}
+        and it is{" "}
         <a href="https://github.com/draperunner/Kramster">open source</a>. Do
-        you enjoy Kramster? Star it on{' '}
+        you enjoy Kramster? Star it on{" "}
         <a href="https://github.com/draperunner/kramster">GitHub</a>!
       </p>
     </div>
   </div>
-)
+);
 
-export default About
+export default About;

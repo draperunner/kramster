@@ -1,15 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 interface Props {
-  className?: string
-  href: string
+  className?: string;
+  href: string;
   onClick?: (
     event:
       | React.KeyboardEvent<HTMLAnchorElement>
       | React.MouseEvent<HTMLAnchorElement>,
-  ) => void
-  children?: string | JSX.Element | JSX.Element[]
+  ) => void;
+  children?: string | JSX.Element | JSX.Element[];
 }
 
 const BaseButton = (props: Props): JSX.Element => (
@@ -24,6 +24,6 @@ const BaseButton = (props: Props): JSX.Element => (
   >
     {props.children}
   </Link>
-)
+);
 
-export default BaseButton
+export default BaseButton;

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   getFirestore,
   getDoc,
@@ -7,60 +7,60 @@ import {
   collection,
   getDocs,
   query,
-} from 'firebase/firestore'
+} from "firebase/firestore";
 
-import { Kitem, Jumbotron } from '../../components'
-import styles from './Schools.css'
-import { School, Stats } from '../../interfaces'
+import { Kitem, Jumbotron } from "../../components";
+import styles from "./Schools.css";
+import { School, Stats } from "../../interfaces";
 
-const db = getFirestore()
+const db = getFirestore();
 
 function useStats(): Stats | undefined {
-  const [stats, setStats] = useState<Stats | undefined>()
+  const [stats, setStats] = useState<Stats | undefined>();
 
   useEffect(() => {
-    getDoc(doc(collection(db, 'stats'), 'global'))
+    getDoc(doc(collection(db, "stats"), "global"))
       .then((doc) => doc.data() as Stats)
-      .then(setStats)
-  }, [])
+      .then(setStats);
+  }, []);
 
-  return stats
+  return stats;
 }
 
 function useSchools(initialSchools: School[]): School[] {
-  const [schools, setSchools] = useState<School[]>(initialSchools)
+  const [schools, setSchools] = useState<School[]>(initialSchools);
 
   useEffect(() => {
-    getDocs(query(collection(db, 'schools')))
+    getDocs(query(collection(db, "schools")))
       .then((snapshot) =>
         snapshot.docs.map((doc) => ({
           ...(doc.data() as School),
           id: doc.id,
         })),
       )
-      .then(setSchools)
-  }, [])
+      .then(setSchools);
+  }, []);
 
-  return schools
+  return schools;
 }
 
 function Schools(): JSX.Element {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const schools = useSchools([
     {
-      id: 'ntnu',
-      abbreviation: 'NTNU',
-      name: 'Norges Teknisk-Naturvitenskaplige Universitet',
+      id: "ntnu",
+      abbreviation: "NTNU",
+      name: "Norges Teknisk-Naturvitenskaplige Universitet",
     },
     {
-      id: 'oslomet',
-      abbreviation: 'OsloMet',
-      name: 'Oslo Metropolitan University',
+      id: "oslomet",
+      abbreviation: "OsloMet",
+      name: "Oslo Metropolitan University",
     },
-  ])
+  ]);
 
-  const stats = useStats()
-  const grades = stats?.grades
+  const stats = useStats();
+  const grades = stats?.grades;
 
   return (
     <div>
@@ -79,7 +79,7 @@ function Schools(): JSX.Element {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default Schools
+export default Schools;
