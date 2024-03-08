@@ -34,7 +34,7 @@
   "author": "Mats Byrkjeland",
   "license": "Apache-2.0",
   "dependencies": {
-    "firebase": "^9.23.0",
+    "firebase": "^10.8.1",
     "katex": "^0.15.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -43,7 +43,7 @@
     "wilson-score": "^1.0.0"
   },
   "devDependencies": {
-    "@firebase/testing": "^0.20.11",
+    "@firebase/rules-unit-testing": "^3.0.1",
     "@types/katex": "^0.11.1",
     "@types/node": "^20.11.19",
     "@types/qs": "^6.9.11",

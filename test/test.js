@@ -1,14 +1,21 @@
-const firebase = require("@firebase/testing");
+import fs from "fs";
+import {
+  assertFails,
+  assertSucceeds,
+  initializeTestEnvironment,
+} from "@firebase/rules-unit-testing";
+import { addDoc, getDocs, collection } from "firebase/firestore";
 
 const PROJECT_ID = "kramsterapp";
 
-const anonymousUser = { uid: "anonymous_1" };
+const anonymousUser = "anonymous_1";
 
-function setupDb(auth) {
-  return firebase
-    .initializeTestApp({ projectId: PROJECT_ID, auth })
-    .firestore();
-}
+let testEnv = await initializeTestEnvironment({
+  projectId: PROJECT_ID,
+  firestore: {
+    rules: fs.readFileSync("firestore.rules", "utf8"),
+  },
+});
 
 const VALID_REPORT = {
   uid: "anonymous_1",
@@ -37,59 +44,66 @@ const VALID_REPORT = {
 };
 
 beforeEach(async () => {
-  await firebase.clearFirestoreData({ projectId: PROJECT_ID });
+  await testEnv.clearFirestore({ projectId: PROJECT_ID });
 });
 
 describe("Read exams", () => {
   it("Can read exams if logged in as anonymous", async () => {
-    const db = setupDb(anonymousUser);
-    const testDoc = db.collection("exams");
-    await firebase.assertSucceeds(testDoc.get());
+    const context = testEnv.authenticatedContext(anonymousUser);
+    const examsCollection = collection(context.firestore(), "exams");
+    await assertSucceeds(getDocs(examsCollection));
   });
 
   it("Cannot read exams if not logged in", async () => {
-    const db = setupDb();
-    const testDoc = db.collection("exams");
-    await firebase.assertFails(testDoc.get());
+    const context = testEnv.unauthenticatedContext();
+    const examsCollection = collection(context.firestore(), "exams");
+    await assertFails(getDocs(examsCollection));
   });
 });
 
 describe("Reports", () => {
   it("Cannot read reports", async () => {
-    const reports = setupDb(anonymousUser).collection("reports");
-    await firebase.assertFails(reports.get());
+    const context = testEnv.authenticatedContext(anonymousUser);
+    const reportsCollection = collection(context.firestore(), "reports");
+    await assertFails(getDocs(reportsCollection));
   });
 
   it("Can create valid report", async () => {
-    const reports = setupDb(anonymousUser).collection("reports");
-    await firebase.assertSucceeds(reports.add(VALID_REPORT));
+    const context = testEnv.authenticatedContext(anonymousUser);
+    const reportsCollection = collection(context.firestore(), "reports");
+    await assertSucceeds(addDoc(reportsCollection, VALID_REPORT));
   });
 
   it("Cannot have additional fields", async () => {
-    const reports = setupDb(anonymousUser).collection("reports");
-    const report = { ...VALID_REPORT, fake: true };
-    await firebase.assertFails(reports.add(report));
+    const context = testEnv.authenticatedContext(anonymousUser);
+    const reportsCollection = collection(context.firestore(), "reports");
+    await assertFails(
+      addDoc(reportsCollection, { ...VALID_REPORT, fake: true }),
+    );
   });
 
   it("Cannot have missing fields", async () => {
-    const reports = setupDb(anonymousUser).collection("reports");
+    const context = testEnv.authenticatedContext(anonymousUser);
+    const reportsCollection = collection(context.firestore(), "reports");
     const { createdAt, ...partialReport } = VALID_REPORT;
-    await firebase.assertFails(reports.add(partialReport));
+    await assertFails(addDoc(reportsCollection, partialReport));
   });
 
   it("Score cannot be negative", async () => {
-    const reports = setupDb(anonymousUser).collection("reports");
+    const context = testEnv.authenticatedContext(anonymousUser);
+    const reportsCollection = collection(context.firestore(), "reports");
     const report = { ...VALID_REPORT, score: -10 };
-    await firebase.assertFails(reports.add(report));
+    await assertFails(addDoc(reportsCollection, report));
   });
 
   it("Cannot be for other user than self", async () => {
-    const reports = setupDb(anonymousUser).collection("reports");
+    const context = testEnv.authenticatedContext(anonymousUser);
+    const reportsCollection = collection(context.firestore(), "reports");
     const report = { ...VALID_REPORT, uid: "another-user" };
-    await firebase.assertFails(reports.add(report));
+    await assertFails(addDoc(reportsCollection, report));
   });
 });
 
 after(async () => {
-  await firebase.clearFirestoreData({ projectId: PROJECT_ID });
+  await testEnv.clearFirestore({ projectId: PROJECT_ID });
 });
