@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./Kitem.css";
+import styles from "./Kitem.module.css";
 
 interface Props {
   body: string;

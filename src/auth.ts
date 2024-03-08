@@ -8,11 +8,11 @@ import {
   User,
 } from "firebase/auth";
 
-initializeApp(JSON.parse(process.env.FIREBASE_CONFIG || ""));
+initializeApp(JSON.parse(import.meta.env.VITE_FIREBASE_CONFIG || ""));
 
 const auth = getAuth();
 
-if (process.env.NODE_ENV !== "production") {
+if (import.meta.env.DEV) {
   connectAuthEmulator(auth, "http://localhost:9099");
 }
 

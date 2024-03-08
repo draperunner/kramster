@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 
 import { getQuestions, sendReport } from "../../api";
@@ -9,7 +9,7 @@ import Explanation from "./Explanation";
 import Alternative from "../../components/Buttons/Alternative";
 import { Question as QuestionType, SendableReport } from "../../interfaces";
 
-import styles from "./Questions.css";
+import styles from "./Questions.module.css";
 import { useHistory } from "../../hooks/contexts";
 import { useUser } from "../../auth";
 

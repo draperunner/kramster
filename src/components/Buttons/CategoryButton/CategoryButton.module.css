@@ -1,0 +1,11 @@
+.category {
+  composes: base from "../BaseButton.module.css";
+  composes: headerFont from "../../../base-styles/types.module.css";
+  composes: white from "../../../base-styles/colors.module.css";
+  composes: orangeLightBackground from "../../../base-styles/colors.module.css";
+  composes: yellowBackgroundHover from "../../../base-styles/colors.module.css";
+  composes: yellowBackgroundFocus from "../../../base-styles/colors.module.css";
+  composes: darkGrayHover from "../../../base-styles/colors.module.css";
+  composes: darkGrayFocus from "../../../base-styles/colors.module.css";
+  text-transform: uppercase;
+}

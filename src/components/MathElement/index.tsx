@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 
 interface Props {
-  children?: React.ReactNode;
+  children?: ReactNode;
   dangerouslySetInnerHTML?: {
     __html: string;
   };

@@ -8,11 +8,11 @@
 }
 
 .headerColor {
-  composes: blue from "./colors.css";
+  composes: blue from "./colors.module.css";
 }
 
 .bodyFontColor {
-  composes: darkGray from "./colors.css";
+  composes: darkGray from "./colors.module.css";
 }
 
 .title {

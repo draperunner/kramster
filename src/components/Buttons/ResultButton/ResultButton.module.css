@@ -1,0 +1,13 @@
+.result {
+  composes: base from "../BaseButton.module.css";
+  composes: bodyFont from "../../../base-styles/types.module.css";
+  composes: white from "../../../base-styles/colors.module.css";
+  composes: greenLightBackground from "../../../base-styles/colors.module.css";
+  composes: darkGrayHover from "../../../base-styles/colors.module.css";
+  composes: darkGrayFocus from "../../../base-styles/colors.module.css";
+  padding: 8px;
+}
+
+.result h4 {
+  margin: 10px;
+}

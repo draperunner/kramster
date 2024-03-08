@@ -1,5 +1,5 @@
 .question {
-  composes: bodyFontColor from "../../../base-styles/types.css";
+  composes: bodyFontColor from "../../../base-styles/types.module.css";
   margin: 0 20px;
   font-size: 24px;
   font-weight: 500;

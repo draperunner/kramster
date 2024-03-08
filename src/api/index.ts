@@ -14,7 +14,7 @@ import { Question, SendableReport } from "../interfaces";
 
 const db = getFirestore();
 
-if (process.env.NODE_ENV !== "production") {
+if (import.meta.env.DEV) {
   connectFirestoreEmulator(db, "localhost", 8080);
 }
 

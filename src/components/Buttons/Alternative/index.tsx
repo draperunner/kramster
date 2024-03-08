@@ -1,8 +1,7 @@
-import React from "react";
 import BaseButton from "../BaseButton";
 import MathElement from "../../MathElement";
 import { sanitize } from "../../../utils";
-import styles from "./Alternative.css";
+import styles from "./Alternative.module.css";
 
 interface Props {
   text: string;

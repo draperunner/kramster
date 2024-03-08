@@ -1,6 +1,5 @@
-import React from "react";
 import BaseButton from "../BaseButton";
-import styles from "./ResultButton.css";
+import styles from "./ResultButton.module.css";
 
 interface Props {
   href: string;

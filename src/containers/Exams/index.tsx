@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {
   collection,
@@ -13,7 +13,7 @@ import CategoryButton from "../../components/Buttons/CategoryButton";
 import StandardButton from "../../components/Buttons/StandardButton";
 import { LoadingSpinner } from "../../components";
 
-import styles from "./Exams.css";
+import styles from "./Exams.module.css";
 
 const db = getFirestore();
 

@@ -1,0 +1,53 @@
+.alternativeBase {
+  composes: base from "../BaseButton.module.css";
+  composes: bodyFont from "../../../base-styles/types.module.css";
+  padding: 20px;
+  display: inline-block;
+  margin: 3px;
+}
+
+.alternative {
+  composes: alternativeBase;
+  composes: darkGray from "../../../base-styles/colors.module.css";
+  composes: whiteHover from "../../../base-styles/colors.module.css";
+  composes: whiteBackground from "../../../base-styles/colors.module.css";
+  transition: all 300ms;
+}
+
+.alternative:hover,
+.alternative:focus {
+  background-color: #2980b9;
+  color: white;
+}
+
+.alternativeMobile {
+  composes: alternative;
+}
+
+.alternativeMobile:hover,
+.alternativeMobile:focus {
+  background-color: white;
+  color: #2c3e50;
+}
+
+.correctAnswer {
+  composes: alternativeBase;
+  composes: greenLightBackground from "../../../base-styles/colors.module.css";
+  composes: greenLightBackgroundHover from "../../../base-styles/colors.module.css";
+  composes: white from "../../../base-styles/colors.module.css";
+  composes: darkGrayHover from "../../../base-styles/colors.module.css";
+}
+
+.wrongAnswer {
+  composes: alternativeBase;
+  composes: redLightBackground from "../../../base-styles/colors.module.css";
+  composes: redLightBackgroundHover from "../../../base-styles/colors.module.css";
+  composes: white from "../../../base-styles/colors.module.css";
+  composes: darkGrayHover from "../../../base-styles/colors.module.css";
+}
+
+@media (max-width: 767px) {
+  .alternativeBase {
+    padding: 10px;
+  }
+}

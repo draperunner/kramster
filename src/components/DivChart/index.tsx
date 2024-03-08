@@ -1,9 +1,9 @@
-import React from "react";
-import styles from "./DivChart.css";
+import { FC, useMemo } from "react";
+import styles from "./DivChart.module.css";
 
-const DivChart: React.FC<Props> = ({ height, data }) => {
+const DivChart: FC<Props> = ({ height, data }) => {
   // Make data percentages of max value
-  const normalizeData = React.useMemo(() => {
+  const normalizeData = useMemo(() => {
     const maxValue = Math.max(...data.map((d) => d.value));
 
     if (maxValue === 0) return data;

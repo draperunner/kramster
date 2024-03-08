@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./LoadingSpinner.css";
+import styles from "./LoadingSpinner.module.css";
 
 const LoadingSpinner = (): JSX.Element => <div className={styles.spinner} />;
 

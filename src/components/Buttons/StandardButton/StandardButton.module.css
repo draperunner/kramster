@@ -1,0 +1,21 @@
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.standard {
+  composes: base from "../BaseButton.module.css";
+  composes: hyphenate;
+  composes: bodyFont from "../../../base-styles/types.module.css";
+  composes: white from "../../../base-styles/colors.module.css";
+  composes: bodyFontColor from "../../../base-styles/types.module.css";
+  composes: blueBackground from "../../../base-styles/colors.module.css";
+  composes: blueLightBackgroundHover from "../../../base-styles/colors.module.css";
+  composes: blueLightBackgroundFocus from "../../../base-styles/colors.module.css";
+  composes: darkGrayHover from "../../../base-styles/colors.module.css";
+  composes: darkGrayFocus from "../../../base-styles/colors.module.css";
+}

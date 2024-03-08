@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   getFirestore,
@@ -10,7 +10,7 @@ import {
 } from "firebase/firestore";
 
 import { Kitem, Jumbotron } from "../../components";
-import styles from "./Schools.css";
+import styles from "./Schools.module.css";
 import { School, Stats } from "../../interfaces";
 
 const db = getFirestore();

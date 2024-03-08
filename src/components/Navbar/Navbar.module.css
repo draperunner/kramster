@@ -1,6 +1,6 @@
 .navbar {
-  composes: blue from "../../base-styles/colors.css";
-  composes: headerFont from "../../base-styles/types.css";
+  composes: blue from "../../base-styles/colors.module.css";
+  composes: headerFont from "../../base-styles/types.module.css";
   margin-bottom: 20px;
   background: none;
   border-radius: 0;
@@ -17,8 +17,8 @@
 }
 
 .logo {
-  composes: blue from "../../base-styles/colors.css";
-  composes: blueLightHover from "../../base-styles/colors.css";
+  composes: blue from "../../base-styles/colors.module.css";
+  composes: blueLightHover from "../../base-styles/colors.module.css";
   letter-spacing: 2px;
   text-decoration: none;
   font-size: 18px;
@@ -30,8 +30,8 @@
 }
 
 .link {
-  composes: blue from "../../base-styles/colors.css";
-  composes: blueLightHover from "../../base-styles/colors.css";
+  composes: blue from "../../base-styles/colors.module.css";
+  composes: blueLightHover from "../../base-styles/colors.module.css";
   text-decoration: none;
   font-size: 14px;
 }

@@ -20,7 +20,7 @@
 
 .correct {
   composes: progressBar;
-  composes: greenLightBackground from "../../base-styles/colors.css";
+  composes: greenLightBackground from "../../base-styles/colors.module.css";
   -webkit-animation: fadein 400ms ease-out; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 400ms ease-out; /* Firefox < 16 */
   -ms-animation: fadein 400ms ease-out; /* Internet Explorer */
@@ -30,7 +30,7 @@
 
 .wrong {
   composes: progressBar;
-  composes: redLightBackground from "../../base-styles/colors.css";
+  composes: redLightBackground from "../../base-styles/colors.module.css";
   -webkit-animation: fadein 400ms ease-out; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 400ms ease-out; /* Firefox < 16 */
   -ms-animation: fadein 400ms ease-out; /* Internet Explorer */
@@ -39,7 +39,7 @@
 }
 
 .progressText {
-  composes: blue from "../../base-styles/colors.css";
+  composes: blue from "../../base-styles/colors.module.css";
   text-align: right;
   font-weight: bold;
   margin-bottom: 2px;

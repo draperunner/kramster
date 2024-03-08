@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./ProgressBar.css";
+import styles from "./ProgressBar.module.css";
 import { Question } from "../../interfaces";
 
 interface Props {
@@ -18,7 +17,7 @@ const ProgressBar = (props: Props): JSX.Element => {
         {`${props.history.length}/${props.questions.length}`}
       </p>
       <div className={styles.progress}>
-        {props.history.map((answer, i) => (
+        {props.history.map((_answer, i) => (
           <div
             key={i}
             className={styles[type(i)]}

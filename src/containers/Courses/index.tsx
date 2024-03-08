@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import {
   collection,
@@ -10,7 +10,7 @@ import {
 
 import { Course } from "../../interfaces";
 import { Kitem, LoadingSpinner } from "../../components";
-import styles from "./Courses.css";
+import styles from "./Courses.module.css";
 
 const db = getFirestore();
 

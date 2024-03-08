@@ -1,7 +1,6 @@
-import React from "react";
 import { MathElement } from "../../../components";
 import { sanitize } from "../../../utils";
-import styles from "./Question.css";
+import styles from "./Question.module.css";
 
 /* eslint-disable react/no-danger */
 

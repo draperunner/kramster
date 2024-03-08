@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {
   collection,
@@ -15,7 +15,7 @@ import { useHistory } from "../../hooks/contexts";
 import ResultButton from "../../components/Buttons/ResultButton";
 import { Grade, HistoryEntry, Stats } from "../../interfaces";
 
-import styles from "./Result.css";
+import styles from "./Result.module.css";
 import DivChart from "../../components/DivChart";
 
 const db = getFirestore();

@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./Jumbotron.css";
+import styles from "./Jumbotron.module.css";
 
 import { Grade } from "../../interfaces";
 import DivChart from "../DivChart";
