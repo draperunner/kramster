@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import "katex";
 import "katex/dist/katex.min.css";
 
-import "./base-styles/main.module.css";
+import "./base-styles/main.css";
 import "./auth";
 
 import Routes from "./routes";

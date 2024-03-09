@@ -1,27 +1,27 @@
-:global body {
+body {
   margin: 0;
   background-color: #ecf0f1;
   font-family: "Open Sans", sans-serif;
 }
 
-:global img {
+img {
   display: block;
   max-width: 100%;
 }
 
-:global canvas {
+canvas {
   width: 100% !important;
   height: auto !important;
   max-height: 370px;
   margin: 20px 0;
 }
 
-:global a {
+a {
   color: #2980b9;
   text-decoration: none;
 }
 
-:global a:hover {
+a:hover {
   color: #3498db;
   text-decoration: underline;
 }
