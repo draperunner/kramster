@@ -1,6 +1,5 @@
 .alternativeBase {
   composes: base from "../BaseButton.module.css";
-  composes: bodyFont from "../../../base-styles/types.module.css";
   padding: 20px;
   display: inline-block;
   margin: 3px;

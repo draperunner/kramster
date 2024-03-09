@@ -10,7 +10,7 @@ interface Props {
 
 const Question = (props: Props): JSX.Element => (
   <MathElement>
-    <h3
+    <h1
       className={styles.question}
       dangerouslySetInnerHTML={{ __html: sanitize(props.text) }}
     />

@@ -39,7 +39,7 @@ const Jumbotron = (props: Props): JSX.Element => {
             }))}
         />
       ) : null}
-      <h3 className={styles.subtitle}>{subtitle()}</h3>
+      <p className={styles.subtitle}>{subtitle()}</p>
     </div>
   );
 };

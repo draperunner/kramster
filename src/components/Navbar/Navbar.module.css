@@ -1,6 +1,6 @@
 .navbar {
   composes: blue from "../../base-styles/colors.module.css";
-  composes: headerFont from "../../base-styles/types.module.css";
+  font-family: var(--font-header);
   margin-bottom: 20px;
   background: none;
   border-radius: 0;

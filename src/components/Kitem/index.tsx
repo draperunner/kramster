@@ -33,7 +33,7 @@ const Kitem = (props: Props): JSX.Element => {
     return (
       <div className={className}>
         <div className={styles[`${props.color}head`]}>
-          <h3>{props.head || ""}</h3>
+          <div>{props.head || ""}</div>
         </div>
         <div className={styles.body}>
           <p>{props.body}</p>
@@ -51,7 +51,7 @@ const Kitem = (props: Props): JSX.Element => {
       onClick={props.onClick}
     >
       <div className={styles[`${props.color}head`]}>
-        <h3>{props.head}</h3>
+        <div>{props.head}</div>
       </div>
       <div className={styles.body}>
         <p>{props.body}</p>

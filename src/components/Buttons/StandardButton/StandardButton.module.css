@@ -10,9 +10,7 @@
 .standard {
   composes: base from "../BaseButton.module.css";
   composes: hyphenate;
-  composes: bodyFont from "../../../base-styles/types.module.css";
   composes: white from "../../../base-styles/colors.module.css";
-  composes: bodyFontColor from "../../../base-styles/types.module.css";
   composes: blueBackground from "../../../base-styles/colors.module.css";
   composes: blueLightBackgroundHover from "../../../base-styles/colors.module.css";
   composes: blueLightBackgroundFocus from "../../../base-styles/colors.module.css";

@@ -1,12 +1,10 @@
 .wrapper {
-  composes: bodyFont from "../../../base-styles/types.module.css";
-  composes: bodyFontColor from "../../../base-styles/types.module.css";
   margin: 3px;
 }
 
 .header {
-  composes: headerFont from "../../../base-styles/types.module.css";
   composes: blue from "../../../base-styles/colors.module.css";
+  font-family: var(--font-header);
   font-weight: 500;
   margin-bottom: 2px;
 }

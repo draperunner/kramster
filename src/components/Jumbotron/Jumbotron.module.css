@@ -5,7 +5,7 @@
 }
 
 .title {
-  composes: headerFont from "../../base-styles/types.module.css";
+  font-family: var(--font-header);
   composes: blue from "../../base-styles/colors.module.css";
   font-size: 63px;
   font-weight: 500;
