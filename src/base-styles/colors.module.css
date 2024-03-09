@@ -2,43 +2,43 @@
 * GREEN
 */
 .green {
-  color: #27ae60;
+  color: var(--green);
 }
 
 .greenHover:hover {
-  color: #27ae60;
+  color: var(--green);
 }
 
 .greenBackground {
-  background-color: #27ae60;
+  background-color: var(--green);
 }
 
 .greenBackgroundHover:hover {
-  background-color: #27ae60;
+  background-color: var(--green);
 }
 
 .greenBackgroundFocus:focus {
-  background-color: #27ae60;
+  background-color: var(--green);
 }
 
 .greenLight {
-  color: #2ecc71;
+  color: var(--green-light);
 }
 
 .greenLightHover:hover {
-  color: #2ecc71;
+  color: var(--green-light);
 }
 
 .greenLightBackground {
-  background-color: #2ecc71;
+  background-color: var(--green-light);
 }
 
 .greenLightBackgroundHover:hover {
-  background-color: #2ecc71;
+  background-color: var(--green-light);
 }
 
 .greenLightBackgroundFocus:focus {
-  background-color: #2ecc71;
+  background-color: var(--green-light);
 }
 
 /*
@@ -88,219 +88,219 @@
  * PURPLE
  */
 .purple {
-  color: #8e44ad;
+  color: var(--purple);
 }
 
 .purpleHover:hover {
-  color: #8e44ad;
+  color: var(--purple);
 }
 
 .purpleBackground {
-  background-color: #8e44ad;
+  background-color: var(--purple);
 }
 
 .purpleBackgroundHover:hover {
-  background-color: #8e44ad;
+  background-color: var(--purple);
 }
 
 .purpleBackgroundFocus:focus {
-  background-color: #8e44ad;
+  background-color: var(--purple);
 }
 
 .purpleLight {
-  color: #9b59b6;
+  color: var(--purple-light);
 }
 
 .purpleLightHover:hover {
-  color: #9b59b6;
+  color: var(--purple-light);
 }
 
 .purpleLightBackground {
-  background-color: #9b59b6;
+  background-color: var(--purple-light);
 }
 
 .purpleLightBackgroundHover:hover {
-  background-color: #9b59b6;
+  background-color: var(--purple-light);
 }
 
 .purpleLightBackgroundFocus:focus {
-  background-color: #9b59b6;
+  background-color: var(--purple-light);
 }
 
 /*
  * YELLOW
  */
 .yellow {
-  color: #f39c12;
+  color: var(--yellow);
 }
 
 .yellowHover:hover {
-  color: #f39c12;
+  color: var(--yellow);
 }
 
 .yellowBackground {
-  background-color: #f39c12;
+  background-color: var(--yellow);
 }
 
 .yellowBackgroundHover:hover {
-  background-color: #f39c12;
+  background-color: var(--yellow);
 }
 
 .yellowBackgroundFocus:focus {
-  background-color: #f39c12;
+  background-color: var(--yellow);
 }
 
 .yellowLight {
-  color: #f1c40f;
+  color: var(--yellow-light);
 }
 
 .yellowLightHover:hover {
-  color: #f1c40f;
+  color: var(--yellow-light);
 }
 
 .yellowLightBackground {
-  background-color: #f1c40f;
+  background-color: var(--yellow-light);
 }
 
 .yellowLightBackgroundHover:hover {
-  background-color: #f1c40f;
+  background-color: var(--yellow-light);
 }
 
 .yellowLightBackgroundFocus:focus {
-  background-color: #f1c40f;
+  background-color: var(--yellow-light);
 }
 
 /*
  * ORANGE
 */
 .orange {
-  color: #d35400;
+  color: var(--orange);
 }
 
 .orangeHover:hover {
-  color: #d35400;
+  color: var(--orange);
 }
 
 .orangeBackground {
-  background-color: #d35400;
+  background-color: var(--orange);
 }
 
 .orangeBackgroundHover:hover {
-  background-color: #d35400;
+  background-color: var(--orange);
 }
 
 .orangeBackgroundFocus:focus {
-  background-color: #d35400;
+  background-color: var(--orange);
 }
 
 .orangeLight {
-  color: #e67e22;
+  color: var(--orange-light);
 }
 
 .orangeLightHover:hover {
-  color: #e67e22;
+  color: var(--orange-light);
 }
 
 .orangeLightBackground {
-  background-color: #e67e22;
+  background-color: var(--orange-light);
 }
 
 .orangeLightBackgroundHover:hover {
-  background-color: #e67e22;
+  background-color: var(--orange-light);
 }
 
 .orangeLightBackgroundFocus:focus {
-  background-color: #e67e22;
+  background-color: var(--orange-light);
 }
 
 /*
  * RED
  */
 .red {
-  color: #c0392b;
+  color: var(--red);
 }
 
 .redHover:hover {
-  color: #c0392b;
+  color: var(--red);
 }
 
 .redBackground {
-  background-color: #c0392b;
+  background-color: var(--red);
 }
 
 .redBackgroundHover:hover {
-  background-color: #c0392b;
+  background-color: var(--red);
 }
 
 .redBackgroundFocus:focus {
-  background-color: #c0392b;
+  background-color: var(--red);
 }
 
 .redLight {
-  color: #e74c3c;
+  color: var(--red-light);
 }
 
 .redLightHover:hover {
-  color: #e74c3c;
+  color: var(--red-light);
 }
 
 .redLightBackground {
-  background-color: #e74c3c;
+  background-color: var(--red-light);
 }
 
 .redLightBackgroundHover:hover {
-  background-color: #e74c3c;
+  background-color: var(--red-light);
 }
 
 .redLightBackgroundFocus:focus {
-  background-color: #e74c3c;
+  background-color: var(--red-light);
 }
 
 /*
  * GRAY
  */
 .darkGray {
-  color: #2c3e50;
+  color: var(--gray);
 }
 
 .darkGrayHover:hover {
-  color: #2c3e50;
+  color: var(--gray);
 }
 
 .darkGrayFocus:focus {
-  color: #2c3e50;
+  color: var(--gray);
 }
 
 .darkGrayBackground {
-  color: #2c3e50;
+  color: var(--gray);
 }
 
 .darkGrayBackgroundHover:hover {
-  color: #2c3e50;
+  color: var(--gray);
 }
 
 .darkGrayBackgroundFocus:focus {
-  color: #2c3e50;
+  color: var(--gray);
 }
 
 .gray {
-  color: #ecf0f1;
+  color: var(--gray-light);
 }
 
 .grayHover:hover {
-  color: #ecf0f1;
+  color: var(--gray-light);
 }
 
 .grayBackground {
-  background-color: #ecf0f1;
+  background-color: var(--gray-light);
 }
 
 .grayBackgroundHover:hover {
-  background-color: #ecf0f1;
+  background-color: var(--gray-light);
 }
 
 .grayBackgroundFocus:focus {
-  background-color: #ecf0f1;
+  background-color: var(--gray-light);
 }
 
 /*

@@ -7,17 +7,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.headerColor {
-  composes: blue from "./colors.module.css";
-}
-
 .bodyFontColor {
-  composes: darkGray from "./colors.module.css";
-}
-
-.title {
-  composes: headerFont;
-  composes: headerColor;
-  line-height: 40px;
-  letter-spacing: 2px;
+  color: var(--gray);
 }
