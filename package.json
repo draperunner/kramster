@@ -35,7 +35,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "firebase": "^10.8.1",
-    "katex": "^0.15.6",
+    "katex": "^0.16.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",
