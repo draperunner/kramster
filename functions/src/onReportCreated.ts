@@ -1,11 +1,7 @@
 import { initializeApp } from "firebase-admin/app";
 import { FieldValue, getFirestore, Timestamp } from "firebase-admin/firestore";
-import * as functions from "firebase-functions";
-
-import createBatcher, {
-  createOperation,
-  updateOperation,
-} from "firestore-batcher";
+import { setGlobalOptions } from "firebase-functions/v2";
+import { onDocumentCreated } from "firebase-functions/v2/firestore";
 
 export type Grade = "A" | "B" | "C" | "D" | "E" | "F";
 
@@ -53,20 +49,17 @@ export interface Exam {
 
 initializeApp();
 
-const db = getFirestore();
-
-const batcher = createBatcher(db, {
-  onBatchCommited: (stats) =>
-    console.log(
-      `Batch committed ${stats.batchSize}. Num processed: ${stats.operationsProcessed}`,
-    ),
+setGlobalOptions({
+  region: "europe-west1",
 });
 
-export const onReportCreated = functions.firestore
-  .document("reports/{reportId}")
-  .onCreate(async (snap) => {
+const db = getFirestore();
+
+export const onReportCreated2ndGen = onDocumentCreated(
+  "reports/{reportId}",
+  async (event) => {
     try {
-      const report = snap.data() as Report;
+      const report = event.data?.data() as Report;
       const { history, grade, score, numQuestions, exam } = report;
 
       await Promise.all(
@@ -104,14 +97,14 @@ export const onReportCreated = functions.firestore
       const now = Timestamp.now();
       const globalStatsRef = db.collection("stats").doc("global");
 
-      batcher.add(
-        updateOperation(globalStatsRef, {
-          numReports: FieldValue.increment(1),
-          totalScore: FieldValue.increment(score),
-          [`grades.${grade}`]: FieldValue.increment(1),
-          lastUpdated: now,
-        }),
-      );
+      const batch = db.batch();
+
+      batch.update(globalStatsRef, {
+        numReports: FieldValue.increment(1),
+        totalScore: FieldValue.increment(score),
+        [`grades.${grade}`]: FieldValue.increment(1),
+        lastUpdated: now,
+      });
 
       const examName =
         exam.name === "random" || exam.name === "hardest"
@@ -127,39 +120,36 @@ export const onReportCreated = functions.firestore
         .get();
 
       if (examStatsSnap.empty) {
-        batcher.add(
-          createOperation(db.collection("stats").doc(), {
-            grades: {
-              A: 0,
-              B: 0,
-              C: 0,
-              D: 0,
-              E: 0,
-              F: 0,
-              [grade]: 1,
-            },
-            numReports: 1,
-            totalScore: score,
-            lastUpdated: now,
-            school: report.exam.school,
-            course: report.exam.course,
-            exam: examName,
-          }),
-        );
+        batch.create(db.collection("stats").doc(), {
+          grades: {
+            A: 0,
+            B: 0,
+            C: 0,
+            D: 0,
+            E: 0,
+            F: 0,
+            [grade]: 1,
+          },
+          numReports: 1,
+          totalScore: score,
+          lastUpdated: now,
+          school: report.exam.school,
+          course: report.exam.course,
+          exam: examName,
+        });
       } else {
         const examStats = examStatsSnap.docs[0];
-        batcher.add(
-          updateOperation(examStats.ref, {
-            numReports: FieldValue.increment(1),
-            totalScore: FieldValue.increment(report.score),
-            [`grades.${report.grade}`]: FieldValue.increment(1),
-            lastUpdated: now,
-          }),
-        );
+        batch.update(examStats.ref, {
+          numReports: FieldValue.increment(1),
+          totalScore: FieldValue.increment(report.score),
+          [`grades.${report.grade}`]: FieldValue.increment(1),
+          lastUpdated: now,
+        });
       }
 
-      await batcher.commit();
+      await batch.commit();
     } catch (error) {
       console.error(error);
     }
-  });
+  },
+);

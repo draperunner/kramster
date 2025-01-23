@@ -1,1 +1,1 @@
-export { onReportCreated } from "./onReportCreated";
+export { onReportCreated2ndGen } from "./onReportCreated";
