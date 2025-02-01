@@ -39,7 +39,7 @@ async function getExam(
     }));
 
     return questions;
-  } catch (error) {
+  } catch {
     return [];
   }
 }

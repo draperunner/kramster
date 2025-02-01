@@ -6,7 +6,7 @@ type StatsSetter = React.Dispatch<React.SetStateAction<Stats | null>>;
 
 export const StatsContext = createContext<[Stats | null, StatsSetter]>([
   null,
-  (): void => {}, // eslint-disable-line @typescript-eslint/no-empty-function
+  (): void => {},
 ]);
 
 export function useStats(): [Stats | null, StatsSetter] {
@@ -17,7 +17,7 @@ type HistorySetter = React.Dispatch<React.SetStateAction<HistoryEntry[]>>;
 
 export const HistoryContext = createContext<[HistoryEntry[], HistorySetter]>([
   [],
-  (): void => {}, // eslint-disable-line @typescript-eslint/no-empty-function
+  (): void => {},
 ]);
 
 export function useHistory(): [HistoryEntry[], HistorySetter] {
