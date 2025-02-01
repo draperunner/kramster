@@ -62,7 +62,7 @@ function Result(): JSX.Element {
   );
 
   const averageGrade = percentageToGrade(avgPercentage);
-  const averageScore = totalScore / numReports;
+  const averageScore = (totalScore / numReports).toFixed(2);
 
   const colorFromUser = COLORS[grade];
   const colorFromServer = COLORS[averageGrade];
@@ -122,18 +122,17 @@ function Result(): JSX.Element {
               }))}
           />
         ) : null}
-        <div>
-          <ResultButton
-            href={
-              "/" + [school, course, exam, number].filter(Boolean).join("/")
-            }
-          >
-            <h4>Try again</h4>
-          </ResultButton>
-          <ResultButton href={`/${school}/${course}`}>
-            <h4>Try another</h4>
-          </ResultButton>
-        </div>
+      </div>
+
+      <div className={styles.buttons}>
+        <ResultButton
+          href={"/" + [school, course, exam, number].filter(Boolean).join("/")}
+        >
+          <h4>Try again</h4>
+        </ResultButton>
+        <ResultButton href={`/${school}/${course}`}>
+          <h4>Try another</h4>
+        </ResultButton>
       </div>
     </div>
   );

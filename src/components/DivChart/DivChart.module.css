@@ -2,16 +2,15 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  gap: 4px;
 }
 
 .divChartBar {
-  display: flex;
   align-items: flex-end;
   flex: 1;
   background-color: #e74c3c;
-  justify-content: center;
   border-radius: 0.5rem;
-  margin-right: 1rem;
+  border-bottom: 4px solid #c0392b;
 }
 
 .divChartBar:hover .divChartLabel {
@@ -22,10 +21,4 @@
   padding: 1rem;
   opacity: 0;
   transition: opacity 300ms;
-}
-
-@media (max-width: 500px) {
-  .divChartBar {
-    margin-right: 5px;
-  }
 }

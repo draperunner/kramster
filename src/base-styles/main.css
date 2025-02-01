@@ -3,6 +3,7 @@ body {
   background-color: #ecf0f1;
   font-family: var(--font-body);
   color: var(--gray);
+  padding-bottom: 48px;
 }
 
 img {

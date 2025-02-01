@@ -8,8 +8,16 @@
 .row {
   display: flex;
   justify-content: space-around;
+  gap: 16px;
+  margin-top: 16px;
 }
 
 .row > div {
   flex: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
 }

@@ -12,7 +12,7 @@ const App = (): JSX.Element => {
   return (
     <StatsContext.Provider value={[stats, setStats]}>
       <HistoryContext.Provider value={[history, setHistory]}>
-        <div style={{ margin: "auto", maxWidth: 1184 }}>
+        <div style={{ margin: "auto", maxWidth: 1184, padding: 16 }}>
           <Navbar />
           <Outlet />
         </div>

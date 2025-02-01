@@ -6,8 +6,6 @@
   border-radius: 0;
   border: none;
   height: 40px;
-  z-index: 9999;
-  padding: 15px;
   letter-spacing: 1px;
 }
 
@@ -41,18 +39,18 @@
 }
 
 .pullLeft {
-  display: inline-block;
+  display: block;
   float: left;
 }
 
 .pullRight {
-  display: inline-block;
+  display: block;
   float: right;
 }
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 8px;
+    padding: 8px 0;
     margin-bottom: 0;
     height: 20px;
   }
