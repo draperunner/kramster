@@ -1,20 +1,19 @@
 .wrapper {
   padding: 0;
-  margin: 22px 0 0;
+  margin: 22px 1rem;
 }
 
 .categoriesRow {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .examsGrid {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(4, auto);
-  margin: 1rem;
 }
 
 .categoriesRow > div {

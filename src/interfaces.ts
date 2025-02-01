@@ -41,7 +41,9 @@ export interface Course {
 export interface Exam {
   id: string;
   school: string;
+  schoolName: string;
   course: string;
+  courseName: string;
   name: string;
   mode: "TF" | "MC";
   questions: Question[];

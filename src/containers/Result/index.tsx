@@ -84,7 +84,7 @@ function Result(): JSX.Element {
         </div>
       </div>
 
-      <h1 className={styles.header}>Stats for this exam</h1>
+      <h2 className={styles.header}>Stats for this exam</h2>
       <div className={styles.row}>
         <div>
           <Kitem

@@ -54,6 +54,8 @@ function Exams(): JSX.Element {
 
   return (
     <div className={styles.wrapper}>
+      <h1>{exams[0].courseName}</h1>
+
       <div className={styles.categoriesRow}>
         <div>
           <CategoryButton href={`/${school}/${course}/random/10`}>

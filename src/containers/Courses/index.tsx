@@ -2,13 +2,15 @@ import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import {
   collection,
+  getDoc,
   getDocs,
+  doc,
   getFirestore,
   query,
   where,
 } from "firebase/firestore";
 
-import { Course } from "../../interfaces";
+import { Course, School } from "../../interfaces";
 import { Kitem, LoadingSpinner } from "../../components";
 import styles from "./Courses.module.css";
 
@@ -31,8 +33,23 @@ function useCourses(schoolId: string): Course[] {
   return courses;
 }
 
+function useSchool(schoolId: string): School | undefined {
+  const [school, setSchool] = useState<School | undefined>();
+
+  useEffect(() => {
+    getDoc(doc(collection(db, "schools"), schoolId)).then((schoolDoc) => {
+      if (schoolDoc.exists()) {
+        setSchool(schoolDoc.data() as School);
+      }
+    });
+  }, [schoolId]);
+
+  return school;
+}
+
 function Courses(): JSX.Element {
   const { school = "" } = useParams();
+  const schoolData = useSchool(school);
   const courses = useCourses(school);
   const navigate = useNavigate();
 
@@ -66,18 +83,21 @@ function Courses(): JSX.Element {
   };
 
   return (
-    <div className={styles.coursesGrid}>
-      {courses.map(({ id, code, name }) => (
-        <div key={id}>
-          <Kitem
-            head={code.toUpperCase()}
-            body={name}
-            color={assignColor(code)}
-            minHeight
-            onClick={(): void => navigate(`/${school}/${id}`)}
-          />
-        </div>
-      ))}
+    <div className={styles.container}>
+      <h1>{schoolData?.name}</h1>
+      <div className={styles.coursesGrid}>
+        {courses.map(({ id, code, name }) => (
+          <div key={id}>
+            <Kitem
+              head={code.toUpperCase()}
+              body={name}
+              color={assignColor(code)}
+              minHeight
+              onClick={(): void => navigate(`/${school}/${id}`)}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
