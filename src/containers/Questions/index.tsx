@@ -88,11 +88,7 @@ function Questions(): JSX.Element {
     option: string,
   ): "alternativeMobile" | "alternative" | "correctAnswer" | "wrongAnswer" => {
     if (!answerGiven) {
-      const mobile =
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-          navigator.userAgent,
-        );
-      return mobile ? "alternativeMobile" : "alternative";
+      return "alternative";
     }
 
     const previousQuestion = questions[history.length - 1];
@@ -178,24 +174,23 @@ function Questions(): JSX.Element {
 
       {questions.length ? (
         <div className={styles.alternatives}>
-          <div className={styles.alternativesdiv}>
-            {currentQuestion.options.map((option) => (
-              <Alternative
-                key={option}
-                text={option}
-                type={buttonClass(option)}
-                onClick={(): void => answer(option)}
-              />
-            ))}
-            {answerGiven ? (
-              <div>
-                <Explanation text={currentQuestion.explanation} />
-                <b role="alert" className={styles.continueTip}>
-                  Click any answer to continue
-                </b>
-              </div>
-            ) : null}
-          </div>
+          {currentQuestion.options.map((option) => (
+            <Alternative
+              key={option}
+              text={option}
+              type={buttonClass(option)}
+              onClick={(): void => answer(option)}
+            />
+          ))}
+        </div>
+      ) : null}
+
+      {answerGiven ? (
+        <div className={styles.explanationRow}>
+          <Explanation text={currentQuestion.explanation} />
+          <b role="alert" className={styles.continueTip}>
+            Click any answer to continue
+          </b>
         </div>
       ) : null}
     </div>

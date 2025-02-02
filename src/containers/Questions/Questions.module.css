@@ -2,10 +2,19 @@
   margin: 40px 0 20px;
 }
 
-.alternatives {
+.alternatives,
+.explanationRow {
   margin: 20px 15px;
+}
+
+.alternatives {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4px;
+
+  > button {
+    width: fit-content;
+  }
 }
 
 .continueTip {

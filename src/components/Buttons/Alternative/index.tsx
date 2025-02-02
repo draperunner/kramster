@@ -1,4 +1,3 @@
-import BaseButton from "../BaseButton";
 import MathElement from "../../MathElement";
 import { sanitize } from "../../../utils";
 import styles from "./Alternative.module.css";
@@ -8,20 +7,19 @@ interface Props {
   type: "alternativeMobile" | "alternative" | "correctAnswer" | "wrongAnswer";
   onClick?: (
     event:
-      | React.KeyboardEvent<HTMLAnchorElement>
-      | React.MouseEvent<HTMLAnchorElement>,
+      | React.KeyboardEvent<HTMLButtonElement>
+      | React.MouseEvent<HTMLButtonElement>,
   ) => void;
   children?: JSX.Element | JSX.Element[];
 }
 
-/* eslint-disable react/no-danger */
 const Alternative = (props: Props): JSX.Element => {
   const text = sanitize(props.text);
 
   return (
-    <BaseButton className={styles[props.type]} onClick={props.onClick} href="">
+    <button className={styles[props.type]} onClick={props.onClick}>
       <MathElement dangerouslySetInnerHTML={{ __html: text }} />
-    </BaseButton>
+    </button>
   );
 };
 
