@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 
 import { getQuestions, sendReport } from "../../api";
@@ -51,6 +51,8 @@ function Questions(): JSX.Element {
     null,
   );
   const [history, setHistory] = useHistory();
+
+  const questionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setLoading(true);
@@ -148,6 +150,7 @@ function Questions(): JSX.Element {
       ]);
     } else {
       setCurrentQuestion(questions[history.length]);
+      questionRef.current?.focus();
     }
 
     setAnswerGiven((prevAnswerGiven) => !prevAnswerGiven);
@@ -165,7 +168,7 @@ function Questions(): JSX.Element {
       />
 
       {questions.length ? (
-        <div className={styles.questionRow}>
+        <div ref={questionRef} className={styles.questionRow} tabIndex={-1}>
           <div>
             <Question text={currentQuestion.question} />
           </div>
