@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which stream cipher is used for WEP encryption?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["AES", "DES", "RC4", "RC5"]
+  },
+  {
+    "question": "What is the length of the WEP initialization vector (IV)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["24 bits", "32 bits", "48 bits", "64 bits"]
+  },
+  {
+    "question": "How many messages are exchanged in the WEP shared key authentication protocol?",
+    "answers": [2],
+    "exam": "2008 Fall",
+    "options": ["2", "3", "4", "5"]
+  },
+  {
+    "question": "Is the same key used for both authentication and encryption in WEP?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Yes",
+      "No",
+      "Yes, if 802.1x authentication is not used",
+      "The same key is never used twice"
+    ]
+  },
+  {
+    "question": "What is an RC4 weak key value?",
+    "answers": [1],
+    "exam": "2008 Fall",
+    "options": [
+      "A key value where many bits of the first bytes of the plaintext are leaked when an IV collision occurs",
+      "A key value where a few bits in the key determine many bits in the first few bytes of the key stream",
+      "A key value where a few bits in the key determine many bits in the cipher text",
+      "A key value where the bits in the key determine the bits in the first few bytes of the key stream"
+    ]
+  },
+  {
+    "question": "Which cryptographic algorithm is used in counter mode with cipher block chaining message authentication code protocol (CCMP)?",
+    "answers": [0],
+    "exam": "2008 Fall",
+    "options": ["AES", "Michael", "RC4", "TILS"]
+  },
+  {
+    "question": "Which three roles participate in the 802.1X access control protocol?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Station, authenticator and autentication center",
+      "Client, server and RADIUS server",
+      "Supplicant, access point and RADIUS server",
+      "Supplicant, authenticator and authentication server"
+    ]
+  },
+  {
+    "question": "How many EAP-TLS messages are exchanged in an EAP-TLS handshake?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["2", "4", "9", "It varies with the TLS parameters exchanged"]
+  },
+  {
+    "question": "What encapsulates EAP messages in RSN?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "They are encapsulated in TCP/IP",
+      "They are encapsulated in EAPOL messages",
+      "They are encapsulated in RADIUS messages",
+      "They are encapsulated in EAPOL and RADIUS messages"
+    ]
+  },
+  {
+    "question": "Does EAP-SIM provide mutual authentication?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "No, it uses the regular GSM authentication",
+      "Yes, by the regular GSM authentication and the authentication token from the AuC",
+      "Yes, by the regular GSM authentication and a nonce in the encrypted AP response",
+      "Yes, it uses the regular UMTS authentication"
+    ]
+  },
+  {
+    "question": "What is the purpose of the EAPOL 4-way handshake?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "To compute a fresh pairwise temporal key (PTK) from the pairwise master key (PMK)",
+      "To compute a fresh pairwise master key (PMK) from the pairwise transient key (PTK)",
+      "To compute a fresh pairwise transient key (PTK) from the pairwise master key (PMK) after both parties have verified the PMK",
+      "To compute a fresh pairwise message key (PMK) from the pairwise trusted key (PTK) generated in the 4-way key agreement"
+    ]
+  },
+  {
+    "question": "How long is the IV used in TKIP?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["24 bits", "48 bits", "64 bits", "128 bits"]
+  },
+  {
+    "question": "What is the key size of AES as used in RSN?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["128 bits", "192 bits", "256 bits", "512 bits"]
+  },
+  {
+    "question": "What is the block size of AES as used in RSN?",
+    "answers": [1],
+    "exam": "2008 Fall",
+    "options": ["64 bits", "128 bits", "256 bits", "512 bits"]
+  },
+  {
+    "question": "Is the complete MAC PDU encrypted by the CCMP?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Yes, the CCMP uses a shared key",
+      "No, the MAC header is not encrypted",
+      "No, the CCMP header is not encrypted",
+      "No, the MAC header and the CCMP header are not encrypted"
+    ]
+  },
+  {
+    "question": "Which GSM entities store the secret user keys K?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["MS and HLR.", "VLR, and AuC", "SIM and AuC", "SIM, BS and VLR"]
+  },
+  {
+    "question": "What is the output of the GSM authentication function A3?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "MAC (32-bit message authentication code)",
+      "MAC (64-bit message authentication code)",
+      "SRES (32-bit signed response)",
+      "SRES (64-bit signed response)"
+    ]
+  },
+  {
+    "question": "Which authentication data does the GSM VLR have to request?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "The authentication quintet (RAND, AUTN, XRES, CK, IK)",
+      "The authentication quintet (RAND, AUTN, XRES, \\(K_i\\), \\(K_c\\))",
+      "The authentication triplet (RAND, XRES, \\(K_i\\))",
+      "The authentication triplet (RAND, XRES, \\(K_c\\))"
+    ]
+  },
+  {
+    "question": "What are the variables of the authentication token (AUTN) used in UMTS networks?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "SQN \\(\\oplus\\) AK, XRES, MAC",
+      "SQN \\(\\oplus\\) AK, AMF, MAC",
+      "SQN, AMF, MAC, RAND",
+      "SQN \\(\\oplus\\) AK, AMF, MAC, RAND"
+    ]
+  },
+  {
+    "question": "Which UTRAN layer provides integrity protection?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["MAC layer", "RLC layer", "RRC layer", "Physical layer"]
+  },
+  {
+    "question": "What happens if the result of the UTRAN algorithm negotiation is that the user equipment (UE) and network have no integrity protection algorithms in common?",
+    "answers": [1],
+    "exam": "2008 Fall",
+    "options": [
+      "The network may establish the connection without integrity protection",
+      "The connection is shut down immediately by the network",
+      "The network may establish the connection with the default integrity protection algorithm",
+      "UTRAN does not use integrity algorithm negotiation"
+    ]
+  },
+  {
+    "question": "How is the traffic between the terminal equipment and Proxy CSCF (P-CSCF) protected in IMS?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Using the UMTS f3 encryption algorithm with the cipher key CK",
+      "Using IPsec Authentication Header (AH)",
+      "Using IPsec Encapsulated Security Payload (ESP)",
+      "It is not protected at all, but the UTRAN radio link is protected by the UMTS security mechanisms"
+    ]
+  },
+  {
+    "question": "Which authentication method is used by IMS?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Internet Key Exchange (IKE)",
+      "IPsec Authentication Header (AH)",
+      "IPsec Encapsulated Security Payload (ESP)",
+      "UMTS Authentication and Key Agreement (AKA)"
+    ]
+  },
+  {
+    "question": "What is the length of the cipher key CK used in UMTS?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["56 bits", "64 bits", "128 bits", "256 bits"]
+  },
+  {
+    "question": "Which UMTS entities implement the functions fl-f5, f1* and fS*?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "USIM, UE and BS",
+      "SGSN and AuC",
+      "USIM and AuC",
+      "USIM, BSC and AuC"
+    ]
+  }
+]

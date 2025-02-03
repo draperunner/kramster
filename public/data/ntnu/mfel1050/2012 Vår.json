@@ -1,0 +1,387 @@
+[
+  {
+    "question": "Newton’s 2.lov Kraft = masse x akselerasjon tilsier at hvis en idrettsutøver øker styrken/kraftutviklingen sin med 30% uten å øke kroppsvekten, hvor mye fortere løper han en 10m sprint?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["10%", "30%", "50%", "100%"]
+  },
+  {
+    "question": "Pasienter og friske responderer godt på 4x4/5 repetisjoner maksimal styrketrening. Hvor stor styrkeøkning kan en forvente pr treningsøkt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["ca. 0,5%", "ca. 2%", "ca. 5%", "ca. 20%"]
+  },
+  {
+    "question": "Ved hvor mange repetisjoner i styrketrening opphører forbedring av styrke (1RM)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["ca 15", "ca 40", "ca 6", "ca 100"]
+  },
+  {
+    "question": "Hva skjer med maksimalt oksygenopptak og hjertets slagvolum på tredemølle når røykebeinspasienten (PAD-pasienten) trenes opp med plantarfleksjonssykling?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Maksimalt oksygenopptak øker men slagvolumet endres ikke",
+      "Slagvolumet og maksimalt oksygenopptak øker",
+      "Maksimalt oksygenopptak og slagvolumet synker",
+      "Slagvolumet øker men maksimalt oksygenopptak endres ikke"
+    ]
+  },
+  {
+    "question": "Hvor langt løper en elite fotballspiller i løpet av en kamp?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["3-5 km", "8-12 km", "18-20 km", "22-26 km"]
+  },
+  {
+    "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Bli ca 5% mindre",
+      "Forbli uendret",
+      "Bli ca. 5% større",
+      "Bli ca 10% større"
+    ]
+  },
+  {
+    "question": "For KOLS (COPD) pasienter er intervalltrening av ett og ett bein på sykkel mer effektivt enn trening av begge beina samtidig fordi:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Styrken (1RM) blir forbedret mer ved ettbeinssykling",
+      "Treningsintensiteten på muskel blir høyere",
+      "Lungeventilasjonen blir lavere",
+      "Pasientene greier ikke å utføre belastning med høy aerob intensitet"
+    ]
+  },
+  {
+    "question": "Anaerob terskel ligger før en treningsperiode på 85% av VO2max. Etter 8 uker med 4x4 min intervalltrening 3 ganger i uken, Hvor vil anaerob terskel være?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Litt lavere, ca 80% av VO2max.",
+      "Omtrent det samme, ca 85% av VO2max.",
+      "Litt høyere, ca 90% av VO2max.",
+      "Høyere, ca 95% av VO2max."
+    ]
+  },
+  {
+    "question": "Det dannes mer melkesyre på en gitt belastning i 2000 meters høyde sammenliknet med havnivå fordi:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Melkesyreterskelen har endret seg",
+      "Det lavere lufttrykket stimulerer mer til dannelse av melkesyre",
+      "Maksimalt oksygenopptak er lavere",
+      "Flere røde blodceller gjør at melkesyreterskelen blir lavere"
+    ]
+  },
+  {
+    "question": "Røde blodceller produseres i:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Nyrene", "Beinmargen", "Blodet", "Muskelen"]
+  },
+  {
+    "question": "Det er vist en invers sammenheng mellom muskulær styrke og:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Dødlighet",
+      "Kreft og kardiovaskulær sykdom",
+      "Kreft og dødlighet",
+      "Kardiovaskulær sykdom og dødlighet"
+    ]
+  },
+  {
+    "question": "Trening på anaerob terskel er vist å gi følgende signifikante endring på maksimal aerob kapasitet:",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["1%", "3%", "10%", "Ingen endring"]
+  },
+  {
+    "question": "VO2max oppgitt med benevningen L ∙ min-1 vil ha følgende effekt på prestasjon:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Undervurderer den lave og overvurderer den høye",
+      "Undervurderer den høye og overvurderer den lave",
+      "Undervurderer den tunge og overvurderer den lette",
+      "Undervurderer den lette og overvurderer den tunge"
+    ]
+  },
+  {
+    "question": "Ideelt sett bør utholdenhetstrening for fotballspillere",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Utføres med ball",
+      "Utføres i flatt terreng uten ball",
+      "Utføres på tredemølle",
+      "Utføres kun i forsesongen da kampprogrammet ikke er for hardt"
+    ]
+  },
+  {
+    "question": "Hypertrofitrening trenes på følgende måte:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "4 repetisjoner 4 serier med eksplosiv utførelse",
+      "4 repetisjoner 4 serier med langsom utførelse",
+      "10-12 repetisjoner med eksplosiv utførelse",
+      "10-12 repetisjoner med langsom utførelse"
+    ]
+  },
+  {
+    "question": "Hva er mest effektivt for å forbedre aerob utholdenhet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Trening i høyden (2500meter)",
+      "terskeltrening (ca 85% av maksimal hjertefrekvens)",
+      "Langkjøring (ca 70% av maksimal hjertefrekvens)",
+      "4x4 min trening (85-95% av maksimal hjertefrekvens)"
+    ]
+  },
+  {
+    "question": "Hva synes å være mekanismen for å oppnå større hjerte?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "høy blodflow gjennom hjertet",
+      "høy hjertefrekvens",
+      "høyt blodtrykk",
+      "høy metning av blod"
+    ]
+  },
+  {
+    "question": "Pate og Kriska har beskrevet en modell som forklarer den aerobe prestasjonsevnen. Hvilke 3 faktorer inngår i denne modellen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Arbeidsøkonomi, maksimal lungekapsitet og melkesyreterskel",
+      "VO2max, løpsøkonomi og maksimal styrke",
+      "Arbeidsøkonomi, Melkesyreterskel og VO2max",
+      "VO2max, arbeidsøkonomi og hjertets slagvolum"
+    ]
+  },
+  {
+    "question": "Hva kan du si om to idrettsutøvere som løper sammen og har samme hjertefrekvens?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "De har likt maksimalt oksygenopptak",
+      "De har lik maksimal hjertefrekvens",
+      "De har lik løpsøkonomi",
+      "De trenger ikke å ha noen av kombinasjonene ovenfor"
+    ]
+  },
+  {
+    "question": "Hva er det viktigste organ for eliminasjon av melkesyre?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Lever", "Nyrer", "Hjertet", "Tverrstripet skjelettmuskel"]
+  },
+  {
+    "question": "Blodvolum kan måles ved følgende metode:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "YSI 1500 orange dye method",
+      "Metamax green solution method",
+      "Evans blue dye method",
+      "Vmax spectra purple procedure"
+    ]
+  },
+  {
+    "question": "Hvis du trener styrke og utholdenhet i samme treningsøkt eller i samme treningsperiode, hvordan påvirkes treningsresponsene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Samme som om du trener styrke og utholdenhet hver for seg",
+      "Styrken reduseres",
+      "Utholdenheten reduseres",
+      "Begge reduseres"
+    ]
+  },
+  {
+    "question": "Etter en treningsintervensjon som har bedret aerob kapasitet mye vil den maksimale hjertefrekvensen",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Også øke mye",
+      "Avta mye",
+      "Være tilnærmet uendret",
+      "Kun øke dersom slagvolumet øker"
+    ]
+  },
+  {
+    "question": "Hvor mye fortere kan du løpe på 3000 m når det maksimale oksygenopptaket øker med 10%, og laktat terskel og løpsøkonomi er uendret?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["5%", "10%", "15%", "20%"]
+  },
+  {
+    "question": "Hvor langt løper en fotballspiller i gjennomsnitt i løpet av en kamp?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["4-6km", "6-8km", "8-12km", "13-15km"]
+  },
+  {
+    "question": "Muskulær styrke er relatert til",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Muskelens volum",
+      "Muskelens tverrsnitt",
+      "Muskelens lengde",
+      "Alle tre ovenfor"
+    ]
+  },
+  {
+    "question": "Blodstrøm i kapillærer i muskel begrenses ved muskelarbeid fra:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "15% av 1RM og opp",
+      "30% av 1RM og opp",
+      "45% av 1 RM og opp",
+      "70% av 1 RM og opp"
+    ]
+  },
+  {
+    "question": "1-MET økning i ytelse på tredemølle er assosiert med følgende forbedring i overlevelse:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["3 %", "12 %", "24 %", "48 %"]
+  },
+  {
+    "question": "Trening i høyden:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Øker treningsintensiteten og øker oksygentransportevnen",
+      "Øker treningsintensiteten og senker oksygentransportsevnen",
+      "Begrenser treningsintensiteten og øker oksygentransportsevnen",
+      "Begrenser treningsintensiteten og senker oksygentransportsevnen"
+    ]
+  },
+  {
+    "question": "I en studie om høydetrening inntraff følgende signifikante endringer i maksimalt oksygenopptak hos de ulike gruppene:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Low-low gruppen forble uendret, high-low gruppen økte, high-high gruppen økte",
+      "Low-low gruppen gikk ned, high-high gruppen økte, high low gruppen økte mer enn high-high\ngruppen",
+      "Low-low gruppen forble uendret, high-high gruppen økte, high-low gruppen økte mer enn\nhigh-high gruppen",
+      "Alle gruppene økte, men high-low gruppen økte mest"
+    ]
+  },
+  {
+    "question": "I en studie som sammenliknet to intervalltreningsformer med langkjøring og terskeltrening ble laktatterskel målt på følgende måte:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Hastighet som korresponderte til en ventilatorisk terskel der respiratorisk kvotient var lik 1.0",
+      "Hastighet som korresponderte til en laktatverdi 1.5mmol·L-1 høyere enn\noppvarmingsverdi",
+      "Hastighet som korresponderte til en laktatverdi lik 4.0 mmol·L-1",
+      "Laktatterskel ble ikke målt fordi denne kan ikke trenes"
+    ]
+  },
+  {
+    "question": "To solide kriterier som kan benyttes for å vurdere om en person når maksimalt oksygenopptak kan være:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "R-verdi høyere enn 1.05 og utflating av oksygenopptakskurven med økt arbeid",
+      "Hjertefrekvens høyere enn 220-alder, R-verdi høyere enn 1.05",
+      "Utflating av oksygenopptakskurven med økt arbeid og Hjertefrekvens høyere enn 220-alder",
+      "Borg skala verdi > 18, Hjertefrekvens høyere enn 220-alder"
+    ]
+  },
+  {
+    "question": "Hvorfor forbedrer fotballspillere løpsøkonomi når de blir satt til å løpe 4x4min intervaller?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "de blir sterkere",
+      "de løper mer og får forbedret løpsteknikk",
+      "de forbedrer ikke løpsøkonomi",
+      "de forbedrer anaerob terskel"
+    ]
+  },
+  {
+    "question": "Gjennomsnittelig VO2maks for fotballspillere kan være:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "55-67 mL · kg-1 · min-1",
+      "70-75 mL · kg-1 · min-1",
+      "50-60 mL · kg-1 · min-1",
+      "2-3 L · min-1"
+    ]
+  },
+  {
+    "question": "Hvordan er fordelingen mellom anaerob- og aerob energiomsetning i løpet av en fotballkamp?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["70/30", "98/2", "2/98", "30/70"]
+  },
+  {
+    "question": "I et studie på fotballspillere ble det iverksatt både styrke og utholdenhetstrening samtidig i en 8 ukers periode. Dette gav følgende effekter:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "VO2maks var uendret men 1RM økte i gjennomsnitt fra 115.7 kg til 176.4 kg",
+      "VO2maks økte i gjennomsnitt fra 60.5 til 65.7 mL · kg-1 · min-1 men 1RM var uendret",
+      "1RM økte i gjennomsnitt med ca 50% og VO2maks økte i gjennomsnitt med 5 mL · kg-1 · min-1",
+      "Spillerne hoppet i gjennomsnitt 3 cm høyere og sprintet 0.06 sekunder saktere på 10 m sprint"
+    ]
+  },
+  {
+    "question": "Hva var ”gårsdagens” råd for trening av hjerte/kar pasienter for å øke fysisk arbeidskapasitet innebærer:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Aerob trening minimum 3 ganger per uke i minst 20 min på minimum 40% av VO2maks",
+      "Statisk arbeid med små muskelgrupper minst tre ganger i uka",
+      "Høy anaerob intensitet minimum 3 ganger per uke",
+      "Maksimal styrketrening med 3-5 repetisjoner 3 ganger per uke."
+    ]
+  },
+  {
+    "question": "Q eller hjertets minuttvolum er bestemt av følgende faktorer:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "SVmax og VCmax",
+      "HRmax og VEmax",
+      "HRmax og SVmax",
+      "HDLmax og CKmax"
+    ]
+  },
+  {
+    "question": "Hvordan trene maksimalt oksygenopptak på en effektiv måte?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "60 min på 60% av maksimal puls",
+      "4x4 sekunder i 40 minutter, 90-95% av makspuls",
+      "3-8 minutters intervaller, 90-95% av maksimal puls",
+      "Kortintervall (15/15sek), 85% av maksimal puls"
+    ]
+  },
+  {
+    "question": "Type I muskelfibre har følgende karakteristikker:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "hvit, glykolytisk, hurtig kontraherende",
+      "hvit, oksidativ, hurtig kontraherende",
+      "rød, glykolytisk, langsomt kontraherende",
+      "rød, oksidativ, langsomt kontraherende"
+    ]
+  }
+]

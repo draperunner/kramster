@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What are the main elements in the definition of software architecture?",
+    "answers": [0, 1, 2, 3],
+    "exam": ".*",
+    "options": [
+      "Set of structures",
+      "Software elements",
+      "Relations",
+      "Properties"
+    ]
+  },
+  {
+    "question": "What are the important categories of architectural structures in the book?",
+    "answers": [1, 2, 3],
+    "exam": ".*",
+    "options": ["Hierarchy", "Module", "Component and Connector", "Allocation"]
+  },
+  {
+    "question": "What SWA category focuses on mapping software structures to the system's environment?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Allocation", "Component and Connector", "Module", "None"]
+  },
+  {
+    "question": "What SWA category focuses on dividing systems into implementation units?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Allocation", "Component and Connector", "Module", "None"]
+  },
+  {
+    "question": "What SWA category focuses on how each module is implemented in detail?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Allocation", "Component and Connector", "Module", "None"]
+  },
+  {
+    "question": "What SWA category focuses on how elements interact in runtime?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Allocation", "Component and Connector", "Module", "None"]
+  },
+  {
+    "question": "A structure is architectural if it...",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Specifies implementation details",
+      "Specifies programming language",
+      "Supports large structures",
+      "Supports reasoning"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "question": "What are Quality Attribute Checklists used for?",
+    "answers": [0, 1],
+    "exam": ".*",
+    "options": [
+      "Auditing",
+      "Checking requirements",
+      "Modeling system",
+      "Restrict coding"
+    ]
+  },
+  {
+    "question": "Quality attribute checklists have typically two types of requirements:",
+    "answers": [1, 2],
+    "exam": ".*",
+    "options": [
+      "Performance requirements",
+      "Product requirements",
+      "Process requirements",
+      "Pretty good requirements"
+    ]
+  },
+  {
+    "question": "What is the purpose of checking software architecture thought experiments?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Analyze scenarios",
+      "Choose patterns",
+      "Find requirements",
+      "Sketch design"
+    ]
+  },
+  {
+    "question": "How would you classify the Cost and Confidence of doing a Back-of-the-envelope analysis?",
+    "answers": [0, 1],
+    "exam": ".*",
+    "options": ["Low, Low", "Low, Medium", "Medium, Medium", "Medium, High"]
+  },
+  {
+    "question": "How would you classify the Cost and Confidence of doing a Checklist analysis?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Low, Low", "Low, Medium", "Medium, Medium", "Medium, High"]
+  },
+  {
+    "question": "How would you classify the Cost and Confidence of doing a Simulation analysis?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Low, Low", "Low, Medium", "Medium, Medium", "Medium, High"]
+  },
+  {
+    "question": "How would you classify the Cost and Confidence of doing a Analytic model analysis?",
+    "answers": [1, 3],
+    "exam": ".*",
+    "options": ["Low, Low", "Low, Medium", "Medium, Low", "Medium, Medium"]
+  },
+  {
+    "question": "How would you classify the Cost and Confidence of doing a Prototype analysis?",
+    "answers": [1, 2],
+    "exam": ".*",
+    "options": ["Medium, Low", "Medium, Medium", "Medium, High", "High, High"]
+  },
+  {
+    "question": "How would you classify the Cost and Confidence of doing an Experiment analysis?",
+    "answers": [0, 1, 2, 3],
+    "exam": ".*",
+    "options": ["Medium, Medium", "Medium, High", "High, Medium", "High, High"]
+  }
+]

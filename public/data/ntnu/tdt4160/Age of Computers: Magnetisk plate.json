@@ -1,0 +1,126 @@
+[
+  {
+    "question": "Harddisker kan bruke konstant vinkelhastighet (CAV-Constant Angular Velocity)",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "Moderne harddisker bruker såkalt multiple zoned recording. Hva blir en konsekvens av dette?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det blir enklere å finne frem til en datablokk sammenlignet med bruk av konstant vinkelhastighet (CAV).",
+      "Lesehastigheten varierer med hvor lese/skrive-hodet er på platen.",
+      "Plassutnyttelsen blir bedre enn når man bruker konstant lineær hastighet (CLV).",
+      "Aksesstiden blir dårligere enn for CLV, men bedre enn for CAV.",
+      "Data kan lagres i flere soner samtidig."
+    ]
+  },
+  {
+    "question": "Hva er en sylinder i en harddisk?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "En sylinder er en sirkel på en plate.",
+      "Om man har mange plater vil sporene som står over hverandre utgjøre en sylinder.",
+      "En sylinder er den delen av lese-og skrivehodet som er nærmest platene."
+    ]
+  },
+  {
+    "question": "Tiden mellom hodet når rikig spor og lesingen kan begynnes, kalles:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Søketid",
+      "Rotasjonsforsinkelse",
+      "Aksesstid",
+      "Overføringstid"
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på CAV (constant angular velocity) og MZR (multiple zoned recording) disklayout?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "MZR utnytter plassen på disken bedre, mens CAV sløser med plassen",
+      "MZR sløser med plassen, mens CAV utnytter plassen bedre",
+      "CAV har ulike leshastigheter, mens MZR har en fast lesehastighet for hver sone",
+      "MZR er direkte adresserbar, mens CAV ikke har denne fordelen."
+    ]
+  },
+  {
+    "question": "Hva er et spor i en hardisk?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Et spor er et merke man lager nå man skriver inn noe til disken, akkurat som «pits» (groper) på en CD.",
+      "På en magnetisk plate er data organisert i spor, som er konsentriske sirkler.",
+      "På en harddisk som har mange plater blir settet av sektorer på samme relative posisjon kalt et spor."
+    ]
+  },
+  {
+    "question": "Hvordan blir data skrevet til en magnetisk plate?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Man skriver ved at den elektriske flyten gjennom en spole lager et magnetisk felt. Pulser blir sent til hodet og magnetiske mønster blir lagret på overflaten under.",
+      "Man skriver på den magnetiske platen ved å bruke en sterk laser som brenner mønster på platene.",
+      "Man skriver på disken ved at den elektriske flyten gjennom en transistor lager et elektrisk felt. Elektronene blir overført til lese og skrivehodet slik at de blir brent fast"
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på CAV-systemer (Constant Angular Velocity) og MZR-systemer (Multi Zone Recording)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "CAV har tregere aksesstid enn MZR",
+      "MZR har mange soner, men de har like mange soner på hvert spor. CAV har konstant rotasjonshastighet.",
+      "CAV har et konstant antall bit per spor. Ved å bruke flersoneopptak (MZR) får man større tetthet fordi man deler overflaten inn i flere soner, med stigende antall bit utover platen (der arealet øker)."
+    ]
+  },
+  {
+    "question": "Hva er <em>ikke</em> en nøkkelegenskap til halvlederlager?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Har to stabile tilstander",
+      "Kan skrives til",
+      "Kan leses fra",
+      "Er persistente"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om dataorganisering og formatering på en disk er <em>ikke</em> sant?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Disken er organisert i konsentriske ringer eller spor",
+      "Spor blir delet inn i sektorer",
+      "Hull(gaps) brukes for at disken skal bli mer fleksibel",
+      "Minimum blokkstørrelse er en sektor",
+      "Kan ha flere sektorer per blokk"
+    ]
+  },
+  {
+    "question": "Hva er riktig om sektorer i forbindelse med magnetiske plater?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Data blir overført til og fra en plate i hele sektorer, som er en inndeling av sporene.",
+      "Sektorer er de runde sporene på en plate.",
+      "En sektor er mellomrommene man lager mellom sporene.",
+      "En sektor er en spesiell del av skrive- og lesehode."
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på CAV (constant angular velocity) og CLV (constant linear velocity)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "CAV har likt antall bit pr spor, mens CLV har konstant fart.",
+      "CAV roterer med en konstant fart og har større kapasitet på de ytterste sporene enn de innerste. CLV har linært stigende fart, jo lenger bort man kommer fra sentrum jo tregere går det.",
+      "CAV har likt antall bit pr spor, mens CLV har mer på hvert spor jo lenger ut man kommer."
+    ]
+  }
+]

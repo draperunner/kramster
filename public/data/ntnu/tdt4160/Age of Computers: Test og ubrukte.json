@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Hva er funksjonen til MMU (eng. Memory Management Unit)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "MMU styrer hvem som skal få skrive til lageret på et gitt tidspunkt.",
+      "MMU oversetter virtuelle adresser til fysiske adresser.",
+      "MMU styrer hvor stor del av lageret prossoren bruker.",
+      "MMU oversetter fysiske adresser til virutelle."
+    ]
+  },
+  {
+    "question": "Hva kjennetegner isokron dataoverføring?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Egnet til viktige meldinger med lav hyppighet",
+      "Bruker all tilgjengelig båndbredde",
+      "Inneholder mye kontrollinformasjon",
+      "Konstant datarate",
+      "Velegnet for dataoverføring i embedded systemer"
+    ]
+  },
+  {
+    "question": "Hva er en TLB?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En TLB er et hurtigbuffer som inneholder deler av sidetabellen som sist ble brukt.",
+      "En TLB er et spesielt register som tar var på informasjon om prosessoren.",
+      "En TLB er et buffer som holder på verdier som skal bli skrevet til minne.",
+      "En TLB er et buffer som oversetter fra raske til trege instruksjoner.",
+      "En TLB er et buffer som tar vare på hele sidetabellen."
+    ]
+  },
+  {
+    "question": "Hvilket utsagn er <em>ikke</em> riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Hurtigbufferet tetter igjen fartsgapet mellom prosessoren og hovedlageret.",
+      "Virtuelt lager tetter igjen fartsgapet mellom lager og disk.",
+      "Register tetter igjen fartsgapet mellom hurtigbuffer og lager."
+    ]
+  },
+  {
+    "question": "Hva er virtuelt lager?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Viruelt lager er minnebrikker som er usynlig for bruker og programmerer.",
+      "Virtuelt lager er lager som er større enn vanlig lager.  Det består av 20",
+      "Virtuelt lager er lager som fysisk sett ikke er større enn vanlig lager, men logisk sett ser større ut for prosessoren."
+    ]
+  },
+  {
+    "question": "Hvilken funksjon beskriver modultilgjengelighet som en funksjon av MTTF (Mean-Time-To-Failure) og MTTR (Mean-Time-To-Repair)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "MTTF/(MTTF + MTTR)",
+      "MTTR/(MTTR + MTTF)",
+      "MTTF/(MTTF - MTTR)",
+      "(MTTF + MTTR)/MTTF",
+      "(MTTF + MTTR)/MTTR"
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende metodene er minst egnet til å sammenligne ytelse mellom forskjellige prosessorer?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Klokkehastighet",
+      "Instruksjoner pr.sekund",
+      "Måle tidsforbruk ved kjøring av et sett representative applikasjoner",
+      "Sammenligne SPECInt- og SPECfp-resultater"
+    ]
+  },
+  {
+    "question": "Hva var spesielt med Leibnitz sin regnemaskin?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Den var digital.",
+      "Den kunne addere og multiplisere.",
+      "Den hadde sveiv.",
+      "Den brukte tannhjul."
+    ]
+  },
+  {
+    "question": "Denne porten sender data via infrarødt lys?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["IrDA", "Virtual port", "SCSI", "RS-232C"]
+  },
+  {
+    "question": "Den mest brukte ordstørrelsen for dagens PCer er?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["32 bit", "128 bit", "16 bit", "64 bit"]
+  },
+  {
+    "question": "Hvilket utsagn er <em>ikke</em> sant?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Sider bør ikke være for små fordi aksesstiden til disk er mye større en aksesstid i RAM.",
+      "Sider bør ikke være for store for da kan utnyttelsen bli for dårlig.",
+      "Sider bør være passe store eller så blir det ikke plass til dem i hurtigbufferet."
+    ]
+  },
+  {
+    "question": "Formålet med MMX-instruksjoner er å:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Øke nøyaktigheten i forbindelse med flyttallsberegninger.",
+      "Lette implementasjonen av flertrådsprogrammer.",
+      "Forenkle jobben til kompilatorer.",
+      "Øke ytelsen ved behandling av små datatyper (f.eks. 8- og 16-bits heltall).",
+      "Øke lagerbåndbredden."
+    ]
+  },
+  {
+    "question": "Hvilke av de følgende tekologiene krever mest båndbredde?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Lokalnett (LAN)", "Trådløs mus", "Grafikk", "Diskettstasjon"]
+  },
+  {
+    "question": "Hva er fordelen med en tønne-skifter (eng. Barrel Shifter) framfor et vanlig skiftregister med parallell lasting?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En tønne-skifter kan skifte flere bitposisjoner samtidig.",
+      "En tønne-skifter kan skifte både til høyre og til venstre.",
+      "En tønne-skifter har enklere styresignaler."
+    ]
+  },
+  {
+    "question": "Hvem fant opp hullkortet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Jacquard",
+      "Charles Babbage",
+      "Herman Hollerith",
+      "Ada Augusta Brown"
+    ]
+  }
+]

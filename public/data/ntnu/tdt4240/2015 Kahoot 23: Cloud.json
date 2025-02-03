@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Categorize the following characteristics: \"Single point of failure\"",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Fixed Capacity\"",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"HDFS file system\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Support multi-tenancy\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Location dependent\"",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"FAT file system\"",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Heterogeneous clients\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Fixed IP-addresses\"",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Improved utilization\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Redundancy\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Private hardware\"",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  },
+  {
+    "question": "Categorize the following characteristics: \"Improved scalability\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Cloud", "Not cloud"]
+  }
+]

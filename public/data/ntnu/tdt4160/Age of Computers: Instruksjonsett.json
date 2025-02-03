@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Hvilken operasjon er <em>ikke</em> en kontrollflytinstruksjon (transfer-of-control) i et vanlig instruksjonssett",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["branch (hoppinstruksjon)", "skip", "prosedyrekall", "skift"]
+  },
+  {
+    "question": "Hvilke typer lokasjoner kan kilde- og destinasjonsoperander i instruksjoner peke til?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Registre og platelager",
+      "Registre, platelager og hovedlager",
+      "Hovedlager og registre"
+    ]
+  },
+  {
+    "question": "Hvor mange operander har normalt en instruksjon for en load/store-maskin?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["1", "3", "Uendelig mange", "Ingen"]
+  },
+  {
+    "question": "Hvilke av disse sekvensene medfører at prosessoren neste gang vil forutsi hopp (ved bruk av to historiebit)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Hopp - Hopp - Ikke hopp",
+      "Ikke hopp - Ikke hopp - Hopp",
+      "Hopp - Hopp - Ikke hopp - Ikke hopp - Hopp",
+      "Det ikke mulig å si siden vi ikke har fått oppgitt starttilstanden"
+    ]
+  },
+  {
+    "question": "En liste av instruksjoner som utfører en oppgave er...",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "...et program",
+      "...en operasjon",
+      "...en datasti",
+      "...et instruksjonsett"
+    ]
+  },
+  {
+    "question": "Anta at et instruksjonsett som bruker en fast instrukjonslengde på 16 bit. Operandfeltene har en lengde på 6 bit. Hva er det maksimale antall en-operand instruksjoner et slikt oppsett kan støtte?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["\\(2^{6}\\)", "\\(2^{8}\\)", "\\(2^{10}\\)", "\\(2^{12}\\)"]
+  },
+  {
+    "question": "Hvilket felt er <em>ikke</em> vanlig å ha i instruksjonsordet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Opkode",
+      "Destinasjonsoperand",
+      "Kildeoperander",
+      "Akkumulator",
+      "Funksjonskode"
+    ]
+  },
+  {
+    "question": "Hva er ikke et typisk element i en instruksjon?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Kildeoperand",
+      "Destinasjonsoperand",
+      "Opkode",
+      "Referanse til neste instruksjon",
+      "Instruksjonsett"
+    ]
+  },
+  {
+    "question": "Hvilke utsagn om prosedyrekallinstuksjoner er <em>feil</em>?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Man kan bruke den samme kodebiten mange ganger",
+      "Prosedyrer tillater at store programmeringsoppgaver blir delt opp i minder deler",
+      "En prosedyremekanisme krever to basisinstruksjoner, kallinstruksjon og returinstruksjon",
+      "En prosedyre kan kalles fra flere lokasjoner",
+      "Det er ikke mulig å kalle prosedyrer inn i prosedyrer"
+    ]
+  },
+  {
+    "question": "Hvorfor trenger man kontrollflytinstruksjoner?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Vi trenger disse for å kunne ha løkker, if-setninger og subrutiner.",
+      "Vi trenger disse for å lage programmene minst mulige.",
+      "Vi trenger disse for å kunne vite hvor i programmet man er til en hver tid."
+    ]
+  },
+  {
+    "question": "Hva er <em>ikke</em> et typisk element i en instruksjon?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Opkode",
+      "Kildeoperand-referanse",
+      "Resultatoperand-referanse",
+      "Referanse til neste instruksjon",
+      "Referanse til forrige instruksjon"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn er emph{ikke} sant når man snakker om instruksjoner?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Instruksjoner styrer overføringen av informasjon i en datamaskin og mellom datamaskinen og I/O-enhetene.",
+      "Instruksjoner spesifiserer de aritmetiske og logiske operasjonen som skal bli utført.",
+      "En liste av instruksjoner som utfører en oppgave kalles et program.",
+      "Et instruksjonsett består av et sett med operander"
+    ]
+  },
+  {
+    "question": "Hva er historiebit (history bit)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "De gir oss status på forrige instruksjon som ble kjørt på prosessoren",
+      "For hver hoppinstruksjon finnes historiebit som forteller om det ble gjort et hopp her sist gang denne instruksjonen ble utført",
+      "Historiebit er et paritets bit som er 0 og 1 annenhver instruksjon. Den brukes til å sjekke om man har hoppet over en enkel instruksjon",
+      "Det er et bit som blir satt på hver instruksjon etter at den er kjørt. Dette gjør at vi vet hvike instruksjoner som er kjørt og dermed lettere kan utføre en roll back"
+    ]
+  },
+  {
+    "question": "Hva er opkode?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Opkode spesifiserer kilde og destinasjon til en instruksjon.",
+      "Opkode spesifiserer operasjonen som skal bli utført.",
+      "Opkode inneholde operanden til neste instruksjon."
+    ]
+  }
+]

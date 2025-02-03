@@ -1,0 +1,85 @@
+[
+  {
+    "question": "Which groups typically perform different forms of SWA evaluation?",
+    "answers": [0, 1, 3],
+    "exam": ".*",
+    "options": ["External team", "Peers", "The customers", "The designers"]
+  },
+  {
+    "question": "What are the recommendations regarding how much should be analyzed in a SWA evaluation?",
+    "answers": [0, 1, 3],
+    "exam": ".*",
+    "options": [
+      "Importance of decision",
+      "Number of alternatives",
+      "Ensure perfect analysis",
+      "Ensure sufficient analysis"
+    ]
+  },
+  {
+    "question": "What is the starting point to drive a peer software architecture review?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Quality attribute scenarios",
+      "The architectural tactics",
+      "The software architecture",
+      "The stakeholders"
+    ]
+  },
+  {
+    "question": "What primary reasons exist for doing a software architectural evaluation by outsiders?",
+    "answers": [0, 3],
+    "exam": ".*",
+    "options": [
+      "Get manager's approval",
+      "Save money",
+      "Save time",
+      "Utilize specialized knowledge"
+    ]
+  },
+  {
+    "question": "What is the TA in ATAM an abbreviation for?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Testability Attributes",
+      "Testability Analysis",
+      "Traceability Analysis",
+      "Tradeoff Analysis"
+    ]
+  },
+  {
+    "question": "What is the motivation for doing an ATAM evaluation?",
+    "answers": [0, 2],
+    "exam": ".*",
+    "options": [
+      "Assurance",
+      "Faster design",
+      "Find problems early",
+      "Optimize algorithms"
+    ]
+  },
+  {
+    "question": "When should an architecture be evaluated?",
+    "answers": [1, 2],
+    "exam": ".*",
+    "options": [
+      "Before requirements",
+      "Before arch fully specified",
+      "For existing systems",
+      "When starting a project"
+    ]
+  },
+  {
+    "question": "What questions do ATAM produce answers to?",
+    "answers": [0, 2],
+    "exam": ".*",
+    "options": [
+      "Is architecture suitable?",
+      "Which architecture is best?",
+      "Which of architectures are most suitable?",
+      "Which architecture gives best cost/benefit?"
+    ]
+  }
+]

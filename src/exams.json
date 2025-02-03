@@ -1,0 +1,1394 @@
+[
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2014 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2013 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Artificial Intelligence Methods",
+    "school": "ntnu",
+    "name": "2015 Spring",
+    "course": "tdt4171",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Introduction to Artificial Intelligence",
+    "school": "ntnu",
+    "name": "2014 Fall",
+    "course": "tdt4136",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Introduction to Artificial Intelligence",
+    "school": "ntnu",
+    "name": "2014 Continuation Exam",
+    "course": "tdt4136",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Introduction to Artificial Intelligence",
+    "school": "ntnu",
+    "name": "2012 Fall",
+    "course": "tdt4136",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2012 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2011 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2010 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2014 Kont",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2012 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2013 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2013 Kont",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2012 Kont",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2011 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 01: Introduction",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 02: Structures and Views",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 03: Architectural Patterns Intro",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 04: Life Cycle",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 05: Influences",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 06: Requirements and Quality Attributes",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 07: Tactics Mega Quiz",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 08: Design patterns",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 09: Design patterns II",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 10: Architectural Patterns",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 11: Modeling and Analysis",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 12: Modeling and Analysis II",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 13: 4+1 View Model",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 14: Evaluation",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 15: Evaluation + ATAM",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 16: CBAM",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 17: Summary",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 18: Patterns and Tactics",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 19: Requirements",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 20: Implementation and Testing",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 21: Software Product Line",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 22: Edge",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Software Architecture",
+    "school": "ntnu",
+    "name": "2015 Kahoot 23: Cloud",
+    "course": "tdt4240",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2015 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2011 Kont",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Celle- og molekylærbiologi",
+    "school": "ntnu",
+    "name": "2013 Vår",
+    "course": "bi1001",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Celle- og molekylærbiologi",
+    "school": "ntnu",
+    "name": "2014 Vår",
+    "course": "bi1001",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medisin for ikke-medisinere",
+    "school": "ntnu",
+    "name": "2007 Vår",
+    "course": "mfel1010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2010 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2010 Kont",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medisin for ikke-medisinere",
+    "school": "ntnu",
+    "name": "2006 Høst",
+    "course": "mfel1010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2009 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Forskningsmetoder i bevegelsesvitenskap",
+    "school": "ntnu",
+    "name": "Eksempler på eksamensoppgaver 1",
+    "course": "bev1012",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2009 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2008 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2008 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medisin for ikke-medisinere",
+    "school": "ntnu",
+    "name": "2009 Høst",
+    "course": "mfel1010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2014 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2009 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2010 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2010 Kont",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2010 Vår",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2011 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2011 Kont",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2011 Vår",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2012 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2012 Kont",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2012 Vår",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2013 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2014 Kont",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2014 Vår",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medisin for ikke-medisinere",
+    "school": "ntnu",
+    "name": "2009 Vår",
+    "course": "mfel1010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medisin for ikke-medisinere",
+    "school": "ntnu",
+    "name": "2008 Høst",
+    "course": "mfel1010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2010 Høst",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2009 Kont",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2009 Høst",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2008 Høst",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2007 Kont",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2007 Høst",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2005 Kont",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Eksamen 2005 Høst",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2015 Kont",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2015 Vår",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medisin for ikke-medisinere",
+    "school": "ntnu",
+    "name": "2012 Vår",
+    "course": "mfel1010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2007 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2014 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2015 Kont",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2015 Høst",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsteknologi Grunnkurs",
+    "school": "ntnu",
+    "name": "2016 Kont",
+    "course": "tdt4110",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Informasjonsgjenfinning",
+    "school": "ntnu",
+    "name": "2013 Høst",
+    "course": "tdt4117",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Informasjonsgjenfinning",
+    "school": "ntnu",
+    "name": "2009 Vår",
+    "course": "tdt4117",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "TF",
+    "courseName": "Informasjonsgjenfinning",
+    "school": "ntnu",
+    "name": "2007 Vår",
+    "course": "tdt4117",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2015 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2014 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2013 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2012 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Informasjonsgjenfinning",
+    "school": "ntnu",
+    "name": "2015 Høst",
+    "course": "tdt4117",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2010 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2011 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2009 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2007 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Helsepsykologi og helsefremming",
+    "school": "ntnu",
+    "name": "2009",
+    "course": "hls0001",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Helsepsykologi og helsefremming",
+    "school": "ntnu",
+    "name": "Ukjent år 1",
+    "course": "hls0001",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Helsepsykologi og helsefremming",
+    "school": "ntnu",
+    "name": "Ukjent år 2",
+    "course": "hls0001",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Helsepsykologi og helsefremming",
+    "school": "ntnu",
+    "name": "Ukjent år 3",
+    "course": "hls0001",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Wireless Security",
+    "school": "ntnu",
+    "name": "2008 Fall",
+    "course": "ttm4137",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2016 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Fysikk",
+    "school": "ntnu",
+    "name": "2016 Vår",
+    "course": "tfy4125",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Fysikk",
+    "school": "ntnu",
+    "name": "2015 Vår",
+    "course": "tfy4125",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Fysikk",
+    "school": "ntnu",
+    "name": "2015 Kont",
+    "course": "tfy4125",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Innføring i idrettsfysiologi",
+    "school": "ntnu",
+    "name": "2017 Vår",
+    "course": "mfel1050",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: ALU",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Assemblyprogrammering",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Beregninger",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Digitalteknikk",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Eksempler, prosessorer",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Ekstern buss",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: England",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Faktaspørsmål",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Flervalg adressemodi",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Generelt om buss",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Generelt om lager",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Historiespørsmål",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Hurtigbuffer",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: IO-kontroller",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: IO",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Instruksjoner",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Instruksjonsett",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Magnetisk plate",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Primærlager",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Prosessorens oppbygning",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: RAM",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: RISC-CISC",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: ROM",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Register",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Samlebånd",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Sekundærlageret",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Styreenheten",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Tallsystemer",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Teoretikerne",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Test og ubrukte",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Datamaskiner grunnkurs",
+    "school": "ntnu",
+    "name": "Age of Computers: Trender og forskning",
+    "course": "tdt4160",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Introduction to Artificial Intelligence",
+    "school": "ntnu",
+    "name": "2015 Fall",
+    "course": "tdt4136",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Introduction to Artificial Intelligence",
+    "school": "ntnu",
+    "name": "2016 Fall",
+    "course": "tdt4136",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Introduction to Artificial Intelligence",
+    "school": "ntnu",
+    "name": "2013 Fall",
+    "course": "tdt4136",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Communication Services and Networks",
+    "school": "ntnu",
+    "name": "2017 Spring",
+    "course": "ttm4100",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Innføring i idrettsfysiologi",
+    "school": "ntnu",
+    "name": "2014 Vår",
+    "course": "mfel1050",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Innføring i idrettsfysiologi",
+    "school": "ntnu",
+    "name": "2013 Vår",
+    "course": "mfel1050",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Innføring i idrettsfysiologi",
+    "school": "ntnu",
+    "name": "2012 Vår",
+    "course": "mfel1050",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Innføring i idrettsfysiologi",
+    "school": "ntnu",
+    "name": "2011 Høst",
+    "course": "mfel1050",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Innføring i idrettsfysiologi",
+    "school": "ntnu",
+    "name": "2009 Høst",
+    "course": "mfel1050",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Innføring i idrettsfysiologi",
+    "school": "ntnu",
+    "name": "2006 Høst",
+    "course": "mfel1050",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2017 Vår",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2016 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2016 Vår",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Teknologiledelse",
+    "school": "ntnu",
+    "name": "2017 Høst",
+    "course": "tiø4258",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2017 Fall",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2018 Spring",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "Nervous System",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "Clinical Research and Epidemiology",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "Medical Diagnosis",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Blod og immun",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Celler og vev",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Endokrinologi",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Hud og temperatur",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Muskler og skjelett",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Nyrer og urinveier",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Reproduksjon",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Respirasjonssystemet",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Sansene",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Sirkulasjonssystemet",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Fordøyelsessystemet",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Anatomi, fysiologi og biokjemi",
+    "school": "oslomet",
+    "name": "Nervesystemet",
+    "course": "syba1010",
+    "schoolName": "Storbyuniversitetet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2014 Spring",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2013 Spring",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2013 Fall",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2012 Fall",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2012 Spring",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  },
+  {
+    "mode": "MC",
+    "courseName": "Medicine for Students of Natural Sciences and Technology",
+    "school": "ntnu",
+    "name": "2011 Fall",
+    "course": "mfel3010",
+    "schoolName": "Norges Teknisk-Naturvitenskaplige Universitet"
+  }
+]

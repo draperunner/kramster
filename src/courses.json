@@ -1,0 +1,87 @@
+[
+  {
+    "code": "bev1012",
+    "school": "ntnu",
+    "name": "Forskningsmetoder i bevegelsesvitenskap"
+  },
+  {
+    "code": "bi1001",
+    "school": "ntnu",
+    "name": "Celle- og molekylærbiologi"
+  },
+  {
+    "code": "hls0001",
+    "school": "ntnu",
+    "name": "Helsepsykologi og helsefremming"
+  },
+  {
+    "code": "mfel1010",
+    "school": "ntnu",
+    "name": "Medisin for ikke-medisinere"
+  },
+  {
+    "code": "mfel1050",
+    "school": "ntnu",
+    "name": "Innføring i idrettsfysiologi"
+  },
+  {
+    "code": "mfel3010",
+    "school": "ntnu",
+    "name": "Medicine for Students of Natural Sciences and Technology"
+  },
+  {
+    "code": "syba1010",
+    "school": "oslomet",
+    "name": "Anatomi, fysiologi og biokjemi"
+  },
+  {
+    "code": "tdt4110",
+    "school": "ntnu",
+    "name": "Informasjonsteknologi Grunnkurs"
+  },
+  {
+    "code": "tdt4117",
+    "school": "ntnu",
+    "name": "Informasjonsgjenfinning"
+  },
+  {
+    "code": "tdt4136",
+    "school": "ntnu",
+    "name": "Introduction to Artificial Intelligence"
+  },
+  {
+    "code": "tdt4160",
+    "school": "ntnu",
+    "name": "Datamaskiner grunnkurs"
+  },
+  {
+    "code": "tdt4171",
+    "school": "ntnu",
+    "name": "Artificial Intelligence Methods"
+  },
+  {
+    "code": "tdt4240",
+    "school": "ntnu",
+    "name": "Software Architecture"
+  },
+  {
+    "code": "tfy4125",
+    "school": "ntnu",
+    "name": "Fysikk"
+  },
+  {
+    "code": "tiø4258",
+    "school": "ntnu",
+    "name": "Teknologiledelse"
+  },
+  {
+    "code": "ttm4100",
+    "school": "ntnu",
+    "name": "Communication Services and Networks"
+  },
+  {
+    "code": "ttm4137",
+    "school": "ntnu",
+    "name": "Wireless Security"
+  }
+]

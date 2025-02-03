@@ -1,0 +1,262 @@
+[
+  {
+    "question": "Hvilken fundamental aktivitet innen programvareutviklingsprosessen fokuserer på å endre programvaren for å møte endrede kunde- og markedskrav?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Programvarespesifikasjon",
+      "Programvareutvikling",
+      "Programvarevalidering",
+      "Programvareevolusjon"
+    ]
+  },
+  {
+    "question": "Hva er et analogt signal?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Et kontinuerlig signal hvor den variable egenskap er gitt av en diskret funksjon, som gir verdier fra et definert og begrenset område.",
+      "Et kontinuerlig signal hvor en variabel egenskap (f.eks. amplitude eller frekvens) representerer informasjonen som overføres.",
+      "Et diskret signal som representeres ved hjelp av nuller og enere.",
+      "En kombinasjon av alternativ a og b."
+    ]
+  },
+  {
+    "question": "Hvilken type løkkestruktur er garantert å utføre handlingen minst en gang?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "pre-test løkke (pretest loop).",
+      "post-test løkke (posttest loop).",
+      "begge typer.",
+      "ingen av typene."
+    ]
+  },
+  {
+    "question": "Omtrent hvor mange ganger raskere er en 1 GHz - prosessor i forhold til en på 2 MHz.",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Halvparten så rask.",
+      "Like rask.",
+      "Dobbelt så rask.",
+      "500 ganger så rask."
+    ]
+  },
+  {
+    "question": "Hva sier Nyquist-regelen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "at samplingsrate ved lyd må være minst det dobbelte i forhold til høyeste frekvensen.",
+      "at lyd over 20000Hz ikke kan høres av det menneskelige øret.",
+      "at tapsfri komprimering ikke er mulig for lyd.",
+      "at lyddata tapsfritt kan komprimeres med maksimalt en faktor 2*pi."
+    ]
+  },
+  {
+    "question": "Hvilken programvareprosessmodell bør velges for et prosjekt der det skal utvikles et helt nytt system hvor eksisterende komponenter ikke finnes og kunden er usikker på hvordan systemet skal være?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Vannfallsmodellen.",
+      "Inkrementell utvikling.",
+      "Gjenbruksorientert systemutvikling.",
+      "Havmodellen."
+    ]
+  },
+  {
+    "question": "Hva er hensikten med et paritetsbit i digitale signaler?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Forteller hvor meldingen skal sendes.",
+      "Gjør meldingene raskere å overføre (komprimering).",
+      "Bidrar til å detektere feil i digitale signaler.",
+      "Krypterer signaler så overføringen av data blir sikrere."
+    ]
+  },
+  {
+    "question": "Kompleksiteten til sortering ved innsetting (insertion sort) er",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Θ(n).", "Θ(n log n).", "Θ(n 2 ).", "Θ(2n)."]
+  },
+  {
+    "question": "En moderne prosessor er typisk bygd opp av mange millioner små...",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Dioder.", "Magneter.", "Transistorer.", "Kondensatorer."]
+  },
+  {
+    "question": "En byte med minne i datamaskinen kan lagre hvor mye?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "16 bits.",
+      "8 flyttall.",
+      "fire ASCII-tegn.",
+      "en heltallsverdi mellom 0 og 255."
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende er en kjent fordel med vannfallsmodellen?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Tar hensyn til brukerkrav som endrer seg i løpet av prosjektet.",
+      "Gjør prosessen synlig og enklere å monitorere for prosjektlederen.",
+      "Får tidlige versjoner av systemet raskt ut til kunden.",
+      "Åpner for kontinuerlig tilbakemelding fra brukerne av systemet."
+    ]
+  },
+  {
+    "question": "Morsekode representerer bokstaver som sekvenser av prikk og strek som er",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "like lange for alle bokstaver i alfabetet.",
+      "kortere for bokstaver tidlig i alfabetet, lenger for bokstaver sist i alfabetet.",
+      "kortere for vokaler, lenger for konsonanter.",
+      "kortere for bokstaver som forekommer hyppig i vanlig tekst, lenger for sjeldnere bokstaver."
+    ]
+  },
+  {
+    "question": "Hvilken av disse er en korrekt gjengivelse av teoribokas definisjon av en algoritme? \"En algoritme er et ordnet sett av...\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "\"... entydige, utførbare skritt som definerer en terminerende prosess\" (unambiguous, executable steps that defines a terminating process).",
+      "\"... entydige, effektive skritt som definerer en utførbar prosess\" (unambiguous, efficient steps that defines an executable process).",
+      "\"... velformede, effektive skritt som definerer en terminerende prosess\" (well-formed, efficient steps that defines a terminating process).",
+      "\"...velformede, utførbare skritt som definerer en effektiv prosess\" (well-formed, efficient steps that defines an efficient process)."
+    ]
+  },
+  {
+    "question": "En datamaskin går i en uendelig løkke som kalles",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det naturlige kretsløpet.",
+      "Hent-Utfør kretsløpet.",
+      "Det evige kretsløpet.",
+      "Beregnings-kretsløpet."
+    ]
+  },
+  {
+    "question": "Hva er korrekt binær representasjon av 'NTNU' i 8 bits ASCII?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "01001110 01010100 01001110 01010101.",
+      "01100001 01100100 01110011 01100110.",
+      "01101110 01110101 01110100 01001110.",
+      "01100010 01010101 01010010 01010000."
+    ]
+  },
+  {
+    "question": "I hvilket tilfelle er det mest nyttig å bruke gjenbruksorientert systemutvikling?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Når det finnes tilgjengelig programvare som kan gjøre oppgaver systemet skal utføre.",
+      "Når det skal lages programvare for å håndtere resirkulering av søppel eller lignende systemer.",
+      "Når det skal gjenbrukes ideer fra tidligere prosjekter.",
+      "Når det skal gjenbrukes systemutviklere og systemdesignere fra tidligere prosjekter."
+    ]
+  },
+  {
+    "question": "Hva står forkortelsen ISP for?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Internet Service Provider.",
+      "Information Security Protocol.",
+      "Internet Security Protocol.",
+      "Information Super Pool."
+    ]
+  },
+  {
+    "question": "Kompleksiteten til binærsøk er",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Θ(n) hvis lista er sortert og Θ(n log n) hvis den er usortert.",
+      "Θ(log n) hvis lista er sortert og Θ(2 log n) hvis lista er usortert.",
+      "Θ(log n) hvis lista er sortert og Θ(n) hvis lista er usortert.",
+      "Θ(log n) hvis lista er sortert. Binærsøk er ubrukelig hvis lista er usortert."
+    ]
+  },
+  {
+    "question": "RAM",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Husker alle verdiene når strømmen kuttes.",
+      "Er alltid inndelt i blokker på 1 kilobyte.",
+      "Betyr Random Access Memory.",
+      "Kan trygt fjernes uten at maskinen slutter å fungere."
+    ]
+  },
+  {
+    "question": "Hva står bokstavene i RGB for?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Red, Green, Blue.",
+      "Readable Graphics Byte.",
+      "Raster Grayscale Balance.",
+      "Realtime GPU Backlog."
+    ]
+  },
+  {
+    "question": "Hva kalles aktiviteten som har fokus på å identifisere den overordnede strukturen for et system inkludert dets sub-systemer?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Hoveddesign.",
+      "Arkitekturdesign.",
+      "Interfacedesign.",
+      "Komponentdesign."
+    ]
+  },
+  {
+    "question": "MODEM er en forkortelse for",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "MOdulator / DEModulator.",
+      "Massive Online Digital Electric Messaging.",
+      "MOnitored Data EMission.",
+      "Mapping Of Digital Electronic Mail."
+    ]
+  },
+  {
+    "question": "ASCII-kode representerer bokstavene A til Z som sekvenser av 0 og 1 som er",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "like lange for disse bokstavene i alfabetet.",
+      "kortere for bokstaver tidlig i alfabetet, lenger for bokstaver sist i alfabetet.",
+      "kortere for vokaler, lenger for konsonanter.",
+      "kortere for bokstaver som forekommer hyppig i vanlig tekst, lenger for sjeldnere bokstaver."
+    ]
+  },
+  {
+    "question": "Et nettverk som knytter sammen datamaskiner og utstyr i et begrenset område som et kontor, bygning eller i en bolig betegnes med forkortelsen:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["LAN.", "MAN.", "PAN.", "WAN."]
+  },
+  {
+    "question": "VPN (Virtual Private Network) kan gi mottageren inntrykk av at en reisende ansatt sin bærbare PC befinner seg innenfor bedriftens nettverk ved at meldinger fra denne PC'en",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "plasseres inni en kryptert datapakke for ekstern oversendelse.",
+      "sendes med en tidsforsinkelse.",
+      "sendes ekstra hurtig, med høy prioritet.",
+      "sendes med en falsk avsenderadresse som inneholder et virus."
+    ]
+  }
+]

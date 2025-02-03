@@ -1,0 +1,90 @@
+[
+  {
+    "question": "ASR is an abbreviation for...",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Architecturally Significant Requirement",
+      "Architectural Software Requirement",
+      "Architectural Significant Re-design",
+      "Architectural Silly Ruthlessness"
+    ]
+  },
+  {
+    "question": "Which Design Decision Category fits requirements addressing... \"Named technologies, changes to technologies (planned and unplanned).\"",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Data Model",
+      "Coordination Model",
+      "Binding Time Decisions",
+      "Choice of Technology"
+    ]
+  },
+  {
+    "question": "Which Design Decision Category fits requirements addressing... \"Names of external elements, protocols, sensors or actuators (devices), middleware, network configurations.\"",
+    "answers": [1],
+    "exam": "2015 Kahoot 19: Requirements",
+    "options": [
+      "Data Model",
+      "Coordination Model",
+      "Binding Time Decisions",
+      "Choice of Technology"
+    ]
+  },
+  {
+    "question": "Which Design Decision Category fits requirements addressing... \"Plans for teaming, processors, families of processors, evolution of processors, network configuration.\"",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Mapping among Architectural Elements",
+      "Allocation of Responsibilities",
+      "Binding Time Decisions",
+      "Data Model"
+    ]
+  },
+  {
+    "question": "Which Design Decision Category fits requirements addressing... \"Processing steps, information flows, major domain entities, access rights, persistence, evolution requirements\"",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Mapping among Architectural Elements",
+      "Allocation of Responsibilities",
+      "Binding Time Decisions",
+      "Data Model"
+    ]
+  },
+  {
+    "question": "Which Design Decision Category fits requirements addressing... \"Extension of or flexibility of functionality, regional distinctions, language distinctions, portability, calibrations, configurations.\"",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Mapping among Architectural Elements",
+      "Allocation of Responsibilities",
+      "Binding Time Decisions",
+      "Coordination Model"
+    ]
+  },
+  {
+    "question": "What is QAW an abbreviation for?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Quantity Architecture Workshop",
+      "Quasi Allergy Wizard",
+      "Quality Attribute Workshop",
+      "Quality Architecture Work"
+    ]
+  },
+  {
+    "question": "What is the main goal of the Quality Attribute Workshop (QAW)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Design, assess, and evaluate quality attribute scenarios",
+      "Generate, prioritize and refine quality attribute scenarios",
+      "Teach piglets to swim",
+      "Present quality attributes to software architects"
+    ]
+  }
+]

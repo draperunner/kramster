@@ -1,0 +1,302 @@
+[
+  {
+    "question": "A client program requests and receives services from a server program.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Packet switching is more efficient in using link capacity than circuit switching.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The application-layer message and the transport-layer header information together constitute the network-layer segment.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The total nodal delay is given by the sum of processing delay and propagation delay.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Each router has a forwarding table that maps source addresses to outbound links.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Tier-2 ISPs are directly connected to all Tier-1 ISPs.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Transport Layer and Network Layer are always executed together.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "IP is a connectionless protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Without DNS, it is impossible to communicate with servers where only the hostnames are known.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Web cashing can reduce the delay in receiving a requested object of a webpage.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "FTP uses UDP as its underlying transport protocol.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "SMTP decides how a Web page is interpreted by a Web browser.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When a user requests a Web page, only one TCP connection may be generated.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "File distribution using P2P architecture. Upload rate: server is 10Mbps and each client 2 Mbps. Download rate:each client is 10Mbps. There are 100 clients and the file is 12,5Mbytes. The minimum distribution time is about 50 seconds.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A BitTorrent peer A may upload to a peer B even if B is not sending anything to A.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "P2P can be used for instant messaging.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A HTTP web server uses persistent connections. The server spawns a separate process for each client that connects to the server. Each of these processes will have different server port numbers.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a POP3 transaction, the user agent issues commands, and the server responds to each command with a reply.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "SIP is used to transfer voice packets between two communicating peers.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A transport-layer protocol can provide reliable data transfer only when the underlying network layer also provides reliable service.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 100; the second has sequence number 200. Then, there are 200 bytes in the first segment.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In Go-back-N, the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgement from the receiver.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The throughput of a UDP connection is typically a function of the round-trip time between the sender and the receiver.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When TCP is used, the TCP port number of the receiver must be the same as the TCP port number of the sender.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "UDP is a connectionless transport protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "TCP provides a reliable, simplex service to the Network layer.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Flow control is needed because a sender may have too much data to send.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "For every write() to a TCP streamsocket, there must be a corresponding read() at the other end to receive the data.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "TCP uses different TCP protocol headers for connection set-up and close.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The IP address 192.32.158.3 in binary notation is:11000000 00100000 11011000 00000011",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Routers typically only look at the network part and not the host part of the IP address.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A datagram is a packet that is transferred independently of other packets.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a distance-vector routing algorithm, each router has a map of the entire network and determines the shortest path from itself to all other routers in the network.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a decentralized routing algorithm, the calculation of the least-cost path is carried out in an iterative, distributed manner.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The IPv4 address space is much larger than the IPv6 address space.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Scalability and administrative autonomy are two important reasons for organizing the Internet as a hierarchy of networks.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With DHCP, a host will be assigned an IP address that is same each time the host is connected to the network.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Network address translation (NAT) is used in the Internet to translate between IP addresses found in separate sub-networks.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Because a switch isolates one link from another, the different links in the LAN can operate at different speeds.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The point-to-point protocol (PPP) is a link-layer protocol for point-to-point links, able to support multiple network-layer protocols.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Forward error correction (FEC) can decrease the number of sender retransmissions required.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "For the Internet, it is the job of the Address Resolution Protocol (ARP) to translate between IP addresses and MAC addresses.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The maximum efficiency of slotted ALOHA is lower than the maximum efficiency of pure ALOHA.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "It is not a node (i.e., host or router) that has a link-layer address but instead it is a node's adapter that has a link-layer address.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Unlike IP addresses that have a hierarchical structure, an adapter's MAC address has a flat structure.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "An adapter's MAC address does not change no matter where the adapter is installed.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With CSMA/CD, when a collision is detected, the transmitting node stops its transmission and uses some protocol to determine when it should attempt to transmit the next time.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "For a given signal-to-noise ratio (SNR), a modulation technique with a higher bit transmission rate will have a higher bit-error-rate (BER).",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  }
+]

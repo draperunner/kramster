@@ -1,0 +1,85 @@
+[
+  {
+    "question": "Hvilken del av nervesystemet sender nerveimpulser til hjertet som øker hjertefrekvensen?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det sensoriske nervesystemet",
+      "Det sympatiske nervesystemet",
+      "Det parasympatiske nervesystemet",
+      "Det viljestyrte motoriske nervesystemet"
+    ]
+  },
+  {
+    "question": "Hvilke funksjoner har myelin?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Produserer og skiller ut cerebrospinalvæske",
+      "Beskytter hjernevevet og spinalvæsken mot uønskede stoffer i blodet",
+      "Fungerer som nevrotransmitter i det sympatiske og det parasympatiske nervesystemet",
+      "Isolerer aksonet og øker nerveledningshastigheten"
+    ]
+  },
+  {
+    "question": "Hva heter hjernenerven som leder sensoriske nervefibrer fra øynene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Nervus opticus",
+      "Nervus facialis",
+      "Nervus vagus",
+      "Nervus vestibulocochlearis"
+    ]
+  },
+  {
+    "question": "Hva er cerebellums (lillehjernens) funksjoner?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Hørsel og luktesans",
+      "Koordinasjon og balanse",
+      "Språkforståelse og tale",
+      "Regulering av puls og blodtrykk"
+    ]
+  },
+  {
+    "question": "Hvor i hjernen er respirasjonssenteret?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "I frontallappen",
+      "I parietallappen",
+      "I hjernestammen",
+      "I talamus"
+    ]
+  },
+  {
+    "question": "Hvilken del av nervesystemet aktiveres ved fysiske påkjenninger og stress?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det sensoriske nervesystem",
+      "Det motoriske nervesystem",
+      "Det sympatiske nervesystem",
+      "Det parasympatiske nervesystem"
+    ]
+  },
+  {
+    "question": "Hva kalles kontaktområdet der det overføres informasjon mellom nerveceller?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Myelinskjedefeste", "Synapse", "Akson", "Nevron"]
+  },
+  {
+    "question": "Hvilke to deler består det autonome nervesystemet av?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det perifere nervesystemet og sentralnervesystemet",
+      "Det sympatiske nervesystemet og det parasympatiske nervesystemet",
+      "Det sensoriske nervesystemet og refleksbuer",
+      "Det somatiske nervesystemet og motoriske nerver"
+    ]
+  }
+]

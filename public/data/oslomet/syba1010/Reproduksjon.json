@@ -1,0 +1,109 @@
+[
+  {
+    "question": "Hvor foregår sædcelleproduksjonen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "I testiklenes sædkanaler",
+      "I bitestiklenes epitelceller",
+      "I prostata",
+      "I sædblærene"
+    ]
+  },
+  {
+    "question": "Hvor modnes og lagres sædcellene?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["I testiklene", "I bitestiklene", "I prostata", "I sædblærene"]
+  },
+  {
+    "question": "I hvilken fase av menstruasjonssyklus er det høyest produksjon av progesteron?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Under menstruasjonen, dag 1-4",
+      "I follikkelfasen, dag 5-13",
+      "Ved eggløsningen, dag 14",
+      "I lutealfasen, dag 15-28"
+    ]
+  },
+  {
+    "question": "Hva er uterus?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Eggstokk", "Livmor", "Eggleder", "Skjede"]
+  },
+  {
+    "question": "Hvilket utsagn er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Menstruasjonssyklusen varer i 28 dager og starter med eggløsning",
+      "Menstruasjonssyklusen varer i 14 dager og starter med eggløsning",
+      "Hvis det ikke finner sted en befruktning, avstøtes endometriet i menstruasjonsblødningen",
+      "Ved befruktning vil fosteranlegget normalt feste seg i egglederen"
+    ]
+  },
+  {
+    "question": "Hva er epididymis?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Testikkelen", "Bitestikkelen", "Pungen", "Blærehalskjertelen"]
+  },
+  {
+    "question": "Hvilket utsagn om sædceller er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Sædcelleproduksjon foregår i testiklenes sædkanaler",
+      "Sædcelleproduksjon foregår i bitestiklenes epitelceller",
+      "Sædcelleproduksjonen foregår i prostata",
+      "Sædcellene transporteres i blodårene i sædkanalene og modnes i testiklene"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om menstruasjonssyklusen er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Den er 14 dager og starter med follikkelfasen",
+      "Den er 30 dager og starter med sekresjonsfasen",
+      "Den er 14 dager og starter med eggløsning",
+      "Den er 28 dager og starter med menstruasjonsblødningen"
+    ]
+  },
+  {
+    "question": "Hvor skjer befruktningen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["I livmorhalsen", "I livmoren", "I eggleder", "I eggstokk"]
+  },
+  {
+    "question": "Hvilket utsagn om kvinnelige kjønnshormoner er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Utskillelsen av østradiol (østrogen) øker frem mot eggløsningen",
+      "Utskillelsen av østradiol (østrogen) er størst under menstruasjonsblødningen",
+      "Progesteronutskillelsen stanser rett etter eggløsningen",
+      "Progesteronutskillelsen er størst under menstruasjonsblødningen"
+    ]
+  },
+  {
+    "question": "Hvor foregår eggcelleproduksjon?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["I ovariene", "I endometriet", "I fimbriene", "I corpus uteri"]
+  },
+  {
+    "question": "Hva er follikkelfasen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Perioden med eggcellemodning til eggløsningen",
+      "Perioden etter eggløsningen",
+      "Selve menstruasjonsblødningen",
+      "Perioden fra egget er befruktet til det er implantert i livmorveggen"
+    ]
+  }
+]

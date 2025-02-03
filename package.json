@@ -1,6 +1,6 @@
 {
   "name": "kramster",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Kramster is a quiz app for making exam preparation more fun",
   "main": "src/server/server.js",
   "type": "module",
@@ -20,10 +20,6 @@
     "format:check": "prettier . --check",
     "ts": "tsc --noEmit",
     "lint": "npm run eslint && npm run stylelint && npm run format:check",
-    "test": "mocha --exit",
-    "test:ci": "firebase emulators:exec 'mocha --exit' -P staging",
-    "emulators": "firebase emulators:start",
-    "fill-db": "FIRESTORE_EMULATOR_HOST=localhost:8080 node --loader ts-node/esm ./scripts/fill-db.ts",
     "deploy": "npm run build:prod && firebase deploy -P prod",
     "deploy:staging": "npm run build:staging && firebase deploy -P staging"
   },
@@ -34,7 +30,6 @@
   "author": "Mats Byrkjeland",
   "license": "Apache-2.0",
   "dependencies": {
-    "firebase": "^10.14.1",
     "katex": "^0.16.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -42,7 +37,6 @@
     "sanitize-html": "^2.14.0"
   },
   "devDependencies": {
-    "@firebase/rules-unit-testing": "^3.0.4",
     "@types/katex": "^0.16.7",
     "@types/node": "^20.17.16",
     "@types/qs": "^6.9.18",
@@ -54,9 +48,7 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
-    "firebase-admin": "^12.7.0",
     "firebase-tools": "^13.29.3",
-    "mocha": "^10.8.2",
     "prettier": "^3.4.2",
     "stylelint": "^16.13.2",
     "stylelint-config-standard": "^36.0.1",

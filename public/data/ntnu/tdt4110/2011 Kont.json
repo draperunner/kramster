@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Hva er en tjener i en klient-/tjenerarkitektur?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En tjener utfører tjenester på vegne av en klient.",
+      "En tjener etterspør tjenester fra klienter.",
+      "En tjener er et program som vil ha noe utført på en annen maskin.",
+      "Ingen av alternativene i a, b og c."
+    ]
+  },
+  {
+    "question": "En del av et program består av en FOR-løkke, inne i en FOR-løkke, inne i en FOR-løkke. Alle løkkene løper gjennom tallene fra 1 til N. Tidsforbruket for denne programdelen vil være proporsjonal med:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["N^3", "3N", "3NlogN"]
+  },
+  {
+    "question": "Hva er hovedoppgaven til en navnetjener?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Å oversette domenenavn til IP-adresser.",
+      "Å oversette IP-adresser til domenenavn.",
+      "Å holde rede på definerte variabelnavn når et program kjører.",
+      "Ingen av alternativene i a, b og c."
+    ]
+  },
+  {
+    "question": "Kari har utviklet et programsystem i den bedriften der hun har vært ansatt. Kan hun ta med seg og videreutvikle denne programvaren hvis hun slutter i bedriften?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Ja, i følge Åndsverksloven er det programmereren som har rettighetene til programvaren.",
+      "Nei, det er bedriften som eier programvaren.",
+      "Det er uavklart siden dette er ikke regulert av lovgiving. Rettighetene til programvaren må avtales mellom partene i hvert enkelt tilfelle."
+    ]
+  },
+  {
+    "question": "Svart-boks-testing er:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Testing der man prøver ut systemets eller modulens indre oppbygging.",
+      "Testing der man ser bort fra systemets eller modulens indre oppbygning og kun tar i betraktning de ytre egenskapene.",
+      "Testing der man ser bort fra systemenes eller modulenes indre oppbygning og prøver ut hvordan de ulike delene i et system fungerer sammen."
+    ]
+  },
+  {
+    "question": "Hva er riktig rekkefølge når ulike minnetyper sorteres etter synkende hastighet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Registre, cache, primærminne, sekundærminne.",
+      "Cache, registre, primærminne, sekundærminne.",
+      "Primærminne, cache, sekundærminne, registre."
+    ]
+  },
+  {
+    "question": "Når kan man ikke benytte seg av binærsøkingsalgoritmen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Når datamengden er så stor at det vil ta for lang tid.",
+      "Når det er stor sannsynlighet for at det man søker etter ikke finnes i datamengden.",
+      "Når datamengden ikke er sortert.",
+      "Man kan alltid bruke binærsøkingsalgoritmen."
+    ]
+  },
+  {
+    "question": "Hva er i lovverket ikke definer som sensitive personopplysninger:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Etnisk bakgrunn.",
+      "Politisk oppfatning.",
+      "Filosofisk oppfatning.",
+      "Alle alternativene i a, b og c er sensitive personopplysninger."
+    ]
+  },
+  {
+    "question": "Vi skal kode tegnene a-å, A-Å, 0-9, mellomrom, spørsmålstegn, utropstegn, punktum, kolon, semikolon og bindestrek. Hvor mange binære siffer (engelsk: bits) er nødvendig i kodene når alle tegn skal representeres med like mange binære siffer?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["6", "7", "8"]
+  },
+  {
+    "question": "Hva blir resultatet når 81 kodes binært (i 2-tallsystemet)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "1011011",
+      "1010101",
+      "1010001",
+      "Ingen av alternativene i a, b og c er riktige."
+    ]
+  },
+  {
+    "question": "Hva tilsvarer ABCD i det heksadesimale tallsystemet (16-tallsystemet) i 10-tallsystemet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "42561",
+      "43981",
+      "44981",
+      "Ingen av alternativene i a, b og c er riktige."
+    ]
+  },
+  {
+    "question": "QoS er forkortelse for:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Quantity of Storage.",
+      "Quality of Servers.",
+      "Quality of Service.",
+      "Ingen av alternativene i a, b og c er riktige."
+    ]
+  },
+  {
+    "question": "Vi har en sortert liste med 100 000 000 elementer. Ved binærsøking i denne listen, hvor mange sammenligninger må vi i verste fall gjøre?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Omtrent 20.", "Omtrent 27.", "Omtrent 34."]
+  },
+  {
+    "question": "&lt;p&gt;…&lt;/p&gt; i en HTML-fil definerer:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et avsnitt.",
+      "Et adressefelt.",
+      "En hyperlenke.",
+      "Ingen av alternativene i a, b og c."
+    ]
+  },
+  {
+    "question": "A || !(B && C) er usant (engelsk: false) når:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "A false, B true, C true",
+      "A true, B true, C false",
+      "A false, B false, C true",
+      "Uttrykket er ikke usant for noen av alternativene i a, b og c."
+    ]
+  },
+  {
+    "question": "Hva er entropi?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et mål på informasjonsinnholdet i en melding.",
+      "En algoritme for effektiv koding av symboler.",
+      "En feiltilstand som gjør at lesehodet på en harddisk ikke klarer å følge sporene nøyaktig og derfor blander data fra flere spor.",
+      "Ingen av alternativene i a, b og c er riktige."
+    ]
+  },
+  {
+    "question": "En URL (Uniform Resource Locator) har følgende format:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Protokoll, maskin, sti, fil",
+      "Protokoll, maskin, sti",
+      "Domene, sti, fil",
+      "Ingen av alternativene i a, b og c er riktige."
+    ]
+  },
+  {
+    "question": "Anta at karakterene har følgende fordeling: A (12 %), B (24 %), C (35 %), D (20 %), E (7 %) og F (2 %). Hva er en korrekt Huffmankoding for A-F?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "A: 001 B: 10 C: 11 D: 01 E: 0001 F: 0000",
+      "A: 010 B: 01 C: 10 D: 111 E: 1110 F: 1111",
+      "A: 1111 B: 11 C: 1 D. 111 E: 11111 F: 111111",
+      "Ingen av alternativene i a, b og c."
+    ]
+  },
+  {
+    "question": "En IP-adresse er:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En numerisk adresse som identifiserer en datamaskin eller annen type enhet i et IPnettverk.",
+      "En mekanisme som gjør det mulig å kontakte en Internett Provider, for eksempel når det oppstår feil i nettet.",
+      "Et felt som identifiserer data i en relasjonsdatabase."
+    ]
+  },
+  {
+    "question": "Hva er inspeksjon av programvare?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Kjøring av programmer for å se om programvaren oppfyller kravene til systemet.",
+      "Overvåking av variablenes verdier under programkjøring for å finne årsakene til feil.",
+      "Gjennomgang av programmer uten at de blir kjørt, med tanke på å finne feil og å forvisse seg om at de er riktige."
+    ]
+  }
+]

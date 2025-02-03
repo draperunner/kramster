@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Which wireless technology has only limited reliability according to the speed of the\nmovement of the mobile equipment:",
+    "answers": [3],
+    "exam": "2007 Fall",
+    "options": ["GSM", "GPRS", "UMTS", "Bluetooth", "WiFi"]
+  },
+  {
+    "question": "Which wireless technology offers the highest transmission rates:",
+    "answers": [4],
+    "exam": "2007 Fall",
+    "options": ["GSM", "GPRS", "UMTS", "Bluetooth", "WiFi"]
+  },
+  {
+    "question": "What type of the attack is the attack guided by the following motivation: \"The attacker wants to steal information, damage your system because of a grievance, or alter your system to acquire a tangible reward\":",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Profit or revenge", "Profit", "Revenge", "Gaming", "Ego"]
+  },
+  {
+    "question": "Which one of the following attacks is NOT classified as a wireless attack:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Snooping",
+      "Meet in the middle",
+      "Modification",
+      "Masquerading",
+      "Denial of Service"
+    ]
+  },
+  {
+    "question": "What is \"one-time password\"?",
+    "answers": [1],
+    "exam": "2007 Fall",
+    "options": [
+      "You use one unique password for all your logons and connections.",
+      "Each and every time you logon or connect, you use a new password.",
+      "You use passwords with a time stamp in them.",
+      "A password that you use for generating the master key.",
+      "A password that you use for generating the session key."
+    ]
+  },
+  {
+    "question": "In the wireless communication terminology what the abbreviation MAC stands for?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Message Authentication Code",
+      "Media Access Control",
+      "Mobile Authentication Code",
+      "Medium Accessibility Coding",
+      "Military Air Command"
+    ]
+  },
+  {
+    "question": "According to the IEEE 802 standard, what is the right ordering of the layers:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "MAC Layer, IP Layer, TCP Layer, LLC Layer, Application Layer",
+      "MAC Layer, LLC Layer, IP Layer, TCP Layer, Application Layer",
+      "LLC Layer, MAC Layer, IP Layer, TCP Layer, Application Layer",
+      "LLC Layer, MAC Layer, TCP Layer, IP Layer, Application Layer",
+      "MAC Layer, LLC Layer, TCP Layer, IP Layer, Application Layer"
+    ]
+  },
+  {
+    "question": "If a station moves only within BSS, then this type of mobility is known as:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "No transition mobility",
+      "BSS transition",
+      "Limited BSS transition",
+      "ESS transition",
+      "Limited ESS transition"
+    ]
+  },
+  {
+    "question": "If station or AP sends a notice for association termination, then that service is known as:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Association",
+      "Reassociation",
+      "Disassociation",
+      "Deassociation",
+      "Quitassociation"
+    ]
+  },
+  {
+    "question": "The original 802.11 standard operated on the following frequencies:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "2.4 GHz",
+      "2.4 - 5.0 GHz",
+      "900 MHz",
+      "1.2 GHz",
+      "900 MHz – 1.3 GHz"
+    ]
+  },
+  {
+    "question": "The maximal data rate per channel in the original 802.11 standard was:",
+    "answers": [4],
+    "exam": ".*",
+    "options": ["54 Mbps", "16 Mbps", "11 Mbps", "4 Mbps", "2 Mbps"]
+  },
+  {
+    "question": "How many IVs are available in WEP?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["\\(2^4\\)", "\\(2^{64}\\)", "\\(2^{128}\\)", "0", "24"]
+  },
+  {
+    "question": "What is true for WEP?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Mobile station and the access point get a session key from the LAN",
+      "Mobile station have a master key and produces a session key for the access point",
+      "Mobile station sends a key to the access point",
+      "Mobile station have a different key than the access point",
+      "Mobile station shares key with access point"
+    ]
+  },
+  {
+    "question": "In Wi-Fi what is the \"gold standard\"?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "That was the first certification standard that came from Motorola.",
+      "That was the second security standard that came from an alliance of hardware producers.",
+      "The pin connection in the mobile equipment has to be made by gold.",
+      "The pin connection in the mobile equipment has to be made by gold or silver.",
+      "To obtain the Wi-Fi certification - the product has to be compatible with the set of \"gold standard\" products."
+    ]
+  },
+  {
+    "question": "What encryption algorithm is used in WPA?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "RC4 with 40 bits key",
+      "RC4 with 104 bits key",
+      "AES with 128 bits key",
+      "RC4 with 128 bits key",
+      "AES with 256 bits key"
+    ]
+  },
+  {
+    "question": "What is the length of the user's secret key in GSM technology?",
+    "answers": [4],
+    "exam": "2007 Fall",
+    "options": [
+      "There is no such a security in GSM",
+      "56 bits",
+      "64 bits",
+      "96 bits",
+      "128 bits"
+    ]
+  },
+  {
+    "question": "In GSM, when a mobile is switched on, it registers its current location in a",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Authentication Centre",
+      "Roaming Data Center",
+      "Visitor Location Register",
+      "Home Location Register",
+      "Nearest Base Station"
+    ]
+  },
+  {
+    "question": "\"Protect against someone tracking the location of the user or identifying calls made to or from the user by eavesdropping on the radio path\" is the following GSM security feature:",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Encryption",
+      "Handover",
+      "Authentication",
+      "Confidentiality",
+      "Anonymity"
+    ]
+  },
+  {
+    "question": "In UMTS what kind of protection provides the \"Protection mode 2\" of MPSec?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Both integrity protection and encryption.",
+      "Just integrity protection.",
+      "Just encryption.",
+      "Just message authentication.",
+      "No protection"
+    ]
+  },
+  {
+    "question": "What is the crucial protocol in IMS?",
+    "answers": [2],
+    "exam": "2007 Fall",
+    "options": [
+      "DH key-exchange",
+      "AuC protocol",
+      "Session Initiation Protocol",
+      "The Proxy CSCF",
+      "The Interrogating CSCF"
+    ]
+  }
+]

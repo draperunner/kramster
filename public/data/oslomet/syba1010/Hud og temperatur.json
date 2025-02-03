@@ -1,0 +1,129 @@
+[
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Svettekjertlene stimuleres av det parasympatiske nervesystemet",
+      "Svetting er viktig for kroppens evne til å regulere temperatur",
+      "Svette bidrar til hudens infeksjonsforsvar ved å øke pH på huden",
+      "Svette består bare av vann"
+    ]
+  },
+  {
+    "question": "Hvilken mekanisme kan øke varmetapet fra kroppen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Reduksjon av blodstrømmen til huden",
+      "Reduksjon av blodstrømmen til temperaturreguleringssenteret",
+      "Økning av blodstrømmen til temperaturreguleringssenteret",
+      "Økning av blodstrømmen til huden"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om epidermis er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Epidermis består av enlaget plateepitel",
+      "Epidermis inneholder talgkjertler",
+      "Epidermis mangler blodårer",
+      "Epidermis ligger mellom dermis og subcutis"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om dermis er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Dermis består av plateepitel",
+      "I dermis er det både svettekjertler og talgkjertler",
+      "Dermis er det øverste laget av huden",
+      "I dermis produseres det melatonin"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om svettekjertler er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Svettekjertlene stimuleres av det parasympatiske nervesystemet",
+      "Svetting er viktig for kroppens evne til å regulere temperatur",
+      "Svette bidrar til hudens infeksjonsforsvar ved å øke pH på huden",
+      "Svette består av rent vann"
+    ]
+  },
+  {
+    "question": "Hvilken mekanisme kan begrense varmetap fra kroppen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Økning av blodstrømmen til huden",
+      "Økning av blodstrømmen til temperaturreguleringssenteret",
+      "Reduksjon av blodstrømmen til temperaturreguleringssenteret",
+      "Reduksjon av blodstrømmen til huden"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om kjertler er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Eksokrine kjertler skiller ut hormoner til blodbanen",
+      "Endokrine kjertler skiller ut slim eller et annet stoff til en epiteloverflate",
+      "Svettekjertler er eksokrine kjertler",
+      "Talgkjertler er endokrine kjertler"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om epitel er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Tarmslimhinnen består av flerlaget plateepitel",
+      "Endotel er det samme som flerlaget plateepitel",
+      "Epidermis består av enlaget sylinderepitel",
+      "Epidermis består av flerlaget plateepitel"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om temperaturregulering ved feber er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ved stigende feber er blodstrømmen i huden nedsatt",
+      "Ved stigende feber øker blodstrømmen i huden",
+      "Den forhåndsinnstilte temperaturen i hypotalamus senkes når feberen stiger",
+      "Det er typisk å få skjelvinger når feberen synker"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om talgkjertler er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Talg skilles bare ut via hårsekkene i hodebunnen",
+      "Talg senker hudens vannavstøtende egenskaper",
+      "Talg bidrar til hudens infeksjonsforsvar",
+      "Kjønnshormoner har ingen påvirkning på talgkjertlene"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om temperaturregulering ved feber er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ved begynnelsen av en feberepisode blir huden blek på grunn av nedsatt blodstrøm i huden",
+      "Ved feberstigning øker blodstrømmen i huden",
+      "Den forhåndsinnstilte temperaturen i hypothalamus senkes ved feber",
+      "Det er typisk å få skjelvinger når feberen synker"
+    ]
+  },
+  {
+    "question": "Hvilket hudlag består av flerlaget plateepitel?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Epidermis", "Dermis", "Subcutis", "Endotel"]
+  }
+]

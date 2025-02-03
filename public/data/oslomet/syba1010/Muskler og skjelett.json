@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Hvilket utsagn om muskulatur er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Skjelettmuskler består av glatt muskulatur",
+      "Muskulatur i urinblære og blodårer består av tverrstripet muskulatur",
+      "Skjelettmuskulatur er styrt av det autonome nervesystem",
+      "Viljestyrt muskulatur er styrt av det somatisk motoriske nervesystem"
+    ]
+  },
+  {
+    "question": "Hva er en motorisk enhet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Flere nerveceller som kontrollerer en muskelfiber",
+      "To muskler som sammen gir fleksjon og ekstensjon",
+      "En motorisk nervecelle og de muskelfibrene nervecellen kontrollerer",
+      "Muskel og muskelfascie (bindevevshinne)"
+    ]
+  },
+  {
+    "question": "Hva er fibula?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Leggbeinet", "Albubeinet", "Overarmsbeinet", "Kragebeinet"]
+  },
+  {
+    "question": "Hva kalles lårbeinet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Tibia", "Patella", "Fibula", "Femur"]
+  },
+  {
+    "question": "Hvilke to typer celler samarbeider om å forme beinvev?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Osteoblaster og osteoklaster",
+      "Adipocytter og hepatocytter",
+      "Endotelceller og stamceller",
+      "Epitelceller og fibroblaster"
+    ]
+  },
+  {
+    "question": "Hva menes med fleksjon i hofteleddet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Utoverføring av låret rett ut til siden",
+      "Innoverføring av låret tilbake til sagittalplanet",
+      "Dreiing av låret slik at kneskjellet peker utover",
+      "Bøying i hofteleddet slik at låret føres rett framover"
+    ]
+  },
+  {
+    "question": "Hva er skjelettmusklene festet til knoklene med?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Ligamenter", "Muskelfibrer", "Sener", "Periost"]
+  },
+  {
+    "question": "Hva er den latinske betegnelsen for overarmsknokkelen (overarmsbeinet)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Humerus", "Ulna", "Radius", "Olecranon"]
+  },
+  {
+    "question": "Hvor er musculus deltoideus plassert?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "På magen",
+      "På utsiden av skulderleddet",
+      "På setet",
+      "I låret"
+    ]
+  },
+  {
+    "question": "Hva er hovedfunksjonen til musculus gluteus maximus?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ekstensjon i hofteleddet",
+      "Fleksjon i kneleddet",
+      "Adduksjon i skulderleddet",
+      "Ekstensjon i albuleddet"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "question": "System requirements can be categorized as:",
+    "answers": [1, 2, 3],
+    "exam": ".*",
+    "options": [
+      "Architectural tactics",
+      "Constraints",
+      "Functional requirements",
+      "Quality attribute requirements"
+    ]
+  },
+  {
+    "question": "A quality attribute scenario is used to...",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Describe quality assurance",
+      "Describe quality requirements",
+      "Describe quality system design",
+      "Evaluate software architecture"
+    ]
+  },
+  {
+    "question": "Which part of a quality attribute scenario is used to specify how the system reacts?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Artefact", "Environment", "Response", "Response measure"]
+  },
+  {
+    "question": "Which part of a quality attribute scenario is used to specify the state of the system?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Artefact", "Environment", "Source of stimulus", "Stimulus"]
+  },
+  {
+    "question": "Which part of a quality attribute scenario specifies the part of the system being affected?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Artefact",
+      "Environment",
+      "Response measure",
+      "Source of stimulus"
+    ]
+  },
+  {
+    "question": "Tactics are in a software architecture context...",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Architectural design process",
+      "Architectural patterns",
+      "Design patterns",
+      "Primitive design techniques"
+    ]
+  },
+  {
+    "question": "Which category does the identification of important functionality and infrastructure belong to?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Allocation of responsibilities",
+      "Binding time decisions",
+      "Choice of technology",
+      "Data model"
+    ]
+  },
+  {
+    "question": "Which category does the selection of data abstractions, operations and properties belong to?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Binding time decisions",
+      "Coordination model",
+      "Data model",
+      "Mapping of resources"
+    ]
+  }
+]

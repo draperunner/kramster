@@ -7,11 +7,8 @@ import Courses from "./containers/Courses";
 import Exams from "./containers/Exams";
 import Questions from "./containers/Questions";
 import Result from "./containers/Result";
-import { useAnonymousLogin, UserContext } from "./auth";
 
 export default function Routes(): JSX.Element {
-  const user = useAnonymousLogin();
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -49,9 +46,5 @@ export default function Routes(): JSX.Element {
     },
   ]);
 
-  return (
-    <UserContext.Provider value={user}>
-      <RouterProvider router={router} />
-    </UserContext.Provider>
-  );
+  return <RouterProvider router={router} />;
 }

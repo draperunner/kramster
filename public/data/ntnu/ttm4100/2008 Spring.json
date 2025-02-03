@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Packet switching employs statistical multiplexing.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A server program requests and receives services from a client program.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Each user on an Ethernet LAN can continuously transmit at the transmission rate of the Ethernet LAN.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A router only processes the Network layer in the Internet protocol stack.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When a data unit moves from the upper layer to the lower layers, headers are added.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When a wireless network is operating in infrastructure mode, its hosts are normally associated with a base station.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Before an 802.11 station transmits a data frame, it must first send an RTS (Request-to-Send) frame and receive a corresponding CTS (Clear-to-Send) frame.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "TCP is always the preferred transport layer for live streaming media because it ensures that the content is transported to the client without error.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Circuit switching gives higher variation in the end-to-end transfer time than packet switching.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Connection-oriented service is always reliable.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "For a P2P file-sharing application, there is no notion of client and server sides of a communication session.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "HTTP runs on top of TCP.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "SMTP runs on top of UDP.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "FTP sends control information out-of-band.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "DNS (Domain Name System) is used to map hostnames to IP addresses.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "DNS uses a distributed database implemented in a hierarchy of DNS servers.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Web caching cannot reduce the delay in receiving a requested object.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "SMTP is used between mail servers in the Internet.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Only SMTP can be used between a user agent and a mail server.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "POP3 servers do not carry state information across POP3 sessions.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "UDP is a connectionless protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When TCP is used, the TCP port number at the receiver side must be the same as the sender side.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "To establish a TCP connection, the initial sequence numbers of both the sender and the receiver must be the same.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Flow control is needed because a sender may have too much data to send.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Transport layer protocol data units are processed by both routers and end hosts.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The sender is sending a large file to the receiver over a TCP connection. Assume the receiver has no data to send to the sender. Then, the receiver will not send acknowledgements to the sender because the receiver cannot piggyback the acknowledgements on data.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The sender is sending a large file to the receiver over a TCP connection. The number of unacknowledged bytes that the sender sends cannot exceed the size of the receiver buffer.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With the Selective-Repeat protocol, it is possible for the sender to receive an ACK for a packet that falls outside of its current window.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With the Go-Back-N protocol, it is possible for the sender to receive an ACK for a packet that falls outside of its current window.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "TCP is a reliable protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The Network Layer is responsible to provide reliable end-to-end transmission.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The network layer can only be connectionless.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a packet-switched network, routers must remember what connection each packet belongs to.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The forwarding process of a router is responsible for transferring a packet from an incoming link to an outgoing link.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "While forwarding is within a single router, routing involves all routers in a network.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A virtual circuit is more robust concerning network errors because it knows the destination of the packets.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In the Internet, a node may receive multiple copies of the same packet.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Each router only has one IP address.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With DHCP, a host may be assigned an IP address that is different each time the host is connected to the network.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "NAT (Network Address Translation) is used to translate hostnames into IP addresses",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If all the links in the Internet were to provide reliable delivery service, then the TCP reliable delivery service would be redundant.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Link layer also needs to provide flow control.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In CRC (Cyclic Redundancy Check), the generator polynomials used by the sender and the receiver need not be the same.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Dividing the binary value 10011100 by 1001 gives a remainder of 100.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose a parity bit is used to detect single bit errors in a bit-string of 7 bits. If even parity is used and the controlled bit-string has the value 1110101, then the value of the parity bit is 1.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With half-duplex, a node cannot transmit and receive at the same time.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The slotted ALOHA protocol is more efficient than the pure ALOHA.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Hubs use the frame destination address to route frames to their destination.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Ethernet only provides connectionless service to the network layer.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Ethernet only provides unreliable service to the network layer.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A signal coming out of a low-pass filter of bandwidth H can be completely reconstructed by sampling at the rate of 2H.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Frequency modulation, amplitude modulation and phase modulation can be used together.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "There is no limit on the maximum data rate that can be achieved by an ideal channel with no error.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Consider the maximum data rate that can be achieved by a noisy channel. The rate calculated from the Shannon theorem is always smaller than the rate calculated from the Nyquist theorem.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A binary signal with period T cannot be represented by a Fourier series with limited frequency elements.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "It is impossible for a CDN (Content Distribution Network) to provide worse performance to a host requesting a multimedia object than if the host has requested the object directly from the distant origin server.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In order to maintain registration, SIP (Session Initiation Protocol) clients must periodically send REGISTER messages.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If stored video is streamed directly from a Web server to a media player, the application is using TCP as the underlying transport protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With mobile IP, mobility does not affect end-to-end delays between the source and destination.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If a node has a wireless connection to the Internet, it has to be mobile.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  }
+]

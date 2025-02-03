@@ -1,15 +1,13 @@
 import styles from "./Jumbotron.module.css";
 
-import { Grade } from "../../interfaces";
 import DivChart from "../DivChart";
 
-interface Props {
-  gradesData?: {
-    [grade in Grade]: number;
-  };
-}
+const randomChartData = new Array(6).fill(0).map((_, i) => ({
+  label: String.fromCharCode(65 + i),
+  value: Math.random(),
+}));
 
-const Jumbotron = (props: Props): JSX.Element => {
+const Jumbotron: React.FC = () => {
   const subtitle = (): string => {
     const subtitles = [
       "Will you improve the statistics?",
@@ -27,18 +25,7 @@ const Jumbotron = (props: Props): JSX.Element => {
   return (
     <div className={styles.jumbotron}>
       <h1 className={styles.title}>Kramster!</h1>
-      {props.gradesData ? (
-        <DivChart
-          height={370}
-          data={Object.keys(props.gradesData)
-            .sort()
-            .reverse()
-            .map((label) => ({
-              label,
-              value: props.gradesData?.[label as Grade] || 0,
-            }))}
-        />
-      ) : null}
+      <DivChart height={370} data={randomChartData} />
       <p className={styles.subtitle}>{subtitle()}</p>
     </div>
   );

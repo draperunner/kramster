@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Fargehistogrammer er ikke nyttig for gjenfinning av videosnutter.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "«E-measure» kan sees som en generalisering av «Harmonic Means».",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Søkemotorer med «Harvest»-arkitektur er en variant av sentralisert web-søkemotorarkitektur.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Thesaurus er et verktøy til å forbedre spørringer og brukes ofte i forbindelse med «automatic local analysis».",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "«Gatherer» brukes som en «crawler» i distribuerte web-søkemotorer.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Bilde-features kan ikke brukes i videogjenfinningsprosesser.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "En SQL-database er godt egnet til innholdsbasert bildegjenfinning (content-based image retrieval).",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Entropi er et konsept som brukes ofte til å karakterisere innholdet i informasjon.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "I en Ordbokbasert (Dictionary-based) metode oppnås komprimering ved å bytte grupper av etterfølgende symboler (eller fraser) med peker til et innslag i ordboka.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Micon er en viktig feature for bilder og brukes i bildegjenfinning, og kan sees som en analogi av r-frames innen videogjenfinning.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  }
+]

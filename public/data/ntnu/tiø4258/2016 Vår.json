@@ -1,0 +1,297 @@
+[
+  {
+    "question": "En mulighetsanalyse bør inneholde ...",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Svært grundige økonomiske analyser slik at man har et godt beslutningsgrunnlag",
+      "En innledende vurdering av tekniske, markedsmessige, organisatoriske og økonomiske forhold knyttet til ideen.",
+      "Bør ha sitt hovedfokus på forretningsmodell.",
+      "Bør som et minimum ha med visjon, forretningside, målsetninger, strategi, handlingsplan og økonomi."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander er korrekt om kunnskapsbaserte bedrifter som har vekstambisjoner?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Bedrifter som lykkes godt kommersielt har nesten alltid en ide som kan beskyttes med patenter.",
+      "Det beste er å være alene som entreprenør i oppstarten, da har man kontroll på alt og kan rekruttere de menneskene man trenger.",
+      "En oppstart som gjøres av et team lykkes som regel best kommersielt.",
+      "En teknologibedrift som skal vokse må alltid ha med seg et venturekapitalfond på eiersiden for å lykkes."
+    ]
+  },
+  {
+    "question": "Venturekapital hevdes å være «smarte penger». Hvilken av fordelene under blir ikke tilbudt av venturekapitalister?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Tilgang til større nettverk",
+      "Økt legitimitet",
+      "Strategisk kompetanse",
+      "En forsikring mot konkurs."
+    ]
+  },
+  {
+    "question": "VRIO-rammeverket forteller oss hvilke egenskaper en ressurs må ha dersom den skal gi mulighet for å skape et vedvarende konkurransefortrinn. Hva står R-en i rammeverket for?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rare", "Rapid", "Rich", "Real"]
+  },
+  {
+    "question": "Hvilken av følgende påstander om finansiering av kunnskapsbedrifter med vekstpotensial er korrekt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "I tidlig fase vil forretningsbankene som regel være den mest sentrale kilden til finanskapital.",
+      "Bankene vil normalt sett ikke engasjere seg med egenkapitalfinansiering til potensielle vekstbedrifter.",
+      "Sparebankene engasjerer seg ofte finansielt i tidlig fase, mens forretningsbankene kommer mer på banen i senere faser av livsløpet.",
+      "Venturekapital fond er den mest vanlige typen investor i nye kunnskapsbedrifter"
+    ]
+  },
+  {
+    "question": "Hvilket av utsagnene er korrekt?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "I komplementaritetsstadiet i læringslivssyklusen vil det være naturlig for en bedrift å både se etter muligheter for komplementaritet mellom egne produkter og forretningsenheter, og å bygge nettverk med andre bedrifter som kan forsterke verdiløftet til kundene.",
+      "I ytelsesstadiet i læringslivssyklusen investerer de fleste bedriftene i å forbedre ytelsen til produktet så raskt som mulig, og ofte er det kun én ytelsesdimensjon som blir målt.",
+      "I effektivitetsstadiet i læringslivssyklusen skifter fokuset til å effektivt skape mer verdi til kundene, f.eks. gjennom forbedringer i verdikjede, design, markedsføring eller produksjonsprosess.",
+      "Alle alternativene er korrekte."
+    ]
+  },
+  {
+    "question": "Hva er de fire grunnleggende utfordringene ved organisasjonsdesign? Velg alternativ D dersom verken A, B eller C er korrekte.",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Å definere arbeidsdelingen, (2) å formalisere arbeidsoppgavene, (3) å motivere de ansatte, (4) å designe kontrollsystemer.",
+      "Differensiering, (2) balansering av differensiering og integrering, (3) balansering av sentralisering og desentralisering, (4) balansering av standardisering og gjensidig tilpasning.",
+      "å kartlegge rammebetingelsene, (2) å skreddersy egen organisering til bedriftens usikkerhetskilder, (3) å designe den interne strukturen ut i fra bedriftens omgivelser, (4) å kontinuerlig skape gjensidig tilpasning mellom bedriften og omgivelsene.",
+      "Ingen alternativene er korrekte."
+    ]
+  },
+  {
+    "question": "Hvilket av utsagnene er korrekt?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "En funksjonsstruktur er særlig egnet når ansatte trenger å lære fra hverandre for å bli mer spesialiserte og produktive.",
+      "Kontrollproblemer kan oppstå når man produsere mange typer produkter på mange steder. Den vanligste strukturtypen en organisasjon anvender for å håndtere disse problemene er divisjonsstrukturen.",
+      "Med en flat matrise, samt få regler og standardprosedyrer, mangler matrisestrukturen fordelen man får ved en byråkratisk struktur – nemlig en kontrollstruktur som gjør at de ansatte kan danne stabile forventninger til hverandre.",
+      "Alle alternativene er korrekte."
+    ]
+  },
+  {
+    "question": "Hvilket av utsagnene er korrekt?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Personer som har en ekstern kontrollplassering (external locus of control) ønsker i større grad enn de med en intern kontrollplassering (internal locus of control) å oppføre seg på en sosialt akseptabelt måte, og følger derfor spesielt med på signaler som indikerer passende eller upassende adferd.",
+      "I læreboken nevnes tre primære typer individuelle forskjeller, (1) personlighetsforskjeller, (2) evneforskjeller og (3) preferanseforskjeller.",
+      "Personer som scorer høyt på nevrotisisme (neuroticism) har en tendens til å oppleve negative emosjonelle tilstander, føle seg stresset og generelt se seg selv og verden rundt seg på en negativ måte.",
+      "Alle alternativene er korrekte."
+    ]
+  },
+  {
+    "question": "Hvilket av utsagnene er korrekt?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Den sosiale informasjonsprosesserings-modellen (the social information\nprocessing model) innebefatter både intern og ekstern motivasjon.",
+      "Jobberikelse er en form for ekstern motivasjon som kan brukes i flere typer\njobbdesign.",
+      "Scientific Management var mer opptatt av intern motivasjon enn ekstern.",
+      "Ingen alternativene er korrekte."
+    ]
+  },
+  {
+    "question": "En bedrift produserer mengden Q. Bedriften har strengt positive variable kostnader og strengt positive faste kostnader. Hva er den mest korrekte tolkningen av det bestemte integralet av marginalkostnadene fra null til Q?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Variable kostnader for mengden Q.",
+      "Gjennomsnittskostnader for mengden Q.",
+      "Totalkostnader for mengden Q.",
+      "Produsentoverskudd for mengden Q."
+    ]
+  },
+  {
+    "question": "Gjennomsnittskostnadene til en bedrift er 10, mens marginalkostnadene er 12. Hva vil skje med gjennomsnittskostnadene og totalkostnadene ved en (marginal) økning i mengden?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Gjennomsnittskostnadene øker, mens totalkostnadene minker.",
+      "Gjennomsnittskostnadene minker, mens totalkostnadene øker.",
+      "Både gjennomsnittskostnadene og totalkostnadene øker.",
+      "Både gjennomsnittskostnadene og totalkostnadene minker."
+    ]
+  },
+  {
+    "question": "Ta utgangspunkt i et monopolmarked med normal etterspørsel slik at det er en negativ sammenheng mellom mengde og pris. Monopolet har strengt positiv marginalinntekt og maksimerer profitt. Hva kan vi da si om relasjonen mellom pris og marginalinntekt?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Prisen er lik marginalinntekten.",
+      "Prisen er mindre enn marginalinntekten.",
+      "Prisen er større enn marginalinntekten.",
+      "Ingenting generelt – pris kan være lik, større eller mindre enn marginalinntekten."
+    ]
+  },
+  {
+    "question": "Ta utgangspunkt i et marked med normal etterspørsel slik at det er en negativ sammenheng mellom mengde og pris. Hvilke tilstander for etterspørselselastisitet, marginalinntekt og totalinntekt hører sammen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Absoluttverdien av elastisiteten er større enn 1, marginalinntekten er negativ og totalinntekten er maksimal.",
+      "Absoluttverdien av elastisiteten er 1, marginalinntekten er maksimal og totalinntekten er null.",
+      "Absoluttverdien av elastisiteten er større enn 1, marginalinntekten er null og totalinntekten er minimal.",
+      "Absoluttverdien av elastisiteten er 1, marginalinntekten er null og totalinntekten er maksimal."
+    ]
+  },
+  {
+    "question": "En bedrift tilpasser seg optimalt i et frikonkurransemarked. Hva kan vi da si generelt om marginalkostnader og fortegnet til profitten for bedriften?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ved optimal tilpasning er bedriftens marginalkostnader lik prisen i markedet, men vi kan ikke si sikkert om profitten er positiv eller negativ.",
+      "Ved optimal tilpasning er bedriftens marginalkostnader lavere enn prisen i markedet, men vi kan ikke si sikkert om profitten er positiv eller negativ.",
+      "Ved optimal tilpasning er bedriftens marginalkostnader lik prisen i markedet, og profitten vil være positiv.",
+      "Ved optimal tilpasning er bedriftens marginalkostnader lavere enn prisen i markedet, og profitten vil være positiv."
+    ]
+  },
+  {
+    "question": "Et monopol som har marginalkostnader på 20, har etterspørsel gitt ved 𝑃 = 200 − 0,01𝑄 der 𝑃 er prisen og 𝑄 er mengden. Hvilken mengde vil maksimere monopolets profitt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["4 500", "9 000", "13 500", "18 000"]
+  },
+  {
+    "question": "Som følge av lavere oljepriser reduseres marginalkostnadene og gjennomsnittskostnadene til et monopol som selger til forbrukere. Hva kan vi da forvente om effekten på monopolets profitt og på konsumentoverskuddet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Konsumentoverskuddet påvirkes ikke, og monopolets profitt øker mindre enn reduksjonen i gjennomsnittskostnader ganger produsert mengde før oljeprisnedgangen.",
+      "Konsumentoverskuddet går ned, og monopolets profitt øker mindre enn reduksjonen i gjennomsnittskostnader ganger produsert mengde før oljeprisnedgangen.",
+      "Konsumentoverskuddet øker, og monopolets profitt øker mer enn reduksjonen i gjennomsnittskostnader ganger produsert mengde før oljeprisnedgangen.",
+      "Konsumentoverskuddet øker, og monopolets profitt øker mindre enn reduksjonen i gjennomsnittskostnader ganger produsert mengde før oljeprisnedgangen."
+    ]
+  },
+  {
+    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved 𝑃 = 200 − 𝑄 der 𝑃 er prisen og 𝑄 er mengden. Bedriftene har begge konstante marginalkostnader på 𝐶. Hva blir et korrekt uttrykk for total mengde i markedet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "\\( Q = \\frac{200-C}{2} \\)",
+      "\\(Q = \\frac{200-C}{3}\\)",
+      "\\(Q = \\frac{400-C}{3}\\)",
+      "\\(Q = \\frac{400-2C}{3}\\)"
+    ]
+  },
+  {
+    "question": "En bedrift finansiert av både egenkapital og gjeld har høyere egenkapitalrentabilitet enn renten på gjeld og renten på gjeld er positiv. Hva kan vi da si om totalkapitalrentabiliteten?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Totalkapitalrentabiliteten er høyere enn egenkapitalrentabiliteten.",
+      "Totalkapitalrentabiliteten er lavere enn renten på gjelden.",
+      "Totalkapitalrentabiliteten er lik summen av egenkapitalrentabilitet og rente på gjeld.",
+      "Totalkapitalrentabiliteten ligger en plass mellom renten på gjeld og egenkapitalrentabiliteten."
+    ]
+  },
+  {
+    "question": "En bedrift har ikke varelager. Omløpsmidlene består kun av kontanter. Og kortsiktig gjeld er bare leverandørgjeld. Hva kan vi da si om relasjonen mellom likviditetsgrad 1 (current ratio) og likviditetsgrad 2 (acid test ratio)?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Ingenting. Vi må ha mer informasjon for å kunne si noe.",
+      "Likviditetsgrad 1 er større enn likviditetsgrad 2.",
+      "Likviditetsgrad 1 er mindre enn likviditetsgrad 2.",
+      "Likviditetsgrad 1 er lik likviditetsgrad 2."
+    ]
+  },
+  {
+    "question": "Hva er tanken bak bruken av alternativkostnaden til kapital i forbindelse med beregninger av nettonåverdi for investeringsprosjekter?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det skal sikre at bare prosjekter som alltid vil bidra til positiv profitt for selskapet blir gjennomført.",
+      "Det skal sikre at bare prosjekter med høyere avkastning enn forventet avkasting i aksjemarkedet blir gjennomført.",
+      "Det skal sikre at alle prosjekter med internrente høyere enn gjeldsrenten blir gjennomført.",
+      "Det skal sikre at investeringsprosjekter internt i bedriften er minst like lønnsomme som investeringer eierne kan gjøre på egen hånd i kapitalmarkedene."
+    ]
+  },
+  {
+    "question": "Nåverdien av 1 000 000 som er forventet å bli mottatt ett år fra i dag, med en diskon- teringsrente på 4 % pr år er nærmest:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["961 538", "980 392", "990 099", "1 004 000"]
+  },
+  {
+    "question": "Et produktutviklingsprosjekt er tenkt å gjennomføres i tre faser. Dersom det er vellykket hele veien, forventes det å gi en positiv kontantstrøm på 100 millioner med sannsynlighet 75 % og 50 millioner med sannsynlighet 25 % om tre år. Imidlertid vil det kunne bli avsluttet etter ett eller etter to år. Da blir det ingen kontantstrøm etter tre år. Sannsynligheten for at det avsluttes etter ett år er 20 %. Gitt at det ikke avsluttes da, er sannsynligheten for at det avsluttes etter to år på 30 %. Avkastningskravet er 10 % pr år. Hva er forventet nåverdi av de mulige kontantstrømmene om tre år?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "32,9 millioner",
+      "36,8 millioner",
+      "44,5 millioner",
+      "49,0 millioner"
+    ]
+  },
+  {
+    "question": "En investor kan kombinere bankinnskudd eller lån til samme rente på 3% med en andel i nøyaktig ett av aksjefondene A, B, C eller D. Tabellen under viser forventet avkastning og risiko målt med standardavvik for fondene.\n<img class=\"img-responsive\" src=\"data:image/png;base64,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\n\" />\nHvilket av aksjefondene vil investoren velge?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["A", "B", "C", "D"]
+  },
+  {
+    "question": "Den andelen av risiko som kan elimineres ved diversifisering kalles:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Unik risiko.",
+      "Markedsrisiko.",
+      "Systematisk risiko.",
+      "Konkursrisiko."
+    ]
+  },
+  {
+    "question": "Hva er den mest korrekte beskrivelsen av hva investorer forventes å ville oppnå ved diversifisering?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Investorer utnytter diversifisering med sikte på å minimere risiko.",
+      "Investorer utnytter diversifisering med sikte på å maksimere risiko.",
+      "Investorer utnytter diversifisering med sikte på å få et bedre forhold mellom risikopremie og risiko.",
+      "Investorer utnytter diversifisering med sikte på å få et bedre forhold mellom forventet avkastning og risiko."
+    ]
+  },
+  {
+    "question": "Beta til aksjen til et selskap er 1,2. Forventet avkastning i markedet er 7 % og risikofri rente er 2 %. Anta at Capital Asset Pricing Model, dvs. kapitalverdimodellen, er korrekt. Hva er da forventet avkastning til aksjen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["3,0 %", "7,0 %", "8,0 %", "10,4 %"]
+  },
+  {
+    "question": "Hva kan vi si om kapitalmarkedslinjen og verdipapirmarkedslinjen?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Kapitalmarkedslinjen og verdipapirmarkedslinjen uttrykker nøyaktig samme sammenheng.",
+      "Kapitalmarkedslinjen reflekterer effektive porteføljer når risiko måles ved standardavvik, mens verdipapirmarkedslinjen gjelder også for enkeltinvesteringer når risiko måles med beta.",
+      "Kapitalmarkedslinjen reflekterer kapitalverdimodellen (CAPM), mens verdipapirmarkedslinjen utrykker grensen for diversifisering.",
+      "Kapitalmarkedslinjen uttrykker sammenhengen mellom standardavvik og beta, mens verdipapirmarkedslinjen uttrykker sammenhengen mellom standardavvik og forventet avkastning."
+    ]
+  },
+  {
+    "question": "Et selskap har gjeld på én milliard med en årlig rente på 3 %. Selskapsskattesatsen er 25 %. Når vi ser bort fra alle andre skatter, hva er skattefordelen av gjeld per år?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["0", "7,5 millioner", "30 millioner", "250 millioner"]
+  },
+  {
+    "question": "Investor A vil få utbetalt et stort beløp om ett år. Investor B eier 100 000 aksjer som A har lyst til å overta, men som han ikke ønsker å kjøpe før han får den nevnte utbetalingen. Anta nå at de to investorene inngår en avtale om at A skal kjøpe aksjene fra B om ett år til en pris som spesifiseres i avtalen. Se bort fra risiko i avtaleforholdet – anta at det er helt sikkert at avtalen vil bli gjennomført som spesifisert. Aksjene har beta på 1,5 og har markedsverdi på 200 pr stk. Markedspremien er 5 % og risikofri rente er 2 %. Dersom de to investorene opptrer i tråd med kapitalverdimodellen, CAPM, hvilken pris vil de avtale pr aksje?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["200", "204", "214", "219"]
+  }
+]

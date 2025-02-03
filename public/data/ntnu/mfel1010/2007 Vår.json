@@ -1,0 +1,462 @@
+[
+  {
+    "question": "Kalium har høyere konsentrasjon intracellulært enn ekstracellulært. Dette gjør at kalium langsomt lekker ut av cellene. Hva heter denne prosessen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Osmose", "Aktiv transport", "Exocytose", "Diffusjon"]
+  },
+  {
+    "question": "Hvilken av disse prosessene skjer i mitochondriene?",
+    "answers": [1, 2],
+    "exam": ".*",
+    "options": [
+      "Proteinsyntese",
+      "DNA syntese",
+      "ATP syntese",
+      "Kalsium lagring og frisetting"
+    ]
+  },
+  {
+    "question": "Hvilken vevstype er beinvev?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Epitelvev", "Muskelvev", "Bindevev", "Nervevev"]
+  },
+  {
+    "question": "Hva er proteiner bygd opp av?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Aminosyrer", "ATP", "Nukleotider", "Fosfolipider"]
+  },
+  {
+    "question": "Hoveddelen av cellas DNA finnes i cellekjernen. Hvilke organeller har også DNA?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Golgi apparatet",
+      "Endoplasmatisk reticulum",
+      "Centrosomer",
+      "Mitochondriene"
+    ]
+  },
+  {
+    "question": "Hva er knoklene i leddflatene kledd med?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Epitel", "Endotel", "Fibrøst bindevev", "Brusk"]
+  },
+  {
+    "question": "Hva betyr abduksjon?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Løfting av arm eller bein ut fra midtlinja",
+      "Bevegelse av arm eller bein inn mot midtlinja",
+      "Bøyning i albuen eller kneet",
+      "Rotasjon av underarmen så håndflata vender fram handflata vender fram"
+    ]
+  },
+  {
+    "question": "Hva gjør osteoklaster?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Bryter ned bein",
+      "Omdanner brusk til bein",
+      "Bygger opp nytt bein",
+      "Reparerer brudd"
+    ]
+  },
+  {
+    "question": "Hvor mange halsvirvler har vi?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["4", "5", "7", "12"]
+  },
+  {
+    "question": "Hva slags ledd er skulderleddet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Glideledd", "Hengselledd", "Kuleledd", "Fibrøst (falskt) ledd"]
+  },
+  {
+    "question": "Eksitasjon av en muskelcelle utløser en kontraksjon (eksitasjons- kontraksjonskopling) ved at en intracellulært signalsubstans binder seg til troponinhodene på actinmolekylet. Hva er signalsubstansen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["ATP", "K+", "Na+", "Ca2+"]
+  },
+  {
+    "question": "Hva kalles muskler som beveger et ledd i to motsatte retninger?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Agonister", "Antagonister", "Synergister", "Primærmuskler"]
+  },
+  {
+    "question": "Kva kalles bøyemuskler?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Flexorer", "Extensorer", "Rotatorer", "Adduktorer"]
+  },
+  {
+    "question": "Myastenia gravis er en sykdom med progressiv muskelsvekkelse. Hva er mekanismen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Gradvis tap av myofibriller",
+      "Gradvis tap av muskelceller",
+      "Gradvis tap av acetylcholinreseptorer",
+      "Gradvis økning av bindevev i musklene"
+    ]
+  },
+  {
+    "question": "Hvilken av disse musklene er en albubøyer?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Musculus Brachialis",
+      "Musculus Triceps Brachii",
+      "Musculus Pectoralis Major",
+      "Musculus Deltoideus"
+    ]
+  },
+  {
+    "question": "Balanseorganet oppfatter bevegelse og posisjon i rommet. Hvor ligger sansecellene for dette?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Hjerneventriklene", "Det indre øret", "Mellomøret", "Bihulene"]
+  },
+  {
+    "question": "Hva er presbyopi?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Nærsynthet",
+      "Langsynthet",
+      "Manglende nærinstilling",
+      "Uklar linse"
+    ]
+  },
+  {
+    "question": "Et slag skader synshjernebarken på høyre side, og gir et synsfeltutfall. Hvor?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Høyre øye",
+      "Venstre øye",
+      "Høyre synsfelt på begge øyne",
+      "Venstre synsfelt på begge øyne"
+    ]
+  },
+  {
+    "question": "Hva heter den ytterste, tykkeste av hjernehinnene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Dura mater", "Pia mater", "Arachnoidea", "Hjernebarken"]
+  },
+  {
+    "question": "Hva er nedbrytningsproduktet av heme (en del av hemoglobinmolekylet)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Urinsyre", "Urea", "Bilirubin", "Gallesalter"]
+  },
+  {
+    "question": "Hva er hematokrit?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Hemoglobinkonsentrasjonen i g",
+      "Fraksjonen av blodvolumet som består av erytrocytter i %",
+      "Antall erytrocytter i mill",
+      "Antall leukocytter"
+    ]
+  },
+  {
+    "question": "Blodet koagulerer som følge av en kjedereaksjon mellom visse plasmaproteiner - koagulasjonsfaktorene. Hvor syntetiseres de fleste av dem?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Levra", "Beinmargen", "Trombocyttene", "Leukocyttene"]
+  },
+  {
+    "question": "Hvilket vitamin er nødvendig for normal syntese av koagulasjonsfaktorene?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin K"]
+  },
+  {
+    "question": "Og hvilket ion er nødvendig for normal koagulasjon?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Na+", "Ca2+", "Mg2+", "Fe2+"]
+  },
+  {
+    "question": "Hva er virkningen av kabonmonoksyd på blodet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det hemmer koagulasjonen",
+      "Det hemmer immunsystemet",
+      "Det hemmer oksygentransporten",
+      "Det hemmer karbondioksydtransporten"
+    ]
+  },
+  {
+    "question": "En lekkasje i aortaklaffen gir opphav til en bilyd. Når i hjertesyklus vil den høres?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "I systole",
+      "I diastole",
+      "Både i systole og diastole",
+      "I PQ-intervallet"
+    ]
+  },
+  {
+    "question": "Hva er den viktigste regulator for hjerteaksjonen i hvile?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Blodtrykket", "Oksygenmetningen", "Blodets pH", "Temperaturen"]
+  },
+  {
+    "question": "Hva er mekanismen for et hjerteinfarkt?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Emboli til en kransåre fra en vene i bena",
+      "Akutt trykkstigning i venstre hjertekammer",
+      "Infeksjon i hjertemuskelen",
+      "Lokal trombose i en kransåre"
+    ]
+  },
+  {
+    "question": "Hvilken av disse tilstandene kan gi et hypovolemisk sjokk?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Hjerteinfarkt", "Allergi", "Diaré", "Urinveisinfeksjon"]
+  },
+  {
+    "question": "Hvor i kartreet er den største motstanden og det største trykkfallet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Arteriene", "Arteriolene", "Kapillærene", "Venylene"]
+  },
+  {
+    "question": "Hva er mekanismen for diabetes type 2?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Redusert insulinmengde",
+      "Redusert insulinsensitivitet",
+      "Økt glucagonmengde",
+      "Økt glucagonsensitivitet"
+    ]
+  },
+  {
+    "question": "Hvilket vitamin er viktig for normal kalsiumbalanse?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin K"]
+  },
+  {
+    "question": "Hvilket hormon styrer basalstoffskiftet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Thyroxin", "Parathormon", "Veksthormon", "Aldosteron"]
+  },
+  {
+    "question": "Hva er mekanismen for thyreotoxikose (Graves sykdom)?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Jodmangel",
+      "Virusinfeksjon i tyroidea",
+      "Oppregulering av antall TSH reseptorer",
+      "Antistoff som binder seg til TSH reseptorer"
+    ]
+  },
+  {
+    "question": "Hva er funksjonen til adrenalin",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Øker puls og blodtrykk",
+      "Øker vann- og saltutskillelsen",
+      "Senker blodsukkeret",
+      "Senker kalsiumnivået I blodet"
+    ]
+  },
+  {
+    "question": "Hva er en respiratorisk acidose?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Redusert pH på grunn av økt produksjon av syre",
+      "Redusert pH på grunn av retensjon av CO2",
+      "Økt pH på grunn av tap av syre",
+      "Økt pH på grunn av utlufting av CO2"
+    ]
+  },
+  {
+    "question": "Hvor sitter senteret for autonom kontroll av respirasjonen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Storehjernen", "Lillehjernen", "Hjernestammen", "Ryggmargen"]
+  },
+  {
+    "question": "Og hva er viktigste stimulus for respirasjonen hos friske?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["PO2", "Osmolaritet", "PCO2", "Blodtrykket"]
+  },
+  {
+    "question": "Hva er de viktigste sekretene for absorpsjon av fett i tarmen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Saltsyre og pepsin",
+      "Trypsin og amylase",
+      "Gallesalt og lipase",
+      "Bilirubin og cholesterol"
+    ]
+  },
+  {
+    "question": "Body mass index (BMI) er et mål (egentlig vekt justert for høyde: BMI = V / h^2). Hvilken BMI er grensen mellom overvekt og fedme?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["19", "25", "30", "35"]
+  },
+  {
+    "question": "Hva er et onkogen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Et gen som reparerer DNA og fjerner mutasjoner",
+      "Et gen som er vekstregulerende og som kan gi celledød",
+      "Et vekstregulerende gen som er mutert",
+      "Et gen som gir evne til angiogenese"
+    ]
+  },
+  {
+    "question": "I en kasus kontroll studie av lungekreft intervjuet den ansvarlige legen de 200 pasientene, mens forskerlinjestudenten hennes påtok seg å intervjue det samme antall personer i kontrollgruppen. Alle var innlagt på det samme sykehuset og personene i kontrollgruppen var matchet for alder, kjønn og sosioøkonomisk status. Blant kreftpasientene oppga 50 % at de drakk alkohol minst en gang i uka, mens denne andelen var 30% i kontrollgruppen. Forskjellen var statistisk signifikant. Konklusjonen om at lungekreft er assosiert med ukentlig alkoholinntak er:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Riktig",
+      "Uriktig fordi sammenlikningen ikke er basert på insidensrater samanlikninga ikkje er basert på insidensrater",
+      "Uriktig fordi gruppene ikke er sammenlignbare pga utilstrekkelig matching fordi gruppene ikkje er samanliknbare pga utilstrekkelig matching",
+      "Uriktig fordi opplysningsbias kan forklare resultatene kan forklare resultatene"
+    ]
+  },
+  {
+    "question": "En pasient oppsøker legen med utslett over hele kroppen. Det kommer fram at han noen måneder tidligere hadde et sår på penis, som imidlertid grodde av seg selv. Legen mistenker kjønnssykdom. Hvilken?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Syfilis", "Gonorré", "Chlamydia", "Herpes"]
+  },
+  {
+    "question": "Hva er den viktigste årsak til hjerneslag?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Blødning", "Skade", "Blodpropp", "Infeksjon"]
+  },
+  {
+    "question": "Hvilke typer energi gir billeddannelsen ved CT?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Gammastråler",
+      "Røntgenstråler",
+      "Ultralydbølger",
+      "Radiobølger"
+    ]
+  },
+  {
+    "question": "Hvilken av disse begrepene har en endelse som viser at det dreier seg om smerter?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Meningitt", "Hemiparese", "Myalgi", "Fibrose"]
+  },
+  {
+    "question": "Når starter atriesystole i forhold til EKG?",
+    "answers": [0, 1],
+    "exam": ".*",
+    "options": ["P-bølgen", "QRS komplekset", "T-bølgen", "U-bølgen"]
+  },
+  {
+    "question": "Hoveddelen av karbondioksyd fraktes i blodet som",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Fysikalsk oppløst gass i plasma",
+      "Bundet til hemoglobin",
+      "Bundet til plasmaprotein",
+      "Som bikarbonat ioner"
+    ]
+  },
+  {
+    "question": "De første tre månedene av svangerskapet opprettholdes ovarienes produksjon av progesteron av",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["FSH", "LH", "HCG", "Østrogen"]
+  },
+  {
+    "question": "Hva består hjertets ledningssystem av?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Autonome nerver",
+      "Spesialiserte muskelceller",
+      "Bindevevsfibre",
+      "Blodbanen"
+    ]
+  },
+  {
+    "question": "Hva er hovedproblemet med et skiveprolaps?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Redusert bevegelighet av ryggvirvlene",
+      "Betennelse omkring skiven",
+      "Trykk på nerverøttene",
+      "Muskelsvekkelse I ryggen"
+    ]
+  },
+  {
+    "question": "Hva karakteriserer sirkulasjonssjokk?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Nedsatt blodtrykk, men normal sirkulasjon",
+      "Nedsatt blodtrykk og nedsatt sirkulasjon",
+      "Normalt blodtrykk og normal sirkulasjon",
+      "Nedsatt blodtrykk under arbeid"
+    ]
+  },
+  {
+    "question": "Hva er mekanismen for revmatoid arthritt?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Infeksjon",
+      "Aldersdegenerasjon",
+      "Atoimmun betennelse",
+      "Utfelling av urinsyre"
+    ]
+  },
+  {
+    "question": "Dykkersyke er en tilstand som kan inntreffe etter dykk til store dyp. Hva er mekanismen for dette?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Knusning av cellene på grunn av høyt trykk i dypet.",
+      "Dannelse av gassobler på grunn av dekompresjon.",
+      "Oksygenmangel under dykket.",
+      "Utlufting av karbondioksyd ved hyperventilering."
+    ]
+  },
+  {
+    "question": "Hvilket vitamin er nødvendig for normalt nattsyn?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin K"]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Hvorfor er biologisk-inspirerte teknikker noen ganger aktuelle alternativer til tradisjonelle metoder?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Biologisk inspirerte teknikker er de eneste metodene som kan oppnå virkelig intelligente systemer",
+      "Biologisk inspirerte teknikker er mer motiverende å jobbe med",
+      "Biologiske systemer kan implementeres direkte i maskinvare",
+      "Tradisjonelle metoder gir sjelden de beste løsningene",
+      "Biologiske systemer har ofte attraktive egenskaper som kan være fraværende i datamaskiner"
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende punktene er ikke en konsekvens av Moores lov?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Arbitrering på serielle busser bør helst skje distribuert.",
+      "Økt prosessorytelse.",
+      "Økt lagringskapasitet pr. minnebrikke.",
+      "Økt forskjell mellom hastigheten til prosessor og minnesystem.",
+      "God treffrate på hurtigbufre blir stadig mer viktig."
+    ]
+  },
+  {
+    "question": "Hva er det Moores lov sier??",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Antall transistorer i en krets fordobles hver 18. måned",
+      "<em>Keep it simple, stupid</em>",
+      "Prosessor-hastighet øker raskere enn DRAM-hastighet",
+      "Dataraten inn i en nettverkskabel er den samme som dataraten ut",
+      "Nye prosessorer i en prosessor-familie skal ha de samme registre som de foregående"
+    ]
+  },
+  {
+    "question": "Mange innvevde systemer benytter seg av en mikrokontroller.  Hva er en mikrokontroller?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En enkelt brikke som inneholder en fullstendig datamaskin (CPU, RAM, ROM, I/O-kontrollere)",
+      "En I/O-kontroller som tilfredsstiller visse krav til fysisk størrelse og strømforbruk",
+      "En I/O-kontroller med bare ett enkelt bruksområde",
+      "En svak prosessor"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er korrekt?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Moores lov har vist seg å gjelde siden den ble formulert",
+      "Moores lov gjelder kun for radiorør",
+      "Moores lov gjelder kun for ALU",
+      "Industrien klarte ikke lengre å holde Moores lov på 80-tallet"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er mest korrekt om utviklingen av minne og prosessor gjennom tidene?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Maksimal hastighet til prosessorer øker i takt med hastigheten til minnet",
+      "Minnets størrelse og tetthet øker i takt",
+      "Maksimal hastighet til prosessorer øker mye mer enn hastigheten til minnet",
+      "Minne har økt betraktelig i hastighet de siste 10 årene i forhold til prosessor hastighet"
+    ]
+  },
+  {
+    "question": "Hva er et innvevd system?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Norsk ord for \"plug-in\" (brukes f.eks i en nettleser).",
+      "Datamaskin som gjør en spesifikk oppgave og er del i et større system.",
+      "En PC i nettverk med andre datamaskiner"
+    ]
+  },
+  {
+    "question": "Hva er en av motivasjonene for biologisk inspirert maskinvare?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Biologer er gjerne mer kreative enn teknologer slik at de kan påvirke utviklingsprosesser på en positiv måte.",
+      "Enkle problemer kan gjerne løses automatisk.",
+      "Slik maskinvare har gjerne et penere design.",
+      "Utnytte overflødig regnekraft.",
+      "Ønske om å kopiere den kontinuerlige utviklingsprosessen til naturlige systemer fordi det er denne som gjør slike systemer svært tilpasningsdyktige."
+    ]
+  },
+  {
+    "question": "Hva er <em>ikke</em> riktig å si om et innvevd system i forhold til en PC?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Spesialiert design",
+      "Liten størrelse og lav vekt",
+      "Lav ytelse",
+      "Minimalt stabilt lager",
+      "Gode utbyggingsmuligheter"
+    ]
+  },
+  {
+    "question": "Hvilken av disse påstandene om utviklingstrender er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "DRAM-tetthet øker raskere enn DRAM-hastighet",
+      "DRAM-hastighet øker raskere enn DRAM-tetthet",
+      "Nyere DRAM-brikker kan lagre færre bit enn tidligere",
+      "Forskjellen mellom hastigheten på DRAM-brikker og prosessorer minker"
+    ]
+  },
+  {
+    "question": "Hva sier Moores lov?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Antall transistorer pr. brikke tredobles hvert 3. år",
+      "Antall transistorer pr. brikke tredobles hvert 4. år",
+      "Antall transistorer pr. brikke fordobles hver 18. måned",
+      "Antall transistorer pr. brikke firedobles hvert 2. år",
+      "Antall transistorer pr. brikke dobles hvert år"
+    ]
+  }
+]

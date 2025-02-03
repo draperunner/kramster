@@ -1,0 +1,176 @@
+[
+  {
+    "question": "Hva er forskjellen på romlig lokalitet og tidsmessig lokalitet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Romlig lokalitet refererer til lageraksesser som involverer et antall lagerlokasjoner som er i en klynge (nærliggende adresser). Tidsmessig lokalitet refererer til lageraksesser mot data som nylig har vært aksessert tidligere.",
+      "Romlig lokalitet referer til lagerblokker som ligger ved siden av hverandre i hurtigbufferet, mens tidsmessig lokalitet referer til om det tar like lang tid å utføre to programmer som ligger i lageret.",
+      "Romlig lokalitet er når lagerlokasjoner er samlet i en klynge, mens tidsmessig lokalitet er når prosessoren prøver å finne igjen operasjonen som den gjorde sist."
+    ]
+  },
+  {
+    "question": "Hva  er den generelle strategien for å oppnå tidsmessig lokalitet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Man kan oppnå tidsmessig lokalitet om man setter opp alle instruksjoner som skal utføres i gitt rekkefølge etterhverandre i hurtigbufferet.",
+      "Man kan oppnå tidsmessig lokalitet om man lagrer nylig brukte instruksjoner og dataverdier i hurtigbufferet og bruker et hurtigbufferhirarki.",
+      "Man kan oppnå tidsmessig lokalitet om man setter av like mye tid til alle instruksjoner, da vil ingen stjele tid fra andre."
+    ]
+  },
+  {
+    "question": "Lokalitet i referanser (eng. locality of reference) er en viktig egenskap i et program fordi",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "programmet ellers vil plassere dataene på tilfeldige adresser i minnet og dermed skape kaos.",
+      "det er en forutsetning for effektiv utnyttelse av minnehierarkiet.",
+      "et assosiativt minne ellers ikke kan implementeres."
+    ]
+  },
+  {
+    "question": "Hvilken påstand er <em>feil</em> om lagerhierarki?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Samme data kan finnes på flere nivåer i hierarkiet",
+      "Nivåer lengre ned i hierarkiet har høyere kapasitet",
+      "Hvis man lager en maskin hvor lageret er kun ett nivå av raskeste sort vil denne være mye raskere enn det som finnes i dag",
+      "Dagens datamaskiner har gjerne flere nivåer med hurtigbuffer",
+      "Samme data kan finnes på flere nivåer i hierarkiet og enkelte av disse kan være endret",
+      "Nivåer lengre ned i hierarkiet er tregere"
+    ]
+  },
+  {
+    "question": "I dagens systemer kan aksess til hovedlager være en flaskehals. Dette problemet kan løses på forskjellige måter. Hvilken av metodene nedenfor er ikke egnet til å redusere dette problemet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Øke antallet bit som hentes på en gang",
+      "Inkludere hurtigbuffer på hver minnebrikke",
+      "Øke hastigheten på eksisterende hurtigbuffer",
+      "Mer komplekse og større hurtigbuffer mellom prosessor og hovedlager",
+      "Innføre et hierarki av busser mellom prosessor og eksterne enheter (deriblant hovedlager)",
+      "Øke antallet bit som hentes på en gang.",
+      "Inkludere hurtigbuffer på hver minnebrikke.",
+      "Øke hastigheten på eksisterende hurtigbuffer.",
+      "Mer komplekse og større hurtigbuffer mellom prosessor og hovedlager."
+    ]
+  },
+  {
+    "question": "Hva er den generelle relasjonen mellom aksesstid, lagerkostnad og kapasitet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Raskere aksesstid gir mindre kostnad per bit, større kapasitet gir større kostnad per bit og større kapasitet gir tregere aksesstid.",
+      "Raskere aksesstid gir større kostnad per bit, større kapasitet gir minder kostnad per bit og større kapasitet gir tregere aksesstid.",
+      "Raskere aksesstid gir mindre kostnad per bit, større kapasitet gir mindre kostnad per bit og større kapasitet gir raskere aksesstid"
+    ]
+  },
+  {
+    "question": "Hva er ordlengden til en datamaskin?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Antall ord i en instruksjon",
+      "Antall bit i et ord",
+      "Antall byte i et ord",
+      "Antall instruksjoner i et ord"
+    ]
+  },
+  {
+    "question": "Hva er den viktigste grunnen til at vi har innført lagerhierarki?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det er for å kunne skille mellom viktige og mindre viktige data",
+      "For å minske tiden det tar for å aksessere data",
+      "Det er for at vi skal være sikre på at data blir lagret i et resistent lager",
+      "For å få mer lagringskapasitet",
+      "Det er lettere å strukturere filene sine"
+    ]
+  },
+  {
+    "question": "Hva er et ord i lagersammenheng?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Et sett av adresser",
+      "Et sett av lagerceller",
+      "Et sett av operander",
+      "Et sett av instruksjoner"
+    ]
+  },
+  {
+    "question": "Hva er romlig lokalitet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Romlig lokalitet er når etterfølgende lageraksesser består av et antall lagerlokasjoner som er satt sammen i en klynge.",
+      "Romlig lokalitet er når man bruker ulike \"rom\" i prosessoren til å oppbevare data i.",
+      "Romlig lokalitet er når to blokker av data fysisk ligger ved siden av hverandre."
+    ]
+  },
+  {
+    "question": "Lokalitet i referanser (Eng. locality of reference) er en viktig egenskap i et program fordi",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "programmet ellers vil plassere dataene på tilfeldige adresser i minnet og dermed skape kaos.",
+      "det er en forutsetning for effektiv utnyttelse av minnehierarkiet",
+      "et assosiativt minne ikke kan bli implementeres uten."
+    ]
+  },
+  {
+    "question": "Hvilket av følgende utsagn er <em>ikke</em> korrekt?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Større kapasitet gir tregere aksesstid",
+      "Raskere aksesstid gir større kostnad per bit.",
+      "Større kapasitet gir mindre kostnad per bit.",
+      "Større kapasitet gir bedre aksesstid."
+    ]
+  },
+  {
+    "question": "Hva er tidsmessig lokalitet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Tidsmessig lokalitet er når to operasjoner skjer i sekvens etter hverandre",
+      "Tidsmessig lokalitet er når to lagerblokker skal bli utført etter hverandre og derfor er de satt ved siden av hverandre i lageret.",
+      "Tidsmessig lokalitet er en tendens som oppstår når prosessoren prøver å aksessere en lagerblokk som den har bruk nylig."
+    ]
+  },
+  {
+    "question": "Virtuelt minne",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "brukes for å få større minnekapasitet (lagerplass).",
+      "brukes for å oppnå raskere minneaksesser (i gjennomsnitt) for alle programmer.",
+      "brukes for tilsynelatende å tilby et stort minne mye større enn hovedminnet med hastighet tett oppimot hovedminnets."
+    ]
+  },
+  {
+    "question": "Hva er en strategi for å utnytte romlig lokalitet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Romlig lokalitet kan man generelt utnytte ved å bruke store hurtigbufferblokker og ved å legge inn en mekanisme for å forhåndshente lagerblokker.",
+      "Romlig lokalitet kan man generelt utnytte ved å klynge hurigbufferblokkene i sett, slik at man kan ta inn klynger av lagerblokker som er på størrelse med settene i hurtigbufferen. Om settene er for små må man dele opp klyngen.",
+      "Romlig lokalitet kan man oppnå ved å lage klynger av lagerblokker. Når de skal inn i hurtigbufferen må man ta hele klynga."
+    ]
+  },
+  {
+    "question": "Hvorfor fungerer lagerhierarkiet så godt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Lagerhierarkiet er en akademisk konstruksjon laget av pedagogiske hensyn og fungerer ikke godt i praksis.",
+      "Lokalitet i referanser gjør at prosessoren bare jobber på et lite subsett av data av gangen.  Vi vil få en stor hastighetsøkning ved å bufre dette subsettet med en raskere lagertype.",
+      "Hierarkiske datastrukturer (f.eks binærtrær for søking) vil kunne lagres effektivt i et hierarkisk lager fordi vi har maskinvarestøtte for traversering av slike strukturer."
+    ]
+  }
+]

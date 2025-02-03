@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Term used to specify places in the architecture that capture the variation in a product line...",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Scope",
+      "Variation point",
+      "Specialization point",
+      "Scope point"
+    ]
+  },
+  {
+    "question": "Too narrow scoping in a software product line will result in...",
+    "answers": [0, 3],
+    "exam": "2015 Kahoot 21: Software Product Line",
+    "options": [
+      "Insufficient number of products to justify investment",
+      "Too general",
+      "Effort to develop individual products will be too great",
+      "Too specific"
+    ]
+  },
+  {
+    "question": "Architectural support for variation in software product line includes...",
+    "answers": [1, 2, 3],
+    "exam": ".*",
+    "options": [
+      "Inclusion or omission of variation points",
+      "Inclusion or omission of elements",
+      "Selection of version of elements with same interface",
+      "Inclusion of different number of replicated elements"
+    ]
+  },
+  {
+    "question": "What makes software product lines difficult?",
+    "answers": [0, 2],
+    "exam": ".*",
+    "options": [
+      "Require maturity in developing organization",
+      "Always increases the risk for an organization",
+      "Adoption of product line approach in organization",
+      "Cannot be designed in a software architecture"
+    ]
+  },
+  {
+    "question": "How can variation in software product lines be implemented in code?",
+    "answers": [0, 1, 2, 3],
+    "exam": ".*",
+    "options": [
+      "Specialization or generalization",
+      "Building extention points",
+      "Reflection to manipulate data",
+      "Overload named functionality to operate on different types"
+    ]
+  },
+  {
+    "question": "One software product line may vary in terms of:",
+    "answers": [0, 1, 3],
+    "exam": "2015 Kahoot 21: Software Product Line",
+    "options": [
+      "Quality attributes",
+      "Behavior",
+      "Software architecture",
+      "Platform"
+    ]
+  }
+]

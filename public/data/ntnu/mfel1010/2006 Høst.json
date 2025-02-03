@@ -1,0 +1,577 @@
+[
+  {
+    "question": "Hva er et aksjonspotensial? / Kva er eit aksjonspotensial? / What is an action potential?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Repolarisering /Repolarisation",
+      "Hyperpolarisering /Hyperpolarisation",
+      "Depolarisering /Depolarisation",
+      "Hviletilstanden i membranen /Resting membrane condition"
+    ]
+  },
+  {
+    "question": "Hva skjer i en (eksitatorisk) synapse? / Kva skjer i ein (eksitatorisk) synapse? / What happens in an excitatory synapse?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Overføring av et aksjonspotensial ved direkte vandring fra en nervecelle til neste / Overføring av eit aksjonspotensial ved direkte vandring frå ei nervecelle til neste / Transmission of an action potential directly from the membrane of one cell to the next",
+      "Frigjøring av kjemisk signalsubstans som trigger depolarisering i neste celle / release of chemical signal substance triggering depolarisation in the next cell",
+      "Bremsing av nerveledningshastigheten i neste celle / decrease of the nerve conduction velocity in the next cell",
+      "Mekaniske forbindelser som holder cellene på plass / Mekaniske forbindelser som held cellene på plass / Mechanical connections holding the cells in their place"
+    ]
+  },
+  {
+    "question": "Hva er funksjonen til myelinskjedene rundt noen nerveutløpere? / Kva er funksjonen til myelinskjedene rundt nokre nerveutløparar? / What is the function of the myelin sheaths around some nerve fibres?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Øke nerveledningshastigheten /Auke nerveleidningshastigheita / Increase the nerve conduction velocity",
+      "Redusere nerveledningshastigheten / Redusere nerveleidningshastigheita / Decrease the nerve conduction velocity",
+      "Beskytte mot mekanisk skade / Protect against mechanical injury",
+      "Beskytte mot bakterier / Beskytte mot bakteriar / Protect against bacteria"
+    ]
+  },
+  {
+    "question": "Botulisme skyldes en bakteriegift. Hvordan virker denne? / Botulisme skyldes ei bakteriegift. Korleis verker denne? / Botulism is caused by a bacterial toxin. How does this work?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Blokkerer signaloverføringen i synapser i sentralnervesystemet slik at det gir bevisstløshet / Blokkerer signaloverføringa i synapsar i sentralnervesystemet slik at det gir bevisstløyse / Blocking transmission in synapses in the central nervous system, leading to unconsciousness",
+      "Blokkerer signaloverføringen i sensoriske synapser slik at man blir følelsesløs / Blokkerer signaloverføringa i sensoriske synapsar slik at ein blir kjenslelaus / Blocking transmission in sensory synapses, leading to anaesthesia",
+      "Blokkerer signaloverføringen i motoriske endeplater og gir lammelser / Blokkerer signaloverføringa i motoriske endeplater og gjev lammingar / Blocking signal transmission in motor synapses leading to paralysis",
+      "Blokkerer signaloverføringen i det autonome nervesystem og gir hjerterytmeforstyrrelser / Blokkerer signaloverføringa i det autonome nervesystem og gjev forstyrringar i hjerterytma / Blocking signal transmission in the autonomous nerve system, leading to heart rhythm disturbances"
+    ]
+  },
+  {
+    "question": "Hvilken kjønnssykdom kan gi skade på sentralnervesystemet? / Kva for ein kjønnssjuke kan gje skade på sentralnervesystemet? / What venereal disease can lead to damage of the central nervous system?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Gonoré / Gonorrhoea",
+      "Chlamydia",
+      "Trichomonas",
+      "Syfilis / Syphilis"
+    ]
+  },
+  {
+    "question": "Hvilke celler i blodet er ansvarlige for at blodet koagulerer? / Kva for celler i blodet er ansvarlige for at blodet koagulerer? / Which blood cells are responsible for the coagulation of the blood?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Erythrocytter / Erythrocytes",
+      "Trombocytter / Thrombocytes",
+      "Lymfocytter / Lymphocytes",
+      "Granulocytter / Granulocytes"
+    ]
+  },
+  {
+    "question": "Hvilket vitamin er nødvendig for at blodet koagulerer normalt? / Kva for eit vitamin er nødvendig for at blodet koagulerer normalt? / Which vitamin is necessary for the normal coagulation of blood?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin E", "Vitamin K"]
+  },
+  {
+    "question": "Hva er effekten av karbonmonoksyd fra f.eks. sigarettrøyk på blodet? / Kva er effekten av karbonmonoksyd frå f.eks. sigarettrøyk på blodet? / What is the effect of carbon monoxide on the blood?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Hemmer immunsystemet / Inhibits the immune system",
+      "Hemmer koagulasjonen / Inhibits the coagulation",
+      "Hemmer oksygentransporten / Inhibits the oxygen transport",
+      "Hemmer produksjonen av erytrocytter / Inhibits the production of erythrocytes"
+    ]
+  },
+  {
+    "question": "Hvilke blodceller er ansvarlige for immunresponsen?/ Kva for blodceller er ansvarlige for immunresponsen? / Which blood cells are responsible for the immune response?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Lymfocytter / Lymphocytes",
+      "Granulocytter / Granulocytes",
+      "Erytrocytter / Erythrocytes",
+      "Trombocytter / Thrombocytes"
+    ]
+  },
+  {
+    "question": "Hemolytisk sykdom hos et foster eller nyfødt skyldes rhesus blodtypesystemet. Hvilken kombinasjon av rhesusblodtyper må foreligge for at denne tilstanden skal oppstå? / Hemolytisk sjukdom hos eitt foster eller nyfødt skyldes rhesus blodtypesystemet. Kva for ein kombinasjon av rhesusblodtyper må vere til stades for at denne tilstanden skal oppstå? / Haemolytic disease of the newborn is due to the rhesus blood type system. Which combination of blood types has to exist to induce this disease?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Både mor og barn er rhesus negative / Both mother and child are rhesus negative",
+      "Mor er rhesus positiv, barnet rhesus negativt / Mother is rhesus positive, child is rhesus negative",
+      "Mor er rhesus negativ, barnet rhesus positivt / Mother is rhesus negative, child is rhesus positive",
+      "Både mor og barn er rhesus positive / Both mother and child are rhesus positive"
+    ]
+  },
+  {
+    "question": "Portvenen er spesiell fordi den samler blodet for så å lede den ut i et nytt kapillærsystem. Hvor går portvenesirkulasjonen? / Portvenen er spesiell fordi den samlar blodet for så å leie den ut i eit nytt kapillærsystem. Kor går portvenesirkulasjonen? / The portal vein is special because it collects blood and the leads it into another capillary system. Where is the portal circulation?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Fra underekstremitetene til hjertet / Frå underekstremitetene til hjarte / From the lower extremities to the heart",
+      "Fra overekstremitetene til hjertet / Frå overekstremitetene til hjarte / From the upper extremities to the heart",
+      "Fra tarmsystemet til levra / Frå tarmsystemet til levra / From the intestinal system to the liver",
+      "Fra tarmsystemet til milten / Frå tarmsystemet til milten / From the intestinal system to the spleen"
+    ]
+  },
+  {
+    "question": "Høyt blodtrykk (hypertensjon) er en viktig årsak til hjerte- karsykdom. Over hvilket nivå sier vi det er hypertensjon (stadium 1)? / Høgt blodtrykk (hypertensjon) er ein viktig årsak til hjerte- karsjukdom. Over kva for eit nivå seier vi det er hypertensjon (stadium 1)? / Hypertension is an important cause of cardiovascular disease. Over which level is there hypertension (stage 1)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Over 110/70", "Over 120/80", "Over 140/90", "Over 160/100"]
+  },
+  {
+    "question": "Hva er et sirkulatorisk sjokk? / Kva er eit sirkulatorisk sjokk? / What is a circulatory shock?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Akutt høyt blodtrykk som gir symptomer fra sentralnervesystemet / Akutt høgt blodtrykk som gjev symptom frå sentralnervesystemet / Acutely increased blood pressure leading to central nervous symptoms",
+      "3.. Lekkasje av plasma ut i vevet slik at det hovner opp Lekkasje av plasma ut vevet slik at det hovnar opp / Leakage of plasma into the tissue leading to oedema",
+      "Inadekvat blodforsyning på grunn av volumtap eller vasodilatasjon / Inadequate blood supply due to volume loss or vasodilatation",
+      "Vann i lungene på grunn av hjertesvikt / Water in the lungs due to heart failure"
+    ]
+  },
+  {
+    "question": "En venøs trombe oppstår ofte i venene i et ben, en del av den kan løsne, og vil da gi en emboli som føres med blodstrømmen. Hvor vil en slik emboli ende? / Ei venøs trombe oppstår ofte i venene i eit bein, ein del av den kan lausne, og vil da gje ein emboli som førast med blodstraumen. Kvar vil ein slik emboli ende? / A venous thrombus may occur in the veins of a leg, part of it can work loose and will give rise to an embolus following the blood stream. Where will such an embolus end up?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "I lungene / In the lungs",
+      "I hjernen / In the brain",
+      "I kransårene i hjertet / In the coronary arteries in the heart",
+      "I en av armene / I ei av armene / In one of the arms"
+    ]
+  },
+  {
+    "question": "Hvilket kammer i hjertet pumper blodet ut i lungearterien? / Kva for eit kammer i hjarte pumper blodet ut i lungearterien? / Which chamber in the heart pumps the blood out into the pulmonary artery?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Venstre forkammer / Left atrium",
+      "Venstre hjertekammer / Left ventricle",
+      "Høyre forkammer / Right atrium",
+      "Høyre hjertekammer / Right ventricle"
+    ]
+  },
+  {
+    "question": "Hvilket av disse enzymene skilles ut i magesekken? / Kva for eit av disse enzyma skiljest ut i magesekken? / Which of these ezymes are secreted in the stomach?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Amylase", "Pepsin", "Trypsin", "Lipase"]
+  },
+  {
+    "question": "Hvilket av disse lokale hormonene stimulerer produksjon av saltsyre i magesekken? / Kva for eit av disse lokale hormona stimulerer produksjon av saltsyre i magesekken? / Which of these local hormones stimulates production of hydrochloric  acid in the stomach?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Sekretin", "Cholecystokinin", "Gastrin", "Insulin"]
+  },
+  {
+    "question": "Hvilke funksjoner foregår alle i levra? / Kva funksjonar skjer alle i levra? / What functions are all liver functions?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Lagring av karbohydrat, utskillelse av galle, syntese av plasmaproteiner / Lagring av karbohydrat, utskilling av galle, syntese av plasmaprotein / Storage of carbohydrates, secretion of bile, plasma protein synthesis",
+      "Utskillelse av galle, syntese av plasmaproteiner, produksjon av insulin / Utskilleling av galle, syntese av plasmaprotein, produksjon av insulin / Secretion of bile, plasma protein synthesis, insulin production",
+      "Lagring av karbohydrat, syntese av plasmaproteiner, produksjon av hemoglobin / Lagring av karbohydrat, syntese av plasmaprotein, produksjon av hemoglobin / Storage of carbohydrates, plasma protein synthesis, haemoglobin production",
+      "Utskillelse av galle, lagring av karbohydrat, produksjon av antistoffer / Utskilling av galle, lagring av karbohydrat, produksjon av antistoff / Secretion of bile, storage of carbohydrates, production of antibodies"
+    ]
+  },
+  {
+    "question": "Hvilken av disse funksjonene foregår i tykktarmen? / Kva for ein av disse funksjonane skjer i tjukktarmen? / Which of these functions are functions of the colon?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Nedbrytning av karbohydrat og protein / Degradation of carbohydrates and proteins",
+      "Absorpsjon av næringsstoff / Absorption of nutrients",
+      "Absorpsjon av vann og salt / Absorption of water and salt",
+      "Drap av bakterier på grunn av lav pH / Killing of bacteria because o flow pH"
+    ]
+  },
+  {
+    "question": "Hva består de vanligste gallesteinene av? / Kva består dei vanligaste gallesteinane\nav?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Calciumoksalat / Calcium oxalate",
+      "Calciumfosfat / Calcium phosphate",
+      "Bilirubin",
+      "Cholesterol"
+    ]
+  },
+  {
+    "question": "Hva er tidevolumet? / Kva er tidevolumet? / What is the tidal volume?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det volum som kan pustes inn på toppen av en normal inspirasjon / Det volum som kan pustast inn på toppen av ein normal inspirasjon / The volume that can be inhaled on top of a normal inspiration",
+      "Det volum som pustes inn i en normal inspirasjon / Det volum som pustast inn i ein normal inspirasjon / The volume that is inhaled in a normal inspiration",
+      "Det volum som er igjen i lungene etter en normal ekspirasjon / Det volum som er igjen i lungene etter ein normal ekspirasjon / The volume that is left in the lungs after a normal expiration",
+      "Det volum som er igjen i lungene etter en maksimal ekspirasjon / Det volum som er igjen i lungene etter ein maksimal ekspirasjon / The volume that is left in the lungs after a maximum expiration"
+    ]
+  },
+  {
+    "question": "Hva er den viktigste respirasjonsmuskelen? / Kva er den viktigaste respirasjonsmuskelen? / Which is the most important respiratory muscle?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Biceps",
+      "Diafragma",
+      "Gluteus maximus",
+      "Kvadriceps / Quadriceps"
+    ]
+  },
+  {
+    "question": "Hvilket organ begrenser den maksimale oksygentransporten under arbeid hos friske? / Kva for organ avgrensar den maksimale oksygentransporten under arbeid hos friske? / Which organ limits the oxygen transport during work in healthy persons?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Hjernen / The brain",
+      "Lungene / The lungs",
+      "Hjertet / Hjarte / The heart",
+      "Muskulaturen / The muscles"
+    ]
+  },
+  {
+    "question": "Hva er astma? / Kva er astma? / What is asthma?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En sykdom med kronisk redusert alveoloverflate / Ein sjukdom med kronisk redusert alveoloverflate / A disease with chronicallly reduced alveolar surface",
+      "En sykdom med stivhet i brystveggen og redusert kraft i respirasjonsmusklene / Ein sjukdom med stivleik i brystveggen og redusert kraft i respirasjonsmusklane / A disease with stiffness in the chest wall and reduced power in the respiratory muscles",
+      "En sykdom med anfallsvis innsnevring av bronchiolene / Ein sjukdom med anfallsvis innsnevring av bronchiolene / A disease with paroxystic narrowing of the bronchioli",
+      "En form for lungebetennelse / Ein form for lungebetennelse / A kind of pneumonia"
+    ]
+  },
+  {
+    "question": "Ved pneumothorax kommer det luft inn i pleurahulen. Hva fører dette til? / Ved pneumothorax kommer det luft inn i pleurahulen. Kva fører dette til? / In pneumothorax there is air in the pleural cavity. What will this cause?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Lungen blåses opp på grunn av økt trykk i pleura / Lunga blåses opp på grunn av auka trykk i pleura / The Lung is inflated due to increased pleural pressure",
+      "6Lungen kollapser på grunn av tap av vakuum i pleura / Lunga kollapsar på grunn av tap av vakuum i pleura / The lung collapses due to loss of vacuum in the pleura",
+      "Brystkassen blåses opp på grunn av økt trykk i pleura / The chest is inflated due to increased pressure in the pleura",
+      "Brystkassen kollapser på grunn av tap av vakuum i pleura / The chest collapses due to loss of vacuum in the pleura"
+    ]
+  },
+  {
+    "question": "Hva heter den funksjonelle enheten i nyrene? / Kva heter den funksjonelle eininga i nyrene? What is the name of the functional unit of the kidneys?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et nefron / Eit nefron / A nephron",
+      "Et renin / Eit renin / A renin",
+      "En urinleder / Ein urinleiar / A urether",
+      "Et urinrør / Eit urinrør / A urethra"
+    ]
+  },
+  {
+    "question": "Hvor dannes nyrestein? / Kor dannes nyrestein? / Where are kidney stones produced?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Glomeruli",
+      "Tubuli",
+      "Samlerør /samlerøyr /collecting ducts",
+      "Nyrebekken/ renal pelvis"
+    ]
+  },
+  {
+    "question": "Hvordan virker antidiuretisk hormon? / Korleis verker antidiuretisk hormon? / How does antidiuretic hormone work?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Bremser filtrasjonen i glomeruli / Reduces filtration in the glomeruli",
+      "Bremser sekresjonen i proximale tubuli / Reduces secretion in the proximal tubuli",
+      "Øker reabsorpsjonen i distale tubuli og samlerør / Auker reabsorpsjonen i distale tubuli og samlerøyr / Increases the reabsorption in the distal tubuli and collecting dicts",
+      "Hemmer blæretømmingen / Hemmer blæretømminga / Inhibits urinary bladder emptying"
+    ]
+  },
+  {
+    "question": "Hvilke av disse er symptomer på kronisk nyresvikt? / Kva for av disse er symptom på kronisk nyresvikt? / Which of these are symptoms of chronic renal failure?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Flankesmerter og blodig urin / Flank pain and blood in the urine",
+      "Urinretensjon med overfylt urinblære / Urinary retention with overfill of the urinary bladder",
+      "Feber og utslett / Fever and rash",
+      "Allmensymptomer som slapphet og kvalme / Ålmennsymptom som slappheit\nog kvalme / General symptoms like fatigue and nausea"
+    ]
+  },
+  {
+    "question": "Hva er en respiratorisk alkalose? / Kva er ein respiratorisk alkalose? / What is a respiratory alkalosis?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Redusert pH på grunn av økt produksjon av syre / Redusert pH på grunn av auka produksjon av syre / Decreased pH due to increased production of acid",
+      "Redusert pH på grunn av retensjon av CO 2 / Decreased pH due to retention of CO 2",
+      "Økt pH på grunn av tap av magesyre / Auka pH på grunn av tap av magesyre / Increased pH due to loss of gastric acid",
+      "Økt pH på grunn av utlufting av CO 2 / Auka pH på grunn av utlufting av CO 2 / Increased pH due to increased ventilation of CO 2"
+    ]
+  },
+  {
+    "question": "Hjertets normale pacemaker er: / The normal pacemaker of the heart is:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Sinusknuten / Sinoatrial node",
+      "AV knuten / AV node",
+      "AV-bunten (His’ bunt) / AV bundle ( bundle of His)",
+      "Purkinjefibrene / The Purkinje fibres"
+    ]
+  },
+  {
+    "question": "Hvilken av disse klaffene sitter mellom venstre atrium og venstre ventrikkel? / Kva for ein av disse klaffene sitter mellom venstre atrium og venstre ventrikkel? / Which of these valves are positioned between the left atrium and the left ventricle?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Aortaklaffen / The aortic valve",
+      "Tricuspidalklaffen / The tricuspid valve",
+      "Pulmonalklaffen / The pulmonary valve",
+      "Mitralklaffen / The mitral valve"
+    ]
+  },
+  {
+    "question": "Hvilken av disse rytmeforstyrrelsene gir en komplett hjertestans? / Kva for ein av disse rytmeforstyrringane gjev ein komplett hjertestans? / Which of these rythm disturbances results in a complete heart stop?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Atrieflimmer / Atrial fibrillation",
+      "Atrieflutter / Atrial flutter",
+      "Ventrikkeltachycardi / Ventricular tachycardia",
+      "Ventrikkelflimmer / Ventricular fibrillation"
+    ]
+  },
+  {
+    "question": "Aortaklaffen kan som følge av sykdom bli trang (stenose). Dette gir en motstand mot blodstrømmen, og dermed en bilyd. Når i hjertesyklus høres denne bilyden? / Aortaklaffen kan som følgje av sjukdom bli trong (stenose). Dette gjev ei motstand mot blodstraumen, og dermed ein bilyd. Når i hjertesyklus høres denne bilyden? / The aortic valve can become stenosed due to disease. This will give a resistance to the blood flow, and hence a heart murmur. When in the heart cycle can this murmur be heard?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "I systole / In systole",
+      "I diastole / In diastole",
+      "Både i systole og diastole / Both in systole and diastole",
+      "I PQ-intervallet / In the PQ interval"
+    ]
+  },
+  {
+    "question": "Ved angina er det vanlig å ta nitroglycerin. Hvordan virker nitroglycerin? / Ved angina er det vanlig å ta nitroglycerin. Korleis verker nitroglycerin? / In angina it is common to use nitroglygerine. How does nitroglycerine work?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det påvirker hjertemuskelen så minuttvolumet øker / Det påverkar hjartemuskelen så minuttvolumet aukar / It increases cardiac output by direct effect on the heart muscle",
+      "Det reduserer hjertefrekvensen så hjertets arbeid avtar / Det reduserer hjertefrekvensen så hjertets arbeid minkar / It reduces the heart rate leading to decreased heart work",
+      "Det utvider vener så hjertets arbeid avtar / Det utvidar vener så hjertets arbeid minkar / It dilates the veins, leading to decreased heart work",
+      "Det får hjertemuskelcellene til å ta opp mer oksygen / Det får hjertemuskelcellene til å ta opp meir oksygen / It induces the heart muscle to take up more oxygen."
+    ]
+  },
+  {
+    "question": "Hvilket av disse organene er det overordnede organet som styrer andre endokrine organer? / Kva for eit av disse organa er det overordna organet som styrer andre endokrine organ? / Which of these organs is the superior organ regulating the function of other endocrine organs?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Hypofyse forlappen / Anterior pituitary",
+      "Hypofyse baklappen / Posterior pituitary",
+      "Thyroidea / The thyroid",
+      "Pancreas"
+    ]
+  },
+  {
+    "question": "Hvilke hormoner dannes i pancreas? / Kva hormon dannast i Pancreas? / Which hormones are produced in the pancreas?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Insulin og prolactin / Insulin and prolactin",
+      "Insulin og glucagon / Insulin and glucagon",
+      "Glucagon og thyroxin / Glucagon and thyroxin",
+      "Glucagon og calcitonin / Glucagon and calcitonin"
+    ]
+  },
+  {
+    "question": "Hvilket hormon regulerer kroppens vannbalanse? / Kva for eit hormon regulerer kroppens vannbalanse? / Which hormone regulates the water balance in the body?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["ADH", "FSH", "LH", "ACTH"]
+  },
+  {
+    "question": "Hvilket hormon styrer kroppens calciumnivå? / Kva for eit hormon styrer kroppens calciumnivå? / Which hormone regulates the body level of calcium?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Thyroxin",
+      "Cortisol",
+      "Parathyroid hormon (PTH)",
+      "Aldosteron"
+    ]
+  },
+  {
+    "question": "Hvilket av disse hormonene er med på å regulere blodtrykket? / Kva for eit av disse hormonene er med på å regulere blodtrykket? / Which of these hormones takes part in the blood pressure regulation?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Calcitonin", "Glucagon", "Prolactin", "Aldosteron"]
+  },
+  {
+    "question": "Epidemiologi er studiet av: / Epidemiology is the study of:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det naturlige forløp av sykdom (smittsom og ikke smittsom) / Det naturlige forløpet av sjukdom (smittsam og ikkje smittsam) / The natural course of av disease (contagious and not contagious)",
+      "Omfattende utbrudd av sykdom / Omfattande utbrot av sjukdom / Extensive outbreak of disease",
+      "Forekomst av sykdom i befolkninger / Førekomst av sjukdom i befolkningar / Occurrence of disease in populations",
+      "Lokal og epidemisk sykdom / Lokal og epidemisk sjukdom / Local and epidemic disease"
+    ]
+  },
+  {
+    "question": "Et hjerneslag som rammer høyre hjernehalvdel bak synsnervekrysningen vil kunne gi utfall i synsfeltet. Hvor vil utfallet sitte? / Eit hjerneslag som rammar høgre hjernehalvdel bak synsnervekryssinga vil kunne gje utfall i synsfeltet. Kvar vil utfallet sitte? / A stroke affecting the right brain half behind the optic chiasma may lead to loss of vision in part of the visual field. Where will this loss be?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Høyre side av synsfeltet / Høgre side av synsfeltet / Right vision field",
+      "Venstre side av sysnsfeltet / Left vision field",
+      "Midtre (nasale) del av synsfeltet / Middle (nasal) vision field",
+      "Temporale del av synsfeltet / Lateral (temporal) vision field"
+    ]
+  },
+  {
+    "question": "En medisin tas peroralt. Det betyr: / Ein medisin takast peroralt. Det tyder: / A\nmedicine is taken perorally. This means:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Som intramuskulære sprøyter / As intramuscular injections",
+      "Som subcutane sprøyter / As subcutaneous injections",
+      "Gjennom munnen som tablett eller mikstur / Through the mouth as tablets or\nmixture",
+      "Gjennom endetarmen som stikkpille eller klystér / Through the rectum as\nsuppository or enema"
+    ]
+  },
+  {
+    "question": "Hvilken av disse metodene er en reell MR metode? / Kva for ein av disse metodane er ein reell MR-metode?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "MR Doppler",
+      "MR Spektroskopi / MR spectroscopy",
+      "MR colonoskopi / MR colonoscopy",
+      "MR scintigrafi / MR scintigraphy"
+    ]
+  },
+  {
+    "question": "Kreftceller har evnen til å indusere angiogenese. Hva er det? / Kreftceller har evna til å indusere angiogenese. Kva er det? / Cancer cells have the ability to induce angiogenesis. What is that?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Evnen til å invadere omkringliggende vev. / Evna til å invadere kringliggande vev / The ability to invade surrounding tissue",
+      "Evnen til å danne nye blodårer til svulsten. / Evna til å danne nye blodårer til svulsten. / The ability to create new blood vessels to the tumour",
+      "Evnen til å etablere kolonier (dattersvulster) andre steder i kroppen. / Evna tilå etablere koloniar (dottersvulstar) andre steder i kroppen. / The ability toestablish daughter tumours at other sites in the body",
+      "Evnen til å stoppe veksten på en bestemt størrelse. / Evna til å stoppe vekstenpå ein bestemt størrelse. / The ability to stop the growth at a certain size"
+    ]
+  },
+  {
+    "question": "Hva er et mutatorgen? / Kva er eit mutatorgen? / What is a mutator gene?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Et gen som gjør at normale celler muterer til kreftceller / Eit gen som gjer atnormale celler muterer til kreftceller / A gene making normal cells mutate tocancer cells",
+      "Et gen som reparerer DNA og fjerner mutasjoner / Eit gen som reparerer DNAog fjernar mutasjonar / A gene that repairs DNA and removes mutations",
+      "Et gen som er vekstregulerende og gir celledød / Eit gen som ervekstregulerande og gjev celledød /A gene that is growth regulating and leadsto apoptosis",
+      "Et vekstregulerende gen som er mutert / Eit vekstregulerande gen som ermutert / A growth regulating gene that is mutated"
+    ]
+  },
+  {
+    "question": "Når prostata vokser med alderen kan den gi: / Når prostata veks med alderen kanden gi / The prostate increases in size with age. This can lead to:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Forstoppelse / Forstopping / Constipation",
+      "Impotens / Impotence",
+      "Vannlatningsproblemer / Vannlatingsproblem / Micturition problems",
+      "Prematur ejakulasjon / Premature ejaculation"
+    ]
+  },
+  {
+    "question": "Hvilken av disse kjønnssykdommene kan gi svie ved vannlatning somhovedsymptom, og spesielt hos menn? / Kva for ein av disse kjønssjukdomene kan gisvie ved vannlating som hovudsymptom, og spesielt hos menn? / Which of thesevenereal diseases can lead to painful micturation, especially in men?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Syfilis / Syphilis",
+      "Gonorré / Gonorrhoea",
+      "Kjønnsvorter/ Venereal warts",
+      "Flatlus / Pubic lice"
+    ]
+  },
+  {
+    "question": "Hvilken av disse sykdommene har et navn som viser at det er en betennelse? / Kvafor ein av disse sjukdomene har eit nav som syner at det er ein betennelse? / Which ofthese diseases has a name showing it to be an inflammation?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Osteoporose / Osteoporosis",
+      "Pancreatitt / Pancreatitis",
+      "Aortainsuffisiens / Aortic insufficiency",
+      "Atrofi / Atrophy"
+    ]
+  },
+  {
+    "question": "Hva er den vanligste mekanismen for hjerneslag? / Kva er den vanlegaste mekanismen for hjerneslag? / What is the most common mechanism for a stroke?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Blødning / Bløding / Bleeding",
+      "Blodpropp / Thrombus",
+      "Utvendig skade / External injury",
+      "Infeksjon / Infection"
+    ]
+  },
+  {
+    "question": "Hvor sitter sansecellene for lyd? / Kvar sit sansecellene for lyd? / Where are the sense cells for sound situated?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "I trommehinna / In the tympanic membrane",
+      "I mellomøret / In the middle ear",
+      "I det indre øret / In the inner ear",
+      "I hørselsnerven / In the cochlear nerve"
+    ]
+  },
+  {
+    "question": "Hva er multippel sklerose? / Kva er multippel sklerose? What is multiple sclerosis?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En sykdom med anfallsvis halvsidig synsforstyrrelse og hodepine / Ein sjukdom med anfallsvis halvsidig synsforstyrring og hovudverk / A disease with attacks of half sided disturbances in the vision field and headache",
+      "En sykdom med økende slapphet på grunn av antistoff mot motoriske endeplater / Ein sjukdom med aukande slappheit på grunn av antistoff mot motoriske endeplater / A disease with increasing weakness due to antibodies against motor synapses",
+      "En sykdom med lammelser, stivhet og andre symptomer på grunn av nedbrytning av myelinskjeder / Ein sjukdom med lammingar, stivleik og andre symptom på grunn av nedbryting av myelinskjeder / A disease with pareses, stiffness and other symptoms due to degradation of myelin sheaths",
+      "En sykdom med hallusinasjoner, vrangforestillinger og tankeforstyrrelser / Ein sjukdom med hallusinasjonar, vrangforestillingar og tankeforstyrringar / A disease with hallucinations, delusions and thought disturbances"
+    ]
+  },
+  {
+    "question": "Når hodet roteres, i hvilket nivå foregår den største delen av bevegelsen? / Når hovudet blir rotert, i kva for nivå går den største delen av bevegelsen føre seg? / When the head is rotated, where does the greatest movement take place?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Mellom kraniet og første nakkevirvel / Between the cranium and the first cervical vertebra",
+      "Mellom første og andre nakkevirvel / Between the first and second vertebrae",
+      "Mellom andre og tredje nakkevirvel / Between the second and third vertebrae",
+      "Fordelt mellom alle nakkevirvler / Fordelt mellom alle nakkevirvlar / Distributed between all cervical vertebrae"
+    ]
+  },
+  {
+    "question": "Målet på risikoen for å få en sykdom er",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Insidens raten / The incidence rate",
+      "Insidens raten multiplisert med sykdommens varighet / Insidens raten multiplisert med sjukdommens varigheit / The incidence rate multiplied by the disease duration",
+      "Prevalensen / The prevalence",
+      "Prevalensen multiplisert med sykdommens varighet Prevalensen multiplisert med sjukdommens varigheit / The prevalence multiplied by the disease duration"
+    ]
+  },
+  {
+    "question": "Hvilket av disse organene består hovedsakelig av epitelvev?/ Kva for av disse organa består hovudsakelig av epitelvev?/ Which of these organs consists mainly of epithelial tissue?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Pancreas",
+      "Hjertet / The heart",
+      "Aorta",
+      "Kraniet / The cranium"
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "question": "Hva er <em>ikke</em> en ulempe med radiorør?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Trege",
+      "Upålitelige",
+      "Bruker mye strøm",
+      "Produserer lite varme"
+    ]
+  },
+  {
+    "question": "Hva hadde Robert Noyce og Jack Kilby til felles?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Begge fant opp transistoren.",
+      "Begge fant opp integrerte kretser.",
+      "Begge var homofile.",
+      "Begge hadde gått i lære hos Babbage.",
+      "Begge kunne fly småfly."
+    ]
+  },
+  {
+    "question": "Hvilken datamaskin ble brukt under den TV-sendte folketellingen i 1952 (USA)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "ENIAC",
+      "PDP-1",
+      "UNIVAC",
+      "Analytical Engine",
+      "Z3",
+      "650-maskinen"
+    ]
+  },
+  {
+    "question": "Digital Equipment Corporation lagde PDP-1. Hva er PDP-1?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En transistor",
+      "En integrert krets",
+      "En datamaskin",
+      "En skriver",
+      "En harddisk",
+      "Et modem"
+    ]
+  },
+  {
+    "question": "Hvilken datamaskin var Nord-1 basert på?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Colossus", "Enigma", "SIGMA-II", "Nord-0"]
+  },
+  {
+    "question": "Hvem var Bill Shockley?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Han som var med på å konstruere en av de første transistorene.",
+      "Han som var med på å konstruere et av de første radiorørene.",
+      "Han som konstruerte ENIAC.",
+      "Han som konstruerte Z-maskinene."
+    ]
+  },
+  {
+    "question": "Hva er NUSSE?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Et hovedkort",
+      "En datamaskin",
+      "En professor",
+      "Kallenavnet til Hysing"
+    ]
+  },
+  {
+    "question": "Hva var SAM?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En datamaskin som var laget av FFI på Kjeller.",
+      "En simulator som ble laget på Kjeller.",
+      "Professoren som lagde den første norske datamaskin.",
+      "Professor som lagde Nusse."
+    ]
+  },
+  {
+    "question": "Hva står IBM for?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Internal Boss Machines",
+      "International Business Makers",
+      "International Business Machines",
+      "International Bull Machines"
+    ]
+  },
+  {
+    "question": "Hva er en transistor laget av?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Radiorør",
+      "Halvledere",
+      "Integrerte kretser",
+      "Hel-ledere",
+      "Kondensatorer"
+    ]
+  }
+]

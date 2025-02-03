@@ -1,0 +1,295 @@
+[
+  {
+    "question": "Helsepsykologien kjennetegnes ved at den er",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Dualistisk",
+      "At den er mer opptatt av psykologi enn av helse",
+      "At den er mer opptatt av helse enn av psykologi",
+      "Ser på mennesket som en helhet"
+    ]
+  },
+  {
+    "question": "... er en relativt stabil disposisjon knyttet til spesielle atferdsmessige mønster (Epstein 1977). Er definisjon av ..",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En disposisjon for utvikling av positiv helseatferd.",
+      "Disposisjon for et sykdomsfremkallende trekk, type C",
+      "Et personlighetstrekk",
+      "En disposisjon for negative emosjoner."
+    ]
+  },
+  {
+    "question": "Med en bio-psyko-sosial helsemodell menes:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En modell for helseutvikling som også tar inn verdien og påvirkningen av bioenergi",
+      "En modell for å måle helseutvikling ved hjelp av biometriske – psykometriske - og sosiometriske metoder",
+      "En modell som tar inn både biologiske, psykologiske og sosiale faktorer i forklaringen av utvikling av helse",
+      "En modell som tar inn akkurat passe mange elementer"
+    ]
+  },
+  {
+    "question": "I psykomatikk og helsepsykologi benyttes ulike metoder og instrumenter for å samle data om ulike forskjeller eller sammenhenger. En sier at en slik metode er valid når den",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Måler eksakt det samme fra gang til gang",
+      "Måler det en ønsker å måle",
+      "Måler variasjonsbredden i utvalget godt",
+      "Er akkurat passe lang"
+    ]
+  },
+  {
+    "question": "Lazarus og Selye er kjent for sine teorier om",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Sammensatt sykdomsutvikling",
+      "Livskvalitet",
+      "Stress",
+      "Overvektsproblemer"
+    ]
+  },
+  {
+    "question": "Type A atferdsmønster er blitt forbundet med utviklingen av en bestemt sykdom. Det er:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Sukkersyke",
+      "Obstruktive lungelidelser",
+      "Hjerteinfarkt",
+      "Musesyken"
+    ]
+  },
+  {
+    "question": "I hvilken landsdel i Norge er selvmordsforekomsten lavest?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Nord-Norge", "Midt-Norge", "Vestlandet", "Sørøstlandet"]
+  },
+  {
+    "question": "I Oslo har det ofte tidligere vært snakk om at forventet levetid er høyere vest i byen enn øst i byen. I de nyeste undersøkelsene viser det seg at nå er dette slik at",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Det fortsatt er slik",
+      "Dette er blitt helt motsatt",
+      "Levelengden er lik i begge deler av byen",
+      "Levelengden har gått ned i begge deler av byen"
+    ]
+  },
+  {
+    "question": "Er det farlig å snakke om selvmord?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Ja",
+      "Nei",
+      "Nei, men det er viktig hvilken måte man snakker om det på",
+      "Man bør som regel unngå å snakke om det, men det finnes unntak."
+    ]
+  },
+  {
+    "question": "Det synspunkt at menneskelige fenomener (som f.eks ærlighet og depresjon) er\ngrunnleggende kalles",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Absolutisme",
+      "Relativisme",
+      "Instrumentalisme",
+      "Universalisme"
+    ]
+  },
+  {
+    "question": "En person med type B atferdsmønster",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Lar seg veldig lett hisse opp",
+      "Tar livet som det kommer, og lar seg flyte med i livsstrømmen",
+      "Er blant de som får kroniske lidelser",
+      "Er vanligvis på utkikk etter ny jobb"
+    ]
+  },
+  {
+    "question": "En kultur der sykdom blir sett på som forårsaket av faktorer i det enkelte individ\nkalles:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Kollektivistisk",
+      "Individualistisk",
+      "Allosentrisk",
+      "Idiosentrisk"
+    ]
+  },
+  {
+    "question": "Det finnes ulike sykdoms- og helsemodeller. Helsepsykologer og forskere som\narbeider med psykomatikk benytter seg vanligvis av den mest moderne av disse\nmodellene og den kalles for",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Bio – medisinsk helsemodell",
+      "Bio – holistisk helsemodell",
+      "Bio – psyko – sosial helsemodell",
+      "Velværehelsemodellen"
+    ]
+  },
+  {
+    "question": "Det er minst fire måter å beskrive forholdet mellom helse og livskvalitet. En av de fire\nmåtene nevnt nedenfor er mest dekkende. Hvilken?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Livskvalitet og helse er atskilte fenomener",
+      "Livskvalitet og helse er identiske",
+      "Et av begrepene kan være overordnet det andre",
+      "Helse og livskvalitet kan være overlappende begreper med felles kjerne"
+    ]
+  },
+  {
+    "question": "Livskvalitet er ett lett forståelig begrep. Er det også lett å måle i vitenskapelige\nstudier? Ett av svaralternativene nedenfor er riktig. Hvilket?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Ja, livskvalitet har en entydig definisjon og er enkelt å måle.",
+      "Ja, livskvalitet er enkelt å måle fordi begrepet er en – dimensjonalt",
+      "Ja livskvalitet er enkelt å måle fordi vi har en «gullstandard» av ett mål",
+      "Nei, livskvalitet er komplisert å måle fordi begrepet er multidimensjonalt, det er\net fenomen under kontinuerlig endring, og det innebefatter en subjektiv\nopplevelse av å ha det godt eller dårlig."
+    ]
+  },
+  {
+    "question": "«Det generelle adaptasjonssyndromet» (GAS) som begrep",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Stammer fra Engels generelle teori om hvordan sykdom utvikles.",
+      "Stammer fra Selyes beskrivelse av reaksjoner på stress",
+      "Stammer fra de gamle grekerne",
+      "Er en ny beskrivelse av tilpasning til miljøpåvirkninger"
+    ]
+  },
+  {
+    "question": "Hvem regnes som utbrenthetsbegrepets «far» og skrev de første artiklene?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Freud", "Freudenberger", "Farber", "French"]
+  },
+  {
+    "question": "Utbrenthet skiller seg fra andre begrep som depresjon og stress fordi:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Utbrenthet er smittsomt",
+      "Utbrenthet rammer bare folk som jobber i topp",
+      "Utbrenthet er arbeidsrelatert og mer kronisk",
+      "De skiller seg ikke fra hverandre"
+    ]
+  },
+  {
+    "question": "Nyere oppsummering av forskningsstatus vedrørende strategier for reduksjon av\nalkoholrelaterte skader i samfunnet viser at en strategi som har høy grad av effekt er:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Alkoholopplysning i skolen",
+      "Selvhjelpsgrupper",
+      "Reklameforbud",
+      "Høye alkoholavgifter"
+    ]
+  },
+  {
+    "question": "Totalforbruksteorien handler om",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Totalforbruket er den dominerende faktor som sturer alkoholskadenes omfang i\nsamfunnet, men ikke den eneste faktor",
+      "Totalforbruket er den eneste faktor som styrer alkoholskadenes omfang i\nsamfunnet",
+      "Totalforbruket påvirker i liten grad forekomsten av alkoholskader i samfunnet",
+      "Totalforbruket i befolkningen har ingen betydning for antall storkonsumenter i\nsamfunnet"
+    ]
+  },
+  {
+    "question": "Hvilke av personlighetstrekkene nedenfor er sterkest relatert til rapportering av\nsymptomer",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Nevrotisisme", "Introversjon", "Åpenhet", "Planmessighet"]
+  },
+  {
+    "question": "Hva kjennetegner, i følge Friedman og kollegaer, personer som lever lenge?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "De er optimistiske og planmessige",
+      "De skårer lavt på nevrotisisme og lavt på medmenneskelighet",
+      "De skårer lavt på optimisme og høyt på planmessighet (Conscientiousness)",
+      "De skårer høyt på medmenneskelighet og lavt på planmessighet (Conscientiousness)"
+    ]
+  },
+  {
+    "question": "Med forkortingen BMI",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Menes vanligvis body mass index",
+      "Mener vi forholdet mellom hofte og mageomkrets",
+      "Menes bulemi minor index",
+      "Sier vi noe om opptaket av væske i kroppen"
+    ]
+  },
+  {
+    "question": "Innen medisin og sykepleie defineres «livskvalitet» oftest som:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Lykke",
+      "Helse og velvære",
+      "Fysisk, psykisk, sosialt og materielt velvære",
+      "Tilfredsstillelse av behov"
+    ]
+  },
+  {
+    "question": "Livskvalitet måles oftest ved hjelp av:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Selvrapportering",
+      "Helsepersonells vurdering",
+      "Psykologiske tester, f.eks lav skåre på depresjon",
+      "Objektive mål, som f.eks normale blodprøver og lungefunksjon"
+    ]
+  },
+  {
+    "question": "De fleste som må fjerne livmoren lider av:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Kreft",
+      "Smerter og store blødninger",
+      "Generell dårlig helse",
+      "Psykiske problemer"
+    ]
+  },
+  {
+    "question": "Det finnes forskjellige risikofaktorer knyttet til enkeltindividers helseutvikling i\nvestlige land i dag. Hvilken blir vurdert til å være den skumleste i nær fremtid?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "At nedgangen i røyking skal bli til en utvikling der mennesker foretrekker snus og\nmed de skadevirkningene det kan få",
+      "Miljøtrusselen",
+      "Økende overvekt",
+      "Infeksjonssykdommer"
+    ]
+  },
+  {
+    "question": "Et måleinstrument med høy reliabilitet er",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Et instrument som er relativt nøyaktig",
+      "Et instrument som måler det en ønsker å måle med stor grad av nøyaktighet",
+      "Et instrument som tar hensyn til at omgivelsene skifter",
+      "Et instrument som vil gi samme resultat hver gang gitt at det som blir målt var det samme"
+    ]
+  }
+]

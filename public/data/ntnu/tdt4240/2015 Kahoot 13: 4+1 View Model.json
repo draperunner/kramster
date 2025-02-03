@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What are the keywords in the definition of software architecture in the textbook?",
+    "answers": [0, 1, 2, 3],
+    "exam": ".*",
+    "options": [
+      "Software components",
+      "Properties",
+      "Structures",
+      "Relationships"
+    ]
+  },
+  {
+    "question": "A representation of a whole system from the perspective of a related set of concerns is called?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Architectural description",
+      "Architectural pattern",
+      "Software architecture",
+      "Architectural view"
+    ]
+  },
+  {
+    "question": "What standard is used for software architectural documentation in this course?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["ISO 900", "IEEE 1471", "IEEE 1990", "ARCH 1400"]
+  },
+  {
+    "question": "What types of views are described in the textbook?",
+    "answers": [0, 1, 3],
+    "exam": ".*",
+    "options": ["Allocation", "Component-and-Connector", "Dynamic", "Module"]
+  },
+  {
+    "question": "What view mainly addresses the developers and the project managers?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Development", "Logical", "Process", "Physical"]
+  },
+  {
+    "question": "What view is most relevant for the end user?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Developer view",
+      "Logical view",
+      "Process view",
+      "Physical view"
+    ]
+  },
+  {
+    "question": "What view represents an abstraction of the most important requirements?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Development", "Logical", "Process", "Scenario"]
+  },
+  {
+    "question": "In what view can ER-modelling typically be used?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Development", "Logical", "Physical", "Scenario"]
+  },
+  {
+    "question": "What view has the main focus on non-functional requirements such as availability & scalability?",
+    "answers": [2, 3],
+    "exam": ".*",
+    "options": [
+      "Development view",
+      "Logical view",
+      "Process view",
+      "Physical view"
+    ]
+  },
+  {
+    "question": "What characteristics should be identified when going from the logical to process view?",
+    "answers": [0, 1, 2, 3],
+    "exam": ".*",
+    "options": ["Autonomy", "Distribution", "Persistance", "Subordination"]
+  }
+]

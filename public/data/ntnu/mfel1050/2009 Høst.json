@@ -1,0 +1,407 @@
+[
+  {
+    "question": "Muskulær hypertrofi er assosiert med en stor økning i:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Neurale tilpasninger",
+      "Muskelfibre",
+      "Myofibriller",
+      "Makrofilamenter"
+    ]
+  },
+  {
+    "question": "Muskulær styrke er relatert til",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Muskelens volum",
+      "Muskelens tverrsnitt",
+      "Muskelens lengde",
+      "Alle tre ovenfor"
+    ]
+  },
+  {
+    "question": "”Hennemans size principle” sier at:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "De langsomme motorenhetene rekrutteres før de hurtige motorenhetene",
+      "De hurtige motorenhetene rekrutteres før de langsomme motorenhetene",
+      "De små muskelgruppene rekrutteres før de store muskelgruppene",
+      "De store muskelgruppene rekrutteres før de små muskelgruppene"
+    ]
+  },
+  {
+    "question": "Intervalltrening 4x4 vil i løpet av 20 treningsøkter gi en fremgang i VO2max på ca:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["5%", "10%", "15%", "20%"]
+  },
+  {
+    "question": "Blodstrøm i kapillærer i muskel begrenses ved muskelarbeid fra:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "15% av 1RM og opp",
+      "30% av 1RM og opp",
+      "45%av1RMogopp",
+      "70%av1RMogopp"
+    ]
+  },
+  {
+    "question": "Nevrale tilpasninger etter maksimal styrketrening inkluderer",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Økt fyringsfrekvens til muskelfibre",
+      "Økt reflekspotensiale til muskelfibre",
+      "Økt rekruttering av muskelfibre",
+      "Alle tre ovenfor"
+    ]
+  },
+  {
+    "question": "VO2max tilsvarer i % HRmax:",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Ca. 80%", "Ca. 85%", "Ca. 90%", "Ca. 95%"]
+  },
+  {
+    "question": "COPD pasienters lungefunksjon kan bedres ved:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Forbedret a-VO2 differanse",
+      "Forbedret slagvolum",
+      "Forbedret FEV1",
+      "Å puste gjennom nesen"
+    ]
+  },
+  {
+    "question": "Aerob utholdenhetsprestasjon bestemmes av følgende faktorer i henhold til Pate og Kriskas modell:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Slagvolum, a-vO2 differanse, VO2max",
+      "VO2max, Slagvolum, arbeidsøkonomi",
+      "Anaerob terskel, slagvolum, VO2max",
+      "Arbeidsøkonomi, VO2max, Anaerob terskel"
+    ]
+  },
+  {
+    "question": "Langkjøring ga følgende økning i VO2max hos friske mannlige studenter som trente i 2 måneder:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["0%", "5%", "10%", "15%"]
+  },
+  {
+    "question": "I et 2004 studie av Rognmo et al. ble pasienter med kransarteriesykdom testet for VO2peak ved å bruke:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En tredemølle “ramp protocol” der hastigheten ble holdt konstant og stigningen økte inntil VO2peak ble nådd",
+      "En tredemølle “ramp protocol” der stigningen og hastigheten ble holdt konstant inntil VO2peak ble nådd",
+      "En tredemølle “ramp protocol” der stigningen ble holdt konstant og hastigheten økte inntil VO2peak ble nådd",
+      "VO2peak ble estimert ut i fra hjertefrekvens i hvile"
+    ]
+  },
+  {
+    "question": "Forbedres sprintresultater når fotballspillere trener 4-minuttersintervaller?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Ja litt", "Ja mye", "Ingen endring", "Nei, de forverres"]
+  },
+  {
+    "question": "Hvis en skiløper har et maksimalt oksygenopptak i overkropp på 60 mL · kg · min, trener maksimal styrketrening og forbedrer stakeøkonomien med 20 %. Hvor mye vil prestasjonen hennes forbedres på 20 minutter staking?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["240 sek", "80 sek", "120 sek", "40 sek"]
+  },
+  {
+    "question": "Hvorfor forbedres arbeidsøkonomien ved trening av VO2max når fotballspillere løper?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "VO2max forbedrer arbeidsøkonomi",
+      "Laktatterskel forbedrer arbeidsøkonomi",
+      "Bedret muskelstyrke forbedrer arbeidsøkonomi",
+      "Mer løping gir mer effektivt løpesett, som forbedrer arbeidsøkonomien"
+    ]
+  },
+  {
+    "question": "Effektiv maksimal styrketrening bedrer:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Anaerob terskel i % av VO2max",
+      "Arbeidsøkonomi",
+      "Maksimalt oksygenopptak",
+      "Ingen av delene"
+    ]
+  },
+  {
+    "question": "Hva skjer med det meste av melkesyren etter hardt arbeid?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Den svettes ut gjennom huden",
+      "Den bygges opp til glukose i leveren",
+      "Den brukes som drivstoff i aerob energifrigjøring",
+      "Den inngår i oppbyggingen av muskulaturen"
+    ]
+  },
+  {
+    "question": "Hvor mye kan terskeltrening forbedre anaerob terskel?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ingenting",
+      "Litt",
+      "Mye",
+      "Svært mye, det er derfor det heter terskeltrening"
+    ]
+  },
+  {
+    "question": "Hva er hovedårsaken til endringer i muskelstyrke som følge av maksimal styrketrening:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Overgang fra type I til type II muskelfibre ved muskelaktivering",
+      "Økt aktivering som følge av flere sarcomerer",
+      "Økt achetylcholinsensitivitet i reseptorene i motor endeplatene",
+      "Økt fyringsfrekvens og økt rekruttering av motorenheter"
+    ]
+  },
+  {
+    "question": "Lungene er en stor begrensning i oksygentransporten for:",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Eldre", "Fotballspillere", "KOLS-pasienter", "Alle 3 ovenfor"]
+  },
+  {
+    "question": "Ved bedret maksimalt oksygenopptak vil følgende tilpasninger finne sted i hvile:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Slagvolum går ned, hjertefrekvens går ned",
+      "Slagvolum går ned, hjertefrekvens går opp",
+      "Slagvolum går opp, hjertefrekvens går ned",
+      "Slagvolum går opp, hjertefrekvens går opp"
+    ]
+  },
+  {
+    "question": "Hvorfor øker utholdenheten mer ved høyere intensitet på den aerobe t reningen.",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Større blodflow",
+      "Større blodtrykk",
+      "Større del av muskler er involvert",
+      "Hardere arbeid gir bedre resultat"
+    ]
+  },
+  {
+    "question": "Høyere intensitet på treningen over laktatterskel (melkesyreterskel) gir proporsjonalt større bidrag av:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Aerob og anaerob energiproduksjon",
+      "Fettoksidering",
+      "Proteinoksidering",
+      "Ingen av delene"
+    ]
+  },
+  {
+    "question": "Økt maksimal styrke er i første rekke knyttet til:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Økt muskelmasse",
+      "Økt beintetthet",
+      "Nervøse tilpasninger",
+      "Flere aktin og myosin proteintråder i parallell"
+    ]
+  },
+  {
+    "question": "Når en KOLS pasient forbedrer lungefunksjonen med maksimal styrketrening, hvorfor skjer det?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Forbedret oksygenopptak",
+      "Forbedret anaerob terskel",
+      "Forbedret arbeidsøkonomi",
+      "Styrking av respirasjonsmusklene"
+    ]
+  },
+  {
+    "question": "Hvorfor koster det mer energi for en pasient å gå med samme hastighet som en student?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Pasienten har lavere oksygenopptak",
+      "Pasienten har lavere styrke",
+      "Pasienten har dårligere gangteknikk",
+      "Pasienten har lavere anaerob terskel"
+    ]
+  },
+  {
+    "question": "Hvis du trener styrke og utholdenhet i samme treningsøkt eller i samme treningsperiode, hvordan påvirkes treningsresponsene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Samme som om du trener styrke og utholdenhet hver for seg",
+      "Styrken reduseres",
+      "Utholdenheten reduseres",
+      "Begge reduseres"
+    ]
+  },
+  {
+    "question": "Hvordan kan man måle løpsøkonomi?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Ved å måle hjertefrekvens på en submaksimal belastning",
+      "Ved å måle oksygenopptaket på en submaksimal belastning",
+      "Ved å måle melkesyre i blodet på en submaksimal belastning",
+      "Ved å måle lungeventilasjon på en submaksimal belastning"
+    ]
+  },
+  {
+    "question": "Trening for nervesystemstilpasninger gjennomføres annerledes enn trening for hypertrofi, hvordan?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Samme hastighet konsentrisk og eksentrisk",
+      "Langsomme bevegelser",
+      "Hurtig bevegelse konsentrisk",
+      "Hurtig bevegelse eksentrisk"
+    ]
+  },
+  {
+    "question": "FEV1 er:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Mengden luft du puster ut pr. sekund ved ventilasjon i hvile",
+      "Mengden oksygen du kan ta opp pr. sekund ved VO2max",
+      "Mengden luft du kan puste ut og inn på ett sekund",
+      "Mengden luft du kan puste ut på ett sekund"
+    ]
+  },
+  {
+    "question": "Har eldre samme effekt av utholdenhetstrening som yngre?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Nei de har stivere årenett",
+      "Nei",
+      "Ja, de har samme effekt",
+      "Eldre bør ikke trene utholdenhet på samme måte"
+    ]
+  },
+  {
+    "question": "Hva er hematokrit?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det totale blodvolumet",
+      "Hemoglobinkonsentrasjon i blod",
+      "Andel røde blodceller i blod",
+      "Andel blodplasma i blod"
+    ]
+  },
+  {
+    "question": "Kan utholdenhetstrening være positivt for eldre på institusjon?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ja det kan beskytte mot hjerte-karsykdom",
+      "Nei, det vil kreve for mye arbeid for de eldre",
+      "Nei, de eldre bør spare energi",
+      "Ja, de vil bli gladere"
+    ]
+  },
+  {
+    "question": "Hvordan kan beinpress forbedre pusten til KOLS-pasienter?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Sterkere bein gir lettere pust",
+      "Gangøkonomien blir forbedret",
+      "De er ikke vant med å arbeide så hardt",
+      "Beinpress styrker pustemusklene"
+    ]
+  },
+  {
+    "question": "Hva er det viktigste organ for eliminasjon av melkesyre?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Lever", "Nyrer", "Hjertet", "Skjelettmuskel"]
+  },
+  {
+    "question": "Hvorfor koster det mindre energi å utføre et arbeid når du blir sterkere?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Nervesystemet trenger mindre energi",
+      "Muskelen gjør et mindre arbeid",
+      "Den relative belastningen blir mindre",
+      "Hjertet arbeider lettere"
+    ]
+  },
+  {
+    "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Bli ca 5% mindre",
+      "Forbli uendret",
+      "Bli ca. 5% større",
+      "Bli ca 10% større"
+    ]
+  },
+  {
+    "question": "[La-]b betyr:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Laktat",
+      "Laktatvolum i blodceller",
+      "Laktatkonsentrasjon i blodplasma",
+      "Laktationer i blodceller"
+    ]
+  },
+  {
+    "question": "En dribleløype i fotball kan være:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Svært lite effektiv trening for den aerobe kapasiteten",
+      "Nesten like effektiv trening for den aerobe kapasiteten som intervalltrening på tredemølle",
+      "Like effektiv trening for den aerobe kapasiteten som intervalltrening på tredemølle",
+      "Mer effektiv trening for den aerobe kapasiteten som intervalltrening på tredemølle"
+    ]
+  },
+  {
+    "question": "KOLS-pasienter har",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Nedsatt lungefunksjon",
+      "Nedsatt hjertekapasitet",
+      "Nedsatt muskelstyrke",
+      "Alle tre ovenfor"
+    ]
+  },
+  {
+    "question": "Lengre varighet på treningsøkten for å påvirke VO2max kan",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Kompensere for manglende høy intensitet",
+      "Ikke kompensere for manglende høy intensitet",
+      "Er mer effektivt enn høy intensitet",
+      "Kan kompensere for manglende høy intensitet i en dribleløype"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "«F-measure» eller «Harmonic Means» er en god måte å kombinere precision og recall på.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Thesaurus er et verktøy til å utvide spørringer og brukes ofte i forbindelse med «automatic global analysis».",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "«Signature Files» er en metode for å signere et informasjonsgjenfinningsdokument på.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Multimedia-informasjonsgjenfinning er ofte enklere enn tekstgjenfinning, da man ikke trenger å utføre tekstoperasjoner.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Micon er en viktig feature for bilder og brukes i bildegjenfinning, og kan sees på som en analogi av r-frames innen videogjenfinning.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "User Relevance Feedback (URF) er ofte brukt til å redefinere spørringer slik at man får økt søkehastighet.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "R-Precision er en forkortelse for Recall-Precision.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "MRR (Mean Reciprocal Rank) er veldig godt egnet til å evaluere systemer der man er mest opptatt av å finne relevante resultater i en topp-k (f.eks. topp-10) resultatliste.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "«Vocabulary Trie» og «Suffix Trie» er to begrep som beskriver samme indekseringsmetode.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  },
+  {
+    "question": "Fjerning av stoppord kan ha negative påvirkninger på Recall.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Rett", "Galt"]
+  }
+]

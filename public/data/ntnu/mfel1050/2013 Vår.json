@@ -1,0 +1,387 @@
+[
+  {
+    "question": "Hjertets slagvolum vil hos utrente og moderat trente forsøkspersoner:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Reduseres når subjektene nærmer seg HRmax",
+      "Flate ut ved moderat intensitet (~60% av HRmax)",
+      "Være uendret fra hvile til HRmax",
+      "Øke kontinuerlig til subjektene når HRmax"
+    ]
+  },
+  {
+    "question": "Mange ser på VO2max som den viktigste faktoren for aerob utholdenhet. Ved maksimalt arbeid konkluderer de fleste studier med at VO2max først og fremst begrenses av:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Hjertets slagvolum",
+      "HFmax",
+      "Lungekapasiteten",
+      "Muskelens evne til å utnytte oksygenet"
+    ]
+  },
+  {
+    "question": "Hva er hovedårsaken til endringer i muskelstyrke som følge av maksimal styrketrening:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "overgang fra type I til type II muskelfibre ved muskelaktivering",
+      "Økt aktivering som følge av flere sarcomerer",
+      "Økt achetylcholinsensitivitet i reseptorene i motor endeplatene",
+      "Økt fyringsfrekvens og økt rekruttering av motorenheter"
+    ]
+  },
+  {
+    "question": "Hvor mye energi kommer fra omtrent fra det aerobe- og hvor mye fra det anaerobe system i løpet av en fotballkamp som varer i 90 min?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["95%/5%", "80%/20%", "60%/40%", "50%/50%"]
+  },
+  {
+    "question": "Lungene er en stor begrensning i oksygentransporten:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "ved opphold i høyden (>3000m.o.h.)",
+      "for fotballspillere",
+      "for hjertesviktpasienter",
+      "For alle 3 ovenfor"
+    ]
+  },
+  {
+    "question": "Hvor mye fortere kan du løpe på 3000 m når det maksimale oksygenopptaket øker med 10%, og løpsøkonomi er forbedret med 5%?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["5%", "10%", "15%", "20%"]
+  },
+  {
+    "question": "Ved høy intensitet på treningen over laktatterskel (melkesyreterskel) kommer energiproduksjonen fra:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Kun Aerob energiproduksjon",
+      "Kun Anaerob energiproduksjon",
+      "Fettforbrenning og karbohydratforbrenning",
+      "Aerob og Anaerob energiproduksjon"
+    ]
+  },
+  {
+    "question": "I et studie av Østerås et al 2005 på friske eldre (ca 70 år) økte VO2max etter en 10 ukers treningsperiode med aerob høyintensitet i gjennomsnitt pr økt med:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["~0.1 %", "~0.4 %", "~1.1 %", "~1.9 %"]
+  },
+  {
+    "question": "Etter en treningsintervensjon som har bedret aerob kapasitet mye vil den maksimale hjertefrekvensen",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Også øke mye",
+      "Avta mye",
+      "Være tilnærmet uendret",
+      "Kun øke dersom slagvolumet øker"
+    ]
+  },
+  {
+    "question": "Økt maksimal styrke er i første rekke knyttet til:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "økt muskelmasse",
+      "økt beintetthet",
+      "nervøse tilpasninger",
+      "flere aktin og myosin proteintråder i parallell"
+    ]
+  },
+  {
+    "question": "Hvilken treningsintensitet ble brukt, og viste store framganger i treningsstudiet på eldre?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "50% av maksimal puls",
+      "70% av maksimal puls",
+      "85-90% av maksimal puls",
+      "95% av maksimal puls"
+    ]
+  },
+  {
+    "question": "”Acetylene uptake” er en metode for mål på:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Anaerob terskel",
+      "Hjertets minuttvolum",
+      "VO2max",
+      "Arbeidsøkonomi"
+    ]
+  },
+  {
+    "question": "Når en KOLS pasient forbedrer lungefunksjonen med maksimal styrketrening, hvorfor skjer det?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Forbedret oksygenopptak",
+      "Forbedret anaerob terskel",
+      "Forbedret arbeidsøkonomi",
+      "Styrking av respirasjonsmusklene"
+    ]
+  },
+  {
+    "question": "Hvis du trener styrke og utholdenhet i samme treningsøkt eller i samme treningsperiode, hvordan påvirkes treningsresponsene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Samme som om du trener styrke og utholdenhet hver for seg",
+      "Styrken reduseres",
+      "Utholdenheten reduseres",
+      "Samme responser som du trener styrke og utholdenhet hver for seg dersom man trener styrken først"
+    ]
+  },
+  {
+    "question": "Hva er 1RM?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Den tyngste vekten du kan løfte en gang i en øvelse",
+      "Den tyngste vekten du kan løfte i knebøy",
+      "Den største kraftutviklingshastigheten i en øvelse",
+      "Alle tre ovenfor"
+    ]
+  },
+  {
+    "question": "80 % av VO2max tilsvarer følgende % av HFmax:",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["75 %", "80 %", "85 %", "90 %"]
+  },
+  {
+    "question": "Hva er hematokrit?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det totale blodvolumet",
+      "Hemoglobinkonsentrasjon i blod",
+      "Andel røde blodceller i blod",
+      "Andel blodplasma i blod"
+    ]
+  },
+  {
+    "question": "Hva kan respiratorisk utvekslingskvotient (R) si noe om?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Hvor stor lungeventilasjonen er",
+      "Hvor stor andel fett som forbrennes",
+      "Hvor høy melkesyren er i blodet",
+      "Hvor mange gram proteiner som er forbrent"
+    ]
+  },
+  {
+    "question": "Hvordan kan man måle løpsøkonomi?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Ved å måle hjertefrekvens på en submaksimal belastning",
+      "Ved å måle oksygenopptaket på en submaksimal belastning",
+      "Ved å måle melkesyre i blodet på en submaksimal belastning",
+      "Ved å måle lungeventilasjon på en submaksimal belastning"
+    ]
+  },
+  {
+    "question": "Maksimalt oksygenopptak målt som mL ∙ min-1 ∙ kg-1:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Overvurderer den som har lav kroppsvekt",
+      "Undervurderer den som har lav kroppsvekt",
+      "Hverken over eller undervurderer den som har lav kroppsvekt",
+      "Har mindre betydning om du er overvektig"
+    ]
+  },
+  {
+    "question": "Hva er et realistisk mål for en fotballspiller når det gjelder maksimalt oksygenopptak i ml/kgxmin:",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["45-55", "55-60", "65-75", "80"]
+  },
+  {
+    "question": "Type I muskelfibre har følgende karakteristikker:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "hvit, glykolytisk, hurtig kontraherende",
+      "hvit, oksidativ, hurtig kontraherende",
+      "rød, glykolytisk, langsomt kontraherende",
+      "rød, oksidativ, langsomt kontraherende"
+    ]
+  },
+  {
+    "question": "Hva kan du si om to idrettsutøvere som løper sammen og har samme hjertefrekvens?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "De har samme maksimal oksygenopptak",
+      "De har samme maksimale hjertefrekvens",
+      "De har samme løpsøkonomi",
+      "De trenger ikke å ha noen av kombinasjonene ovenfor"
+    ]
+  },
+  {
+    "question": "KOLS (COPD) pasienter har nedsatt...",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["FLT1 og CLV", "REG1 og HLT", "FVC og FEV1", "KKL og RPT1"]
+  },
+  {
+    "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Bli ca 5% mindre",
+      "Forbli uendret",
+      "Bli ca. 5% større",
+      "Bli ca 10% større"
+    ]
+  },
+  {
+    "question": "Hvor langt løper en elite fotballspiller i løpet av en kamp?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["3-5 km", "8-12 km", "18-20 km", "22-26 km"]
+  },
+  {
+    "question": "Fotballspillere har et relativt lavt oksygenopptak ut fra mengden av aktivitet de utfører, hvorfor?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Mye start/stopp gjør at gjennomstrømmingen av blod i hjertet blir lav",
+      "Fotballspillere er late",
+      "Det er så mange på banen at aktiviteten for hver enkelt spiller blir lav",
+      "Fotballtrening har for lav intensitet"
+    ]
+  },
+  {
+    "question": "Hvorfor øker antall sprinter i en fotballkamp når maksimalt oksygenopptak øker?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Du kan sprinte fortere med økt oksygen",
+      "Økt oksygenopptak gir energi til flere sprinter",
+      "Redanning av energilagrene som benyttes i sprinter (ATP og Kreatinfosfat) skjer\nmed bruk av oksygen og går hurtigere",
+      "Oksygenopptaket kan erstatte kortvarige energilagre (ATP og Kreatinfosfat) i korte\nsprinter"
+    ]
+  },
+  {
+    "question": "Hvis langdistanseløpere trener maksimal styrketrening, hva skjer?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "De blir tunge og løper dårligere",
+      "De øker kroppsvekt og må flytte på en større kropp",
+      "De forbedrer løpsøkonomien og løper fortere",
+      "De øker maksfarten sin"
+    ]
+  },
+  {
+    "question": "5% forbedret løpsøkonomi betyr hvor mange % forbedret hastighet i en løpskonkurranse?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "50%",
+      "20%",
+      "5%",
+      "Betyr ingen ting for hastigheten i en løpskonkurranse"
+    ]
+  },
+  {
+    "question": "Hvis du forbedrer løpsøkonomien din med 5%, hvor mange sekunder fortere vil du løpe et løp som tidligere tok en time?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Ingen forbedring", "3 minutter", "6 minutter", "10 minutter"]
+  },
+  {
+    "question": "Hvorfor er det smartere å trene utholdenhet i ett bein av gangen for KOLS (COPD) -pasienter?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det er ikke smartere",
+      "Ulikt friske er de begrenset av energiomsetningen i beinmusklene og\nenbeinssykling vil gjøre at begge beina slipper å konkurrere om blodtilførsel",
+      "KOLS-pasienter greier ikke å sykle med begge beina",
+      "Det gir mindre smerte"
+    ]
+  },
+  {
+    "question": "Hvorfor foreslår vi at røykebeinpasienter skal starte med enbeinssykling før de går over til helkroppsarbeid?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Fordi de ikke greier å sykle med to bein",
+      "Det foreslås ikke at røykebeinpasienter skal sykle med ett bein av gangen. De bør\ngå",
+      "Ulikt friske er de begrenset av energiomsetningen i muskler og ikke hjertets slagvolum, og bør trene opp musklene først og så få trent hjertet med helkroppsarbeid",
+      "Fordi de har begrenset kapasitet og det gjelder å starte forsiktig"
+    ]
+  },
+  {
+    "question": "Hva forventer du at en gjennomsnittlig frisk 70 årig mann vil ha i VO2max?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["15 ml/kgxmin", "25 ml/kgxmin", "35 ml/kgxmin", "45 ml/kgxmin"]
+  },
+  {
+    "question": "Hvis du gjennomfører effektiv intervalltrening (4x4 min) med en gruppe eldre menn på ca 70 år 3x i uka i 8 uker, hva forventer du at VO2max vil øke i %?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["0%", "0-5%", "10-15%", "20%"]
+  },
+  {
+    "question": "Maksimal styrketrening i beinpress er en effektiv måte å behandle KOLS- pasienters dårlige gangøkonomi på. Men hva er hovedårsaken til deres dårlige gangøkonomi i utgangspunktet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Dårlig styrke i beina",
+      "Pustebegrensninger pga de skadde lungene",
+      "Beinskjørhet",
+      "Hjertets pumpekapasitet"
+    ]
+  },
+  {
+    "question": "Hvor stor gjennomsnittlig forbedring vil du forvente i maksimal styrke i beinpress (1RM) for en gruppe KOLS-pasienter som gjennomfører 4x4 reps maksimal styrketrening 3x pr uke i 8 uker?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["10%", "15%", "25%", "40%"]
+  },
+  {
+    "question": "Hva forklarer Helgerud og medarbeidere (2007) framgangen i VO2max i intervallgruppene med?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Økt maksimal puls",
+      "Økt lungevolum",
+      "Økt muskelstyrke",
+      "Økt slagvolum"
+    ]
+  },
+  {
+    "question": "Hva ble gjort i studiet til Helgerud og medarbeidere (2007) for å sikre at de fire treningsgruppene hadde omtrent det samme omfanget av trening til tross for forskjeller i treningens varighet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "De trente alle 3x pr uke",
+      "De svarte på spørreskjema om graden av anstrengelse",
+      "De brukte like mye energi i løpet av treningsøkten",
+      "Pustefrekvensen etter avsluttet trening var den samme"
+    ]
+  },
+  {
+    "question": "Hva konkluderer Ruiz og medarbeidere (2008) med når det gjelder den helsemessige effekten av muskelstyrke?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Hjertets slagvolum er helt avgjørende for utvikling av muskelstyrke",
+      "Muskulær styrke er en uavhengig variabel assosiert med død.",
+      "Muskelstyrke har liten eller ingen effekt på helsa i dag og framtidig død",
+      "Økt styrke gir økt skaderisiko"
+    ]
+  }
+]

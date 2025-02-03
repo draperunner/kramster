@@ -1,0 +1,97 @@
+[
+  {
+    "question": "Hva betyr glomeruli?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Urinleder", "Urinrør", "Kapillærnøster", "Urinblære"]
+  },
+  {
+    "question": "Hva er et nefron?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En glomerulus og tilhørende tubulussystem",
+      "Et samlerør",
+      "Nyrebekkenet",
+      "Nyrens tilførende (afferente) arteriole"
+    ]
+  },
+  {
+    "question": "Hvilket av følgende stoffer skal normalt IKKE finnes i urinen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Urea", "Kreatinin", "Glukose", "Natrium"]
+  },
+  {
+    "question": "Hva er hovedfunksjonen for nyrenes autoregulering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Motvirke store endringer i urinutskillelsen ved blodtrykksendringer",
+      "Tilpasse utskillelsen av urin i forhold til væskemengde",
+      "Sørge for stabilt hydrostatisk trykk i glomerulus",
+      "Sørge for at mengden urin er den samme uavhengig av væskeinntak"
+    ]
+  },
+  {
+    "question": "Hvilken av følgende faktorer har IKKE en rolle i reguleringen av glomerulusfunksjonen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Autoregulering",
+      "Sympatisk påvirkning ved adrenalin",
+      "Insulin",
+      "Angiotensin II"
+    ]
+  },
+  {
+    "question": "Hvilke(n) av følgende funksjoner utføres IKKE av nyrene?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Bidrar til kroppens homeostase",
+      "Fjerner avfallstoffer fra blodbanen",
+      "Produserer renin",
+      "Bidrar i regulering av kroppstemperatur"
+    ]
+  },
+  {
+    "question": "Kapillærnøstene i nefronene (glomerulus) er:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Like permeable (lekk) som kapillærnettet ellers i kroppen",
+      "Mer permeable enn kapillærnettet ellers i kroppen",
+      "Mindre permeable enn kapillærnettet ellers i kroppen",
+      "Kapillærnøstene er helt tette"
+    ]
+  },
+  {
+    "question": "Mesteparten av glukose reabsorberes i:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Henles sløyfe",
+      "Proksimale tubulus",
+      "Distale tubulus",
+      "Glomerulus"
+    ]
+  },
+  {
+    "question": "Hva er det aktivering av Renin-angiotensin II- aldosteron-systement (RAAS) fører til?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Økt reabsorpsjon av Na+ og vann",
+      "Redusert absorpsjon av vann",
+      "Økt reabsorpsjon av glukose",
+      "En reduksjon i blodtrykket"
+    ]
+  },
+  {
+    "question": "Omtrent hvor stort er det obligatoriske vanntapet per døgn for en ung person som veier omtrent 70 kg?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["2,6 L", "1,4 L", "0,5 L", "2,3 L"]
+  }
+]

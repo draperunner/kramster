@@ -1,0 +1,74 @@
+[
+  {
+    "question": "What is an Edge dominant system?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "System depending on bleeding edge technology",
+      "System that depends on users to succeed",
+      "System that can find dominant edges in pixel-based images",
+      "System that operates at the edge (outer bounds) of a network"
+    ]
+  },
+  {
+    "question": "Which of these are not a typical Edge dominant system?",
+    "answers": [1, 3],
+    "exam": ".*",
+    "options": ["Facebook", "Microsoft Office", "Eclipse", "Netflix"]
+  },
+  {
+    "question": "What is a Prosumer?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Both content consumer and producer",
+      "Professional consumer",
+      "Developer of core of an edge dominant system",
+      "Man playing an accordion"
+    ]
+  },
+  {
+    "question": "Assumptions normally not ture in an Edge dominant system compared to traditional:",
+    "answers": [0, 1, 2],
+    "exam": ".*",
+    "options": [
+      "Requirements can be known in advance",
+      "Software developed, tested & released in planned increments",
+      "Projects have dedicated finite resources",
+      "Users will contribute to the value of the system"
+    ]
+  },
+  {
+    "question": "What are some important requirements for the core of a Edge dominant system?",
+    "answers": [0, 2],
+    "exam": ".*",
+    "options": [
+      "Highly robust with respect to errors",
+      "Developed by End Users",
+      "Core provides services & quality attributes for periphery",
+      "Developed by Prosumers"
+    ]
+  },
+  {
+    "question": "What are some implications of the Metropolis model?",
+    "answers": [0, 3],
+    "exam": ".*",
+    "options": [
+      "Indifference to development phases",
+      "Requirements from interviewing users",
+      "Indifference to crowd management",
+      "Distributed testing"
+    ]
+  },
+  {
+    "question": "The software architecture of an Edge dominant system is divided into:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Users and Prosumers",
+      "Core and Periphery",
+      "Basic layer and User layer",
+      "Developers and Prosumers"
+    ]
+  }
+]

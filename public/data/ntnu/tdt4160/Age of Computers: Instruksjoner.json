@@ -1,0 +1,111 @@
+[
+  {
+    "question": "Hva er en stakkramme (stack frame)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Stakkramme er en ekstra stakk som blir lagt til for å bruke parametre",
+      "Stakkramme er en subrutines private arbeidsområde som lages når subrutinen blir kalt og fjernes når subrutinen er ferdig.",
+      "Stakkramme er en stakk som legges til ved bruk av store tall som ikke får plass i et område på stakken."
+    ]
+  },
+  {
+    "question": "Hva er en stakk?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En stakk er en liste av elementer der man kan hente ut elementer akkurat slik man vil",
+      "En stakk er en liste som fungerer som en kø i butikken den som kom først inn i køen blir først ekspedert.",
+      "En stakk er en liste av elementer der elementer bare kan bli lagt til eller fjernet på «toppen» av stakken (dvs. den ene enden av listen)"
+    ]
+  },
+  {
+    "question": "Datatyper kan lagres på enten «big-endian»-måten eller «little endian». Hvilken måte er best?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["«little endian»", "«big endian»", "I praksis like gode"]
+  },
+  {
+    "question": "En prosessor som bruker little endian har mindre adresserom enn en prosessor med big endian.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "Hva består en ASCII kode av?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "7 bit for å kode tegnet og 1 bit for feildeteksjon",
+      "6 bir for å kode tegnet og 2 bit for feilkorreksjon",
+      "8 bit for å kode tegnet og ingen feildeteksjon",
+      "7 bit for å kode tegnet og ingen feildeteksjon"
+    ]
+  },
+  {
+    "question": "Hva er SP (stakkpeker)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "SP er er en peker som viser hvor stakken starter",
+      "SP er et register som inneholder lengden til stakken",
+      "SP er et register som viser hvor toppen på stakken er"
+    ]
+  },
+  {
+    "question": "Hva er «little endian»?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Et annet uttrykk for ``embedded system''",
+      "At minst signifikante byte i et ord er lagret før den mest signifikante",
+      "Operander med 16 eller 8 bit",
+      "Et flyttall med lav presisjon",
+      "Lurespørsmål. Dette har ingenting med faget å gjøre"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om stakk er sant?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Stakk er det samme som en FIFO",
+      "Stakk er det samme som en LIFO",
+      "Stakk er det samme som en lenket liste."
+    ]
+  },
+  {
+    "question": "Hva er en fordel med «big endian» sammenlignet med «little endian»?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det er enklere å foreta adressekonverteringer fra f.eks.  32 til 16 bit.",
+      "Raskere sortering.",
+      "Aritmetikk blir enklere.",
+      "Den kan brukes til å korrigere enkeltbit-feil.",
+      "Tar mindre lagringsplass.",
+      "Det er enklere å foreta adressekonverteringer fra f.eks.  32 til 16 bit",
+      "Raskere sortering",
+      "Aritmetikk blir enklere",
+      "Den kan brukes til å korrigere enkeltbit-feil",
+      "Tar mindre lagringsplass"
+    ]
+  },
+  {
+    "question": "Hva er fordelen med «big endian» i forhold til «little endian»?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Kan ta høyde for større tall enn \"little endian\"",
+      "Har en enklere aritmetikk enn \"little endian\"",
+      "Har heltall og strenger i samme rekkefølge og kan derfor oppnå raskere sortering enn \"little endian\"",
+      "Har enklere adressekonvertering fra 32 til 16 bits"
+    ]
+  },
+  {
+    "question": "Det mest brukte enkodingssystemet for datakommunikasjon kalles:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["7-bit ASCII", "Unicode", "BLE", "ANSI"]
+  }
+]

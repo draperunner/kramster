@@ -1,0 +1,53 @@
+[
+  {
+    "question": "Anta tre flyttall \\(a\\), \\(b\\) og \\(c\\). Anta at \\(t1 = (a + b) + c\\) og \\(t2 = a + (b + c)\\). Da vil \\(t1\\) alltid være lik \\(t2\\).",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "Hva er «sign and magnitude system»?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "I dette systemet endrer man det mest signifikante bit-et fra en til null for å lage negative verdier.",
+      "I dette systemet endrer man det mest signifikante bit-et fra null til en for å lage negative verdier.",
+      "I dette systemet bruker man enerkomplement for å lage negative tall",
+      "I dette systemet bruker man toerkomplement for å lage negative tall"
+    ]
+  },
+  {
+    "question": "Hva er underflyt (underflow) i forbindelse med flyttallsregning?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det samme som normalisering",
+      "At et tall er mindre enn 1",
+      "En av avrundingsmetodene i IEEE754-standarden",
+      "At et tall er for lite til å representeres",
+      "Tap av bit i forbindelse med divisjon"
+    ]
+  },
+  {
+    "question": "Hvilken metode under er <em>ikke</em> en metode for å representere både negative og positive binære tall?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["sign and magnitude", "toerkomplement", "treerkomplement"]
+  },
+  {
+    "question": "Hvis du har ti fingre, hva er det meste du kan telle til i totallsystmet? (Holder du fingeren opp betyr det 1 og holder du fingen nede betyr det 0.)",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["32", "64", "1023", "1024"]
+  },
+  {
+    "question": "Normalisering av flyttall",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "benyttes for å kunne representere større tall enn med ikke-normaliserte flyttall",
+      "innebærer en standardisert justering av mantisse og eksponent for å oppnå maksimal utnyttelse av den presisjon som er mulig med det aktuelle flyttallsformat.",
+      "innebærer å justere flyttallet slik at det mest signifikante bit i eksponenten alltid er lik verdien 1."
+    ]
+  }
+]

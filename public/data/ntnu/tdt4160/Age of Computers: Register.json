@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Hvorfor er det kompilatoren som tar seg av registeromdøping (eng: register renaming)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Dette er feil.  Det er prosessoren som gjør registeromdøping.",
+      "Kompilatoren har mye bedre tid til å gjøre dette enn prosessoren.",
+      "Kompilatoren har komplett oversikt over programkoden.",
+      "Registeromdøping krever deteksjon av ut- og antiavhengigheter.",
+      "Det forenkler designet av prosessoren."
+    ]
+  },
+  {
+    "question": "Hva brukes de registrene som er synlig for brukeren til?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Data", "Addresser", "Betingelser", "Alle overnevnte"]
+  },
+  {
+    "question": "Gitt at du har en datamaskin med 48-bit registre, hvor stort blir området for heltall med fortegn («signed integers»)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "\\(\\pm 2^{47}\\)",
+      "\\(\\pm 2^{47}-1\\)",
+      "\\(\\pm 2^{47-1}\\)"
+    ]
+  },
+  {
+    "question": "Hva skjer med programteller (PC) under utførelse av en instruksjon ?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Den øker med 1",
+      "Den blir satt til å peke på dataområdet som blir brukt av instruksjonen",
+      "Det avhenger av hvilken operasjon som utføres",
+      "Returverdien fra operasjonen blir lagret her"
+    ]
+  },
+  {
+    "question": "Hvilken funksjon har instruksjonsregisteret (IR) i prosessoren?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Registeret inneholder instruksjonen som blir utført.",
+      "Registeret inneholder adressen til neste instruksjon.",
+      "Registeret innheholder data som skal bli skrevet ut til lageret."
+    ]
+  },
+  {
+    "question": "Hvilket register er <em>ikke</em> et typisk kontroll- og statusregister for en typisk prosessor som benyttes ifm. utføring av instruksjoner?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["PCI", "IR", "MAR", "MBR"]
+  },
+  {
+    "question": "Hva er hensikten med brukersynlige register?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det finnes ikke registre som er synlig for brukeren",
+      "De brukes i stedet for å bruke lageret direkte ved ALU-operasjoner",
+      "De brukes til å lagre data over lengre tid",
+      "De brukes i stedet for hurtigbuffer"
+    ]
+  },
+  {
+    "question": "Hvilken hovedfunksjon har statusregisteret (SR) ?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Statusregisteret inneholder hurtigbufferstatus, det vil si antall treff (hit) og bom (miss) i hurtigbufferet.",
+      "Statusregisteret brukes til å lagre midlertidige data i.",
+      "Statusregisteret inneholder informasjon om resultatet fra forrige instruksjon. Dette kan brukes til betingede hopp."
+    ]
+  },
+  {
+    "question": "Hva inneholder instruksjonsregisteret (IR)?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Oversikt over tilgjengelige instruksjoner",
+      "Hurtigbuffer over siste brukte instruksjoner",
+      "Adressen til neste instruksjon",
+      "Instruksjonsordet til den instruksjonen som blir utført"
+    ]
+  },
+  {
+    "question": "Hva brukes statusregisteret til?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Statusregisteret brukes bl.a til betingete hopp - hoppbetingelsen er at et gitt statusflagg skal skal være satt / ikke satt.",
+      "Statusregisteret forteller resten av prosessoren om alt er som det skal",
+      "Statusregisteret inneholder adressen til neste instruksjon"
+    ]
+  },
+  {
+    "question": "Hva er oppgaven til programteller (eng: Program Counter - PC)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Holde styr på antall interaksjoner",
+      "Holde adressen til neste instruksjon som skal utføres",
+      "Holde styr på hvilken linje i koden som skal utføres",
+      "Holde styr på hvilket program som kjøres på prosessoren",
+      "Det er ikke noe som heter programteller, PC står for personal computer"
+    ]
+  },
+  {
+    "question": "Hva inneholder statusregisteret?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ulike betingelsesbit f.eks. N, Z og C.",
+      "En liste over registeradresser.",
+      "En liste av betingelsesbyte",
+      "En liste av betingelser man må ha oppfylt for å utføre en instruksjon"
+    ]
+  }
+]

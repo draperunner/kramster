@@ -1,0 +1,109 @@
+[
+  {
+    "question": "Hvilken av følgende typer hurtigbuffer er generelt regnet som best når ytelse og pris er kriterier?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Direkte avbildet hurtigbuffer",
+      "Set-assosiativ hurtigbuffer",
+      "Fullt assosiativ hurtigbuffer"
+    ]
+  },
+  {
+    "question": "Gitt et tomt, direkteavbildet hurtigbuffer med 1024 linjer som hver inneholder én byte med data.  Prosessoren gjør en lageraksess til adresse 1026 og deretter en lageraksess til adresse 2050.  Hva vil skje?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Adresse 1026 vil bufres i linje 0 og adresse 2050 vil bufres i linje 1.",
+      "Adresse 1026 vil bufres i linje 2 og adresse 2050 vil ikke hurtigbufres fordi linje 2 er opptatt.",
+      "Adresse 1026 vil bufres i linje 2 og adresse 2050 vil overskrive linje 2 med nye data.",
+      "Adresse 1026 vil bufres i linje 2 og adresse 2050 vil bufres i linje 2 + (1024 / 2) = 514"
+    ]
+  },
+  {
+    "question": "Hva er ulempen med skrivestrategien «utsatt tilbakeskriving» for hurtigbuffer?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Den gir lavere ytelse enn gjennomskriving",
+      "Den er dyrere (krever mer maskinvare) enn gjennomskriving",
+      "Den medfører inkonsistens i lagerhierarkiet og kan skape problemer i multiprosessorsystemer og systemer med DMA-enheter"
+    ]
+  },
+  {
+    "question": "Hvorfor er det gjerne ønskelig med flere nivå med hurtigbuffer?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det forenkler tilbakeskriving fra hurtigbuffer til hovedlager.",
+      "Hvis man ønsker en rask hurtigbuffer, er det begrenset hvor stor denne kan være.",
+      "Det gjør det mulig å kjøre større programmer uten bruk av virtuelt minne.",
+      "Det forenkler design av prosessorbrikker.",
+      "Prosessoren slipper å arbitrere systembussen selv.",
+      "Det forenkler tilbakeskriving fra hurtigbuffer til hovedlager.",
+      "Hvis man ønsker en rask hurtigbuffer, er det begrenset hvor stor denne kan være.",
+      "Det gjør det mulig å kjøre større programmer uten bruk av virtuelt minne.",
+      "Det forenkler design av prosessorbrikker."
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende alternativene er riktig for en hurtigbufferlinje i tilstanden «modified» i MESI-protokollen?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Innholdet i hurtigbufferlinjen er utdatert.",
+      "Hovedlageret inneholder det samme som hurtigbufferlinjen.",
+      "Innholdet i hurtigbufferlinjen kan finnes i andre hurtigbuffere.",
+      "Eventuelle skriveoperasjoner går både til hurtigbuffer og til hovedlager.",
+      "Ingen av disse alternativene er riktige."
+    ]
+  },
+  {
+    "question": "Hvilken påstand er <em>feil</em> når det gjelder hurtigbufferavbildning?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Ved assosiativ avbildning vil data fra en adresse ikke nødvendigvis bli lagret på samme sted hver gang",
+      "Assosiativ avbildning er enklere å implementere enn direkte avbildning",
+      "Assosiativ avbildning utnytter plassen i hurtigbufferet bedre enn direkte avbildning"
+    ]
+  },
+  {
+    "question": "Hurtigbuffer (Eng. cache) i et minnehierarki (lagerhierarki)",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "brukes for å få større minnekapasitet (mer lagerplass).",
+      "gjør de fleste minneaksesser (lageraksesser) raskere.",
+      "er ofte flere MB (Mega Byte) stort."
+    ]
+  },
+  {
+    "question": "Assosiativt hurtigbuffer deler en minneadresse i 2 deler. Hviken av ordene under er <em>ikke</em> et felt i et slikt adresse?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Tag", "Set", "Word"]
+  },
+  {
+    "question": "Set-assosiativt hurtigbuffer deler en minneadresse i 3 deler. Hviket av ordene under er <em>ikke</em> et felt i en slik adresse?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Tag", "Field", "Set", "Word"]
+  },
+  {
+    "question": "Hva er forskjellen på direkteavbildning, assosiativ avbildning og sett-assosiativ avbildning for hurtigbuffer?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Direkteavbildning avbilder hver blokk i hovedlageret til en spesiel linje i hurtigbufferet. I assosiativ avbildning vil man lagre blokken i spesielle områder og i sett-assoiativ vil man lagre data i ulike sett som hurtigbufferet er delt inn i.",
+      "Direkteavbildning avbilder hver blokk av hovedlageret inn i bare én mulig hurtigbufferlinje. I assosiativ avbildning kan hver blokk bli satt inn i en hvilken som helst linje i hurtigbufferet. I sett-assosiativ blir hurtigbufferet delt inn i et antall sett med hurtigbufferlinjer. Hver blokk i hovedlageret blir avbildet til et gitt sett, men til en vilkårlig linje innen dette settet.",
+      "Direkteavbildning lagrer hver hovedlagerblokk i hvilken som helst plass i hurtigbufferen, men man må kunne aksessere den direkte. Assosiativ avbildning vil lagre data i bestemte områder i hurtigbufferen der inneholdet er assosiert med en gitt plass. I sett-assosiativ blir hurtigbufferet delt inn i et antall sett av hurtigbufferlinjer. Hver blokk i hovedlageret kan bli avbildet til et gitt sett."
+    ]
+  },
+  {
+    "question": "Ved bruk av utsatt tilbakeskriving (write back) i forbindelse med hurtigbufferoppdateringer i multiprosessor-systemer, har man alltid hurtigbufferkoherens (cache coherence)",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  }
+]

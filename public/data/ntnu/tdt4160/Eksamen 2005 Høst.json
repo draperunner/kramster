@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Hvilken av de følgende påstandene om Pentium 4 er ikke riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Pentium 4 er en 32 bits prosessor.",
+      "Pentium 4 har et langt samlebånd (mange steg).",
+      "Pentium 4 er designet med fokus på ytelse vha. høy klokkefrekvens.",
+      "Pentium 4 har instruksjoner med fast lengde og fast format.",
+      "Pentium 4 oversetter instruksjoner til RISC-lignende mikrooperasjoner før utføring."
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene om UltraSPARC III er ikke riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "UltraSPARC III er en RISC-prosessor.",
+      "UltraSPARC III har relativt få registre, fokusert på hovedlager.",
+      "UltraSPARC III er en 64 bits prosessor.",
+      "UltraSPARC III er en superskalar prosessor.",
+      "UltraSPARC III har nivå-2 hurtigbuffer utenfor prosessorbrikken."
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene om 8051 er ikke riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "8051 er en mikrokontroller.",
+      "8051 har ingen hurtigbuffer.",
+      "8051 har et fem-stegs samlebånd.",
+      "8051 er designet med fokus på pris, strømforbruk og størrelse.",
+      "8051 har separat minne for instruksjoner og data."
+    ]
+  },
+  {
+    "question": "Hvilken av alternativene under er ikke en årsak til å ha mer enn en buss i en datamaskin?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Med kun en buss, blir denne gjerne en flaskehals.",
+      "Flere busser gir økt risiko for overflyt.",
+      "Eksterne enheter har gjerne svært forskjellig datarate.",
+      "Jo lengre en buss er, jo lengre tid tar det å overføre data.",
+      "Noen eksterne enheter har seriell dataoverføring, mens andre har parallell."
+    ]
+  },
+  {
+    "question": "Hvilken av alternativene under er en ulempe med direkte adressering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Gir gjerne et langt instruksjonsformat.",
+      "Feltlengden begrenser operandstørrelsen.",
+      "Det tar ekstra tid å slå opp i et register før man aksesserer hovedlager.",
+      "Målinstruksjonen ved betingede hoppinstruksjoner (\"conditional branches\") kan være\nvanskelig å finne.",
+      "Alle alternativer 1-4 er ulemper med direkte adressering."
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene om samlebånd (\"pipeline\") er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Samlebånd reduserer tiden det tar å utføre en enkelt instruksjon.",
+      "Samlebånd reduserer tiden det tar å utføre en serie med instruksjoner.",
+      "Samlebånd samler først sammen en mengde instruksjoner som så blir utført samtidig.",
+      "Samlebånd øker treffraten på hurtigbuffer.",
+      "Alle alternativer 1-4 er riktige påstander om samlebånd."
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene om RISC er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "RISC-prosessorer har instruksjoner som er kompliserte å dekode.",
+      "De fleste instruksjoner i RISC-prosessorer kan aksessere hovedlager.",
+      "En RISC-prosessor utfører instruksjoner vha. mikroprogram.",
+      "RISC-prosessorer har små og enkle instruksjonssett.",
+      "RISC-prosessorer har mange adresseringsmodi."
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene om multidatamaskin og multiprosessor er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Prosessorer i multidatamaskiner deler hovedlager.",
+      "Med mange prosessorer er multiprosessor bedre enn multidatamaskin.",
+      "Både multiprosessor og multidatamaskin er eksempler på MIMD (Multiple Instruction\nMultiple Data).",
+      "En multidatamaskin er det samme som en superskalar prosessor.",
+      "Ingen av alternativene 1-4 er riktige."
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene om PCI og PCI Express er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "PCI er ikke egentlig en buss, men punkt-til-punkt-forbindelse.",
+      "PCI er parallell mens PCI Express er seriell.",
+      "Med PCI kan man overføre adresse og data samtidig.",
+      "Både PCI og PCI Express er asynkrone busser.",
+      "PCI Express er en egen overføringsmodus som PCI-bussen bruker når bussmaster har\nspesielt dårlig tid."
+    ]
+  },
+  {
+    "question": "Registeromdøping (\"register renaming\") er en teknikk som ...",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "... gjør det vanskeligere å skrive assemblykode.",
+      "... er unødvendig for CISC-prosessorer.",
+      "... reduserer antall sanne dataavhengigheter.",
+      "... reduserer antall avhengigheter i superskalare samlebånd.",
+      "... ikke kan brukes av prosessorer som støtter registeradressering."
+    ]
+  },
+  {
+    "question": "Prefetch er en teknikk som ...",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "... går ut på at betingede hopp (\"conditional branch\") utføres vha. to instruksjoner (eks:\nCompare/Branch).",
+      "... IA-64 bruker for å bestemme hvilken utførende enhet en instruksjon skal utføres av\nfør instruksjonen blir hentet fra hovedlager.",
+      "... går ut på å hente data og/eller instruksjoner fra hovedlager før de trengs.",
+      "... går ut på at flyttall normaliseres før addisjon og subtraksjon utføres.",
+      "... brukes for å redusere tiden fra et register blir lest til ALU kan utføre operasjon på\nregisterverdien."
+    ]
+  },
+  {
+    "question": "Hva vil det si at en prosessor er superskalar?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Den er spesiallaget for heltallsoperasjoner.",
+      "Den bruker 1 klokkesyklus på å utføre en instruksjon.",
+      "Den har et stort og komplisert instruksjonssett.",
+      "Den har både nivå-1 og nivå-2 av hurtigbuffer på prosessorbrikken.",
+      "Den har flere utføringsenheter (\"functional units\")."
+    ]
+  },
+  {
+    "question": "Hva vil det si at en prosessor har støtte for 3-adresseinstruksjoner (\"3-address instruction\")?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Den pakker 3 instruksjoner sammen i en pakke med et felt som indikerer begrensninger\ni parallellitet.",
+      "Den har spesielle hoppinstruksjoner som kan medføre hopp til 3 forskjellige adresser alt\netter resultat av forrige instruksjon.",
+      "Noe slikt eksisterer ikke; det maksimale er 2-adresseinstruksjoner.",
+      "Hver instruksjon har 3 implisitte operander.",
+      "3 eksplisitte operander kan oppgis i instruksjonsformatet."
+    ]
+  },
+  {
+    "question": "Hvor mange forskjellige tall kan man maksimalt representere vha. 32 bit?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "2^31 (= 2 147 483 648)",
+      "2^31 - 1 (= 2 147 483 647)",
+      "2^32 (= 4 294 967 296)",
+      "2^32 - 1 (= 4 294 967 295)",
+      "Dette avhenger av om tallet er et heltall eller et flyttall."
+    ]
+  },
+  {
+    "question": "Hva brukes predikatregistrene i IA-64 til?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "De brukes i forbindelse med forgreningspredikering.",
+      "De brukes i forbindelse med registeromdøping.",
+      "De brukes i forbindelse med registervindu.",
+      "De brukes i forbindelse med betinget utføring (\"conditional execution\").",
+      "De brukes i forbindelse med samlebånd i programkode (\"software pipelining\")."
+    ]
+  }
+]
