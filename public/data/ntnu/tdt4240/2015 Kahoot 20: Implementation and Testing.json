@@ -1,0 +1,85 @@
+[
+  {
+    "question": "Term: \"The implementation drifts away from the planned architecture to no longer be consistent\"",
+    "answers": [1],
+    "exam": "2015 Kahoot 20: Implementation and Testing",
+    "options": [
+      "Architectural drift",
+      "Architectural erosion",
+      "Architectural potential",
+      "Architectural view"
+    ]
+  },
+  {
+    "question": "What technique \"Using a reusable set of classes organized around a particular theme\"",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Code templates",
+      "Embedding the design in the code",
+      "Frameworks",
+      "Keeping code and architecture consistent"
+    ]
+  },
+  {
+    "question": "How can performance be tested in unit tests?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Assigning changes to test teams",
+      "Injecting faults",
+      "Test system full-scale with users",
+      "Using synthetic loads"
+    ]
+  },
+  {
+    "question": "What technique \"Collection of code where the programmer provides application specific portions\"",
+    "answers": [0],
+    "exam": "2015 Kahoot 20: Implementation and Testing",
+    "options": [
+      "Code templates",
+      "Embedding the design in the code",
+      "Frameworks",
+      "Keeping code and architecture consistent"
+    ]
+  },
+  {
+    "question": "Integration tests can test....",
+    "answers": [0, 1, 2, 3],
+    "exam": ".*",
+    "options": ["Availability", "Functionability", "Performance", "Security"]
+  },
+  {
+    "question": "What technique \"Mark documentation as out of date when erosion occurs\"",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Code templates",
+      "Embedding the design in the code",
+      "Frameworks",
+      "Keeping code and architecture consistent"
+    ]
+  },
+  {
+    "question": "The architect should be involved in...",
+    "answers": [0, 1, 2, 3],
+    "exam": ".*",
+    "options": [
+      "Test Development",
+      "Test Interpretation",
+      "Test Harness Creation",
+      "Test Planning"
+    ]
+  },
+  {
+    "question": "What technique? \"Architecture acts as a blueprint for implementation\"",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Keeping code and architecture consistent",
+      "Framework",
+      "Embedding the design in the code",
+      "Code templates"
+    ]
+  }
+]

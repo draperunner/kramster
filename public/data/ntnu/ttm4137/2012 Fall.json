@@ -1,0 +1,272 @@
+[
+  {
+    "question": "What is the length of the WEP initialization vector (IV)?",
+    "answers": [0],
+    "exam": "2012 Fall",
+    "options": ["24 bits", "32 bits", "48 bits", "64 bits"]
+  },
+  {
+    "question": "How does the integrity check value (ICV) in WEP protect against message modification attack?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "The ICV in WEP protects against message modification due to the integrity key",
+      "The ICV in WEP protects against message modification by the error-detection property",
+      "The ICV in WEP does not protect against message modification by an attacker",
+      "The ICV in WEP protects against message modification by the challenge value"
+    ]
+  },
+  {
+    "question": "What is \"Michael\" in RSN ?",
+    "answers": [3],
+    "exam": "2012 Fall",
+    "options": [
+      "Michael is the 32 bits sequence counter scheme used in TKIP",
+      "Michael is the 64 bits block encryption scheme used in TKIP",
+      "Michael is the 20 bits replay protection scheme used in TKIP",
+      "Michael is the 64 bits message authentication code used in TKIP"
+    ]
+  },
+  {
+    "question": "What are the consequences of the Beck & Tews chopchop-like attack on TKIP?",
+    "answers": [1],
+    "exam": "2012 Fall",
+    "options": [
+      "An attacker can avoid the re-keying interval of the MIC failure report frame",
+      "An attacker can decrypt traffic and send packets with custom content",
+      "An attacker can cause packets to be silently dropped",
+      "An attacker can send packets with custom content over QoS channels"
+    ]
+  },
+  {
+    "question": "What is the 128-bit start value for RSN CCMP encryption?",
+    "answers": [0],
+    "exam": "2012 Fall",
+    "options": [
+      "8-bit flag, 104-bit nonce, 16-bit counter; where the nonce created 8-bit priority, 48-bit source address, 48-bit packet number",
+      "128-bit fresh nonce",
+      "16-bit flag, 104-bit nonce, 8-bit counter; where the nonce created 8-bit priority, 48-bit Source address and 48-bit packet number",
+      "16-bit packet number, 112-bit nonce"
+    ]
+  },
+  {
+    "question": "What is a mutable field in RSN CCMP?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "A header field that is modified in transmission to ease decryption operation",
+      "A header field that may be modified in transmission",
+      "An integrity protected header field that may be modified prior to transmission",
+      "An encrypted header field that may be updated prior to transmission"
+    ]
+  },
+  {
+    "question": "What is Extensible Authentication Protocol (EAP)?",
+    "answers": [1],
+    "exam": "2012 Fall",
+    "options": [
+      "EAP is a set of encapsulation messages for mutual authentication methods",
+      "EAP is a set of encapsulation messages for upper-layer authentication methods",
+      "EAP is a set of encapsulation messages for RSN authentication methods",
+      "EAP is a set of encapsulation messages for RADIUS server authentication methods"
+    ]
+  },
+  {
+    "question": "The TKIP Pairwise Transient Key is a collection of several keys.",
+    "answers": [3],
+    "exam": "2012 Fall",
+    "options": [
+      "Pairwise Master Encryption Key (256 bits), Pairwise Master Data Integrity Key (128 bits), EAPOL-Key Encryption Key (64 bits), EAPOL-Key Integrity Key (64 bits)",
+      "Pairwise Master Encryption Key (256 bits), Pairwise Master Data Integrity Key (256 bits), EAPOL-Key Encryption Key (64 bits), EAPOL-Key Integrity Key (64 bits)",
+      "Data Encryption Key (128bits), Data Integrity Key (128bits), EAPOL Pairwise Master Encryption Key (256 bits), EAPOL Pairwise Master Integrity Key (256 bits)",
+      "Data Encryption Key (128 bits), Data Integrity Key (128 bits), EAPOL-Key Encryption Key (128 bits), EAPOL-Key Integrity Key (128 bits)"
+    ]
+  },
+  {
+    "question": "What are the inputs of the GSM authentication function A3?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "\\(K_i\\) and RAND and XRES",
+      "RAND and XRES",
+      "\\(K_i\\) and XRES",
+      "\\(K_i\\) and RAND"
+    ]
+  },
+  {
+    "question": "How is the subscriber identity protected from radio channel eavesdropping in GSM?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "By a temporary subscriber identity",
+      "By the subscriber key encryption",
+      "By the tamper-resistant SIM card",
+      "The subscriber identity is not protected in GSM, only in UMTS and LTE"
+    ]
+  },
+  {
+    "question": "What is the purpose of the sequence number (SQN) used in UMTS?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Preventing replay attacks",
+      "Preventing man-in-the-middle attacks",
+      "Preventing session hijacking",
+      "Enabling re-synchronization"
+    ]
+  },
+  {
+    "question": "Is mutual authentication provided when a GSM SIM is used to access a UTRAN",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Yes, between the MS and the RNC",
+      "Yes, between the MS and the core network, but not the RNC",
+      "No, the GSM SIM cannot authenticate the base station",
+      "No, the GSM SIM cannot connect to a UTRAN"
+    ]
+  },
+  {
+    "question": "What is the content and use of the UMTS AUTS parameter?",
+    "answers": [2],
+    "exam": "2012 Fall",
+    "options": [
+      "\\(SQN \\oplus AK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the network side",
+      "\\(SQN \\oplus CK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the network side",
+      "\\(SQN \\oplus AK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the MS side",
+      "\\(SQN \\oplus CK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the MS side"
+    ]
+  },
+  {
+    "question": "What are the purposes of the UMTS MILENAGE functions?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Message encryption and authentication",
+      "Message encryption and session key generation",
+      "Message and user authentication/confirmation, and session key generation",
+      "Message authentication and session key generation"
+    ]
+  },
+  {
+    "question": "What is the output of the UMTS f9 algorithm?",
+    "answers": [0],
+    "exam": "2012 Fall",
+    "options": [
+      "It is a 32-bit MAC",
+      "It is an indefinite length keystream",
+      "It is a 64-bit block ciphertext",
+      "It is a 32-bit authenticated ciphertext"
+    ]
+  },
+  {
+    "question": "What are the consequences of the Zhang & Fang redirection attack against UMTS authentication",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Because serving networks are not authenticated in UMTS, an attacker can redirect the traffic via servers abroad, causing roaming fees",
+      "Because serving networks are not authenticated in UMTS, an attacker can learn the session keys",
+      "Because core networks are not authenticated in UMTS, an attacker can redirect the traffic to an authentication center abroad, causing roaming fees",
+      "Because core networks are not authenticated in UMTS, an attacker can learn the session keys"
+    ]
+  },
+  {
+    "question": "Is the UMTS/LTE network domain security specifications for the core network sufficient to protect the authentication and key agreement messages against parallel session attacks",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "No, the network domain security does not necessarily protect the session identifier, but this cannot be exploited by an attacker",
+      "No, the network domain security does not necessarily protect the session identifier and may allow session-mixup attacks",
+      "Yes, the network domain specification demands the use of IPsec or MAPsec, and therefore the core network communication is protected",
+      "Yes, but the core network communication is always assumed to be secure, independent of the network domain security specifications"
+    ]
+  },
+  {
+    "question": "How is forward key separation achieved during handovers over X2 connections in EPS",
+    "answers": [0],
+    "exam": "2012 Fall",
+    "options": [
+      "The target eNB gets a fresh key from MME immediately after handover",
+      "The target eNB gets a fresh key from MME right before handover",
+      "The source eNB provides a key KeNB to the target eNB by applying a one-way function to the old key",
+      "Forward key separation is not achieved, only backward key separation"
+    ]
+  },
+  {
+    "question": "Which attacks are prevented if an RFID reader authenticates to a tag?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "For instance, tracking of the tag",
+      "For instance, distance measuring and tag blocking",
+      "For instance, tag inventory registration",
+      "For instance, illicit reading, cloning, and reprogramming of the tag"
+    ]
+  },
+  {
+    "question": "How does the anti-counterfeiting measure “track and trace' for low cost RFID tags work?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "By reading tags regularly with centralized storage for date and location, then a tag is \"genuine\" if it has a valid item history",
+      "By using a challenge & response protocol, where the tag must answer a random challenge by the reader",
+      "By using a privacy-preserving identification protocol",
+      "By observing the unique radio communication fingerprint of a tag"
+    ]
+  },
+  {
+    "question": "What are the general steps performed by intrusion detection systems for mobile ad-hoc net works?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Data Collection and Retaliation",
+      "Data Collection, Detection, and Response",
+      "Node Detection, Obstruction, and Response",
+      "Node Detection, Rendering, and Alarm"
+    ]
+  },
+  {
+    "question": "What is the vulnerability of captive pages",
+    "answers": [3],
+    "exam": "2012 Fall",
+    "options": [
+      "The weak encryption can easily be broken",
+      "There is encryption but no integrity protection",
+      "There is integrity protection but no encryption",
+      "Sessions can be hijacked"
+    ]
+  },
+  {
+    "question": "What is the problem with MAC Sequence Number Analysis in Intrusion Detection Systems?",
+    "answers": [2],
+    "exam": "2012 Fall",
+    "options": [
+      "The MAC Sequence Number Analysis does not work at all because the sequence numbers are not integrity protected",
+      "The MAC Sequence Numbers only protect against message replay attacks, but not against session hijacking",
+      "Each class in QoS (WMM) has its own sequence number. Also an attacker can still hijack a session when the victim goes offline",
+      "Implementations very often use a constant value as MAC Sequence Number, and, therefore, this does not even protect against replay attacks"
+    ]
+  },
+  {
+    "question": "What is the difference between a checksum code and a cryptographic message authentication code?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "There is no difference, they are only different terms for the same primitive",
+      "A message authentication code can be used to construct a checksum code, but not the other way around",
+      "A checksum can be (re-)computed by an attacker, the authentication code cannot",
+      "A keyed checksum provides stronger message integrity protection than a message authentication code"
+    ]
+  },
+  {
+    "question": "Why is it not sufficient to construct a one-way function \\(y = f(x)\\) based on an NP-hard problem?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "The one-way property requires that the problem is NP-complete and not just NP-hard",
+      "NP-hardness guarantees only that there exists a y for which a x is hard to compute",
+      "A one-way function must satisfy the property of collision-resistance too",
+      "Computing a preimage must be hard in the worst case"
+    ]
+  }
+]

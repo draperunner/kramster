@@ -1,0 +1,83 @@
+[
+  {
+    "question": "Which one of these does a rule-based agent system (like the one on a classical expert system) have in its agent function?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Contention scheduling algorithm",
+      "Conflict resolution algorithm"
+    ]
+  },
+  {
+    "question": "In a rule based system, when there are more than one rules that match the current situation and when the agent wants to explore a new/different (than the one in focus last time) hypothesis, the agent prefers the rule that has in its left side (of the a -> b) elements that are most recently updated in the working memory of the agent.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The first phase of GraphPlan can be used as a heuristic function for forward search in the following way: Given a state s and goal g, run the graph-construction phases of GraphPlan until all the components are present and not mutex in the last layer. Let n be the number of action layers in the graph. We can let n be the heuristic value for s. Is this an admissible heuristic?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Density is an extrinsic property of olive oil.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Frame-based representation is mainly a declarative representation.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Spreading activation and inheritance are main mechanisms of inference in rule-based systems.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Turing test measures the utility of an agent.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a rule-based system, backward chaining works best when the rules have complex consequent structures.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "N-gram character model is a natural language model.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Sufficient and necessary conditions are inference rules for sound reasoning.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Greedy Best-First search using the heuristic h(n) = 0 for all states n, is guaranteed to find an optimal solution.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If h1 and h2 are both admissible heuristics, it is always preferable to use the heuristic h3(n) = max(h1(n), h2(n)) over the heuristic h4(n) = min(h1(n), h2(n)).",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If h1 is an admissible heuristic and h2 is not an admissible heuristic, (h1 + h2)/2 must be an admissible heuristic.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  }
+]

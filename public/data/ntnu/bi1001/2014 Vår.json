@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Volumet som er omslutta av plasmamembranen til planteceller er ofte mye større enn tilsvarende volum i dyreceller. Den mest sannsynlige forklaringa på denne observasjonen er at",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "planteceller kan ha et mye høyere overflate-til-volum forhold enn dyreceller.",
+      "planteceller har en mye sterkere foldet plasmamembran enn dyreceller.",
+      "planteceller inneholder en stor vakuole som reduserer cella sitt cytoplasmavolum.",
+      "dyreceller er mer kuleformet, mens plantecellene er avlange.",
+      "planteceller kan ha lavere overflate-til-volum forhold enn dyreceller fordi planteceller syntetiserer sine egne næringsstoff"
+    ]
+  },
+  {
+    "question": "Hydrolyttiske enzymer må være adskilt og innpakket for å hindre generell destruksjon av cellekomponenter. Hvilken av de følgende organellene inneholder slike hydrolyttiske enzymer i dyreceller?",
+    "answers": [1],
+    "exam": "2014 Vår",
+    "options": [
+      "kloroplast",
+      "lysosom",
+      "sentral vakuole",
+      "peroksisom",
+      "glyoxysom"
+    ]
+  },
+  {
+    "question": "Mennesker kan fordøye stivelse, men ikke cellulose fordi",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "monomeren for stivelse er glukose, mens monomeren for cellulose er galaktose.",
+      "mennesker har enzymer som kan hydrolysere β-glykosid-bindinger i stivelse, men ikke α-glykosid-bindinger i cellulose.",
+      "mennesker har enzymer som kan hydrolysere α-glykosid-bindinger i stive, men ikke β-glykosid-bindinger i cellulose.",
+      "mennesker har stivelse-fordøyende bakterier i mage-tarm-kanalen.",
+      "monomeren for stivelse er glukose, mens monomeren for cellulose er glukose med ei nitrogenholdig gruppe."
+    ]
+  },
+  {
+    "question": "Polysakkarid, triacylglycerid og protein ligner på hverandre ved at de",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "er syntetisert fra monomerer gjennom hydrolyse",
+      "er syntetisert fra subenheter gjennom dehydreringsreaksjoner",
+      "er syntetisert som et resultat av danning av peptidbindinger mellom monomerer.",
+      "blir brutt ned til subenhetene sine gjennom dehydreringsreaskjoner",
+      "all inneholder nitrogen i monomer-byggesteinene sine"
+    ]
+  },
+  {
+    "question": "Laktose, et sukker i melk, er sammensatt av ett glukosemolekyl bundet gjennom ei glykosidbinding til ett galaktosemolekyl. Hvordan klassifiseres laktose?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "som en pentose",
+      "som en hexose",
+      "som et monosakkarid",
+      "som et disakkarid",
+      "som et polysakkarid"
+    ]
+  },
+  {
+    "question": "Dersom celler blir dyrka i medium som inneholder radioaktivt 35S, hvilket av disse molekylene blir merka?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "fosfolipid",
+      "nukleinsyrer",
+      "protein",
+      "amylose",
+      "både protein og nukleinsyrer"
+    ]
+  },
+  {
+    "question": "Motorprotein sørger for molekylære bevegelser i celler ved at de interagerer med hvilke cellulære strukturer?",
+    "answers": [3],
+    "exam": "2014 Vår",
+    "options": [
+      "sete for energiproduksjon i cellulær respirasjon",
+      "membranprotein",
+      "ribosom",
+      "celleskjelletstrukturer",
+      "cellulosefibre i celleveggen"
+    ]
+  },
+  {
+    "question": "Plasmodesmata i planteceller ligner i funksjon mest på hvilke av de følgende strukturene i dyreceller?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "peroxisom",
+      "desmosom",
+      "åpne celleforbindelser",
+      "ekstracellulær matrix",
+      "tette celleforbindelser"
+    ]
+  },
+  {
+    "question": "Hvilket av følgende utsagn beskriver best terminering av transkripsjon i prokaryoter?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "RNA polymerase transkriberer gjennom polyadenyleringssignalet, slik at protein blir assosiert med transksriptet og kutter det løs fra polymerasen",
+      "RNA polymerase transkriberer gjennom terminatorsekvensen, slik at polymerasen blir separert fra DNA og transkriptet blir frigjort.",
+      "RNA polymerase transkriberer gjennom et intron, og snRNP-ene gjør at polymerasen slipper transkriptet.",
+      "Når transkripsjonen først har starta, fortsetter RNA polymerasen å transkribere til den når enden av kromosomet.",
+      "RNA polymerase transkriberer gjennom et stopkodon, slik at polymerasen slutter å avansere gjennom genet og frigjør mRNAet."
+    ]
+  },
+  {
+    "question": "Alternativ RNA-spleising",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "er en mekanisme for å øke transkripsjonsraten.",
+      "gjør det mulig å produsere protein med ulik størrelse fra ett mRNA.",
+      "gjør det mulig å produsere lignende protein fra ulike RNA.",
+      "øker transkripsjons-termineringsraten.",
+      "blir forårsaka av nærvær eller fravær av visse snRNP."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende er den første hendelsen i translasjon i eukaryoter?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "elongering av polypeptidet",
+      "baseparing av den aktiverte metionin-tRNA med AUG på mRNA",
+      "binding mellom den store ribosomale subenheten til den lille ribosomale subenheten",
+      "kovalent binding mellom de første to aminosyrene",
+      "den lille ribosomale subenheten gjenkjenner og binder seg til 5' cap på mRNA"
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende er eksempel på post-transkripsjonell kontroll av genuttrykk?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "addering av metylgrupper til cytosinbaser i DNA",
+      "binding av transkriptionsfaktorer til en promotor",
+      "fjerning av intron og alternativ spleising av exon",
+      "genamplifisering som bidrar til kreft",
+      "folding av DNA for å danne heterokromatin"
+    ]
+  },
+  {
+    "question": "Karyotypen hos en primat art har 48 kromosom. I et gitt hodyr skjer det en feil under celledeling og ho produserer ett av eggene sine med ett ekstra kromosom (25). Den mest sannsynlige kilden til denne feilen er en feil i hvilken av de følgende?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "mitose i hennes eggstokk",
+      "metafase I i en meiose",
+      "telophase II i en meiose",
+      "telophase I i en meiose",
+      "enten anafase I eller II"
+    ]
+  },
+  {
+    "question": "Taxol er en kreftmedisin ekstrahert fra stillehavsbarlind (Pacific yew tree). I dyreceller forstyrrer Taxol danning av microtubuli ved å binde seg til mikrotubuli og aksellerere deres polymerisering fra proteinforløperen tubulin. Effekten er at mitose stopper. Mer spesifikt tyder dette på at Taxol påvirker",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "danning av mitotisk spindel.",
+      "anafase.",
+      "danning av centrioler.",
+      "kromatid-sammensetning",
+      "S-fasen i cellesyklus."
+    ]
+  },
+  {
+    "question": "Ei gruppe av celler blir analysert for DNA-innhold rett etter mitose og blir funnet å ha gjennomsnittlig 8 picogram DNA per cellekjerne. Hvor mange picogram DNA ville det være på slutten av S-fasen og på slutten av G2- fasen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["8; 8", "8; 16", "16; 8", "16; 16", "12; 16"]
+  },
+  {
+    "question": "Hvorfor blir kromosomene kveilet opp under mitose?",
+    "answers": [1],
+    "exam": "2014 Vår",
+    "options": [
+      "for å øke deres potensielle energi",
+      "for at de skal kunne flytte på seg uten å filtre seg inn i hverandre og skades",
+      "for at de skal kunne passe innenfor kjernekappa (nuclear envelope)",
+      "slik at søsterkromatid kan holde seg bundet til hverandre",
+      "for å bidra til centromer-strukturen"
+    ]
+  },
+  {
+    "question": "Proteiner som er involvert i regulering av cellesyklus og som varierer i konsentrasjon gjennom cellecyklus kalles",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "ATPaser.",
+      "kinetokorer.",
+      "kinaser.",
+      "protonpumper.",
+      "cykliner."
+    ]
+  },
+  {
+    "question": "Ved siden av evna som noen kreftceller har til å ha økt vekstrate, hva ellers kan, logisk sett, føre til en kreftsvulst?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "metastase",
+      "endring i rekkefølgen av cellesyklus-stadier",
+      "fravær av hensiktsmessig celledød",
+      "manglende evne til å danne spindler",
+      "manglende evne for kromosomene å samles ved metafase-plata"
+    ]
+  },
+  {
+    "question": "Ved hvilket stadium under mitosen blir kromosomene vanligvis fotografert for framstilling av karyotype?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["profase", "metafase", "anafase", "telofase", "interfase"]
+  },
+  {
+    "question": "De menneskelige X- og Y-kromosomene",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "er begge til stede i hver somatiske celle i handyr og hunndyr tillike.",
+      "har omtrent samme størrelse og samme antall gener.",
+      "er nesten helt homologe, til tross for at de har ulike navn.",
+      "inneholder gener som bestemmer et individs kjønn.",
+      "inneholder bare gener som styrer kjønnsutvikling."
+    ]
+  },
+  {
+    "question": "I en menneskelig karyotype, er kromosomene arrangert i 23 par. Hvis vi velger ett av disse parene, som for eksempel par 14, hvilket av det følgende er felles for de to kromosomene?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Bare lengde og posisjon av centromeren.",
+      "Bare lengde, posisjon av centromeren og fargingsmønster.",
+      "Lengde, posisjon av centromeren, fargingsmønster og egenskapene som blir kodet av genene i kromosomene.",
+      "Lengde, posisjon av centromeren, fargingsmønster og DNA-sekvens.",
+      "De har ingenting felles utenom at de er X-forma."
+    ]
+  },
+  {
+    "question": "Ei celle deler seg og produserer to datterceller som er genetisk ulike.",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Utsagnet er bare sant for mitose.",
+      "Utsagnet er bare sant for meiose I.",
+      "Utsagnet er bare sant for meiose II.",
+      "Utsagnet er sant for mitose og meiose I.",
+      "Utsagnet er sant for mitose og meiose II."
+    ]
+  },
+  {
+    "question": "Et gen som inneholder intron kan gjøres kortere (men opprettholde funksjon) for genteknologiske formål ved å bruke",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "RNA polymerase til å transkribere genet.",
+      "et restriksjonsenzym for å kutte genet opp i kortere bitar.",
+      "revers transkriptase for å rekonstruere genet fra sitt mRNA.",
+      "DNA polymerase for å rekonstruere genet fra sitt polypeptidprodukt.",
+      "DNA ligase for å sette sammen fragment av DNA som koder for et pesifikt polypeptid."
+    ]
+  },
+  {
+    "question": "Hvorfor brukes gjærceller ofte som vertsorganisme for kloning?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "De danner lett kolonier.",
+      "De kan fjerne exon fra mRNA.",
+      "De har ikke plasmider.",
+      "De er eukaryote celler.",
+      "Bare gjærceller gjør det mulig å klone gener"
+    ]
+  },
+  {
+    "question": "En multigen-familie er sammensatt av",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "en rekker gener som koder for produkter som må uttrykkes på en koordinert måte.",
+      "gener med sekvenser som er svært like hverandre og som sannsynligvis har oppstått ved duplisering.",
+      "det høye antallet ‘tandem repeats’, slik som de som finnes i centromerer og telomerer.",
+      "et gen med exon som kan spleises på mange ulike måter.",
+      "et høyt konservert gen som finnes i mange ulike arter."
+    ]
+  }
+]

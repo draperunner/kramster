@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Hva er en protokoll i kontekst av digital kommunikasjon?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Et sett av regler man kan velge fritt mellom som gjør kommunikasjon effektiv og rask.",
+      "Et internasjonalt lovverk som bestemmer hva man kan gjøre og hva man ikke kan\ngjøre på internett som bruker.",
+      "En stor datafil som inneholder hvordan alle nettverk i verden er koblet sammen.",
+      "Et regelverk som bestemmer hvordan kommunikasjon skal foregå og hvilke\nfunksjoner som kan brukes."
+    ]
+  },
+  {
+    "question": "Hva kalles den avsluttende aktiviteten i programvarevalideringsfasen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Utviklingstesting.",
+      "Systemtesting.",
+      "Totaltesting.",
+      "Akseptansetesting."
+    ]
+  },
+  {
+    "question": "Hvilken sikkerhetsutfordring er ”pharming”?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Bruker blir ledet til en falsk versjon av en offisielt nettside.",
+      "Bruker mottar en falsk epost som utgir seg fra å komme fra en avsender du stoler på.",
+      "Bruk av offisielle navn på institusjoner eller personer for å lure til seg konfidensiell\ninformasjon.",
+      "Massivt angrep på webtjenere slik at tjenesten ikke blir tilgjengelig for tiltenkte\nbrukere."
+    ]
+  },
+  {
+    "question": "Hva står forkortelsen VPN for?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Virtual Protocol Node.",
+      "Viral Privacy Node.",
+      "Virtual Private Network.",
+      "Volatile Performance Network."
+    ]
+  },
+  {
+    "question": "Hvis man skal sende data over nettet, kan elektrisk støy under transporten føre til at data\nutilsiktet endres. Bruk av en sjekksum (checksum) bakerst i en tallserie som skal overføres vil\nsikre at",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "tallene kommer uendret fram til mottager",
+      "mottager kan korrigere eventuelle endringer av tallene under overføring",
+      "mottager kan oppdage, men ikke korrigere, endringer av tallene under overføring",
+      "mottager kan oppdage endring såframt kun ett tall er blitt endret"
+    ]
+  },
+  {
+    "question": "DSL-kommunikasjon over telefonlinjer har den egenskapen at",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "det dessverre er umulig å bruke vanlig telefon samtidig som noen bruker internettet.",
+      "at man kan bruke vanlig telefon samtidig, men med noe forstyrrelser i lyden.",
+      "at man også kan bruke vanlig telefon med grei lyd, men at data over nettet da går tregt.",
+      "at man kan bruke vanlig telefon samtidig, uten forstyrrelser verken for telefon eller\ninternett."
+    ]
+  },
+  {
+    "question": "I forbindelse med pensumstoffet om nettverkskommunikasjon står forkortelsen DSL for",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Data Source Location.",
+      "Domain Support License.",
+      "Digital Subscriber Line.",
+      "Direct Signal Link."
+    ]
+  },
+  {
+    "question": "Binærsøk er mer effektiv enn sekvensielt søk fordi",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "binærsøk også virker på sorterte lister, mens sekvensielt søk kun fungerer på usorterte\nlister.",
+      "binærsøk er rekursiv mens sekvensielt søk er iterativ.",
+      "binærsøk eliminerer halve datamengden for hvert oppslag mens sekvensielt søk bare\neliminerer det ene elementet som ble testet.",
+      "binære søk virker på binærtall mens sekvensielt søk bare virker på tekst."
+    ]
+  },
+  {
+    "question": "Anta at vi har fire mulige algoritmer for å løse et problem, hvorav en er Θ(n 3 ), en er Θ(n 2 ), en\ner Θ(n log n) og en er Θ(2 n ). Hvis vi skulle rangere disse med den mest effektive først, den\nminst effektive sist, blir det:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Θ(n log n), Θ(n 2 ), Θ(n 3 ), Θ(2 n ).",
+      "Θ(n 2 ), Θ(n log n), Θ(2 n ), Θ(n 3 ).",
+      "Θ(n log n), Θ(n 2 ), Θ(2 n ), Θ(n 3 ).",
+      "Θ(2 n ), Θ(n 3 ), Θ(n log n), Θ(n 2 )."
+    ]
+  },
+  {
+    "question": "Alle eksterne enheter som skal kommunisere med en datamaskin krever en ... for å fungere",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Driver.",
+      "ASCII-tabell.",
+      "Ledning.",
+      "Internett-forbindelse."
+    ]
+  },
+  {
+    "question": "Sekundærminne.",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Husker data etter at strømmen kuttes.",
+      "Er alltid flyktig.",
+      "Er alltid kjappere enn primærminnet.",
+      "Er kun skrivbart."
+    ]
+  },
+  {
+    "question": "129.241.103.4 er et eksempel på",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En IP-adresse.",
+      "En MAC-adresse.",
+      "En datamaskin sitt telefonnummer.",
+      "Et TCP-nummer."
+    ]
+  },
+  {
+    "question": "Ved hjelp av autentisering kan vi",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Gjøre et usikkert nett helt sikkert.",
+      "Forsikre oss om at avsenderen er den han utgir seg for.",
+      "Skjule innholdet i en internett-melding.",
+      "Automatisk rette opp feil i dataoverføringen."
+    ]
+  },
+  {
+    "question": "Hvordan representeres tallet -4 som toer-komplement?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["11111100.", "10000100.", "00110100.", "11111001."]
+  },
+  {
+    "question": "Syv-bits kode for E er 1000101 og for S 1010011. Hvis man skal legge til en paritetsbit\n(parity bit) til disse to, blir denne paritetsbiten",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "0 for både E og S",
+      "0 for E, 1 for S",
+      "1 for E, 0 for S",
+      "1 for både E og S"
+    ]
+  },
+  {
+    "question": "I forbindelse med pensumstoffet om nettverkskommunikasjon står forkortelsen ISP for",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Intelligent Security Protection",
+      "Internet Service Provider",
+      "Internet Security Policy",
+      "Information Standard Protocol"
+    ]
+  },
+  {
+    "question": "Hastigheten for internettaksess med DSL for en hjemmedatamaskin når det gjelder nedlasting\n(overføre data fra internett til hjemmemaskinen) og opplasting (overføre data fra maskinen til\ninternett) er vanligvis",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "symmetrisk, dvs. nedlasting og opplasting går like raskt relativt til datamengde",
+      "asymmetrisk, nedlasting går kjappere enn opplasting",
+      "asymmetrisk, opplasting går kjappere enn nedlasting",
+      "asymmetrisk i perioder med mye nett-trafikk, symmetrisk i perioder med liten trafikk\n(for eksempel om natten)"
+    ]
+  },
+  {
+    "question": "Alle farger på en skjerm kan lages ved å kombinere fargene:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Turkis (Cyan), lilla (Magenta), gul (Yellow)",
+      "Sort, hvitt, turkis (Cyan), lilla (Magenta), gul (Yellow)",
+      "Sort, hvitt, rød, gul, blå",
+      "Rød, grønn, blå"
+    ]
+  },
+  {
+    "question": "Mindre kretskort som kan plugges i hovedkortet (Motherboard) kalles:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Mikroprosessor", "Datter-kort", "Barn-kort", "RAM"]
+  },
+  {
+    "question": "Hvilken påstand stemmer om Solid State Drive (SSD)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Tregere enn harddisk",
+      "Laget av ”Flash Memory”",
+      "Består av en stabel av metallskiver med en arm som sveiper over/mellom skivene",
+      "Tåler dårlig støt"
+    ]
+  }
+]

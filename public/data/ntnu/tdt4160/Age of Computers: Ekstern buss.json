@@ -1,0 +1,196 @@
+[
+  {
+    "question": "USB er bedre egnet enn SCSI som grensesnitt mot harddisk",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "Hva er USB?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "En RAM-type",
+      "En buss-type",
+      "En standard for grafikk-kort",
+      "En standard for strømsparing i datamaskiner",
+      "Måte å koble disker for å redusere risiko for krasj"
+    ]
+  },
+  {
+    "question": "En PCI-buss inneholder 32 datalinjer. Disse kan brukes til å:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "4 forbindelser mellom forskjellige enheter, der en overfører 1 byte samtidig på hver forbindelse",
+      "Samtidig overføre 4 byte mellom to enheter",
+      "Overføre 32 bit i hver retning samtidig mellom to enheter",
+      "Overføre 16 bit mellom to enheter samtidig, mens de 16 andre linjene brukes til å utvide adresseringsområdet til bussen.",
+      "Alle alternativ over. PCI-bussen kan konfigureres dynamisk."
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende utsagnene er riktig når det gjelder asynkron og isokron dataoverføring på en FireWire-buss?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "Asynkron overføring bruker pakker med fast lengde.",
+      "Isokron overføring bruker kvittering (acknowledge).",
+      "Bare en enkelt enhet overfører pakker i hver isokrone syklus.",
+      "Enheter som genererer en jevn strøm med data bør bruke asynkron overføring.",
+      "Asynkron overføring kan bruke både «fair» og «urgent» arbitrering."
+    ]
+  },
+  {
+    "question": "Hvilken type overføring støtter FireWire?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Asynkron", "Isokron", "Begge"]
+  },
+  {
+    "question": "Hvor mange enheter kan man maksimalt koble til en SCSI-1 buss?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["2", "8", "32", "128", "1024"]
+  },
+  {
+    "question": "Hvilken av de følgende er <em>ikke</em> en buss?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["PCI", "USB", "LPT", "FireWire", "SCSI", "IDE"]
+  },
+  {
+    "question": "Hvilket av alternativene er riktig når det gjelder FireWire?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det er en parallell buss.",
+      "Alle enheter må manuelt konfigureres med en unik ID.",
+      "Egner seg spesielt for overføring av store datamengder over store avstander.",
+      "Kan bruke \"fair\" arbitrering for å unngå at noen enheter monopoliserer bussen.",
+      "Benytter skjult arbitrering.",
+      "Det er en parallell buss",
+      "Alle enheter må manuelt konfigureres med en unik ID",
+      "Egner seg spesielt for overføring av store datamengder over store avstander",
+      "Kan bruke «fair» arbitrering for å unngå at noen enheter monopoliserer bussen",
+      "Benytter skjult arbitrering"
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene er <em>ikke</em> korrekt?",
+    "answers": [2, 3],
+    "exam": ".*",
+    "options": [
+      "FireWire støtter hot-swapping og automatisk rekonfigurering av enheter",
+      "FireWire-enheter kan kobles sammen i en trestruktur",
+      "FireWire er et parallelt grensesnitt",
+      "FireWire egner seg godt til bruk mot digitalkamera",
+      "FireWire er egnet for overføring av isokrone data",
+      "SCSI er et parallelt grensesnitt",
+      "SCSI kan brukes mot eksterne enheter som skannere eller CD-ROM-spillere",
+      "Alle enheter på en SCSI-buss er likeverdige (ingen fast buss-master)",
+      "SCSI baserer seg på punkt-til-punkt kommunikasjon",
+      "SCSI-protokollen er meldingsbasert"
+    ]
+  },
+  {
+    "question": "Hva beskriver det fysiske laget i FireWire standaren?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Definisjon av mediet og karakteristikk for signalene",
+      "Beskriver hvordan dataene blir sendt i pakker",
+      "Definerer en forespørsel-svar protokoll"
+    ]
+  },
+  {
+    "question": "Alle enheter på en SCSI-buss opererer uavhengig av hverandre",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "Hva er <em>ikke</em> korrekt når det gjelder PCI?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "PCI støtter tilkobling av andre busser",
+      "PCI kan implementeres på få brikker",
+      "PCI-broen fungerer som et buffer slik at raske og sene enheter bedre kan kommunisere",
+      "PCI-bussen har 32 data linjer og 32 adresse- og kontroll-linjer",
+      "PCI bruker sentral arbitrering"
+    ]
+  },
+  {
+    "question": "Hva stemmer <em>ikke</em> når det gjelder FireWire?",
+    "answers": [2, 1],
+    "exam": ".*",
+    "options": [
+      "FireWire er seriell",
+      "FireWire støtter hot-plugging",
+      "FireWire er komplisert å implementere",
+      "FireWire støtter hastigheter opp til 400Mbps",
+      "En av fordelene til FireWire er at pluggene er relativt små",
+      "FireWire bruker en daisy-chain konfigurasjon",
+      "FireWire har raskere overføringshastighet enn USB 2.0",
+      "FireWire kan støtte opp til 63 enheter på en port",
+      "1022 FireWire porter kan kobles sammen ved hjelp av broer"
+    ]
+  },
+  {
+    "question": "Hvilken av disse egenskapene er <em>ikke</em> karakteristisk for PCI-bussen?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Skjult arbitrering",
+      "Støtte for isokron dataoverføring",
+      "Sentralisert arbitrering",
+      "Tidsmultipleksing",
+      "Plug-and-play"
+    ]
+  },
+  {
+    "question": "Hva beskriver transaksjonslaget i FireWire standaren?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Definisjon av mediet og karakteristikk for signalene",
+      "Beskriver hvordan dataene blir sendt i pakker",
+      "Definerer en forespørsel-svar protokoll"
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene er ikke riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "USB er en seriell buss.",
+      "USB støtter plug",
+      "USB regnes som en erstatning for PCI.",
+      "USB-enheter kobles sammen i en trestruktur.",
+      "Spesielle enheter kalt USB-hub-er brukes for å tilby flere tilkoblingspunkter."
+    ]
+  },
+  {
+    "question": "Hva beskriver linklaget i FireWire standarden?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Definisjon av mediet og karakteristikk for signalene",
+      "Beskriver hvordan dataene blir sendt i pakker",
+      "Definerer en forståelse-svar protokoll"
+    ]
+  },
+  {
+    "question": "Den nyeste bussteknologien for grafikk kalles?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["AGP", "RS-232C", "SCSI", "PCI"]
+  },
+  {
+    "question": "Hvilken av disse bussene ville du helst ha koblet et grafikk-kort til dersom du kunne velge?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["SCSI", "FireWire", "PCI Express", "PCI", "FibreChannel"]
+  }
+]

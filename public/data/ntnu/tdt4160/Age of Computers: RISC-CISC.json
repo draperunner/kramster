@@ -1,0 +1,112 @@
+[
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Mer enn en klokkesyklus pr. instruksjon er en typisk egenskap ved:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "Hvilket utsagn er mest korrekt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Utviklingen av en RISC prosessor er et risikabelt arbeid pga. såkalte data-hazarder.",
+      "RISC prosessorer har ofte såkalt load/store arkitektur.",
+      "RISC prosessorer har ofte færre registre enn CISC prosessorer."
+    ]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Mange adresseringsmodi er en av egenskapene til:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Relativt få generelle register er en av egenskapene til:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Få instruksjonsformat er en av egenskapene til:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "Når en sammenligner med RISC-instruksjoner så er",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "CISC-instruksjoner vanskeligere å dekode for prosessorlogikken.",
+      "CISC-instruksjoner alltid av fast lengde og trenger lite eller ingen dekoding.",
+      "CISC-instruksjoner raskere."
+    ]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. En klokkesyklus pr. instruksjon er en av egenskapene til:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "En CISC prosessor har typisk flere generelle registre enn en RISC prosessor",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Fokus på optimalisering av instruksjonssamlebånd er en av egenskapene til:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Bruk av styrelager i kontrollenheten er en typisk egenskap ved:",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "Det er enklere for en kompilator å optimalisere RISC-kode enn CISC-kode.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Avgrenset og enkelt instruksjonssett er en av egenskapene til:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Relativt få adresseringsmodi er en av egenskapene til:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. «Hardwired» kontrollenhet er en typisk egenskap ved:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "RISC og CISC er to ulike prosessorarkitekturer med ulike egenskaper. Mange generelle register er en av egenskapene til:",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["RISC", "CISC", "Begge", "Ingen av dem"]
+  },
+  {
+    "question": "Hvorfor har kompilatoren satt inn en NOOP-instruksjon?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Den bruker teknikken utsatt hoppinstruksjon (delayed branch).",
+      "Tre vanlige instruksjoner etter hverandre kan overopphete prosessoren.",
+      "For å unngå at prosessoren må detektere dataavhengigheten mellom Load og Add.",
+      "Dårlig kode -- et resultat av det semantiske gapet.",
+      "Prosessoren støtter ikke «internal forwarding»."
+    ]
+  }
+]

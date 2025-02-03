@@ -1,0 +1,226 @@
+[
+  {
+    "question": "Hvilken arbitrering har vi når det alltid er en bestemt enhet som velger bussmaster?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Distribuert arbitrering",
+      "Dynamisk arbitrering",
+      "Sentralisert arbitrering",
+      "Statisk arbitrering",
+      "Strukturert arbitrering"
+    ]
+  },
+  {
+    "question": "Tidsmultipleksing av data- og adresselinjer gjør at en buss:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Må ha separate adresse- og datafaser i busstransaksjoner.",
+      "Kan sende i begge retninger samtidig (full duplex).",
+      "Ikke trenger styrelinjer.",
+      "Ikke kan bruke sentralisert arbitrering.",
+      "Ikke kan bruke distribuert arbitrering."
+    ]
+  },
+  {
+    "question": "Hva er rett når det gjelder arbitrering?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Under arbitrering kodes signalene som skal sendes over bussen",
+      "Under arbitrering bestemmes hvilken enhet som skal få bruke bussen",
+      "Arbritrering verifiserer at alle lederne i bussen fungerer normalt",
+      "Arbritrering skyldes forsinkelsen over bussen",
+      "Arbitrering brukes for å øke ytelsen på bussen"
+    ]
+  },
+  {
+    "question": "Hvilket av alternativene er <em>ikke</em> en grunn til å ha hierarkiske busser i en datamaskin?",
+    "answers": [4, 3],
+    "exam": ".*",
+    "options": [
+      "Det er ønskelig å skille trege enheter fra raske enheter.",
+      "En lang buss får gjerne høy transmisjonsforsinkelse.",
+      "Med flere busser kan flere enheter overføre data samtidig.",
+      "Det kan være en fordel med spesialiserte busser mot enkelte enheter.",
+      "Lokalitetsprinsippet gjør det mindre sannsynlig at fjerne enheter blir brukt.",
+      "Det er ønskelig å skille trege enheter fra raske enheter",
+      "En lang buss får gjerne høy transmisjonsforsinkelse",
+      "Med flere busser kan flere enheter overføre data samtidig",
+      "Det kan være en fordel med spesialiserte busser mot enkelte enheter",
+      "Lokalitetsprinsippet gjør det mindre sannsynlig at fjerne enheter blir brukt",
+      "Det er ønskelig å skille trege enheter fra raske enheter.",
+      "En lang buss får gjerne høy transmisjonsforsinkelse.",
+      "Med flere busser kan flere enheter overføre data samtidig.",
+      "Lokalitetsprinsippet gjør det mindre sannsynlig at fjerne enheter blir brukt."
+    ]
+  },
+  {
+    "question": "Hva er typisk for kommunikasjon mellom delene i en datamaskin?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Hver del er koblet i parallell på en kommunikasjonskanal",
+      "Hver del er koblet i serie",
+      "Det er en kommunikasjonskanal mellom hver enkel enhet",
+      "Det er ikke komunikasjon mellom enhetene, de jobber hver for seg"
+    ]
+  },
+  {
+    "question": "Flere faktorer kjennetegner en multiplekset buss. Hvilket av alternativene under er <em>ikke</em> riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "En multiplekset buss har færre linjer enn en som ikke er multiplekset",
+      "En multiplekset buss er et hierarki av busser",
+      "En multiplekset buss krever mer kompliserte kretser enn en buss som ikke er multiplekset",
+      "En multiplekset buss kan ikke sende data og adresse samtidig",
+      "En multiplekset buss har lavere ytelse enn en buss som ikke er multiplekset"
+    ]
+  },
+  {
+    "question": "Hva er arbitrering? (Velg det mest dekkende alternativet)",
+    "answers": [4, 3],
+    "exam": ".*",
+    "options": [
+      "Generering av tilfeldige tall",
+      "Det samme som tidsstyring av prosesser",
+      "En teknikk for å kunne representere små tall i IEEE754-standarden",
+      "Tildeling av blokk i hurtigbuffer",
+      "Tildeling av aksess til bussen",
+      "Generering av tilfeldige tall.",
+      "Det samme som tidsstyring av prosesser.",
+      "Tildeling av blokk i hurtigbuffer.",
+      "Tildeling av aksess til bussen."
+    ]
+  },
+  {
+    "question": "Hvorfor må vi sikre at en buss har kun en bussmaster?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "For å unngå at mer enn en enhet mottar data på samme tidspunkt",
+      "For å redusere slitasjen på bussen",
+      "Fordi kun en enhet kan sende data på en buss til enhver tid",
+      "For å sikre at acknowledgement når frem til rett tid",
+      "For å sikre at acknowledgement når frem til rett mottaker"
+    ]
+  },
+  {
+    "question": "Tids-multipleksing (time multiplexing) av en buss gjør at overføringshastigheten øker",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "En gitt buss med tre eller flere enheter tilkoblet inneholder 16 datalinjer og 16 adresselinjer. Disse kan brukes til å:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Opprette \\(2^{16}\\) forskjellige forbindelser som hver kan overføre 16 bit",
+      "Overføre 16 bit i hver retning samtidig mellom to enheter",
+      "Samtidig overføre 16 bit mellom to enheter",
+      "4 forbindelser mellom forskjellige enheter, der en overfører 1 byte samtidig på hver forbindelse",
+      "Overføre et multiplum av 16 bit mellom to enheter. Hvor mange bit som bussen kan håndtere avhenger av lengden av bussen"
+    ]
+  },
+  {
+    "question": "Hvilke av disse linjene er <em>ikke</em> en del av en buss?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Adresselinje", "Kontrollinje", "Returlinje", "Datalinje"]
+  },
+  {
+    "question": "Hva er \\emhp{ikke} fordelen med å bruke multi-busser istedenfor å bruke enkel busser?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Man får færre enheter per buss",
+      "Man unngår flaskehals",
+      "Man får redusert forsinkelsen, siden bussen er kortere",
+      "Man får raskere busser"
+    ]
+  },
+  {
+    "question": "Bør lange busser være serielle eller parallelle?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Lange busser bør være parallelle fordi serielle busser vil få problemer med synkroniseringen.",
+      "Lange busser bør være serielle fordi parallelle busser er dyrere per meter.",
+      "Lange busser bør være serielle fordi parallelle vil få problemer med synkroniseringen av de ulike linjene når avstanden blir stor.",
+      "Lange busser bør være parallelle fordi serielle busser er mye tregere"
+    ]
+  },
+  {
+    "question": "Med skjult arbitrering taper vi <em>ikke</em> bussykler på arbitreringsprosessen",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "Hvilken av disse bussene finnes <em>ikke</em>?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En buss det er mulig å sende data på begge veier til samme tid",
+      "En buss det er mulig å sende data begge veier, men til forskjellig tid",
+      "En buss det er mulig å bare sende data en vei på",
+      "En buss som ikke har egne adresselinjer"
+    ]
+  },
+  {
+    "question": "En multiplekset buss:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Krever generelt færre ledere enn en dedikert buss",
+      "Gir generelt høyere ytelse enn en dedikert buss",
+      "Kan ikke brukes utenfor maskinen",
+      "Gjør arbitrering mer komplisert enn en dedikert buss",
+      "Kan ikke brukes med moderne RAM-teknologi"
+    ]
+  },
+  {
+    "question": "Hvilket av disse utsagnene er <em>ikke</em> riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Arbitrering er unødvendig på en synkron buss",
+      "En buss er et delt transmisjonsmedium",
+      "En buss er den vanligste sammenkoblingsstrukturen i en datamaskin",
+      "En buss består typisk av kontroll, adresse og datalinjer",
+      "Arbitrering er ikke nødvendig dersom kun en av enhetene tilkoblet bussen kan være bussmaster"
+    ]
+  },
+  {
+    "question": "På en parallell buss (for eksempel PCI) kan flere enheter overføre data samtidig",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Sant", "Usant"]
+  },
+  {
+    "question": "Hva er sant når det gjelder kommunikasjon over en buss?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Flere enheter kan kommunisere med hverandre samtidig hvis de er ved siden av hverandre på bussen",
+      "En enhet kan bestandig sende til en annen enhet så lenge ikke den andre enheten sender et signal på bussen",
+      "Busser går bare en vei",
+      "Bare en enhet kan legge signal på bussen av gangen"
+    ]
+  },
+  {
+    "question": "Under er det gitt flere argumenter for ikke å koble eksterne enheter direkte til en systembuss. Hvilket av disse er <em>ikke</em> riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "På grunn av at det finnes mange forskjellige typer eksterne enheter",
+      "Eksterne enheter er som regel mye tregere enn prosessoren",
+      "Eksterne enheter bruker ofte andre dataformat og ordlengder",
+      "Fordi antall enheter på en buss er begrenset av antall datalinjer",
+      "Fordi eksterne enheter skal kunne kommunisere seg imellom uten å bruke systembussen"
+    ]
+  }
+]

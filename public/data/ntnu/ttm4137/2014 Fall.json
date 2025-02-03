@@ -1,0 +1,256 @@
+[
+  {
+    "question": "What is the length of the WEP initialization vector (IV)?",
+    "answers": [0],
+    "exam": "2014 Fall",
+    "options": ["24 bits", "32 bits", "48 bits", "64 bits"]
+  },
+  {
+    "question": "What is the main trick of the Beck & Tews chopchop-like attack on TKIP?",
+    "answers": [1],
+    "exam": "2014 Fall",
+    "options": [
+      "An attacker can avoid the re-keying interval of the MIC failure report frame",
+      "An attacker can get responses to packets sent with partly guessed content",
+      "An attacker can cause packets to be silently dropped",
+      "An attacker can decrypt the special packets received over QoS channels"
+    ]
+  },
+  {
+    "question": "What are the \ffields of the 128-bit start value for RSN CCMP encryption?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "8-bit flag, 104-bit nonce, and a 16-bit counter; where the nonce fi\feld contains an 8-bit priority value, the 48-bit source address, and the 48-bit packet number",
+      "16-bit fag, 104-bit nonce, and a 8-bit counter; where the nonce \ffield contains an 8-bit priority value, the 48-bit source address, and the 48-bit packet number",
+      "The 16-bit packet number, and a 112-bit nonce value from a sequence counter",
+      "128-bit random nonce value"
+    ]
+  },
+  {
+    "question": "What is Extensible Authentication Protocol (EAP)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "EAP is a set of encapsulation messages for mutual authentication methods",
+      "EAP is a set of encapsulation messages for upper-layer authentication methods",
+      "EAP is a set of encapsulation messages for RSN authentication methods",
+      "EAP is a set of encapsulation messages for RADIUS server authentication methods"
+    ]
+  },
+  {
+    "question": "What are the inputs of the GSM authentication function A3?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "\\(K_i\\) and RAND and XRES",
+      "RAND and XRES",
+      "\\(K_i\\) and XRES",
+      "\\(K_i\\) and RAND"
+    ]
+  },
+  {
+    "question": "What is the purpose of the sequence number (SQN) used in UMTS?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Preventing man-in-the-middle attacks",
+      "Preventing session hijacking",
+      "Preventing replay attacks",
+      "Enabling re-synchronization"
+    ]
+  },
+  {
+    "question": "Is mutual authentication provided when a GSM SIM is used to access a UTRAN?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Yes, between the MS and the RNC",
+      "Yes, between the MS and the core network, but not the RNC",
+      "No, the GSM SIM cannot authen\bticate the base station",
+      "No, the GSM SIM cannot connect to a UTRAN"
+    ]
+  },
+  {
+    "question": "What is the content and use of the UMTS AUTS parameter?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "SQN \b\b\\(\\oplus\\)\b\b\b\b\b\b AK, MAC-S. Resynchronization when the SQN check fails on the network side",
+      "SQN \b\\(\\oplus\\) CK, MAC-S. Resynchronization when the SQN check fails on the network side",
+      "SQN \b\\(\\oplus\\) AK, MAC-S. Resynchronization when the SQN check fails on the MS side",
+      "SQN \b\\(\\oplus\\) CK, MAC-S. Resynchronization when the SQN check fails on the MS side"
+    ]
+  },
+  {
+    "question": "How is forward key separation achieved during handovers over X2 connections in EPS?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "The target eNB receives a fresh key from MME immediately after handover",
+      "The target eNB receives a fresh key from MME right before handover",
+      "The source eNB sends a derived key to the target eNB by applying a one-way function to the current key",
+      "Forward key separation cannot be achieved, only backward key separation"
+    ]
+  },
+  {
+    "question": "What is the speci\ffied length of the permanent subscriber key K in EPS/LTE?",
+    "answers": [0],
+    "exam": "2014 Fall",
+    "options": [
+      "No standard length specifi\fed",
+      "128 bits",
+      "192 bits",
+      "256 bits"
+    ]
+  },
+  {
+    "question": "The end points of user data encryption in EPS are",
+    "answers": [2],
+    "exam": "2014 Fall",
+    "options": [
+      "The UICC and the eNB",
+      "The UE and the MME",
+      "The UE and the eNB",
+      "The UICC and the MME"
+    ]
+  },
+  {
+    "question": "The end points of signalling encryption in the EPS access stratum are",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "The UICC and the eNB",
+      "The UE and the eNB",
+      "The eNB and the MME",
+      "The UE and the MME"
+    ]
+  },
+  {
+    "question": "The end points of signalling integrity in the EPS non-stratum access are",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "The UICC and the eNB",
+      "The UE and the eNB",
+      "The eNB and the MME",
+      "The UE and the MME"
+    ]
+  },
+  {
+    "question": "Does EPS provide end-to-end data security?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "No",
+      "Yes, but only authenticity",
+      "Yes, but only anonymity",
+      "Yes, both confidentiality and authenticity"
+    ]
+  },
+  {
+    "question": "What is the telecom practice of lawful interception?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Dragnet surveillance secretly performed by an authorized intelligence agency",
+      "Legal deep packet inspection and \ffiltering of mobile systems traffic",
+      "Eavesdropping of private communication performed by the police",
+      "Wiretapping of private communication requested by a law enforcement agency"
+    ]
+  },
+  {
+    "question": "Where does the key derivation function KDF of EPS reside?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "In the UICC and the HSS",
+      "In the UICC and the UE",
+      "In the UE and the MME",
+      "In the UE and the AuC"
+    ]
+  },
+  {
+    "question": "What are the three functional requirements for UMTS authentication?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Con\ffindentiality and privacy for the subscriber, and mutual authentication for the service provider",
+      "AV generation at AuC, key transport to the RNC, and the SQN synchronization",
+      "Mutual authentication between USIM and HSS, securing the radio channel communication, and end-to-end confidentiality",
+      "Mutual authentication between USIM and AuC, securing the radio channel communication, and user identity confidentiality"
+    ]
+  },
+  {
+    "question": "Why can the UICC be physically separated from the rest of the UE device?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "The UE manufacturing and lifecycle can be managed independently from the personalization and subscription process",
+      "The UICC holds an expiration date and, like credit cards, must be replaced",
+      "The failure rate of the integrated circuit cards (UICCs) are high because the issuers (mobile operators) want to optimize cost against subscription duration",
+      "The manufacturer plugs a special key-card into the UICC interface slot for key distribution and software management"
+    ]
+  },
+  {
+    "question": "What is the di\u000bfference between a checksum code and a cryptographic message authentication code?",
+    "answers": [2],
+    "exam": "2014 Fall",
+    "options": [
+      "There is no di\u000bfference, they are only di\u000bfferent terms for the same primitive",
+      "A message authentication code can be used to construct a checksum code, but not the other way around",
+      "A checksum can be (re-)computed by an attacker, the authentication code cannot",
+      "A keyed checksum provides stronger message integrity protection than a message authentication code"
+    ]
+  },
+  {
+    "question": "What cipher mode of operation is specified in the Bluetooth Low Energy standard?",
+    "answers": [0],
+    "exam": "2014 Fall",
+    "options": ["CCMP", "CBC", "E0", "BLE"]
+  },
+  {
+    "question": "What is ciphertext padding?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Methods of adding false bits to a ciphertext packet",
+      "Methods of making fi\fxed length ciphertext packets",
+      "Methods of cryptanalysis using weak crypto-keys",
+      "Methods of cryptanalysis using paper pads"
+    ]
+  },
+  {
+    "question": "Are the GPS satellite signals protected cryptographically?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "No protection because GPS receivers are keyless",
+      "Partly, the military spread-spectrum code is encrypted",
+      "By the distinct satellite signal authentication codes",
+      "By a public key satellite identity authentication code"
+    ]
+  },
+  {
+    "question": "Which attack is prevented if an RFID tag can authenticate the reader?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Tracking of the tag locations",
+      "Tag blocking",
+      "Tag inventory registration",
+      "Illicit reading of the tag information"
+    ]
+  },
+  {
+    "question": "What is an RFID tree-walking singulation protocol?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "A privacy-preserving identi\fcation protocol where a tag releases its identity number bit by bit",
+      "A disruption protocol by a blocker tag simulating a range of identities",
+      "A reader initiated anti-collision protocol run when multiple tags respond simultaneously",
+      "A reader monitoring protocol for discovering a given tag identity"
+    ]
+  }
+]

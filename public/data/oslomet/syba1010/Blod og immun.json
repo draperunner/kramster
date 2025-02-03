@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Hvilken av disse funksjonene har nøytrofile granulocytter?",
+    "answers": [1],
+    "exam": "Blod og immun",
+    "options": [
+      "De skiller ut histamin",
+      "De fagocytterer bakterier",
+      "De produserer antistoffer",
+      "De fungerer som hukommelsesceller"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om albumin er riktig?",
+    "answers": [0],
+    "exam": "Blod og immun",
+    "options": [
+      "Albumin har betydning for det osmotiske trykket i blodet",
+      "Albumin har en viktig funksjon i koagulasjonsmekanismen",
+      "Albumin er viktig for reabsorpsjon av urin i distale tubuli",
+      "Albumin er et antistoff i blodbanen"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om blodet er riktig?",
+    "answers": [0],
+    "exam": "Blod og immun",
+    "options": [
+      "Blodet består av plasma og blodceller",
+      "Hemoglobinet finnes i leukocyttene",
+      "Erytrocytter er det samme som hvite blodceller",
+      "Trombocyttenes funksjon er å transportere oksygen"
+    ]
+  },
+  {
+    "question": "Hvilke blodceller fagocytterer kroppsfremmed materiale ved en betennelse?",
+    "answers": [2],
+    "exam": "Blod og immun",
+    "options": [
+      "Mastceller og plasmaceller",
+      "B- og T-lymfocytter",
+      "Makrofager og nøytrofile granulocytter",
+      "Trombocytter og erytrocytter"
+    ]
+  },
+  {
+    "question": "Hvilken av disse celletypene skiller ut histamin?",
+    "answers": [1],
+    "exam": "Blod og immun",
+    "options": [
+      "Nøytrofile granulocytter",
+      "Mastceller",
+      "Makrofager",
+      "Eosinofile granulocytter"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om lymfocytter er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Lymfocytter tilhører det ytre immunforsvaret (barriereforsvaret)",
+      "B-lymfocytter produserer antistoffer",
+      "T-lymfocytter produserer antigener",
+      "Lymfocytter er ikke involvert i immuniseringen som oppstår som resultat av vaksinering"
+    ]
+  },
+  {
+    "question": "Hva er funksjonen til erytrocytter?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Erytrocytter transporterer O2 til kroppens vev, og returnerer CO2 til lungene",
+      "Erytrocytter er en del av infeksjonsforsvaret",
+      "Erytrocytter transporterer albumin",
+      "Erytrocytter bidrar til blodplatedannelse"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om hemostasen er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Når blodplatepluggen er dannet, er hemostaseprosessen fullstendig",
+      "Fibrin lages av blodplater",
+      "Hemostasen innebærer først åresammentrekning (karkontraksjon), så dannelse av blodplateplugg og til slutt koagulasjon av blodet",
+      "Dannelse av blodplateplugg kalles fibrinolyse"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om fibrinolysen er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Fibrinolyse betyr dannelse av fibrin",
+      "Fibrinolyse medfører dannelse av blodpropp (koagel)",
+      "Fibrinolyse betyr oppløsning av fibrin slik at blodproppen (koagelet) går i oppløsning",
+      "Fibrinolysen aktiveres av hormonet erytropoietin"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om reguleringen av produksjonen av erytrocytter er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Leveren produserer erytropoietin",
+      "Erytropoietin stimulerer dannelsen av erytrocytter i beinmargen",
+      "Lav CO2 verdi gir økt utskillelse av erytropoietin",
+      "Nyrene har ingen betydning når det gjelder reguleringen av erytrocyttproduksjonen"
+    ]
+  },
+  {
+    "question": "Hvilken funksjon har antistoffer?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Antistoffer øker produksjonen av antigener i kroppen",
+      "Antistoffer binder seg til antigen og derved kan uskadeliggjøre antigenene",
+      "Antistoffer har samme funksjon som antigener",
+      "Antistoffer hindrer B-lymfocyttene i å produsere plasmaceller"
+    ]
+  },
+  {
+    "question": "Hvordan transporteres mesteparten av oksygenet i blodet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Løst i plasma",
+      "Bundet til hemoglobin i erytrocytter",
+      "Festet til trombocytter",
+      "I leukocytter"
+    ]
+  },
+  {
+    "question": "Hva er samlebetegnelsen på hvite blodceller?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Lymfocytter", "Monocytter", "Fagocytter", "Leukocytter"]
+  },
+  {
+    "question": "Hva er effekten av hukommelsesceller?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Unngå smitte",
+      "Hindre betennelse",
+      "Rask nedkjemping av infeksjon",
+      "Gi rask feberstigning"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om makrofager er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Umodne makrofager kalles granulocytter",
+      "Hovedoppgaven til makrofager er å løse opp blodplateplugger",
+      "Makrofager fagocytterer mikroorganismer og ødelagt vev ved hjelp av eksocytose",
+      "Makrofager kan fagocyttere mikroorganismer og «spise» ødelagte vevsstrukturer"
+    ]
+  }
+]

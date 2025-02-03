@@ -1,0 +1,41 @@
+[
+  {
+    "question": "Luktesansen har sansecellene sine øverst i nesehulen. Hvilken type reseptorer har disse sansecellene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Kjemoreseptorer",
+      "Baroreseptorer",
+      "Mekanoreseptorer",
+      "Fotoreseptorer"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om hørselssansen er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det ovale vinduet markerer overgangen mellom det ytre øret og mellomøret",
+      "Den delen av hjernebarken som mottar lydsignaler er plassert i bakhodelappen (occipitallappen)",
+      "Mellomøret ligger utenfor trommehinnen",
+      "Hørselssansecellene (hårcellene) er plassert i sneglehuset"
+    ]
+  },
+  {
+    "question": "Hva er sklera (sclera)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Årehinnen", "Netthinnen", "Senehinnen", "Hornhinnen"]
+  },
+  {
+    "question": "Hvilket utsagn om hørselssansen er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Hørselssansecellene (hårcellene) er plassert i mellomøret",
+      "Den delen av hjernebarken som mottar lydsignaler er plassert i bakhodelappen (occipitallappen)",
+      "Mellomøret ligger utenfor trommehinnen",
+      "Trommehinnen og mellomørebeina (øreknoklene) forsterker lyden før den treffer hørselsanseceller (hårcellene)"
+    ]
+  }
+]

@@ -1,22 +1,6 @@
-import {
-  getFirestore,
-  connectFirestoreEmulator,
-  collection,
-  limit,
-  where,
-  query,
-  getDocs,
-  orderBy,
-  addDoc,
-} from "firebase/firestore";
+import { Question } from "../interfaces";
 
-import { Question, SendableReport } from "../interfaces";
-
-const db = getFirestore();
-
-if (import.meta.env.DEV) {
-  connectFirestoreEmulator(db, "localhost", 8080);
-}
+import examIndex from "../exams.json";
 
 async function getExam(
   school: string,
@@ -24,20 +8,9 @@ async function getExam(
   examName: string,
 ): Promise<Question[]> {
   try {
-    const snapshot = await getDocs(
-      query(
-        collection(db, "questions"),
-        where("exam", "==", examName),
-        where("school", "==", school),
-        where("course", "==", course),
-      ),
-    );
-
-    const questions = snapshot.docs.map((doc) => ({
-      ...(doc.data() as Question),
-      id: doc.id,
-    }));
-
+    const url = `/data/${school}/${course}/${examName}.json`;
+    const response = await fetch(url);
+    const questions = await response.json();
     return questions;
   } catch {
     return [];
@@ -49,73 +22,29 @@ async function getRandom(
   course: string,
   maxDocs: number,
 ): Promise<Question[]> {
-  const random = Math.floor(Math.random() * 10000);
-
-  const snap = await getDocs(
-    query(
-      collection(db, "questions"),
-      where("school", "==", school),
-      where("course", "==", course),
-      where("random", ">=", random),
-      orderBy("random"),
-      limit(maxDocs),
-    ),
+  const exams = await Promise.all(
+    examIndex
+      .filter((exam) => exam.school === school && exam.course === course)
+      .map((exam) => getExam(school, course, exam.name)),
   );
 
-  let questions: Question[] = snap.docs.map((doc) => ({
-    ...(doc.data() as Question),
-    id: doc.id,
-  }));
+  const allQuestions = exams.flat();
 
-  if (snap.size < maxDocs) {
-    const remainingSnap = await getDocs(
-      query(
-        collection(db, "questions"),
-        where("school", "==", school),
-        where("course", "==", course),
-        where("random", "<=", random),
-        orderBy("random", "desc"),
-        limit(maxDocs - snap.size),
-      ),
-    );
+  const randomQuestions = [];
+  const questionsToPick = Math.min(maxDocs, allQuestions.length);
 
-    questions = [
-      ...questions,
-      ...remainingSnap.docs.map((doc) => ({
-        ...(doc.data() as Question),
-        id: doc.id,
-      })),
-    ];
+  for (let i = 0; i < questionsToPick; i++) {
+    const randomIndex = Math.floor(Math.random() * allQuestions.length);
+    randomQuestions.push(allQuestions.splice(randomIndex, 1)[0]);
   }
 
-  return questions;
-}
-
-async function getHardest(
-  school: string,
-  course: string,
-  maxDocs: number,
-): Promise<Question[]> {
-  const snap = await getDocs(
-    query(
-      collection(db, "questions"),
-      where("school", "==", school),
-      where("course", "==", course),
-      orderBy("stats.successRate"),
-      limit(maxDocs),
-    ),
-  );
-
-  return snap.docs.map((doc) => ({
-    ...(doc.data() as Question),
-    id: doc.id,
-  }));
+  return randomQuestions;
 }
 
 interface GetQuestionsOptions {
   exam?: string;
   limit?: number;
-  mode?: "random" | "hardest" | "exam" | "all";
+  mode?: "random" | "exam" | "all";
 }
 
 export async function getQuestions(
@@ -133,13 +62,5 @@ export async function getQuestions(
     return getRandom(school, course, limit || 10);
   }
 
-  if (mode === "hardest") {
-    return getHardest(school, course, limit || 10);
-  }
-
   return [];
-}
-
-export async function sendReport(report: SendableReport): Promise<void> {
-  await addDoc(collection(db, "reports"), report);
 }

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What parameters are typically used in performance models?",
+    "answers": [0, 1, 3],
+    "exam": ".*",
+    "options": [
+      "Arrival rate",
+      "Network bandwidth",
+      "Recovery time",
+      "Schedule algorithm"
+    ]
+  },
+  {
+    "question": "What is the main cost of performance modelling?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Compose the model",
+      "Determine parameters",
+      "Measure latency",
+      "Measure workload"
+    ]
+  },
+  {
+    "question": "What is the main benefit of performance modeling?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Discover requirements",
+      "Estimate of latency",
+      "Faster system",
+      "Shorter user response-time"
+    ]
+  },
+  {
+    "question": "Modeling of architecture for availability is typically carried out for determining...",
+    "answers": [0, 2],
+    "exam": ".*",
+    "options": [
+      "Failure rates",
+      "Latency",
+      "Recovery times",
+      "Parallell processes"
+    ]
+  },
+  {
+    "question": "The probability that two independent servers A or B will fail is:",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["P(A) - P(B)", "P(A) / P(B)", "P(A) * P(B)", "P(A) + P(B)"]
+  },
+  {
+    "question": "The probability that both server A and server B will fail is:",
+    "answers": [2],
+    "exam": "2015 Kahoot 11: Modeling and Analysis",
+    "options": ["P(A) - P(B)", "P(A) / P(B)", "P(A) * P(B)", "P(A) + P(B)"]
+  },
+  {
+    "question": "What analysis models exist for Usability?:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Conceptual framework",
+      "Markov models",
+      "None",
+      "Real-time scheduling"
+    ]
+  },
+  {
+    "question": "What analysis models exist for Performance?:",
+    "answers": [2, 3],
+    "exam": ".*",
+    "options": [
+      "Conceptual frameworks",
+      "Component interaction metrics",
+      "Queuing",
+      "Real-time scheduling"
+    ]
+  },
+  {
+    "question": "What analysis models exist for Availability?:",
+    "answers": [2, 3],
+    "exam": ".*",
+    "options": [
+      "Coupling metrics",
+      "Cost models",
+      "Markov models",
+      "Statistical models"
+    ]
+  },
+  {
+    "question": "What analysis models exist for Security?:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Conceptual frameworks",
+      "Component interaction metrics",
+      "Cost models",
+      "None"
+    ]
+  }
+]

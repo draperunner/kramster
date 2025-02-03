@@ -1,0 +1,231 @@
+[
+  {
+    "question": "Hva betyr det at et dataprogram er opphavsrettslig beskyttet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det kan ikke kopieres og brukes uten at rettighetshaver får betalt.",
+      "Det kan ikke kopieres og brukes uten at rettighetshaver blir informert.",
+      "Det kan ikke kopieres og brukes uten rettighetshavers samtykke."
+    ]
+  },
+  {
+    "question": "Hva defineres som en sensitiv personopplysning?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Informasjon om kjøp i en nettbutikk.",
+      "Medlemskap i et idrettslag.",
+      "Både a og b.",
+      "Verken a eller b."
+    ]
+  },
+  {
+    "question": "Kari bryter seg inn på brukerkontoen til Ola, kopierer musikk som Ola har laget, og selger denne musikken på internett. Hvilke lover har Kari brutt?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Lov om opphavsrett til åndsverk og Straffeloven.",
+      "Straffeloven.",
+      "Lov om opphavsrett til åndsverk.",
+      "Ingen lover."
+    ]
+  },
+  {
+    "question": "01010101 i binærtallsystemet, er det samme som (i titallsystemet)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["105", "95", "85"]
+  },
+  {
+    "question": "4095 (i titallsystemet) skal kodes heksadesimalt (16-tallsystemet). Hvor mange siffer blir det i resultatet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["5", "4", "3"]
+  },
+  {
+    "question": "En ER-modell:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Viser hvilke entiteter og relasjoner som faktisk er lagret i en database.",
+      "Beskriver informasjonsstrukturen i en database.",
+      "Beskriver strukturen i et ERP-system (Enterprice Resource Planning System)."
+    ]
+  },
+  {
+    "question": "Anta at karakterene har følgende fordeling: A (7 %), B (20 %), C (35 %), D (25 %), E (8 %) og F (5 %). Hva er riktig Huffmannkoding for A-F?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "11110 (A) 110 (B) 0 (C) 10 (D) 1110 (E) 11111 (F)",
+      "001 (A) 010 (B) 011 (C) 100 (D) 101 (E) 111 (F)",
+      "110 (A) 01 (B) 0 (C) 1 (D) 11 (E) 111 (F)"
+    ]
+  },
+  {
+    "question": "I JSP, hva blir resultatet av: 1+2/2–1?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["0,5", "1", "3"]
+  },
+  {
+    "question": "En melding består av resultatet av 100 myntkast (mynt/krone). En annen melding består av resultatet av 100 terningkast (1–6 øyne). Hvilken melding har høyest entropi?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Mynt-meldingen.",
+      "Terning-meldingen.",
+      "De har samme entropi."
+    ]
+  },
+  {
+    "question": "Hvilket av alternativene er gyldig CSS?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "style=\"font-weight=bold\"",
+      "style=\"font-weight: bold, color: red\"",
+      "style=\"font-weight: bold;\""
+    ]
+  },
+  {
+    "question": "Hva er den viktigste oppgaven til en nettverkssvitsj?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Sørge for at alle påkoblede maskiner mottar alle datapakker.",
+      "Overvåke og stenge ute uønsket nettverkstrafikk.",
+      "Fordele datatrafikken slik at datapakkene kommer frem til riktig mottaker."
+    ]
+  },
+  {
+    "question": "Vi har en sortert liste med 5 000 000 elementer. Ved binærsøking i denne listen, hvor mange sammenligninger må vi i verste fall gjøre?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Omtrent 20", "Omtrent 30", "Omtrent 40"]
+  },
+  {
+    "question": "For et større nettsted, hva er den viktigste fordelen ved å samle CSS-stiler i en stilfil?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det tvinger HTML-filene til å bruke de samme stilene og gir et konsistent utseende.",
+      "Det tar mindre plass enn å gjenta de samme stilene i mange HTML-filer.",
+      "Det gjør det enkelt å ha felles stiler for mange HTML-filer."
+    ]
+  },
+  {
+    "question": "&lt;a...&gt;...&lt;/a&gt; i en HTML-fil definerer:",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Et adressefelt.", "Et avsnitt.", "En hyperlenke."]
+  },
+  {
+    "question": "Hvilket av disse er et ikke-funksjonelt krav?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Systemet skal registrere nye brukere.",
+      "Systemet skal kryptere persondata.",
+      "Systemet skal gi en oversikt over ledige seter."
+    ]
+  },
+  {
+    "question": "Testing av programkode vil si at man:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Går gjennom programkoden og prøver å finne feil.",
+      "Lar noen utvalgte brukere prøve systemet.",
+      "Kjører programkoden og sjekker at forholdet mellom inndata og utdata er som forventet."
+    ]
+  },
+  {
+    "question": "Hva er fordelen med asymmetrisk kryptering fremfor symmetrisk kryptering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Man kan publisere den ene nøkkelen.",
+      "Det er vanskeligere å knekke koden fordi man må finne to ulike nøkler.",
+      "Man kan være sikker på identiteten til den som har sendt meldingen (autentisering)."
+    ]
+  },
+  {
+    "question": "Hva er nettverkstjenester?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "E-post, filoverføring og trådløst nettverk.",
+      "Fildeling, WWW og e-post.",
+      "Filoverføring, TCP/IP og WWW."
+    ]
+  },
+  {
+    "question": "CPU er forkortelse for:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Central Pipelining Unit.",
+      "Coordinating Processor Unit.",
+      "Central Processing Unit."
+    ]
+  },
+  {
+    "question": "Et tall av typen double lagres i 8 byte. Omtrent hvor mange slike tall kan lagres i en gigabyte (GB)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Ca. 134 000.", "Over 100 millioner.", "Omtrent en milliard."]
+  },
+  {
+    "question": "Hvilken betydning har klasse (eng: class) i forbindelse med HTML/CSS?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det definerer klasser av lignende tags, for eksempel klassen av overskrift-tags (<h1>, <h2>, etc.).",
+      "Det lar oss skille mellom viktige tags (head, body, etc) og ubetydelige tags (<em>, <strong> etc.).",
+      "Det lar oss definere en delmengde av alle forekomster av en tag, som vi kan gi spesiell behandling."
+    ]
+  },
+  {
+    "question": "På hvilken måte skiller harddisk seg fra primærminne (RAM)?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det tar lengre tid å skrive eller lese.",
+      "Dataene er sikre mot strømbrudd.",
+      "Verken a eller b.",
+      "Både a og b."
+    ]
+  },
+  {
+    "question": "A && (B || C) er true (sant) for:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "A true, B true, C false",
+      "A true, B false, C false",
+      "A false, B true, C true"
+    ]
+  },
+  {
+    "question": "Hovedgrunnen til at vi deler opp lengre programmer ved å bruke metoder:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Det går raskere å kjøre programmet.",
+      "Programmet får høyere funksjonalitet.",
+      "Det er lettere å forstå programmet."
+    ]
+  },
+  {
+    "question": "Hva stemmer ikke om kommentarer i programkode?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Programmet tar større plass på harddisken.",
+      "De gjør det lettere å forstå koden.",
+      "Programmet kjører langsommere."
+    ]
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "question": "Hva kjennetegner inkrementelle innovasjoner?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Små og stegvise endringer",
+      "Store og banebrytende endringer",
+      "Interne endringer i organisasjoner",
+      "Endringer basert på teknologi"
+    ]
+  },
+  {
+    "question": "Hvordan definerte Joseph Schumpeter (1934) innovasjon?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Prosessen fram mot en industriforandring, som ustanselig vil revolusjonere og ødelegge den gamle økonomiske strukturen innenfra og skape en ny",
+      "Prosessen fra idé til patent",
+      "Nyetablering av bedrifter, som introduserer nye innovative produkter og/eller tjenester",
+      "Prosessen der man stegvis går fra kreativitet til produksjon"
+    ]
+  },
+  {
+    "question": "Hvordan beskriver man «pivotering» i læreboken Teknologiledelse?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et strategisk retningsskifte som gjør at bedriften havner i en bedre posisjon nærmere markedet enn den opprinnelige",
+      "En måte å behandle datasett i Excel, for å være i stand til å velge optimal produkt-marked-fit",
+      "Et strategisk verktøy for å velge optimalt marked",
+      "En teknikk for å vente med å ta beslutninger om valg av marked til produktet er utviklet"
+    ]
+  },
+  {
+    "question": "Hva kjennetegner «effektuering» (som beskrevet av Sarasvathy et al., 2001)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Man kontrollerer midlene, og på bakgrunn av dette har man flere alternative mål tilgjengelige",
+      "Man estimerer og predikerer et mål, og står åpen til å velge mellom midlene",
+      "Et system for fullstendig kontroll på ressursbruken i oppstartsbedrifter",
+      "Man bruker kausalmodeller for å utvikle produkter mer effektiv"
+    ]
+  },
+  {
+    "question": "Hvilke ressurser kan gi en oppstartsbedrift konkurransefortrinn, som beskrevet i læreboken Teknologiledelse?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et sterkt patent, varemerke, designbeskyttelse, lidenskap for ideen og bransjen, unik kompetanse i teamet, hurtig gjennomføring",
+      "Et sterkt patent, varemerke, designbeskyttelse, hemmelige produksjonsmetoder, finansiering, få konkurrenter og timing",
+      "Teamet, produktet, hurtig gjennomføring, internasjonalt marked, finansiering fra Innovasjon Norge",
+      "Hemmelighold, bransjekunnskap, teamet, radikale løsninger, billig produksjon"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om arbeidsspesialisering er IKKE KORREKT ifølge pensum?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Arbeidsspesialisering gjør at man kan bruke spesialisert utstyr, og kan skifte utstyr sjeldnere",
+      "Arbeidsspesialisering gjør at en arbeider kan lære sin del av operasjonen veldig godt",
+      "Arbeidsspesialisering øker arbeiderens indre motivasjon",
+      "Arbeidsspesialisering gjør at en arbeider slipper å skifte mellom ulike operasjoner"
+    ]
+  },
+  {
+    "question": "Hvilket av utsagnene er KORREKT om Herzbergs tofaktorteori?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Motiveringsfaktorer fremmer trivsel, men fjerner ikke mistrivsel.",
+      "Teorien viser at kunnskapen om at man blir målt gjør at arbeidere forbedrer seg, dette gjør det vanskelig å benytte kontrollgrupper i organisasjonsstudier.",
+      "Teorien dreier stort sett om materielle arbeidsforhold, som tilstrekkelig med lys.",
+      "Sentralt i teorien står selvrealisering."
+    ]
+  },
+  {
+    "question": "Hva er interessant med valensbegrepet til Vroom?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det åpner for at arbeidet i seg selv kan være belønnende, altså ikke kun eksterne belønninger.",
+      "Det åpner for at verdien av belønninger er individuelt betinget.",
+      "Det demonstrerer viktigheten av kjønnslikhet på arbeidsplassen.",
+      "Det demonstrerer viktigheten for motivasjon av at man har mulighet til å lære i jobben"
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende utsagnene er IKKE en av team-/gruppenormenes funksjoner?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "De uttrykker gruppens sentrale verdier.",
+      "De er prosessene hvorfra nye gruppemedlemmer lærer seg om samfunnets forventninger til teamet.",
+      "De bidrar til å koordinere arbeidet i teamet ved å skape en felles forståelse av hva som er akseptabelt.",
+      "Teamnormer sier noe om hva som er passende atferd i gruppen."
+    ]
+  },
+  {
+    "question": "Ifølge Hersey og Blanchards modell om situasjonsbestemt ledelse i pensumboken bør ledere tilpasse lederstilen sin til de ansattes modenhetsnivå. Modenhetsnivå er gitt ut i fra i hvilken grad de ansatte har kunnskap om jobben de skal gjøre, og i hvilken grad de er motivert for å gjøre jobben. Hvilken lederstil anbefales når de ansatte har høy kunnskap, men lav motivasjon («kompetent, men ikke villig»)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En deltakende lederstil",
+      "En instruerende lederstil",
+      "En delegerende lederstil",
+      "En overtalende lederstil"
+    ]
+  },
+  {
+    "question": "En bedrift har marginalkostnader gitt av funksjonen MC(Q) der Q er mengden. Hvilken kostnadsstørrelse tilsvarer mest presist integralet av marginalkostnadene fra null til produsert mengde, det vil si \\(\\int_0^{Q^*} MC(Q)dQ \\), der \\(Q^*\\)er produsert mengde?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Totalkostnader.",
+      "Alternativkostnader.",
+      "Variable kostnader.",
+      "Gjennomsnittskostnader."
+    ]
+  },
+  {
+    "question": "En bedrift har lavere marginalkostnader enn gjennomsnittskostnader. Hvilken relasjon er det da naturlig å anta gjelder for bedriftens tilpasning?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "De variable kostnadene er synkende.",
+      "Gjennomsnittskostnadene er synkende.",
+      "Marginalkostnadene er negative.",
+      "De faste kostnadene er større enn de variable kostnadene."
+    ]
+  },
+  {
+    "question": "En bedrift har marginalinntekt på 80 ved en pris på 100. Hva er da (absoluttverdien av) etterspørselselastisiteten?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["1", "2", "4", "5"]
+  },
+  {
+    "question": "Hva kan vi si om sammenhengen mellom marginalinntekt og etterspørselselastisitet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Elastisk etterspørsel henger sammen med positiv marginalinntekt.",
+      "Elastisk etterspørsel henger sammen med negativ marginalinntekt.",
+      "Elastisk etterspørsel henger sammen med at prisen er høyere enn marginalinntekten.",
+      "Elastisk etterspørsel henger sammen med at marginalinntekten er null."
+    ]
+  },
+  {
+    "question": "Et monopol har totalkostnader TC, gitt ved \\(TC = 16000Q + 200 000 000\\), der Q er produsert mengde. Etterspørselen er gitt ved Q = 30 000 − 0,5P, der Q er mengden og P er prisen. Hva blir optimal profitt for monopolet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "39 millioner.",
+      "40 millioner.",
+      "41 millioner.",
+      "42 millioner."
+    ]
+  },
+  {
+    "question": "En bedrift i et frikonkurransemarked har totalkostnader TC gitt ved \\( TC = \\frac{2}{3}Q\\sqrt{Q} + 100Q + 100 000\\), der Q er produsert mengde. Prisen i markedet er 200. Hva blir optimal mengde for bedriften?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["5 000", "10 000", "15 000", "20 000"]
+  },
+  {
+    "question": "To bedrifter i et duopolmarked produserer et homogent gode og tilpasser seg i tråd med den såkalte Cournot-modellen. Begge bedriftene har marginalkostnader på 3 000. Indirekte etterspørsel kan\nuttrykkes som P = 9 000 − 2Q , der P er prisen og Qer total mengde i markedet. Hva blir prisen i markedet ved likevekt?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["3 000", "4 000", "5 000", "6 000"]
+  },
+  {
+    "question": "Et monopol oppgraderer produksjonsprosessen slik at marginalkostnadene synker fra 1 000 til 800.\nIndirekte etterspørsel er gitt ved P = 10 000 − Q. Hvor mye øker samfunnsøkonomisk overskudd som følge av oppgraderingen?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["910 000", "1 365 000", "1 820 000", "2 150 000"]
+  },
+  {
+    "question": "En bedrift har positivt regnskapsmessig overskudd før skatt. Bedriften har like mye regnskapsført egenkapital som gjeld. Renten på gjelden er høyere enn totalkapitalrentabiliteten før skatt. Hva kan vi da si om egenkapitalrentabilitet før skatt?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Egenkapitalrentabiliteten før skatt er lavere enn gjeldsrenten.",
+      "Egenkapitalrentabiliteten før skatt er høyere enn gjeldsrenten.",
+      "Egenkapitalrentabiliteten før skatt er negativ.",
+      "Egenkapitalrentabiliteten før skatt er høyere enn totalkapitalrentabiliteten."
+    ]
+  },
+  {
+    "question": "En bedrift har likviditetsgrad 1 lik 2 og likviditetsgrad 2 lik 1. Hva kan vi da si om bedriftens omløpsmidler?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Bedriften har likvider, det vil si kontanter og bankinnskudd, som til sammen utgjør mer enn kortsiktig gjeld.",
+      "Bedriften har like stor verdi av kundefordringer som den har kortsiktig gjeld.",
+      "Bedriftens omløpsmidler utenom varelager er dobbelt så mye verdt som kortsiktig gjeld.",
+      "Bedriften har like stor verdi av varelager som den har kortsiktig gjeld."
+    ]
+  },
+  {
+    "question": "Hva er nåverdien av en kontantstrøm på 100 000 som kommer om 6 år når avkastningskravet er 8 % i året?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["63 017", "68 058", "73 503", "79 383"]
+  },
+  {
+    "question": "Som del av en nettonåverdiberegning har en bedrift estimert følgende: Kontantstrøm om ett år er 10 millioner med sannsynlighet 40 % og 7 millioner med sannsynlighet 60 %. Dersom kontantstrøm blir 10 millioner om ett år, er det 70 % sannsynlighet for kontantstrøm på 12 millioner og 30 % sannsynlighet for kontantstrøm på 5 millioner om to år. Dersom kontantstrøm blir 7 millioner om ett år, er det 20 % sannsynlighet for kontantstrøm på 9 millioner og 80 % sannsynlighet for kontantstrøm på 2 millioner om to år. Avkastningskravet er 10 %. Hva blir forventet nåverdi av de nevnte kontantstrømmene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "12,4 millioner.",
+      "13,6 millioner.",
+      "14,2 millioner.",
+      "15,1 millioner."
+    ]
+  },
+  {
+    "question": "En bedrift regner med å få kontantstrømmen \\(k\\) om ett år, samme kontantstrøm etter ytterligere ett år, samme kontantstrøm året etter det igjen og så videre i totalt 20 år slik at siste kontantstrøm kommer 20 år fra nå. Gitt at diskonteringsrenten er \\(r\\), hva er et korrekt uttrykk for nåverdien av disse kontantstrømmene?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "\\( \\frac{k}{r}(1-\\frac{1}{(1+r)^{21}}) \\)",
+      "\\( \\frac{k}{r}(1-\\frac{1}{(1+r)^{20}}) \\)",
+      "\\( \\frac{k}{1+r}(1-\\frac{1}{r^{21}}) \\)",
+      "\\( \\frac{k}{1+r}(1-\\frac{1}{r^{20}}) \\)"
+    ]
+  },
+  {
+    "question": "Aksje 1 har standardavvik på 20 % og forventet avkastning på 8 %. Aksje 2 har standardavvik på\n40 % og forventet avkastning på 12 %. De to aksjene korrelerer ikke perfekt. Hva kan vi da si om en portefølje med 50 % investert i hver av de to aksjene?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Porteføljen har standardavvik over 30 % og forventet avkastning på 10 %.",
+      "Porteføljen har standardavvik under 30 % og forventet avkastning over 10 %.",
+      "Porteføljen har standardavvik under 30 % og forventet avkastning på 10 %.",
+      "Porteføljen har standardavvik over 30 % og forventet avkastning over 10 %."
+    ]
+  },
+  {
+    "question": "En rasjonell investor som opptrer med risikoaversjon i forhold til alle finansielle beslutninger, og bare er opptatt av risiko og avkastninger relatert til investeringer, vurderer investering i ett av to mulige aksjefond. Det ene fondet, kalt Aktivium, har forventet avkastning på 11 % og standardavvik på\n25 %. Det andre fondet, kalt Passivium, har forventet avkastning på 10 % og standardavvik på 20 %. Investoren vil ikke ha noen andre risikoinvesteringer, men kan kombinere investering i ett av fondene med risikofritt bankinnskudd eller lån med rente på 2 %. Hvilket utsagn er da korrekt?",
+    "answers": [0, 3],
+    "exam": ".*",
+    "options": [
+      "Investoren vil helt sikkert ikke låne penger for å investere i Aktivium.",
+      "Investoren vil helt sikkert ikke låne penger for å investere i Passivium.",
+      "Investoren vil kombinere innskudd eller lån med investering i Aktivium.",
+      "Investoren vil kombinere innskudd eller lån med investering i Passivium."
+    ]
+  },
+  {
+    "question": "Hva kalles den risikoen som skal fanges opp av parameteren beta i kapitalverdimodellen, CAPM?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Diversifiserbar risiko.",
+      "Unik risiko.",
+      "Markedsrisiko.",
+      "Usystematisk risiko."
+    ]
+  },
+  {
+    "question": "Risikofri rente er 2 %, markedsrisikopremien er 5 % og en aksje har en beta på 1,5. Hva er da forventet avkastning for aksjen ifølge kapitalverdimodellen, CAPM?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["5,0 %", "6,5 %", "7,0 %", "9,5 %"]
+  },
+  {
+    "question": "Et selskap forventer å ha overskudd etter skatt neste år. Det forventer å betale 200 millioner kroner i renter neste år. Selskapsskattesatsen er 24 %. Selskapet regner med et avkastningskrav på 6 % for skattefordel av gjeld. Hva er nåverdien av skattefordelen av gjeld neste år?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "200 millioner.",
+      "48 millioner.",
+      "45 millioner.",
+      "24 millioner."
+    ]
+  },
+  {
+    "question": "Avkastningen på aktiva før skatt for et selskap er 10 %. Avkastningen på selskapets gjeld er 5 % og gjeldsandelen er 50 %. Selskapsskattesatsen er 24 %. Hva er da selskapets kapitalkostnad for totalkapital etter skatt, WACC?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["6,9 %", "9,4 %", "10,0 %", "15,0 %"]
+  },
+  {
+    "question": "I forbindelse med planer om å kjøpe en annen bedrift for 3 milliarder kroner, utarbeider et selskap estimater for hvilken kontantstrøm oppkjøpet vil bidra med når det tas hensyn til synergier. Antagelsen som gjøres er at kontantstrømmen vil være 400 millioner kroner før finanskostnader og skatt første år, så 2 % mer, altså 408 millioner kroner året deretter, så ytterligere 2 % mer neste år osv. slik at kontantstrømmen vokser med 2 % fra år til år. Selskapet regner som om første kontantstrøm kommer ett år etter oppkjøpet, den andre etter to år osv. og regner som om det er et uendelig antall perioder. Selskapet forutsetter at renter på gjeld relatert til oppkjøpet vil utgjøre en konstant andel av kontantstrømmen i alle perioder. Nærmere bestemt antar selskapet at rentene vil utgjøre 30 % av kontantstrøm i alle perioder. Selskapet bruker avkastningskravet til totalkapitalen etter skatt, WACC, til å beregne nettonåverdien til det planlagte oppkjøpet. WACC er estimert til 12 %. Selskapsskattesatsen er 25 %. Med de gitte forutsetningene, hva er nettonåverdien til oppkjøpet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "– 500 millioner.",
+      "0 millioner.",
+      "300 millioner.",
+      "1 000 millioner."
+    ]
+  }
+]

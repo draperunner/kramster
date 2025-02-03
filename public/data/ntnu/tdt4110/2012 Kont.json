@@ -1,0 +1,267 @@
+[
+  {
+    "question": "Hva kalles typen datamaskin som typisk brukes til tyngre oppgaver som værberegninger?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Arbeidsstasjon.",
+      "Mikrodatamaskin.",
+      "Stormaskin.",
+      "Superdatamaskin."
+    ]
+  },
+  {
+    "question": "Hvilket av disse alternativene beskriver IKKE en mikrokontroller?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Kalles også innebygd datamaskin.",
+      "Brukes som en del av diverse utstyr og kjøretøyer.",
+      "Benytter alltid store sekundærlager.",
+      "Finnes i mikrobølgeovn, tastatur, klokker, etc."
+    ]
+  },
+  {
+    "question": "Hvilket av disse alternativene beskriver IKKE programvare (software)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En CD-plate.",
+      "Operativsystemet.",
+      "Utstyrsdrivere (device drivers).",
+      "Hjelpeprogrammer (utility programs)."
+    ]
+  },
+  {
+    "question": "Hvilket alternativ beskriver sekundærminne?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Harddisk.",
+      "CD/DVD.",
+      "Minnepenn.",
+      "Alle alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hvilket alternativ beskriver IKKE en utenhet (output) i en datamaskin?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Monitor.", "CPU.", "Høyttaler.", "Printer."]
+  },
+  {
+    "question": "Hvor mange bytes er 1 kilobyte?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "1000 bytes.",
+      "1024 bytes.",
+      "1048 bytes.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva er korrekt angående systemprogramvaren i en datamaskin?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Gjør det mulig for applikasjonsprogramvare å kommunisere med datamaskin.",
+      "Hjelper datamaskinen til å håndtere sine egne interne og eksterne ressurser.",
+      "Inkluderer utstyrsdrivere (device drivers) og hjelpeprogrammer (utility programs).",
+      "Alle alternativene er riktige."
+    ]
+  },
+  {
+    "question": "Hva legges i begrepet \"booting\"?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Prosessen å laste inn operativsystemet i minne til en datamaskin.",
+      "Prosessen å laste inn applikasjonsprogramvare i minne til en datamaskin.",
+      "Prosessen å skifte mellom to programmer i et operativsystem.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hvilket alternativ stemmer IKKE angående beskrivelser av et operativsystem?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Håndterer grunnleggende dataoperasjoner på et lavt nivå.",
+      "De fleste applikasjonsprogrammer er skrevet for å kjøre på et spesifikt operativsystem.",
+      "Man kan starte programmer direkte utenom operativsystemet på de fleste universelle datamaskiner (PCer).",
+      "Operativsystemet tar seg av oppgaver som oppstart, prosessorhåndtering, filhåndtering, oppgavehåndtering og sikkerhetshåndtering."
+    ]
+  },
+  {
+    "question": "Hva står forkortelsen \"BIOS\" for?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Binary Intermediate Operating System.",
+      "Basic Input/Output System.",
+      "Boot In Open Software.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hvordan kan datamaskin med en prosessor (CPU) som kun kan kjøre en instruksjon av gangen kjøre flere programmer samtidig (multi-tasking)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det er ikke mulig.",
+      "Hvert program får tildelt litt prosesseringstid.",
+      "Datamaskinen bruker andre enheter som grafikkort til å utføre programmer.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva er oppgaven til utstyrsdrivere (device drivers)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Forenkle kommunikasjon mellom datamaskinen og eksternt utstyr.",
+      "Bestemme hvilke programmer som skal kjøres i prosessoren (CPUen).",
+      "Sørge for at alle eksterne enheter kan tilkobles ved hjelp av USB.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva betyr begrepet båndbredde (bandwidth)?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Beskriver hvilke radiofrekvenser et trådløstnettverk kommuniserer over.",
+      "Beskriver fysisk bredde på optisk fiber eller nettverkskabler.",
+      "Uttrykk for hvilken type data som kan sendes over en kommunikasjonskanal.",
+      "Uttrykk for hvor mye data per tidsenhet som kan sendes over en kommunikasjonskanal."
+    ]
+  },
+  {
+    "question": "Hvilken teknologi har potensielt størst overføringskapasitet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["ADSL.", "Optisk fiber.", "Koaksialkabel.", "Wi-Fi."]
+  },
+  {
+    "question": "Hva er en protokoll når man snakker om nettverk?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et sett med regler datamaskiner følger for å overføre data elektronisk.",
+      "Et program som sjekker om data kan overføres mellom to datamaskiner.",
+      "En standard for å representere websider.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Omtrent hvor mange unike adresser tilbyr IPv4 (Internet Protocol ver. 4)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "4,29 millioner.",
+      "429 millioner.",
+      "4,29 milliarder.",
+      "429 milliarder."
+    ]
+  },
+  {
+    "question": "Hva består den første delen av en Uniform Resource Locator (URL) av?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Domenenavn.",
+      "Protokoll.",
+      "Type webdokument (f.eks. HTML, php, asp, jsp).",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva står HTML for?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Horizontal Text Modelling Language.",
+      "Hypertext Modelling Language.",
+      "Hypertext Markup Language.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva ligger i begrepet \"spoofing\"?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Bombardere en nettside med stor datatrafikk.",
+      "Opprette nettsider som utgir seg for å være noe annet enn de er.",
+      "Bryte seg inn i et datasystem.",
+      "Sende epost med falsk avsender."
+    ]
+  },
+  {
+    "question": "Hva er et hovedkort (motherboard)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Bunnplata i et PC kabinett.",
+      "Sekundærminnet i en PC.",
+      "Et kretskort i en datamaskin der enheter som CPU, RAM, og andre enheter kobles sammen.",
+      "Et minnekort for å lagre ultralydbilder."
+    ]
+  },
+  {
+    "question": "Hva gjør en enhetstest?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Tester individuelle deler av programvaren.",
+      "Tester at selve datamaskinen (maskinvaren) fungerer.",
+      "Tester at ulike deler av systemet fungerer sammen på en korrekt måte.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva definerer et \"peer-to-peer\" nettverk?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En er slave, de andre er sjefer.",
+      "En er sjef, de andre er salver.",
+      "Alle er likeverdige.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "På nettsiden www.ntnu.no/student finner du en lenke til følgende dokument \"info.html\". Hvilken type lenke er dette?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Absolutt hyperlenke.",
+      "Relativ hyperlenke.",
+      "Modifiserende hyperlenke.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva er et flytskjema innen programmering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En grafisk representasjon av en algoritme.",
+      "En presis beskrivelse av en endelig serie operasjoner som skal utføres for å løse et problem.",
+      "En tekstlig beskrivelse som beskriver flyten i et program.",
+      "Ingen av alternativene er riktig."
+    ]
+  },
+  {
+    "question": "Hva kalles den siste fasen i livssyklusen til systemutvikling av informasjonssystemer?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Design.",
+      "Utvikling.",
+      "Vedlikehold.",
+      "Ingen av alternativene er riktig."
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "question": "A server program requests and receives services from a client program.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Packet switching is always better than circuit switching.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The application-layer message and the transport-layer header information together constitute the transport-layer segment.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The total nodal delay is given by the sum of the processing delay, transmission delay and propagation delay.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Each router has a forwarding table that maps destination addresses to outbound links.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Tier-1 ISPs are directly connected to each of the other Tier-1 ISPs.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Transport Layer and Network Layer are always executed together.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "IP is a connection-oriented protocol.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Internet DNS uses TCP.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Web cashing can reduce the delay in receiving a requested object of a webpage.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "FTP uses TCP as its underlying transport protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "HTTP decides how a Web page is interpreted by a Web browser.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When a user requests a Web page, many TCP connections may be generated.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "File distribution using client-server architecture. Upload rate: server is 10Mbps and each client 1 Mbps. Download rate: each client is 10Mbps. There are 100 clients and the file is 12,5 Mbytes. The minimum distribution time is about 100 s.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In BitTorrent, suppose Alice provides chunks to Bob throughout a 15-second interval. Then, Bob should provide chunks to Alice in the same interval.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "P2P cannot be used for instant messaging.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A host can have more than one DNS name.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a POP3 transaction, the user agent issues commands, and the server responds to each command with a reply.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "SMTP is used to transfer mail from the sender's mail server to the recipient's mail server, and it is also used to transfer mail from the sender's user agent to the sender's mail server.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A transport-layer protocol can provide reliable data transfer even if the underlying network layer is unreliable.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 100; the second has sequence number 200. Then, there are 100 bytes in the first segment.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In Go-back-N, the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgement from the receiver.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The throughput of a TCP connection is typically a function of its round-trip time.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When TCP is used, the TCP port number of the receiver cannot be different from the TCP port number of the sender.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "UDP is a connectionless transport protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A is sending a large file to Host B over a TCP connection. If the sequence number for a segment of this connection is n, then the sequence number for the subsequent segment will necessarily be n+1.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A is sending a large file to Host B over a TCP connection. The number of unacknowledged bytes that A sends cannot exceed the size of the receive buffer at B.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose a process in Host C has a UDP socket with port number 5678. If both Host A and Host B each send a UDP segment to Host C with destination port number 5678, then the process in Host C cannot know that these two segments are originated from two different hosts.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "TCP uses end-to-end congestion control.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The IP address 192.32.216.9 in binary notation is: 11000000 00100000 11011000 00001001",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A Class C IP subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Virtual circuit is connection-oriented.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With IP, the order of packets received may be different from the order of the same packets sent.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Hosts and routers can use ICMP to communicate network-layer information to each other.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The job of routing is to determine good routes from senders to receivers through the network.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a decentralized routing algorithm, the calculation of the least-cost path is carried out in an iterative, distributed manner.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The link-state (LS) routing algorithm is a decentralized routing algorithm.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With DHCP, a host may be assigned an IP address that is different each time the host is connected to the network.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The IPv6 address space is much larger than the IPv4 address space.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If all links in the Internet were to provide reliable delivery service, the TCP reliable delivery service would be redundant and hence not needed.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Two-dimensional parity checks can detect and correct a single bit error.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "CRC (Cyclic Redundancy Check) detects all errors.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Switched Ethernet uses mulitcast link.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The maximum efficiency of slotted ALOHA is higher than the maximum efficiency of pure ALOHA.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Each adapter connected to a LAN has a unique MAC address.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Like IP addresses, MAC addresses are also hierarchical.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "ARP (address resolution protocol) maps between IP and MAC addresses on different LANs.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With CSMA/CD, when a collision is detected, the transmitting node stops its transmission and uses some protocol to determine when it should attempt to transmit the next time.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a CDMA protocol, each bit being sent is encoded by multiplying the bit by a signal (the code) that changes at a much faster rate than the original sequence of data bits.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  }
+]

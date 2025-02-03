@@ -1,0 +1,296 @@
+[
+  {
+    "question": "A server program requests and receives services from a client program.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Packet switching is usually more efficient in using link capacity than circuit switching.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "You must use a browser ala Opera, Firefox or Internet explorer to retrieve an object from a web server.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a packet switching network, assume that all packets have the same length and the queuing delay is ignored. Then, for a connection-oriented service, the connection setup time is always longer than the propagation time of a packet from the sender to the receiver.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Each router has a forwarding table that maps destination addresses to outbound links.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "IP is an end-to-end protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When a data packet moves from the upper layer to the lower layers, headers are added.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "IP is a connectionless protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The total nodal delay is given by the sum of transmission delay and propagation delay.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A Web cache is both a server and a client at the same time.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "FTP uses TCP as its underlying transport protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "SMTP transfers e-mail messages from one mail server to another mail server.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "While HTTP is a push protocol, SMTP is a pull protocol.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "File distribution using P2P architecture. Upload rate: server is 10 Mbps and each client 2 Mbps. Downloadrate: each client is 10 Mbps. There are 100 clients and the file is 12.5 Mbytes. The minimum distribution time is about 5 seconds.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The main task of the Internet's DNS is to provide a directory service that translates hostnames to IP addresses.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "HTTP can use both non-persistent connections and persistent connections.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "POP3 is a simple mail access protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Socket is a hardware interface through which a process sends messages into, and receives messages from the network.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A transport-layer protocol can provide reliable data transfer only when the underlying network layer also provides reliable service.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A sends one TCP segment with sequence number 38 and 4 bytes of data over a TCP connection to Host B. In this same segment, the acknowledgement number is necessarily 42.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In Go-back-N, the sender is not allowed to transmit packets without waiting for an acknowledgement from the receiver.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A TCP sender window can only contain unacknowledged data.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When TCP is used, the TCP port number of the destination must be the same as the TCP port number of the source.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The size of the TCP announced receive window \"rwnd\" never changes throughout the duration of the connection.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The TCP protocol runs only in the end systems and not in the intermediate network elements during a communication session.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The TCP segment has a field in its header for \"rwnd\". This field limits throughput performance over a high-speed network.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A is sending a large file to Host B over a TCP connection. The number of unacknowledged bytes that A sends cannot exceed the size of the receiver buffer.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In TCP, properties of ACKs received are used in congestion control.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The IP address 192.32.158.1 in binary notation is: 11000000 00100000 11011000 00000001",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate only about 128 hosts.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Routing is the network-wide process that determines the end-to-end paths that packets take from source to destination.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Queueing can happen at both the input ports and the output ports of a router.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a datagram network, each time an end system wants to send a packet, it stamps the packet with the address of the destination end system and then sends the packet into the network.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Routers typically only look at the network part and not the host part of the IP address.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The IPv6 address space is much larger than the IPv4 address space.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Global routing algorithms use a complete graph of the network, with all the nodes and links.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Distance Vector routing algorithms are global routing algorithms.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "NAT (Network Address Translation) has helped with postponing the running out of IPv4 addresses.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The ability of the receiver to both detect and correct bit errors is known as forward error correction (FEC).",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A hub is a physical-layer device that acts on individual bits rather than frames.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With an even parity scheme, if an odd number of 1-valued bits are found, the receiver knows that some odd number of bit errors have occurred.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "For the Internet, it is the job of the Address Resolution Protocol (ARP) to translate between IP addresses and MAC addresses.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Dividing the binary value 10011100 by 1011 gives a remainder of 100.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In CRC, the sender and the receiver must agree on the bit pattern of the generator.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Generally, any multiple access protocol can be classified to belong to one of three categories: channel partitioning protocols, random access protocols, and taking-turns protocols.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The maximum propagation delay between any two nodes affects the efficiency of CSMA/CD. Specifically, the higher the delay, the lower the efficiency.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The maximum efficiency of slotted ALOHA is lower than the maximum efficiency of pure ALOHA.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "An 802.11 access point (AP) is required to periodically send beacon frames containing the AP's service Set Identifier (SSID) and MAC address,",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  }
+]

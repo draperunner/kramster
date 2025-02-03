@@ -1,0 +1,282 @@
+[
+  {
+    "question": "Destruktive innovasjoner er et bredere begrep enn destruktive teknologier, som begge forekommer relativt sjeldne.  Hvilken av følgende påstander knyttet til dette temaet er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "I etterkant av en destruktiv innovasjon foregår det en kamp i markedet om å utvikle et dominerende design basert på den nye innovasjonen",
+      "Den teknologiske utviklingsfasen etter at en har utviklet et dominerende design er preget av radikale innovasjoner for å forbedre ytelsen på det dominerende designet",
+      "Destruktive innovasjoner brukes om inkrementelle innovasjoner som endrer konkurransebildet så kraftig at tidligere investeringer kan bli verdiløse",
+      "For at innovasjon skal være destruktiv må den omfatte både en teknologidrevet innovasjon og en innovasjon av forretningsmodellen"
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er korrekt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "I tidlig fase vil forretningsbankene som regel være den mest sentrale kilden til finanskapital.",
+      "Bankene vil normalt sett ikke engasjere seg med egenkapitalfinansiering til potensielle vekstbedrifter.",
+      "Sparebankene engasjerer seg ofte finansielt i tidlig fase, mens forretningsbankene kommer mer på banen i senere faser av livsløpet.",
+      "Venturekapitalfond er den mest vanlige typen investor i nye vekstbedrifter"
+    ]
+  },
+  {
+    "question": "Hva mener man med kapabiliteter i en kunnskapsbedrift?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "At bedriften er meget kompetent i forhold til å utvikle nye produkter.",
+      "At kunnskapsbedrifter er i stand til å levere varer og tjenester til avtalt tid med god kvalitet.",
+      "Med dette menes at bedriften har svært gode kunnskaper om produksjon og distribusjon.",
+      "Med dette menes at bedriften klarer å kombinere ressurser på en slik måte at den utvikler konkurransefortrinn."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om venturekapitalfond er korrekt?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Venturekapitalfond er ofte spesialisert i forhold til fase eller bransje.",
+      "Dette er offentlige fond som skal støtte opp om etablering av vekstbedrifter",
+      "Dette er bedrifter som går sammen og investerer direkte i nye teknologibedrifter.",
+      "Venturekapitalfond investerer normalt sett i mange bransjer og et stort antall bedrifter for å diversifisere risikoen til fondet."
+    ]
+  },
+  {
+    "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Gründer, såkornfond, venturekapitalfond, familie og venner, Business Angels.",
+      "Venturekapitalfond, såkornfond, Business Angels, gründer, familie og venner",
+      "Gründer, familie og venner, såkornfond, venturekapitalfond, Business Angels",
+      "Gründer, familie og venner, Business Angels, såkornfond, venturekapitalfond"
+    ]
+  },
+  {
+    "question": "Hvilke tre investment risks omtales ofte i forbindelse med investeringer i potensielle vekstbedrifter?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Teknologisk risiko, markedsrisiko og agentrisiko",
+      "Konkurranserisiko, økonomisk risiko og teknologirisiko",
+      "Teknologirisiko, konkursrisiko, og markedsrisiko",
+      "Konkurrentrisiko, markedsrisiko og kapitalrisiko"
+    ]
+  },
+  {
+    "question": "Bruken av integreringsmekanismer må sees i sammenheng med organisasjonsstrukturen. Hvilken integreringsmekanisme er mest passende i en organisasjon som har liten differensiering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Direkte kontakt",
+      "Midlertidig task-force",
+      "Team",
+      "Integrasjonsrolle"
+    ]
+  },
+  {
+    "question": "Hvilken av de følgende påstandene beskriver en viktig implikasjon som følger av høy grad av differensiering kontra lav grad av differensiering i en organisasjon?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Organisasjonen vil være mer organisk",
+      "Det vil være vanskeligere å koordinere mellom ulike avdelinger",
+      "Det vil være vanskeligere å ha kontroll på omgivelsene",
+      "Autoritetshierarkiet vil være den mest sentrale integreringsmekanismen"
+    ]
+  },
+  {
+    "question": "Det finnes en rekke tiltak som kan settes i gang for å redusere behovet for direkte kontroll av ansatte. Hvilken av følgende tiltakene kan ikke brukes for å redusere behovet for direkte kontroll av ansatte?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Regler", "Sosiale normer", "Sentralisering", "Standardisering"]
+  },
+  {
+    "question": "Ansattes personlighet spiller naturligvis en rolle på arbeidsplassen, men når er det sannsynlig at personligheten til en ansatt spiller størst rolle i forhold til jobbprestasjonen? Er det:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Når konformitetspresset i situasjonen er sterkt?",
+      "Når den ansattes leder er mer utadvendt enn gjennomsnittet?",
+      "Når den ansatte selv er mer utadvendt enn gjennomsnittet?",
+      "Når konformitetspresset i situasjonen er svakt?"
+    ]
+  },
+  {
+    "question": "Hva kan vi si om sammenhengen mellom pris og mengde for normale produkter?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det er alltid en lineær sammenheng mellom pris og mengde.",
+      "Produktet av pris og mengde er konstant.",
+      "Mengden øker med økende pris.",
+      "Mengden synker med økende pris."
+    ]
+  },
+  {
+    "question": "For den mengden en bedrift produserer er marginalkostnadene økende i mengden, men ligger under gjennomsnittskostnadene. Hva kan vi da si om stigningen til gjennomsnittskostnadene?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Ingenting.",
+      "Gjennomsnittskostnadene er konstante.",
+      "Gjennomsnittskostnadene synker for økende mengde i det aktuelle området.",
+      "Gjennomsnittskostnadene øker for økende mengde i det aktuelle området."
+    ]
+  },
+  {
+    "question": "Bedriftene i en industri opptrer i tråd med modellen for frikonkurranse. Marginalkostnadene, MC, til bedriftene kan uttrykkes som MC = 1 000 + 0,3Q. Q er mengden til bedriftene totalt. Etterspørselen i markedet kan skrives som P = 11 000 - 0,1Q. Hvilken mengde vil bedriftene totalt tilby i dette markedet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["25 000", "20 000", "15 000", "10 000"]
+  },
+  {
+    "question": "Et monopol har marginalkostnader, MC, som kan skrives som MC = 1 000 + 0,3Q. Q er mengden. Etterspørselen i markedet kan skrives som P = 11 000 - 0,1Q. Hvilken pris, P, vil monopolet ta?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["8 500", "9 000", "10 000", "11 000"]
+  },
+  {
+    "question": "Ledelsen i en bedrift oppdager at med nåværende pris og mengde er marginalinntekten 5 % høyere enn marginalkostnaden (og begge er strengt positive tall). Hva kan vi si om hvilken effekt en annen pris og mengde ville hatt i den aktuelle perioden?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Økt mengde og lavere pris ville kunne økt profitten med så mye som 5 % i forhold til det bedriften faktisk oppnådde i perioden.",
+      "Redusert mengde og høyere pris ville kunne økt profitten med så mye som 5 % i forhold til det bedriften faktisk oppnådde i perioden.",
+      "Økt mengde og lavere pris ville kunne økt profitten, men vi kan ikke ut fra opplysningene si noe om hvor stor prosentvis endring av profitt det kunne gitt.",
+      "Redusert mengde og høyere pris ville kunne økt profitten, men vi kan ikke ut fra opplysningene si noe om hvor stor prosentvis endring av profitt det kunne gitt."
+    ]
+  },
+  {
+    "question": "På grunn av redusert inntektsnivå i befolkningen opplever et monopol at kundene er blitt mer følsomme for pris enn før, slik at etterspørselselastisiteten monopolet ser blir høyere (i absoluttverdi). Hvordan vil denne utviklingen påvirke forholdet mellom pris og marginalkostnader ved optimal tilpasning?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Prisen vil da ligge nærmere marginalkostnaden enn før slik at forholdet mellom pris og marginalkostnader kommer nærmere 1.",
+      "Prisen vil da ligge lengre fra marginalkostnaden enn før slik at forholdet mellom pris og marginalkostnader beveger seg bort fra 1.",
+      "Prisen er uansett lik marginalkostnaden ved optimal tilpasning slik at forholdet mellom pris og marginalkostnader er 1.",
+      "Ettersom både pris og mengde endrer seg, vil også marginalkostnadene endre seg, og vi kan derfor ikke si noe om hvordan forholdet mellom pris og marginalkostnader vil utvikle seg."
+    ]
+  },
+  {
+    "question": "I et duopolmarked er etterspørselen gitt ved P = 1 000 - Q, der P er prisen og Q er total mengde i markedet. Anta at de to bedriftene har konstante marginalkostnader på 100 og opptrer i tråd med Cournot-modellen. Hva blir mengden til de to bedriftene  i likevekt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Hver bedrift produserer 400 enheter.",
+      "Hver bedrift produserer 300 enheter.",
+      "Hver bedrift produserer 200 enheter.",
+      "Hver bedrift produserer 100 enheter."
+    ]
+  },
+  {
+    "question": "I et duopolmarked er etterspørselen gitt ved P = 1 000 - Q, der P er prisen og Q er total mengde i markedet. Anta at de to bedriftene har konstante marginalkostnader på 100 og opptrer i tråd med Cournot-modellen. Den ene bedriften forbedrer produksjonsprosessen slik at marginalkostnadene dens går ned til 90. Hva blir effekten på likevekten av denne endringen i marginalkostnader?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Total mengde blir uforandret, men mengden til den bedriften som får lavere marginalkostnader synker.",
+      "Total mengde blir lavere, men mengden til den bedriften som får lavere marginalkostnader synker relativt mindre enn mengden til den andre bedriften.",
+      "Total mengde øker og det skjer ved at begge bedriftene øker sin  mengde.",
+      "Total mengde øker, men mengden til den bedriften som ikke får lavere marginalkostnader synker."
+    ]
+  },
+  {
+    "question": "I balansen til et selskap er omløpsmidlene på totalt 800 millioner rapportert som følger: Likvider: 100, Varelager: 400, Fordringer: 300. Gjelden på totalt 2 milliarder er fordelt som følger: Langsiktig gjeld:  1 200, Kortsiktig gjeld: 800. Hva er likviditetsgrad 1 (Current Ratio) for selskapet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["0,25", "0,4", "0,5", "1,0"]
+  },
+  {
+    "question": "I balansen til et selskap er omløpsmidlene på totalt 800 millioner rapportert som følger: Likvider: 100, Varelager: 400, Fordringer: 300. Gjelden på totalt 2 milliarder er fordelt som følger: Langsiktig gjeld:  1 200, Kortsiktig gjeld: 800. Hva blir likviditetsgrad 2 (Acid Test Ratio) for selskapet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["0,25", "0,4", "0,5", "1,0"]
+  },
+  {
+    "question": "Alternativkostnaden til kapital investert i et risikofylt prosjekt kan defineres som:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Forventet avkastning til beste alternative investering med samme risikoprofil.",
+      "Forventet avkastning til aksjemarkedet.",
+      "Forventet avkastning til statsobligasjoner.",
+      "Forventet avkastning til beste alternative prosjekt bedriften kan gjennomføre selv."
+    ]
+  },
+  {
+    "question": "En investering innebærer en forventet utbetaling på 1 000 000 om ti år. Risikojustert avkastningskrav er 15 % pr år. Hva blir nåverdien av utbetalingen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["247 185", "497 177", "869 565", "1 000 000"]
+  },
+  {
+    "question": "En risikoavers investor har tre investeringsmuligheter, A, B og C, og kan bare investere i en av dem. (Investoren har ingen andre investeringer.) A har forventet avkastning på 10 % og standardavvik på 25 %. B har forventet avkastning på 12 % og standardavvik på 15 %. C har forventet avkastning på 14 % og standardavvik på 20 %. Hva kan vi si om hvilken investering investoren vil foretrekke?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Investoren vil velge investering A.",
+      "Investoren vil velge investering B.",
+      "Investoren vil velge investering C.",
+      "Investoren vil ikke velge investering A. Valget mellom B og C vil være avhengig av graden av risikoaversjon."
+    ]
+  },
+  {
+    "question": "To verdipapirer skal kombineres i en portefølje slik at investert beløp i hvert papir blir omtrent likt. I hvilket tilfelle blir effekten av diversifisering størst?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Når avkastningene til verdipapirene er perfekt korrelerte.",
+      "Når avkastningene til verdipapirene er perfekt negativt korrelerte.",
+      "Når avkastningene til verdipapirene er ukorrelerte.",
+      "Når korrelasjonen mellom verdipapirene er lik det veide gjennomsnittet av avkastningene."
+    ]
+  },
+  {
+    "question": "Det er vanlig å dele den totale risikoen til aksjer i to deler. Hvilke to begreper uttrykker disse to formene for risiko?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Markedsrisiko og systematisk risiko.",
+      "Unik risiko og diversifiserbar risiko.",
+      "Markedsrisiko og ikke-diversifiserbar risiko.",
+      "Systematisk risiko og diversifiserbar risiko."
+    ]
+  },
+  {
+    "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), gir en sammenheng mellom størrelsen kalt beta, forventet avkastning på en investering, risikofri avkastning og forventet avkastning i markedet. Anta at forventet avkastning for en aksje er 13 %. Forventet markedsavkastning er 8 % og risikofri rente er 3 %. Hva blir da beta i følge CAPM?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["0,5", "1,0", "1,5", "2,0"]
+  },
+  {
+    "question": "Verdien av aksjer kan i prinsippet beregnes som nåverdien av alle framtidige utbytter. Utbytte er penger som betales til aksjonærene. Anta at kontantstrømmene som genereres etter renter, skatt, verditap på realinvesteringer etc. i et selskap utgjør 10 % av egenkapitalen. Selskapet beholder tilsvarende 3 %  av egenkapitalen hvert år og betaler ut tilsvarende 7 % som utbytte. Forventet utbytte om ett år er 7 pr aksje. Å et etter er det 7,21. Det vil si 3 % mer fordi selskapet forventes å investere den delen av kontantstrømmen som holdes tilbake til en avkastning på 10 % hvilket også er forventet avkastning for egenkapitalen. Å et deretter forventes utbyttet igjen å ha vokst med 3 % osv. Hva er verdien av aksjen nå?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["70", "100", "175", "233"]
+  },
+  {
+    "question": "Aksjen til et selskap har en beta på 1,5. Selskapets gjeld har beta på 0,5. Risikofri rente er 3 % og forventet markedsavkastning er 7 %. Skattesatsen er 25 %. Gjelden til selskapet tilsvarer én tredjedel av verdien til aktiva. Hva blir selskapets WACC?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["0 %", "6,00 %", "7,25 %", "9,00 %"]
+  },
+  {
+    "question": "Nettonåverdien til en investering skal beregnes ved hjelp av WACC som er på 10 %. Investeringen utgjør 500 000 nå. Prosjektet generer kontantstrøm bare etter akkurat ett år. Forventet kontantstrøm er da 1 000 000 før skatt og renter. Skattesatsen er 25 %. Rentekostnadene på investeringen utgjør 30 000. Hva blir nettonåverdien for prosjektet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["161 364", "181 818", "188 636", "409 090"]
+  },
+  {
+    "question": "Modigliani og Miller viste at verdien av selskap burde være uavhengig av giring gitt perfekte kapitalmarkeder, ingen (vridende) skatt osv. En teori som bygger på mer realistiske forutsetninger tilsier at det finnes en optimal giring. Det vil si et forhold mellom gjeld og egenkapital som maksimerer verdien av selskapet. Hva vil i følge denne teorien være tilfellet ved optimal giring?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ekstra nåverdi av skattefordel av gjeld ved marginal økning i giring er lik økt nåverdi av forventede konkurskostnader ved marginal økning i giring.",
+      "Ekstra nåverdi av skattefordel av gjeld ved marginal økning i giring er mindre enn økt nåverdi av forventede konkurskostnader ved marginal økning i giring.",
+      "Nåverdien av skattefordelen av gjeld er lik nåverdien av forventede konkurskostnader.",
+      "Nåverdien av skattefordelen av gjeld er mindre enn nåverdien av forventede konkurskostnader."
+    ]
+  }
+]

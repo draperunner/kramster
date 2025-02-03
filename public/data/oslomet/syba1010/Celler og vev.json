@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Hva er et gen oppskriften på?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Et karbohydrat",
+      "Et fettstoff",
+      "Et protein",
+      "En nukleinsyre"
+    ]
+  },
+  {
+    "question": "Hva gjør mitokondriene i en celle?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Danner proteiner",
+      "Danner ATP",
+      "Bryter ned avfallsstoffer",
+      "Danner melkesyre"
+    ]
+  },
+  {
+    "question": "På hvilken måte beveger oksygen og karbondioksid seg mellom blod og celler?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Ved aktiv transport (pumping)",
+      "Ved osmose",
+      "Ved eksocytose",
+      "Ved diffusjon"
+    ]
+  },
+  {
+    "question": "Hvordan vandrer vann ved osmose gjennom en semipermeabel (halvt gjennomtrengelig) membran?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Fra stedet med høyest konsentrasjon av oppløste stoffer",
+      "Til stedet med høyest konsentrasjon av oppløste stoffer",
+      "Til stedet med lavest konsentrasjon av oppløste stoffer",
+      "Fra stedet med lavest konsentrasjon av vann"
+    ]
+  },
+  {
+    "question": "Hvordan opprettholder natrium-kaliumpumpen membranpotensialet (ionekonsentrasjonsforskjeller mellom utsiden og innsiden av cellen)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Ved osmose",
+      "Ved diffusjon",
+      "Ved aktiv transport (pumping)",
+      "Ved eksocytose"
+    ]
+  },
+  {
+    "question": "Hvor dannes proteiner i en celle?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "På ribosomene",
+      "I lysosomene",
+      "I mitokondriene",
+      "På cellemembranen"
+    ]
+  },
+  {
+    "question": "Hvor foregår energiomsetningen i en celle?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "I cellekjernen",
+      "I mitokondriene",
+      "I cellemembranen",
+      "I lysosomene"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Røde blodceller har evne til fagocytose",
+      "Fagocytose er et eksempel på eksocytose",
+      "Endocytose innebærer at materiale fra ekstracellulærvæsken fraktes inn i cellen",
+      "Ved eksocytose transporteres molekyler fra utsiden til innsiden av en celle"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Fettvev gir mekanisk styrke og sammenbinding",
+      "Løst bindevev gir friksjonsfri bevegelse i synovialledd",
+      "Bruskvev forsterker slimhinnene",
+      "Fast bindevev finnes særlig i sener og leddbånd"
+    ]
+  },
+  {
+    "question": "Hvilken funksjon har lysosomer i en celle?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "De er transportproteiner i cellemembraner",
+      "De bryter ned avfallsstoffer i cellen",
+      "De produserer energi i form av ATP",
+      "De produserer fettsyrer"
+    ]
+  }
+]

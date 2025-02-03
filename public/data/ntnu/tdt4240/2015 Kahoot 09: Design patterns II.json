@@ -1,0 +1,43 @@
+[
+  {
+    "question": "What pattern can be used to ensure that single and multiple objects can be treated similarly?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Abstract Factory", "Composite", "Singleton", "Template Method"]
+  },
+  {
+    "question": "What pattern can be used to implement/maintain several almost identical pieces of code?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Abstract Factory", "Composite", "Observer", "Template Method"]
+  },
+  {
+    "question": "What pattern can be used to ensure that a change of one object influences other objects?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Abstract Factory", "Composite", "Observer", "Template Method"]
+  },
+  {
+    "question": "What pattern can be used to ensure a single instance of a class?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Abstract Factory", "Composite", "Observer", "Singleton"]
+  },
+  {
+    "question": "What are the keywords in the short pattern definition?",
+    "answers": [0, 2, 3],
+    "exam": ".*",
+    "options": ["Context", "Observation", "Problem", "Solution"]
+  },
+  {
+    "question": "What do you call a collection of patterns that build on each other to generate a system?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Architectural Pattern",
+      "Idioms",
+      "Pattern Languages",
+      "Pattern Styles"
+    ]
+  }
+]

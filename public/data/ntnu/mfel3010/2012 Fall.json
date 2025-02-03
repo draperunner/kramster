@@ -1,0 +1,402 @@
+[
+  {
+    "question": "The lungs have a state and size of equilibrium where there is a balance between elastic forces pulling the thorax wall outwards and the lungs inwards. Thus, we don’t need to use respiratory muscle activity to maintain this state. The different volumes of the lungs can be described by dynamic and static lung volumes. What is the name of the total gas volume we have in this equilibrium state?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Recidual volume (RV)",
+      "Expiratory reserve volume (ERV)",
+      "Functional recidual kapacity (FRC)",
+      "Inspiratory reserve volume (IRV)"
+    ]
+  },
+  {
+    "question": "What is the function of the sodium-potassium pump?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Transporting potassium and Sodium across the cell membrane from low to high concentration by utilizing the membrane potential",
+      "Transporting potassium and Sodium across the cell membrane from low to high concentration by use of energy in the form of ATP",
+      "Transporting of sodium and potassium from high to low concentration by facilitated diffusion.",
+      "Equalize extracellular and intracellular concentration of Sodium and Potassium."
+    ]
+  },
+  {
+    "question": "What is the function of the sodium-potassium pump, and what is the result of this process?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Utilizing the concentration gradient of sodium and potassium for synthesis of ATP.",
+      "The concentration gradient of potassium lead to a diffusion of potassium that is not followed by anionic diffusion, and this builds up a membrane potential",
+      "As the concentration differences of potassium and sodium across the cell membrane are removed (equalized), the differences in protein anions will create a membrane potential.",
+      "As the intracellular concentrations of sodium and potassium becomes equal, the membrane potential is determined by the concentration of calcium."
+    ]
+  },
+  {
+    "question": "The kidney produces urine to get rid of waste products. What is the mechanism best describing how the \"pre-urine\" is produced in the glomerulus?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Proteins in the urine give a high osmotic pressure gradient that \"drags\" fluid into the urinary space",
+      "High hydrostatic pressure in the blood \"push\" fluid into the urinary space",
+      "The high concentration of albumin, which is negatively charged, \"push\" waste product with a negative charge into the urinary space.",
+      "Waste products in the blood are actively transported from the blood into the urinary space with active pumps at the glomerulus basal membrane."
+    ]
+  },
+  {
+    "question": "And how much pre urine is produced in all nephrons of both kidneys during 24 hours?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Ca 1,6 litres", "Ca 3 litres", "Ca 20 litres", "Ca 180 litres"]
+  },
+  {
+    "question": "What is the effect of antidiuretic hormone?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "It stimulates active transport of water from the pre urine",
+      "It stimulates the active transport of sodium, and thus water follows passively",
+      "It increases the permeability of water in the collecting ducts",
+      "It inhibits emptying of the urinary bladder"
+    ]
+  },
+  {
+    "question": "The method called restriction fragment length polymorphism (RFLP) is used to:",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Increase the amount of DNA found in a small sample",
+      "Increase the amount of DNA found in a degraded samples",
+      "Break up the DNA-strand into smaller pieces to compare DNA from different sources",
+      "To sequence the DNA on a base to base manner"
+    ]
+  },
+  {
+    "question": "Which characteristics of the hippocampus can be studied with MRI?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "3D shape",
+      "memory-related activation",
+      "blood flow",
+      "all of the above"
+    ]
+  },
+  {
+    "question": "The structural and functional organization of the human body can be described on several different levels. Cells are the basic unit of life, yet cells can differ fundamentally when it comes to form, protein and organelle content, and function. How can such differences between to cell types be explained?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "The two cell types have different DNA sequences in their genes",
+      "The two cell types use different genetic codes",
+      "The two cell types have different gene expression",
+      "The two cell types use different alternative splicing after transcription"
+    ]
+  },
+  {
+    "question": "What happens to the frequency of a disease if a new treatment prevents people from dying, but has no curative (= healing) effect?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "The prevalence of the disease will decrease (= go down)",
+      "The incidence of the disease will increase (= go up)",
+      "The prevalence of the disease will increase",
+      "The incidence of the disease will decrease"
+    ]
+  },
+  {
+    "question": "Hypertension (high blood pressure) is an important risk factor for cardiovascular diseases like heart attack, stroke, etc. Which of the following is the most important cause of hypertension?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Obesity (overweight, body mass index >30)",
+      "Diabetes",
+      "Smoking",
+      "Hypercholesterolemia (high cholesterol level in the blood)"
+    ]
+  },
+  {
+    "question": "The blood pressure is usually measured by inflating a cuff around the upper arm, and then reducing the pressure gradually. Which of the statements below are correct in relation to this procedure?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "When the cuff pressure falls below the systolic artery pressure, the artery is open during the whole heart cycle",
+      "When the cuff pressure falls below the diastolic artery pressure, the artery will just start to open.",
+      "When the cuff pressure falls below the diastolic artery pressure, the artery is open during the whole heart cycle",
+      "When the cuff pressure is zero, the blood flow in the artery starts."
+    ]
+  },
+  {
+    "question": "And what is the limit between high normal blood pressure (prehypertension) and manifest hypertension (stage 1)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["120/80", "140/90", "160/100", "180/110"]
+  },
+  {
+    "question": "The ejection fraction is used a measure of ventricular function. However, this has some limitations. Endurance training increases left ventricular volume and reduces heart rate. A certain (male) cross country skier has an end diastolic left ventricular volume of 250 ml. During rest, he has a normal cardiac output of 4.8 litres /min with a heart rate of 42 beats / min. What is the resting ejection fraction?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["78%", "58%", "46%", "32%"]
+  },
+  {
+    "question": "During exercise, he has the ability to increase the ejection fraction to 85%. End diastolic volume does not increase during exercise in the healthy. His maximal heart rate is 185 beats / min. What is his maximal cardiac output?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["7 l/min", "16 l/min", "32 l/min", "39 l/min"]
+  },
+  {
+    "question": "Maximum oxygen uptake (VO2max) is a measure of aerobic fitness. During maximal exercise, the oxygen extraction (= arteriovenous O2 difference) may be as high as 90% (i.e. arterial oxygen saturation of 100%, venous saturation of 10%). One gram of hemoglobin binds 1.4 ml O2. Given a body weight of 85 kg and hemoglobin of 15.4 g/dl, what is then his VO2max?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["99 ml/kg/min", "89 ml/kg/min", "79 ml/kg/min", "70 ml/kg/min"]
+  },
+  {
+    "question": "Endurance training increases the maximal oxygen uptake. What is the factor that is increased by training, and thus responsible for increased fitness?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "The Hemoglobin",
+      "The Arterial oxygen saturation (meaning more efficient oxygenation by the lungs)",
+      "The maximal heart rate",
+      "The maximal stroke volume"
+    ]
+  },
+  {
+    "question": "The partial pressure of oxygen in the air decreases with altitude. If the partial pressure is reduced by 50%, how much will this reduce the oxygen saturation of blood?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Nothing",
+      "Moderately reduced, but substantially less than 50%",
+      "Ca 50%",
+      "Substantially more than 50%"
+    ]
+  },
+  {
+    "question": "A certain clinical study shows treatment 1 to be better to reduce the mortality (number of deaths) than treatment 2 for a certain disease with a p value (significance) of 10%. What does this mean?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "The probability of dying of the disease with treatment 1 is 10% lower than with treatment 2",
+      "The number needed to treat the disease with treatment 1 instead of treatment 2, in order to reduce the number of deaths by one patient, is 10",
+      "The difference may be real, with a probability of 90%",
+      "The difference may be real, but only with a probability of 10%"
+    ]
+  },
+  {
+    "question": "A certain clinical study shows treatment 1 to be better to reduce the mortality (number of deaths) than treatment 2 for a certain disease with a p value (significance) of 10%. The result were a little disappointing, as we like the significance level of a clinical study to be below 5% for the result to be useful. So the study power was calculated, and was found to be only 70% for the patient number and desired significance level of 5%. What does that mean?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "That only 70% of the patients would profit from treatment 1 over treatment 2",
+      "That 70% of the patients would survive with treatment 1, as opposed to only 30% with treatment 2",
+      "That there was only 70% probability of achieving a p value of 5%, even if the difference was real",
+      "That there was only 30% probability that the difference was real"
+    ]
+  },
+  {
+    "question": "A recent study of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening velocity per length unit) – 1.1 s-1\nTo compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Limits of agreement",
+      "Correlation",
+      "Mean error",
+      "kappa coefficient"
+    ]
+  },
+  {
+    "question": "Ultrasound Doppler can measure blood velocity. We are interested in measuring the blood velocity at a certain depth. This is done by pulsed Doppler. How is the depth selectivity achieved?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "By varying the frequency in the transmitted signal",
+      "By varying the total energy in the transmitted signal",
+      "By selecting the reflected signal at a certain time after the pulse is sent out (time gating)",
+      "By selecting a certain frequency in the reflected signal (frequency gating)"
+    ]
+  },
+  {
+    "question": "Which of these factors are important for the resolution in an ultrasound image?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "The wavelength",
+      "The frequency",
+      "The probe aperture size",
+      "All of the others"
+    ]
+  },
+  {
+    "question": "What are the main biological effects of diagnostic ultrasound?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Chemical, due to ionization",
+      "Chemical, due to free radical formation",
+      "Thermal (i.e. tissue heating)",
+      "Cellular, due to mechanical cell disruption"
+    ]
+  },
+  {
+    "question": "What is the principle of PET (positron emission tomography) scan?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Gamma rays are emitted directly by a radioisotope injected into the body, and are detected by a ring of detectors around the patient. The concentration of the isotope is mapped by the intensity of radiation in the cross section.",
+      "Positrons are emitted by a radioisotope injected into the body, and are detected by a ring of detectors around the patient. The concentration of the isotope is mapped by the intensity of radiation in the cross section.",
+      "Positrons are emitted by a radioisotope injected into the body, travels only a micro distance before being annihilated by collision with an electron. This produces two gamma photons in opposite directions that are detected by a ring of detectors around the patient. The concentration of the isotope is mapped by the intensity of radiation in the cross section.",
+      "Positive alpha particles are emitted directly by a radioisotope injected into the body, and are detected by a ring of detectors around the patient. The concentration of the isotope is mapped by the intensity of radiation in the cross section."
+    ]
+  },
+  {
+    "question": "A researcher has performed a radioimmunoassay. The setup includes standards, a negative control, a positive control and 50 samples from an experiment. Upon evaluating the results, she finds that the negative control is higher than the predefined limit. What is the best conclusion she can draw?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "The setup is reliable if the positive control is OK",
+      "The setup is OK if the sample results seem reasonable",
+      "The negative control should be repeated before the conclusion is drawn",
+      "The entire setup should be discarded and repeated"
+    ]
+  },
+  {
+    "question": "What is an oncogene?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "A gene that codes for enzymes that repair damaged DNA",
+      "A gene that regulates cell growth and death",
+      "A mutated growth regulator gene",
+      "A gene giving the cancer cells ability to break down connective tissue to facilitate metastasis."
+    ]
+  },
+  {
+    "question": "You happen to be admitted to the cardiology department for chest pain and palpitations (a noticeably rapid, strong, or irregular heartbeat due to agitation, exertion, or illness) and is being examined by Dr. Asbjørn Heart, a consultant in cardiology. Upon completion of the examination, he uses an Electronic health record system to prepare a clinical note. You suffer from atrial fibrillation. You are put on a anticoagulant (a substance having the effect of retarding or inhibiting the coagulation of the blood), discharged from the hospital the next day, and scheduled for a follow- up with Dr. Heart within three weeks.\nFive days later, you develop a nose bleeding (that might be related to the use of the anticoagulant). You rush to visit your primary care physician (fastlege). He queries his primary care EHR-system, but cannot find any discharge letter from the hospital, and is not aware that you are using an anticoagulant. He seeks to find out by making a phone call to Dr. Heart.\nWhich of the following clinical purposes of Electronic health record (EHR) systems applies to the situation of your primary care physician?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "EHR systems shall facilitate the clinical care of individual patients by making information available to others with access to the record system who are involved in the care of the same patients.",
+      "EHR systems shall facilitate the clinical care of individual patients by providing information for inclusion in other documents (e.g. laboratory requests referrals and medical reports).",
+      "EHR systems shall facilitate the clinical care of individual patients by providing information to patients about their health and health care.",
+      "EHR systems shall facilitate the clinical care of individual patients by storing information received from other parties or organizations (e.g. laboratory results and letters from specialists)."
+    ]
+  },
+  {
+    "question": "Which hardware component in an MR system enables spatial encoding of the signal?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "The main superconducting magnet.",
+      "The radiofrequency antennas/coils.",
+      "The gradient coils.",
+      "The computer."
+    ]
+  },
+  {
+    "question": "The stomach epithelium secretes hydrochloric acid into the lumen, making the contents very acidic. What is the function of this low pH?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "It stimulates the secretion of gastrin, in order to facilitate digestion by increasing the secretions in the duodenum.",
+      "It activates and optimizes the Pepsin action of digesting proteins in the stomach",
+      "It acts by emulsifying fat in the watery solution",
+      "It is necessary to neutralize the bicarbonate that is secreted in the duodenum by the pancreas"
+    ]
+  },
+  {
+    "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "The Esophagus",
+      "The stomach",
+      "The small intestine",
+      "The large intestine"
+    ]
+  },
+  {
+    "question": "In diabetes glucose is found in the urine as a sign of elevated blood sugar. What is the mechanism for this?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Glucose is normally not filtrated in the urine, only in elevated blood sugar.",
+      "In elevated blood sugar, the renal capacity for reabsorption is exceeded by the urine concentration of glucose",
+      "In elevated blood sugar the excess amount of sugar is actively secreted in the urine",
+      "In elevated blood sugar the epithelium becomes permeable for glucose"
+    ]
+  },
+  {
+    "question": "The previous question: \"In diabetes glucose is found in the urine as a sign of elevated blood sugar. What is the mechanism for this?\". What will happen if there are large amounts of glucose in the urine?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "The amount of urine (water) will increase due to the osmotic effect of the glucose",
+      "The amount of urine will decrease, as the active reabsorption of glucose going at maximal capacity will reabsorb a larger volume of water through osmosis",
+      "The amount of urine (water) will decrease as the tubuli are filled with glucose replacing the water",
+      "The amount of urine is unchanged."
+    ]
+  },
+  {
+    "question": "A blood vessel has a narrowing in a short segment. What will always happen to the blood dynamics in this narrow segment? (Velocity: meters/sec, Flow: litres/min)",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "The blood velocity increases",
+      "The blood velocity decreases",
+      "The blood flow increases",
+      "The blood flow decreases"
+    ]
+  },
+  {
+    "question": "A child has been wounded by steel fragments from a cluster bomb. Which of these imaging methods should definitely not be used to locate the fragments in the body for safety reasons?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Ultrasound", "X-ray", "MRI", "Nuclear imaging"]
+  },
+  {
+    "question": "Previous question: \"A child has been wounded by steel fragments from a cluster bomb. Which of these imaging methods should definitely not be used to locate the fragments in the body for safety reasons?\". Which method would be best from a diagnostic point of view?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Ultrasound", "X-ray", "MRI", "Nuclear imaging"]
+  },
+  {
+    "question": "Hyperventilation may happen as a result of pain or stress. What happens to the pH in the blood?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Increases",
+      "Unchanged",
+      "Decreases",
+      "There will be increased oscillations between inspiration and expiration"
+    ]
+  },
+  {
+    "question": "Anemia is a state of reduced hemoglobin content of the blood. What dietary requirement is essential for normal hemoglobin?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Calcium", "Magnesium", "Iron", "Iodine"]
+  },
+  {
+    "question": "The cut off limits between anemia and normal hemoglobin are usually set at 12 g/dl for women and 13 g/dl for men. The measurement of hemoglobin is variable, and has limits of agreement around 1.2 g/dl. A man sees his doctor for a routine checkup, and the doctor finds a hemoglobin of 13.5. He checks his records and at the last check up visit, the hemoglobin was 14.2. The doctor prescribes iron medication due to the drop in the value, in order to prevent development of anemia. This decision is:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Correct, as the drop in hemoglobin obviously shows iron deficiency or iron loss",
+      "Correct anyway, everybody should take iron supplements, as the normal food in any case contains too little iron.",
+      "Incorrect, because the value does not fulfill the definition of anemia",
+      "Incorrect, because the drop in hemoglobin is not significant."
+    ]
+  },
+  {
+    "question": "A marathon runner wants to increase his oxygen uptake by increasing his hemoglobin as much as possible, without using illegal methods. How can he achieve this?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "By taking iron supplies as pills",
+      "By taking iron injections",
+      "By taking vitamin B12",
+      "None of the others"
+    ]
+  }
+]

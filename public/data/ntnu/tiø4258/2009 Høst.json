@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Hvilken av følgende påstander om mulighetsanalyser av teknologibaserte forretningsideer er mest i samsvar med pensum?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Mulighetsanalyser innebærer en innledende vurdering av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
+      "Mulighetsanalyser er en fullstendig og gjennomgripende gjennomgang av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
+      "Grunnlaget for en mulighetsanalyse har man først etter å ha utarbeidet en god forretningsplan.",
+      "Det legges mest vekt på teknologivurderinger i en mulighetsanalyse."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om kreativitetsprosesser er mest i samsvar med pensum?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Før man starter med kreativitetsprosesser er det viktig med en omfattende og detaljert innsamling av data som beskriver nåsituasjonen grundig.",
+      "Man må akseptere de grunnleggende antakelsene for å unngå at prosessene flyter ut.",
+      "Det er viktig for at man kan enes om et felles svar på problemet som skal løses.",
+      "For at slike prosesser skal være nyttige bør man starte ut med en bred ide."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om innovasjon er mest i samsvar med pensum?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "For å oppnå lønnsomhet fra forskning og utvikling så må bedriften oppdage og utvikle løsningen selv.",
+      "Det som kommer først til markedet med en innovasjon vil som regel vinne.",
+      "En bedrift må samarbeide med flinke mennesker og bedrifter utenfor og innenfor egen bedrift for å oppnå konkurransekraft.",
+      "Vi må unngå at andre profiterer på våre oppfinnelser og må kontrollere alle intellektuelle rettigheter selv."
+    ]
+  },
+  {
+    "question": "Hva mener man med kapabiliteter i en kunnskapsbedrift?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "At bedriften er i stand til overholde sine serviceforpliktelser ved reklamasjoner",
+      "Med dette menes bedriften klarer å kombinere ressurser på en slik måte at den utvikler konkurransefortrinn.",
+      "At kunnskapsbedriften leverer varer og tjenester til avtalt tid.",
+      "Med dette menes at bedriften leverer varer av meget god kvalitet."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om nye teknologibedrifter er mest i samsvar med pensum?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "En genial ide er den viktigste forutsetningen for å starte en ny teknologibedrift",
+      "Det beste er å være alene som gründer i startfasen, da har man kontroll på alt og kan lett rekruttere de menneskene man trenger.",
+      "Den viktigste utfordringen for en ny teknologibedrift er å etablere en robust ressursbase som kan gi grunnlag for konkurransefortrinn.",
+      "Ved bedriftsoppstarter lykkes som regel homogene team best."
+    ]
+  },
+  {
+    "question": "Hva er riktig rekkefølge på disse elementene i en forretningsplan?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Analyse, målsetning, strategi og beskrivelse",
+      "Analyse, beskrivelse, målsetning og strategi",
+      "Beskrivelse, analyse, målsetning, strategi.",
+      "Rekkefølgen er ikke så viktig så lenge man gjør grundig arbeid."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om innovative løsninger er mest i samsvar med pensum?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "I store selskaper er forskningsavdelingene den viktigste kilden til nye og innovative løsninger.",
+      "For at en løsning skal bli betraktet som en innovasjon må den oppfattes som ny i alle markeder.",
+      "Eksisterende brukere/kunder er for mange bedrifter den viktigste kilden til innovasjon.",
+      "Idekonkurranser er den beste måten for å stimulere genereringen av innovative ideer."
+    ]
+  },
+  {
+    "question": "Hvilken av påstandene står i konflikt med en åpen innovasjon tilnærming?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det er bedre å utvikle en robust forretningsmodell enn å komme ut i markedet først.",
+      "Man må nyttiggjøre seg av interne og eksterne innovasjons ideer.",
+      "Det er ikke alltid du finner de flinkeste folkene internt i bedriften.",
+      "Man oppnår alltid god lønnsomhet fra forskning og utvikling dersom bedriften oppdager og utvikler løsningen selv."
+    ]
+  },
+  {
+    "question": "Hva er den vanligste rekkefølgen av følgende aktivitetene for en potensiell vekstbedrift?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Innhenting av kapital, mulighetsanalyse, forretningsplan, første salg",
+      "Mulighetsanalyse, forretningsplan, innhenting av kapital, første salg",
+      "Forretningsplan, mulighetsanalyse, innhenting av kapital, første salg",
+      "Mulighetsanalyse, innhenting av kapital, forretningsplan, første salg"
+    ]
+  },
+  {
+    "question": "Gi et eksempel på bootstrapping når det kommer til finansiering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Kjøpe brukt istedenfor å kjøpe nytt.",
+      "Kjøpe i stedet for å lease.",
+      "Låne penger i stedet for å få inn investorer.",
+      "Selge i stedet for å kjøpe."
+    ]
+  },
+  {
+    "question": "Hva er en Business Angel?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "En privatperson som spesialiserer seg på å redde bedrifter fra konkurs",
+      "En person som jobber i venturefond, som investerer penger i tidlig-fase bedrifter, og som ønsker størst mulig avkastning på investeringen.",
+      "En utenlandsk investor som investerer i tidlig fase gründerbedrifter.",
+      "En privatperson som tilbyr venturekapital direkte til unoterte bedrifter hvor de ikke har noen formell eller familiær forbindelse."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om såkalte business angels er mest i samsvar med pensum?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Er som hovedregel passive eiere.",
+      "Er aktive eiere som tilfører bedriften knappe ressurser.",
+      "Vil som regel eie mer enn 50% av bedriften.",
+      "Mottar ofte offentlig støtte for å bistå bedrifter i tidlig fase."
+    ]
+  },
+  {
+    "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Gründer, familie og venner, Business Angels, såkornfond, venturekapital fond",
+      "Såkornfond, venturekapital fond, Business Angels, gründer, familie og venner",
+      "Venturekapital fond, såkornfond, Business Angels, gründer, familie og venner",
+      "Gründer, familie og venner, såkornfond, venturekapital fond, Business Angels"
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om venturekapital fond er mest i samsvar med pensum?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Dette er offentlige fond som skal støtte opp om etablering av bedrifter.",
+      "Dette er privatpersoner som går sammen og investerer direkte i nye teknologibedrifter",
+      "Venturekapital fond investerer normalt sett ikke mer enn 1 million norske kroner i de selskapene de går inn i.",
+      "Venturekapital fond er ofte spesialisert i forhold til fase eller bransje."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter er mest i samsvar med pensum?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "I tidlig fase vil bankene alltid være den viktigste finansieringskilden.",
+      "I Norge er finansiering sjelden et problem siden vi har så gode offentlige virkemidler.",
+      "Venturekapital fond gjør mange investeringer og er den mest vanlige typen investor i nye teknologibedrifter.",
+      "Bankene kan være viktige rådgivere men vil normalt sett ikke engasjere seg finansielt i de tidlige fasene ved utviklingen av en teknologibedrift."
+    ]
+  },
+  {
+    "question": "Watson (2006, 2008) legger vekt på at definisjoner av (arbeids)organisasjoner må inkludere en anerkjennelse av konflikter mellom organisasjonsmedlemmers ulike interesser. Hvilken definisjon er mest i tråd med denne forståelsen?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Organisasjoner er målsentrerte koordineringssystemer av menneskelige og teknologiske aktiviteter.",
+      "Organisasjoner er utførelse av en tilstrekkelig grad av produktivt samarbeid slik at organisasjonen kan fortsette å eksitere i fremtiden.",
+      "Organisasjoner er system av roller orientert mot å oppnå bestemte mål.",
+      "Organisasjoner er bevisst laget for å oppnå bestemte mål gjennom kollektiv innsats."
+    ]
+  },
+  {
+    "question": "Max Weber beskrev kjennetegn ved et idealtypisk byråkrati, Hvordan fungerer egentlig byråkratier? Bare én av påstandene under beskriver hvordan byråkratiske organisasjoner fungerer i praksis, hvilken?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Uformelle eller uoffisielle aspekter eksiterer ikke i byråkratiske organisasjoner.",
+      "Alle beslutninger som blir tatt i byråkratisk organisasjoner er nøytrale, upersonlige, og ikke påvirket av følelser.",
+      "Regler og prosedyrer er alltid underordnet det overordnede målet i byråkratiske organisasjoner.",
+      "Det kan forekomme målforskyvning hvor underenheter setter mål som virker mot det overordnede målet i byråkratiske organisasjoner."
+    ]
+  },
+  {
+    "question": "Watson (2006) peker på tre ulike dimensjoner av fenomenet ledelse, og han har en rekke punkter om hva ledere gjør av handlinger i hverdagen sin. Nedenfor er det fire påstander om ledelse som slike handlinger og hva ledere gjør. En av dem er riktig, hvilken?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ledere bruker uformelle og tilfeldige møter for eksempel i heisen, til å oppnå sin agenda.",
+      "Ledere får utført oppgaver ved å kommandere sine underordnede til å gjøre dem.",
+      "Ledere bruker lang tid på å analysere og reflektere rundt formelle rapporter før de systematisk planlegger neste beslutning.",
+      "Ledere har god tid til å sitte på kontoret og lese rapporter fordi de sjelden ble avbrutt eller kontaktet av andre."
+    ]
+  },
+  {
+    "question": "Forskjellen mellom lederkompetanse og ledereffektivitet illustrer det prosessrelasjonelle perspektivet på ledelse som er utgangspunktet for Watson (2006). En av påstandene under er ikke innenfor dette perspektivet, hvilken?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Arbeidsfordeling innad i en ledergruppe fører til variasjon i de ulike ledernes lederjobber slik at de til sammen er mest mulig effektive.",
+      "Utøvelse av sosiale, politiske og kulturelle ferdigheter er nødvendig for å overtale andre og dermed for å lede organisasjon i en tenkt retning.",
+      "En leder med høy sosial og politisk ledelseskompetanse vil alltid være mer effektiv som leder sammenlignet med ledere som ikke har like høy kompetanse.",
+      "Ledereffektivitet er suksessfylt anvendelse av ferdigheter, evner og kunnskaper som bidrar til at organisasjon utfører sine oppgaver."
+    ]
+  },
+  {
+    "question": "Den implisitt forståtte kontrakt for en ansatt er et konsept for å beskrive hvordan den ansatte vurderer forholdet mellom det han/hun bidrar med i forhold til det en får igjen fra organisasjonen. En av påstandene under om hvordan dette konseptet fungerer er feil, hvilken?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Når ledere har et mønster av overbærenhet, det vil si at de ignorer ansattes overtredelse av regler i organisasjonen, vil det ikke kunne medføre noen gjensidige forpliktelser tilbake fra de ansatte.",
+      "Belønninger som tilbys ansatte må være noe de ansatte faktisk er, eller kan bli, interessert i.",
+      "Når en ansatt vurderer sin implisitt forståtte kontrakt sammenligner han/hun forholdet mellom sine egne bidrag og belønninger med andres bidrag og belønninger.",
+      "Ansatte må se at deres bidrag til organisasjon faktisk leder til den belønningen de er lovet."
+    ]
+  },
+  {
+    "question": "Det er to alternative prinsipper for arbeidsdesign, direkte kontroll eller indirekte kontroll (Watson, 2006). Av de fire alternativene nedenfor er det bare en påstand som er riktig i forhold til beskrivelsen av indirekte kontroll, hvilken?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Organisasjoner basert på slik kontroll kan ha en teamdimensjon hvor en formann fordeler arbeidsoppgaver og passer på at de blir gjort.",
+      "De indirekte kontrollprinsippene for arbeidsdeling passer sammen med fleksibilitet i forhold til langsiktig tilpassningsevne.",
+      "De ansatte konsentrer seg om å gjøre og utføre oppgaver, og er ikke involvert i planlegging eller tenking rundt oppgavene.",
+      "Enkelte ansatte har som eneste oppgave å planlegge og utføre kvalitetsarbeid"
+    ]
+  },
+  {
+    "question": "Mekanisk og organisk organisasjonsstruktur er sentrale begreper i forhold til å legge til rette for innovasjoner. En av påstandene under om disse strukturene er feil, hvilken?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En organisk og fleksibel organisasjonsstruktur er mer effektiv enn en mekanisk organisasjonsstruktur når oppgavene som skal utføres er strukturerte.",
+      "Det er ikke mulig med organisasjoner som har elementer fra både mekanisk og organisk organisasjonsstrukturer.",
+      "Hvilken organisasjonsstruktur som er mest passende avhenger av om omgivelsene for organisasjon er stabile eller skiftende.",
+      "Løs og fleksibel struktur med liten grad av formalisering passer best når det er konstante krav til innovasjon."
+    ]
+  },
+  {
+    "question": "Hvilken av de fire typene organisasjoner som beskrevet under er i samsvar med Nivå 5 i Høy involvering i innovasjonsprosessen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Organisasjoner basert på semi-autonome arbeidsgrupper.",
+      "Organisasjoner basert på maskinbyråkratisk organisasjonsstruktur.",
+      "Organisasjoner basert på Scientific Management.",
+      "Organisasjoner basert på fagbyråkratisk organisasjonsstruktur"
+    ]
+  },
+  {
+    "question": "Teamarbeid blir ofte sett på som en av nøklene til innovasjon, men det er både fordeler og ulemper med bruk av teamarbeid som påpekt av Tidd og Bessant (2009). Av de fire påstandene om slike fordeler og ulemper er en ikke riktig, hvilken?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "I team kan det bli et sterkt sosialt press om å samle seg om en felles løsning, uavhengig av kvaliteten på denne løsningen.",
+      "Individer er ofte mer ansvarlige i team enn når de har eneansvar for en beslutning, noe som senker teamets villighet til å ta risiko.",
+      "Teamarbeid kan gi grunnlag for teamutvikling i form av økt samhold, bedre kommunikasjon og kameratskap.",
+      "Deltakelse i teamarbeid om problemløsning kan føre til økt forståelse, engasjement og eierskap,"
+    ]
+  },
+  {
+    "question": "Tidd og Bessant (2009) peker på en rekke dimensjoner av organisasjonsklimafaktorer som påvirker innovasjonsevnen til organisasjoner. En av påstandene under er ikke riktig. Hvilken?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Desto mer tillit det er i organisasjonen, jo bedre blir innovasjonsevnen til organisasjonen.",
+      "For lite tid og rom til å utvikle nye ideer kan skape stress for den enkelte medarbeider og naturligvis hindre graden av innovasjon.",
+      "For mye intellektuell stimulering kan hemme, og ikke fremme innovasjonsevnen til organisasjonen.",
+      "For mye frihet i organisasjonen kan føre til manglende samordning og retning på innovasjonsarbeidet i organisasjonen."
+    ]
+  },
+  {
+    "question": "I kapittel 6 i Tidd og Besant gis det flere gode grunner for å øke bruken av nettverk når man jobber med innovasjon. Nedenfor er det oppgitt fire grunner, men en av dem er ikke nevnt i pensum. Hvilken?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Nettverk gir bedrifter muligheten til å dele kostnadene",
+      "Nettverk gir bedrifter muligheten til å dele risikoen",
+      "Nettverk gjør at hver enkelt bedrift blir viktigere",
+      "Nettverk gir mulighet til kollektiv læring"
+    ]
+  },
+  {
+    "question": "Hvilke av disse fire påstandene er ikke korrekt om gruppekreativitet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Gruppekreativitet fungerer fordi deltagerne i gruppa kan bygge på hverandres ideer",
+      "Ikke alle typer av oppgaver egner seg for å benytte gruppekreativitet",
+      "Innovasjon er en aktivitet som kan tjene på å utnytte gruppekreativitet",
+      "Gruppekreativitiet ødelegges lett ved å sette gruppa under tidspress"
+    ]
+  },
+  {
+    "question": "Kapittel 6 nevner også flere utfordringer ved det å skulle lede innovasjonsnettverk. Nedenfor følger fire påstander om det å lede et innovasjonsnettverk. En av påstandene er ikke i samsvar med pensum. Hvilken?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Det å lede et innovasjonsnettverk bør alltid gjøres som et prosjekt",
+      "Å lede et innovasjonsnettverk betyr at man ofte må lede prosesser eller prosjekter som innbefatter ressurser og personer vi ikke eier eller kontrollerer, for eksempel fordi de jobber for andre firma enn vårt.",
+      "Free riders er et problem når man leder et innovasjonsnettverk",
+      "Innovasjonsnettverk kan brytes ned i en livssyklus med tre faser. Dette gjør det lettere å få oversikt over ledelsesutfordringene i hver fase."
+    ]
+  },
+  {
+    "question": "Bare én av påstandene under er i henhold til pensum i artikkel K4 når det gjelder utvikling av teknologi. Hvilken?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Teknologi drives frem av oppfinnere",
+      "Teknologi drives frem av Big Science, som CERN er et godt eksempel på",
+      "Teknologi drives frem av interaksjon mellom ulike organisasjoner og individer",
+      "Teknologi utvikler seg ikke, den bare endrer seg"
+    ]
+  },
+  {
+    "question": "Hvilken av påstandene under om teknologiens økonomiske potensiale er feil i henhold til artikkel K4?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Patentrettigheter er viktig for å sikre teknologiens økonomiske potensiale for oppfinneren",
+      "På grunn av embeddeness kan verdiøkningen av teknologisk utvikling like gjerne skje i helt andre bedrifter enn de som faktisk holder på med et utviklingsprosjekt.",
+      "Økonomisk potensiale handler like mye om å utvikle nye koblinger mellom kjent teknologi, som å utvikle ny teknologi.",
+      "Relasjoner er viktig når man ser etter økonomisk potensiale ved å lete etter nye applikasjoner av kjent teknologi"
+    ]
+  },
+  {
+    "question": "Hva kaller Nonaka spredning/omforming av individuell taus (tacit) kunnskap til organisatorisk taus kunnskap?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Internalization (Internalisering)",
+      "Externalization (Eksternalisering)",
+      "Socialization (Sosialisering)",
+      "Combination (Kombinering)"
+    ]
+  },
+  {
+    "question": "Hvilket begrep er ikke et av de fem typer (eller former) for kunnskap i Blacklers typologi?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Encoded knowledge",
+      "Enlisted knowledge",
+      "Embedded knowledge",
+      "Encultured knowledge"
+    ]
+  },
+  {
+    "question": "Hvilket av nedenstående beskrivelser passer for praksisfellsskap (community of practice)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "En fagskole med vekt på praktisk trening",
+      "Et uformelt nettverk mellom mennesker som jobber med likeartede arbeidsoppgaver",
+      "En fagforening med spesielt ansvar for å forhandle om kompetansebasert lønn",
+      "Et produksjonsteam i en industriell virksomhet"
+    ]
+  },
+  {
+    "question": "Hva er et grenseobjekt (boundary object)?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Et kamera som automatisk registrerer avvik fra produksjonsnormer",
+      "Objekter som markerer grenser mellom ulike arbeidsgrupper i åpne kontorlandskap",
+      "Et regnskapsmessig uttrykk for et bestemt verdifullt kunnskapselement",
+      "Objekter som kommuniserer på tvers av ulike praksisfellesskap eller kunnskapsområder"
+    ]
+  },
+  {
+    "question": "Hva er taus (tacit) kunnskap?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Kunnskap som ikke lar seg formulere eksplisitt",
+      "Kunnskap som er bygget inn i arkitektoniske løsninger",
+      "Kunnskap som overlapper mellom ulike fagområder",
+      "Kunnskap som er kodet og lagret i et informasjonssystem"
+    ]
+  },
+  {
+    "question": "Et monopol har marginalkostnader på 50 og en etterspørsel gitt ved P = 250 - 2Q der P er prisen og Q er mengden. Hva er optimal mengde for monopolet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["25", "50", "75", "100"]
+  },
+  {
+    "question": "Etterspørselen er gitt ved P = 100 - 2Q der P er pris og Q er mengde. Hva er etterspørselselastisiteten når prisen er 50?\nVi definerer etterspørselselastisiteten slik at den er ikke-negativ for et gode der solgt mengde synker med økende pris.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["0,5", "1,0", "1,5", "2,0"]
+  },
+  {
+    "question": "Vi definerer etterspørselselastisiteten slik at den er ikke-negativ for et gode der solgt mengde synker med økende pris. Hvilken sammenheng mellom marginandel og etterspørselselastisiteten, e, kan utledes fra førsteordensbetingelsen for maksimal monopolprofitt når indirekte etterspørsel, dvs. prisen som funksjon av mengden, er P(Q) og marginalkostnadene er MC?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "\\(\\frac{P - MC}{P} = -\\frac{1}{e}\\)",
+      "\\(\\frac{P - MC}{P} = e\\)",
+      "\\(\\frac{P - MC}{P} = \\frac{1}{e}\\)",
+      "\\(\\frac{P - MC}{P} = -e\\)"
+    ]
+  },
+  {
+    "question": "En produsent selger produktet sitt gjennom et uavhengig salgsledd. Salgsleddet betaler prisen w for hver enhet de kjøper inn. Salgsleddet har tilnærmet null marginalkostnader bortsett fra denne innkjøpsprisen. Etterspørselen er gitt ved P = 1000 - Q der P er prisen og Q er etterspurt mengde pr periode. Produsenten har marginalkostnader på 200. Hvilken pris fra produsent til salgsledd, w, vil maksimere produsentens profitt?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["200", "400", "600", "800"]
+  },
+  {
+    "question": "En bedrift har marginalkostnader på 5 000 kr. Bedriften forurenser slik at den påfører samfunnet kostnader på 1 000 kr pr enhet i tillegg til kostnadene i bedriften på 5 000 kr pr enhet. Etterspørselen etter bedriftens produkter er gitt ved P = 10000 - 10Q der P er prisen og Q er etterspurt mengde pr periode. Hvilken pris P, ville maksimere det samfunnsøkonomiske overskuddet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["5 000", "6 000", "7 500", "8 000"]
+  },
+  {
+    "question": "En bedrift med totale aktiva verdt 1 milliard, har forventet egenkapitalrentabilitet på 10 % med kun egenkapitalfinansiering. Bedriften kan gå til en gjeldsandel på 50 % ved å ta opp et lån på 500 millioner med rente på 5 % og bruke alle pengene til å betale ut utbytte. Hva blir da forventet egenkapitalrentabilitet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["5 %", "10 %", "15 %", "20 %"]
+  },
+  {
+    "question": "Likviditetsgrad 1 er basert på alle omløpsmidler, mens likviditetsgrad 2 er basert på de mest likvide omløpsmidlene. En bedrift har et produksjonssystem av typen JIT (Just In Time). Det betyr at bedriften har svært lite lager av råvarer, mellomprodukter og ferdige produkter. Hva betyr dette for forskjellen mellom likviditetsgrad 1 og 2 sett i forhold til bedrifter som har et produksjonssystem med større lagerbeholdninger?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "JIT-bedriften vil ha mindre forskjell i tallene for likviditetsgrad 1 og 2.",
+      "JIT-bedriften vil ha større forskjell i tallene for likviditetsgrad 1 og 2.",
+      "JIT-bedriften vil ha at likviditetsgrad 1 er mindre enn likviditetsgrad 2, mens det er motsatt for bedrifter med større lagerbeholdninger.",
+      "JIT har ingen sammenheng med likviditetsgradene."
+    ]
+  },
+  {
+    "question": "Tabellen under viser et budsjett for et selskap for de neste to periodene. Periode 1 gir kontantstrøm om ett år, og periode to gir kontantstrøm om to år. Skattesatsen er 25 %. Hva blir nåverdien av skattefordelen av gjeld når diskonteringsrenten er 5 %?\n<img class=\"img-responsive\" src=\"data:image/png;base64,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\"/>",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["25", "68", "69", "75"]
+  },
+  {
+    "question": "Ledelsen i et selskap kan maksimere aksjonærenes formue ved å:",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Gjennomføre alle prosjekter med positiv NNV.",
+      "Gjennomføre alle prosjekter med NNV større enn investeringskostnaden.",
+      "Gjennomføre alle prosjekter med NNV større enn nåverdien av kontantstrømmen.",
+      "Gjennomføre alle prosjekter med internrente større enn null."
+    ]
+  },
+  {
+    "question": "Figuren under viser sannsynligheter og kontantstrømmer i periode 1, 2 og 3 for et prosjekt. Hva er nåverdien av forventet kontantstrøm dersom avkastningskravet er 10 %?\n<img class=\"img-responsive\" src=\"data:image/png;base64,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\"/>",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["11,1", "13,5", "16,9", "21,0"]
+  },
+  {
+    "question": "Den andelen av risiko som ikke kan elimineres ved diversifisering kalles:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Unik risiko.",
+      "Konkursrisiko.",
+      "Renterisiko.",
+      "Markedsrisiko."
+    ]
+  },
+  {
+    "question": "Beta for et selskaps aktiva er 2. Beta for gjelden er 0,5. Markedsverdien for gjeld er 50 % av markedsverdien til selskapets aktiva. Hva er beta for selskapets aksjer?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["1,5", "2,5", "3,5", "4,5"]
+  },
+  {
+    "question": "Den risikofrie renten er 5,5 % og markedsavkastningen er 13,5 %. Beta for Freon er 0,73. Hva er forventet avkastning for Freon?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["11,3 %", "12,6 %", "13,9 %", "15,6 %"]
+  },
+  {
+    "question": "Nettonåverdi for et prosjekt skal beregnes ved hjelp av WACC i en bedrift som garantert vil være i skatteposisjon framover. Prosjektet vil gi en kontantstrøm pr periode på 1 000 fra driften av det før skatt. Rentebetaling knyttet til finansieringen av prosjektet utgjør 100 pr periode. Skattesatsen er 25 %. Hva er korrekt kontantstrøm pr periode å bruke i beregningen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["900", "775", "750", "675"]
+  },
+  {
+    "question": "Landet Utopia har et skattesystem som skiller seg fra det norske ved at skattbart overskudd i bedrifter regnes før rentekostnader. Hva tilsier pensum om hvordan bedrifter i Utopia vil tilpasse seg forskjellig fra bedrifter i Norge?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "De vil ha tendens til å ha lavere gjeldsandel.",
+      "De vil ha tendens til å ha høyere gjeldsandel.",
+      "De vil foretrekke tilbakekjøp av aksjer framfor utbetaling av utbytte.",
+      "De vil ikke tilpasse seg annerledes."
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "question": "Hva kjennetegner komprimeringsalgoritmer som er tapsløs (lossless)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Den opprinnelige datamengden kan gjenskapes nøyaktig.",
+      "Den komprimerte datamengden er like stor som utgangspunktet.",
+      "Egner seg spesielt godt for multimediedata som bilder, lyd og video.",
+      "Fjerner bare informasjonsinnhold som ikke er viktig for menneskers oppfatning av informasjonsmengden, for eksempel i et bilde."
+    ]
+  },
+  {
+    "question": "Hva sier Nyquist-regelen om samplingsfrekvensen?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Samplingsfrekvensen må være minst halvparten av den høyeste lydfrekvensen.",
+      "Samplingsfrekvensen må være minst den samme som den høyeste lydfrekvensen.",
+      "Samplingsfrekvensen må være minst dobbelt så rask som den høyeste lydfrekvensen.",
+      "Samplingsfrekvensen må alltid være 20KHz."
+    ]
+  },
+  {
+    "question": "Hva er oppgaven til en programteller (program counter)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Den holder rede på antall kodelinjer i et program.",
+      "Den inneholder adressen til neste instruksjon.",
+      "Den styrer antall iterasjoner i en FOR-løkke.",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Hvor mange symboler kan kodes med 10 bit?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["10", "512", "1024", "Ingen"]
+  },
+  {
+    "question": "Hva er fokuset i programvarevalideringsfasen i systemutvikling?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Beskrive hva systemet skal gjøre.",
+      "Designe hvordan systemet skal oppføre seg.",
+      "Teste om systemet stemmer med spesifikasjonen og kundekrav.",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Hvorfor digitalisere nettverk?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Ønske om å kombinere tjenester.",
+      "Enklere å utnytte kapasitet bedre med felles nettverk.",
+      "Digital koding kan gi bedre feilsjekk og korrigering av feil.",
+      "Alle alternativene a-c er riktige.Side 3 av 17"
+    ]
+  },
+  {
+    "question": "Hva er et Denial of Service–angrep?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Å sende så mange forespørsler til en tjener (server) at den ikke klarer å utføre oppgavene sine.",
+      "Å bryte seg inn på en tjener (server) og sørge for at den nekter å utføre tjenestene sine.",
+      "Å nekte å motta meldinger fra en tjener (server) som da blir opptatt med å sende forespørslene på nytt og på nytt.",
+      "Å sende en falsk e-post om problemer med en tjeneste, som for eksempel en nettbank, og lure brukeren til å avsløre påloggingsinformasjon for å få løst problemet."
+    ]
+  },
+  {
+    "question": "Hva vil det si at vi at vi har \"random access\" (tilfeldig tilgang) til minnet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "All data i minnet kan hentes direkte uansett hvor det befinner seg.",
+      "Det er tilfeldig hva som hentes ut av minnet.",
+      "Vi må hente ut data sekvensielt (byte for byte) for å finne det vi leter etter.",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Hva vil det si at en datamaskin er deterministisk?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Den har en pessimistisk livsanskuelse som avviser fri vilje.",
+      "Når den skal velge hvilken instruksjon den skal behandle neste gang har den ikke noe valg, men baserer valget på programmet og dataene den gis.",
+      "At den har en intuisjon på hva som er lurt å gjøre.",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Hvilke av alternativene under er mulige tolkninger av PandA-mønstre?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "True og False.",
+      "Ja og Nei.",
+      "+ og –.",
+      "Alle alternativene a-c er riktige."
+    ]
+  },
+  {
+    "question": "Når vi studerer algoritmers effektivitet, ser vi på hvordan kjøretiden utvikler seg i forhold til mengden av input. Vi gjør analyser av bestefall, verstefall og gjennomsnittstilfellet. Hvorfor er det spesielt interessant å analysere en algoritmes kjøretid i verste fall?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Det setter en øvre grense for hvor lang tid det tar å kjøre algoritmen.",
+      "Programmerere er pessimister.",
+      "Det er mer interessant med høye tall.",
+      "Det forteller hvor lang tid algoritmen ca. bruker på å kjøre."
+    ]
+  },
+  {
+    "question": "Vi deler inn algoritmer i klasser basert på de funksjoner som beskriver deres utvikling i kjøretid best. Hvilken algoritme er i klassen Θ(log(n)):",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Innstikksortering (Insertion sort).",
+      "Binærsøk (binary search).",
+      "Sekvensielt søk (sequential search).",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Hva er et datagram?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Et telegram som er skrevet på data.",
+      "Vekten på en dataenhet.",
+      "En pakke som sendes over internett som følger IP-protokollen.",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Fargene som vises på en dataskjerm representeres ofte med 24 bits RGB-koding. Fargen blå vil da representeres som:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "0000 0000 0000 0000 0000 0000.",
+      "1111 1111 0000 0000 0000 0000.",
+      "0000 0000 1111 1111 0000 0000.",
+      "0000 0000 0000 0000 1111 1111."
+    ]
+  },
+  {
+    "question": "Når vi overfører data over internett oppstår det ofte feil på grunn av forstyrrelser på linjene. For å oppdage slike feil brukes ofte",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "NIC (Network Interface Card).",
+      "ISP (Internet Service Provider).",
+      "CRC (Cyclic Redundancy Check).",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "En mikroprosessor utfører de samme fem oppgavene om og om igjen. Hvilken rekkefølge av stegene under beskriver korrekt rekkefølge på dette F/E-kretsløpet (F/E cycle)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Instruction Fetch – Data Fetch – Instruction Decode – Instruction Execution – Results Return.",
+      "Results Return – Instruction Execution – Instruction Fetch – Data Fetch – Instruction Decode.",
+      "Instruction Fetch – Instruction Decode – Data Fetch – Instruction Execution – Results Return.",
+      "Instruction Decode – Instruction Execution – Instruction Fetch – Data Fetch – Results Return."
+    ]
+  },
+  {
+    "question": "Hvilken bestemt endring har vi sett de siste årene innen systemutvikling?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Spesifisering av krav er ikke lengre relevant.",
+      "Smidig (agile) systemutvikling har overtatt mer og mer for plandrevet systemutvikling.",
+      "Vannfallsmodellen har overtatt for inkrementell systemutvikling.",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Hva er DAC?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Et program som hjelper med beregninger (data-assisted computing).",
+      "En enhet som oversetter analoge signaler til digitale signaler.",
+      "En enhet som oversetter digitale signaler til analoge signaler.",
+      "Et program som oversetter datakode til programmeringsspråket C (evt. C++)."
+    ]
+  },
+  {
+    "question": "Rekursjon betyr at",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En funksjon kaller seg selv.",
+      "Kjøretiden til programmet minsker.",
+      "Programmet går i evig løkke.",
+      "Ingen av svarene er riktige."
+    ]
+  },
+  {
+    "question": "Ranger effektivitetsklassene Θ(n^3), Θ(n), Θ(log(n)) og Θ(n^2) etter effektivitet, der minst effektiv først og deretter mer og mer effektiv",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Θ(n^3), Θ(n^2), Θ(n), Θ(log(n)).",
+      "Θ(n^3), Θ(n), Θ (n^2), Θ(log(n)).",
+      "Θ(log(n)),Θ(n^3), Θ(n^2), Θ(n).",
+      "Θ(n), Θ(log(n)),Θ(n^3), Θ(n^2)"
+    ]
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "question": "Hva betyr Random Access Memory?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "At det er tilfeldig hvor maskinen lagrer informasjon.",
+      "At hukommelsescellene kan aksesseres direkte i tilfeldig rekkefølge.",
+      "Hukommelsen er plassert på forskjellige, tilfeldige, plasser på hovedkortet.",
+      "At det kan oppstå tilfeldige feil i deler av hukommelsen."
+    ]
+  },
+  {
+    "question": "Når brukes fotolitografi i produksjonen av datamaskiner?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Når man etser inn navnene på portene bak på maskinen.",
+      "Under produksjon av integrerte kretser.",
+      "Når man lager bildene som skal inn i brukermanualen.",
+      "Når man monterer integrerte kretser på kretskortene."
+    ]
+  },
+  {
+    "question": "Hva er «pipelining»?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Et uttrykk for det som skjer når man skriver mye data til harddisken samtidig.",
+      "En teknikk der man sender data mellom de forskjellige delene i maskinen i «pipes».",
+      "En teknikk der en CPU kan utføre flere instruksjoner parallelt.",
+      "En teknikk som fungerer som en ”sikker tunnel” mellom din maskin og en tjener."
+    ]
+  },
+  {
+    "question": "Hva finner alle burst-feil med lengde n bit, gitt en n-bit maske, men er uegnet til kryptografi?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Enkel sjekksum",
+      "HASH-funksjoner",
+      "Paritet",
+      "Syklisk sjekksum (CRC)"
+    ]
+  },
+  {
+    "question": "I TCP/IP-protokollen …",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "sendes alle pakkene sendes langs den samme ruten til mottakeren.",
+      "brukes pakkesvitsjing.",
+      "mottas ingen ting før siste IP-pakke er framme.",
+      "er det mindre interferens pga. at mindre biter sendes hver for seg."
+    ]
+  },
+  {
+    "question": "Hva blir det binære tallet 10101010 desimalt?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["170", "180", "190", "200"]
+  },
+  {
+    "question": "Hvilken av følgende RGB-fargekodinger gir blått?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["f1faf0", "120012", "0000ff", "884311"]
+  },
+  {
+    "question": "Vi har en liste av navn, à la liste = [ 'Jo Å', 'Geir Li', 'Ine By'] men i praksis med vesentlig\nflere navn enn dette. Lista er ikke sortert og kan inneholde duplikater (dvs. samme navn kan\nstå flere sted i lista). Vi skal skrive en funksjon antall (liste, navn) som skal returnere et\nheltall som sier hvor mange ganger navnet forekommer i lista. Vi kladder følgende\npseudokode:\n<pre>\nfunction antall (liste, navn):\n    antall ← 0\n    la n gå fra og med første til og med siste element i liste:\n        hvis n == navn:\n            antall ← antall + 1\n    returner antall\n</pre>\nSpørsmål: Kjøretidskompleksiteten til pseudokoden over vil være?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Θ(n)", "Θ(n log n)", "Θ(log n)", "Θ(n2)"]
+  },
+  {
+    "question": "I ei sortert liste kunne vi brukt binærsøk i stedet for løkka \"la n gå… \" i pseudokoden fra\nspørsmål 8:\n<pre>\nfunction antall (liste, navn):\n    antall ← 0\n    la n gå fra og med første til og med siste element i liste:\n        hvis n == navn:\n            antall ← antall + 1\n    returner antall\n</pre>\nEn alternativ algoritme som først sorterer lista, og deretter bruker binærsøk for å\nfinne navnet, vil ha…",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "lavere kompleksitet (dvs. være raskere) enn pseudokoden gitt over.",
+      "høyere kompleksitet enn pseudokoden over.",
+      "samme kompleksitet som pseudokoden over.",
+      "høyere kompleksitet hvis navnet fins null eller én gang i lista, lavere hvis det fins flere\nganger."
+    ]
+  },
+  {
+    "question": "Funksjonen antall for ei usortert liste, som beskrevet i spørsmål 8:\n<pre>\nfunction antall (liste, navn):\n    antall ← 0\n    la n gå fra og med første til og med siste element i liste:\n        hvis n == navn:\n            antall ← antall + 1\n    returner antall\n</pre>\nkan i Python\nimplementeres ved den innebygde funksjonen count, som gjør at funksjonskroppen kan\nskrives som en eneste kodelinje. For eksempel\n<pre>\ndef antall (liste, navn):\n    return liste.count(navn)\n</pre>\nSpørsmål: Hvilken kjøretidskompleksitet vil denne koden ha?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Θ(1)", "Θ(log n)", "Θ(n)", "Θ(n2)"]
+  },
+  {
+    "question": "Hvorfor ønsker man å bruke en SSD heller enn en vanlig magnetisk harddisk?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "En SSD øker minnet på grafikkortet slik at spill og lignende flyter bedre.",
+      "I en SSD lagres data i elektroniske kretser. Det er ingen bevegelige deler, og dermed\nblir disken raskere og mer pålitelig.",
+      "Det er lettere å lagre data permanent på en SSD.",
+      "En SSD er ikke så utsatt for strømtopper og tåler derfor mer enn en magnetisk disk."
+    ]
+  },
+  {
+    "question": "Hva er motivasjon til fagfeltet systemutvikling?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Raskere kode.",
+      "Utvikle programvare med best mulig kvalitet uavhengig av budsjett og tid.",
+      "Legge til rette for at all programvare skal utvikles i spesifiserte faser etter hverandre.",
+      "Utvikle programvare med god nok kvalitet innen tid og budsjett."
+    ]
+  },
+  {
+    "question": "Hva betyr modulering i f.eks. FM og AM?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Det beskriver hvordan man kan sende et signal over en bærebølge.",
+      "Det beskriver hvordan man kan få oversikt over hele internett.",
+      "Det beskriver hvordan man kan øke strømstyrken slik at flere får tilgang.",
+      "Det beskriver hvordan man kan gruppere internett i hensiktsmessige biter."
+    ]
+  },
+  {
+    "question": "Dersom tekststreng 'Hallo' i ASCII representeres som følgende tall heksadesimalt: 48 61\n6c 6c 6f, hvordan representerer man på samme måte 'Morna'?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "4e 65 69 64 61",
+      "4e 54 4e 55 21",
+      "4d 6f 72 6e 61",
+      "55 66 6g 7h 61"
+    ]
+  },
+  {
+    "question": "En fordel med vannfallsmodellen kan være:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Enklere å håndtere øyeblikkelige krav fra kunder.",
+      "Enklere å følge fremgang i forhold til prosjektplan for prosjektleder.",
+      "Systemet reflekterer en gradvis bedre forståelse av brukernes behov.",
+      "Gir raskere levering og kortere tid til å ta i bruk fungerende deler av systemet."
+    ]
+  },
+  {
+    "question": "Hvor mange bytes trengs for å lagre et 24-bits bilde med 1280x1024 piksler uten\nkomprimering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Ca. 3,8MB", "Ca. 1,2MB", "Ca. 24MB", "Ca. 24GB"]
+  },
+  {
+    "question": "Hva er den første aktiviteten i ”requirement engineering”-prosessen i følge læreboka?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Gjennomførbarhetsstudie.",
+      "Kravinnhenting og analyse.",
+      "Kravspesifisering.",
+      "Validering av krav."
+    ]
+  },
+  {
+    "question": "Hva er akseptansetesting?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Teste hvordan ulike deler av systemet fungerer sammen.",
+      "Teste at hver enkelt funksjon i systemet fungerer som den skal.",
+      "Teste at operativsystemet aksepterer systemet på plattformen.",
+      "Teste med kundedata for å sjekke om systemet møter kundens behov."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende teknikker er en tapsløs komprimering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Run-length encoding.",
+      "Analog-to-digital conversion.",
+      "JPEG-encoding.",
+      "Check-sum generation."
+    ]
+  },
+  {
+    "question": "Hva er det Boehm’s spiralmodell inneholder, som man ikke finner i vannfallsmodellen eller\ninkrementell utvikling?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Risikoanalyse.",
+      "Testing/Validering.",
+      "Kravspesifisering.",
+      "Vedlikehold."
+    ]
+  }
+]

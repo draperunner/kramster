@@ -1,52 +1,19 @@
-import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import {
-  collection,
-  getDocs,
-  getFirestore,
-  query,
-  where,
-} from "firebase/firestore";
 
-import { Exam } from "../../interfaces";
 import CategoryButton from "../../components/Buttons/CategoryButton";
 import StandardButton from "../../components/Buttons/StandardButton";
 import { LoadingSpinner } from "../../components";
 
 import styles from "./Exams.module.css";
 
-const db = getFirestore();
-
-export function useExams(school: string, course: string): Exam[] {
-  const [exams, setExams] = useState<Exam[]>([]);
-
-  useEffect(() => {
-    getDocs(
-      query(
-        collection(db, "exams"),
-        where("school", "==", school),
-        where("course", "==", course),
-      ),
-    )
-      .then((snapshot) =>
-        snapshot.docs.map((doc) => {
-          const exam = doc.data() as Exam;
-          return {
-            ...exam,
-            id: doc.id,
-            questions: exam.questions || [],
-          };
-        }),
-      )
-      .then(setExams);
-  }, [course, school]);
-
-  return exams;
-}
+import examsIndex from "../../exams.json";
 
 function Exams(): JSX.Element {
   const { school = "", course = "" } = useParams();
-  const exams = useExams(school, course);
+
+  const exams = examsIndex.filter(
+    (exam) => exam.school === school && exam.course === course,
+  );
 
   if (!exams?.length) {
     return <LoadingSpinner />;
@@ -67,16 +34,11 @@ function Exams(): JSX.Element {
             30 Random
           </CategoryButton>
         </div>
-        <div>
-          <CategoryButton href={`/${school}/${course}/hardest/10`}>
-            10 Hardest
-          </CategoryButton>
-        </div>
       </div>
 
       <div className={styles.examsGrid}>
-        {exams.map(({ id, name }) => (
-          <div key={id}>
+        {exams.map(({ name }) => (
+          <div key={name}>
             <StandardButton
               href={`/${school}/${course}/${encodeURIComponent(name)}`}
             >

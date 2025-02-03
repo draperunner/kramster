@@ -1,34 +1,30 @@
 import { useState, useEffect, useRef } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 
-import { getQuestions, sendReport } from "../../api";
+import { getQuestions } from "../../api";
 import { LoadingSpinner, ProgressBar } from "../../components";
-import { getLocalTime, percentageToGrade } from "../../utils";
 import Question from "./Question";
 import Explanation from "./Explanation";
 import Alternative from "../../components/Buttons/Alternative";
-import { Question as QuestionType, SendableReport } from "../../interfaces";
+import { Question as QuestionType } from "../../interfaces";
 
 import styles from "./Questions.module.css";
 import { useHistory } from "../../hooks/contexts";
-import { useUser } from "../../auth";
 
 type Params = {
   exam: string | undefined;
   school: string | undefined;
   course: string | undefined;
-  mode: "all" | "exam" | "random" | "hardest" | undefined;
+  mode: "all" | "exam" | "random" | undefined;
   number: string | undefined;
 };
 
 function Questions(): JSX.Element {
-  const user = useUser();
-
   const navigate = useNavigate();
   const location = useLocation();
 
   // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
-  let mode: "all" | "exam" | "random" | "hardest" = "exam";
+  let mode: "all" | "exam" | "random" = "exam";
 
   const {
     school = "",
@@ -77,13 +73,6 @@ function Questions(): JSX.Element {
     return q && q.answers.indexOf(q.options.indexOf(givenAnswer)) >= 0;
   };
 
-  // Get the (current) ratio of correct answers per total number of answered questions.
-  const percentage = (): number => {
-    if (history.length === 0) return 0;
-    const numCorrect = history.filter((q) => q.wasCorrect).length;
-    return Math.round((10000 * numCorrect) / history.length) / 100;
-  };
-
   // Returns the class (color, mostly) of the option button
   // decided by if it's the right answer or not.
   const buttonClass = (
@@ -111,30 +100,9 @@ function Questions(): JSX.Element {
     return history.length >= questions.length && questions.length !== 0;
   };
 
-  const reportResults = (): Promise<void> => {
-    const report: SendableReport = {
-      uid: user?.uid || "unknown",
-      exam: {
-        school,
-        course,
-        name: mode !== "exam" ? mode : exam,
-      },
-      createdAt: getLocalTime(),
-      history,
-      score: history.filter((q) => q.wasCorrect).length,
-      numQuestions: questions.length,
-      percentage: percentage(),
-      grade: percentageToGrade(percentage()),
-    };
-
-    return sendReport(report);
-  };
-
   const answer = (givenAnswer: string): void => {
     if (finished()) {
-      reportResults().then(() => {
-        navigate(`${location.pathname}/results`);
-      });
+      navigate(`${location.pathname}/results`);
       return;
     }
 

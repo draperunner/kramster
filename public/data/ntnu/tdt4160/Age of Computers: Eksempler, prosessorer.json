@@ -1,0 +1,19 @@
+[
+  {
+    "question": "Hvilken av de følgende påstandene stemmer <em>ikke</em> for Pentium 4:",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Prosessoren inneholder en RISC-kjerne.",
+      "Programmer skrevet for Pentium 4 består av RISC-instruksjoner.",
+      "Samlebåndet har mange steg sammenlignet med tidligere prosessorer.",
+      "Prosessoren bruker dynamisk forgreningspredikering.",
+      "1.nivås hurtigbuffer inneholder delvis dekodede instruksjoner (mikrooperasjoner).",
+      "Prosessoren inneholder en RISC-kjerne",
+      "Programmer skrevet for Pentium 4 består av RISC-instruksjoner",
+      "Samlebåndet har mange steg sammenlignet med tidligere prosessorer",
+      "Prosessoren bruker dynamisk forgreningspredikering",
+      "1. nivås hurtigbuffer inneholder delvis dekodede instruksjoner (µops)"
+    ]
+  }
+]

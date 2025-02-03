@@ -1,0 +1,291 @@
+[
+  {
+    "question": "Hvilket av disse utsagnene er feil om «product-push»?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Product-push er motstykket til Order-pull",
+      "Product-push er normalt teknologidrevet fordi det tar utgangspunkt i nyutviklet teknologi",
+      "Product-push tar ikke utgangspunkt i et eksisterende kundebehov",
+      "Product-push er en ide om at produktet selger seg selv, vi trenger bare lage det"
+    ]
+  },
+  {
+    "question": "Hva kan VRIO-rammeverket hjelpe deg med?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Å skaffe finansiering til din oppstartsbedrift",
+      "Å klargjøre kriterier for valg av organisasjonsstruktur",
+      "Å analysere bedriftens ressursmessige forutsetninger for å oppnå konkurransekraft.",
+      "Å sette sammen et godt team rundt forretningsideen"
+    ]
+  },
+  {
+    "question": "Hvilket av disse utsagnene er feil om betydningen av verdikjeder for entreprenører?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Verdikjeder sier noe om hvilke verdivalg andre bedrifter har gjort",
+      "Verdikjeder gir oss en mulighet til å finne en «plass» i kjeden for vår bedrift",
+      "Verdikjeder hjelper oss med å vurdere en fornuftig arbeidsdeling mellom vår bedrift og andre\nbedrifter",
+      "Verdikjeder kan gjøres enda nyttigere ved å legge inn pengestrømmer for å konkretisere modellen"
+    ]
+  },
+  {
+    "question": "Hvilken type oppstartsbedrift har vanligvis størst behov for tilgang på kapital?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "«Levebrødsbedrifter»",
+      "«Portalbedrifter»",
+      "«Vekstbedrifter»",
+      "«Hobbybedrifter»"
+    ]
+  },
+  {
+    "question": "Hvilken av utsagnene nedenfor er IKKE karakteristisk for Business Angels?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "De er private enkeltpersoner eller grupper",
+      "De investerer normalt i bedrifter som interesserer dem",
+      "De investerer normalt moderat med penger (100.000-2,5 mill)",
+      "De venter normalt til etter at et venturekapitalfond har investert, slik at de vet at ideen er\nlevedyktig."
+    ]
+  },
+  {
+    "question": "Hva er arbeidsdeling?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Prosessen som etablerer og kontrollerer graden av spesialisering i organisasjonen.",
+      "Fordelingen av ansvar og oppgaver mellom ledelse og ansatte",
+      "Utfallet av interne klassekamper mellom ledelse og ansatte",
+      "Prosessen som fordeler mennesker og ressurser i forhold til deres posisjon i organisasjonens hierarki"
+    ]
+  },
+  {
+    "question": "Hvordan påvirker standardiseringsnivået graden av vertikal differensiering?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Høy grad av standardisering reduserer ledelsens mulige kontrollspenn, noe som igjen sikrer en lavere grad av vertikal differensiering",
+      "Høy grad av standardisering gjør det lettere for ledere på høyere nivå i hierarkiet å fungere bedre\npå grunn av mindre fokus på gjensidig tilpasning, og følgelig er det mulig å ha en større grad av vertikal differensiering",
+      "En lav grad av standardisering gjør det lettere for ansatte og ledere som utfører komplekse og usikre oppgaver å basere\nseg mer på gjensidig tilpasning, og dette reduserer behovet for vertikal differensiering",
+      "En lav grad av standardisering gjør det mulig for ledere å kontrollere flere hierarkiske nivå, siden\nde kan gripe inn og gi tilpassede retningslinjer for hver operasjon eller prosess som er påtatt"
+    ]
+  },
+  {
+    "question": "Hva er fordelen med en matrisestruktur?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Bruken av kryssfunksjonelle team reduserer funksjonelle barrierer og bidrar til å løse utfordringen\nmed overdrevent subenhetsfokus",
+      "Plasseringen av ansatte i kryssfunksjonelle team sikrer delt forståelse av individuelle oppgaver,\nnoe som reduserer rolleusikkerhet",
+      "Et klart hierarki reduserer konflikt mellom produktteam og funksjoner",
+      "Produktteamenes selvstyre tillater en minimal intervensjon fra ledelsen"
+    ]
+  },
+  {
+    "question": "Hva er kjernedimensjonene i jobbkarakteristikamodellen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Ferdighetsvariasjon, oppgaveidentitet, oppgaveviktighet, autonomi og tilbakemeldinger",
+      "Oppgaveidentitet, motivasjon, oppgavevariasjon, utvikling av ferdigheter og tilbakemelding",
+      "Motivasjon, tilbakemeldinger, ferdighetsviktighet og oppgaveidentitet",
+      "Ferdighetsviktighet, autonomi, ferdighetsvariasjon, oppgaveviktighet og tilbakemeldinger"
+    ]
+  },
+  {
+    "question": "En bedrift har totalkostnader gitt ved funksjonen TC(Q) der Q er mengden. Hva er da et korrekt uttrykk for marginalkostnaden?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "\\(Q\\)",
+      "\\(\\frac{dTC}{dQ}\\)",
+      "\\(Q \\frac{dTC}{dQ}\\)",
+      "\\(\\frac{TC(Q)}{Q}\\)"
+    ]
+  },
+  {
+    "question": "En bedrift produserer en mengde slik at marginalkostnadene er lik gjennomsnittskostnadene. Hva er da sannsynligvis tilfellet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Marginalkostnadene er null.",
+      "Gjennomsnittskostnadene er minimale.",
+      "Variable kostnader er null.",
+      "Variable kostnader er minimale."
+    ]
+  },
+  {
+    "question": "Etterspørselen til en bedrift er gitt ved funksjonen P(Q) der P er prisen og Q er mengden. Hva er da\nen korrekt tolkning av \\(Q \\frac{dP}{dQ}\\)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Marginalinntekt, dvs. ekstra inntekt ved salg av en ekstra enhet.",
+      "Marginalprofitten, dvs. ekstra profitt ved salg av en ekstra enhet.",
+      "Inntektstapet som følge av prisreduksjon med sikte på å selge en ekstra enhet.",
+      "Økningen i solgt mengde per enhet prisreduksjon."
+    ]
+  },
+  {
+    "question": "En bedrift har tilpasset seg slik at marginalinntekten er positiv. Hva kan vi da generelt si om etterspørselen i tilpasningspunktet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Etterspørselen er elastisk.",
+      "Etterspørselen er uelastisk.",
+      "Etterspørselselastisiteten er null.",
+      "Tallverdien til etterspørselselastisiteten er én."
+    ]
+  },
+  {
+    "question": "En bedrift i et frikonkurransemarked har marginalkostnader gitt ved MC = 0,2Q + 80 der Q er\nmengden. Den har faste kostnader på 1 000. Dersom prisen i markedet er 120, hva blir optimal profitt\nfor bedriften?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["1 000", "2 000", "3 000", "4 000"]
+  },
+  {
+    "question": "Etter å ha analysert kostnader og etterspørsel finner ledelsen i et monopol ut at både marginalinntekt\nog marginalkostnad er positive tall, men marginalinntekten er mindre enn marginalkostnaden. Hva\nkan bedriften da gjøre for å øke profitten?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Redusere mengden og øke prisen.",
+      "Øke mengden og redusere prisen.",
+      "Øke både pris og mengde.",
+      "Redusere både pris og mengde."
+    ]
+  },
+  {
+    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved\nP = 100 - Q der P er prisen og Q er mengden. Begge bedriftene har marginalkostnader på 10.\nMengdene til bedriftene er \\(Q_i\\) og \\(Q_j\\). Reaksjonsfunksjoner uttrykker bedriftens beste svar på den\nandres strategivalg. Hva blir et korrekt uttrykk for reaksjonsfunksjonen til bedriftene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "\\(Q_i = \\frac{90-Q_j}{2}\\)",
+      "\\(Q_i = \\frac{100-10}{3}\\)",
+      "\\(Q_i = \\frac{110-Q_j}{2}\\)",
+      "\\(Q_i = \\frac{90+Q_j}{2}\\)"
+    ]
+  },
+  {
+    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Coumot-modellen er gitt ved\nP = 100 - Q der P er prisen og Q er mengden. Begge bedriftene har marginalkostnader på 10.\nHvilken mengde vil hver bedrift tilby ved likevekt?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["20", "30", "40", "50"]
+  },
+  {
+    "question": "Egenkapitalen og gjelden til en bedrift har samme verdi. Hva kan vi da si om sammenhengen mellom\ngjeldsgrad og gjeldsandel?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Ingenting egentlig – vi må kjenne total verdi av aktiva for å si noe om gjeldsandel.",
+      "Gjeldsgrad er lik gjeldsandel.",
+      "Gjeldsandelen er lik to ganger gjeldsgraden.",
+      "Gjeldsgraden er lik to ganger gjeldsandelen."
+    ]
+  },
+  {
+    "question": "Se bort fra skatt. Hva kan vi si generelt om sammenhengen mellom totalkapitalrentabilitet,\negenkapitalrentabilitet og gjeldsavkastningen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Dersom totalkapitalrentabiliteten er mindre enn gjeldsavkastningen, er egenkapitalrentabiliteten\nmindre enn null.",
+      "Dersom totalkapitalrentabiliteten er større enn null, er egenkapitalrentabiliteten større enn\ngjeldsavkastningen.",
+      "Dersom totalkapitalrentabiliteten er mindre enn gjeldsavkastningen, er egenkapitalrentabiliteten\nstørre enn totalkapitalrentabiliteten.",
+      "Dersom totalkapitalrentabiliteten er større enn gjeldsavkastningen, er egenkapitalrentabiliteten\nstørre enn totalkapitalrentabiliteten."
+    ]
+  },
+  {
+    "question": "Et investeringsprosjekt innebærer en investering nå på \\(I\\). Forventet kontantstrøm i periode \\(t\\) i de \\(N\\)\nperiodene prosjektet vil vare er \\(k_t\\). Diskonteringsrenten for periode \\(t\\) er \\(r_t\\). Hva blir et korrekt uttrykk\nfor prosjektets nettonåverdi?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "\\(-I+\\frac{k}{r}\\)",
+      "\\(-I+ \\sum\\limits_{t=1}^N \\frac{k_t}{(1-r_t)^t}\\)",
+      "\\(-I+ \\sum\\limits_{t=1}^N \\frac{k_t}{1+r_t^t}\\)",
+      "\\(-I+ \\sum\\limits_{t=1}^N \\frac{k_t}{(1+r_t)^t}\\)"
+    ]
+  },
+  {
+    "question": "Hva er en korrekt definisjon på begrepet internrente?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Internrenten er avkastningskravet til totalkapitalen etter skatt.",
+      "Internrenten er avkastningen til investeringene som er gjort internt i selskapet.",
+      "Internrenten er den diskonteringsrenten som gir nettonåverdi lik null.",
+      "Internrenten er renten på gjelden som er tatt opp internt i selskapet."
+    ]
+  },
+  {
+    "question": "Et investeringsprosjekt innebærer en investering nå på 100 000 000 og en forventet positiv\nkontantstrøm om fem år på 200 000 000. Dersom avkastningskravet er 10 % årlig, hva blir forventet\nnettonåverdi for prosjektet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["81 818 182", "50 262 960", "36 602 691", "24 184 265"]
+  },
+  {
+    "question": "Et investeringsprosjekt vil kunne gi kontantstrøm i to år. Det er imidlertid usikkerhet knyttet til\nmulige kontantstrømmer. Bedriften regner med at det er 20 % sannsynlighet for at det går dårlig slik\nat det blir tap første år. Da blir det en negativ kontantstrøm på 2 000 000 og prosjektet avsluttes.\nDersom det ikke går dårlig første året, er forventet positiv kontantstrøm om ett år 10 000 000 og\nprosjektet videreføres inn i det andre året. I så fall regner de med at det er like sannsynlig at det vil gi\n0 som at det vil gi 10 000 000 to år fra nå. Hva er forventet nåverdi av kontantstrømmen når\navkastningskravet er 10 % per år?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["10 214 876", "11 404 959", "15 537 190", "18 545 455"]
+  },
+  {
+    "question": "Hva er den mest korrekte definisjonen av altemativkostnaden til kapital i forbindelse med\nnettonåverdiberegninger knyttet til mulige investeringsprosjekter i bedrifter?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Den forventede avkastningen i aksjemarkedet.",
+      "Den forventede avkastningen til selskapets totalkapital etter skatt.",
+      "Den forventede avkastningen eierne har på sine investeringsporteføljer.",
+      "Den beste alternative, forventede avkastningen eierne kan få i markedene med tilsvarende risiko\nsom prosjektet."
+    ]
+  },
+  {
+    "question": "Hva kan vi si generelt om hvordan en risikoavers investor vil prioritere mellom alternative\ninvesteringer som kan tas inn i porteføljen?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Investoren vil alltid foretrekke investeringen med lavest mulig standardavvik.",
+      "I valget mellom to investeringer med samme forventede avkastning og samme standardavvik, vil\ninvestoren foretrekke den med lavest korrelasjon med porteføljen.",
+      "I valget mellom to investeringer med samme forventede avkastning og samme standardavvik, vil\ninvestoren foretrekke den med høyest korrelasjon med porteføljen.",
+      "Investoren vil alltid foretrekke investeringen med høyest forventet avkastning."
+    ]
+  },
+  {
+    "question": "Hva er en korrekt definisjon av markedsrisikoen til en portefølje?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Det er den delen av risikoen som ikke kan diversifiseres bort ved å legge til flere verdipapirer i\nporteføljen.",
+      "Standardavviket til markedsavkastningen.",
+      "Det er den risikoen investoren velger å ta fordi det koster for mye å diversifisere ytterligere.",
+      "Forskjellen mellom forventet avkastning i markedet og risikofri rente."
+    ]
+  },
+  {
+    "question": "Beta til aksjen til et selskap er 3. Markedsrisikopremien er 5 % og risikofri rente er 2 %. Anta at\nCapital Asset Pricing Model, dvs. kapitalverdimodellen, er korrekt. Hva er da forventet avkastning til\naksjen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["5 %", "7 %", "11 %", "17 %"]
+  },
+  {
+    "question": "La \\(\\beta_A\\) være beta for selskapets aktiva, la \\(\\beta_E\\) være beta for selskapets egenkapital og la \\(\\beta_D\\) være beta\nfor selskapets gjeld. Markedsverdien av selskapets gjeld er \\(D\\) og markedsverdien av selskapets\negenkapital er \\(E\\). Hva blir da et korrekt uttrykk for beta til selskapets aktiva?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "\\(\\beta_A = \\frac{D}{D+E}\\beta_D + \\frac{E}{D+E}\\beta_E\\)",
+      "\\(\\beta_A = \\frac{D}{D+E}\\beta_D - \\frac{E}{D+E}\\beta_E\\)",
+      "\\(\\beta_A = \\frac{D}{E}\\beta_D + \\frac{E}{D}\\beta_E\\)",
+      "\\(\\beta_A = \\frac{E}{D}\\beta_D + \\frac{D}{E}\\beta_E\\)"
+    ]
+  },
+  {
+    "question": "Avkastningen til et selskaps egenkapital er 8 %. Avkastningen til selskapets gjeld er 4 %.\nGjeldsandelen er 40 %. Selskapsskattesatsen er 25 %. Hva blir avkastningskravet til totalkapitalen\netter skatt, dvs. WACC?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["4,0 %", "5,5 %", "6,0 %", "8,0 %"]
+  }
+]

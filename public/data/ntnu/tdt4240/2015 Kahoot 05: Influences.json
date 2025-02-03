@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How can an architecture affect business goals of a system?",
+    "answers": [0, 2],
+    "exam": ".*",
+    "options": [
+      "Add value",
+      "Support cloud computing",
+      "Faster to market",
+      "Less system crash"
+    ]
+  },
+  {
+    "question": "What are the main influences of the stakeholders related to software architectures?",
+    "answers": [0, 2, 3],
+    "exam": ".*",
+    "options": ["Business", "Frameworks", "Project", "Technical"]
+  },
+  {
+    "question": "What influences the architect's regarding the SWA according to the text book?",
+    "answers": [1, 3],
+    "exam": ".*",
+    "options": [
+      "Software process",
+      "Stakeholders",
+      "Programming language",
+      "Professional background"
+    ]
+  },
+  {
+    "question": "How can the architecture influence the technical context?",
+    "answers": [0, 3],
+    "exam": ".*",
+    "options": [
+      "Affect the next system",
+      "Help the project manager",
+      "Provide rules for coding",
+      "Result in a better system"
+    ]
+  },
+  {
+    "question": "How can the architecture influence the project context?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Increase architect's knowledge",
+      "Make system faster",
+      "Shorter time to market",
+      "Structure the dev organization"
+    ]
+  },
+  {
+    "question": "How can the architecture influence the business context?",
+    "answers": [0, 3],
+    "exam": ".*",
+    "options": [
+      "Efficient production",
+      "Form teams",
+      "Prescribe what to implement",
+      "Take market share"
+    ]
+  },
+  {
+    "question": "How can the architecture influence the professional context?",
+    "answers": [2, 3],
+    "exam": ".*",
+    "options": [
+      "Affect stakeholders reqs",
+      "Affect business goals",
+      "Improve experience",
+      "Learn patterns"
+    ]
+  }
+]

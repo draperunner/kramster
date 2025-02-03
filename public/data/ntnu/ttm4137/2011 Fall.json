@@ -1,0 +1,262 @@
+[
+  {
+    "question": "What is the major weakness in WEP, exploited by the PTW attack used in the lab?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "The initialization vector is too short",
+      "No protection against message replay",
+      "The integrity check value is too short",
+      "The IV is part of key stream."
+    ]
+  },
+  {
+    "question": "What is the length of the WEP initialization vector (IV)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["24 bits", "32 bits", "48 bits", "64 bits"]
+  },
+  {
+    "question": "How are EAP messages transported between the authenticator and the authentication server in RSN?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "EAP messages are encapsulated in TCP/IP",
+      "EAP messages are encapsulated in EAP-TLS",
+      "EAP messages are encapsulated in VPN",
+      "EAP messages are encapsulated in 802.1x"
+    ]
+  },
+  {
+    "question": "Which cryptographic algorithm is used in counter mode with cipher block chaining message authentication code protocol in CCMP?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["AES", "Michael", "RC4", "KASUMI"]
+  },
+  {
+    "question": "What is the purpose of the EAPOL 4-way handshake?",
+    "answers": [2],
+    "exam": "2011 Fall",
+    "options": [
+      "To compute a fresh pairwise temporal key (PTK) from the pairwise message key (PMK)",
+      "To compute a fresh pairwise master key (PMK) from the pairwise transient key (PTK)",
+      "To compute a fresh pairwise transient key (PTK) from the pairwise master key (PMK) after both parties have verified the PMK",
+      "To compute a fresh pairwise message key (PMK) from the pairwise trusted key (PTK) generated in the 4-way key agreement"
+    ]
+  },
+  {
+    "question": "How does the counter mode operation of a block cipher E() work?",
+    "answers": [2],
+    "exam": "2011 Fall",
+    "options": [
+      "\\(C = E(i) \\oplus i\\)",
+      "\\(C = E(i) \\oplus M \\oplus i\\)",
+      "\\(C_i = E(i)  M_i\\)",
+      "\\(C = E(i) \\oplus M\\)"
+    ]
+  },
+  {
+    "question": "Is the complete MAC PDU encrypted by the CCMP?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Yes, the CCMP uses a shared key",
+      "Yes, the CCMP header is encrypted",
+      "No, the MAC header is not encrypted",
+      "No, the MAC header and the CCMP header are not encrypted"
+    ]
+  },
+  {
+    "question": "Which block cipher mode of operation is used for AES in RSN?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Counter Mode with Cipher Block Chaining Message Authentication Code",
+      "Counter Mode with Galois Message Authentication Code",
+      "Cipher Block Chaining with Counter Mode Message Authentication Code",
+      "Cipher Block Chaining with Hashed Message Authentication Code"
+    ]
+  },
+  {
+    "question": "How is the 128 bits start value of the counter for CCMP encryption initialized in RSN?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "By a random IV",
+      "By the concatenation of IV and the extended IV",
+      "By flag/priority bits, packet number, source-address, and a constant",
+      "By source address, destination address and the MIC value of the MPDU"
+    ]
+  },
+  {
+    "question": "Which 802.11 frame type is cryptographically protected by the 802.11w standard?",
+    "answers": [2],
+    "exam": "2011 Fall",
+    "options": [
+      "Data frames",
+      "Control frames",
+      "Management frames",
+      "Beacon frames"
+    ]
+  },
+  {
+    "question": "How is the subscriber identity protected from radio channel eavesdropping in UMTS?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "By the network providing temporary subscriber identities to the USIMs",
+      "By keeping the subscriber identity in the USIM only",
+      "By storing the 128-bit secret key (\\(K_{IMSI}\\)) in the USIM, and distribute only to trusted VLRs",
+      "By using the IMEI instead of the IMSI"
+    ]
+  },
+  {
+    "question": "Which information is sent from the HSS to the MME during the LTE/EPS authentication protocol?",
+    "answers": [1],
+    "exam": "2011 Fall",
+    "options": [
+      "IMSI, RAND, AUTN, XRES",
+      "RAND, AUTIN, XIRES, \\(K_{ASME}\\)",
+      "RAND, AUTN, XRES, CK, IK",
+      "RAND, AUTN, XRES, \\(K_c\\)"
+    ]
+  },
+  {
+    "question": "Which UTRAN protocol layers provide encryption?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "MAC layer and RRC layer",
+      "RLC layer and RRC layer",
+      "PHY layer and MAC layer",
+      "MAC layer and RLC layer"
+    ]
+  },
+  {
+    "question": "What happens if the result of the UTRAN cryptoalgorithm negotiation is that the user equipment (UE) and the network do not have a common encryption algorithm?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "UTRAN provides a new encryption algorithm as an app download",
+      "The connection is shut down immediately by UTRAN",
+      "UTRAN may establish the connection without encryption",
+      "UTRAN does not use encryption algorithm negotiation"
+    ]
+  },
+  {
+    "question": "In which mode of operation is KASUMI used for constructing the 3GPP f8 key stream generator?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Combining Counter-mode and ECB-mode",
+      "Combining Counter-mode and CCM-mode",
+      "Combining Counter-mode and OFB-mode",
+      "Combining Counter-mode and CBC-mode"
+    ]
+  },
+  {
+    "question": "What was the underlying assumption for the MILENAGE security analysis?",
+    "answers": [1],
+    "exam": "2011 Fall",
+    "options": [
+      "No assumptions were made",
+      "The kernel function must be a secure block cipher",
+      "AES must be used as the kernel function",
+      "The kernel function must be a one-way function"
+    ]
+  },
+  {
+    "question": "Why can the USIM be physically removed from the rest of the UE?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "The UE manufacturing and lifecycle can be managed independently from the personalization and subscription process",
+      "The failure rate of the integrated circuit cards (UICCs) are high because the issuers (mobile operators) want to reduce cost for short subscription duration",
+      "End-to-end UMTS key-card may be plugged into the USIM slot for key distribution and management",
+      "The USIM holds an expiration date and, like credit cards, must be replaced"
+    ]
+  },
+  {
+    "question": "What is the bit length of the permanent subscriber key in UMTS?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["56", "64", "128", "256"]
+  },
+  {
+    "question": "The end points of the user data encryption in EPS are",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "The UICC and the eNB",
+      "The UE and the MME",
+      "The UE and the eNB",
+      "The UICC and the MME"
+    ]
+  },
+  {
+    "question": "The end points of signal-message encryption in the EPS access stratum are",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "The UICC and the eNB",
+      "The UE and the eNB",
+      "The eNB and the MME",
+      "The UE and the MIME"
+    ]
+  },
+  {
+    "question": "The end points of signal-message integrity protection in the EPS non-stratum access are",
+    "answers": [3],
+    "exam": "2011 Fall",
+    "options": [
+      "The UICC and the eNB",
+      "The UE and the eNB",
+      "The eNB and the MME",
+      "The UE and the MME"
+    ]
+  },
+  {
+    "question": "Does LTE/EPS provide end-to-end data security?",
+    "answers": [0],
+    "exam": "2011 Fall",
+    "options": [
+      "No",
+      "Yes, but only authenticity",
+      "Yes, but only anonymity",
+      "Yes, both confidentiality and authenticity"
+    ]
+  },
+  {
+    "question": "Can a 3G USIM work in an LTE UE handset?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "No, because the cryptokeys must be kept in the USIM",
+      "No, because the cryptokeys are not compatible",
+      "Yes, because the cryptokeys are the same in the two systems",
+      "Yes, because the USIM cryptokey output is the same in the two systems"
+    ]
+  },
+  {
+    "question": "Where does the key derivation function KDF of EPS reside?",
+    "answers": [3],
+    "exam": "2011 Fall",
+    "options": [
+      "In the USIM and the AuC",
+      "In the USIM and the UE",
+      "In the UE and the MME",
+      "In the UE and the HSS"
+    ]
+  },
+  {
+    "question": "What is lawful interception in mobile communication networks?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Eavesdropping approved by judicial court",
+      "Eavesdropping performed by or on behalf of the police authorities",
+      "Signal jamming ordered by the police authorities",
+      "Law enforcement command to the mobile operators to turn off the communication encryption in order to enable eavesdropping"
+    ]
+  }
+]

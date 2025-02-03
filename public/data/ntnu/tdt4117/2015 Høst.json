@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Micon og videogjenfinning hører sammen",
+      "Micon og lydgjenfinning fra videoshots hører sammen",
+      "Micon kan brukes av PST til å lett gjenfinne bilder med terrorister",
+      "Micon har ingenting med informasjonsgjenfinning å gjøre"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?\n\\(J(A,B) = \\frac{|A \\cap B|}{|A \\cup B|} = \\frac{|A \\cap B|}{|A| + |B| - |A \\cap B|}\\)",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Denne formelen er et likhetsmål som egner seg veldig godt til bruk i rangering av resultater med søk av store strukturerte dokumenter",
+      "Denne formelen forteller noe om mengden av informasjon som er i dokumentene",
+      "Denne formelen er et Jaccard-likhetsmål som ikke kan brukes til å vurdere om to ord er like eller ikke",
+      "Denne formelen er et Jaccard-likhetsmål som kan brukes til å vurdere i hvor stor grad to dokumenter er like"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Et Huffman-tre er en variant av et suffix tre",
+      "Et Huffman-tre er et komprimeringstre som kan være både \"bit\"-basert (binært) og \"byte\"-basert samtidig.",
+      "Et Huffman-tre er en variant av et suffix trie",
+      "En Huffman-trekonstruksjon bruker informasjon om termdistribusjon i et dokument for å kunne lage en så effektiv komprimering som mulig"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Automatic Global Analysis og Automatic Local Analysis bruker to motsatte metoder for utvidede spørringer",
+      "Pseudo relevance feedback er en metode for å utvide spørringer",
+      "I Pseudo relevance feedback trenges tilbakemelding fra brukeren for at det skal fungere optimalt",
+      "Med Pseudo relevance feedback trenger man alltid å bruke Rocchios standardmetode for å få det til å fungere"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "IDF står for \"Information of Document Frequency\"",
+      "IDF står for \"Invariant Document Frequency\" og brukes til å måle hvor mye svingninger det er i antall termer per dokument",
+      "IDF står for \"Inverse Document Frequency\" og kan brukes til å straffe termer som nevnes ofte i et dokument",
+      "IDF står for \"Inverse Document Frequency\" og kan brukes til å straffe termer som nevnes ofte i en samling av dokumenter"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Zipf's law kan brukes til å vurdere hvilke ord som kan være gode kandidater til stoppordlista",
+      "Zipf's og Heap's law er viktig for genfinningsregler i websøkesystemer",
+      "En crawler bruker Zipf's law til å avgjøre om den skal følge en link videre til neste dokument, for indeksering",
+      "Zipf's law sier ingenting om termdistribusjon i en samling"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Harvest-websøkesystem er basert på en sentralisert systemarkitektur med koordinerte crawlers",
+      "Harvest-websøkesystem er basert på en distribuert systemarkitektur med koordinerte gatherers",
+      "Harvest er ingen websøkesystem men en proprietær systemarkitektur for datahøsting",
+      "Harvest-arkitekturen er helt lik den arkitekturen som Google har brukt som basis for deres websøkearkitektur"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et bildegjenfinningssystem består av en \"feature extractor\"-del som gjør det enkelt å automatisere lagring av informasjon om innholdet i et bilde",
+      "Et bildegjenfinningssystem må bruke alle teknikker fra databaseteknikk for å kunne enkelt utføre spørringer",
+      "Det er et krav at et bildegjenfinningssystem tilbyr støtte til nøkkelordsøk",
+      "De fleste bildegjenfinningssystem bruker piksel-til-piskelsammenlikninger til å finne likhet mellom bilder og til rangering"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Okapi BM25 er en variant av sannsynlighetsmodellen, men bruker både TF og IDF til å estimere sannsynlighetene",
+      "Okapi BM25 er en variant av språkmodellen (Language model for information retrieval)",
+      "Ifølge forskningen fungerer Okapi BM25 mye dårligere enn den boolske modellen",
+      "Okapi BM25 har ingenting med søkeresultatrangeringer å gjøre"
+    ]
+  },
+  {
+    "question": "Hvilken påstand er riktig?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Precision og recall er like viktige uavhengig av søkeapplikasjoner",
+      "Recall er typisk viktigere enn precision for søk i Gulesider",
+      "MAP bruker ikke recall i det hele tatt",
+      "Interpolering er nyttig dersom man har for få recall-punkter"
+    ]
+  }
+]

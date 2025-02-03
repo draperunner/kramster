@@ -1,0 +1,156 @@
+[
+  {
+    "question": "Hvilke hovedmåter kan en kontrollenhet implementeres på?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Load-storearkitektur og stakkarkitektur",
+      "Hardwired og fastprogramert",
+      "Akkumulator og Load-storearkitektur",
+      "Fastprogramert og mikroprogramert"
+    ]
+  },
+  {
+    "question": "La \\(\\neg Rx\\) bety enerkomplement av innholdet i \\(Rx\\) der \\(Rx\\) er et register.  Hva skjer egentlig her: \\(R0 \\leftarrow R1 + \\neg R2 + 1\\)",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "\\(R0\\) settes lik \\(R1 + R2 + 1\\)",
+      "\\(R0\\) settes lik \\(R1 - R2 + 1\\)",
+      "\\(R0\\) settes lik \\(R1 - R2\\)"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om fastprogrammert styreenhet er <em>ikke</em> riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Styreenheten får ingen fleksibilitet da instruksjonssettet blir låst ved produksjon av kretsen.",
+      "Styreenheten vil bestå av en tilstandsmaskin for fler-sykel-instruksjoner",
+      "Antall porter som brukes i styreenheten firedobles med antall instruksjoner.Styreenheten vil derfor ta mer plass i brikken.",
+      "Forsinkelsene blir veldig små og man får en hurtig styreenhet."
+    ]
+  },
+  {
+    "question": "Hva er hensikten med styrelageret?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Styrelageret skal lagre alle enhetene som styreenheten har utført",
+      "Styrelageret inneholder settet av mikroinstruksjoner som definerer funksjonaliteten til styreenheten.",
+      "Styrelageret er det samme som en styreenhet",
+      "Styrelageret lagrer alle hendelser som styreenheten utfører"
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på en mikroprogrammert og en fastprogrammert (hardwired) styreenhet?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Oppførselen til en fastprogrammert styreenhet er spesifisert ved sammenkobling av porter og viper. I mikroprogrammerte styreenheter er oppførselen spesifisert av et mikroprogram.",
+      "Mikroprogrammerte styreenheter er mye raskere en fastprogramerte",
+      "Man har mer fleksibilitet ved fastprogrammert styreenhet enn ved mikroprogrammert",
+      "Fastprogrammerte styreenheter er mindre brukt enn mikroprogrammerte, fordi de er så trege."
+    ]
+  },
+  {
+    "question": "Hvilke basisoppgaver utfører en mikroprogrammert styreenhet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Passe på at ingen feil oppstår og rette dem hvis de skulle oppstå",
+      "Hente styresignaler fra styrelageret og generere neste instruksjon ut fra dem.",
+      "Hente neste mikroinstruksjon fra styrelageret og generere styresignaler som trengs for å utføre mikroinstruksjonen",
+      "Hente instruksjoner fra styrelageret og sørge for at de har rett innhold."
+    ]
+  },
+  {
+    "question": "Hvilket av følgende flagg er <em>ikke</em> et betingelsesflagg (condition code flag) (satt i prosessorens statusregister)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "N (negativ)",
+      "Z (null)",
+      "D (data)",
+      "V (overflyt)",
+      "C (carry)"
+    ]
+  },
+  {
+    "question": "Hva er mest dekkende om oppgaven til styreenheten i prosessoren?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Den kontrollerer om operasjonene er gyldige",
+      "Den ordner operasjoner i sekvens slik at de stemmer med det som står i programkoden",
+      "Den genererer styresignaler",
+      "Den ordner operasjoner i sekvens slik at de stemmer med det som står i programkoden og genererer styresignaler",
+      "Den kontrollerer om operasjonene er lovlige"
+    ]
+  },
+  {
+    "question": "Hvilket utsagn når det gjelder mikroprogrammerte styreenheter er <em>feil</em>?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Mikroprogrammerte styreenheter er lett å gjøre modifikasjoner på i framtiden",
+      "Enkelt å lage maskinvaren som utgjør styreenheten fordi den har en strukturert og relativt standardisert oppbyggning",
+      "Bruker en fast mengde maskinvare uavhengig av antall instruksjoner (sett bort fra styrelageret).",
+      "Styreenheten har veldig liten forsinkelser, fordi man kan kjøre gjennom mange mikroprogram samtidig"
+    ]
+  },
+  {
+    "question": "Hva er <em>ikke</em> et typisk input til styreenheten?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["Instruksjoner", "Klokkesignal", "Statusflagg", "Programteller"]
+  },
+  {
+    "question": "En mikroprogrammert styreenhet (eng. control unit) vil normalt være",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "raskere enn en alternativ \"hardwired\" realisering.",
+      "mindre fleksibel enn en \"hardwired\" realisering",
+      "mer fleksibel enn en \"hardwired\" realisering."
+    ]
+  },
+  {
+    "question": "Hva er en multiplekser (MUX)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En MUX er en kombinatorisk krets som velger en av inngangene og sender den ut på utgangen.",
+      "En MUX er en kombinatorisk krets som tar inngangen og splitter den opp til flere utganger.",
+      "En MUX er en sekvensiell krets som alltid tar inn to verdier og gir ut en kombinasjon av disse på utgangen.",
+      "En MUX brukes til å dekode inngangen og gi riktig verdi til de ulike registrene.",
+      "En MUX er en kombinatorisk krets som velger en av inngangene og sender den ut på utgangen.",
+      "En MUX er en kombinatorisk krets som tar inngangen og splitter den opp til flere utganger.",
+      "En MUX er en sekvensiell krets som alltid tar inn to verdier og gir ut en kombinasjon av disse på utgangen.",
+      "En MUX brukes til å dekode inngangen og gi riktig verdi til de ulike registrene."
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på «hard» og «soft» mikroprogrammering?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Harde mikroprogrammer ligger i read-only minne, mens myke mikroprogrammer kan forandres av brukeren",
+      "Soft mikroprogrammering kode er enklere for maskinen å forstå, mens hard mikroprogrammeringsspråk er vanskelig",
+      "Hard mikroprogrammering er enklerer for brukeren å forstå",
+      "Den er ingen stor forskjell mellom hard og soft mikroprogrammering"
+    ]
+  },
+  {
+    "question": "Hva er et typisk output fra styreenheten?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Interne styresignaler i prosessoren",
+      "Klokkesignal og statusflagg",
+      "Statusflagg og interne styresignaler",
+      "Klokke og interne styresignaler",
+      "Klokke og adresse til neste instruksjon"
+    ]
+  }
+]

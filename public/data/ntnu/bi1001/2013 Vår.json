@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Hvilken betegnelse bruker vi for et protein som bidrar til riktig folding av andre proteiner?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "tertiært protein",
+      "chaperon",
+      "enzym protein",
+      "renaturerende protein",
+      "denaturende protein"
+    ]
+  },
+  {
+    "question": "Hva er den strukturelle egenskapen ved DNA som muliggjør replikering?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "sukker-fosfat kjeden",
+      "komplementær paring av de nitrogenholdige basene?",
+      "disulfid-broer mellom de to helixene",
+      "dreining av molekylet slik at α helix dannes",
+      "nukleotidenes tre-komponent struktur"
+    ]
+  },
+  {
+    "question": "Alle disse forekommer i en prokaryot celle utenom",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "DNA.",
+      "cellevegg.",
+      "plasmamembran.",
+      "ribosomer.",
+      "endoplasmisk retikulum."
+    ]
+  },
+  {
+    "question": "Store mengder ribosomer er til stede i celler som er spesialiserte for å produsere hvilke av de følgende molekyler?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["lipider", "glykogen", "proteiner", "cellulose", "nukleinsyrer"]
+  },
+  {
+    "question": "Hvilken organelle tar ofte opp mye av volumet i en plantecelle?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "lysosomer",
+      "vakuole",
+      "mitochondrier",
+      "Golgiapparatet",
+      "peroxisomer"
+    ]
+  },
+  {
+    "question": "I en plantecelle kan DNA finnes",
+    "answers": [3],
+    "exam": "2013 Vår",
+    "options": [
+      "bare i kjernen.",
+      "bare i kjernen og mitokondrier.",
+      "bare i kjernen og kloroplaster.",
+      "i kjernen, mitokonkdrier og kloroplaster.",
+      "i kjernen, mitokonkdrier, kloroplaster og peroxisomer."
+    ]
+  },
+  {
+    "question": "Ioner kan transportere direkte fra cytoplasma i en dyrecelle til cytoplasma i nabocelle gjennom",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "plasmodesmata.",
+      "intermediære filamenter.",
+      "tette celleforbindelser.",
+      "desmosomer.",
+      "åpne celleforbindelser."
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende utsagnene beskriver best terminering av transkripsjon i prokaryoter?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "RNA polymerase transkriberer gjennom polyadenyleringssignalet, dette forårsaker at proteiner assosieres med transkriptet og kutter det løs fra polymerasen.",
+      "RNA polymerase transkriberer gjennom terminatorsekvensen, dette forårsaker at polymerase separeres fra DNA og frigir transkriptet.",
+      "RNA polymerase transkriberer gjennom et intron og snRNPer forårsaker at polymerase slipper taket i transkriptet.",
+      "Når transkripsjon har startet vil RNA polymerase transkribere helt til det når enden av kromosomet.",
+      "RNA polymerase transkriberer gjennom et stopkodon, dette forårsaker at polymerase slutter å avansere gjennom genet og dermed frigjør mRNA ."
+    ]
+  },
+  {
+    "question": "Hvilket av det følgende er sant for integrale membranproteiner?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "De mangler tertiærstruktur.",
+      "De er løst bundet til overflaten av dobbeltlaget.",
+      "De er vanligvis transmembrane proteiner.",
+      "De er ikke mobile innenfor dobbeltlaget.",
+      "De har kun en strukturell rolle i membraner."
+    ]
+  },
+  {
+    "question": "Den primære funksjonen for polysakkarider som er bundet til glykoproteinene og glykolipidene i cellemembraner hos dyr er",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "å facilitere diffusjon av molekyler nedover i sin konsentrasjonsgradient.",
+      "å aktivt transportere molekyler mot sin konsentrasjonsgradient.",
+      "å opprettholde integriteten for en flytende mosaikk-membran.",
+      "å opprettholde membranflyt ved lave temperaturer.",
+      "å mediere celle-celle gjenkjenning."
+    ]
+  },
+  {
+    "question": "Hvorfor er lipider og proteiner fri til å forflytte seg sidelengs i membraner?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det indre av membranen er fylt med flytende vann.",
+      "Lipider og proteiner frastøter hverandre i membranen.",
+      "Hydrofile deler av lipidene er i den indre delen av membranene.",
+      "Det er bare svake hydrofobe interaksjoner i det indre av membranen.",
+      "Molekyler som cellulose kan dra dem i ulike retninger."
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende utsagnene er sant vedrørende katabolske spor?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "De setter sammen molekyler til mer energirike molekyler.",
+      "De fyller på med energi, primært i form av ATP for cellens arbeid.",
+      "De er endergone.",
+      "De er spontane og trenger ikke enzymkatalyse.",
+      "De bygger opp komplekse molekyler så som proteiner fra enklere forbindelser."
+    ]
+  },
+  {
+    "question": "Hvor skjer glykolysen i eukaryote celler?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "mitokondriell matrix",
+      "mitochondriell ytre membran",
+      "mitochondriell indre membran",
+      "mitochondriell intermembrant rom",
+      "cytosol"
+    ]
+  },
+  {
+    "question": "ATP som framstilles under glykolyse blir generert ved",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "substrat-nivå fosforylering.",
+      "elektrontransport.",
+      "fotofosforylering.",
+      "kjemiosmose.",
+      "oksydering av NADH til NAD+."
+    ]
+  },
+  {
+    "question": "Oksygenet som blir forbrukt under cellulær respirasjon er involvert direkte i hvilken prosess eller hendelse?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "glykolyse",
+      "mottar elektroner i enden av elektrontransport-kjeden",
+      "sitronsyresyklus",
+      "oksydering av pyruvate til acetyl CoA",
+      "fosforylering av ADP for å danne ATP"
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende alternativer karakteriseres ved at en celle frigjør et signalmolekyl til omgivelsene, etterfulgt av at en rekke celler i den umiddelbare nærhet responderer?",
+    "answers": [2],
+    "exam": "2013 Vår",
+    "options": [
+      "hormonell signalering",
+      "autokrin signalering",
+      "parakrin signalering",
+      "endokrin signalering",
+      "synaptisk signalering"
+    ]
+  },
+  {
+    "question": "Fordi de fleste reseptorer er membranproteiner, hvilket av det følgende er vanligvis sant?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "De fører til endringer i intracellulær ionekonsentrasjon.",
+      "De åpnes og lukkes som respons på proteinsignaler.",
+      "De er bare bundet til en membranoverflate: ytre eller indre.",
+      "De bindes fortrinnsvis til lipid eller glykolipid signalmolekyler.",
+      "De endrer sin konformasjon etter at de bindes til signalpeptider."
+    ]
+  },
+  {
+    "question": "Siden steroidreseptorer er lokalisert intracellulært, hvilket av det følgende er sant?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Reseptormolekylene er selv lipider eller glykolipider.",
+      "Steroid/reseptorkomplekset kan transporteres over kjernemembranen.",
+      "De ubundne steroidreseptorene blir raskt resirkulert i lysosomer.",
+      "Konsentrasjonen av steroidreseptorer må være relativt høy i de fleste celler.",
+      "Reseptormolekylene kan fritt bevege seg inn og ut av de fleste organeller."
+    ]
+  },
+  {
+    "question": "Hvorfor tvinnes kromosomene opp under mitose?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "for å øke sin potensielle energi",
+      "for å tillate kromosomene å bevege seg uten å danne floker og ødelegges",
+      "for å tillate kromosomene å passere inn i kjernemembranen",
+      "for å tillate søsterkromatidene å forbli bundet",
+      "for å legge til rette for strukturen til centromeren"
+    ]
+  },
+  {
+    "question": "Under hvilken fase av mitosen blir kromatidene til kromosomer?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["telofase", "anafase", "profase", "metafase", "cytokinese"]
+  },
+  {
+    "question": "Alternativ RNA-spleising",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "er en mekanisme for å øke transkripsjonsfarten.",
+      "kan muliggjøre produksjon av proteiner av forskjellige størrelser fra ett enkelt transkript.",
+      "kan muliggjøre produksjonen av lignende proteiner fra ulike RNA.",
+      "øker translasjonsfarten .",
+      "skyldes nærvær eller fravær av spesielle snRNP."
+    ]
+  },
+  {
+    "question": "Cystisk fibrose påvirker lungene, bukspyttkjertelen, fordøyelsesapparatet, og andre organer, noe som resulterer i symptomer som spenner fra pustevansker til tilbakevendende infeksjoner. Hvilket av de følgende begreper beskriver dette best?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "inkomplett dominans",
+      "multiple alleler",
+      "pleiotropi",
+      "epistase",
+      "co-dominans"
+    ]
+  },
+  {
+    "question": "Hvilket av de følgende er eksempler på polygen arv?",
+    "answers": [4],
+    "exam": ".*",
+    "options": [
+      "rosa blomster hos løvemunn",
+      "ABO blodgrupper hos mennesker",
+      "Huntington's sykdom hos mennesker",
+      "hvite og lilla blomsterfarge hos erter",
+      "hudfarge hos mennesker"
+    ]
+  },
+  {
+    "question": "Menn (gutter) rammes oftere av kjønnsbundne egenskaper enn kvinner (jenter) fordi",
+    "answers": [3],
+    "exam": "2013 Vår",
+    "options": [
+      "mannlige kjønnshormoner som testosteron, ofte forårsaker mutasjoner i X-kromosomet.",
+      "kvinnelige kjønnshormoner som østrogen, ofte kompenserer for effektene av mutasjoner i X-kromosomet.",
+      "X-kromosomer hos menn generelt har flere mutasjoner enn Xkromosomer hos kvinner.",
+      "menn er hemizygote for X-kromosomet.",
+      "mutasjoner i Y-kromosomet forverrer ofte effekten av X-bundne mutasjoner ."
+    ]
+  },
+  {
+    "question": "Replikasjon i prokaroter skiller seg fra replikasjon i eukaryoter på grunn av hvilken av de nevnte årsaker?",
+    "answers": [1],
+    "exam": "2013 Vår",
+    "options": [
+      "prokaryote kromosomer har histoner, mens eukaryote kromosomer ikke har dette.",
+      "prokaryote kromosomer har ett enkelt replikasjonsorigo, mens eukaryote kromosomer har mange.",
+      "elongeringhastigheten under DNA-replikasjon er lavere hos prokaryote enn hos eukaryote.",
+      "prokaryoter produserer Okazaki fragmenter under DNA-replikasjon, men eukaryoter gjør det ikke.",
+      "prokaryoter har telomerer, og eukaryoter har det ikke."
+    ]
+  }
+]

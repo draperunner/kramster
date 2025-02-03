@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Important contexts for software architecture defined in the book are:",
+    "answers": [0, 2, 3],
+    "exam": ".*",
+    "options": ["Business", "Modelling", "Project life cycles", "Technical"]
+  },
+  {
+    "question": "The most important technical factor that contributes to the architecture is...",
+    "answers": [3],
+    "exam": "2015 Kahoot 04: Life Cycle",
+    "options": [
+      "Architects expertise",
+      "Development tools",
+      "Stakeholder's goals",
+      "Quality attributes"
+    ]
+  },
+  {
+    "question": "Examples of dominant software development processes are:",
+    "answers": [1, 3],
+    "exam": "2015 Kahoot 04: Life Cycle",
+    "options": [
+      "Ad-hoc development",
+      "Model-driven",
+      "Pair-programming",
+      "Waterfall"
+    ]
+  },
+  {
+    "question": "What is the first architecture activity in the life-cycle?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Analyze requirements",
+      "Get requirements",
+      "Make business case",
+      "Design architecture"
+    ]
+  },
+  {
+    "question": "What is the second architecture activity in the life-cycle?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Create/Select architecture",
+      "Document architecture",
+      "Implement architecture",
+      "Understand arch requirements"
+    ]
+  },
+  {
+    "question": "What is the third architecture activity in the life-cycle?",
+    "answers": [0, 3],
+    "exam": ".*",
+    "options": [
+      "Create architecture",
+      "Document architecture",
+      "Implement architecture",
+      "Select architecture"
+    ]
+  },
+  {
+    "question": "What is the fourth architecture activity in the life-cycle?",
+    "answers": [1, 2],
+    "exam": ".*",
+    "options": [
+      "Analyze architecture",
+      "Communicate architecture",
+      "Document architecture",
+      "Implement architecture"
+    ]
+  },
+  {
+    "question": "What is the fifth architecture activity in the life-cycle?",
+    "answers": [0, 1],
+    "exam": "2015 Kahoot 04: Life Cycle",
+    "options": [
+      "Analyze architecture",
+      "Evaluate architecture",
+      "Implement system",
+      "Test system"
+    ]
+  },
+  {
+    "question": "What is the sixth architecture activity in the life-cycle?",
+    "answers": [0, 2],
+    "exam": ".*",
+    "options": [
+      "Implement system",
+      "Ensure conform implementation",
+      "Test system",
+      "Quality assurance"
+    ]
+  },
+  {
+    "question": "What is the seventh architecture activity in the life-cycle?",
+    "answers": [0],
+    "exam": "2015 Kahoot 04: Life Cycle",
+    "options": [
+      "Ensure conform implementation",
+      "Evaluate architecture",
+      "There is no 7th step",
+      "Quality assurance"
+    ]
+  }
+]

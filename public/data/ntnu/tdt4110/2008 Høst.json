@@ -1,0 +1,158 @@
+[
+  {
+    "question": "I setningen \"På Værnes regnet det forrige uke følgende: 6mm 3mm 12mm 4mm 0mm 8mm 6mm\" vil delen \"På Værnes regnet det forrige uke følgende:\" være:",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Informasjon", "Data", "Metadata"]
+  },
+  {
+    "question": "Det finnes flere forskjellige typer lagring av data i en datamaskin. Hvilket av alternativene rangerer disse typene fra raskest til tregest?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Registre -> cache -> primærminnet -> sekundærminnet",
+      "Registre -> primærminnet -> sekundærminnet -> cache",
+      "Cache -> registre -> primærminnet -> sekundærminnet"
+    ]
+  },
+  {
+    "question": "Binærtallet 10110100 tilsvarer hvilken verdi i ti-tallsystemet (desimaltallsystemet)?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["64", "134", "180"]
+  },
+  {
+    "question": "Når du sitter hjemme og leser nyheter på nettsidene til Adresseavisa så vil din\ndatamaskin typisk være hva når det gjelder datakommunikasjon?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Tjener", "Klient", "Bruker"]
+  },
+  {
+    "question": "En tjenestenivåavtale (Service Level Agreement, SLA) vil ofte inneholde en rekke QoS-parametere (Quality of Service). Hva beskriver disse parametrene?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Funksjonelle krav",
+      "Ikke-funksjonelle krav",
+      "Ruter-kapasitet"
+    ]
+  },
+  {
+    "question": "Du jobber som programmerer i firmaet Opptur. Hvem eier opphavsretten til programvaren du utvikler?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["Opptur", "Du", "IT-bransjeforeningen Abelia"]
+  },
+  {
+    "question": "Hvor mange bits trenger du for å kode de 29 bokstavene i vårt alfabet ved enkel koding der alle bokstavene er representert med samme antall bits?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["4", "5", "6"]
+  },
+  {
+    "question": "Gitt en sortert liste på 4000 verdier. Hvor mange sammenligninger må vi i verste fall gjøre for å søke etter en verdi som ikke finnes i lista ved bruk av binærsøk?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["8", "12", "48"]
+  },
+  {
+    "question": "Hvor mange forskjellige verdier kan representeres ved hjelp av 8 bits?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["128", "255", "256"]
+  },
+  {
+    "question": "Hva får man når man multipliserer binærtallene 1011 og 11001 med hverandre?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["101111001", "100010011", "110011011"]
+  },
+  {
+    "question": "Hva er fordelen med inkrementell utviklingsmetode sammenliknet med vannfallsmetoden?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Med inkrementell utvikling fullføres faser som f.eks. kravspesifikasjon helt ferdig før man går videre",
+      "Med inkrementell utvikling deles prosjektet opp i mindre deler hvor man utfører flere faser (som kravspesifisering, design, koding) for hver del",
+      "Med inkrementell utvikling begynner man å skrive koden først, og deretter dokumenterer man kravene og lager designet"
+    ]
+  },
+  {
+    "question": "Hvilken av disse enhetene benytter seg av IP-adresser for å videreformidle informasjon på nettverket?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["Nav (Hub)", "Svitsj (Switch)", "Ruter (Router)"]
+  },
+  {
+    "question": "Hvilken av de følgende er en lovlig IP-addresse?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["116.259.241.13", "8.7.9.2", "12.234.12.104.77"]
+  },
+  {
+    "question": "Hva er hovedoppgaven til en navnetjener?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Oversetter IP-adresser til domenenavn",
+      "Oversetter domenenavn til IP-adresser",
+      "Holder rede på variabelnavn når et program kjører"
+    ]
+  },
+  {
+    "question": "Hva betyr synbarhet ved programmering av funksjoner/metoder?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Alle variabler kommer tydelig frem ved listing",
+      "Variabler kan nåes fra hovedkoden",
+      "Samme navn kan brukes på variabler i forskjellige funksjoner/metoder"
+    ]
+  },
+  {
+    "question": "Hvorfor komprimeres data?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "For at det skal ta mindre plass",
+      "For at det skal kunne gjøres tilgjengelig for alle på Internett",
+      "For at data ikke skal kunne leses av uvedkommende"
+    ]
+  },
+  {
+    "question": "Hva er en protokoll?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Et sett av kommunikasjonsregler",
+      "Et program som oversetter programmeringskode til kode som kan kjøres på en datamaskin",
+      "Hovedkomponenten i en vanlig datamaskin"
+    ]
+  },
+  {
+    "question": "Hva defineres ikke som sensitiv informasjon iflg. Personopplysningsloven?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Rasemessig eller etnisk bakgrunn, eller politisk, filosofisk eller religiøs oppfatning",
+      "Eksamensresultater",
+      "Medlemskap i fagforeninger"
+    ]
+  },
+  {
+    "question": "Når det gjelder webdesign så er CSS’s oppgave å stå for",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Struktur av innhold",
+      "Presentasjon av innhold",
+      "Overføre innholdet til datamaskinen din"
+    ]
+  },
+  {
+    "question": "Gitt at du har en databasetabell med 12 poster og en med 20 poster. Hva blir det kartesiske produktet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["20", "32", "240"]
+  }
+]

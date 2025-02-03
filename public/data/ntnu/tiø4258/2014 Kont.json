@@ -1,0 +1,282 @@
+[
+  {
+    "question": "I kompendiet hevdes det at følgende elementer er sentrale komponenter i en forretningsmodell:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Strategic resources, revenue streams, marketing and accounting.",
+      "Revenue streams, partnership network, core competence and marketing.",
+      "Core competence, strategic resources, revenue streams and partnership network.",
+      "Core strategy, strategic resources, partnership network and customer interface."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om venturekapitalfond er riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "I løpet av det siste tiåret har den samlede avkastingen for tidligfase venturekapitalfond i Europa og USA vært lav/negativ.",
+      "Venturekapitalfond er som hovedregel statlig eid skal støtte opp om etablering av nye bedrifter med stort vekstpotensial.",
+      "Dette er fond som primært opererer som passive eiere.",
+      "Venturekapitalfond investerer normalt sett i mange bransjer og et stort antall bedrifter for å diversifisere risikoen til fondet."
+    ]
+  },
+  {
+    "question": "En mulighetsanalyse bør inneholde:",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "En grundig beskrivelse av mulige teknologiske løsninger.",
+      "En grundig drøfting av strategi og valg av forretningsmodell.",
+      "Visjon, forretningside, målsetninger, strategi, handlingsplan og økonomi.",
+      "En innledende vurdering av tekniske, markedsmessige, organisatoriske og økonomiske forhold knyttet til ideen."
+    ]
+  },
+  {
+    "question": "Såkalte venturekapitalister kan i mange tilfeller bidra med mer enn finanskapital for å utvikle nye teknologibedrifter. Hvilke av elementene nevnt under blir normalt ikke tilbudt av venturekapitalister?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Tilgang til relevante markedskanaler",
+      "Økt legitimitet og tilgang til et større nettverk",
+      "Bidrar til å rekruttere nøkkelpersonell.",
+      "Bistand i den daglige driften av selskapet."
+    ]
+  },
+  {
+    "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "I tidlig fase vil bankene som regel være den viktigste finansieringskilden.",
+      "I Norge er finansiering sjelden et problem siden vi har så gode offentlige virkemidler.",
+      "De private bankene vil normalt sett engasjere seg finansielt i de senere fasene ved utviklingen av en teknologibedrift.",
+      "Venturekapitalfond er den mest vanlige typen investor i nye vekstbedrifter."
+    ]
+  },
+  {
+    "question": "Hvilken av de fire forslagene nedenfor vil kunne hjelpe en bedrift til å fremme radikale innovasjoner?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "At de kun ansetter de aller flinkeste ekspertene innenfor den teknologien de benytter",
+      "At de sørger for at de som skal utvikle ny teknologi i bedriften har muligheter til å kunne konsultere med fagfolk på andre områder så ofte de vil",
+      "At de som skal jobbe med teknologiutvikling i bedriften har tett kontakt med produksjonen",
+      "At de som skal jobbe med teknologiutvikling i bedriften får muligheten til å patentere de ideene de kommer på."
+    ]
+  },
+  {
+    "question": "Alle fire utfordringene nedenfor er viktige, men hvilken av dem regnes ifølge pensum som den grunnleggende struktur-utfordringen i større bedrifter?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Å få riktig grad av arbeidsdeling og differensiering i bedriften",
+      "Å bestemme balansen mellom horisontal og vertikal struktur",
+      "Å gi riktig lønn for riktig mengde arbeid",
+      "Å sørge for at informasjon og kommunikasjon flyter godt i organisasjonen"
+    ]
+  },
+  {
+    "question": "Byråkrati er en sosial «oppfinnelse» fra sent 1800-tall. Hvilket av de fire grunnsetningene nedenfor er IKKE en viktig grunnsetning for byråkratiet?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Forfremmelser skjer på grunnlag av kompetanse",
+      "Hvert nivå i byråkratiet kontrolleres og ledes av nivået over dem",
+      "Alle byråkrater har klare regler de skal jobbe etter for å sikre likebehandling og upartiskhet",
+      "Byråkrater belønnes etter prestasjon i jobben basert på skriftlige kriterier"
+    ]
+  },
+  {
+    "question": "Hvilken av påstandene under er korrekt om forholdet mellom prestasjon (Performance) og motivasjon (Motivation)?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Høy motivasjon er et nødvendig, men ikke tilstrekkelig element i høy prestasjon",
+      "Høy prestasjon er et nødvendig, men ikke tilstrekkelig element i høy motivasjon",
+      "Høy motivasjon og høy prestasjon er to ulike dimensjoner som ikke har noe med hverandre å gjøre",
+      "Høy motivasjon og høy prestasjon er sammenfallende begreper"
+    ]
+  },
+  {
+    "question": "Hackman and Oldman har jobbet med en survey for jobbdiagnose (Job Diagnostic Survey). Hvilken av de fire faktorene nedenfor tilhører IKKE de fem sentrale karakteristikkene i denne surveyen?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Task significance (Jobbens viktighet)",
+      "Autonomy (arbeiderens mulighet til å bestemme over jobben)",
+      "Skill variety (krever jobben mange ulike sett av ferdigheter)",
+      "Decision level (på hvilket nivå befinner de beslutninger seg som arbeideren må ta)"
+    ]
+  },
+  {
+    "question": "Hva kan vi si om stigningen til gjennomsnittskostnadene?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Stigningen til gjennomsnittskostnadene er positiv når marginalkostnadene er høyere enn gjennomsnittskostnadene og motsatt.",
+      "Stigningen til gjennomsnittskostnadene er negativ når marginalkostnadene er høyere enn gjennomsnittskostnadene og motsatt.",
+      "Stigningen til gjennomsnittskostnadene er positiv når marginalkostnadene er større enn null og motsatt.",
+      "Stigningen til gjennomsnittskostnadene er negativ når marginalkostnadene er større enn null og motsatt."
+    ]
+  },
+  {
+    "question": "En bedrift har totalkostnader lik 15 000 000 ved en mengde på 1 000 og 15 500 000 ved en mengde på 1 100. Hva er da et naturlig anslag på bedriftens marginalkostnader i intervallet mellom 1 000 og 1 100?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["1 000", "3 000", "5 000", "7 000"]
+  },
+  {
+    "question": "Hva er den mest korrekte forklaringen på forskjellen mellom prisen og marginalinntekten?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Forskjellen er lik prisen for den nestsiste enheten som selges minus prisen for den siste.",
+      "Forskjellen er den deriverte av prisen med hensyn på mengden.",
+      "Forskjellen er elastisiteten ganger mengden.",
+      "Forskjellen er tapet ved å sette ned prisen på alle enhetene for å kunne selge én enhet mer."
+    ]
+  },
+  {
+    "question": "Etterspørselen til en bedrift er gitt av P = 1 000 - 2Q der P er prisen og Q er mengden. For hvilken mengde, Q, er (absoluttverdien av) etterspørselselastisiteten bedriften ser lik 1,5?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["150", "200", "250", "300"]
+  },
+  {
+    "question": "Anta at vi har tre markeder der etterspørselen, dvs. sammenhengen mellom total mengde og pris, er den samme. Det ene er et monopolmarked, det andre er et oligopolmarked og det siste er et frikonkurransemarked. Bedriftene i alle markedene har de samme marginalkostnadene. Hva forventer vi om elastisiteten til total etterspørsel i disse markedene?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Den er størst, dvs. mest elastisk i frikonkurransemarkedet og minst elastisk i monopolmarkedet.",
+      "Den er størst, dvs. mest elastisk i oligopolmarkedet og minst elastisk i monopolmarkedet.",
+      "Den er størst, dvs. mest elastisk i monopolmarkedet og minst elastisk i frikonkurransemarkedet.",
+      "Den er lik i de tre markedene."
+    ]
+  },
+  {
+    "question": "Et monopol har variable kostnader lik på 4 000Q, der Q er mengden. De faste kostnadene er 5 000 000. Etterspørselen kan skrives som Q = 10 000 - P, der Q er mengden og P er prisen. Hva blir optimal profitt for monopolet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["2 000 000", "3 000 000", "4 000 000", "5 000 000"]
+  },
+  {
+    "question": "I et duopolmarked tilpasser bedriftene seg i tråd med den såkalte Cournot-modellen. Etterspørselen i markedet kan skrives som P = 100 - 2Q, der P er prisen og Q er mengden. Begge bedriftene har marginalkostnader lik 10 og ingen faste kostnader. Hva blir profitten til hver av bedriftene ved likevekt?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["250", "350", "450", "550"]
+  },
+  {
+    "question": "Hva blir det samfunnsøkonomiske overskuddet knyttet til Cournot-oligopolet i oppgaven over?",
+    "answers": [3],
+    "exam": ".*",
+    "options": ["1 200", "1 400", "1 600", "1 800"]
+  },
+  {
+    "question": "Balansepostene for en bedrift er de samme i påfølgende perioder. Alle inntektsposter og kostnadsposter unntatt rentekostnadene er også uforandret mellom periodene. Skattesatsen er den samme. Hva blir effekten på egenkapitalrentabilitet og totalkapitalrentabilitet av at rentekostnadene øker fra periode én til periode to?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Både totalkapitalrentabilitet og egenkapitalrentabilitet går ned.",
+      "Både totalkapitalrentabilitet og egenkapitalrentabilitet går opp.",
+      "Totalkapitalrentabiliteten er uforandret mens egenkapitalrentabiliteten går ned.",
+      "Totalkapitalrentabiliteten er uforandret mens egenkapitalrentabiliteten går opp."
+    ]
+  },
+  {
+    "question": "Fra periode én til periode to øker verdi av varelager i balansen til en bedrift mens eiendeler for øvrig og gjeldsposter er uforandret. Hva blir effekten på likviditetsgrad 1 (current ratio) og likviditetsgrad 2 (acid test ratio) av økningen i varelager?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Begge likviditetsgradene er uforandret.",
+      "Likviditetsgrad 1 øker mens likviditetsgrad 2 er uforandret.",
+      "Likviditetsgrad 1 synker mens likviditetsgrad 2 er uforandret.",
+      "Likviditetsgrad 1 synker mens likviditetsgrad 2 øker."
+    ]
+  },
+  {
+    "question": "Et investeringsprosjekt innebærer en investering nå på 100 000 000. Om ett år er for­ventet positiv kontantstrøm 40 000 000, om to år er forventet positiv kontantstrøm på 50 000 000 og, til slutt, om tre år forventes en positiv kontantstrøm på 60 000 000. Dersom avkastningskravet er 8 %, hva blir forventet nettonåverdi for prosjektet?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["11 382 419", "17 520 661", "27 533 913", "45 398 255"]
+  },
+  {
+    "question": "Et investeringsprosjekt vil kunne gi positiv kontantstrøm i to år. Det er imidlertid stor usikkerhet knyttet til mulige kontantstrømmer. Bedriften regner med at det er 30 % sannsynlighet for at det går dårlig første år. Da blir kontantstrømmen 0 og prosjektet avsluttes. Dersom det ikke går dårlig første året, er forventet kontantstrøm om ett år 20 000 000 og prosjektet videreføres inn i det andre året. I så fall regner de med at det er like sannsynlig at det vil gi 0 som at det vil gi 30 000 000 to år fra nå. Hva er for­ventet nåverdi av kontantstrømmen når avkastningskravet er 10 % pr år?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["9 173 553", "21 404 959", "22 272 727", "25 123 967"]
+  },
+  {
+    "question": "Et selskap bruker et fast avkastningskrav i vurdering av alle investeringsprosjekter selv om risikoprofilen til mulige prosjekter er svært ulik. Hva er en korrekt vurdering av en slik praksis?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Så lenge gjennomsnittet av risikoen til prosjektene som gjennomføres reflekterer en risikojustert alternativkostnad til kapital lik det gitte avkastningskravet, vil denne praksisen maksimere verdien for eierne.",
+      "At forventet avkastning på investering i prosjektene selskapet gjennomfører er større eller lik den avkastningen eierne kan få ved å investere selv med tilsvarende risiko.",
+      "Så lenge avkastningskravet er lik selskapets WACC, dvs. kapitalkostnaden til totalkapitalen etter skatt, vil denne praksisen maksimere verdien for eierne.",
+      "Praksisen vil medføre en tendens til at lønnsomme lavrisikoprosjekter ikke gjennomføres og til at ulønnsomme høyrisikoprosjekter gjennomføres."
+    ]
+  },
+  {
+    "question": "Hva kjennetegner en risikoavers investor?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En risikoavers investor er villig til å ofre noe forventet avkastning for å redusere risiko.",
+      "En risikoavers investor vil alltid prøve å minimere risikoen.",
+      "En risikoavers investor er villig til å ofre noe forventet avkastning for å få mer risiko.",
+      "En risikoavers investor vil alltid prøve å maksimere risikoen."
+    ]
+  },
+  {
+    "question": "Hva kalles risikoen som reflekteres i begrepet beta som er en del av Capital Asset Pricing Model, dvs. kapitalverdimodellen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Markedsrisiko.",
+      "Diversifiserbar risiko.",
+      "Unik risiko.",
+      "Konkursrisiko."
+    ]
+  },
+  {
+    "question": "Forventet avkastning til aksjen til et selskap er 12 %. Markedsrisikopremien er 6 % og risikofri rente er 3 %. Anta at Capital Asset Prising Model, dvs. kapitalverdimodellen er korrekt. Hva er da beta til selskapets aksjer?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["0,5", "1,5", "2,0", "3,0"]
+  },
+  {
+    "question": "La \\(\\beta_A\\) være beta for selskapets aktiva, la \\(\\beta_E\\) være beta for selskapets egenkapital og la \\(\\beta_D\\) være beta for selskapets gjeld. Markedsverdien av selskapets gjeld er \\(D\\) og markedsverdien av selskapets egenkapital er \\(E\\). Hva blir da et korrekt uttrykk for selskapets egenkapitalbeta?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "\\(\\beta_E = \\beta_D + \\frac{D}{E}(\\beta_A - \\beta_D)\\)",
+      "\\(\\beta_E = \\beta_A + \\frac{E}{D}(\\beta_A - \\beta_D)\\)",
+      "\\(\\beta_E = \\beta_D + \\frac{E}{D}(\\beta_A - \\beta_D)\\)",
+      "\\(\\beta_E = \\beta_A + \\frac{D}{E}(\\beta_A - \\beta_D)\\)"
+    ]
+  },
+  {
+    "question": "Avkastningen til et selskaps egenkapital er 8 %. Avkastningen til selskapets gjeld er 4 %. Gjeldsandelen er 50 %. Selskapsskattesatsen er 25 %. Hva blir avkastningskravet til totalkapitalen etter skatt, dvs. WACC?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["4,0 %", "5,5 %", "6,0 %", "8,0 %"]
+  },
+  {
+    "question": "Anta at Capital Asset Prising Model, dvs. kapitalverdimodellen er korrekt. Som følge av den såkalte finanskrisen var det ekstraordinære avkastninger, med en negativ trend, i en periode for noen år siden. Hva skjer med gjennomsnittlig beta i markedet under slike kriser?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Den gjennomsnittlige beta i markedet er uforandret og lik 1.",
+      "Den gjennomsnittlige beta i markedet går opp og blir større enn 1.",
+      "Den gjennomsnittlige beta i markedet går ned og blir mindre enn 1, men ikke negativ.",
+      "Den gjennomsnittlige beta i markedet går ned og kan bli negativ."
+    ]
+  },
+  {
+    "question": "Du har følgende estimater knyttet til et mulig investeringsprosjekt en bestemt periode i framtida: Kontantstrøm fra drift av prosjektet er 5 000 000, rentekostnader på investeringsbeløpet er 400 000 og selskapsskattesatsen er 28 %. Du skal bruke avkastningskravet til totalkapitalen etter skatt, dvs. WACC som diskonteringsrente. Hvilken kontantstrøm skal du da diskontere den aktuelle perioden?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["3 312 000", "3 600 000", "3 712 000", "5 000 000"]
+  }
+]

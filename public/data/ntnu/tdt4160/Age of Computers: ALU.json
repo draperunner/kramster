@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Hvor finner du ALU i en datamaskin?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "På RAM brikkene",
+      "På I/O enheten",
+      "Inni prosessorbrikken",
+      "En egen brikke som ligger på hovedkortet"
+    ]
+  },
+  {
+    "question": "Hva er en ALU?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "En enhet som sørger for å hente neste instruksjon fra instruksjonslageret",
+      "En enhet som kun har til oppgave å regne ut aritmetiske og logiske operasjoner",
+      "En sentral del av styreenheten som inneholder mikroinstruksjoner og logikk for sekvensiell uthenting av disse"
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på rotering og skift?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Roteringsoperasjoner er kortere og tar derfor mindre tid",
+      "Roteringsoperasjoner tar vare på på bitene som blir skiftet ut.",
+      "Skiftoperasjoner tar kortere tid"
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på aritmetisk og logisk skift?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Det finnes ingen forskjell.",
+      "Aritmetisk skift er mye raskere enn logisk skift."
+    ]
+  },
+  {
+    "question": "Hvilket utsagn om overflyt er <em>ikke</em> sant?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Overflyt kan bare oppstå om man legger sammen to tall som har samme fortegn.",
+      "Carry-ut signalet fra fortegnsbitposisjonen er ikke nødvendigvis en god indikator på overflyt når man legger sammen tall med fortegn.",
+      "Om begge tallene er negative unngår man overflyt",
+      "Om svaret får et annet fortegn enn tallene som ble summert har man en overflyt."
+    ]
+  },
+  {
+    "question": "Hvilket av følgende utsagn er sant?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "Om man skifter et tall en bitposisjon mot venstre vil vi alltid få tallet multiplisert med 2",
+      "Om man skifter et tall en bit posisjon mot venstre og bitet som blir skiftet ut er en nuller vil dette være det samme som å multiplisere tallet med 2",
+      "Om man skifter mot høyre vil man multiplisere tallet med to, så sant tallet som står på den mest signifikante plassen er lik 0.",
+      "Om man skifter mot høyre vil alltid tallet bli dividert med to"
+    ]
+  },
+  {
+    "question": "Hvilket av følgende utsagn er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "For generelle operander bruker man logisk skift fordi den tar vare på fortegn, men det kan man ikke gjøre med aritmetisk skift.",
+      "For generelle operander bruker man aritmetisk skift og for tall bruker man logisk skift",
+      "For generelle operander bruker man logisk skift og for tall bruker man aritmetisk skift som tar vare på fortegn"
+    ]
+  },
+  {
+    "question": "Vi har en ALU med 4 styrelinjer og to 4-bits datainnganger. Den er konstruert med 4 aritmetiske operasjoner (+, inkrement, -, dekrement). Vi tenker oss at ALU-en skal modifiseres slik at den får flere operasjoner. Hva er det maksimale antall operasjoner det er mulig å <em>legge til</em> i denne ALU-en ?",
+    "answers": [2],
+    "exam": ".*",
+    "options": ["4", "8", "12"]
+  },
+  {
+    "question": "Hva er aritmetisk overflyt?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "I en aritmetisk operasjon er aritmetisk overflyt når det ene tallet er større en det andre",
+      "I en aritmetisk operasjon kalles mentebitet den aritmetiske overflyten.",
+      "Når resultatet av en aritmetisk operasjon fører til at den logiske operasjonen blir et bit lenger.",
+      "Når resultatet av en aritmetisk operasjon ligger utenfor representasjonsområdet har vi aritmetisk overflyt."
+    ]
+  },
+  {
+    "question": "Hva er forskjellen på aritmetisk venstreskift og logisk venstreskift?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "De er helt like, bare at aritmetisk venstreskift ikke flytter på fortegnet, det blir holdt igjen.",
+      "Aritmetisk venstreskift setter inn 1-ere i steden for 0-ere",
+      "De er helt like, bare at logisk venstreskift ikke flytter på fortegnet",
+      "Det er ingen forskjell mellom dem."
+    ]
+  }
+]

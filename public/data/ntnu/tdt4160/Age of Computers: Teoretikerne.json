@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Gitt to uttrykk (1) og (2). Der uttrykk (1) er: (A + B)C = AC + BC og uttrykk (2) er: AB + C = (A + C)(B + C). Hvilket alternativ under er korrekt?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "(1) er sann mens (2) er usann",
+      "(2) er sann mens (1) er usann",
+      "Både (1) og (2) er sann",
+      "Både (1) og (2) er usann"
+    ]
+  },
+  {
+    "question": "Von Neumann-arkitekturen består av fire hoveddeler. Hvilken er <em>ikke</em> en av de fire hoveddelene?",
+    "answers": [4],
+    "exam": ".*",
+    "options": ["ALU", "Kontrollenhet", "Minne", "I/O", "Tastatur"]
+  },
+  {
+    "question": "Hvilket uttrykk er <em>ikke</em> ekvivalent med \\(xy + x\\neg yz + \\neg xyz\\) (Her betyr \\(\\neg X\\) ikke)?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "\\(xy + xz + yz\\)",
+      "\\(xy + \\neg yz + \\neg xyz\\)",
+      "\\(xy + xz + \\neg xyz\\)"
+    ]
+  },
+  {
+    "question": "Hva er rett i forhold til deMorgans lover? (\\(\\neg X\\) betyr X invertert)",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "\\(\\neg (a + b) = a * b\\)",
+      "\\(\\neg (a * b) = \\neg a + \\neg b\\)",
+      "\\(\\neg (a * b) = \\neg (a) + b\\)",
+      "\\(a + b = \\neg (a * b)\\)"
+    ]
+  },
+  {
+    "question": "Hva er <em>ikke</em> en egenskap ved von Neumann arkitekturen?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Data og instruksjoner er lagret i separerte minnebrikker",
+      "Det er mulig å adressere data uten å ta hensyn til hvilken type data det er snakk om",
+      "Utførelse (execution) blir hovedsaklig gjort i sekvens"
+    ]
+  }
+]

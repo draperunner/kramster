@@ -1,0 +1,302 @@
+[
+  {
+    "question": "A Layer offering a connection-oriented service must use a connection-oriented protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When a data packet moves from the upper layer to the lower layers, headers are added.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With non-persistent connections between browser and origin server, it is possible for a single TCP segment to carry two distinct HTTP request messages.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "For a P2P file-sharing application, there is no notion of client and server sides of a communication session.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A machine with a single DNS name can have multiple IP addresses.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "E-mail does not use DNS.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "POP3 servers do not carry state information across POP3 sessions.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Only SMTP can be used between a user mail agent and an Internet mail server.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "A user requests a Web page that consists of some text and two images. For this page, the client will send one request message and receive three response messages.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Two distinct Web pages (for example, www.item.ntnu.no/index.html and www.idi.ntnu.no/index.html) can be sent over the same persistent connection.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Transport layer protocol data units are processed by both routers and end hosts.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "All transport layer protocols must perform flow control.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a Go-Back-N protocol, the sender is generally allowed to transmit multiple packets without waiting for an acknowledgment.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "TCP provides message stream transport service.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "When TCP is used, the TCP port number at the receiver side must be the same as the sender side.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "UDP is not a reliable protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A is sending a large file to Host B over a TCP connection. If the sequence number for a segment of this connection is n, then the sequence number for the subsequent segment will necessarily be n+1.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 90; the second has sequence number 110. Then, there are 20 bytes is in the first segment.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose Host A sends one segment with sequence number 38 and 4 bytes of data over a TCP connection to Host B. In this same segment the acknowledgment number is necessarily 42.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Suppose a process in Host C has a UDP socket with port number 6789. Suppose both Host A and Host B each send a UDP segment to Host C with destination port number 6789. Then, both of these segments will be directed to the same socket at Host C.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The Network Layer is responsible for providing reliable end-to-end transmission.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The service provided by the Internet Network Layer is connectionless.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The 32-bit binary equivalent of the IP address 223.1.3.27 is 11011111 00000001 00000011 00011011",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "IP guarantees that the packets will arrive in the right sequence.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The forwarding process of a router is responsible for transferring a packet from an incoming link to an outgoing link.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a packet-switched network, routers must remember what connection each packet belongs to.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Each interface of a router in the Internet should have one IP address.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In the Internet, a node may receive multiple copies of the same packet.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "With DHCP, a host may be assigned an IP address that is different each time the host is connected to the network.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "NAT (Network Address Translation) is used to translate hostnames into IP addresses.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Link layer also needs to provide flow control.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Error control based on even parity means that a parity bit is added so that the number of ‘1’s is even.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "CRC (Cyclic Redundancy Check) detects all errors.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In CRC (Cyclic Redundancy Check), the generator polynomials used by the sender and the receiver need not be the same.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Dividing the binary value 10011100 by 1001 using modulo-2 without carries gives a remainder of 101.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Bridges use IP addresses to route frames to their destinations.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Hubs use the frame destination address to route frames to their destination.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "The slotted ALOHA protocol is more efficient than the pure ALOHA.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Ethernet provides connectionless service to the network layer.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If all the links in the Internet were to provide reliable delivery service, then the TCP reliable delivery service would be redundant.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Ethernet and 802.11 use the same frame structure.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Hosts associated with a base station are often referred to as operating in infrastructure mode, where traditional network services, such as address assignment and routing, are provided by the network to which a host is connected via the base station.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Before an 802.11 station transmits a data frame, it must first send an RTS (Request to Send) frame and receive a corresponding CTS (Clear to Send) frame.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "It is possible for a CDN (Content Distribution Network) to provide worse performance to a host requesting a multimedia object than if the host has requested the object directly from the distant origin server.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "Circuit switching gives higher variation in the end-to-end transfer time than packet switching.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In a packet switching network, assume that all packets have the same length and the queuing delay is ignored. Then, for the connection-oriented service, the connection setup time is always longer than the propagation time of a packet from the sender to the receiver.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "In order to maintain registration, SIP (Session Initiation Protocol) clients must periodically send REGISTER messages.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "If stored video is streamed directly from a Web server to a media player, the application is using TCP as the underlying transport protocol.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "FTP runs on top of UDP.",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["True", "False"]
+  },
+  {
+    "question": "RTSP (Real-Time Streaming Protocol) does not restrict how streamed media is transported.",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["True", "False"]
+  }
+]

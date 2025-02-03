@@ -1,0 +1,97 @@
+[
+  {
+    "question": "Hvilken påstand om en prosessor er ikke riktig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "En generell prosessor trenger bare instruksjoner for aritmetiske operasjoner og betingede hopp",
+      "En prosessor er ofte delt inn i en utførende enhet og en kontrollenhet",
+      "Hovedoperasjonen til en prosessor kan beskrives som en fetch-decode-execute løkke",
+      "Prosessorer bruker ofte parallellitet for å øke ytelsen"
+    ]
+  },
+  {
+    "question": "Hvilken av disse påstandene om RISC-maskiner er ikke korrekt?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "RISC-maskiner har mange generelle registre",
+      "RISC-maskiner har få og enkle instruksjonsformater",
+      "RISC-maskiner aksesserer kun minne gjennom Load- og Store-instruksjoner",
+      "RISC-maskiner ble oppfunnet for å tette gapet mellom høynivåspråk og maskinkode"
+    ]
+  },
+  {
+    "question": "Hva er det viktigste kjennetegnet ved en Von Neumann-arkitektur?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Arkitekturen mangler flyttallsenhet fordi programmereren bør kunne holde styr på komma",
+      "Arkitekturen har et hurtigbuffer til data og et til instruksjoner",
+      "Både program og data er lagret i samme minne",
+      "Von Neumann-maskiner er alltid CISC"
+    ]
+  },
+  {
+    "question": "Hvilken av disse påstandene er ikke en grunn til at man har begynt å bygge flerkjerneprosessorer\n(eng: Chip Multiprocessor, multi-core architecture)?",
+    "answers": [3],
+    "exam": ".*",
+    "options": [
+      "Det er vanskelig å øke ytelsen ytterligere ved hjelp av teknikker som utnytter ILP",
+      "Avanserte enkjerneprosessorer er så kompliserte at det å designe og verifisere dem utgjør\nen betydelig kostnad",
+      "Det er vanskelig å designe enkjerneprosessorer med høy ytelse og et akseptabelt effektforbruk",
+      "Når man plasserer flere prosessorer på samme brikke, senker man behovet for minnebåndbredde"
+    ]
+  },
+  {
+    "question": "Hvilken av disse påstandene om flerkjerneprosessorgenerasjoner (eng: Chip Multiprocessor generations) er ikke korrekt?",
+    "answers": [0],
+    "exam": ".*",
+    "options": [
+      "Første generasjon med flerkjerneprosessorer er det beste valget hvis du trenger rask kommunikasjon mellom prosessorkjernene",
+      "Andre generasjon med flerkjerneprosessorer deler hurtigbuffer mellom prosessorkjernene",
+      "Tredje generasjon med flerkjerneprosessorer prioriterer throughput fremfor høy ytelse per\ntråd",
+      "Tredje generasjon med flerkjerneprosessorer benytter multithreading i prosessorkjernene"
+    ]
+  },
+  {
+    "question": "Hvilken påstand om et set-assosiativt hurtigbuffer (eng: cache) er riktig?",
+    "answers": [2],
+    "exam": ".*",
+    "options": [
+      "Et dataelement kan lagres på kun en lokasjon i hurtigbufferet",
+      "Et dataelement kan lagres på alle lokasjoner i hurtigbufferet",
+      "Et dataelement kan lagres på noen bestemte lokasjoner i hurtigbufferet",
+      "Set-assosiative hurtigbuffere er lite brukt i moderne prosessorer"
+    ]
+  },
+  {
+    "question": "Anta en prosessor med ett nivå hurtigbuffer (eng: cache), en hurtigbufferaksesstid på 3\nklokkesykler og en minnelatens på 400 klokkesykler. Hva blir den gjennomsnittlige minneaksesstiden når 95% av\nforespørslene treffer i hurtigbufferet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": [
+      "3 klokkesykler",
+      "23 klokkesykler",
+      "380 klokkesykler",
+      "400 klokkesykler"
+    ]
+  },
+  {
+    "question": "Mystisk Dark stakkmaskinkode:\n<pre>\n    push 4\na:  dup\n    push 2\n    lt\n    jtrue e\n    push 1\n    sub\n    jmp a\ne:\n</pre>\nHusk at:<br />\n• lt: resultat ← nest øverst < øverst<br />\n• sub: resultat ← nest øverst − øverst<br />\n\nDark stakkmaskinprogrammet over kjøres på en tom stakk. Hvilken verdi ligger igjen på\nstakken når programmet har kjørt ferdig?",
+    "answers": [0],
+    "exam": ".*",
+    "options": ["1", "2", "3", "4"]
+  },
+  {
+    "question": "Mystisk mikrokode:\n<pre>\nMAR = SP - 1; rd\nMAR = SP\nH = MDR; wr\nMDR = TOS\nMAR = SP - 1; wr\nTOS = H; goto Main1\n</pre>\nKoden over implementerer en IJVM-instruksjon for Mic-1. Hvilken?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["Invokevirtual", "Swap", "Bipush", "Istore"]
+  },
+  {
+    "question": "Flyttall på formen \\(n = f \\dot 2^e\\) er kodet med følgende flyttallsformat:\n<img class=\"img-responsive\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvYAAAAyCAIAAAC4ZQj8AAAAA3NCSVQICAjb4U/gAAAAGXRFWHRTb2Z0d2FyZQBnbm9tZS1zY3JlZW5zaG907wO/PgAAIABJREFUeJztnXdcFDkbx7N0FhREQZTzbBxKUVFERVFURF0L4Cu2w94Q9bBgQSwoVuwdLFg4D06POyuoeFYQFcUGCB4CKkhH6W2XmfePfC7vvNuYnZ2lrPn+NTuTZLJJfplM5skTDkmSAIPBYDAYDEa5UGnsDGAwGAwGg8GwDx7iYDAYDAaDUULwEAeDwWAwGIwSooaO9u3bl5+f34hZwWAwGAwGg2GMoaHhqlWr0M//DXGePn3K5XJ1dXUbI1eY5gdBEO/evTM3N1dVVW3svGAwSgVJkklJSVhcGIxMlJeXp6WlUc9w0Iqq7t27Hz58eOTIkY2RMUzzo7y8vEWLFkVFRQYGBo2dFwxGqaiqquJyufn5+YaGho2dFwym2RAVFeXl5ZWSkoLOYFscDAaDwWAwSgge4mAwGAwGg1FC8BAHg8FgMBiMEqJWfxAMBoPBKBFfv349ffp0SkqKqanp3LlzjY2NGztHGIxCYHkWp6Sk5OzZs15eXpMnT16xYsWlS5eKi4vhpUWLFlVWVgqFr62tnTx5cseOHU+ePMluTliHJMmTJ0+ivyNKTk7OqlWrqqurZU02ISFh27Zttra2GRkZNGMxKDeSJHfv3l1WViZT9pojqKY+fPgQIzslJSWN/Q8w4omLixs3btyNGzdohsfiEsvr16/Nzc0BAHv37m3duvWgQYO+ffvGIB3lFlozejbVy3ctHPJfunXrdvv2bVIOfvvtt7Zt2wIA2rdv7+TkZG5uzuFwVFVV7e3tnZ2dAQAfPnwQinLlyhWYDU1NTYFAIM/dFUpBQYGLi4ufnx9BEKJXc3JyVqxYoaWlBQAoKyujn+yaNWs6d+6M6iI1NZVmRGbldv369V69ej19+pR+DqUA22VRURErqbEFtaaioqKWLl0K2yR97t+/39h/AiOGsrIyU1NTAMCRI0fohG/W4oJvg/n5+aykRqWioqJTp062trYEQbx9+1ZdXR0AEBkZKWs6Si+05vJsqpfvSji3b9/u1q0b9QxrQ5wjR47Av3f06FH094qLi729vVFhPXz4UCjW27dvVVRUAACWlpaMb61oEhMTTUxMDhw4IHopLy/P29tbW1sb/UeZhjilpaVJSUloXSj9xsS43OLj401MTKKjo2WKJZYmOMQRW1MFBQXI25ORkVFGRkYVhfLy8uzs7MTExH379sHpejkH+hgFMX/+fFiJNHvqZi0uxQ1xfv31VwDAunXrSJI8f/48AEBPTy87O1umROoVmrGx8cePH5u10JrFs4kO35VwFDXEyc7Oho/5efPmib2rpqYmACAsLEz0akxMzMGDB3NycpjdWtGkpqYaGxvv27dP9FJ6evr27dsfPXp08+ZNZkMcCI/Hk7UxkTTK7cuXL8XFxaLno6OjW7VqFRcXJ2s+hWhqQxwpNTV06FBYwoMHD5aSQmxsLIfDuX79usLyqORIanLyc/nyZQ0NDZl6akgzFZfihjijRo0CAISHh5MkWVNTc/PmTVklTEdoQ4YMkZJCUxOapNps4s8mOjQp4UjpH9gSjqKGOMePH4fFERoaKjZAYGAgAECsKpoy3759g5O69U67mZiYMB7iuLi4MGhM0uHz+UOHDk1ISBB71cfHp0OHDnKOTprUEEd6TU2YMAGWsIODg/R0bGxs/vrrL4VkUdmR3uTkITs7u02bNrt372bQUzdTcSloiFNbWwvfNjMyMpiloHxCU1y7bXSalHDqLWdWhCM6xGHH3Bg5EywsLBQbwMPDw8bGJjs7m5XbNRi//PLL58+fAwMD63Wj3tQ2vti4ceODBw8kXfX19S0pKZkzZw75r2/r5o70moLTp3Tw8fHp1KkTmzn7bpDe5BhDEMScOXN+/vlnJycn1hNnRvMV17t372pqagwMDDp27MgsBeUTmoLabaPT1IRTbzkrSDjsDHHQVNiZM2dqa2tFA3A4nJkzZ3758oWV2zUM165du3DhwogRI2xsbBo7L7Jx5cqVXbt2SQnQokWLOXPmXLt2DX6Mb+6wWFNubm69e/dmJVffFfU2OcYcPXo0MzNTQYkzoFmLKz4+HgBgY2PD4XAYRFc+oSmu3TY6TUo4dMpZQcJhxy9O9+7d4cHr168XL14cFBSkpiacsru7e7t27cRGr66uvnXrlrOzs9iXAIFAkJKSEh8fX1NTY2ZmZmdnB+daxUIQRGxsrL6+vpWVFQCgsLDw9u3bFRUVffr0kUnYJElu3rwZAAA/XTckdXV10dHR79+/19bWHjRoUNeuXSWFFFtuoaGhc+fOhce5ubn6+voAAF1dXXiAGD169KFDh/z9/d3d3eGqimYKWzUVHR2toaHRv39/+LO2tjY/P18ojIaGhpGRUX5+PnUcL1q2JEk+efKkTZs2ZmZmAIDk5OS4uLjKykpLS0t7e3spb7oEQcTHxycnJxcXFxsaGtra2sKlEJICM2jq1dXVSUlJr1+/BgBYW1v36dNHbEiZEqfZ5BiQlJQEX/6oFv3y8J2LCw5x+vTpwyAuW0ILDAx0d3dv2bKlUOKvXr3S1tY2NzcnSfLOnTsfPnwYMWIEVBAKk5SUlJqampWVpaen179//27duknPcGZm5suXL3Nzc7t27WpjYyO0mx6d2pT+bAKyaJatZxMdmpRw6PcPChEO+mQljy1OUVERNbsjR47Mzc2tN5ZAILh79+7cuXP19PQAAHw+XzRMdHS0mZlZ3759vb29hwwZAgDQ0dGZOHHijh07QkNDw8LCoqKiSJLk8/n37t1bvHgxtNUPDAwkCCIoKIg6GHJzcysvL6f5j+7evQtjJSYm0gmPxCanLc6tW7eE5m8nT54s9HlSSrldv35dR0cHzSFraWnp6Ojo6OisXr1a6KYlJSWwCZ46dUrWDENYtMWpq6u7efOmp6eni4vLxIkTly9fnpWVRTMunZqaOHEiDCPFRGD+/PnUoigsLNy9ezd1Pt/GxubChQskSYaEhMAxvaqq6sSJE+/evYtiJSUlrV+/Hi65DAsLy87OHjt2LLU2LSws4uPjRe9OEMTp06d/+OGHn376aeHChV5eXjCRvn37UtMn5WjqAoHg8OHDbdq0sbKyMjMzg7VvbW1NzQ+DxOk3OVmprq7u2bPnrl274M9Xr17BWzA2KWhG4mLXFic4OHjr1q1bt27t0qULAMDV1RX+lCl7rAiNIAgDAwOqOernz5937dplYWEBADh79mxZWdmIESNgIrq6ugUFBTDYtWvXevfu3adPn7179x48eHDw4MEAgNGjRxcWFoq9UWxsbK9evTp37jxjxowlS5a0atVKW1t7yZIlFRUVMID02qTzbKKpWdafTfXSpIQjU/8gv3AUuGgcGhQj9PX1AwMDpVjpvnnzhsfjdejQAUURbUZXr17lcDg8Hg9dQpZTAAANDQ1NTU24Rub27durVq1CjhkOHjw4b948a2vr9evXb9my5ccff4TnN2/eTPPvzJo1CwDQrl07sY5wRGFliHPkyBEVFRULC4vx48dTX1+sra2RAOiU25QpU+Al6TZ0cLa5XsNASbA1xHnw4EGPHj0cHR0fPXpEEARBEI8ePeratevnz5/pRKdTU/X2vAUFBQYGBqK6SktLQ29+AQEB6LyXlxeXy7158yY18O7du3v27InqJSAg4Mcff7SwsJg9e7arqyvq0Vq2bJmcnEyNWFtbO23aNADA4sWLUW3y+XxPT08YZffu3Sgws6ZeVlY2cOBAJyenvLw8eOb169dwVlVXV/ft27fyJE7SbnIy4e3tPXjwYNSHyNlTNy9xsTjEIQhi7969fn5+vr6+MOerV6/28/Pz8/P79ddf6afDitDCw8MBAGiIs2XLFmtra1TawcHBPB5vwIAB6A0eFnJISAiHw+nWrVt1dTWMWFdXN2DAAACAs7Oz6P9dsWKFiorKjh07UFYvXLgAExw2bFhdXR0KLLY26TQD+ppl/dlUL01QOPT7BzmFo8AhDkmS+/fvB/9Pv379Xr16JSVKaWkpms4SKpT8/HwjIyPw/+4TCIJAn4HfvHkjlJqfnx+8pKOj4+Pjg+o4KysLPmD09fWp7VsK8PXdzs6O1j9naYjTsWPHe/fuwZMEQRw7dgyV5LZt26hRpJQbSbs9LViwAACgrq7OIM8kS0Oc/fv3q6ioeHl5CdXL+vXraWqeTk2hnrd79+6/UggJCTly5MiaNWugEwixrw5RUVEwbpcuXaqqqkiSTE1N5XK5wcHBYu81btw4GF5fX/+PP/5AnWxSUhLq5iZMmECNsmrVKthlCD086urqkKngpUuXqJdkbeoTJkwwMDAQeuUNCgqCiTg5OVFvzUBHrA9x/v77b319ferCHzl76uYlLkWsqHrz5g0AoFWrVjRf24SQR2jnz58/evTookWLuFwuoAxxIK6urjBWz549T58+TZJkcnIyj8fz8PCA7zw//PADAGDEiBHUWHv27AEAcDgcoRlff39/AICvry/1pEAgaNOmDbzLkydP0HkptSm9GciqWRafTdJpmsKh3z/IKRzFDnFIkoyIiBCa0VJVVfX29kbTg6LAuVPRQgkODobnhRatHT58GJ7funWrUFKhoaHw0pIlS4QujR49Gl7KzMys9198/PgRBh47dmy9gSGsDHHgdxAqO3fuhJdatmyJ5mwhksqNpN2efHx8YDCh2QiayD/EgX6+HRwcRGf7NmzYQOdLB82aQj2vdCTNji5cuBAG8Pf35/P5AwYMcHFxkfScQKW6c+dOoUsvXrxA93r58iU8mZKSAj/Di9Y+SZL379+H4du3b19ZWYnOy9TUHz16BABYsGCBUMi8vDyUn6SkJGaJQ9gd4hQVFZmYmISEhFBPytlTNy9xKWKIc/bsWQDA8OHDGcRlV2hCQ5xNmzbB80JDf0hZWRkcBDg6OlLPh4SEwFjUr0JpaWnq6up6enpfv34VSmfbtm0w/LNnz9BJ6bUpqRkw0CxbzybpNFnh0O8f5BSOohaNI8aMGZOUlOTr64vMjevq6vbt2+fk5PT161exUVq0aCH2PHoelJaWUs8PHz4cHnz69EkoCjKtErVjgu8BYmOJ8vnzZ3ggZJ6maGxtbYXOLF26FJZPaWnp5cuXqZcklRt9UCnRKRPWSU9P/+WXXwAA+/fvF1qAWlFRER4ePnny5HoTkbWmhgwZwqdQW1tbXFyckpKyaNEiKbH27NkD28/27ds9PDzS0tJOnjwpyTxQR0cHHoiuibWxsYH2ZACAv//+Gx4EBQWRJAkAELvAxMHB4aeffgIAZGdnX716FZ2XqanDoWRNTc25/ycyMhJZfVKHX2zpiBkkSXp4eAwcOHD69OksJvtdiUss8FHHzNZYTqHV1NTk5+ffv3+/b9++ooFRaYs1ZNbV1T179qy7u7vQVwIkwKKiInTy0KFDfD5/+PDhrVq1EkrHx8cnIiIiJSWlX79+dP4CkNwMGGi2ATSFhSMWloc4AAAul7t9+/ZXr17Z2dmhk7Gxsfb29jJt9lZeXg4PMjMzqefR9hky7Y6LLCH4fH69gZF3nwYe4oga7evq6qLx7/Pnz9m9HeoFJHkzUijr16+vqamxs7Oj9rkkST579mzUqFGenp5ie0MhZK0pDoejRgG+8HXr1u3o0aM9evSQFKtly5ZolHDmzJmTJ0/CT6gM+Pnnn+HBP//8Aw/u3LkDD8S6KuFwOMhgGdl7SkeoqZMkCYdT//zzzxURhg0b5uLi4uLiQtLzRSGTjpgREhISGxsbFBTE7hqT70pcYnn58iWQ8FSuFzmFpqGhYWhoOHTo0LCwMCmxJC2VnTZt2oULF5Chm0AgCA8PP3ToEPxZU1ODQkZERAAAxK5pUlVVHTNmjPRFWDRhV7NsaQoLRyzsLBoXxcrKKiYm5ujRoytWrCAIAgCQnJzs6+srZJUsBUtLS3gQFRWFJs0AAKqqqhwOhyRJKc8kOUFb4KI38kYErjUAAFA/K7ACGi9TX4MahrKyMrhnG5fL3blzJ5/PLy0tTUtLIwiiXbt2p06dgjsh1wtbNaWqqip9KSyPx5s1axZ02IDeaBmAJnLT0tLgQXp6OjyoqqoS+y+QQSKz+5aXl+fm5gIAli1bNnXqVAYpNCTp6eleXl7h4eEN83ahlOISC0EQ0FMAs1kctoRmamoKZziYUVBQcOrUqYiIiDFjxkydOpU69QgAqKyshLJCZjcKQtGaZZYlLByxKGqIAwCAZqR6enrIX+GJEydWr16NennpzJs3LyAg4Nu3byEhIZs3b0a7gr148YIkSRMTkzFjxigo53DZG6DMJDUiaBqTLQ8HCPT2A20AG5KYmJjq6moAgIeHR+fOndXV1Vu0aGFsbCxrTlisqZUrV0p/+3F0dIRDnHXr1o0fP566GS990KID+OomEAiqqqrgmaysLLFdM4pCfVulD3oZysnJYRC9gdm/fz+fz9+yZcuWLVuELqEq3r9//++//w4AMDExuXjxojy3U0pxieXDhw/l5eVcLpfZCINFoV2+fJnBY7i8vHzdunWhoaHr169/+PChmpoaWiSFQI6skOWQImgAzTIAC0cSLAxxzp0716lTJ7QBmxCzZs3Kz89fs2YNAIAkyefPn9Mc4rRp0+b27dvOzs65ublOTk7h4eGmpqbZ2dnLli3r3LnzlStXFLdnAmq1xcXFCroFfdDEHdoGiy2QdZSiX3pEgR8fNTQ0XFxckGtsBrBYU5L8UkJycnKWL1/u4ODw8OHDysrKBQsW3Llzh8GEMIrSvn17AICamlrLli2htVlmZiZ1AS0CPV3QgiyZQFZxCQkJDKI3MPD58fjxYylhMjIyMjIyAABS/I/RRCnFJRZoiGNtbV3vXjRiYVFoaHqePk+fPnV3d8/Ly3vy5ImUyXv011JTU5nnrz4aQLMMwMKRBAtDnLKysrVr1z59+lRSj79kyZK1a9fCiRxYxDSxtbVNTk62tbXNy8vr37+/vr6+kZGRq6urt7c364NHKsjKpykMcdCuFw4ODuymjBqTTFZNrABXY3Xr1k2e8Q1QTE19/fp12bJl58+fRx+hSZKcN2/ewIED//zzzz59+iQlJd29ezc4OHj+/PmyJo4mrgcNGgQPrKysYmNjAQBv3rwZP368aBQ0+0LfTJJK69at4Yfdy5cvBwUFSSrwmJgYS0tLUSPNBmb69OmSbLBycnLg0ptp06bBNQdCHnIZoJTiEos8hjigUbvEvLy8cePGFRUV7dixQ7pxgpGRkZqamkAgePz4cU5OjqSXlm/fvsnZzhWtWQZg4UiChSGOqalpXFxcZGSkkCNXhLa2to6ODpwuQxNcdCAIYt26ddOnT/f19W1IP+impqbGxsa5ubky2UcrCGhY3rp1a0dHR1njQisoSaDGNHDgQGZ5YwycyZPe0ZAkWe80iSJqyt/fPzMzk2pkd+LEiejo6Hfv3mloaJw5c8bOzo4gCG9vbx6PJ+tLDLQy1tDQQGIZO3Ys7C7hJLzoX4YzXhwOR2xnWi9cLtfS0jIxMbG4uPj06dOLFy8WDZOZmenr64sWu8qD9CZXL/b29vb29mIvpaSkwJ564MCBDAaXYlFKcYlFnuVUgLbQaBqty8Tx48ehWQb09SflXpqamn379n369GlVVdWOHTuOHDkimtqTJ09+//13ZKqMkKndKlqzDGguwqm3nFkXDgsrquDHXU9PT2jVKMqXL1/g+EZdXV3UqBP9Z6E/T5LkkiVLysrK/Pz8aI5vpAhMphbM4XBGjhwJAIBeaOW8tTyQ//oD9fHxEbJrk1RugGISiIwExQJfNbp06YKM4xoMuAGCJD8CAIDc3NxJkybVW6o0a4r+UoW4uLhjx45R9+ZNTU319vYOCAiA39f79eu3YsUKAEBpaemiRYtkqneSJM+dOwcAmDFjBprBXrhwIayv5ORk5MGCyvXr1wEAkyZNEtqvR9JdRNuDm5sbPPDx8YFv81RycnLGjRu3cuVKNM/PQEdSmlxZWdlvv/1269aturo6Sck2CsoqLlHIf52jMJ7FoSk0aGAHABAIBMxuJAq0kgYi3QWaKaFuGDdz5kx4EBQURHWyAHn79u28efM2bNiAzkivTUnNgIFmGWhKmYRDUzVAAcJhYYjTsWNHVVXVzMxMV1dXscZoBw4cgAfe3t7IahgBv1kAAKC3K8S1a9eCgoJev3599uzZ6OjoDx8+5OXlVVRUSBmsICsw0faESlbsRuii/Oc//wEAFBYWJicn1xuYpHhRk0fborZpV65cSUhIcHR0hI9VKpLKDfxr5wEAePLkCTx4/PixkAkeQRAPHz4EAEyYMIFxhhnTvXv34cOHp6eni20w2dnZbm5ua9asoWPsQqemkB2ikI8lISIiIoYPHy4QCNAuOXw+f+bMmZaWllTHOf7+/vBj9o0bN6A7NbEILfcAAERFRb148cLY2DggIACdbNOmDXrdhA5bqcTFxT179qxt27bI4yVEpqbu6ekJDTzLysocHBwCAgI+ffrE5/MzMzMDAwNtbW179uxJXbTIQEeSmhxJkoMHD54+fTqPxxs7dmwjdtbfj7hEycrKKiwsVFdXZ2AHg6AjtIKCAngg04pfVDVi5dm6dWt4cOjQIRiSJMmbN2+ixwqcUYA1NXv2bPj6JBAIJkyYMH/+/Ojo6KysrDdv3vj7+9vb2yNX5hDptSmpGTDQrKyaUjLh0FENUJBwkBNAebwbIz8EHTp0CA8PR54NoRk8vDRp0iRRV6EZGRnoi0BkZCT1kqTl5RwOx8DAwMHBQXQPLFTirq6u1PM1NTXIDxt1ux8p1NXVwe++gYGB9QamzvAjX9f02bp1K4w7btw45Iycz+eHhIRoamqOHj1a1GOylHIjSRIZnXG53I0bN3p5ednb28PNBxDQn4GqqirNraBEkdO7cXx8vLa2tpAL8Nra2mPHjjk7O6ekpNBMp96aio2NRWWlpqa2cePGixcvRkZG3rt3LyoqKjw8PDg4eN26dbBnBADo6enBdkUQxOzZswEAN27cEEoTeTFXV1cX2iYT1aaKisqGDRtKSkpgJiMjI7lcrqGhIdoQigoa9GzatAnJ5O3bt23btjUxMRF1CSprU4+MjJRkhePs7FxbWytP4qTkJie0W3t4eLjYOqIDerLK5KS1mYqLXe/GcD6jd+/e8iRSr9CEzDHhBsn1IhAI0NpYHo8n6jQcurqBmJmZTZo0ydTUlMfjQa8TAAAjI6MZM2aMHz8ehk9MTJTktsrf318ocSm1Kb0ZkDJqVlZNKZlw6KiGZEM4itrAYfTo0WPGjDl06JCbm5u+vr6mpmavXr169OgBe9VOnTr99ddfQm33/v37s2fPpq4e1NbWnjZtGhJGdXX1hg0bpH+imjRpEkz22bNnaKMTyJAhQ06cOEGS5KlTp+Dm9RBVVdXJkycL7YMoFjgXBz+XiIXP569evXrKlCnU5W0tW7acNm3aqlWr4CssHerq6kJDQ+3s7FRUVDgcjoWFRb9+/bhcroWFxblz54Q2Lqm33EiSJAgC7TkAABg7dqzofrzQnfnMmTNpZlIU+TdwSEhIsLKymjlzZnBw8PHjx+fOncvj8aj7OtFEUk0FBgba2NjIuu4JepF/9OgRMt8bOXJkdHQ0SvbcuXNoPAQA0NLSmjt3bmlpKbyKuoYDBw7weDxtbW0bGxtDQ0MNDQ13d3ch1/VUoqOjHRwcOBxOx44dJ0+ebGNjY2Bg4OXlJVTCjJv6s2fPqN44AQCdOnW6cOECtYExTlxSkyMIgvrVz8/PT6aapcKsp26m4mJ3iAM3SPL09JQzHSlCs7W1FRVa7969ly9fLiXBzZs3Cy1it7Ky8vT0FOo8t23bhhYGtmrV6ujRowRB8Pl8tJqpX79+ubm5KPzHjx8nTpxIXTtmZWX16NEj0QyIrU06zQBCR7PMNKVkwqGjGpIN4YgOcTjkv/Nm3bt3P3z4MPzgKit37tyxsLCAppcCgeD58+cfPnwoKCjQ1dW1tLTs168fM2Ph4ODg58+fb9iwoaCgoKCgoLCwsKCgoKioqLy8PD8/H850PXz4EDnFZxeSJF1dXW/dupWZmcnYm61MFBcXp6am5uXlaWlpdenShebqerGQJJmSkpKenm5mZibqCaOmpqZHjx4lJSWJiYminw5pUl5e3qJFi6KiIjmdTX358uXNmzc6OjpmZmbSV25LouFrSgrbtm3buHEjACAsLGzKlCmfPn1KSUnhcrk9evSgs44jLy8vOTm5rKysbdu2vXr1kuTvlTGfPn16//49h8MxNzc3MTFh0RGqpCZHEERqaqqamtqoUaM2bNgAJ8YanuYlrqqqKi6Xm5+fzzgFKi4uLteuXbt48SKdTVGk0IhCy8/Pf/36tba2tq2trZaWFjxZUVERExNjYmJiYWEh6oS3oKAgISFBIBD06NHD2NhYUlOXXpt0UJBmlUw49ZYzK8KJiory8vJKSUn5vxtDWNmGky0Igti0aZOVlZWU/Ttra2t5PN7hw4cVl42ioqIff/yRzn6QzQs403D16lV5EmFlp3G2aDo1hWZxwsLCGjsvTYi8vDxDQ8O8vLzGzojCYUVcLM7i1NXVtW7dWktLq7i4WP7Umo7QvhOwcGRC4dtwssWOHTv8/f09PDykuDhUV1fv3LkzK3uOSMLAwODSpUtBQUFxcXGKu0sDk56evn379oCAAGdn58bOC2soZU0pDZWVlbNmzVq7dm2jz7EpmiYiLpIkkeVvYmJiUVHRhAkTkD86ecBCa0iwcOSnKQ5xCIKAllzSfTBkZGQ8e/YMuVBTEP379//zzz/d3Nzev3+v0Bs1DGlpaSNGjPDx8YH+ppUJJasppaGwsNDR0bFXr14rV65s7LwoliYirurqant7eyMjo9DQUADAgwcPAADz5s1jK30stIYBC4cd0HxO0/lQJRAIoE2GlpbWiRMnKisrhQLk5+cHBgZ26dJFdKWJgrh9+7a5uXlsbGzD3E5BJCQkdO/ePTQ0lJXUmtTmwA/kAAAB7ElEQVSHKkSj1xQ07QQAnD17trHy0KS4c+dOE+lYFAq74pLnQxVavXLx4kWSJHk83ogRI2Q14a+XRhea0oOFwwBFrahinXPnziF7eB0dnWHDhk2dOnXWrFk8Hg9us2JnZ0dnVRSLfPnyxc3NDa4Bbo4QBDFr1qz09HS2EmyaQxyysWvK3d0dtlsfH59GyQCm4WFdXPIMcQoLC/X19ffv308QxB9//NGuXTu06JddmnuXiGl0WBeOolZUKYKYmJg9e/ZERERQvR61aNFi+PDhHh4eo0aNEjWhxzQkbK2oUhoiIiJu3boVGBgIW6y2tvbSpUutrKycnJyYrRTDfLfIuaIqPj5+7969FRUVhoaGW7duRY7XMBjlRnRFFQt7VCkIuOlGSUlJRkZGVlaWpqamsbGxubk5cpCAwTQpdHV1R40aJbpFCR6LYxoYGxubsLCwxs4FBtP4NPXhgp6enrW1tdgN6zGYJgXrm+5iMBgMRh7w+yUGg8FgMBglBA9xMBgMBoPBKCF4iIPBYDAYDEYJ+d+KKkdHx7y8PGwaiaFPdXW1pqYmi/scYTAYCBYXBiMrBEG0bdv27t276Mz/zI03btxYXl7eGLnCYDAYDAaDkRddXV3qz//N4mAwGAwGg8EoDfizFAaDwWAwGCXkvxDOkiADG6+DAAAAAElFTkSuQmCC\"/>\nI dette formatet er exponent kodet som “excess 8”, og alle bit i fraction er kodet eksplisitt.\nHva er verdien til flyttallet 001101100 i 10-tallsystemet?",
+    "answers": [1],
+    "exam": ".*",
+    "options": ["0.09375", "0.1875", "0.375", "0.75"]
+  }
+]
