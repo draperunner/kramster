@@ -1,4 +1,9 @@
 :root {
-  --font-header: "Fredoka One", cursive;
-  --font-body: "Open Sans", sans-serif;
+  --font-header: Fredoka, "Arial Rounded MT Bold", sans-serif;
+  --font-body: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Fredoka";
+  src: url("/Fredoka-SemiBold.ttf");
 }
