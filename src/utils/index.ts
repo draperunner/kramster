@@ -1,5 +1,4 @@
-import sanitizeHtml from "sanitize-html";
-
+import DOMPurify from "dompurify";
 import { Grade } from "../interfaces";
 
 export const COLORS = {
@@ -72,12 +71,5 @@ export function getLocalTime(): string {
 }
 
 export function sanitize(dirtyHtml: string): string {
-  return sanitizeHtml(dirtyHtml, {
-    allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
-    allowedAttributes: {
-      ...sanitizeHtml.defaults.allowedAttributes,
-      img: ["class", "src"],
-    },
-    allowedSchemes: sanitizeHtml.defaults.allowedSchemes.concat(["data"]),
-  });
+  return DOMPurify.sanitize(dirtyHtml);
 }

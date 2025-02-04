@@ -26,11 +26,11 @@
   "author": "Mats Byrkjeland",
   "license": "Apache-2.0",
   "dependencies": {
+    "dompurify": "^3.2.4",
     "katex": "^0.16.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.2",
-    "sanitize-html": "^2.14.0"
+    "react-router-dom": "^6.28.2"
   },
   "devDependencies": {
     "@types/katex": "^0.16.7",
@@ -38,7 +38,6 @@
     "@types/qs": "^6.9.18",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
-    "@types/sanitize-html": "^2.13.0",
     "@vitejs/plugin-react-swc": "^3.7.2",
     "eslint": "^9.19.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
