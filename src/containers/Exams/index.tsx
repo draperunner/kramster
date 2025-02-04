@@ -51,4 +51,4 @@ function Exams(): JSX.Element {
   );
 }
 
-export default Exams;
+export const Component = Exams;

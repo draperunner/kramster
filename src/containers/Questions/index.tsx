@@ -168,4 +168,4 @@ function Questions(): JSX.Element {
   );
 }
 
-export default Questions;
+export const Component = Questions;

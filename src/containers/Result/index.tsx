@@ -50,4 +50,4 @@ function Result(): JSX.Element {
   );
 }
 
-export default Result;
+export const Component = Result;

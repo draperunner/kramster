@@ -1,12 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import AppContainer from "./containers/AppContainer";
-import About from "./containers/About";
 import Schools from "./containers/Schools";
-import Courses from "./containers/Courses";
-import Exams from "./containers/Exams";
-import Questions from "./containers/Questions";
-import Result from "./containers/Result";
 
 export default function Routes(): JSX.Element {
   const router = createBrowserRouter([
@@ -20,27 +15,27 @@ export default function Routes(): JSX.Element {
         },
         {
           path: "/about",
-          element: <About />,
+          lazy: () => import("./containers/About"),
         },
         {
           path: "/:school/:course/:exam/:number?/results",
-          element: <Result />,
+          lazy: () => import("./containers/Result"),
         },
         {
           path: "/:school",
-          element: <Courses />,
+          lazy: () => import("./containers/Courses"),
         },
         {
           path: "/:school/:course",
-          element: <Exams />,
+          lazy: () => import("./containers/Exams"),
         },
         {
           path: "/:school/:course/:mode/:number",
-          element: <Questions />,
+          lazy: () => import("./containers/Questions"),
         },
         {
           path: "/:school/:course/:exam",
-          element: <Questions />,
+          lazy: () => import("./containers/Questions"),
         },
       ],
     },

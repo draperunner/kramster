@@ -64,4 +64,4 @@ function Courses(): JSX.Element {
   );
 }
 
-export default Courses;
+export const Component = Courses;

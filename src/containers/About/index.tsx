@@ -20,4 +20,4 @@ const About = (): JSX.Element => (
   </div>
 );
 
-export default About;
+export const Component = About;
