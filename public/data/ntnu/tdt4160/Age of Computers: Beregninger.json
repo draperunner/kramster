@@ -4,10 +4,10 @@
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(\\frac{1}{12 * 10^{-9}} Hz\\)",
-      "\\(\\frac{1}{14 * 10^{-9}} Hz\\)",
-      "\\(\\frac{1}{22 * 10^{-9}} Hz\\)",
-      "\\(\\frac{1}{70 * 10^{-9}} Hz\\)"
+      "<math><mfrac><mn>1</mn><mrow><mn>12</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac><mo>&#xA0;</mo><mi>Hz</mi></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>14</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac><mo>&#xA0;</mo><mi>Hz</mi></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>22</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac><mo>&#xA0;</mo><mi>Hz</mi></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>70</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac><mo>&#xA0;</mo><mi>Hz</mi></math>"
     ]
   },
   {
@@ -17,7 +17,7 @@
     "options": ["1000 sykler", "1120 sykler", "1125 sykler", "1130 sykler"]
   },
   {
-    "question": "Med et k-trinns samlebånd kan man maksimalt oppnå en hastighetsøkning på \\(\\sqrt{k}\\).",
+    "question": "Med et k-trinns samlebånd kan man maksimalt oppnå en hastighetsøkning på <math><msqrt><mi>k</mi></msqrt></math>.",
     "answers": [1],
     "exam": ".*",
     "options": ["Sant", "Usant"]
@@ -27,11 +27,11 @@
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(\\frac{1}{12*10^{-9}}\\)",
-      "\\(\\frac{1}{24*10^{-9}}\\)",
-      "\\(\\frac{1}{29,6*10^{-9}}\\)",
-      "\\(\\frac{1}{54*10^{-9}}\\)",
-      "\\(\\frac{1}{148*10^{-9}}\\)"
+      "<math><mfrac><mn>1</mn><mrow><mn>12</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>24</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>29,6</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>54</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>148</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac></math>"
     ]
   }
 ]
