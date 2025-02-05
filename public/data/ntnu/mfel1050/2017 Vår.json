@@ -4,10 +4,10 @@
     "answers": [3],
     "exam": ".*",
     "options": [
-      "3 % større effekt på \\(\\mathrm{\\dot{V}O_{2max}}\\) sammenliknet med konvensjonell utholdenhetstrening ved\nhavnivå.",
-      "7% større effekt på \\(\\mathrm{\\dot{V}O_{2max}}\\) sammenliknet med konvensjonell utholdenhetstrening ved\nhavnivå.",
-      "11% større effekt på \\(\\mathrm{\\dot{V}O_{2max}}\\) sammenliknet med konvensjonell utholdenhetstrening\nved havnivå.",
-      "Lik effekt på \\(\\mathrm{\\dot{V}O_{2max}}\\) som konvensjonell utholdenhetstrening ved havnivå."
+      "3 % større effekt på <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> sammenliknet med konvensjonell utholdenhetstrening ved\nhavnivå.",
+      "7% større effekt på <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> sammenliknet med konvensjonell utholdenhetstrening ved\nhavnivå.",
+      "11% større effekt på <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> sammenliknet med konvensjonell utholdenhetstrening\nved havnivå.",
+      "Lik effekt på <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> som konvensjonell utholdenhetstrening ved havnivå."
     ]
   },
   {
@@ -22,24 +22,24 @@
     ]
   },
   {
-    "question": "Maksimal hjertefrekvens (\\(\\mathrm{HR_{max}}\\) ) kan påvirkes av trening. I et forsøk med 60- og 20-åringer som\ntrente intervaller i 8 uker (Wang et al., 2014) skjedde følgende:",
+    "question": "Maksimal hjertefrekvens (<math><msub><mtext>HR</mtext><mn>max</mn></msub></math>) kan påvirkes av trening. I et forsøk med 60- og 20-åringer som\ntrente intervaller i 8 uker (Wang et al., 2014) skjedde følgende:",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(\\mathrm{HR_{max}}\\) økte hos både eldre og yngre",
-      "\\(\\mathrm{HR_{max}}\\) gikk ned hos både eldre og yngre",
-      "\\(\\mathrm{HR_{max}}\\) gikk ned hos yngre og forble uendret hos eldre",
-      "\\(\\mathrm{HR_{max}}\\) gikk opp hos yngre og forble uendret hos eldre"
+      "<math><msub><mtext>HR</mtext><mn>max</mn></msub></math> økte hos både eldre og yngre",
+      "<math><msub><mtext>HR</mtext><mn>max</mn></msub></math> gikk ned hos både eldre og yngre",
+      "<math><msub><mtext>HR</mtext><mn>max</mn></msub></math> gikk ned hos yngre og forble uendret hos eldre",
+      "<math><msub><mtext>HR</mtext><mn>max</mn></msub></math> gikk opp hos yngre og forble uendret hos eldre"
     ]
   },
   {
-    "question": "Trening med høy intensitet (85-95% av \\(\\mathrm{HR_{max}}\\)) er vist å være effektivt for å bedre\n\\(\\mathrm{\\dot{V}O_{2max}}\\) . Dersom man skal oppnå samme treningsmengde i sonen med 15x15\nintervaller som 4x4 intervaller må antallet intervaller for 15x15 være:",
+    "question": "Trening med høy intensitet (85-95% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>) er vist å være effektivt for å bedre\n<math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> . Dersom man skal oppnå samme treningsmengde i sonen med 15x15\nintervaller som 4x4 intervaller må antallet intervaller for 15x15 være:",
     "answers": [3],
     "exam": ".*",
     "options": ["4", "8", "15", "47"]
   },
   {
-    "question": "\\(\\mathrm{\\dot{V}O_{2max}}\\) synker med alder typisk",
+    "question": "<math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> synker med alder typisk",
     "answers": [0],
     "exam": ".*",
     "options": ["1% pr år", "3% pr år", "5% pr år", "10% pr år"]
@@ -58,7 +58,7 @@
       "Øke slagvolum like mye",
       "Bedre «walking efficiency» like mye",
       "Bedre utnyttingsgraden like mye",
-      "Øke \\(\\mathrm{\\dot{V}O_{2max}}\\) like mye"
+      "Øke <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> like mye"
     ]
   },
   {
@@ -135,14 +135,14 @@
     ]
   },
   {
-    "question": "70% av \\(\\mathrm{\\dot{V}O_{2max}}\\) tilsvarer:",
+    "question": "70% av <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> tilsvarer:",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "Høyere intensitet enn 70% av \\(\\mathrm{HR_{max}}\\)",
-      "Lavere intensitet enn 70% av \\(\\mathrm{HR_{max}}\\)",
-      "Akkurat samme intensitet som 70% av \\(\\mathrm{HR_{max}}\\)",
-      "70% av \\(\\mathrm{\\dot{V}O_{2max}}\\) kan ikke sammenlignes med 70% av \\(\\mathrm{HR_{max}}\\)"
+      "Høyere intensitet enn 70% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>",
+      "Lavere intensitet enn 70% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>",
+      "Akkurat samme intensitet som 70% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>",
+      "70% av <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> kan ikke sammenlignes med 70% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>"
     ]
   },
   {
@@ -216,9 +216,9 @@
     "answers": [1],
     "exam": ".*",
     "options": [
-      "Anaerob terskel i % av \\(\\mathrm{\\dot{V}O_{2max}}\\)",
+      "Anaerob terskel i % av <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math>",
       "Arbeidsøkonomi",
-      "\\(\\mathrm{\\dot{V}O_{2max}}\\)",
+      "<math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math>",
       "Ingen av delene"
     ]
   },
@@ -301,7 +301,7 @@
     ]
   },
   {
-    "question": "Langkjøring ga følgende økning i \\(\\mathrm{\\dot{V}O_{2max}}\\) hos friske mannlige studenter som trente i 2\nmåneder:",
+    "question": "Langkjøring ga følgende økning i <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> hos friske mannlige studenter som trente i 2\nmåneder:",
     "answers": [0],
     "exam": ".*",
     "options": ["0%", "5%", "10%", "15%"]
@@ -318,12 +318,12 @@
     ]
   },
   {
-    "question": "I en studie som sammenliknet to intervalltreningsformer med langkjøring og\nterskeltrening ble laktatterskel målt på følgende måte:",
+    "question": "I en studie som sammenliknet to intervalltreningsformer med langkjøring og terskeltrening ble laktatterskel målt på følgende måte:",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "Hastighet som korresponderte til en ventilatorisk terskel der respiratorisk kvotient var\nlik 1.0",
-      "Hastighet som korresponderte til en laktatverdi 1.5mmol·L-1 høyere enn\noppvarmingsverdi",
+      "Hastighet som korresponderte til en ventilatorisk terskel der respiratorisk kvotient var lik 1.0",
+      "Hastighet som korresponderte til en laktatverdi 1.5mmol·L-1 høyere enn oppvarmingsverdi",
       "Hastighet som korresponderte til en laktatverdi lik 4.0 mmol·L-1",
       "Laktatterskel ble ikke målt fordi denne kan ikke trenes"
     ]
