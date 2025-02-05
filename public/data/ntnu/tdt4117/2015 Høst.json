@@ -11,7 +11,7 @@
     ]
   },
   {
-    "question": "Hvilken påstand er riktig?\n\\(J(A,B) = \\frac{|A \\cap B|}{|A \\cup B|} = \\frac{|A \\cap B|}{|A| + |B| - |A \\cap B|}\\)",
+    "question": "Hvilken påstand er riktig? <math><mi>J</mi><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mo>|</mo><mi>A</mi><mo>&#x2229;</mo><mi>B</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>A</mi><mo>&#x222A;</mo><mi>B</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>A</mi><mo>&#x2229;</mo><mi>B</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>A</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>B</mi><mo>|</mo><mo>-</mo><mo>|</mo><mi>A</mi><mo>&#x2229;</mo><mi>B</mi><mo>|</mo></mrow></mfrac></math>",
     "answers": [3],
     "exam": ".*",
     "options": [
