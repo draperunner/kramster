@@ -60,45 +60,45 @@
     "options": ["True", "False"]
   },
   {
-    "question": "Suppose the following action schema in a planning system for 8-puzzle.\n$$ Action(Slide(t, s_1, s_2), $$\n\n$$ PRECOND : On(t, s_1) \\wedge Tile(t) \\wedge Blank(s_2) \\wedge Adjacent(s_1, s_2) $$\n\n$$ EFFECT : On(t, s_2) \\wedge Blank(s_1) \\wedge \\neg On(t, s_1) \\wedge \\neg Blank(s_2)) $$\n\nWhich of the following needs to be removed from the action schema in order to get \"number-of-misplaced-tiles\" heuristic?",
+    "question": "Suppose the following action schema in a planning system for 8-puzzle.<math display=\"block\"><mi>Action</mi><mo>(</mo><mi>Slide</mi><mo>(</mo><mi>t</mi><mo>,</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo><mo>,</mo></math><math display=\"block\"><mtext>PRECOND:</mtext><mo> </mo><mi>On</mi><mo>(</mo><mi>t</mi><mo>,</mo><msub><mi>s</mi><mn>1</mn></msub><mo>)</mo><mo>&#x2227;</mo><mi>Tile</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>&#x2227;</mo><mi>Blank</mi><mo>(</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo><mo>&#x2227;</mo><mi>Adjacent</mi><mo>(</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo></math><math display=\"block\"><mtext>EFFECT:</mtext><mo> </mo><mi>On</mi><mo>(</mo><mi>t</mi><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo><mo>&#x2227;</mo><mi>Blank</mi><mo>(</mo><msub><mi>s</mi><mn>1</mn></msub><mo>)</mo><mo>&#x2227;</mo><mo>&#xAC;</mo><mi>On</mi><mo>(</mo><mi>t</mi><mo>,</mo><msub><mi>s</mi><mn>1</mn></msub><mo>)</mo><mo>&#x2227;</mo><mo>&#xAC;</mo><mi>Blank</mi><mo>(</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo><mo>)</mo></math>Which of the following needs to be removed from the action schema in order to get \"number-of-misplaced-tiles\" heuristic?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(Blank(s_1)\\)",
-      "\\(Blank(s_2)\\)",
-      "\\(Adjacent(s_1,s_2)\\)",
-      "\\(Blank(s_2) \\wedge Adjacent(s_1, s_2)\\)",
+      "<math><mi>Blank</mi><mo>(</mo><msub><mi>s</mi><mn>1</mn></msub><mo>)</mo></math>",
+      "<math><mi>Blank</mi><mo>(</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo></math>",
+      "<math><mi>Adjacent</mi><mo>(</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo></math>",
+      "<math><mi>Blank</mi><mo>(</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo><mo>&#x2227;</mo><mi>Adjacent</mi><mo>(</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub><mo>)</mo></math>",
       "None of the above"
     ]
   },
   {
-    "question": "We look at a Constraint Satisfaction Problem (CSP) with the three variables \\(X\\), \\(Y\\) and\n\\(Z\\). Let the domain for each of these variables be the set of integers from 1 to 3: \\(D_X = D_Y = D_Z = {1, 2, 3}\\).\nLet the following binary constraint \\(C_{X,Y}\\) apply between \\(X\\) and \\(Y\\), and \\(C_{Y,Z}\\) between \\(Y\\) and \\(Z\\):\n$$ C_{X,Y} = [(1, 1), (2, 1), (2, 2), (3, 1), (3, 2), (3, 3)] $$\n$$ C_{Y,Z} = [(2,1), (3,1), (3,2)] $$\nAfter running AC-3, what is the domain of \\(X\\)?",
+    "question": "We look at a Constraint Satisfaction Problem (CSP) with the three variables <math><mi>X</mi></math>, <math><mi>Y</mi></math> and <math><mi>Z</mi></math>. Let the domain for each of these variables be the set of integers from 1 to 3: <math><msub><mi>D</mi><mi>X</mi></msub> = <msub><mi>D</mi><mi>Y</mi></msub> = <msub><mi>D</mi><mi>Z</mi></msub> = {1, 2, 3}</math>. Let the following binary constraint <math><msub><mi>C</mi><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></msub></math> apply between <math><mi>X</mi></math> and <math><mi>Y</mi></math>, and <math><msub><mi>C</mi><mrow><mi>Y</mi><mo>,</mo><mi>Z</mi></mrow></msub></math> between <math><mi>Y</mi></math> and <math><mi>Z</mi></math>:<math display=\"block\"><msub><mi>C</mi><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></msub> = [(1, 1), (2, 1), (2, 2), (3, 1), (3, 2), (3, 3)]</math><math display=\"block\"><msub><mi>C</mi><mrow><mi>Y</mi><mo>,</mo><mi>Z</mi></mrow></msub> = [(2,1), (3,1), (3,2)]</math>After running AC-3, what is the domain of <math><mi>X</mi></math>?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "{1,2,3}",
-      "\\(\\{2,3\\}\\)",
-      "\\(\\{1,3\\}\\)",
-      "\\(\\{1,2\\}\\)",
-      "\\(\\{1\\}\\)",
-      "\\(\\{2\\}\\)",
-      "\\(\\{3\\}\\)",
-      "\\(\\{\\}\\)"
+      "<math>{1,2,3}</math>",
+      "<math>{2,3}</math>",
+      "<math>{1,3}</math>",
+      "<math>{1,2}</math>",
+      "<math>{1}</math>",
+      "<math>{2}</math>",
+      "<math>{3}</math>",
+      "<math>{}</math>"
     ]
   },
   {
-    "question": "We look at a Constraint Satisfaction Problem (CSP) with the three variables \\(X\\), \\(Y\\) and\n\\(Z\\). Let the domain for each of these variables be the set of integers from 1 to 3: \\(D_X = D_Y = D_Z = {1, 2, 3}\\).\nLet the following binary constraint \\(C_{X,Y}\\) apply between \\(X\\) and \\(Y\\), and \\(C_{Y,Z}\\) between \\(Y\\) and \\(Z\\):\n$$ C_{X,Y} = [(1, 1), (2, 1), (2, 2), (3, 1), (3, 2), (3, 3)] $$\n$$ C_{Y,Z} = [(2,1), (3,1), (3,2)] $$ \nAfter running AC-3, what is the domain of X?",
+    "question": "We look at a Constraint Satisfaction Problem (CSP) with the three variables <math><mi>X</mi></math>, <math><mi>Y</mi></math> and <math><mi>Z</mi></math>. Let the domain for each of these variables be the set of integers from 1 to 3: <math><msub><mi>D</mi><mi>X</mi></msub> = <msub><mi>D</mi><mi>Y</mi></msub> = <msub><mi>D</mi><mi>Z</mi></msub> = {1, 2, 3}</math>. Let the following binary constraint <math><msub><mi>C</mi><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></msub></math> apply between <math><mi>X</mi></math> and <math><mi>Y</mi></math>, and <math><msub><mi>C</mi><mrow><mi>Y</mi><mo>,</mo><mi>Z</mi></mrow></msub></math> between <math><mi>Y</mi></math> and <math><mi>Z</mi></math>:<math display=\"block\"><msub><mi>C</mi><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></msub> = [(1, 1), (2, 1), (2, 2), (3, 1), (3, 2), (3, 3)]</math><math display=\"block\"><msub><mi>C</mi><mrow><mi>Y</mi><mo>,</mo><mi>Z</mi></mrow></msub> = [(2,1), (3,1), (3,2)]</math>After running AC-3, what is the domain of <math><mi>X</mi></math>?",
     "answers": [4],
     "exam": ".*",
     "options": [
-      "\\(\\{1,2,3\\}\\)",
-      "\\(\\{2,3\\}\\)",
-      "\\(\\{1,3\\}\\)",
-      "\\(\\{1,2\\}\\)",
-      "\\(\\{3\\}\\)",
-      "\\(\\{1\\}\\)",
-      "\\(\\{2\\}\\)",
-      "\\(\\{\\}\\)"
+      "<math>{1,2,3}</math>",
+      "<math>{2,3}</math>",
+      "<math>{1,3}</math>",
+      "<math>{1,2}</math>",
+      "<math>{3}</math>",
+      "<math>{1}</math>",
+      "<math>{2}</math>",
+      "<math>{}</math>"
     ]
   },
   {
@@ -174,13 +174,13 @@
     ]
   },
   {
-    "question": "Which of the following would you choose as the unifier for \\(UNIFY(Loves(Per,x),Loves(y,z))\\)?",
+    "question": "Which of the following would you choose as the unifier for <math>UNIFY(Loves(Per,x),Loves(y,z))</math>?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "(y/Per, x/z)",
-      "(y/Per, x/Per, z/Per)",
-      "(y/Per, x/z, z/Siri)",
+      "<math>(y/Per, x/z)</math>",
+      "<math>(y/Per, x/Per, z/Per)</math>",
+      "<math>(y/Per, x/z, z/Siri)</math>",
       "none of the above are suitable unifiers."
     ]
   }
