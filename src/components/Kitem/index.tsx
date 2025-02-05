@@ -33,7 +33,7 @@ const Kitem = (props: Props): JSX.Element => {
     return (
       <div className={className}>
         <div className={styles[`${props.color}head`]}>
-          <div>{props.head || ""}</div>
+          <div>{props.head}</div>
         </div>
         <div className={styles.body}>
           <p>{props.body}</p>
