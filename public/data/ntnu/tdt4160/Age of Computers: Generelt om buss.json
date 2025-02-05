@@ -37,22 +37,13 @@
   },
   {
     "question": "Hvilket av alternativene er <em>ikke</em> en grunn til å ha hierarkiske busser i en datamaskin?",
-    "answers": [4, 3],
+    "answers": [4],
     "exam": ".*",
     "options": [
       "Det er ønskelig å skille trege enheter fra raske enheter.",
       "En lang buss får gjerne høy transmisjonsforsinkelse.",
       "Med flere busser kan flere enheter overføre data samtidig.",
       "Det kan være en fordel med spesialiserte busser mot enkelte enheter.",
-      "Lokalitetsprinsippet gjør det mindre sannsynlig at fjerne enheter blir brukt.",
-      "Det er ønskelig å skille trege enheter fra raske enheter",
-      "En lang buss får gjerne høy transmisjonsforsinkelse",
-      "Med flere busser kan flere enheter overføre data samtidig",
-      "Det kan være en fordel med spesialiserte busser mot enkelte enheter",
-      "Lokalitetsprinsippet gjør det mindre sannsynlig at fjerne enheter blir brukt",
-      "Det er ønskelig å skille trege enheter fra raske enheter.",
-      "En lang buss får gjerne høy transmisjonsforsinkelse.",
-      "Med flere busser kan flere enheter overføre data samtidig.",
       "Lokalitetsprinsippet gjør det mindre sannsynlig at fjerne enheter blir brukt."
     ]
   },
@@ -81,18 +72,14 @@
   },
   {
     "question": "Hva er arbitrering? (Velg det mest dekkende alternativet)",
-    "answers": [4, 3],
+    "answers": [4],
     "exam": ".*",
     "options": [
       "Generering av tilfeldige tall",
       "Det samme som tidsstyring av prosesser",
       "En teknikk for å kunne representere små tall i IEEE754-standarden",
       "Tildeling av blokk i hurtigbuffer",
-      "Tildeling av aksess til bussen",
-      "Generering av tilfeldige tall.",
-      "Det samme som tidsstyring av prosesser.",
-      "Tildeling av blokk i hurtigbuffer.",
-      "Tildeling av aksess til bussen."
+      "Tildeling av aksess til bussen"
     ]
   },
   {
@@ -118,7 +105,7 @@
     "answers": [2],
     "exam": ".*",
     "options": [
-      "Opprette \\(2^{16}\\) forskjellige forbindelser som hver kan overføre 16 bit",
+      "Opprette 2<sup>16</sup> forskjellige forbindelser som hver kan overføre 16 bit",
       "Overføre 16 bit i hver retning samtidig mellom to enheter",
       "Samtidig overføre 16 bit mellom to enheter",
       "4 forbindelser mellom forskjellige enheter, der en overfører 1 byte samtidig på hver forbindelse",
@@ -132,7 +119,7 @@
     "options": ["Adresselinje", "Kontrollinje", "Returlinje", "Datalinje"]
   },
   {
-    "question": "Hva er \\emhp{ikke} fordelen med å bruke multi-busser istedenfor å bruke enkel busser?",
+    "question": "Hva er <em>ikke</em> fordelen med å bruke multi-busser istedenfor å bruke enkel busser?",
     "answers": [3],
     "exam": ".*",
     "options": [
