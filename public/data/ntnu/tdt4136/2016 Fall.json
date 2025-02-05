@@ -1,6 +1,6 @@
 [
   {
-    "question": "The formula \\( \\forall x \\exists y P(x,y) \\rightarrow \\exists q P(q,q) \\) would be treated as a validity",
+    "question": "The formula <math><mo>&#x2200;</mo><mi>x</mi><mo>&#x2203;</mo><mi>y</mi><mo> </mo><mi>P</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>&#x2192;</mo><mo>&#x2203;</mo><mi>q</mi><mo> </mo><mi>P</mi><mo>(</mo><mi>q</mi><mo>,</mo><mi>q</mi><mo>)</mo></math> would be treated as a validity.",
     "answers": [2],
     "exam": ".*",
     "options": [
