@@ -1,13 +1,13 @@
 [
   {
-    "question": "Maksimal hastighetsøkning for et samlebånd med \\(k\\) steg er:",
+    "question": "Maksimal hastighetsøkning for et samlebånd med <math><mi>k</mi></math> steg er:",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(k\\)",
-      "\\(k^{2}\\)",
-      "\\(k^{\\frac{1}{2}}\\)",
-      "\\(k-n\\), der \\(n\\) er antall instruksjoner i et program",
+      "<math><mi>k</mi></math>",
+      "<math><msup><mi>k</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>k</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></math>",
+      "<math><mi>k</mi><mo>-</mo><mi>n</mi></math>, der <math><mi>n</mi></math> er antall instruksjoner i et program",
       "Ingen hastighetsøkning oppnås da man fremdeles får maks en instruksjon ferdig pr. klokkesyklus"
     ]
   },
