@@ -99,10 +99,15 @@
     ]
   },
   {
-    "question": "En bedrift har marginalkostnadene C som er konstante og altså uavhengige av mengden, Q. Hva blir bedriftens variable kostnader?",
+    "question": "En bedrift har marginalkostnadene <math><mi>C</mi></math> som er konstante og altså uavhengige av mengden, <math><mi>Q</mi></math>. Hva blir bedriftens variable kostnader?",
     "answers": [2],
     "exam": ".*",
-    "options": ["\\(C / Q\\)", "\\(C + Q\\)", "\\(C \\cdot Q\\)", "\\(Q / C\\)"]
+    "options": [
+      "<math><mfrac><mi>C</mi><mi>Q</mi></mfrac></math>",
+      "<math><mi>C</mi><mo>+</mo><mi>Q</mi></math>",
+      "<math><mi>C</mi><mo>&#x22C5;</mo><mi>Q</mi></math>",
+      "<math><mfrac><mi>Q</mi><mi>C</mi></mfrac></math>"
+    ]
   },
   {
     "question": "Gjennomsnittskostnadene til en bedrift er 12, mens marginalkostnadene er 10. Hva vil skje med gjennomsnittskostnadene og totalkostnadene ved en (marginal) økning i mengden?",
@@ -195,10 +200,15 @@
     "options": ["620 921", "735 030", "793 832", "909 091"]
   },
   {
-    "question": "Et verdipapir gir kontantstrømmen 1 000 om én periode, \\(1000(1+g)\\) om to perioder, \\(1000(1+g)^2\\) om 3 perioder og så videre slik at kontantstrømmen endres med faktoren \\(1+g\\) for\nhver periode gjennom et uendelig antall perioder. Diskonteringsrenten er 8 %. Dersom verdien av verdipapiret nå er 25 000, hva er da den implisitte veksten, \\(g\\)?",
+    "question": "Et verdipapir gir kontantstrømmen <math><mn>1000</mn></math> om én periode, <math><mn>1000</mn><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></math> om to perioder, <math><mn>1000</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mn>2</mn></msup></math> om 3 perioder og så videre slik at kontantstrømmen endres med faktoren <math><mn>1</mn><mo>+</mo><mi>g</mi></math> for hver periode gjennom et uendelig antall perioder. Diskonteringsrenten er 8 %. Dersom verdien av verdipapiret nå er <math><mn>25000</mn></math>, hva er da den implisitte veksten, <math><mi>g</mi></math>?",
     "answers": [2],
     "exam": ".*",
-    "options": ["0 %", "2 %", "4 %", "6 %"]
+    "options": [
+      "<math><mn>0</mn><mo>%</mo></math>",
+      "<math><mn>2</mn><mo>%</mo></math>",
+      "<math><mn>4</mn><mo>%</mo></math>",
+      "<math><mn>6</mn><mo>%</mo></math>"
+    ]
   },
   {
     "question": "I forbindelse med vurdering av et investeringsprosjekt regner selskapet med at i periode 2 vil kontantstrømmen være -2 000 000 med sannsynlighet 40 %, 0 med sannsynlighet 25 % og\n3 000 000 med sannsynlighet 35 %. Hva er nåverdien av forventet kontantstrøm i denne perioden dersom avkastningskravet er 15 %?",

@@ -138,10 +138,10 @@
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\(SQN \\oplus AK, XRES, MAC\\)",
-      "\\(SQN \\oplus AK, AMF, MAC\\)",
-      "\\(SQN, AMF, MAC, RAND\\)",
-      "\\(SQN \\oplus AK, AMF, MAC, RAND\\)"
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>XRES</mi></math>, <math><mi>MAC</mi></math>",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>AMF</mi></math>, <math><mi>MAC</mi></math>",
+      "<math><mi>SQN</mi></math>, <math><mi>AMF</mi></math>, <math><mi>MAC</mi></math>, <math><mi>RAND</mi></math>",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>AMF</mi></math>, <math><mi>MAC</mi></math>, <math><mi>RAND</mi></math>"
     ]
   },
   {

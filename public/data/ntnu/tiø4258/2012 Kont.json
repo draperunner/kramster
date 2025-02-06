@@ -156,14 +156,14 @@
     "options": ["25 000", "50 000", "100 000", "200 000"]
   },
   {
-    "question": "I et duopolmarked er etterspørselen gitt ved P = a - bQ, der P er prisen, Q er total mengde i markedet, og a og b er strengt positive konstanter. Anta at de to bedriftene har konstante, positive, marginalkostnader på c og opptrer i tråd med Cournot-modellen. Hva blir prisen i likevekt?",
+    "question": "I et duopolmarked er etterspørselen gitt ved <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen, <math><mi>Q</mi></math> er total mengde i markedet, og <math><mi>a</mi></math> og <math><mi>b</mi></math> er strengt positive konstanter. Anta at de to bedriftene har konstante, positive, marginalkostnader på <math><mi>c</mi></math> og opptrer i tråd med Cournot-modellen. Hva blir prisen i likevekt?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(\\frac{a + 2c}{3}\\)",
-      "\\(\\frac{a - c}{3b}\\)",
-      "\\(\\frac{2a + 2c}{3}\\)",
-      "\\(\\frac{a + c}{2}\\)"
+      "<math><mfrac><mrow><mi>a</mi><mo>+</mo><mn>2</mn><mi>c</mi></mrow><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mrow><mn>3</mn><mi>b</mi></mrow></mfrac></math>",
+      "<math><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>c</mi></mrow><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mrow><mi>a</mi><mo>+</mo><mi>c</mi></mrow><mn>2</mn></mfrac></math>"
     ]
   },
   {
@@ -268,14 +268,14 @@
     "options": ["5,00 %", "6,00 %", "7,00 %", "9,00 %"]
   },
   {
-    "question": "Anta at et selskap har gjelden D og kommer til å ha den for all framtid. Anta også at selskapet betaler renten r på denne gjelden for all framtid og at selskapsskattesatsen vil være T for all framtid. Gitt at verdien av skattefordelen av gjeld skal diskonteres med samme rente som gjeldsrenten, det vil si r, hva blir nåverdien av skattefordelen av gjeld?",
+    "question": "Anta at et selskap har gjelden <math><mi>D</mi></math> og kommer til å ha den for all framtid. Anta også at selskapet betaler renten <math><mi>r</mi></math> på denne gjelden for all framtid og at selskapsskattesatsen vil være <math><mi>T</mi></math> for all framtid. Gitt at verdien av skattefordelen av gjeld skal diskonteres med samme rente som gjeldsrenten, det vil si <math><mi>r</mi></math>, hva blir nåverdien av skattefordelen av gjeld?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(D\\cdot T\\)",
-      "\\(D(1-T)\\)",
-      "\\(\\frac{D \\cdot r \\cdot T}{1+r}\\)",
-      "\\(\\frac{D \\cdot r (1-T)}{1+r}\\)"
+      "<math><mi>D</mi><mo>&#x22C5;</mo><mi>T</mi></math>",
+      "<math><mi>D</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>T</mi><mo>)</mo></math>",
+      "<math><mfrac><mrow><mi>D</mi><mo>&#x22C5;</mo><mi>r</mi><mo>&#x22C5;</mo><mi>T</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></math>",
+      "<math><mfrac><mrow><mi>D</mi><mo>&#x22C5;</mo><mi>r</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>T</mi><mo>)</mo></mrow><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></math>"
     ]
   },
   {

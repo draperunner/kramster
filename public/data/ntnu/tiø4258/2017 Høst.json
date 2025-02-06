@@ -110,7 +110,7 @@
     ]
   },
   {
-    "question": "En bedrift har marginalkostnader gitt av funksjonen MC(Q) der Q er mengden. Hvilken kostnadsstørrelse tilsvarer mest presist integralet av marginalkostnadene fra null til produsert mengde, det vil si \\(\\int_0^{Q^*} MC(Q)dQ \\), der \\(Q^*\\)er produsert mengde?",
+    "question": "En bedrift har marginalkostnader gitt av funksjonen <math><mi>MC</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> der <math><mi>Q</mi></math> er mengden. Hvilken kostnadsstørrelse tilsvarer mest presist integralet av marginalkostnadene fra null til produsert mengde, det vil si <math><msubsup><mo>&#x222B;</mo><mn>0</mn><msup><mi>Q</mi><mo>*</mo></msup></msubsup><mi>MC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mi>dQ</mi></math>, der <math><msup><mi>Q</mi><mo>*</mo></msup></math> er produsert mengde?",
     "answers": [2],
     "exam": ".*",
     "options": [
@@ -149,21 +149,26 @@
     ]
   },
   {
-    "question": "Et monopol har totalkostnader TC, gitt ved \\(TC = 16000Q + 200 000 000\\), der Q er produsert mengde. Etterspørselen er gitt ved Q = 30 000 − 0,5P, der Q er mengden og P er prisen. Hva blir optimal profitt for monopolet?",
+    "question": "Et monopol har totalkostnader <math><mi>TC</mi></math>, gitt ved <math><mi>TC</mi><mo>=</mo><mn>16000</mn><mi>Q</mi><mo>+</mo><mn>200000000</mn></math>, der <math><mi>Q</mi></math> er produsert mengde. Etterspørselen er gitt ved <math><mi>Q</mi><mo>=</mo><mn>30000</mn><mo>-</mo><mn>0.5</mn><mi>P</mi></math>, der <math><mi>Q</mi></math> er mengden og <math><mi>P</mi></math> er prisen. Hva blir optimal profitt for monopolet?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "39 millioner.",
-      "40 millioner.",
-      "41 millioner.",
-      "42 millioner."
+      "<math><mn>39</mn></math> millioner.",
+      "<math><mn>40</mn></math> millioner.",
+      "<math><mn>41</mn></math> millioner.",
+      "<math><mn>42</mn></math> millioner."
     ]
   },
   {
-    "question": "En bedrift i et frikonkurransemarked har totalkostnader TC gitt ved \\( TC = \\frac{2}{3}Q\\sqrt{Q} + 100Q + 100 000\\), der Q er produsert mengde. Prisen i markedet er 200. Hva blir optimal mengde for bedriften?",
+    "question": "En bedrift i et frikonkurransemarked har totalkostnader <math><mi>TC</mi></math> gitt ved <math><mi>TC</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>Q</mi><msqrt><mi>Q</mi></msqrt><mo>+</mo><mn>100</mn><mi>Q</mi><mo>+</mo><mn>100000</mn></math>, der <math><mi>Q</mi></math> er produsert mengde. Prisen i markedet er <math><mn>200</mn></math>. Hva blir optimal mengde for bedriften?",
     "answers": [1],
     "exam": ".*",
-    "options": ["5 000", "10 000", "15 000", "20 000"]
+    "options": [
+      "<math><mn>5000</mn></math>",
+      "<math><mn>10000</mn></math>",
+      "<math><mn>15000</mn></math>",
+      "<math><mn>20000</mn></math>"
+    ]
   },
   {
     "question": "To bedrifter i et duopolmarked produserer et homogent gode og tilpasser seg i tråd med den såkalte Cournot-modellen. Begge bedriftene har marginalkostnader på 3 000. Indirekte etterspørsel kan\nuttrykkes som P = 9 000 − 2Q , der P er prisen og Qer total mengde i markedet. Hva blir prisen i markedet ved likevekt?",
@@ -217,14 +222,14 @@
     ]
   },
   {
-    "question": "En bedrift regner med å få kontantstrømmen \\(k\\) om ett år, samme kontantstrøm etter ytterligere ett år, samme kontantstrøm året etter det igjen og så videre i totalt 20 år slik at siste kontantstrøm kommer 20 år fra nå. Gitt at diskonteringsrenten er \\(r\\), hva er et korrekt uttrykk for nåverdien av disse kontantstrømmene?",
+    "question": "En bedrift regner med å få kontantstrømmen <math><mi>k</mi></math> om ett år, samme kontantstrøm etter ytterligere ett år, samme kontantstrøm året etter det igjen og så videre i totalt 20 år slik at siste kontantstrøm kommer 20 år fra nå. Gitt at diskonteringsrenten er <math><mi>r</mi></math>, hva er et korrekt uttrykk for nåverdien av disse kontantstrømmene?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\( \\frac{k}{r}(1-\\frac{1}{(1+r)^{21}}) \\)",
-      "\\( \\frac{k}{r}(1-\\frac{1}{(1+r)^{20}}) \\)",
-      "\\( \\frac{k}{1+r}(1-\\frac{1}{r^{21}}) \\)",
-      "\\( \\frac{k}{1+r}(1-\\frac{1}{r^{20}}) \\)"
+      "<math><mfrac><mi>k</mi><mi>r</mi></mfrac><mo>(</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mn>21</mn></msup></mfrac><mo>)</mo></math>",
+      "<math><mfrac><mi>k</mi><mi>r</mi></mfrac><mo>(</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mn>20</mn></msup></mfrac><mo>)</mo></math>",
+      "<math><mfrac><mi>k</mi><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac><mo>(</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mi>r</mi><mn>21</mn></msup></mfrac><mo>)</mo></math>",
+      "<math><mfrac><mi>k</mi><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac><mo>(</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mi>r</mi><mn>20</mn></msup></mfrac><mo>)</mo></math>"
     ]
   },
   {

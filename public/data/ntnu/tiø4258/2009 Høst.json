@@ -397,14 +397,14 @@
     "options": ["0,5", "1,0", "1,5", "2,0"]
   },
   {
-    "question": "Vi definerer etterspørselselastisiteten slik at den er ikke-negativ for et gode der solgt mengde synker med økende pris. Hvilken sammenheng mellom marginandel og etterspørselselastisiteten, e, kan utledes fra førsteordensbetingelsen for maksimal monopolprofitt når indirekte etterspørsel, dvs. prisen som funksjon av mengden, er P(Q) og marginalkostnadene er MC?",
+    "question": "Vi definerer etterspørselselastisiteten slik at den er ikke-negativ for et gode der solgt mengde synker med økende pris. Hvilken sammenheng mellom marginandel og etterspørselselastisiteten, <math><mi>e</mi></math>, kan utledes fra førsteordensbetingelsen for maksimal monopolprofitt når indirekte etterspørsel, dvs. prisen som funksjon av mengden, er <math><mi>P</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> og marginalkostnadene er <math><mi>MC</mi></math>?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(\\frac{P - MC}{P} = -\\frac{1}{e}\\)",
-      "\\(\\frac{P - MC}{P} = e\\)",
-      "\\(\\frac{P - MC}{P} = \\frac{1}{e}\\)",
-      "\\(\\frac{P - MC}{P} = -e\\)"
+      "<math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></math>",
+      "<math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mi>e</mi></math>",
+      "<math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></math>",
+      "<math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mo>-</mo><mi>e</mi></math>"
     ]
   },
   {

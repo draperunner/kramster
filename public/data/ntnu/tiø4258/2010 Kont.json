@@ -370,10 +370,15 @@
     ]
   },
   {
-    "question": "La P være pris og Q mengde; a og b er positive konstanter. Etterspørselen er gitt ved \\(Q = aP^{-b}\\). Hva blir absoluttverdien av etterspørselselastisiteten?",
+    "question": "La <math><mi>P</mi></math> være pris og <math><mi>Q</mi></math> mengde; <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter. Etterspørselen er gitt ved <math><mi>Q</mi><mo>=</mo><mi>a</mi><msup><mi>P</mi><mo>-</mo><mi>b</mi></msup></math>. Hva blir absoluttverdien av etterspørselselastisiteten?",
     "answers": [0],
     "exam": ".*",
-    "options": ["b", "a", "\\(baP^{-b-1}\\)", "\\(b/a\\)"]
+    "options": [
+      "<math><mi>b</mi></math>",
+      "<math><mi>a</mi></math>",
+      "<math><mi>b</mi><mi>a</mi><msup><mi>P</mi><mrow><mo>-</mo><mi>b</mi><mo>-</mo><mn>1</mn></mrow></msup></math>",
+      "<math><mfrac><mi>b</mi><mi>a</mi></mfrac></math>"
+    ]
   },
   {
     "question": "En bedrift som produserer 100 000 enheter av produktet sitt pr periode, regner med at ved å redusere prisen fra 1 000 til 995, vil den kunne selge 1 000 enheter ekstra. Hva er et naturlig anslag på marginalinntekten (også kalt grenseinntekten)?",

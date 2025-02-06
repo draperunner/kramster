@@ -87,10 +87,10 @@
     "answers": [2],
     "exam": "2010 Fall",
     "options": [
-      "\\(C = E(i) \\oplus i\\)",
-      "\\(C = E(i) \\oplus M \\oplus i\\)",
-      "\\(C_i = E(i) \\oplus M_i\\)",
-      "\\(C = E(i) \\oplus M\\)"
+      "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>⊕</mo><mi>i</mi></math>",
+      "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>⊕</mo><mi>M</mi><mo>⊕</mo><mi>i</mi></math>",
+      "<math><msub><mi>C</mi><mi>i</mi></msub><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>⊕</mo><msub><mi>M</mi><mi>i</mi></msub></math>",
+      "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>⊕</mo><mi>M</mi></math>"
     ]
   },
   {
@@ -117,7 +117,7 @@
     "options": [
       "By the network providing temporary subscriber identities to the SIMs",
       "By storing the subscriber identity in the SIM only",
-      "By storing the 128-bit secret key (\\(K_{IMSI}\\)) in the SIM and distributed only to trusted VLRs",
+      "By storing the 128-bit secret key (<math><msub><mi>K</mi><mi>IMSI</mi></msub></math>) in the SIM and distributed only to trusted VLRs",
       "By using the IMEI instead of the IMSI"
     ]
   },

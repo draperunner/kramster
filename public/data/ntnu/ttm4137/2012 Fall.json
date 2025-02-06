@@ -87,10 +87,10 @@
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(K_i\\) and RAND and XRES",
-      "RAND and XRES",
-      "\\(K_i\\) and XRES",
-      "\\(K_i\\) and RAND"
+      "<math><msub><mi>K</mi><mi>i</mi></msub></math> and <math><mi>RAND</mi></math> and <math><mi>XRES</mi></math>",
+      "<math><mi>RAND</mi></math> and <math><mi>XRES</mi></math>",
+      "<math><msub><mi>K</mi><mi>i</mi></msub></math> and <math><mi>XRES</mi></math>",
+      "<math><msub><mi>K</mi><mi>i</mi></msub></math> and <math><mi>RAND</mi></math>"
     ]
   },
   {
@@ -131,10 +131,10 @@
     "answers": [2],
     "exam": "2012 Fall",
     "options": [
-      "\\(SQN \\oplus AK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the network side",
-      "\\(SQN \\oplus CK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the network side",
-      "\\(SQN \\oplus AK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the MS side",
-      "\\(SQN \\oplus CK, MAC-S\\). Resynchronization when the \\(SQN\\) check fails on the MS side"
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the <math><mi>SQN</mi></math> check fails on the network side",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>CK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the <math><mi>SQN</mi></math> check fails on the network side",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the <math><mi>SQN</mi></math> check fails on the MS side",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>CK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the <math><mi>SQN</mi></math> check fails on the MS side"
     ]
   },
   {
@@ -259,12 +259,12 @@
     ]
   },
   {
-    "question": "Why is it not sufficient to construct a one-way function \\(y = f(x)\\) based on an NP-hard problem?",
+    "question": "Why is it not sufficient to construct a one-way function <math><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> based on an NP-hard problem?",
     "answers": [1],
     "exam": ".*",
     "options": [
       "The one-way property requires that the problem is NP-complete and not just NP-hard",
-      "NP-hardness guarantees only that there exists a y for which a x is hard to compute",
+      "NP-hardness guarantees only that there exists a <math><mi>y</mi></math> for which a <math><mi>x</mi></math> is hard to compute",
       "A one-way function must satisfy the property of collision-resistance too",
       "Computing a preimage must be hard in the worst case"
     ]

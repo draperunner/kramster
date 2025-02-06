@@ -177,14 +177,14 @@
     ]
   },
   {
-    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved 𝑃 = 200 − 𝑄 der 𝑃 er prisen og 𝑄 er mengden. Bedriftene har begge konstante marginalkostnader på 𝐶. Hva blir et korrekt uttrykk for total mengde i markedet?",
+    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved 𝑃 = 200 − 𝑄 der 𝑃 er prisen og 𝑄 er mengden. Bedriftene har begge konstante marginalkostnader på 𝐶. Hva blir et korrekt uttrykk for total mengde i markedet?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\( Q = \\frac{200-C}{2} \\)",
-      "\\(Q = \\frac{200-C}{3}\\)",
-      "\\(Q = \\frac{400-C}{3}\\)",
-      "\\(Q = \\frac{400-2C}{3}\\)"
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mn>200</mn><mo>-</mo><mi>C</mi></mrow><mn>2</mn></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mn>200</mn><mo>-</mo><mi>C</mi></mrow><mn>3</mn></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mn>400</mn><mo>-</mo><mi>C</mi></mrow><mn>3</mn></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mn>400</mn><mo>-</mo><mn>2</mn><mi>C</mi></mrow><mn>3</mn></mfrac></math>"
     ]
   },
   {

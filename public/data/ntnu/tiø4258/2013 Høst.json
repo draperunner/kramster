@@ -218,14 +218,14 @@
     "options": ["0", "250 000", "500 000", "2 000 000"]
   },
   {
-    "question": "For et selskap er verdi av gjeld \\(D\\) og verdi av egenkapital \\(E\\). Avkastningene for gjeld og egenkapital er henholdsvis \\(r_D\\) og \\(r_E\\). Avkastning på aktiva er \\(r_A\\). Hvilken sammenheng gjelder mellom disse størrelsene?",
+    "question": "For et selskap er verdi av gjeld <math><mi>D</mi></math> og verdi av egenkapital <math><mi>E</mi></math>. Avkastningene for gjeld og egenkapital er henholdsvis <math><msub><mi>r</mi><mi>D</mi></msub></math> og <math><msub><mi>r</mi><mi>E</mi></msub></math>. Avkastning på aktiva er <math><msub><mi>r</mi><mi>A</mi></msub></math>. Hvilken sammenheng gjelder mellom disse størrelsene?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(r_E = r_A + \\frac{D}{E}(r_A - r_D)\\)",
-      "\\(r_E = r_A + \\frac{D}{E}(r_A + r_D)\\)",
-      "\\(r_E = r_A - \\frac{D}{E}(r_A - r_D)\\)",
-      "\\(r_E = r_A - \\frac{D}{E}(r_A + r_D)\\)"
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>r</mi><mi>A</mi></msub><mo>-</mo><msub><mi>r</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><msub><mi>r</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>A</mi></msub><mo>-</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>r</mi><mi>A</mi></msub><mo>-</mo><msub><mi>r</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>A</mi></msub><mo>-</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><msub><mi>r</mi><mi>D</mi></msub><mo>)</mo></math>"
     ]
   },
   {

@@ -138,10 +138,10 @@
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\(f_{i,K}(x) = E_K(E_K(x \\oplus c_i ) );\\) where \\(i = 1,2,3,4,5\\), and \\(c_i\\) are distinct constants",
-      "\\(f_{i,K}(x) = E_K(E_K(x) \\oplus c_i );\\) where \\(i = 1,2,3,4,5\\), and \\(c_i\\) are distinct constants",
-      "\\(f_{i,K}(x) = E_K(E_K(c_i ) \\oplus x);\\) where \\(i = 1,2,3,4,5\\), and \\(c_i\\) are distinct constants",
-      "\\(f_{i,K}(x) = E_K(E_K(x) ) \\oplus c_i ;\\) where \\(i = 1,2,3,4,5\\), and \\(c_i\\) are distinct constants"
+      "<math><msub><mi>f</mi><mrow><mi>i</mi>,<mi>K</mi></mrow></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><mi>x</mi><mo>&#x2295;</mo><msub><mi>c</mi><mi>i</mi></msub><mo>))</mo></math>; where <math><mi>i</mi><mo>=</mo>1,2,3,4,5</math>, and <math><msub><mi>c</mi><mi>i</mi></msub></math> are distinct constants",
+      "<math><msub><mi>f</mi><mrow><mi>i</mi>,<mi>K</mi></mrow></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#x2295;</mo><msub><mi>c</mi><mi>i</mi></msub><mo>)</mo></math>; where <math><mi>i</mi><mo>=</mo>1,2,3,4,5</math>, and <math><msub><mi>c</mi><mi>i</mi></msub></math> are distinct constants",
+      "<math><msub><mi>f</mi><mrow><mi>i</mi>,<mi>K</mi></mrow></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><msub><mi>c</mi><mi>i</mi></msub><mo>)</mo><mo>&#x2295;</mo><mi>x</mi><mo>)</mo></math>; where <math><mi>i</mi><mo>=</mo>1,2,3,4,5</math>, and <math><msub><mi>c</mi><mi>i</mi></msub></math> are distinct constants",
+      "<math><msub><mi>f</mi><mrow><mi>i</mi>,<mi>K</mi></mrow></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><mo>&#x2295;</mo><msub><mi>c</mi><mi>i</mi></msub></math>; where <math><mi>i</mi><mo>=</mo>1,2,3,4,5</math>, and <math><msub><mi>c</mi><mi>i</mi></msub></math> are distinct constants"
     ]
   },
   {

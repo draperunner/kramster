@@ -1,17 +1,17 @@
 [
   {
-    "question": "Hvilken av følgende påstander om innovasjon er korrekt?",
+    "question": "Hvilken av følgende påstander om innovasjon er korrekt?",
     "answers": [0],
     "exam": ".*",
     "options": [
       "Inkrementelle innovasjoner har preg av mer stegvise endringer, ofte drevet av bedrifter som allerede er etablerte markedsaktører",
       "Inkrementelle innovasjoner drives nesten alltid fram av nye markedsaktører",
-      "Inkrementelle innovasjoner har høy risiko og man bør unngå dette om man kan",
-      "Dersom man kan velge mellom inkrementell og radikal innovasjon så velger man alltid den radikale innovasjonen"
+      "Inkrementelle innovasjoner har høy risiko og man bør unngå dette om man kan",
+      "Dersom man kan velge mellom inkrementell og radikal innovasjon så velger man alltid den radikale innovasjonen"
     ]
   },
   {
-    "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er korrekt?",
+    "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er korrekt?",
     "answers": [3],
     "exam": ".*",
     "options": [
@@ -22,56 +22,56 @@
     ]
   },
   {
-    "question": "Hvilken av følgende påstander om venturkapitalfond er korrekt?",
+    "question": "Hvilken av følgende påstander om venturkapitalfond er korrekt?",
     "answers": [3],
     "exam": ".*",
     "options": [
       "Dette er offentlige fond som skal støtte opp om etablering av vekstbedrifter",
-      "Dette er privatpersoner som går sammen og investerer direkte i nye teknologibedrifter",
-      "Venturekapitalfond investerer normalt sett i mange bransjer og et stort antall bedrifter for å diversifisere risikoen til fondet.",
+      "Dette er privatpersoner som går sammen og investerer direkte i nye teknologibedrifter",
+      "Venturekapitalfond investerer normalt sett i mange bransjer og et stort antall bedrifter for å diversifisere risikoen til fondet.",
       "Venturekapitalfond er ofte spesialisert i forhold til fase eller bransje."
     ]
   },
   {
-    "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
+    "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "Gründer, såkornfond, venturkapitalfond, familie og venner, Business Angels.",
-      "Gründer, familie og venner, Business Angels, såkornfond, venturkapitalfond",
-      "Venturekapitalfond, såkornfond, Business Angels, gründer, familie og venner",
-      "Gründer, familie og venner, såkornfond, venturkapitalfond, Business Angels"
+      "Gründer, såkornfond, venturkapitalfond, familie og venner, Business Angels.",
+      "Gründer, familie og venner, Business Angels, såkornfond, venturkapitalfond",
+      "Venturekapitalfond, såkornfond, Business Angels, gründer, familie og venner",
+      "Gründer, familie og venner, såkornfond, venturkapitalfond, Business Angels"
     ]
   },
   {
-    "question": "Hvilken av følgende påstander om unge kunnskapsbedrifter med vekstambisjoner er korrekt?",
+    "question": "Hvilken av følgende påstander om unge kunnskapsbedrifter med vekstambisjoner er korrekt?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "Så godt som alle kunnskapsbedrifter som lykkes godt kommersielt har en unik ide som kan beskyttes med patenter eller annen åndsverksbeskyttelse",
+      "Så godt som alle kunnskapsbedrifter som lykkes godt kommersielt har en unik ide som kan beskyttes med patenter eller annen åndsverksbeskyttelse",
       "En oppstart av en teknologibedrift som gjøres av et team lykkes som regel best kommersielt",
       "Kunnskapsbedrifter som lykkes kommersielt har nesten alltid med en investor",
-      "Det er som regel best å være alene som entreprenør i oppstartsfasen, da har man kontroll på det meste selv og kan rekruttere de menneskene man trenger"
+      "Det er som regel best å være alene som entreprenør i oppstartsfasen, da har man kontroll på det meste selv og kan rekruttere de menneskene man trenger"
     ]
   },
   {
-    "question": "Pensumboken gjengir tre forhold som Adam Smith i sitt klassiske verk «The Wealth of Nations» trekker frem for å underbygge at arbeidsspesialisering fører til mer effektiv produksjon. Hvilket av alternativene er ikke et av disse tre forholdene?",
+    "question": "Pensumboken gjengir tre forhold som Adam Smith i sitt klassiske verk «The Wealth of Nations» trekker frem for å underbygge at arbeidsspesialisering fører til mer effektiv produksjon. Hvilket av alternativene er ikke et av disse tre forholdene?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "Man blir mer motivert av å gjøre et stykke arbeid som man kan godt.",
+      "Man blir mer motivert av å gjøre et stykke arbeid som man kan godt.",
       "Man kan lære seg sin lille del av operasjonen veldig godt.",
-      "Man kan ha utstyr som er spesiallaget til arbeidsoperasjonene som skal utføres, og trenger heller ikke å skifte utstyr så ofte.",
-      "Man kan konsentrere seg om sin arbeidsoperasjon, uten å måtte skifte fokus mentalt."
+      "Man kan ha utstyr som er spesiallaget til arbeidsoperasjonene som skal utføres, og trenger heller ikke å skifte utstyr så ofte.",
+      "Man kan konsentrere seg om sin arbeidsoperasjon, uten å måtte skifte fokus mentalt."
     ]
   },
   {
-    "question": "Mintzberg beskrev fem strukturmodeller som sier hvordan ulike typer bedrifter (som for eksempel maskinbedriften og entreprenørbedriften) er konfigurert. Ifølge pensumboken argumenterte han for at alle disse strukturmodellene hadde noen felles byggeblokker, såkalte organisasjonsdeler. Hva kalles de fem organisasjonsdelene?",
+    "question": "Mintzberg beskrev fem strukturmodeller som sier hvordan ulike typer bedrifter (som for eksempel maskinbedriften og entreprenørbedriften) er konfigurert. Ifølge pensumboken argumenterte han for at alle disse strukturmodellene hadde noen felles byggeblokker, såkalte organisasjonsdeler. Hva kalles de fem organisasjonsdelene?",
     "answers": [0],
     "exam": ".*",
     "options": [
       "Den operative kjernen, det strategiske toppunktet, mellomledelsen, teknisk støttestab og støttefunksjoner.",
-      "Koordinert innsats, felles formål, arbeidsinndeling, autoritetshierarki og oppgavestruktur.",
+      "Koordinert innsats, felles formål, arbeidsinndeling, autoritetshierarki og oppgavestruktur.",
       "Mennesker, teknologi, kapital, nettverk/eksterne forhold og strategisk retning.",
       "Kommandokjeden, kontrollspennet, graden av sentralisering, graden av spesialisering og graden av formalisering."
     ]
@@ -83,7 +83,7 @@
     "options": [
       "Viktige deler av HR-arbeidet inkluderer: 1) rekruttering av ansatte 2) administrasjon av ansatte 3) motivering av ansatte 4) utvikling av ansatte 5) avslutning av arbeidsforhold 6) personalkonflikter av ulike slag.",
       "I Norge er det vanlig at ledelsen selv håndterer HR-arbeidet.",
-      "Som leder må du vite hvilke valg man står overfor når man skal lage rutiner og systemer for HR-arbeid.",
+      "Som leder må du vite hvilke valg man står overfor når man skal lage rutiner og systemer for HR-arbeid.",
       "I følge McGregors «Teori X og Teori Y» vil ledelsens oppfatninger om de ansatte bli selvoppfyllende profetier."
     ]
   },
@@ -92,14 +92,14 @@
     "answers": [0],
     "exam": ".*",
     "options": [
-      "Et defensivt kommunikasjonsklima kan være bra, da det får frem forskjellen og uenigheten hos teammedlemmene.",
-      "Både et støttende og et defensivt klima kan være selvforsterkende og øke over tid.",
-      "Studier viser at team bruker for mye tid på å gå igjennom kjent informasjon og diskutere temaer som allerede er kjent, i stedet for å kombinere den unike kompetansen til hver enkelt.",
-      "Paraspråk, de lydene vi lager utenom ordene, som talerytme, hosting, latter osv., kan ofte være viktigere når et budskap blir overført enn det som faktisk blir sagt."
+      "Et defensivt kommunikasjonsklima kan være bra, da det får frem forskjellen og uenigheten hos teammedlemmene.",
+      "Både et støttende og et defensivt klima kan være selvforsterkende og øke over tid.",
+      "Studier viser at team bruker for mye tid på å gå igjennom kjent informasjon og diskutere temaer som allerede er kjent, i stedet for å kombinere den unike kompetansen til hver enkelt.",
+      "Paraspråk, de lydene vi lager utenom ordene, som talerytme, hosting, latter osv., kan ofte være viktigere når et budskap blir overført enn det som faktisk blir sagt."
     ]
   },
   {
-    "question": "I følge Hersey og Blanchards modell om situasjonsbestemt ledelse i pensumboken bør ledere tilpasse lederstilen sin til de ansattes modenhetsnivå. Modenhetsnivå er gitt ut i fra i hvilken grad de ansatte har kunnskap om jobben de skal gjøre, og i hvilken grad de er motivert for å gjøre jobben. Hvilken lederstil anbefales når de ansatte har lav modenhet, altså at de har lav kunnskap og lav motivasjon?",
+    "question": "I følge Hersey og Blanchards modell om situasjonsbestemt ledelse i pensumboken bør ledere tilpasse lederstilen sin til de ansattes modenhetsnivå. Modenhetsnivå er gitt ut i fra i hvilken grad de ansatte har kunnskap om jobben de skal gjøre, og i hvilken grad de er motivert for å gjøre jobben. Hvilken lederstil anbefales når de ansatte har lav modenhet, altså at de har lav kunnskap og lav motivasjon?",
     "answers": [1],
     "exam": ".*",
     "options": [
@@ -110,32 +110,37 @@
     ]
   },
   {
-    "question": "En bedrift har marginalkostnader på 500 og faste kostnader på 10 000 000. Hva er et korrekt uttrykk for bedriftens totale kostnader, \\(TC(Q)\\), når \\(Q\\) er mengden bedriften produserer?",
+    "question": "En bedrift har marginalkostnader på 500 og faste kostnader på 10 000 000. Hva er et korrekt uttrykk for bedriftens totale kostnader, <math><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math>, når <math><mi>Q</mi></math> er mengden bedriften produserer?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\( TC(Q) = 500 + 10 000 000 / Q \\)",
-      "\\( TC(Q) = 500/Q + 10 000 000 \\)",
-      "\\( TC(Q) = 500Q + 10 000 000 \\)",
-      "\\( TC(Q) = 500Q - 10 000 000 \\)"
+      "<math><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mn>500</mn><mo>+</mo><mfrac><mn>10000000</mn><mi>Q</mi></mfrac></math>",
+      "<math><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mfrac><mn>500</mn><mi>Q</mi></mfrac><mo>+</mo><mn>10000000</mn></math>",
+      "<math><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mn>500</mn><mi>Q</mi><mo>+</mo><mn>10000000</mn></math>",
+      "<math><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mn>500</mn><mi>Q</mi><mo>-</mo><mn>10000000</mn></math>"
     ]
   },
   {
-    "question": "Etterspørselen etter produktet til et monopol kan uttrykkes som \\(Q = 1000 - 0,1P\\) der \\(Q\\) er etterspurt mengde og \\(P\\) er prisen per enhet. Hva er da marginalinntekten, MR?",
+    "question": "Etterspørselen etter produktet til et monopol kan uttrykkes som <math><mi>Q</mi><mo>=</mo><mn>1000</mn><mo>-</mo><mn>0.1</mn><mi>P</mi></math> der <math><mi>Q</mi></math> er etterspurt mengde og <math><mi>P</mi></math> er prisen per enhet. Hva er da marginalinntekten, <math><mi>MR</mi></math>?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\( MR = 1000 - 0,2P \\)",
-      "\\( MR = 10 000 - 20Q \\)",
-      "\\( MR = 1000 - 0,2Q \\)",
-      "\\( MR = 10 000 - 0,2Q \\)"
+      "<math><mi>MR</mi><mo>=</mo><mn>1000</mn><mo>-</mo><mn>0.2</mn><mi>P</mi></math>",
+      "<math><mi>MR</mi><mo>=</mo><mn>10000</mn><mo>-</mo><mn>20</mn><mi>Q</mi></math>",
+      "<math><mi>MR</mi><mo>=</mo><mn>1000</mn><mo>-</mo><mn>0.2</mn><mi>Q</mi></math>",
+      "<math><mi>MR</mi><mo>=</mo><mn>10000</mn><mo>-</mo><mn>0.2</mn><mi>Q</mi></math>"
     ]
   },
   {
-    "question": "Anta at etterspørselselastisiteten defineres slik at den blir et ikke-negativt tall for normal etterspørsel. Etterspørselen etter produktet til et monopol kan uttrykkes som \\(Q = 1000 - 0,1P\\) der \\(Q\\) er etterspurt\nmengde og \\(P\\) er prisen per enhet. Dersom bedriften produserer 500 enheter, hva er da etterspørselselastisiteten?",
+    "question": "Anta at etterspørselselastisiteten defineres slik at den blir et ikke-negativt tall for normal etterspørsel. Etterspørselen etter produktet til et monopol kan uttrykkes som <math><mi>Q</mi><mo>=</mo><mn>1000</mn><mo>-</mo><mn>0.1</mn><mi>P</mi></math> der <math><mi>Q</mi></math> er etterspurt mengde og <math><mi>P</mi></math> er prisen per enhet. Dersom bedriften produserer <math><mn>500</mn></math> enheter, hva er da etterspørselselastisiteten?",
     "answers": [2],
     "exam": ".*",
-    "options": ["0,0", "0,5", "1,0", "1,5"]
+    "options": [
+      "<math><mn>0.0</mn></math>",
+      "<math><mn>0.5</mn></math>",
+      "<math><mn>1.0</mn></math>",
+      "<math><mn>1.5</mn></math>"
+    ]
   },
   {
     "question": "Hva kan vi si om sammenhengen mellom etterspørselselastisitet og marginalinntekt?",
@@ -149,48 +154,53 @@
     ]
   },
   {
-    "question": "En bedrift produserer ett produkt som den selger i to ulike land. På grunn av transportkostnader, toll etc. er det ikke lønnsomt for noen å kjøpe produktet i det ene landet for så å selge det i det andre. Etterspørselen i det ene landet, land A, kan uttrykkes som \\(P_A = 1000 - Q_A\\) der \\(P_A\\) er prisen og\n\\(Q_A\\) er mengden. Tilsvarende kan etterspørselen i det andre landet uttrykkes som \\(P_B = 2000 - 0,2Q_B\\) der \\(P_A\\). For bedriften er kostnaden per enhet solgt den samme i begge markedene. Bedriftens kostnader kan uttrykkes som \\(TC(Q) = 100(Q_A+Q_B)+ 1000000\\). Hva blir optimal profitt for bedriften?",
+    "question": "En bedrift produserer ett produkt som den selger i to ulike land. På grunn av transportkostnader, toll etc. er det ikke lønnsomt for noen å kjøpe produktet i det ene landet for så å selge det i det andre. Etterspørselen i det ene landet, land A, kan uttrykkes som <math><msub><mi>P</mi><mi>A</mi></msub><mo>=</mo><mn>1000</mn><mo>-</mo><msub><mi>Q</mi><mi>A</mi></msub></math> der <math><msub><mi>P</mi><mi>A</mi></msub></math> er prisen og <math><msub><mi>Q</mi><mi>A</mi></msub></math> er mengden. Tilsvarende kan etterspørselen i det andre landet uttrykkes som <math><msub><mi>P</mi><mi>B</mi></msub><mo>=</mo><mn>2000</mn><mo>-</mo><mn>0.2</mn><msub><mi>Q</mi><mi>B</mi></msub></math>. For bedriften er kostnaden per enhet solgt den samme i begge markedene. Bedriftens kostnader kan uttrykkes som <math><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mn>100</mn><mo>(</mo><msub><mi>Q</mi><mi>A</mi></msub><mo>+</mo><msub><mi>Q</mi><mi>B</mi></msub><mo>)</mo><mo>+</mo><mn>1000000</mn></math>. Hva blir optimal profitt for bedriften?",
     "answers": [3],
     "exam": ".*",
     "options": ["2 525 000", "2 875 000", "3 225 000", "3 715 000"]
   },
   {
-    "question": "I et marked kan indirekte etterspørsel uttrykkes som \\(P = 1000 - Q\\). La \\(Q^*\\) være faktisk omsatt\nmengde. Hva blir da et korrekt uttrykk for konsumentoverskuddet, \\(KO(Q^*)\\) som funksjon av faktisk omsatt mengde?",
+    "question": "I et marked kan indirekte etterspørsel uttrykkes som <math><mi>P</mi><mo>=</mo><mn>1000</mn><mo>-</mo><mi>Q</mi></math>. La <math><msup><mi>Q</mi><mo>*</mo></msup></math> være faktisk omsatt mengde. Hva blir da et korrekt uttrykk for konsumentoverskuddet, <math><mi>KO</mi><mo>(</mo><msup><mi>Q</mi><mo>*</mo></msup><mo>)</mo></math> som funksjon av faktisk omsatt mengde?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\( KO(Q^*) = 1000Q^* - Q^{*^2}/2 \\)",
-      "\\( KO(Q^*) = 1000Q^* + Q^{*^2}/2 \\)",
-      "\\( KO(Q^*) = Q^{*^2} \\)",
-      "\\( KO(Q^*) = Q^{*^2}/2 \\)"
+      "<math><mi>KO</mi><mo>(</mo><msup><mi>Q</mi><mo>*</mo></msup><mo>)</mo><mo>=</mo><mn>1000</mn><msup><mi>Q</mi><mo>*</mo></msup><mo>-</mo><mfrac><msup><msup><mi>Q</mi><mo>*</mo></msup><mn>2</mn></msup><mn>2</mn></mfrac></math>",
+      "<math><mi>KO</mi><mo>(</mo><msup><mi>Q</mi><mo>*</mo></msup><mo>)</mo><mo>=</mo><mn>1000</mn><msup><mi>Q</mi><mo>*</mo></msup><mo>+</mo><mfrac><msup><msup><mi>Q</mi><mo>*</mo></msup><mn>2</mn></msup><mn>2</mn></mfrac></math>",
+      "<math><mi>KO</mi><mo>(</mo><msup><mi>Q</mi><mo>*</mo></msup><mo>)</mo><mo>=</mo><msup><msup><mi>Q</mi><mo>*</mo></msup><mn>2</mn></msup></math>",
+      "<math><mi>KO</mi><mo>(</mo><msup><mi>Q</mi><mo>*</mo></msup><mo>)</mo><mo>=</mo><mfrac><msup><msup><mi>Q</mi><mo>*</mo></msup><mn>2</mn></msup><mn>2</mn></mfrac></math>"
     ]
   },
   {
-    "question": "En bedrift i et frikonkurransemarked har marginalkostnader gitt ved \\(MC = 100 + 0,01Q\\), der \\(Q\\) er\nmengden bedriften produserer per periode. Prisen i markedet er 120. Hva blir optimal mengde for bedriften?",
+    "question": "En bedrift i et frikonkurransemarked har marginalkostnader gitt ved <math><mi>MC</mi><mo>=</mo><mn>100</mn><mo>+</mo><mn>0.01</mn><mi>Q</mi></math>, der <math><mi>Q</mi></math> er mengden bedriften produserer per periode. Prisen i markedet er <math><mn>120</mn></math>. Hva blir optimal mengde for bedriften?",
     "answers": [2],
     "exam": ".*",
-    "options": ["500", "1000", "2000", "4000"]
+    "options": [
+      "<math><mn>500</mn></math>",
+      "<math><mn>1000</mn></math>",
+      "<math><mn>2000</mn></math>",
+      "<math><mn>4000</mn></math>"
+    ]
   },
   {
-    "question": "I et duopolmarked tilpasser bedriftene seg i tråd med den såkalte Cournot-modellen. Etterspørselen kan uttrykkes som \\( P = A - BQ \\) der \\(P\\) er prisen, \\(Q\\) er total mengde i markedet, og A og B er strengt positive parametre. Begge bedriftene har marginalkostnader \\(C\\). Hva blir prisen i markedet?",
+    "question": "I et duopolmarked tilpasser bedriftene seg i tråd med den såkalte Cournot-modellen. Etterspørselen kan uttrykkes som <math><mi>P</mi><mo>=</mo><mi>A</mi><mo>-</mo><mi>B</mi><mi>Q</mi></math> der <math><mi>P</mi></math> er prisen, <math><mi>Q</mi></math> er total mengde i markedet, og <math><mi>A</mi></math> og <math><mi>B</mi></math> er strengt positive parametre. Begge bedriftene har marginalkostnader <math><mi>C</mi></math>. Hva blir prisen i markedet?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\( P = \\frac{1}{3}(A+2C) \\)",
-      "\\( P = \\frac{1}{3B}(A-C) \\)",
-      "\\( P = \\frac{1}{3B}(A+2C) \\)",
-      "\\( P = \\frac{1}{3}(A-C) \\)"
+      "<math><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>A</mi><mo>+</mo><mn>2</mn><mi>C</mi><mo>)</mo></math>",
+      "<math><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>B</mi></mrow></mfrac><mo>(</mo><mi>A</mi><mo>-</mo><mi>C</mi><mo>)</mo></math>",
+      "<math><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>B</mi></mrow></mfrac><mo>(</mo><mi>A</mi><mo>+</mo><mn>2</mn><mi>C</mi><mo>)</mo></math>",
+      "<math><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>A</mi><mo>-</mo><mi>C</mi><mo>)</mo></math>"
     ]
   },
   {
-    "question": "Anta at en bedrift har godt grunnlag for å si at verdien av en eiendel er blitt redusert med 5 % den siste perioden, men velger å avskrive eiendelen med 10 % av verdien i tråd med den maksimale satsen for denne type eiendel i følge regnskapslovgivningen. Hva er en naturlig forklaring på bedriftens valg?",
+    "question": "Anta at en bedrift har godt grunnlag for å si at verdien av en eiendel er blitt redusert med 5 % den siste perioden, men velger å avskrive eiendelen med 10 % av verdien i tråd med den maksimale satsen for denne type eiendel i følge regnskapslovgivningen. Hva er en naturlig forklaring på bedriftens valg?",
     "answers": [1],
     "exam": ".*",
     "options": [
       "Bedriften ønsker høyest mulig regnskapsført overskudd.",
       "Bedriften ønsker lav skatt for perioden.",
-      "Bedriften gjør det for å unngå regnskapsmessig underskudd.",
-      "Bedriften gjør det for å øke egenkapitalrentabilitet før skatt."
+      "Bedriften gjør det for å unngå regnskapsmessig underskudd.",
+      "Bedriften gjør det for å øke egenkapitalrentabilitet før skatt."
     ]
   },
   {
@@ -205,52 +215,52 @@
     ]
   },
   {
-    "question": "Hva er nåverdien av å få 1 000 000 om tre år når avkastningskravet er 8 % pr år?",
+    "question": "Hva er nåverdien av å få 1 000 000 om tre år når avkastningskravet er 8 % pr år?",
     "answers": [1],
     "exam": ".*",
     "options": ["735 030", "793 832", "857 339", "925 926"]
   },
   {
-    "question": "Et verdipapir gir kontantstrømmen \\(k\\) om \\(N\\) perioder. Det gir så kontantstrøm i hver periode fram til og med periode \\(N+M\\). Fra periode til periode endres kontantstrømmen med faktoren \\(1+g\\). I\nperiode \\(N+1\\) er kontantstrømmen \\(k(1+g)\\). I periode \\(N+2\\) er den \\(k(1+g)^2\\) og så videre inntil siste periode, det vil si periode \\(N+M\\) der den er \\(k(1+g)^M\\). Diskonteringsrenten er \\(r\\). Hva blir nåverdien av denne kontantstrømmen?",
+    "question": "Et verdipapir gir kontantstrømmen <math><mi>k</mi></math> om <math><mi>N</mi></math> perioder. Det gir så kontantstrøm i hver periode fram til og med periode <math><mi>N</mi><mo>+</mo><mi>M</mi></math>. Fra periode til periode endres kontantstrømmen med faktoren <math><mn>1</mn><mo>+</mo><mi>g</mi></math>. I periode <math><mi>N</mi><mo>+</mo><mn>1</mn></math> er kontantstrømmen <math><mi>k</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></math>. I periode <math><mi>N</mi><mo>+</mo><mn>2</mn></math> er den <math><mi>k</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mn>2</mn></msup></math> og så videre inntil siste periode, det vil si periode <math><mi>N</mi><mo>+</mo><mi>M</mi></math> der den er <math><mi>k</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mi>M</mi></msup></math>. Diskonteringsrenten er <math><mi>r</mi></math>. Hva blir nåverdien av denne kontantstrømmen?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\( \\frac{k}{(r-g)(1+r)^{N-1}} \\)",
-      "\\( \\frac{k}{r} \\)",
-      "\\( \\frac{k}{(r-g)(1+r)^{N-1}}[1 - (\\frac{1+g}{1+r})] \\)",
-      "\\( \\frac{k}{(r-g)(1+r)^{N-1}}[1 - (\\frac{1+g}{1+r})^{M+1}] \\)"
+      "<math><mfrac><mi>k</mi><mrow><mo>(</mo><mi>r</mi><mo>-</mo><mi>g</mi><mo>)</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac></math>",
+      "<math><mfrac><mi>k</mi><mi>r</mi></mfrac></math>",
+      "<math><mfrac><mi>k</mi><mrow><mo>(</mo><mi>r</mi><mo>-</mo><mi>g</mi><mo>)</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac><mo>[</mo><mn>1</mn><mo>-</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac><mo>]</mo></math>",
+      "<math><mfrac><mi>k</mi><mrow><mo>(</mo><mi>r</mi><mo>-</mo><mi>g</mi><mo>)</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac><mo>[</mo><mn>1</mn><mo>-</mo><msup><mrow><mo>(</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac><mo>)</mo></mrow><mrow><mi>M</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>]</mo></math>"
     ]
   },
   {
-    "question": "I forbindelse med vurdering av et investeringsprosjekt regner selskapet med at i periode 4 vil kontantstrømmen være -1 000 000 med sannsynlighet 30 %, 0 med sannsynlighet 30 % og 3 000 000\nmed sannsynlighet 40 %. Hva er nåverdien av forventet kontantstrøm i denne perioden dersom avkastningskravet er 12 %?",
+    "question": "I forbindelse med vurdering av et investeringsprosjekt regner selskapet med at i periode 4 vil kontantstrømmen være -1 000 000 med sannsynlighet 30 %, 0 med sannsynlighet 30 % og 3 000 000\nmed sannsynlighet 40 %. Hva er nåverdien av forventet kontantstrøm i denne perioden dersom avkastningskravet er 12 %?",
     "answers": [1],
     "exam": ".*",
     "options": ["510 684", "571 966", "666 667", "762 622"]
   },
   {
-    "question": "Internrenten til et investeringsprosjekt er definert som den diskonteringsrenten som vil gi nettonåverdi lik null for prosjektet og kan brukes til å velge prosjekter som skal gjennomføres. Anta prosjektet som skal vurderes innebærer en investering i nåtidspunktet og så bare positive kontantstrømmer i alle påfølgende perioder i prosjektets levetid. Hvilken beslutningsregel er naturlig?",
+    "question": "Internrenten til et investeringsprosjekt er definert som den diskonteringsrenten som vil gi nettonåverdi lik null for prosjektet og kan brukes til å velge prosjekter som skal gjennomføres. Anta prosjektet som skal vurderes innebærer en investering i nåtidspunktet og så bare positive kontantstrømmer i alle påfølgende perioder i prosjektets levetid. Hvilken beslutningsregel er naturlig?",
     "answers": [0],
     "exam": ".*",
     "options": [
       "Gjennomfør prosjektet dersom internrenten er høyere enn avkastningskravet.",
       "Gjennomfør prosjektet dersom internrenten er lavere enn avkastningskravet.",
-      "Gjennomfør prosjektet dersom internrenten er høyere enn nettonåverdien.",
+      "Gjennomfør prosjektet dersom internrenten er høyere enn nettonåverdien.",
       "Gjennomfør prosjektet dersom internrenten er høyere enn gjeldsrenten."
     ]
   },
   {
-    "question": "Tre verdipapirer har forventede avkastninger og standardavvik som i tabellen under.\n<img src=\"images/s0e7cf.webp\" />\nEn rasjonell, risikoavers investor kan velge å investere bare i A, B, eller C eller i en portefølje av A og C. (Investoren kan altså ikke lage kombinasjoner av A og B eller B og C, men står ellers fritt til å fordele pengene blant de tre verdipapirene.) Investering A og C er ikke perfekt korrelerte. Investoren vil ikke ha noen andre investeringer. Hva vil investoren velge?",
+    "question": "Tre verdipapirer har forventede avkastninger og standardavvik som i tabellen under.\n<img src=\"images/s0e7cf.webp\" />\nEn rasjonell, risikoavers investor kan velge å investere bare i A, B, eller C eller i en portefølje av A og C. (Investoren kan altså ikke lage kombinasjoner av A og B eller B og C, men står ellers fritt til å fordele pengene blant de tre verdipapirene.) Investering A og C er ikke perfekt korrelerte. Investoren vil ikke ha noen andre investeringer. Hva vil investoren velge?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "Investoren velger å investere bare i A.",
-      "Investoren velger å investere bare i B.",
-      "Investoren velger å investere bare i C.",
-      "Investoren velger å investere i en portefølje av A og C."
+      "Investoren velger å investere bare i A.",
+      "Investoren velger å investere bare i B.",
+      "Investoren velger å investere bare i C.",
+      "Investoren velger å investere i en portefølje av A og C."
     ]
   },
   {
-    "question": "En investor har en portefølje bestående av flere verdipapirer, men ikke så veldig mange, slik at porteføljen ikke kan karakteriseres som veldiversifisert. Veid gjennomsnitt av betaene til verdipapirene i porteføljen er 1,5. Standardavviket til markedsporteføljen betaene er regnet med referanse til er 20 %. Hva kan vi si om standardavviket til investorens portefølje?",
+    "question": "En investor har en portefølje bestående av flere verdipapirer, men ikke så veldig mange, slik at porteføljen ikke kan karakteriseres som veldiversifisert. Veid gjennomsnitt av betaene til verdipapirene i porteføljen er 1,5. Standardavviket til markedsporteføljen betaene er regnet med referanse til er 20 %. Hva kan vi si om standardavviket til investorens portefølje?",
     "answers": [3],
     "exam": ".*",
     "options": [
@@ -261,14 +271,14 @@
     ]
   },
   {
-    "question": "Hva er en naturlig forklaring på hva beta uttrykker?",
+    "question": "Hva er en naturlig forklaring på hva beta uttrykker?",
     "answers": [1],
     "exam": ".*",
     "options": [
       "Beta uttrykker verdipapirets totale risiko slik at standardavviket til verdipapiret blir beta ganger markedets standardavvik.",
       "Beta reflekterer den risikoen verdipapiret bidrar med i en veldiversifisert portefølje i forhold til andelen som investeres i verdipapiret.",
       "Beta er korrelasjonskoeffisienten mellom avkastningene til verdipapiret og markedet dividert med verdipapirets standardavvik.",
-      "Beta er et mål på unik risiko, slik at verdipapirer med relativt høy beta har relativt mye unik risiko i forhold til totalrisiko."
+      "Beta er et mål på unik risiko, slik at verdipapirer med relativt høy beta har relativt mye unik risiko i forhold til totalrisiko."
     ]
   },
   {
@@ -278,13 +288,13 @@
     "options": ["5 %", "10 %", "15 %", "20 %"]
   },
   {
-    "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), gir en sammenheng mellom størrelsen kalt beta, forventet avkastning på en investering, risikofri avkastning og forventet avkastning i markedet. Anta at beta for en aksje er 0,5. Forventet markedsavkastning er 8 % og risikofri rente er 2 %. Hva blir da forventet avkastning for aksjen ifølge CAPM?",
+    "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), gir en sammenheng mellom størrelsen kalt beta, forventet avkastning på en investering, risikofri avkastning og forventet avkastning i markedet. Anta at beta for en aksje er 0,5. Forventet markedsavkastning er 8 % og risikofri rente er 2 %. Hva blir da forventet avkastning for aksjen ifølge CAPM?",
     "answers": [1],
     "exam": ".*",
     "options": ["2,0 %", "5,0 %", "8,0 %", "10,0 %"]
   },
   {
-    "question": "Markedsverdien av egenkapitalen til et selskap er 1 milliard og selskapet har gjeld på 4 milliarder. Forventet avkastning på selskapets aksjer er 15 % og avkastningen på gjelden er 5 %. Selskapsskattesatsen er 25 %. I forbindelse med et mulig investeringsprosjekt vil selskapet bruke selskapets WACC, det vil si totalkapitalens forventede avkastning etter skatt, som diskonteringsrente. Kontantstrøm før skatt, renter etc. i prosjektets første periode etter investeringen, det vil si ett år fra nå, er forventet å være 4 000 000. Rentene på gjelden utgjør da 200 000. I beregningen av nettonåverdi for prosjektet, hva blir nåverdien av kontantstrømmen i denne første perioden etter investering?",
+    "question": "Markedsverdien av egenkapitalen til et selskap er 1 milliard og selskapet har gjeld på 4 milliarder. Forventet avkastning på selskapets aksjer er 15 % og avkastningen på gjelden er 5 %. Selskapsskattesatsen er 25 %. I forbindelse med et mulig investeringsprosjekt vil selskapet bruke selskapets WACC, det vil si totalkapitalens forventede avkastning etter skatt, som diskonteringsrente. Kontantstrøm før skatt, renter etc. i prosjektets første periode etter investeringen, det vil si ett år fra nå, er forventet å være 4 000 000. Rentene på gjelden utgjør da 200 000. I beregningen av nettonåverdi for prosjektet, hva blir nåverdien av kontantstrømmen i denne første perioden etter investering?",
     "answers": [2],
     "exam": ".*",
     "options": ["2 688 679", "2 803 738", "2 830 189", "2 877 358"]

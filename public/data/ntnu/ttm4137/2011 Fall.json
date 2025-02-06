@@ -49,10 +49,10 @@
     "answers": [2],
     "exam": "2011 Fall",
     "options": [
-      "\\(C = E(i) \\oplus i\\)",
-      "\\(C = E(i) \\oplus M \\oplus i\\)",
-      "\\(C_i = E(i)  M_i\\)",
-      "\\(C = E(i) \\oplus M\\)"
+      "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>&#x2295;</mo><mi>i</mi></math>",
+      "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>&#x2295;</mo><mi>M</mi><mo>&#x2295;</mo><mi>i</mi></math>",
+      "<math><msub><mi>C</mi><mi>i</mi></msub><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>&#x22C5;</mo><msub><mi>M</mi><mi>i</mi></msub></math>",
+      "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>&#x2295;</mo><mi>M</mi></math>"
     ]
   },
   {
@@ -106,7 +106,7 @@
     "options": [
       "By the network providing temporary subscriber identities to the USIMs",
       "By keeping the subscriber identity in the USIM only",
-      "By storing the 128-bit secret key (\\(K_{IMSI}\\)) in the USIM, and distribute only to trusted VLRs",
+      "By storing the 128-bit secret key (<math><msub><mi>K</mi><mi>IMSI</mi></msub></math>) in the USIM, and distribute only to trusted VLRs",
       "By using the IMEI instead of the IMSI"
     ]
   },
@@ -116,9 +116,9 @@
     "exam": "2011 Fall",
     "options": [
       "IMSI, RAND, AUTN, XRES",
-      "RAND, AUTIN, XIRES, \\(K_{ASME}\\)",
+      "RAND, AUTIN, XIRES, <math><msub><mi>K</mi><mi>ASME</mi></msub></math>",
       "RAND, AUTN, XRES, CK, IK",
-      "RAND, AUTN, XRES, \\(K_c\\)"
+      "RAND, AUTN, XRES, <math><msub><mi>K</mi><mi>c</mi></msub></math>"
     ]
   },
   {

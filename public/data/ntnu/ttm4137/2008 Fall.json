@@ -147,9 +147,9 @@
     "exam": ".*",
     "options": [
       "The authentication quintet (RAND, AUTN, XRES, CK, IK)",
-      "The authentication quintet (RAND, AUTN, XRES, \\(K_i\\), \\(K_c\\))",
-      "The authentication triplet (RAND, XRES, \\(K_i\\))",
-      "The authentication triplet (RAND, XRES, \\(K_c\\))"
+      "The authentication quintet (RAND, AUTN, XRES, <math><msub><mi>K</mi><mi>i</mi></msub></math>, <math><msub><mi>K</mi><mi>c</mi></msub></math>)",
+      "The authentication triplet (RAND, XRES, <math><msub><mi>K</mi><mi>i</mi></msub></math>)",
+      "The authentication triplet (RAND, XRES, <math><msub><mi>K</mi><mi>c</mi></msub></math>)"
     ]
   },
   {
@@ -157,10 +157,10 @@
     "answers": [1],
     "exam": ".*",
     "options": [
-      "SQN \\(\\oplus\\) AK, XRES, MAC",
-      "SQN \\(\\oplus\\) AK, AMF, MAC",
-      "SQN, AMF, MAC, RAND",
-      "SQN \\(\\oplus\\) AK, AMF, MAC, RAND"
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>XRES</mi></math>, <math><mi>MAC</mi></math>",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>AMF</mi></math>, <math><mi>MAC</mi></math>",
+      "<math><mi>SQN</mi></math>, <math><mi>AMF</mi></math>, <math><mi>MAC</mi></math>, <math><mi>RAND</mi></math>",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>AMF</mi></math>, <math><mi>MAC</mi></math>, <math><mi>RAND</mi></math>"
     ]
   },
   {

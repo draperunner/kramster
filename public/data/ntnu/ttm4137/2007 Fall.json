@@ -111,7 +111,13 @@
     "question": "How many IVs are available in WEP?",
     "answers": [0],
     "exam": ".*",
-    "options": ["\\(2^4\\)", "\\(2^{64}\\)", "\\(2^{128}\\)", "0", "24"]
+    "options": [
+      "<math><msup><mn>2</mn><mn>4</mn></msup></math>",
+      "<math><msup><mn>2</mn><mn>64</mn></msup></math>",
+      "<math><msup><mn>2</mn><mn>128</mn></msup></math>",
+      "<math><mn>0</mn></math>",
+      "<math><mn>24</mn></math>"
+    ]
   },
   {
     "question": "What is true for WEP?",

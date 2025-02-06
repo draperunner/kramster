@@ -43,10 +43,10 @@
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(K_i\\) and RAND and XRES",
-      "RAND and XRES",
-      "\\(K_i\\) and XRES",
-      "\\(K_i\\) and RAND"
+      "<math><msub><mi>K</mi><mi>i</mi></msub></math> and <math><mi>RAND</mi></math> and <math><mi>XRES</mi></math>",
+      "<math><mi>RAND</mi></math> and <math><mi>XRES</mi></math>",
+      "<math><msub><mi>K</mi><mi>i</mi></msub></math> and <math><mi>XRES</mi></math>",
+      "<math><msub><mi>K</mi><mi>i</mi></msub></math> and <math><mi>RAND</mi></math>"
     ]
   },
   {
@@ -76,10 +76,10 @@
     "answers": [2],
     "exam": ".*",
     "options": [
-      "SQN \b\b\\(\\oplus\\)\b\b\b\b\b\b AK, MAC-S. Resynchronization when the SQN check fails on the network side",
-      "SQN \b\\(\\oplus\\) CK, MAC-S. Resynchronization when the SQN check fails on the network side",
-      "SQN \b\\(\\oplus\\) AK, MAC-S. Resynchronization when the SQN check fails on the MS side",
-      "SQN \b\\(\\oplus\\) CK, MAC-S. Resynchronization when the SQN check fails on the MS side"
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the SQN check fails on the network side",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>CK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the SQN check fails on the network side",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the SQN check fails on the MS side",
+      "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>CK</mi></math>, <math><mi>MAC-S</mi></math>. Resynchronization when the SQN check fails on the MS side"
     ]
   },
   {
