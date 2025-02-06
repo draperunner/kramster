@@ -11,13 +11,13 @@
     ]
   },
   {
-    "question": "La \\(\\neg Rx\\) bety enerkomplement av innholdet i \\(Rx\\) der \\(Rx\\) er et register.  Hva skjer egentlig her: \\(R0 \\leftarrow R1 + \\neg R2 + 1\\)",
+    "question": "La <math><mo>¬</mo><mi>Rx</mi></math> bety enerkomplement av innholdet i <math><mi>Rx</mi></math> der <math><mi>Rx</mi></math> er et register. Hva skjer egentlig her: <math><mi>R0</mi><mo>←</mo><mi>R1</mi><mo>+</mo><mo>¬</mo><mi>R2</mi><mo>+</mo><mn>1</mn></math>",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(R0\\) settes lik \\(R1 + R2 + 1\\)",
-      "\\(R0\\) settes lik \\(R1 - R2 + 1\\)",
-      "\\(R0\\) settes lik \\(R1 - R2\\)"
+      "<math><mi>R0</mi></math> settes lik <math><mi>R1</mi><mo>+</mo><mi>R2</mi><mo>+</mo><mn>1</mn></math>",
+      "<math><mi>R0</mi></math> settes lik <math><mi>R1</mi><mo>-</mo><mi>R2</mi><mo>+</mo><mn>1</mn></math>",
+      "<math><mi>R0</mi></math> settes lik <math><mi>R1</mi><mo>-</mo><mi>R2</mi></math>"
     ]
   },
   {
@@ -120,10 +120,6 @@
     "answers": [0],
     "exam": ".*",
     "options": [
-      "En MUX er en kombinatorisk krets som velger en av inngangene og sender den ut på utgangen.",
-      "En MUX er en kombinatorisk krets som tar inngangen og splitter den opp til flere utganger.",
-      "En MUX er en sekvensiell krets som alltid tar inn to verdier og gir ut en kombinasjon av disse på utgangen.",
-      "En MUX brukes til å dekode inngangen og gi riktig verdi til de ulike registrene.",
       "En MUX er en kombinatorisk krets som velger en av inngangene og sender den ut på utgangen.",
       "En MUX er en kombinatorisk krets som tar inngangen og splitter den opp til flere utganger.",
       "En MUX er en sekvensiell krets som alltid tar inn to verdier og gir ut en kombinasjon av disse på utgangen.",
