@@ -6,7 +6,7 @@
     "options": ["15,7 s", "22,3 s", "29,9 s", "39,9 s", "46,5 s"]
   },
   {
-    "question": "En fallskjermhopper faller med en fart \\(v(t) = v_t (1 - \\exp(-t/\\tau))\\) for \\(t > 0\\), hvor \\(v_t = 25\\ \\mathrm{m/s}\\) og \\(\\tau = 5,0\\ \\mathrm{s}\\). Hvor langt\nfaller fallskjermhopperen fra \\(t = 0\\) s til \\(t = 10\\) s?",
+    "question": "En fallskjermhopper faller med en fart <math><mi>v</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><msub><mi>v</mi><mi>t</mi></msub><mo>(</mo><mn>1</mn><mo>-</mo><mi>exp</mi><mo>(</mo><mo>-</mo><mi>t</mi><mo>/</mo><mi>&tau;</mi><mo>)</mo><mo>)</mo></math> for <math><mi>t</mi><mo>&gt;</mo><mn>0</mn></math>, hvor <math><msub><mi>v</mi><mi>t</mi></msub><mo>=</mo><mn>25</mn><mo>&#x2009;</mo><mi>m</mi><mo>/</mo><mi>s</mi></math> og <math><mi>&tau;</mi><mo>=</mo><mn>5,0</mn><mo>&#x2009;</mo><mi>s</mi></math>. Hvor langt faller fallskjermhopperen fra <math><mi>t</mi><mo>=</mo><mn>0</mn></math> s til <math><mi>t</mi><mo>=</mo><mn>10</mn></math> s?",
     "answers": [3],
     "exam": ".*",
     "options": ["23 m", "52 m", "89 m", "0,14 km", "0,39 km"]
@@ -24,15 +24,15 @@
     "options": ["30 kN", "60 kN", "90 kN", "120 kN", "240 kN"]
   },
   {
-    "question": "De kreftene som virker mellom nøytrale molekyler kan modeleres av et såkalt Leonard-Jones-potensial hvor den\npotensielle energien \\(U\\), som funksjon av avstand \\(r\\) mellom molekylene er gitt av\n$$ U(r) = 4 \\epsilon ((\\sigma / r)^{12} - (\\sigma / r)^6) $$\n(kreftene har sitt opphav i elektrodynamiske fluktuasjoner og kvantemekanikk, men det trenger du ikke vite for å løse\ndenne oppgaven). \\(\\epsilon\\) og \\(\\sigma\\) er konstanter. Ved hvilket avstand mellom molekylene er de intermolekylære kreftene lik\nnull?",
+    "question": "De kreftene som virker mellom nøytrale molekyler kan modelleres av et såkalt Leonard-Jones-potensial hvor den potensielle energien <math><mi>U</mi></math>, som funksjon av avstand <math><mi>r</mi></math> mellom molekylene, er gitt av: <math display=\"block\"><mi>U</mi><mo>(</mo><mi>r</mi><mo>)</mo><mo>=</mo><mn>4</mn><mi>&#x03B5;</mi><mo>(</mo><msup><mrow><mo>(</mo><mfrac><mi>&sigma;</mi><mi>r</mi></mfrac><mo>)</mo></mrow><mn>12</mn></msup><mo>-</mo><msup><mrow><mo>(</mo><mfrac><mi>&sigma;</mi><mi>r</mi></mfrac><mo>)</mo></mrow><mn>6</mn></msup><mo>)</mo></math> (kreftene har sitt opphav i elektrodynamiske fluktuasjoner og kvantemekanikk, men det trenger du ikke vite for å løse denne oppgaven). <math><mi>&#x03B5;</mi></math> og <math><mi>&sigma;</mi></math> er konstanter. Ved hvilket avstand mellom molekylene er de intermolekylære kreftene lik null?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(\\sigma\\)",
-      "\\(\\sqrt{2}\\sigma\\)",
-      "\\(\\sqrt[3]{6}\\sigma\\)",
-      "\\(\\sqrt[6]{2}\\sigma\\)",
-      "\\(2\\sigma\\)"
+      "<math><mi>&sigma;</mi></math>",
+      "<math><msqrt><mn>2</mn></msqrt><mi>&sigma;</mi></math>",
+      "<math><mroot><mn>6</mn><mn>3</mn></mroot><mi>&sigma;</mi></math>",
+      "<math><mroot><mn>2</mn><mn>6</mn></mroot><mi>&sigma;</mi></math>",
+      "<math><mn>2</mn><mi>&sigma;</mi></math>"
     ]
   },
   {
@@ -60,27 +60,27 @@
     ]
   },
   {
-    "question": "Anta at vi har to trinser med radius \\(r_1 = 12\\) cm og \\(r_2 = 4,0\\) cm som er festet på samme aksling slik at de må rotere med\nsamme vinkelhastighet. Trinsesystemet som helhet har et treghetsmoment på \\(I = 0,50\\ \\mathrm{kg\\ m}^2\\). Rundt hver av trinsene\ner det tvunnet opp en snor hvor det henger klosser med masse på henholdsvis \\(m_1 = 1\\) kg og \\(m_2 = 2\\) kg. Se figur 2.\nSnoren sklir ikke på trinsa. Hvilket av følgende utsagn er sant?\n<img src=\"images/4sdmwk.webp\"/>",
+    "question": "Anta at vi har to trinser med radius <math><msub><mi>r</mi><mn>1</mn></msub><mo>=</mo><mn>12</mn></math> cm og <math><msub><mi>r</mi><mn>2</mn></msub><mo>=</mo><mn>4.0</mn></math> cm som er festet på samme aksling slik at de må rotere med samme vinkelhastighet. Trinsesystemet som helhet har et treghetsmoment på <math><mi>I</mi><mo>=</mo><mn>0.50</mn><mo>&#x2009;</mo><mi>kg</mi><msup><mi>m</mi><mn>2</mn></msup></math>. Rundt hver av trinsene er det tvunnet opp en snor hvor det henger klosser med masse på henholdsvis <math><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></math> kg og <math><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn></math> kg. Se figur 2. Snoren sklir ikke på trinsa. Hvilket av følgende utsagn er sant?\n<img src=\"images/4sdmwk.webp\"/>",
     "answers": [0],
     "exam": "2015 Kont",
     "options": [
-      "\\(m_1\\) faller nedover.",
+      "<math><msub><mi>m</mi><mn>1</mn></msub></math> faller nedover.",
       "Det totale dreiemomentet på trinsesystemet er null.",
       "Klossenes akselerasjon er like stor.",
-      "Klossenes akselerasjon er uvhengig av trinsenes masse.",
+      "Klossenes akselerasjon er uavhengig av trinsenes masse.",
       "Klossenes akselerasjon er uavhengig av trinsenes radius."
     ]
   },
   {
-    "question": "Anta at vi har to trinser med radius \\(r_1 = 12\\) cm og \\(r_2 = 4,0\\) cm som er festet på samme aksling slik at de må rotere med\nsamme vinkelhastighet. Trinsesystemet som helhet har et treghetsmoment på \\(I = 0,50\\ \\mathrm{kgm}^2\\). Rundt hver av trinsene\ner det tvunnet opp en snor hvor det henger klosser med masse på henholdsvis \\(m_1 = 1\\) kg og \\(m_2 = 2\\) kg. Se figur 2.\nSnoren sklir ikke på trinsa. Hva blir akselerasjonen til klossen som faller nedover i systemet som er angitt?\n<img src=\"images/xx5l0r.webp\"/>",
+    "question": "Anta at vi har to trinser med radius <math><msub><mi>r</mi><mn>1</mn></msub><mo>=</mo><mn>12</mn></math> cm og <math><msub><mi>r</mi><mn>2</mn></msub><mo>=</mo><mn>4.0</mn></math> cm som er festet på samme aksling slik at de må rotere med samme vinkelhastighet. Trinsesystemet som helhet har et treghetsmoment på <math><mi>I</mi><mo>=</mo><mn>0.50</mn><mo>&#x2009;</mo><mi>kg</mi><msup><mi>m</mi><mn>2</mn></msup></math>. Rundt hver av trinsene er det tvunnet opp en snor hvor det henger klosser med masse på henholdsvis <math><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></math> kg og <math><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn></math> kg. Se figur 2. Snoren sklir ikke på trinsa. Hva blir akselerasjonen til klossen som faller nedover i systemet som er angitt?\n<img src=\"images/xx5l0r.webp\"/>",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(0,094\\ \\mathrm{\\mathrm{m/s^2}}\\)",
-      "\\(0,12\\ \\mathrm{m/s^2}\\)",
-      "\\(0,23\\ \\mathrm{m/s^2}\\)",
-      "\\(0,37\\ \\mathrm{m/s^2}\\)",
-      "\\(0,49\\ \\mathrm{m/s^2}\\)"
+      "<math><mn>0.094</mn><mo>&#x2009;</mo><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></math>",
+      "<math><mn>0.12</mn><mo>&#x2009;</mo><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></math>",
+      "<math><mn>0.23</mn><mo>&#x2009;</mo><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></math>",
+      "<math><mn>0.37</mn><mo>&#x2009;</mo><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></math>",
+      "<math><mn>0.49</mn><mo>&#x2009;</mo><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></math>"
     ]
   },
   {
@@ -90,22 +90,28 @@
     "options": ["7,0 m/s", "11,0 m/s", "13,7 m/s", "17,9 m/s", "21,2 m/s"]
   },
   {
-    "question": "En kloss i enden av en fjær svinger harmonisk. Om vi dobler amplituden på svingningen, hvordan påvirker dette\nperioden, \\(T\\), og maksimal hastighet, \\(v_{max}\\)?",
+    "question": "En kloss i enden av en fjær svinger harmonisk. Om vi dobler amplituden på svingningen, hvordan påvirker dette perioden, <math><mi>T</mi></math>, og maksimal hastighet, <math><msub><mi>v</mi><mtext>max</mtext></msub></math>?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "Både \\(T\\) og \\(v_{max}\\) dobles",
-      "\\(T\\) er uendret og \\(v_{max}\\) dobles",
-      "Både \\(T\\) og \\(v_{max}\\) forbli uendret",
-      "\\(T\\) dobles og \\(v_{max}\\) forblir uendret",
-      "\\(T\\) forblir uendret og \\(v_{max}\\) øker med en faktor \\(\\sqrt{2}\\)"
+      "Både <math><mi>T</mi></math> og <math><msub><mi>v</mi><mtext>max</mtext></msub></math> dobles",
+      "<math><mi>T</mi></math> er uendret og <math><msub><mi>v</mi><mtext>max</mtext></msub></math> dobles",
+      "Både <math><mi>T</mi></math> og <math><msub><mi>v</mi><mtext>max</mtext></msub></math> forbli uendret",
+      "<math><mi>T</mi></math> dobles og <math><msub><mi>v</mi><mtext>max</mtext></msub></math> forblir uendret",
+      "<math><mi>T</mi></math> forblir uendret og <math><msub><mi>v</mi><mtext>max</mtext></msub></math> øker med en faktor <math><msqrt><mn>2</mn></msqrt></math>"
     ]
   },
   {
-    "question": "Et drevet og dempet harmonisk svingesystem svinger med en amplitude på 0,10 m. Systemet har en fjærkonstant på\n7,0 N/m og en dempningskoeffisient b = 0,20 Ns/m. Systemet drives\nR 2π med en frekvens på 8 Hz. Hvor mye mekanisk\nenergi dissiperes av dempningen gjennom en svingeperiode? (Hint: \\(\\int_{0}^{2\\pi}\\sin^2(x)dx = \\pi\\)).",
+    "question": "Et drevet og dempet harmonisk svingesystem svinger med en amplitude på 0,10 m. Systemet har en fjærkonstant på 7,0 N/m og en dempningskoeffisient <math><mi>b</mi></math> = 0,20 Ns/m. Systemet drives med en frekvens på 8 Hz. Hvor mye mekanisk energi dissiperes av dempningen gjennom en svingeperiode? (Hint: <math><msubsup><mo>&#x222B;</mo><mn>0</mn><mrow><mn>2</mn><mi>&#x03C0;</mi></mrow></msubsup><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>&#x03C0;</mi></math>).",
     "answers": [1],
     "exam": ".*",
-    "options": ["0,16 J", "0,32 J", "0,54 J", "0,78 J", "0,99 J"]
+    "options": [
+      "<math><mn>0.16</mn><mo>&#x2009;</mo><mi>J</mi></math>",
+      "<math><mn>0.32</mn><mo>&#x2009;</mo><mi>J</mi></math>",
+      "<math><mn>0.54</mn><mo>&#x2009;</mo><mi>J</mi></math>",
+      "<math><mn>0.78</mn><mo>&#x2009;</mo><mi>J</mi></math>",
+      "<math><mn>0.99</mn><mo>&#x2009;</mo><mi>J</mi></math>"
+    ]
   },
   {
     "question": "Et drevet og dempet haromonisk svingesystem svinger med en amplitude på 0,20 m. Systemet har en fjærkonstant\npå 50,0 N/m. En ukjent dempningskoeffisient b gjør energien som blir dissipert i hver syklus er 0,025 J. Hva blir\nQ-faktoren til systemet? Q-faktoren er gitt av forholdet mellom mekanisk energi lagret i systemet og energitap per\nsyklus.",
@@ -120,19 +126,19 @@
     "options": ["3,0 cm", "4,2 cm", "5,6 cm", "6,9 cm", "10 cm"]
   },
   {
-    "question": "Vi har to partikler med ladning \\(q_1 = 3\\) C og \\(q_2 = 1\\) C som er en avstand d = 1 m fra hverandre. Hvilket av følgende\nutsagn om de elektrostatiske kreftene mellom partiklene er sant?",
+    "question": "Vi har to partikler med ladning <math><msub><mi>q</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></math> C og <math><msub><mi>q</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn></math> C som er en avstand <math><mi>d</mi><mo>=</mo><mn>1</mn></math> m fra hverandre. Hvilket av følgende utsagn om de elektrostatiske kreftene mellom partiklene er sant?",
     "answers": [4],
     "exam": ".*",
     "options": [
-      "Kraften på \\(q_1\\) er større enn kraften på \\(q_2\\)",
-      "Kraften på \\(q_2\\) er større enn kraften på \\(q_1\\)",
-      "Kreftene øker med økende avstand d",
+      "Kraften på <math><msub><mi>q</mi><mn>1</mn></msub></math> er større enn kraften på <math><msub><mi>q</mi><mn>2</mn></msub></math>",
+      "Kraften på <math><msub><mi>q</mi><mn>2</mn></msub></math> er større enn kraften på <math><msub><mi>q</mi><mn>1</mn></msub></math>",
+      "Kreftene øker med økende avstand <math><mi>d</mi></math>",
       "Kreftene som virker på partiklene peker i samme retning",
       "Kreftene som virker på partiklene er like store"
     ]
   },
   {
-    "question": "Tre punktladninger ligger på hjørnene av et likesidet triangel som vist i figur 4. Linjen mellom \\(q_3\\) og \\(q_2\\) er parallell\nmed y-aksen. \\(q_1 = q_2 = -q_3\\) . I hvilken retning peker netto kraft som virker på \\(q_1\\) ?\n<img src=\"images/gojt1l.webp\"/>",
+    "question": "Tre punktladninger ligger på hjørnene av et likesidet triangel som vist i figur 4. Linjen mellom <math><msub><mi>q</mi><mn>3</mn></msub></math> og <math><msub><mi>q</mi><mn>2</mn></msub></math> er parallell med y-aksen. <math><msub><mi>q</mi><mn>1</mn></msub></math> = <math><msub><mi>q</mi><mn>2</mn></msub></math> = -<math><msub><mi>q</mi><mn>3</mn></msub></math>. I hvilken retning peker netto kraft som virker på <math><msub><mi>q</mi><mn>1</mn></msub></math>?\n<img src=\"images/gojt1l.webp\"/>",
     "answers": [2],
     "exam": ".*",
     "options": [
@@ -144,19 +150,19 @@
     ]
   },
   {
-    "question": "Vi har en krets som vist i figur 4. Hvilket av følgende alternativ beskriver strømmen \\(I_0\\) i det bryteren lukkes, og for\nstrømmen \\(I_\\infty\\) når bryteren har vært lukket lenge?\n<img src=\"images/i98pmq.webp\"/>",
+    "question": "Vi har en krets som vist i figur 4. Hvilket av følgende alternativ beskriver strømmen <math><msub><mi>I</mi><mn>0</mn></msub></math> i det bryteren lukkes, og for strømmen <math><msub><mi>I</mi><mi>∞</mi></msub></math> når bryteren har vært lukket lenge?\n<img src=\"images/i98pmq.webp\"/>",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(I_0 = V/R, I_\\infty = V/L\\)",
-      "\\(I_0 = V/L, I_\\infty = 0\\)",
-      "\\(I_0 = V/R, I_\\infty = 0\\)",
-      "\\(I_0 = 0, I_\\infty = V/R\\)",
-      "\\(I_0 = 0, I_\\infty = V/(R + L)\\)"
+      "<math><msub><mi>I</mi><mn>0</mn></msub><mo>=</mo><mi>V</mi><mo>/</mo><mi>R</mi><mo>,</mo><msub><mi>I</mi><mi>∞</mi></msub><mo>=</mo><mi>V</mi><mo>/</mo><mi>L</mi></math>",
+      "<math><msub><mi>I</mi><mn>0</mn></msub><mo>=</mo><mi>V</mi><mo>/</mo><mi>L</mi><mo>,</mo><msub><mi>I</mi><mi>∞</mi></msub><mo>=</mo><mn>0</mn></math>",
+      "<math><msub><mi>I</mi><mn>0</mn></msub><mo>=</mo><mi>V</mi><mo>/</mo><mi>R</mi><mo>,</mo><msub><mi>I</mi><mi>∞</mi></msub><mo>=</mo><mn>0</mn></math>",
+      "<math><msub><mi>I</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><msub><mi>I</mi><mi>∞</mi></msub><mo>=</mo><mi>V</mi><mo>/</mo><mi>R</mi></math>",
+      "<math><msub><mi>I</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><msub><mi>I</mi><mi>∞</mi></msub><mo>=</mo><mi>V</mi><mo>/</mo><mo>(</mo><mi>R</mi><mo>+</mo><mi>L</mi><mo>)</mo></math>"
     ]
   },
   {
-    "question": "Gitt kretsen i figur 5. Det er ingen ladning på kondensatoren før bryteren lukkes. Anta at bryteren lukkes ved\nt = 0. Hvor stor er ladningen på kondensatoren ved t = 30 ms? (Hint: den generelle løsningen for differensiallikningen\n\\(y' + ay = b\\) er \\(y(t)=c\\exp(-at)+\\frac{b}{a}\\)).\n<img src=\"images/zwfhpe.webp\"/>",
+    "question": "Gitt kretsen i figur 5. Det er ingen ladning på kondensatoren før bryteren lukkes. Anta at bryteren lukkes ved t = 0. Hvor stor er ladningen på kondensatoren ved t = 30 ms? (Hint: den generelle løsningen for differensiallikningen <math><mi>y</mi><mo>'</mo><mo>+</mo><mi>a</mi><mi>y</mi><mo>=</mo><mi>b</mi></math> er <math><mi>y</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mi>c</mi><mi>exp</mi><mo>(</mo><mo>-</mo><mi>a</mi><mi>t</mi><mo>)</mo><mo>+</mo><mfrac><mi>b</mi><mi>a</mi></mfrac></math>).\n<img src=\"images/zwfhpe.webp\"/>",
     "answers": [4],
     "exam": ".*",
     "options": ["2,9 μC", "8,1 μC", "0,018 mC", "0,054 mC", "0,23 mC"]
@@ -168,34 +174,40 @@
     "options": ["1,1 kV", "2,3 kV", "3,3 kV", "4,0 kV", "5,7 kV"]
   },
   {
-    "question": "To ulike ioner med ulik masse \\(m_1\\) og \\(m_2\\) men med samme ladning \\(q\\), starter fra ro ved en elektrode og akselereres\nmot en annen elektrode. Mellom elektrodene er det en potensialforskjell \\(V\\). Ved den siste elektroden går atomene\ngjennom en spalte hvor de kommer inn i et magnetfelt \\(B\\) som er vinkelrett på bevegelsesretningen. I magnetfeltet\nfølger atomene en sirkulær bane. Hva blir forholdet \\(r_1/r_2\\) mellom radien til banene for de to atomene?",
+    "question": "To ulike ioner med ulik masse <math><msub><mi>m</mi><mn>1</mn></msub></math> og <math><msub><mi>m</mi><mn>2</mn></msub></math>, men med samme ladning <math><mi>q</mi></math>, starter fra ro ved en elektrode og akselereres mot en annen elektrode. Mellom elektrodene er det en potensialforskjell <math><mi>V</mi></math>. Ved den siste elektroden går atomene gjennom en spalte hvor de kommer inn i et magnetfelt <math><mi>B</mi></math> som er vinkelrett på bevegelsesretningen. I magnetfeltet følger atomene en sirkulær bane. Hva blir forholdet <math><mfrac><msub><mi>r</mi><mn>1</mn></msub><msub><mi>r</mi><mn>2</mn></msub></mfrac></math> mellom radien til banene for de to atomene?",
     "answers": [4],
     "exam": ".*",
     "options": [
-      "\\(\\frac{m_1+m_2}{m_1-m_2}\\)",
-      "\\(\\ln\\frac{m_1}{m_2}\\)",
-      "\\(\\frac{m_1^2}{m_2^2}\\)",
-      "\\(\\frac{m_1}{m_2}\\)",
-      "\\(\\sqrt{\\frac{m_1}{m_2}}\\)"
+      "<math><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>-</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></math>",
+      "<math><mi>ln</mi><mfrac><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub></mfrac></math>",
+      "<math><mfrac><msup><msub><mi>m</mi><mn>1</mn></msub><mn>2</mn></msup><msup><msub><mi>m</mi><mn>2</mn></msub><mn>2</mn></msup></mfrac></math>",
+      "<math><mfrac><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub></mfrac></math>",
+      "<math><msqrt><mfrac><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub></mfrac></msqrt></math>"
     ]
   },
   {
-    "question": "En punktladning med ladning q = 4,0 μC er plassert i punktet (0.25 cm, 0.25 cm, 0 cm) inne i en tenkt kube med\nsidekanter\npå 1,0 cm som er sentrert i origo. Hva blir integralet av det elektriske feltet (fluksen) over alle sidekantene,\naltså \\(\\oint \\mathbf{E} \\cdot \\mathbf{dA}\\)?",
+    "question": "En punktladning med ladning <math><mi>q</mi><mo>=</mo><mn>4.0</mn><mo>&#x2009;</mo><mi>μC</mi></math> er plassert i punktet <math>(<mn>0.25</mn><mo>&#x2009;</mo><mi>cm</mi>, <mn>0.25</mn><mo>&#x2009;</mo><mi>cm</mi>, <mn>0</mn><mo>&#x2009;</mo><mi>cm</mi>)</math> inne i en tenkt kube med sidekanter på <math><mn>1.0</mn><mo>&#x2009;</mo><mi>cm</mi></math> som er sentrert i origo. Hva blir integralet av det elektriske feltet (fluksen) over alle sidekantene, altså <math><mo>&#x222B;</mo><mi>&#x1D435;</mi><mo>&#x22C5;</mo><mi>dA</mi></math>?",
     "answers": [1],
     "exam": "2015 Kont",
     "options": [
-      "\\(0,12 \\times 10^6\\) V m",
-      "\\(0,45 \\times 10^6\\) V m",
-      "\\(1,6 \\times 10^6\\) V m",
-      "\\(3,8 \\times 10^6\\) V m",
-      "\\(4,9 \\times 10^6\\) V m"
+      "<math><mn>0.12</mn><mo>&#x2009;</mo><mo>&#xD7;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#x2009;</mo><mi>V</mi><mi>m</mi></math>",
+      "<math><mn>0.45</mn><mo>&#x2009;</mo><mo>&#xD7;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#x2009;</mo><mi>V</mi><mi>m</mi></math>",
+      "<math><mn>1.6</mn><mo>&#x2009;</mo><mo>&#xD7;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#x2009;</mo><mi>V</mi><mi>m</mi></math>",
+      "<math><mn>3.8</mn><mo>&#x2009;</mo><mo>&#xD7;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#x2009;</mo><mi>V</mi><mi>m</mi></math>",
+      "<math><mn>4.9</mn><mo>&#x2009;</mo><mo>&#xD7;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#x2009;</mo><mi>V</mi><mi>m</mi></math>"
     ]
   },
   {
-    "question": "En sløyfe med areal på 0,45 cm² hvor det går en strøm på 0,10 A ligger i et magnetfelt på 0,4 T hvor normalvektoren\ntil planet definert av sløyfen er parallelt med magnetfeltet. Hva blir dreiemomentet som virker på sløyfen?",
+    "question": "En sløyfe med areal på <math><mn>0.45</mn><mo>&#x2009;</mo><msup><mi>cm</mi><mn>2</mn></msup></math> hvor det går en strøm på <math><mn>0.10</mn><mi>A</mi></math> ligger i et magnetfelt på <math><mn>0.4</mn><mo>&#x2009;</mo><mi>T</mi></math> hvor normalvektoren til planet definert av sløyfen er parallelt med magnetfeltet. Hva blir dreiemomentet som virker på sløyfen?",
     "answers": [0],
     "exam": ".*",
-    "options": ["0 Nm", "0,12 Nm", "0,76 Nm", "1,9 Nm", "2,8 Nm"]
+    "options": [
+      "<math><mn>0</mn><mo>&#x2009;</mo><mi>Nm</mi></math>",
+      "<math><mn>0.12</mn><mo>&#x2009;</mo><mi>Nm</mi></math>",
+      "<math><mn>0.76</mn><mo>&#x2009;</mo><mi>Nm</mi></math>",
+      "<math><mn>1.9</mn><mo>&#x2009;</mo><mi>Nm</mi></math>",
+      "<math><mn>2.8</mn><mo>&#x2009;</mo><mi>Nm</mi></math>"
+    ]
   },
   {
     "question": "En sirkulær sløyfe med areal A = 1,5 m² roterer 50 ganger i sekundet rundt sin egen diameter i et magnetfelt B = 0,12 T\nslik at rotasjonsaksen ligger vinkelrett på magnetfeltet. Sløyfen har en total motstand R = 30 Ω. Hvor stor blir den\nmaksimale strømmen forårsaket av den induserte elektromotoriske spenningen?",
@@ -204,15 +216,15 @@
     "options": ["32 mA", "0,18 A", "0,45 A", "1,2 A", "1,9 A"]
   },
   {
-    "question": "Anta at vi har en ideell lang spole med tverrsnittsareal \\(A\\) og \\(n\\) vindinger per lengdeenhet. For en ideell lang spole\nmagnetfeltet inne i spolen homogent over tverrsnittet og gitt av \\(B = \\mu_0in\\), hvor \\(i\\) er strømmen i spolen, og \\(n\\) er\ntettheten av vindinger (vindinger per lengdeenhet). Utenfor spolen er magnetfeltet neglisjerbart. En leder er tvunnet\nN ganger rundt spolen. Hva er den gjensidige induktansen mellom spolen og lederen (Hint: Den gjensidige induktansen\n\\(M\\) er definert av \\(\\varepsilon_2 = -M \\frac{di_1}{dt}\\))?",
+    "question": "Anta at vi har en ideell lang spole med tverrsnittsareal <math><mi>A</mi></math> og <math><mi>n</mi></math> vindinger per lengdeenhet. For en ideell lang spole er magnetfeltet inne i spolen homogent over tverrsnittet og gitt av <math><mi>B</mi><mo>=</mo><msub><mi>&#x03BC;</mi><mn>0</mn></msub><mi>i</mi><mi>n</mi></math>, hvor <math><mi>i</mi></math> er strømmen i spolen, og <math><mi>n</mi></math> er tettheten av vindinger (vindinger per lengdeenhet). Utenfor spolen er magnetfeltet neglisjerbart. En leder er tvunnet <math><mi>N</mi></math> ganger rundt spolen. Hva er den gjensidige induktansen mellom spolen og lederen (Hint: Den gjensidige induktansen <math><mi>M</mi></math> er definert av <math><msub><mi>&#x03B5;</mi><mn>2</mn></msub><mo>=</mo><mo>-</mo><mi>M</mi><mfrac><mrow><mi>d</mi><msub><mi>i</mi><mn>1</mn></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac></math>)?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(M = \\mu_0 ANn\\)",
-      "\\(M = \\mu_0 AN^2/n\\)",
-      "\\(M = \\mu_0 A(N-n)N\\)",
-      "\\(M = \\mu_0 A(N^2-n^2)\\)",
-      "\\(M = \\mu_0 AN^{-1}n^3\\)"
+      "<math><mi>M</mi><mo>=</mo><msub><mi>&#x03BC;</mi><mn>0</mn></msub><mi>A</mi><mi>N</mi><mi>n</mi></math>",
+      "<math><mi>M</mi><mo>=</mo><msub><mi>&#x03BC;</mi><mn>0</mn></msub><mi>A</mi><msup><mi>N</mi><mn>2</mn></msup><mo>/</mo><mi>n</mi></math>",
+      "<math><mi>M</mi><mo>=</mo><msub><mi>&#x03BC;</mi><mn>0</mn></msub><mi>A</mi><mo>(</mo><mi>N</mi><mo>-</mo><mi>n</mi><mo>)</mo><mi>N</mi></math>",
+      "<math><mi>M</mi><mo>=</mo><msub><mi>&#x03BC;</mi><mn>0</mn></msub><mi>A</mi><mo>(</mo><msup><mi>N</mi><mn>2</mn></msup><mo>-</mo><msup><mi>n</mi><mn>2</mn></msup><mo>)</mo></math>",
+      "<math><mi>M</mi><mo>=</mo><msub><mi>&#x03BC;</mi><mn>0</mn></msub><mi>A</mi><msup><mi>N</mi><mo>-1</mo></msup><msup><mi>n</mi><mn>3</mn></msup></math>"
     ]
   },
   {
@@ -220,7 +232,7 @@
     "answers": [3],
     "exam": ".*",
     "options": [
-      "Metallet inntar en laver temperatur en tre om vinteren",
+      "Metallet inntar en lavere temperatur enn tre om vinteren",
       "Metallet har høyere varmekapasitet enn tre",
       "Metallet har lavere varmekapasitet enn tre",
       "Metallet har høyere varmeledningsevne enn tre",
@@ -228,13 +240,19 @@
     ]
   },
   {
-    "question": "En bjørn sover i hi om vinteren. Bjørnen har et spekklag som er 5,0 cm tykt med en varmeledningsevne på \\(0,20 \\mathrm{\\frac{W}{m\\ K}}\\)\nog en pels som er 5,0 cm tykk og har en termisk ledningsevne på \\(0,020\\ \\mathrm{\\frac{W}{m\\ K}}\\) Bjørnen har en kroppstemperatur\npå 37°C og i hiet er det en temperatur på -2,0°C. Anta at bjørnens overflateareal er 2,0 m². Hvor stort er bjørnens\nvarmetap (effekten) gjennom spekk og pels?",
+    "question": "En bjørn sover i hi om vinteren. Bjørnen har et spekklag som er <math><mn>5.0</mn><mo>&#x2009;</mo><mi>cm</mi></math> tykt med en varmeledningsevne på <math><mn>0.20</mn><mo>&#x2009;</mo><mfrac><mi>W</mi><mrow><mi>m</mi><mo>&#x2009;</mo><mi>K</mi></mrow></mfrac></math> og en pels som er <math><mn>5.0</mn><mo>&#x2009;</mo><mi>cm</mi></math> tykk og har en termisk ledningsevne på <math><mn>0.020</mn><mo>&#x2009;</mo><mfrac><mi>W</mi><mrow><mi>m</mi><mo>&#x2009;</mo><mi>K</mi></mrow></mfrac></math>. Bjørnen har en kroppstemperatur på <math><mn>37</mn><mo>&#x2009;</mo><mi>&#x2103;</mi></math> og i hiet er det en temperatur på <math><mo>-</mo><mn>2.0</mn><mo>&#x2009;</mo><mi>&#x2103;</mi></math>. Anta at bjørnens overflateareal er <math><mn>2.0</mn><mo>&#x2009;</mo><msup><mi>m</mi><mn>2</mn></msup></math>. Hvor stort er bjørnens varmetap (effekten) gjennom spekk og pels?",
     "answers": [4],
     "exam": ".*",
-    "options": ["9 W", "18 W", "28 W", "42 W", "52 W"]
+    "options": [
+      "<math><mn>9</mn><mo>&#x2009;</mo><mi>W</mi></math>",
+      "<math><mn>18</mn><mo>&#x2009;</mo><mi>W</mi></math>",
+      "<math><mn>28</mn><mo>&#x2009;</mo><mi>W</mi></math>",
+      "<math><mn>42</mn><mo>&#x2009;</mo><mi>W</mi></math>",
+      "<math><mn>52</mn><mo>&#x2009;</mo><mi>W</mi></math>"
+    ]
   },
   {
-    "question": "I \\(pV\\)-diagrammet i figuren under, representerer fire punker en ideell gass i 4 ulike tilstander. I hvilke(n) av disse tilstandene\ner temperaturen høyest?\n<img src=\"images/2m01sf.webp\"/>",
+    "question": "I <math><mi>p</mi><mi>V</mi></math>-diagrammet i figuren under, representerer fire punker en ideell gass i 4 ulike tilstander. I hvilke(n) av disse tilstandene er temperaturen høyest?\n<img src=\"images/2m01sf.webp\"/>",
     "answers": [2],
     "exam": ".*",
     "options": ["2", "3", "4", "1 og 2", "3 og 4"]
@@ -252,7 +270,7 @@
     "options": ["278 K", "280 K", "282 K", "284 K", "286 K"]
   },
   {
-    "question": "En satelitt stopper pluteslig opp og faller loddrett ned gjennom atmosfæren under påvirkning av tyngdekraften\nog friksjon fra atmosfæren. Tyngdekraften følger Newtons gravitasjonslov og friksjonen fra atmosfæren går som \\(f =\nb(h)v^2\\), hvor \\(h\\) er høyden over jordoverflaten og \\(v\\) er hastigheten til satelitten. Luftmostanden varierer med atmosfærens\ntetthet som \\(b(h) = b_0(\\exp(-h/H))\\), hvor \\(H\\) er en konstant. Hvilken av følgende kodesnutter skal byttes ut med ***\ni koden nedenfor for å plotte satelittens hastighet som funksjon av høyde over jordoverflaten (forutsatt at den ikke\nbrenner opp på vei ned, noe den ville gjort i virkeligheten)?\n<pre>\nimport numpy as np\nimport matplotlib.pyplot as plt\ny_0 = 700e3 #Start height over earth surface\nb_0 = 1.0 #frictional coefficient at surface\nH = 7.99e3 #scale height for atmosphere density\nG = 6.67e-11 #Gravitational constant\nMe = 5.97e24 #Mass earth\nMs = 1.0e3 #Mass satelite\nRe = 6371e3 #Jordens radius\n#---------\nN = 30000 #Data points\nT = 10*60.0 #Simulation interval\nh = T/(N-1) #Time step\nt = np.linspace(0,T,N) #time points\ny = np.zeros(N) #postitions\nv = np.zeros(N) #velocity\ny[0] = y_0\n\nfor i in range(0,N-1):\n  ***\n    break\n\nplt.plot(y,v)\nplt.show()\n</pre>",
+    "question": "En satellitt stopper plutselig opp og faller loddrett ned gjennom atmosfæren under påvirkning av tyngdekraften og friksjon fra atmosfæren. Tyngdekraften følger Newtons gravitasjonslov og friksjonen fra atmosfæren går som <math><mi>f</mi><mo>=</mo><mi>b</mi><mo>(</mo><mi>h</mi><mo>)</mo><msup><mi>v</mi><mn>2</mn></msup></math>, hvor <math><mi>h</mi></math> er høyden over jordoverflaten og <math><mi>v</mi></math> er hastigheten til satellitten. Luftmotstanden varierer med atmosfærens tetthet som <math><mi>b</mi><mo>(</mo><mi>h</mi><mo>)</mo><mo>=</mo><msub><mi>b</mi><mn>0</mn></msub><mo>(</mo><mi>exp</mi><mo>(</mo><mo>-</mo><mi>h</mi><mo>/</mo><mi>H</mi><mo>)</mo><mo>)</mo></math>, hvor <math><mi>H</mi></math> er en konstant. Hvilken av følgende kodesnutter skal byttes ut med *** i koden nedenfor for å plotte satellittens hastighet som funksjon av høyde over jordoverflaten (forutsatt at den ikke brenner opp på vei ned, noe den ville gjort i virkeligheten)?<pre>\nimport numpy as np\nimport matplotlib.pyplot as plt\ny_0 = 700e3 #Start height over earth surface\nb_0 = 1.0 #frictional coefficient at surface\nH = 7.99e3 #scale height for atmosphere density\nG = 6.67e-11 #Gravitational constant\nMe = 5.97e24 #Mass earth\nMs = 1.0e3 #Mass satelite\nRe = 6371e3 #Jordens radius\n#---------\nN = 30000 #Data points\nT = 10*60.0 #Simulation interval\nh = T/(N-1) #Time step\nt = np.linspace(0,T,N) #time points\ny = np.zeros(N) #postitions\nv = np.zeros(N) #velocity\ny[0] = y_0\n\nfor i in range(0,N-1):\n  ***\n    break\n\nplt.plot(y,v)\nplt.show()\n</pre>",
     "answers": [3],
     "exam": ".*",
     "options": [

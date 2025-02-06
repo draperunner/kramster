@@ -89,7 +89,7 @@
     "options": ["Invokevirtual", "Swap", "Bipush", "Istore"]
   },
   {
-    "question": "Flyttall på formen \\(n = f \\dot 2^e\\) er kodet med følgende flyttallsformat:\n<img src=\"images/1p78p9.webp\"/>\nI dette formatet er exponent kodet som “excess 8”, og alle bit i fraction er kodet eksplisitt.\nHva er verdien til flyttallet 001101100 i 10-tallsystemet?",
+    "question": "Flyttall på formen <math><mi>n</mi><mo>=</mo><mi>f</mi><mo>&#x22C5;</mo><msup><mn>2</mn><mi>e</mi></msup></math> er kodet med følgende flyttallsformat:\n<img src=\"images/1p78p9.webp\"/>\nI dette formatet er exponent kodet som “excess 8”, og alle bit i fraction er kodet eksplisitt.\nHva er verdien til flyttallet 001101100 i 10-tallsystemet?",
     "answers": [1],
     "exam": ".*",
     "options": ["0.09375", "0.1875", "0.375", "0.75"]

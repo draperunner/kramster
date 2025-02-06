@@ -32,7 +32,7 @@
     "answers": [1],
     "exam": ".*",
     "options": [
-      "Prosessoren adresserer \\(2^8\\) minnelokasjoner.",
+      "Prosessoren adresserer 2<sup>8</sup> minnelokasjoner.",
       "Systemet har multiplekset adresse- og databuss.",
       "Det er et system uten databuss.",
       "Det er et system med kun seriebuss."
