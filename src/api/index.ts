@@ -8,7 +8,7 @@ async function getExam(
   examName: string,
 ): Promise<Question[]> {
   try {
-    const url = `/data/${school}/${course}/${examName}.json`;
+    const url = `/data/${school.toLowerCase()}/${course.toLowerCase()}/${examName}.json`;
     const response = await fetch(url);
     const questions = await response.json();
     return questions;
@@ -24,7 +24,11 @@ async function getRandom(
 ): Promise<Question[]> {
   const exams = await Promise.all(
     examIndex
-      .filter((exam) => exam.school === school && exam.course === course)
+      .filter(
+        (exam) =>
+          exam.school === school.toLowerCase() &&
+          exam.course === course.toLowerCase(),
+      )
       .map((exam) => getExam(school, course, exam.name)),
   );
 

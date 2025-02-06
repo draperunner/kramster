@@ -9,7 +9,9 @@ import schoolIndex from "../../schools.json";
 function Courses(): JSX.Element {
   const { school } = useParams();
 
-  const courses = courseIndex.filter((course) => course.school === school);
+  const courses = courseIndex.filter(
+    (course) => course.school === school?.toLowerCase(),
+  );
   const schoolData = schoolIndex.find(
     (s) => s.abbreviation.toLowerCase() === school,
   );

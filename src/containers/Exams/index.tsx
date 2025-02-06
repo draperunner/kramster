@@ -12,7 +12,9 @@ function Exams(): JSX.Element {
   const { school = "", course = "" } = useParams();
 
   const exams = examsIndex.filter(
-    (exam) => exam.school === school && exam.course === course,
+    (exam) =>
+      exam.school === school.toLowerCase() &&
+      exam.course === course.toLowerCase(),
   );
 
   if (!exams?.length) {
