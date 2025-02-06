@@ -17,34 +17,34 @@
     "options": ["ALU", "Kontrollenhet", "Minne", "I/O", "Tastatur"]
   },
   {
-    "question": "Hvilket uttrykk er <em>ikke</em> ekvivalent med \\(xy + x\\neg yz + \\neg xyz\\) (Her betyr \\(\\neg X\\) ikke)?",
+    "question": "Hvilket uttrykk er <em>ikke</em> ekvivalent med <math><mi>x</mi><mi>y</mi><mo>+</mo><mi>x</mi><mo>&#xAC;</mo><mi>y</mi><mi>z</mi><mo>+</mo><mo>&#xAC;</mo><mi>x</mi><mi>y</mi><mi>z</mi></math> (Her betyr <math><mo>&#xAC;</mo><mi>X</mi></math> ikke)?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\(xy + xz + yz\\)",
-      "\\(xy + \\neg yz + \\neg xyz\\)",
-      "\\(xy + xz + \\neg xyz\\)"
+      "<math><mi>x</mi><mi>y</mi><mo>+</mo><mi>x</mi><mi>z</mi><mo>+</mo><mi>y</mi><mi>z</mi></math>",
+      "<math><mi>x</mi><mi>y</mi><mo>+</mo><mo>&#xAC;</mo><mi>y</mi><mi>z</mi><mo>+</mo><mo>&#xAC;</mo><mi>x</mi><mi>y</mi><mi>z</mi></math>",
+      "<math><mi>x</mi><mi>y</mi><mo>+</mo><mi>x</mi><mi>z</mi><mo>+</mo><mo>&#xAC;</mo><mi>x</mi><mi>y</mi><mi>z</mi></math>"
     ]
   },
   {
-    "question": "Hva er rett i forhold til deMorgans lover? (\\(\\neg X\\) betyr X invertert)",
+    "question": "Hva er rett i forhold til deMorgans lover? (<math><mo>&#xAC;</mo><mi>X</mi></math> betyr X invertert)",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\(\\neg (a + b) = a * b\\)",
-      "\\(\\neg (a * b) = \\neg a + \\neg b\\)",
-      "\\(\\neg (a * b) = \\neg (a) + b\\)",
-      "\\(a + b = \\neg (a * b)\\)"
+      "<math><mo>&#xAC;</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>&#x22C5;</mo><mi>b</mi></math>",
+      "<math><mo>&#xAC;</mo><mo>(</mo><mi>a</mi><mo>&#x22C5;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mo>&#xAC;</mo><mi>a</mi><mo>+</mo><mo>&#xAC;</mo><mi>b</mi></math>",
+      "<math><mo>&#xAC;</mo><mo>(</mo><mi>a</mi><mo>&#x22C5;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mo>&#xAC;</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>b</mi></math>",
+      "<math><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mo>&#xAC;</mo><mo>(</mo><mi>a</mi><mo>&#x22C5;</mo><mi>b</mi><mo>)</mo></math>"
     ]
   },
   {
-    "question": "Hva er <em>ikke</em> en egenskap ved von Neumann arkitekturen?",
+    "question": "Hva er <em>ikke</em> en egenskap ved von Neumann-arkitekturen?",
     "answers": [0],
     "exam": ".*",
     "options": [
       "Data og instruksjoner er lagret i separerte minnebrikker",
       "Det er mulig å adressere data uten å ta hensyn til hvilken type data det er snakk om",
-      "Utførelse (execution) blir hovedsaklig gjort i sekvens"
+      "Utførelse (execution) blir hovedsakelig gjort i sekvens"
     ]
   }
 ]
