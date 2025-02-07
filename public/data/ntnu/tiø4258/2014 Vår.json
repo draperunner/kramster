@@ -172,14 +172,14 @@
     ]
   },
   {
-    "question": "I et duopolmarked tilpasser bedriftene seg i tråd med den såkalte Cournot-modellen. Etterspørselen i markedet kan skrives som \\(P = A - BQ\\), der P er prisen, Q er mengden og A og B er positive konstanter. Begge bedriftene har marginalkostnader lik C. Hva blir total mengde, Q, i markedet ved likevekt?",
+    "question": "I et duopolmarked tilpasser bedriftene seg i tråd med den såkalte Cournot-modellen. Etterspørselen i markedet kan skrives som <math><mi>P</mi><mo>=</mo><mi>A</mi><mo>-</mo><mi>B</mi><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen, <math><mi>Q</mi></math> er mengden og <math><mi>A</mi></math> og <math><mi>B</mi></math> er positive konstanter. Begge bedriftene har marginalkostnader lik <math><mi>C</mi></math>. Hva blir total mengde, <math><mi>Q</mi></math>, i markedet ved likevekt?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(\\frac{A - C}{B}\\)",
-      "\\(\\frac{A - C}{3B}\\)",
-      "\\(2\\frac{A - C}{3B}\\)",
-      "\\(\\frac{A - C}{2B}\\)"
+      "<math><mfrac><mrow><mi>A</mi><mo>-</mo><mi>C</mi></mrow><mi>B</mi></mfrac></math>",
+      "<math><mfrac><mrow><mi>A</mi><mo>-</mo><mi>C</mi></mrow><mrow><mn>3</mn><mi>B</mi></mrow></mfrac></math>",
+      "<math><mn>2</mn><mfrac><mrow><mi>A</mi><mo>-</mo><mi>C</mi></mrow><mrow><mn>3</mn><mi>B</mi></mrow></mfrac></math>",
+      "<math><mfrac><mrow><mi>A</mi><mo>-</mo><mi>C</mi></mrow><mrow><mn>2</mn><mi>B</mi></mrow></mfrac></math>"
     ]
   },
   {
@@ -235,14 +235,14 @@
     ]
   },
   {
-    "question": "La \\(r\\) være forventet avkastning for et verdipapir, la \\(\\beta\\) være verdipapirets beta, la \\(r_f\\) være risikofri avkastning og la \\(r_m\\) være forventet markedsavkastning. Hva er da et korrekt uttrykk for Capital Asset Pricing Model, dvs. kapitalverdimodellen?",
+    "question": "La <math><mi>r</mi></math> være forventet avkastning for et verdipapir, la <math><mi>β</mi></math> være verdipapirets beta, la <math><msub><mi>r</mi><mi>f</mi></msub></math> være risikofri avkastning og la <math><msub><mi>r</mi><mi>m</mi></msub></math> være forventet markedsavkastning. Hva er da et korrekt uttrykk for Capital Asset Pricing Model, dvs. kapitalverdimodellen?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(r = (1 + \\beta)r_f + \\beta r_m\\)",
-      "\\(r = r_m + \\beta(r_m - r_f)\\)",
-      "\\(r = r_f + \\beta(r_m + r_f)\\)",
-      "\\(r = (1 - \\beta)r_f + \\beta r_m\\)"
+      "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>+</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>",
+      "<math><mi>r</mi><mo>=</mo><msub><mi>r</mi><mi>m</mi></msub><mo>+</mo><mi>β</mi><mo>(</mo><msub><mi>r</mi><mi>m</mi></msub><mo>-</mo><msub><mi>r</mi><mi>f</mi></msub><mo>)</mo></math>",
+      "<math><mi>r</mi><mo>=</mo><msub><mi>r</mi><mi>f</mi></msub><mo>+</mo><mi>β</mi><mo>(</mo><msub><mi>r</mi><mi>m</mi></msub><mo>+</mo><msub><mi>r</mi><mi>f</mi></msub><mo>)</mo></math>",
+      "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>+</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>"
     ]
   },
   {
@@ -258,14 +258,14 @@
     "options": ["4 %", "8 %", "12 %", "16 %"]
   },
   {
-    "question": "La avkastning på egenkapital være \\(r_E\\), avkastning på gjeld \\(r_D\\), selskapsskattesatsen \\(T_C\\), markedsverdi av gjeld \\(D\\), markedsverdi av egenkapital \\(E\\) og sum verdi av gjeld og egenkapital \\(V\\). Hva er da et korrekt uttrykk for avkastningskravet til totalkapitalen etter skatt, WACC?",
+    "question": "La avkastning på egenkapital være <math><msub><mi>r</mi><mi>E</mi></msub></math>, avkastning på gjeld <math><msub><mi>r</mi><mi>D</mi></msub></math>, selskapsskattesatsen <math><msub><mi>T</mi><mi>C</mi></msub></math>, markedsverdi av gjeld <math><mi>D</mi></math>, markedsverdi av egenkapital <math><mi>E</mi></math> og sum verdi av gjeld og egenkapital <math><mi>V</mi></math>. Hva er da et korrekt uttrykk for avkastningskravet til totalkapitalen etter skatt, WACC?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(\\frac{E}{V}r_E(1 - T_C) + \\frac{D}{V}r_D\\)",
-      "\\(\\frac{E}{V}r_E(1 + T_C) + \\frac{D}{V}r_D\\)",
-      "\\(\\frac{D}{V}r_D(1 + T_C) + \\frac{E}{V}r_E\\)",
-      "\\(\\frac{D}{V}r_D(1 - T_C) + \\frac{E}{V}r_E\\)"
+      "<math><mfrac><mi>E</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>E</mi></msub><mo>(</mo><mn>1</mn><mo>-</mo><msub><mi>T</mi><mi>C</mi></msub><mo>)</mo><mo>+</mo><mfrac><mi>D</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>D</mi></msub></math>",
+      "<math><mfrac><mi>E</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>E</mi></msub><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>T</mi><mi>C</mi></msub><mo>)</mo><mo>+</mo><mfrac><mi>D</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>D</mi></msub></math>",
+      "<math><mfrac><mi>D</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>D</mi></msub><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>T</mi><mi>C</mi></msub><mo>)</mo><mo>+</mo><mfrac><mi>E</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>E</mi></msub></math>",
+      "<math><mfrac><mi>D</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>D</mi></msub><mo>(</mo><mn>1</mn><mo>-</mo><msub><mi>T</mi><mi>C</mi></msub><mo>)</mo><mo>+</mo><mfrac><mi>E</mi><mi>V</mi></mfrac><msub><mi>r</mi><mi>E</mi></msub></math>"
     ]
   },
   {

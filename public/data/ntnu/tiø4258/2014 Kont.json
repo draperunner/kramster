@@ -246,14 +246,14 @@
     "options": ["0,5", "1,5", "2,0", "3,0"]
   },
   {
-    "question": "La \\(\\beta_A\\) være beta for selskapets aktiva, la \\(\\beta_E\\) være beta for selskapets egenkapital og la \\(\\beta_D\\) være beta for selskapets gjeld. Markedsverdien av selskapets gjeld er \\(D\\) og markedsverdien av selskapets egenkapital er \\(E\\). Hva blir da et korrekt uttrykk for selskapets egenkapitalbeta?",
+    "question": "La <math><msub><mi>β</mi><mi>A</mi></msub></math> være beta for selskapets aktiva, la <math><msub><mi>β</mi><mi>E</mi></msub></math> være beta for selskapets egenkapital og la <math><msub><mi>β</mi><mi>D</mi></msub></math> være beta for selskapets gjeld. Markedsverdien av selskapets gjeld er <math><mi>D</mi></math> og markedsverdien av selskapets egenkapital er <math><mi>E</mi></math>. Hva blir da et korrekt uttrykk for selskapets egenkapitalbeta?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(\\beta_E = \\beta_D + \\frac{D}{E}(\\beta_A - \\beta_D)\\)",
-      "\\(\\beta_E = \\beta_A + \\frac{E}{D}(\\beta_A - \\beta_D)\\)",
-      "\\(\\beta_E = \\beta_D + \\frac{E}{D}(\\beta_A - \\beta_D)\\)",
-      "\\(\\beta_E = \\beta_A + \\frac{D}{E}(\\beta_A - \\beta_D)\\)"
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>E</mi><mi>D</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>E</mi><mi>D</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>"
     ]
   },
   {

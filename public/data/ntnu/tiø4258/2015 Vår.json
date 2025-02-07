@@ -99,14 +99,14 @@
     ]
   },
   {
-    "question": "En bedrift har totalkostnader gitt ved funksjonen TC(Q) der Q er mengden. Hva er da et korrekt uttrykk for marginalkostnaden?",
+    "question": "En bedrift har totalkostnader gitt ved funksjonen <math><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> der <math><mi>Q</mi></math> er mengden. Hva er da et korrekt uttrykk for marginalkostnaden?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\(Q\\)",
-      "\\(\\frac{dTC}{dQ}\\)",
-      "\\(Q \\frac{dTC}{dQ}\\)",
-      "\\(\\frac{TC(Q)}{Q}\\)"
+      "<math><mi>Q</mi></math>",
+      "<math><mfrac><mi>dTC</mi><mi>dQ</mi></mfrac></math>",
+      "<math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dTC</mi><mi>dQ</mi></mfrac></math>",
+      "<math><mfrac><mrow><mi>TC</mi><mo>(</mo><mi>Q</mi><mo>)</mo></mrow><mi>Q</mi></mfrac></math>"
     ]
   },
   {
@@ -121,7 +121,7 @@
     ]
   },
   {
-    "question": "Etterspørselen til en bedrift er gitt ved funksjonen P(Q) der P er prisen og Q er mengden. Hva er da\nen korrekt tolkning av \\(Q \\frac{dP}{dQ}\\)?",
+    "question": "Etterspørselen til en bedrift er gitt ved funksjonen <math><mi>P</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Hva er da en korrekt tolkning av <math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac></math>?",
     "answers": [2],
     "exam": ".*",
     "options": [
@@ -160,14 +160,14 @@
     ]
   },
   {
-    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved\nP = 100 - Q der P er prisen og Q er mengden. Begge bedriftene har marginalkostnader på 10.\nMengdene til bedriftene er \\(Q_i\\) og \\(Q_j\\). Reaksjonsfunksjoner uttrykker bedriftens beste svar på den\nandres strategivalg. Hva blir et korrekt uttrykk for reaksjonsfunksjonen til bedriftene?",
+    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved <math><mi>P</mi><mo>=</mo><mn>100</mn><mo>-</mo><mi>Q</mi></math> der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Begge bedriftene har marginalkostnader på <math><mn>10</mn></math>. Mengdene til bedriftene er <math><msub><mi>Q</mi><mi>i</mi></msub></math> og <math><msub><mi>Q</mi><mi>j</mi></msub></math>. Reaksjonsfunksjoner uttrykker bedriftens beste svar på den andres strategivalg. Hva blir et korrekt uttrykk for reaksjonsfunksjonen til bedriftene?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(Q_i = \\frac{90-Q_j}{2}\\)",
-      "\\(Q_i = \\frac{100-10}{3}\\)",
-      "\\(Q_i = \\frac{110-Q_j}{2}\\)",
-      "\\(Q_i = \\frac{90+Q_j}{2}\\)"
+      "<math><msub><mi>Q</mi><mi>i</mi></msub><mo>=</mo><mfrac><mrow><mn>90</mn><mo>-</mo><msub><mi>Q</mi><mi>j</mi></msub></mrow><mn>2</mn></mfrac></math>",
+      "<math><msub><mi>Q</mi><mi>i</mi></msub><mo>=</mo><mfrac><mrow><mn>100</mn><mo>-</mo><mn>10</mn></mrow><mn>3</mn></mfrac></math>",
+      "<math><msub><mi>Q</mi><mi>i</mi></msub><mo>=</mo><mfrac><mrow><mn>110</mn><mo>-</mo><msub><mi>Q</mi><mi>j</mi></msub></mrow><mn>2</mn></mfrac></math>",
+      "<math><msub><mi>Q</mi><mi>i</mi></msub><mo>=</mo><mfrac><mrow><mn>90</mn><mo>+</mo><msub><mi>Q</mi><mi>j</mi></msub></mrow><mn>2</mn></mfrac></math>"
     ]
   },
   {
@@ -199,14 +199,14 @@
     ]
   },
   {
-    "question": "Et investeringsprosjekt innebærer en investering nå på \\(I\\). Forventet kontantstrøm i periode \\(t\\) i de \\(N\\)\nperiodene prosjektet vil vare er \\(k_t\\). Diskonteringsrenten for periode \\(t\\) er \\(r_t\\). Hva blir et korrekt uttrykk\nfor prosjektets nettonåverdi?",
+    "question": "Et investeringsprosjekt innebærer en investering nå på <math><mi>I</mi></math>. Forventet kontantstrøm i periode <math><mi>t</mi></math> i de <math><mi>N</mi></math> periodene prosjektet vil vare er <math><msub><mi>k</mi><mi>t</mi></msub></math>. Diskonteringsrenten for periode <math><mi>t</mi></math> er <math><msub><mi>r</mi><mi>t</mi></msub></math>. Hva blir et korrekt uttrykk for prosjektets nettonåverdi?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(-I+\\frac{k}{r}\\)",
-      "\\(-I+ \\sum\\limits_{t=1}^N \\frac{k_t}{(1-r_t)^t}\\)",
-      "\\(-I+ \\sum\\limits_{t=1}^N \\frac{k_t}{1+r_t^t}\\)",
-      "\\(-I+ \\sum\\limits_{t=1}^N \\frac{k_t}{(1+r_t)^t}\\)"
+      "<math><mo>-</mo><mi>I</mi><mo>+</mo><mfrac><mi>k</mi><mi>r</mi></mfrac></math>",
+      "<math><mo>-</mo><mi>I</mi><mo>+</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mfrac><msub><mi>k</mi><mi>t</mi></msub><msup><mrow><mo>(</mo><mn>1</mn><mo>-</mo><msub><mi>r</mi><mi>t</mi></msub><mo>)</mo></mrow><mi>t</mi></msup></mfrac></math>",
+      "<math><mo>-</mo><mi>I</mi><mo>+</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mfrac><msub><mi>k</mi><mi>t</mi></msub><msup><mrow><mn>1</mn><mo>+</mo><msub><mi>r</mi><mi>t</mi></msub></mrow><mi>t</mi></msup></mfrac></math>",
+      "<math><mo>-</mo><mi>I</mi><mo>+</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mfrac><msub><mi>k</mi><mi>t</mi></msub><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>r</mi><mi>t</mi></msub><mo>)</mo></mrow><mi>t</mi></msup></mfrac></math>"
     ]
   },
   {
@@ -272,14 +272,14 @@
     "options": ["5 %", "7 %", "11 %", "17 %"]
   },
   {
-    "question": "La \\(\\beta_A\\) være beta for selskapets aktiva, la \\(\\beta_E\\) være beta for selskapets egenkapital og la \\(\\beta_D\\) være beta\nfor selskapets gjeld. Markedsverdien av selskapets gjeld er \\(D\\) og markedsverdien av selskapets\negenkapital er \\(E\\). Hva blir da et korrekt uttrykk for beta til selskapets aktiva?",
+    "question": "La <math><msub><mi>β</mi><mi>A</mi></msub></math> være beta for selskapets aktiva, la <math><msub><mi>β</mi><mi>E</mi></msub></math> være beta for selskapets egenkapital og la <math><msub><mi>β</mi><mi>D</mi></msub></math> være beta for selskapets gjeld. Markedsverdien av selskapets gjeld er <math><mi>D</mi></math> og markedsverdien av selskapets egenkapital er <math><mi>E</mi></math>. Hva blir da et korrekt uttrykk for beta til selskapets aktiva?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(\\beta_A = \\frac{D}{D+E}\\beta_D + \\frac{E}{D+E}\\beta_E\\)",
-      "\\(\\beta_A = \\frac{D}{D+E}\\beta_D - \\frac{E}{D+E}\\beta_E\\)",
-      "\\(\\beta_A = \\frac{D}{E}\\beta_D + \\frac{E}{D}\\beta_E\\)",
-      "\\(\\beta_A = \\frac{E}{D}\\beta_D + \\frac{D}{E}\\beta_E\\)"
+      "<math><msub><mi>β</mi><mi>A</mi></msub><mo>=</mo><mfrac><mi>D</mi><mrow><mi>D</mi><mo>+</mo><mi>E</mi></mrow></mfrac><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>E</mi><mrow><mi>D</mi><mo>+</mo><mi>E</mi></mrow></mfrac><msub><mi>β</mi><mi>E</mi></msub></math>",
+      "<math><msub><mi>β</mi><mi>A</mi></msub><mo>=</mo><mfrac><mi>D</mi><mrow><mi>D</mi><mo>+</mo><mi>E</mi></mrow></mfrac><msub><mi>β</mi><mi>D</mi></msub><mo>-</mo><mfrac><mi>E</mi><mrow><mi>D</mi><mo>+</mo><mi>E</mi></mrow></mfrac><msub><mi>β</mi><mi>E</mi></msub></math>",
+      "<math><msub><mi>β</mi><mi>A</mi></msub><mo>=</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>E</mi><mi>D</mi></mfrac><msub><mi>β</mi><mi>E</mi></msub></math>",
+      "<math><msub><mi>β</mi><mi>A</mi></msub><mo>=</mo><mfrac><mi>E</mi><mi>D</mi></mfrac><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><msub><mi>β</mi><mi>E</mi></msub></math>"
     ]
   },
   {

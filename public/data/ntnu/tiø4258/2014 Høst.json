@@ -117,14 +117,14 @@
     "options": ["(VC + FC) / Q", "(TC - MC ) / Q", "MC / Q", "TC / Q"]
   },
   {
-    "question": "Etterspørselen til en bedrift er gitt ved funksjonen P(Q) der P er prisen og Q er mengden. Hva er da et\nkorrekt uttrykk for marginalinntekten?",
+    "question": "Etterspørselen til en bedrift er gitt ved funksjonen <math><mi>P</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Hva er da et korrekt uttrykk for marginalinntekten?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(Q\\frac{dQ}{dP} + P\\)",
-      "\\(Q\\frac{dQ}{dP} - P\\)",
-      "\\(Q\\frac{dP}{dQ} + P\\)",
-      "\\(Q\\frac{dP}{dQ} - P\\)"
+      "<math><mi>Q</mi><mfrac><mi>dQ</mi><mi>dP</mi></mfrac><mo>+</mo><mi>P</mi></math>",
+      "<math><mi>Q</mi><mfrac><mi>dQ</mi><mi>dP</mi></mfrac><mo>-</mo><mi>P</mi></math>",
+      "<math><mi>Q</mi><mfrac><mi>dP</mi><mi>dQ</mi></mfrac><mo>+</mo><mi>P</mi></math>",
+      "<math><mi>Q</mi><mfrac><mi>dP</mi><mi>dQ</mi></mfrac><mo>-</mo><mi>P</mi></math>"
     ]
   },
   {
@@ -145,22 +145,37 @@
     ]
   },
   {
-    "question": "En bedrift i et frikonkurransemarked har marginalkostnader gitt ved der \\(Q\\) er mengden. Den har faste kostnader på\n1 000. Hva må prisen i markedet være for at bedriften akkurat skal greie å dekke faste kostnader slik at profitten blir\nnull?",
+    "question": "En bedrift i et frikonkurransemarked har marginalkostnader gitt ved <math><mi>MC</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math>, der <math><mi>Q</mi></math> er mengden. Den har faste kostnader på <math><mn>1000</mn></math>. Hva må prisen i markedet være for at bedriften akkurat skal greie å dekke faste kostnader slik at profitten blir null?",
     "answers": [2],
     "exam": ".*",
-    "options": ["80", "100", "120", "140"]
+    "options": [
+      "<math><mn>80</mn></math>",
+      "<math><mn>100</mn></math>",
+      "<math><mn>120</mn></math>",
+      "<math><mn>140</mn></math>"
+    ]
   },
   {
-    "question": "Et monopol har marginalkostnader gitt ved \\(MC = 0,2Q + 100\\), der \\(Q\\) er mengden. Etterspørselen kan skrives som\n\\(Q = 1020 - 0,1P\\), der \\(Q\\) er mengden og \\(P\\) er prisen. Hvilken mengde \\(Q\\) vil monopolet produsere per periode?",
+    "question": "Et monopol har marginalkostnader gitt ved <math><mi>MC</mi><mo>=</mo><mn>0.2</mn><mi>Q</mi><mo>+</mo><mn>100</mn></math>, der <math><mi>Q</mi></math> er mengden. Etterspørselen kan skrives som <math><mi>Q</mi><mo>=</mo><mn>1020</mn><mo>-</mo><mn>0.1</mn><mi>P</mi></math>, der <math><mi>Q</mi></math> er mengden og <math><mi>P</mi></math> er prisen. Hvilken mengde <math><mi>Q</mi></math> vil monopolet produsere per periode?",
     "answers": [0],
     "exam": ".*",
-    "options": ["500", "600", "750", "1 000"]
+    "options": [
+      "<math><mn>500</mn></math>",
+      "<math><mn>600</mn></math>",
+      "<math><mn>750</mn></math>",
+      "<math><mn>1000</mn></math>"
+    ]
   },
   {
-    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved \\(P = 100 - Q\\)\nder \\(P\\) er prisen og \\(Q\\) er mengden. Begge bedriftene har marginalkostnader på 10. Hva\nblir prisen i markedet ved likevekt?",
+    "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved <math><mi>P</mi><mo>=</mo><mn>100</mn><mo>-</mo><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Begge bedriftene har marginalkostnader på <math><mn>10</mn></math>. Hva blir prisen i markedet ved likevekt?",
     "answers": [1],
     "exam": ".*",
-    "options": ["10", "40", "55", "70"]
+    "options": [
+      "<math><mn>10</mn></math>",
+      "<math><mn>40</mn></math>",
+      "<math><mn>55</mn></math>",
+      "<math><mn>70</mn></math>"
+    ]
   },
   {
     "question": "Balansepostene for en bedrift er de samme i påfølgende perioder. Alle inntektsposter og\nkostnadsposter unntatt avskrivningene er også uforandret mellom periodene. Skattesatsen er den\nsamme. Hva blir effekten på egenkapitalrentabilitet og totalkapitalrentabilitet av at avskrivningene\nøker fra periode én til periode to?",
@@ -236,14 +251,14 @@
     "options": ["6 %", "9 %", "12 %", "15 %"]
   },
   {
-    "question": "La \\(\\beta_A\\) være beta for selskapets aktiva, la \\(\\beta_E\\) være beta for selskapets egenkapital og la \\(\\beta_D\\)\nvære beta for selskapets gjeld. Markedsverdien av selskapets gjeld er \\(D\\) og markedsverdien av selskapets egenkapital\ner \\(E\\). Hva blir da et korrekt uttrykk for selskapets egenkapitalbeta?",
+    "question": "La <math><msub><mi>β</mi><mi>A</mi></msub></math> være beta for selskapets aktiva, la <math><msub><mi>β</mi><mi>E</mi></msub></math> være beta for selskapets egenkapital og la <math><msub><mi>β</mi><mi>D</mi></msub></math> være beta for selskapets gjeld. Markedsverdien av selskapets gjeld er <math><mi>D</mi></math> og markedsverdien av selskapets egenkapital er <math><mi>E</mi></math>. Hva blir da et korrekt uttrykk for selskapets egenkapitalbeta?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(\\beta_E = \\beta_D + \\frac{D}{E}(\\beta_A - \\beta_D)\\)",
-      "\\(\\beta_E = \\beta_A + \\frac{E}{D}(\\beta_A - \\beta_D)\\)",
-      "\\(\\beta_E = \\beta_D + \\frac{E}{D}(\\beta_A - \\beta_D)\\)",
-      "\\(\\beta_E = \\beta_A + \\frac{D}{E}(\\beta_A - \\beta_D)\\)"
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>E</mi><mi>D</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>E</mi><mi>D</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
+      "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>"
     ]
   },
   {
@@ -253,14 +268,14 @@
     "options": ["4,0 %", "5,5 %", "6,0 %", "8,0 %"]
   },
   {
-    "question": "I forbindelse med verdsetting av et selskap er det vanlig at det blir behov for å finne nåverdien av en\nkontantstrøm som vokser med en andel, \\(g\\), hvert år framover i prinsippet i et uendelig antall perioder.\nDersom kontantstrømmen neste periode er \\(k\\), perioden etter \\(k(1 + g)\\), neste periode deretter\n\\(k(1 + g)^2\\) osv., hva blir nåverdien av kontantstrømmen når avkastningskravet er \\(r\\)?",
+    "question": "I forbindelse med verdsetting av et selskap er det vanlig at det blir behov for å finne nåverdien av en kontantstrøm som vokser med en andel, <math><mi>g</mi></math>, hvert år framover i prinsippet i et uendelig antall perioder. Dersom kontantstrømmen neste periode er <math><mi>k</mi></math>, perioden etter <math><mi>k</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></math>, neste periode deretter <math><mi>k</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mn>2</mn></msup></math> osv., hva blir nåverdien av kontantstrømmen når avkastningskravet er <math><mi>r</mi></math>?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\(\\frac{k(1 + g)}{r}\\)",
-      "\\(\\frac{k}{(r - g)}\\)",
-      "\\(\\frac{k}{(g - r)}\\)",
-      "\\(\\frac{k(1 + g)}{(r-g)}\\)"
+      "<math><mfrac><mrow><mi>k</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mi>r</mi></mfrac></math>",
+      "<math><mfrac><mi>k</mi><mrow><mi>r</mi><mo>-</mo><mi>g</mi></mrow></mfrac></math>",
+      "<math><mfrac><mi>k</mi><mrow><mi>g</mi><mo>-</mo><mi>r</mi></mrow></mfrac></math>",
+      "<math><mfrac><mrow><mi>k</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mrow><mi>r</mi><mo>-</mo><mi>g</mi></mrow></mfrac></math>"
     ]
   },
   {

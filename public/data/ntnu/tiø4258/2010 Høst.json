@@ -407,36 +407,36 @@
     ]
   },
   {
-    "question": "Et monopol som har konstante marginalkostnader (også kalt grensekostnader), MC, ser en lineær etterspørsel som kan skrives som P = a - bQ der a og b er positive kon­stanter mens P er prisen og Q er etterspurt mengde. Hva blir et korrekt uttrykk for opti­mal mengde, Q, for monopolet?",
+    "question": "Et monopol som har konstante marginalkostnader (også kalt grensekostnader), MC, ser en lineær etterspørsel som kan skrives som P = a - bQ der a og b er positive konstanter mens P er prisen og Q er etterspurt mengde. Hva blir et korrekt uttrykk for optimal mengde, Q, for monopolet?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(Q = a - MC\\)",
-      "\\(Q = MC\\)",
-      "\\(Q = \\frac{a - MC}{b}\\)",
-      "\\(Q = \\frac{a - MC}{2b}\\)"
+      "<math><mi>Q</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>MC</mi></math>",
+      "<math><mi>Q</mi><mo>=</mo><mi>MC</mi></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>MC</mi></mrow><mi>b</mi></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>MC</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></math>"
     ]
   },
   {
-    "question": "Anta at etterspørselen i markedet er \\(P = a - bQ\\) der a og b er positive konstanter mens P er prisen og Q er etterspurt mengde og at det er veldig mange bedrifter i dette markedet som tilpasser seg i tråd med teorien om perfekt konkurranse (også kalt frikonkurranse) og som alle sammen har faste marginalkostnader, MC. Hva blir et korrekt uttrykk for total mengde, Q, i markedet?",
+    "question": "Anta at etterspørselen i markedet er <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math>, der <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter mens <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er etterspurt mengde og at det er veldig mange bedrifter i dette markedet som tilpasser seg i tråd med teorien om perfekt konkurranse (også kalt frikonkurranse) og som alle sammen har faste marginalkostnader, <math><mi>MC</mi></math>. Hva blir et korrekt uttrykk for total mengde, <math><mi>Q</mi></math>, i markedet?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(Q = a - MC\\)",
-      "\\(Q = MC\\)",
-      "\\(Q = \\frac{a - MC}{b}\\)",
-      "\\(Q = \\frac{a - MC}{2b}\\)"
+      "<math><mi>Q</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>MC</mi></math>",
+      "<math><mi>Q</mi><mo>=</mo><mi>MC</mi></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>MC</mi></mrow><mi>b</mi></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>MC</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></math>"
     ]
   },
   {
-    "question": "Et monopol som har konstante marginalkostnader (også kalt grensekostnader), MC, ser en lineær etterspørsel som kan skrives som \\(P = a - bQ\\) der a og b er positive kon­stanter mens P er prisen og Q er etterspurt mengde. Hva er et korrekt uttrykk for dødvektstapet (tapt samfunnsøkonomisk overskudd) knyttet til monopolet?",
+    "question": "Et monopol som har konstante marginalkostnader (også kalt grensekostnader), <math><mi>MC</mi></math>, ser en lineær etterspørsel som kan skrives som <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math> der <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter mens <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er etterspurt mengde. Hva er et korrekt uttrykk for dødvektstapet (tapt samfunnsøkonomisk overskudd) knyttet til monopolet?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(\\frac{(a - MC)^2}{8b}\\)",
-      "\\(\\frac{a - MC}{8b}\\)",
-      "\\(\\frac{(a - MC)^2}{8}\\)",
-      "\\(\\frac{a - MC}{8}\\)"
+      "<math><mfrac><msup><mrow><mo>(</mo><mi>a</mi><mo>-</mo><mi>MC</mi><mo>)</mo></mrow><mn>2</mn></msup><mrow><mn>8</mn><mi>b</mi></mrow></mfrac></math>",
+      "<math><mfrac><mrow><mi>a</mi><mo>-</mo><mi>MC</mi></mrow><mrow><mn>8</mn><mi>b</mi></mrow></mfrac></math>",
+      "<math><mfrac><msup><mrow><mo>(</mo><mi>a</mi><mo>-</mo><mi>MC</mi><mo>)</mo></mrow><mn>2</mn></msup><mn>8</mn></mfrac></math>",
+      "<math><mfrac><mrow><mi>a</mi><mo>-</mo><mi>MC</mi></mrow><mn>8</mn></mfrac></math>"
     ]
   },
   {

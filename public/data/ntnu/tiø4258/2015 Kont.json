@@ -105,36 +105,36 @@
     ]
   },
   {
-    "question": "En bedrift har marginalkostnader som kan skrives som \\(MC(Q) = aQ + b\\), der \\(Q\\) er mengden og \\(a\\) og\n\\(b\\) er konstanter. Hva blir da de variable kostnadene?",
+    "question": "En bedrift har marginalkostnader som kan skrives som <math><mi>MC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>Q</mi><mo>+</mo><mi>b</mi></math>, der <math><mi>Q</mi></math> er mengden og <math><mi>a</mi></math> og <math><mi>b</mi></math> er konstanter. Hva blir da de variable kostnadene?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(aQ\\)",
-      "\\(a + bQ\\)",
-      "\\(\\frac{1}{2}aQ^2+bQ\\)",
-      "\\(2aQ^2+bQ\\)"
+      "<math><mi>a</mi><mi>Q</mi></math>",
+      "<math><mi>a</mi><mo>+</mo><mi>b</mi><mi>Q</mi></math>",
+      "<math><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><msup><mi>Q</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>Q</mi></math>",
+      "<math><mn>2</mn><mi>a</mi><msup><mi>Q</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>Q</mi></math>"
     ]
   },
   {
-    "question": "En bedrift har totalkostnadene TC, marginalkostnadene MC, variable kostnader VC, gjennomsnittskostnader AC og faste kostnader FC. Den produserer mengden Q. Hvilken sammenheng er generelt\nkorrekt?",
+    "question": "En bedrift har totalkostnadene <math><mi>TC</mi></math>, marginalkostnadene <math><mi>MC</mi></math>, variable kostnader <math><mi>VC</mi></math>, gjennomsnittskostnader <math><mi>AC</mi></math> og faste kostnader <math><mi>FC</mi></math>. Den produserer mengden <math><mi>Q</mi></math>. Hvilken sammenheng er generelt korrekt?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(AC = FC/Q\\)",
-      "\\(TC = AC \\cdot Q + FC\\)",
-      "\\(VC = TC - FC\\)",
-      "\\(TC = MC \\cdot Q + FC\\)"
+      "<math><mi>AC</mi><mo>=</mo><mfrac><mi>FC</mi><mi>Q</mi></mfrac></math>",
+      "<math><mi>TC</mi><mo>=</mo><mi>AC</mi><mo>&#x22C5;</mo><mi>Q</mi><mo>+</mo><mi>FC</mi></math>",
+      "<math><mi>VC</mi><mo>=</mo><mi>TC</mi><mo>-</mo><mi>FC</mi></math>",
+      "<math><mi>TC</mi><mo>=</mo><mi>MC</mi><mo>&#x22C5;</mo><mi>Q</mi><mo>+</mo><mi>FC</mi></math>"
     ]
   },
   {
-    "question": "Etterspørselen til en bedrift er gitt ved funksjonen P(Q) der P er prisen og Q er mengden. Etterspørselen har den normale helningen slik at dP/dQ < 0. Marginalinntekten kan skrives som\n\\(MR = Q \\frac{dP}{dQ} + P\\). Hva blir den mest presise og korrekte beskrivelsen av de to leddene i marginalinntekten?",
+    "question": "Etterspørselen til en bedrift er gitt ved funksjonen <math><mi>P</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Etterspørselen har den normale helningen slik at <math><mfrac><mi>dP</mi><mi>dQ</mi></mfrac><mo>&lt;</mo><mn>0</mn></math>. Marginalinntekten kan skrives som <math><mi>MR</mi><mo>=</mo><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac><mo>+</mo><mi>P</mi></math>. Hva blir den mest presise og korrekte beskrivelsen av de to leddene i marginalinntekten?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "P er inntektsøkningen ved å selge én enhet mer mens \\(Q \\frac{dP}{dQ}\\) er inntektsreduksjonen som følge\nav prisreduksjonen som er nødvendig for å selge én enhet mer.",
-      "P er inntekten for den siste enheten som selges og \\(Q \\frac{dP}{dQ}\\) er gjennomsnittsinntekten for alle\nenhetene.",
-      "P er inntektsøkningen ved å selge én enhet mer mens \\(Q \\frac{dP}{dQ}\\) er inntektsøkningen for alle de\nandre enhetene.",
-      "P er gjennomsnittsinntekten for alle enhetene som selges mens \\(Q \\frac{dP}{dQ}\\) er endringen i pris som\ner nødvendig for å selge én enhet mer."
+      "P er inntektsøkningen ved å selge én enhet mer mens <math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac></math> er inntektsreduksjonen som følge av prisreduksjonen som er nødvendig for å selge én enhet mer.",
+      "P er inntekten for den siste enheten som selges og <math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac></math> er gjennomsnittsinntekten for alle enhetene.",
+      "P er inntektsøkningen ved å selge én enhet mer mens <math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac></math> er inntektsøkningen for alle de andre enhetene.",
+      "P er gjennomsnittsinntekten for alle enhetene som selges mens <math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac></math> er endringen i pris som er nødvendig for å selge én enhet mer."
     ]
   },
   {

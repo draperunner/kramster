@@ -143,14 +143,14 @@
     ]
   },
   {
-    "question": "P er pris, MC er marginalkostnad og e er etterspørselselastisiteten som er definert slik at den er et positivt tall for normale goder. Hva er da et korrekt uttrykk for optimal pris for et monopol?",
+    "question": "<math><mi>P</mi></math> er pris, <math><mi>MC</mi></math> er marginalkostnad og <math><mi>e</mi></math> er etterspørselselastisiteten som er definert slik at den er et positivt tall for normale goder. Hva er da et korrekt uttrykk for optimal pris for et monopol?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(P = \\frac{MC}{1-\\frac{1}{e}}\\)",
-      "\\(P = MC(1-\\frac{1}{e})\\)",
-      "\\(P = \\frac{MC}{1+\\frac{1}{e}}\\)",
-      "\\(P = MC(1+\\frac{1}{e})\\)"
+      "<math><mi>P</mi><mo>=</mo><mfrac><mi>MC</mi><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mrow></mfrac></math>",
+      "<math><mi>P</mi><mo>=</mo><mi>MC</mi><mo>(</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>)</mo></math>",
+      "<math><mi>P</mi><mo>=</mo><mfrac><mi>MC</mi><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mrow></mfrac></math>",
+      "<math><mi>P</mi><mo>=</mo><mi>MC</mi><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>)</mo></math>"
     ]
   },
   {
@@ -223,14 +223,14 @@
     ]
   },
   {
-    "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), tilsier at verdipapirer vil ligge på den såkalte kapitalmarkedslinjen. Linjen gir en sammenheng mellom forventet avkastning for et verdipapir, r, risikofri rente, rf, forventet avkastning i markedet, rm, og verdipapirets beta, \\(\\beta\\). Hva er et korrekt uttrykk for kapitalmarkedslinjen?",
+    "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), tilsier at verdipapirer vil ligge på den såkalte kapitalmarkedslinjen. Linjen gir en sammenheng mellom forventet avkastning for et verdipapir, <math><mi>r</mi></math>, risikofri rente, <math><msub><mi>r</mi><mi>f</mi></msub></math>, forventet avkastning i markedet, <math><msub><mi>r</mi><mi>m</mi></msub></math>, og verdipapirets beta, <math><mi>β</mi></math>. Hva er et korrekt uttrykk for kapitalmarkedslinjen?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(r = (1-\\beta)rf - \\beta{rm}\\)",
-      "\\(r = (1+\\beta)rf + \\beta{rm}\\)",
-      "\\(r = (1+\\beta)rf - \\beta{rm}\\)",
-      "\\(r = (1-\\beta)rf + \\beta{rm}\\)"
+      "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>-</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>",
+      "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>+</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>",
+      "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>-</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>",
+      "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>+</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>"
     ]
   },
   {

@@ -431,14 +431,14 @@
     "options": ["10 000", "9 000", "4 500", "2 500"]
   },
   {
-    "question": "Se bort fra selskapsskatt! Et selskap er finansiert av en del gjeld og en del egenkapital. Totalkapitalrentabiliteten er \\(r_A\\), egenkapitalrentabiliteten er \\(r_E\\) og gjeldsavkastningen er \\(r_D\\). Hva er da en korrekt implikasjon av at \\(r_E > r_A\\)?",
+    "question": "Se bort fra selskapsskatt! Et selskap er finansiert av en del gjeld og en del egenkapital. Totalkapitalrentabiliteten er <math><msub><mi>r</mi><mi>A</mi></msub></math>, egenkapitalrentabiliteten er <math><msub><mi>r</mi><mi>E</mi></msub></math> og gjeldsavkastningen er <math><msub><mi>r</mi><mi>D</mi></msub></math>. Hva er da en korrekt implikasjon av at <math><msub><mi>r</mi><mi>E</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>?",
     "answers": [0],
     "exam": ".*",
     "options": [
-      "\\(r_E > r_D\\) og \\(r_D < r_A\\)",
-      "\\(r_E > r_D\\) og \\(r_D > r_A\\)",
-      "\\(r_E < r_D\\) og \\(r_D > r_A\\)",
-      "\\(r_E < r_D\\) og \\(r_D < r_A\\)"
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&#xA0;</mo>og<mo>&#xA0;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&lt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>",
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&#xA0;</mo>og<mo>&#xA0;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>",
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>&lt;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&#xA0;</mo>og<mo>&#xA0;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>",
+      "<math><msub><mi>r</mi><mi>E</mi></msub><mo>&lt;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&#xA0;</mo>og<mo>&#xA0;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&lt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>"
     ]
   },
   {
@@ -483,7 +483,7 @@
     "options": ["3,0 %", "3,4 %", "4,0 %", "5,0 %"]
   },
   {
-    "question": "Kostnaden til totalkapitalen etter skatt, også kalt WACC, kan skrives som WACC = \\(\\frac{D}{V}(1-T_C)r_D+\\frac{E}{V}rE\\). Her er D verdien av gjeld, E er verdien av egenkapital, V er total verdi av aktiva, rD er gjeldsavkastning, rE er egenkapitalavkastning og Tc er selskapsskattesatsen. Anta at WACC skal brukes i en nettonåverdiberegning. Hvordan skal da kontantstrømmen beregnes?",
+    "question": "Kostnaden til totalkapitalen etter skatt, også kalt WACC, kan skrives som <math><mtext>WACC</mtext><mo>=</mo><mfrac><mrow><mi>D</mi></mrow><mrow><mi>V</mi></mrow></mfrac><mo>(</mo><mn>1</mn><mo>-</mo><msub><mi>T</mi><mi>C</mi></msub><mo>)</mo><msub><mi>r</mi><mi>D</mi></msub><mo>+</mo><mfrac><mrow><mi>E</mi></mrow><mrow><mi>V</mi></mrow></mfrac><msub><mi>r</mi><mi>E</mi></msub></math>. Her er <math><mi>D</mi></math> verdien av gjeld, <math><mi>E</mi></math> er verdien av egenkapital, <math><mi>V</mi></math> er total verdi av aktiva, <math><msub><mi>r</mi><mi>D</mi></msub></math> er gjeldsavkastning, <math><msub><mi>r</mi><mi>E</mi></msub></math> er egenkapitalavkastning og <math><msub><mi>T</mi><mi>C</mi></msub></math> er selskapsskattesatsen. Anta at <math><mtext>WACC</mtext></math> skal brukes i en nettonåverdiberegning. Hvordan skal da kontantstrømmen beregnes?",
     "answers": [0],
     "exam": ".*",
     "options": [

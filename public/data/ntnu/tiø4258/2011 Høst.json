@@ -128,14 +128,14 @@
     "options": ["0", "1", "2", "3"]
   },
   {
-    "question": "Anta at etterspørselen i et marked der bedriftene tilpasser seg som om det er frikonkurranse er gitt ved P = a - bQ, der P er prisen, Q er mengden og a og b er positive konstanter. Alle bedriftene i markedet har marginalkostnad lik c. Hva er et korrekt uttrykk for den totale mengden som vil bli tilbudt i dette markedet?",
+    "question": "Anta at etterspørselen i et marked der bedriftene tilpasser seg som om det er frikonkurranse er gitt ved <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen, <math><mi>Q</mi></math> er mengden og <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter. Alle bedriftene i markedet har marginalkostnad lik <math><mi>c</mi></math>. Hva er et korrekt uttrykk for den totale mengden som vil bli tilbudt i dette markedet?",
     "answers": [2],
     "exam": ".*",
     "options": [
-      "\\(Q = \\frac{a-c}{3b}\\)",
-      "\\(Q = \\frac{a-c}{2b}\\)",
-      "\\(Q = \\frac{a-c}{b}\\)",
-      "\\(Q = 2\\frac{a-c}{b}\\)"
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mrow><mn>3</mn><mi>b</mi></mrow></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mi>b</mi></mfrac></math>",
+      "<math><mi>Q</mi><mo>=</mo><mn>2</mn><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mi>b</mi></mfrac></math>"
     ]
   },
   {
@@ -145,14 +145,14 @@
     "options": ["0", "333", "667", "1 000"]
   },
   {
-    "question": "I det duopolmarked er etterspørselen gitt ved P = 1 000 - Q, der P er prisen og Q er total mengde i markedet. Anta at de to bedriftene, som produserer mengdene n og m, tilpasser seg i tråd med Cournot-modellen og har konstante marginalkostnader på 100. Hva blir korrekte uttrykk for reaksjonsfunksjonene til bedriftene?",
+    "question": "I det duopolmarked er etterspørselen gitt ved <math><mi>P</mi><mo>=</mo><mn>1000</mn><mo>-</mo><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er total mengde i markedet. Anta at de to bedriftene, som produserer mengdene <math><mi>n</mi></math> og <math><mi>m</mi></math>, tilpasser seg i tråd med Cournot-modellen og har konstante marginalkostnader på <math><mn>100</mn></math>. Hva blir korrekte uttrykk for reaksjonsfunksjonene til bedriftene?",
     "answers": [1],
     "exam": ".*",
     "options": [
-      "\\(n = \\frac{1000-m}{2}\\) og \\(m = \\frac{1000-n}{2}\\)",
-      "\\(n = \\frac{900-m}{2}\\) og \\(m = \\frac{900-n}{2}\\)",
-      "\\(n = \\frac{1000-m}{3}\\) og \\(m = \\frac{1000-n}{3}\\)",
-      "\\(n = \\frac{900-m}{3}\\) og \\(m = \\frac{900-n}{3}\\)"
+      "<math><mi>n</mi><mo>=</mo><mfrac><mrow><mn>1000</mn><mo>-</mo><mi>m</mi></mrow><mn>2</mn></mfrac></math> og <math><mi>m</mi><mo>=</mo><mfrac><mrow><mn>1000</mn><mo>-</mo><mi>n</mi></mrow><mn>2</mn></mfrac></math>",
+      "<math><mi>n</mi><mo>=</mo><mfrac><mrow><mn>900</mn><mo>-</mo><mi>m</mi></mrow><mn>2</mn></mfrac></math> og <math><mi>m</mi><mo>=</mo><mfrac><mrow><mn>900</mn><mo>-</mo><mi>n</mi></mrow><mn>2</mn></mfrac></math>",
+      "<math><mi>n</mi><mo>=</mo><mfrac><mrow><mn>1000</mn><mo>-</mo><mi>m</mi></mrow><mn>3</mn></mfrac></math> og <math><mi>m</mi><mo>=</mo><mfrac><mrow><mn>1000</mn><mo>-</mo><mi>n</mi></mrow><mn>3</mn></mfrac></math>",
+      "<math><mi>n</mi><mo>=</mo><mfrac><mrow><mn>900</mn><mo>-</mo><mi>m</mi></mrow><mn>3</mn></mfrac></math> og <math><mi>m</mi><mo>=</mo><mfrac><mrow><mn>900</mn><mo>-</mo><mi>n</mi></mrow><mn>3</mn></mfrac></math>"
     ]
   },
   {
@@ -186,14 +186,14 @@
     "options": ["80,0", "82,6", "83,3", "90,9"]
   },
   {
-    "question": "Et prosjekt innebærer en investering på I nå, og så en kontantstrøm på k om ett år og så hvert år deretter i all overskuelige framtid. Avkastningskravet er r. Hva blir et korrekt uttrykk for internrenten, IR, til prosjektet?",
+    "question": "Et prosjekt innebærer en investering på <math><mi>I</mi></math> nå, og så en kontantstrøm på <math><mi>k</mi></math> om ett år og så hvert år deretter i all overskuelige framtid. Avkastningskravet er <math><mi>r</mi></math>. Hva blir et korrekt uttrykk for internrenten, <math><mi>IR</mi></math>, til prosjektet?",
     "answers": [3],
     "exam": ".*",
     "options": [
-      "\\(IR = \\frac{k}{1+r}\\)",
-      "\\(IR = \\frac{k}{r}\\)",
-      "\\(IR = \\frac{I}{k}\\)",
-      "\\(IR = \\frac{k}{I}\\)"
+      "<math><mi>IR</mi><mo>=</mo><mfrac><mi>k</mi><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></math>",
+      "<math><mi>IR</mi><mo>=</mo><mfrac><mi>k</mi><mi>r</mi></mfrac></math>",
+      "<math><mi>IR</mi><mo>=</mo><mfrac><mi>I</mi><mi>k</mi></mfrac></math>",
+      "<math><mi>IR</mi><mo>=</mo><mfrac><mi>k</mi><mi>I</mi></mfrac></math>"
     ]
   },
   {
