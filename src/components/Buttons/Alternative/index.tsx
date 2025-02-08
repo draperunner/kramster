@@ -1,4 +1,3 @@
-import MathElement from "../../MathElement";
 import { sanitize } from "../../../utils";
 import styles from "./Alternative.module.css";
 
@@ -17,9 +16,11 @@ const Alternative = (props: Props): JSX.Element => {
   const text = sanitize(props.text);
 
   return (
-    <button className={styles[props.type]} onClick={props.onClick}>
-      <MathElement dangerouslySetInnerHTML={{ __html: text }} />
-    </button>
+    <button
+      className={styles[props.type]}
+      onClick={props.onClick}
+      dangerouslySetInnerHTML={{ __html: text }}
+    />
   );
 };
 
