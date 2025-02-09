@@ -2,7 +2,6 @@
   {
     "question": "Hva er innholdet til programtelleren (PC) i prosessoren?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "PC inneholder adressen til neste instruksjon.",
       "PC inneholder adressen til forrige instruksjon.",
@@ -12,7 +11,6 @@
   {
     "question": "Hvilket utsagn om Statisk RAM er <em>feil</em>?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Statisk RAM er dyrt.",
       "Statisk RAM har 4--6 transistorer per. celle.",
@@ -24,7 +22,6 @@
   {
     "question": "Hva er random access memory (RAM)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lager der man gjør tilfeldige oppslag for å finne rett adresse",
       "Lager der man kan adressere en hvilken som helst lokasjon direkte (alle lokasjoner er like lette å nå)",
@@ -35,7 +32,6 @@
   {
     "question": "Hvorfor er det et problem at DRAM-hastighet øker saktere enn prosessor-hastighet",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Man trenger svært mange DRAM-brikker for å unngå flaskehals",
       "Man får ikke utnyttet alle linjene på systembussen",
@@ -47,7 +43,6 @@
   {
     "question": "Hvilket utsagn om Dynamisk RAM er <em>feil</em>?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Dynamisk RAM er billig.",
       "Dynamisk RAM tar større plass en statisk RAM.",
@@ -59,7 +54,6 @@
   {
     "question": "Hvilket utsagn om SDRAM er <em>feil</em>?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "SDRAM utveksler data med prosessoren synkronisert til et klokkesignal",
       "SDRAM gir respons etter et gitt antall klokkesykler.  Masteren frigjøres mens forespørselen behandles, fordi den vet når instruksjonen er ferdig behandlet.",
@@ -70,7 +64,6 @@
   {
     "question": "Hva er <em>ikke</em> sant om RAM?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "RAM er et lager der individuelle ord er direkte aksesserbare gjennom bundet (wired-in) adresselogikk.",
       "RAM er persistent når man slår av maskinen.",
@@ -80,7 +73,6 @@
   {
     "question": "Hvilket av alternativene under er ikke et kjennetegn ved SDRAM?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Aksess er synkronisert med ekstern klokke.",
       "Støtter «burst mode» for overføring av sekvensielle data.",
@@ -92,7 +84,6 @@
   {
     "question": "Hva er forskjellen på DRAM og SRAM når det gjelder applikasjon?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "DRAM blir brukt til hurtigbuffer, og SRAM blir brukt til hovedlager.",
       "SRAM blir brukt til hurtigbuffer, og DRAM blir brukt til hovedlager.",
@@ -102,7 +93,6 @@
   {
     "question": "Hva er forskjellen på DRAM og SDRAM når det gjelder karakteristikker som fart, størrelse og kostnad?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "SRAM har en generelt tregere aksesstid enn DRAM. DRAM koster mer og er større en SRAM.",
       "SRAM har en generelt raskere aksesstid enn DRAM. DRAM koster mindre og er mindre enn SRAM.",
@@ -113,7 +103,6 @@
   {
     "question": "Hvilket av alternativene er <em>ikke</em> en egenskap ved SDRAM?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Innholdet kan bare slettes blokk for blokk (blokk > byte)",
       "SDRAM støtter \"burst mode\" som gjør at sekvensielle data kan overføres uten separate adressefaser for hver datafase.",
@@ -129,13 +118,11 @@
   {
     "question": "Dynamisk RAM er bedre egnet enn statisk RAM til et lite og hurtig minne",
     "answers": [1],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "Hvilket utsagn om RAM er <em>feil</em>?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Kan kun hente ut en byte om gangen",
       "Det er mulig å både lese data fra RAM og skrive nye data til RAM",

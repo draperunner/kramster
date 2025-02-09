@@ -2,61 +2,51 @@
   {
     "question": "Simple reflex agents often use situation-actions rules for their reasoning.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Simple reflex agents have an internal model of the current state of the world.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An agent's utility function is essentially internalization of the performance measure.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In order to be rational an agent should have a utility function.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a learning agent the learning element is responsible for selecting the external action to be executed next.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Taxi driving happens in a stochastic, sequential, partially observable, and continuous environment.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Agents need an internal model to cope with partially observable environments.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An agent system has an agent function that selects the next action and a state transition function which computes what the next state of the environment would be when an action is executed.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The action selection in model based agents uses as input the currently sensed data as well as the internal representation of the environment.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In goal-based agents, rationality of the agents is measured based on the utility function.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

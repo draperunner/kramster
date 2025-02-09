@@ -2,7 +2,6 @@
   {
     "question": "Volumet som er omslutta av plasmamembranen til planteceller er ofte mye større enn tilsvarende volum i dyreceller. Den mest sannsynlige forklaringa på denne observasjonen er at",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "planteceller kan ha et mye høyere overflate-til-volum forhold enn dyreceller.",
       "planteceller har en mye sterkere foldet plasmamembran enn dyreceller.",
@@ -14,7 +13,6 @@
   {
     "question": "Hydrolyttiske enzymer må være adskilt og innpakket for å hindre generell destruksjon av cellekomponenter. Hvilken av de følgende organellene inneholder slike hydrolyttiske enzymer i dyreceller?",
     "answers": [1],
-    "exam": "2014 Vår",
     "options": [
       "kloroplast",
       "lysosom",
@@ -26,7 +24,6 @@
   {
     "question": "Mennesker kan fordøye stivelse, men ikke cellulose fordi",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "monomeren for stivelse er glukose, mens monomeren for cellulose er galaktose.",
       "mennesker har enzymer som kan hydrolysere β-glykosid-bindinger i stivelse, men ikke α-glykosid-bindinger i cellulose.",
@@ -38,7 +35,6 @@
   {
     "question": "Polysakkarid, triacylglycerid og protein ligner på hverandre ved at de",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "er syntetisert fra monomerer gjennom hydrolyse",
       "er syntetisert fra subenheter gjennom dehydreringsreaksjoner",
@@ -50,7 +46,6 @@
   {
     "question": "Laktose, et sukker i melk, er sammensatt av ett glukosemolekyl bundet gjennom ei glykosidbinding til ett galaktosemolekyl. Hvordan klassifiseres laktose?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "som en pentose",
       "som en hexose",
@@ -62,7 +57,6 @@
   {
     "question": "Dersom celler blir dyrka i medium som inneholder radioaktivt 35S, hvilket av disse molekylene blir merka?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "fosfolipid",
       "nukleinsyrer",
@@ -74,7 +68,6 @@
   {
     "question": "Motorprotein sørger for molekylære bevegelser i celler ved at de interagerer med hvilke cellulære strukturer?",
     "answers": [3],
-    "exam": "2014 Vår",
     "options": [
       "sete for energiproduksjon i cellulær respirasjon",
       "membranprotein",
@@ -86,7 +79,6 @@
   {
     "question": "Plasmodesmata i planteceller ligner i funksjon mest på hvilke av de følgende strukturene i dyreceller?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "peroxisom",
       "desmosom",
@@ -98,7 +90,6 @@
   {
     "question": "Hvilket av følgende utsagn beskriver best terminering av transkripsjon i prokaryoter?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "RNA polymerase transkriberer gjennom polyadenyleringssignalet, slik at protein blir assosiert med transksriptet og kutter det løs fra polymerasen",
       "RNA polymerase transkriberer gjennom terminatorsekvensen, slik at polymerasen blir separert fra DNA og transkriptet blir frigjort.",
@@ -110,7 +101,6 @@
   {
     "question": "Alternativ RNA-spleising",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "er en mekanisme for å øke transkripsjonsraten.",
       "gjør det mulig å produsere protein med ulik størrelse fra ett mRNA.",
@@ -122,7 +112,6 @@
   {
     "question": "Hvilken av følgende er den første hendelsen i translasjon i eukaryoter?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "elongering av polypeptidet",
       "baseparing av den aktiverte metionin-tRNA med AUG på mRNA",
@@ -134,7 +123,6 @@
   {
     "question": "Hvilket av de følgende er eksempel på post-transkripsjonell kontroll av genuttrykk?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "addering av metylgrupper til cytosinbaser i DNA",
       "binding av transkriptionsfaktorer til en promotor",
@@ -146,7 +134,6 @@
   {
     "question": "Karyotypen hos en primat art har 48 kromosom. I et gitt hodyr skjer det en feil under celledeling og ho produserer ett av eggene sine med ett ekstra kromosom (25). Den mest sannsynlige kilden til denne feilen er en feil i hvilken av de følgende?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "mitose i hennes eggstokk",
       "metafase I i en meiose",
@@ -158,7 +145,6 @@
   {
     "question": "Taxol er en kreftmedisin ekstrahert fra stillehavsbarlind (Pacific yew tree). I dyreceller forstyrrer Taxol danning av microtubuli ved å binde seg til mikrotubuli og aksellerere deres polymerisering fra proteinforløperen tubulin. Effekten er at mitose stopper. Mer spesifikt tyder dette på at Taxol påvirker",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "danning av mitotisk spindel.",
       "anafase.",
@@ -170,13 +156,11 @@
   {
     "question": "Ei gruppe av celler blir analysert for DNA-innhold rett etter mitose og blir funnet å ha gjennomsnittlig 8 picogram DNA per cellekjerne. Hvor mange picogram DNA ville det være på slutten av S-fasen og på slutten av G2- fasen?",
     "answers": [3],
-    "exam": ".*",
     "options": ["8; 8", "8; 16", "16; 8", "16; 16", "12; 16"]
   },
   {
     "question": "Hvorfor blir kromosomene kveilet opp under mitose?",
     "answers": [1],
-    "exam": "2014 Vår",
     "options": [
       "for å øke deres potensielle energi",
       "for at de skal kunne flytte på seg uten å filtre seg inn i hverandre og skades",
@@ -188,7 +172,6 @@
   {
     "question": "Proteiner som er involvert i regulering av cellesyklus og som varierer i konsentrasjon gjennom cellecyklus kalles",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "ATPaser.",
       "kinetokorer.",
@@ -200,7 +183,6 @@
   {
     "question": "Ved siden av evna som noen kreftceller har til å ha økt vekstrate, hva ellers kan, logisk sett, føre til en kreftsvulst?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "metastase",
       "endring i rekkefølgen av cellesyklus-stadier",
@@ -212,13 +194,11 @@
   {
     "question": "Ved hvilket stadium under mitosen blir kromosomene vanligvis fotografert for framstilling av karyotype?",
     "answers": [1],
-    "exam": ".*",
     "options": ["profase", "metafase", "anafase", "telofase", "interfase"]
   },
   {
     "question": "De menneskelige X- og Y-kromosomene",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "er begge til stede i hver somatiske celle i handyr og hunndyr tillike.",
       "har omtrent samme størrelse og samme antall gener.",
@@ -230,7 +210,6 @@
   {
     "question": "I en menneskelig karyotype, er kromosomene arrangert i 23 par. Hvis vi velger ett av disse parene, som for eksempel par 14, hvilket av det følgende er felles for de to kromosomene?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bare lengde og posisjon av centromeren.",
       "Bare lengde, posisjon av centromeren og fargingsmønster.",
@@ -242,7 +221,6 @@
   {
     "question": "Ei celle deler seg og produserer to datterceller som er genetisk ulike.",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Utsagnet er bare sant for mitose.",
       "Utsagnet er bare sant for meiose I.",
@@ -254,7 +232,6 @@
   {
     "question": "Et gen som inneholder intron kan gjøres kortere (men opprettholde funksjon) for genteknologiske formål ved å bruke",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "RNA polymerase til å transkribere genet.",
       "et restriksjonsenzym for å kutte genet opp i kortere bitar.",
@@ -266,7 +243,6 @@
   {
     "question": "Hvorfor brukes gjærceller ofte som vertsorganisme for kloning?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "De danner lett kolonier.",
       "De kan fjerne exon fra mRNA.",
@@ -278,7 +254,6 @@
   {
     "question": "En multigen-familie er sammensatt av",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "en rekker gener som koder for produkter som må uttrykkes på en koordinert måte.",
       "gener med sekvenser som er svært like hverandre og som sannsynligvis har oppstått ved duplisering.",

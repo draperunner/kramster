@@ -2,7 +2,6 @@
   {
     "question": "What are typical outputs of the ATAM?",
     "answers": [0, 2, 3],
-    "exam": ".*",
     "options": [
       "Concise architecture",
       "Cost/benefit analysis",
@@ -13,7 +12,6 @@
   {
     "question": "What are typical outputs of the ATAM?",
     "answers": [2, 3],
-    "exam": "2015 Kahoot 15: Evaluation + ATAM",
     "options": [
       "Initial system implementation",
       "Project plan",
@@ -24,7 +22,6 @@
   {
     "question": "What are typical outputs of the ATAM?",
     "answers": [0, 1, 2],
-    "exam": ".*",
     "options": [
       "Set of nonrisks",
       "Set of risks",
@@ -35,7 +32,6 @@
   {
     "question": "What is the first phase of the ATAM process?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Analysis",
       "Investigation and Analysis",
@@ -46,7 +42,6 @@
   {
     "question": "What is the second phase of the ATAM process?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Investigation and Analysis",
       "Presentation",
@@ -57,7 +52,6 @@
   {
     "question": "What is the third phase of the ATAM process?",
     "answers": [3],
-    "exam": "2015 Kahoot 15: Evaluation + ATAM",
     "options": [
       "Investigation and Analysis",
       "Presentation",
@@ -68,13 +62,11 @@
   {
     "question": "A decision that will affect only one quality attribute is named:",
     "answers": [2],
-    "exam": "2015 Kahoot 15: Evaluation + ATAM",
     "options": ["Non-risk", "Risk", "Sensitivity point", "Tradeoff point"]
   },
   {
     "question": "What is the first step of the Investigation and Analysis Phase (phase 2)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Analyze Arch Approaches",
       "Generate QA Utility Tree",
@@ -85,13 +77,11 @@
   {
     "question": "A safe architectural design decision is named:",
     "answers": [0],
-    "exam": ".*",
     "options": ["Non-risk", "Risk", "Sensitivity point", "Tradeoff point"]
   },
   {
     "question": "What is the second step of the Investigation and Analysis Phase (phase 2)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Analyze Arch Approaches",
       "Generate QA Utility Tree",
@@ -102,13 +92,11 @@
   {
     "question": "A decision that will affect two or more fighting quality attributes is named:",
     "answers": [3],
-    "exam": "2015 Kahoot 15: Evaluation + ATAM",
     "options": ["Non-risk", "Risk", "Sensitivity point", "Tradeoff point"]
   },
   {
     "question": "What is the third step of the Investigation and Analysis Phase (phase 2)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Analyze Arch Approaches",
       "Generate QA Utility Tree",
@@ -119,7 +107,6 @@
   {
     "question": "What is this? <img src=\"images/w6pe0e.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Risk themes",
       "Sensitivity points",
@@ -130,7 +117,6 @@
   {
     "question": "What is this? <img src=\"images/vaahds.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Analysis of arch approaches",
       "Quality replication",

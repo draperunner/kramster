@@ -2,7 +2,6 @@
   {
     "question": "Hva er et gen oppskriften på?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Et karbohydrat",
       "Et fettstoff",
@@ -13,7 +12,6 @@
   {
     "question": "Hva gjør mitokondriene i en celle?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Danner proteiner",
       "Danner ATP",
@@ -24,7 +22,6 @@
   {
     "question": "På hvilken måte beveger oksygen og karbondioksid seg mellom blod og celler?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ved aktiv transport (pumping)",
       "Ved osmose",
@@ -35,7 +32,6 @@
   {
     "question": "Hvordan vandrer vann ved osmose gjennom en semipermeabel (halvt gjennomtrengelig) membran?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Fra stedet med høyest konsentrasjon av oppløste stoffer",
       "Til stedet med høyest konsentrasjon av oppløste stoffer",
@@ -46,7 +42,6 @@
   {
     "question": "Hvordan opprettholder natrium-kaliumpumpen membranpotensialet (ionekonsentrasjonsforskjeller mellom utsiden og innsiden av cellen)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ved osmose",
       "Ved diffusjon",
@@ -57,7 +52,6 @@
   {
     "question": "Hvor dannes proteiner i en celle?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "På ribosomene",
       "I lysosomene",
@@ -68,7 +62,6 @@
   {
     "question": "Hvor foregår energiomsetningen i en celle?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I cellekjernen",
       "I mitokondriene",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilket utsagn er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Røde blodceller har evne til fagocytose",
       "Fagocytose er et eksempel på eksocytose",
@@ -90,7 +82,6 @@
   {
     "question": "Hvilket utsagn er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Fettvev gir mekanisk styrke og sammenbinding",
       "Løst bindevev gir friksjonsfri bevegelse i synovialledd",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilken funksjon har lysosomer i en celle?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "De er transportproteiner i cellemembraner",
       "De bryter ned avfallsstoffer i cellen",

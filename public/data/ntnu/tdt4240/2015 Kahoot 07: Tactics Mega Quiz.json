@@ -2,25 +2,21 @@
   {
     "question": "Specialize access routes/interfaces to allow capturing or specification of variable values.",
     "answers": [3],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Testability"]
   },
   {
     "question": "Firewalls restrict access based on message source or destination port.",
     "answers": [2],
-    "exam": ".*",
     "options": ["Modifiability", "Performance", "Security", "Testability"]
   },
   {
     "question": "Limit possible options: Reduce the possible options for variations for modules.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Security"]
   },
   {
     "question": "Spare: A standby spare configured to replace many different failed components.",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Availability",
       "Interoperability",
@@ -31,31 +27,26 @@
   {
     "question": "Polymorphism: Late binding of method calls.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Security", "Usability"]
   },
   {
     "question": "Bound execution times: Place a limit on how much execution time is used to respond to an event.",
     "answers": [2],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Security", "Usability"]
   },
   {
     "question": "Maintain existing interfaces: Avoid to change interfaces that other modules uses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Modifiability", "Performance", "Security", "Usability"]
   },
   {
     "question": "Exceptions: Recognizing faults by raising exceptions when a specified fault occurs.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Security", "Usability"]
   },
   {
     "question": "Increase available resources: Faster and more processors, more memory, faster network.",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Availiability",
       "Interoperability",
@@ -66,37 +57,31 @@
   {
     "question": "Shadow operation to mimic the behavior of the working components before restoring service.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Maintain a model of the task: Used to determine context of a system.",
     "answers": [3],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "State resynchronization to upgrade a component to restore its previous state.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Configuration files: Intended to set parameters at startup.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Authorize users to ensure authenticated users have the rights to access/modify data or services",
     "answers": [2],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Security", "Usability"]
   },
   {
     "question": "Scheduling policy: Scheduling of resources based on priority assignment and dispatching.",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Availability",
       "Interoperability",
@@ -107,25 +92,21 @@
   {
     "question": "Checkpoint/rollback: A recording of a consistent state that can later be restored.",
     "answers": [0],
-    "exam": "2015 Kahoot 07: Tactics Mega Quiz",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Hide information: Make parts of information of a module private and provide interfaces.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Authenticate users: Ensuring that a user or remote computer is actually who it claims to be.",
     "answers": [2],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Security", "Usability"]
   },
   {
     "question": "Removal from service to undergo some activities to prevent anticipated failures.",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Availability",
       "Interoperability",
@@ -136,7 +117,6 @@
   {
     "question": "Control frequency of sampling for queued requests possibly resulting in loss of requests.",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Availability",
       "Interoperability",
@@ -147,19 +127,16 @@
   {
     "question": "Maintain a model of the system: Determines the expected system behavior enabling feedback.",
     "answers": [3],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Maintain integrity using checksums or hash results to allow testing of manipulation of the data",
     "answers": [2],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Security", "Usability"]
   },
   {
     "question": "Heartbeat:Component emits a heartbeat message periodically and another component listens for it",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Availability",
       "Interoperability",
@@ -170,25 +147,21 @@
   {
     "question": "Restrict communication paths: Restrict the modules with which a given module shares data.",
     "answers": [1],
-    "exam": "2015 Kahoot 07: Tactics Mega Quiz",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Adherence to defined protocols: Allows runtime binding of independent processes.",
     "answers": [0],
-    "exam": "2015 Kahoot 07: Tactics Mega Quiz",
     "options": ["Availability", "Performance", "Security", "Testability"]
   },
   {
     "question": "Increase computational efficiency to improve algorithm or use cache methods for processor/disk",
     "answers": [2],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   },
   {
     "question": "Ping/echo: Component issues a ping and expects to receive back an echo, within predefined time.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Availability", "Modifiability", "Performance", "Usability"]
   }
 ]

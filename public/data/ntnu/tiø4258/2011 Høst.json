@@ -2,7 +2,6 @@
   {
     "question": "Det er seks dimensjoner av innovasjon: Verdi for kunden, verdikjeder, målgruppe i markedet, nye produkter og tjenester, prosessteknologier, støttende teknologier. Hvilken av følgende påstander om inkrementelle, semi-radikale og radikale innovasjoner er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En innovasjon er radikal når det er flere mindre endringer i alle seks dimensjonene",
       "En innovasjon er radikal når det er betydelig endringer i en av de tre teknologiske innovasjonsdimensjonene og betydelig endringer i en av de tre forretningsmodellinnovasjonene",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av følgende påstander er korrekt om finansiering av teknologibedrifter med vekstpotensial.",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I tidlig fase vil bankene som regel være den viktigste finansieringskilden.",
       "I Norge er finansiering sjelden et problem siden vi har så gode offentlige virkemidler.",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken av følgende påstander er korrekt om venturekapitalfond?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Dette er offentlige fond som skal støtte opp om etablering av vekstbedrifter",
       "Dette er privatpersoner som går sammen og investerer direkte i nye teknologibedrifter",
@@ -35,7 +32,6 @@
   {
     "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Gründer, såkornfond, venturekapital fond, familie og venner, Business Angels.",
       "Gründer, familie og venner, Business Angels, såkornfond, venturekapital fond",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilke tre investment risks omtales ofte i forbindelse med investeringer i potensielle vekstbedrifter?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Konkurranserisiko, økonomisk risiko og teknologi risiko",
       "Teknologisk risiko, markeds risiko og agent risiko",
@@ -57,7 +52,6 @@
   {
     "question": "I pensum beskrives tre ulike typer forretningsplaner. Hvilke tre?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Internal business plan, external business plan and full business plan.",
       "Full business plan, summary business plan and investment business plan",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken av de følgende motivasjonsteoriene mener at det som er viktig i forhold til motivasjon er hvordan en ansatt oppfatter forholdet mellom sin resultat/input-ratio og andres resultat/input-ratio?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Behovsteorier",
       "Forventningsteori",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken av de følgende påstandene beskriver en reell forskjell mellom en produktdivisjonsstruktur og en multidivisjonsstruktur?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Horisontal differensiering er større i en multidivisjonsstruktur enn i en produktdivisjonsstruktur",
       "Vertikal differensiering er større i en produktdivisjonsstruktur enn i en multidivisjonsstruktur",
@@ -90,7 +82,6 @@
   {
     "question": "Hviken av de følgende påstandene er riktig om hvordan personer med ytre kontrollplassering (external locus of control) forstår sin situasjon når vedkommende gjør en god prestasjon:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Vedkommende vil trolig forklare sin gode prestasjon ut fra ekstern forhold som han eller hun ikke kontrollerer",
       "Vedkommende vil trolig forklare sin gode prestasjon ut fra sin egen innsats og evner",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilken av de følgende påstandene beskriver en ulempe med desentralisering i organisasjoner:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Det er vanskeligere å koordinere aktiviteter",
       "Toppledelsen fokuserer for lite på å ta strategiske beslutninger",
@@ -112,25 +102,21 @@
   {
     "question": "Ved produksjon på 100 000 enheter pr periode har en bedrift marginalkostnader på 1 000, gjennomsnittskostnader på 2 500, variable kostnader på 200 000 000 og faste kostnader på 50 000 000. Hva er bedriftens totale kostnader?",
     "answers": [0],
-    "exam": ".*",
     "options": ["250 000 000", "350 000 000", "550 000 000", "650 000 000"]
   },
   {
     "question": "Ved salg på 100 000 enheter pr periode er prisen på et produkt 2 000. Bedriften anslår at for å selge en enhet mer pr periode, må prisen reduseres med 0,01. Hva er et naturlig anslag på marginalinntekten?",
     "answers": [2],
-    "exam": ".*",
     "options": ["-1 000", "0", "1 000", "3 000"]
   },
   {
     "question": "Et monopol produserer 1 000 enheter pr periode. Etterspørselen er Q = 3 000 - P, der Q er mengden og P er prisen. Hva blir da (absoluttverdien av) etterspørselselastisiteten?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0", "1", "2", "3"]
   },
   {
     "question": "Anta at etterspørselen i et marked der bedriftene tilpasser seg som om det er frikonkurranse er gitt ved <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen, <math><mi>Q</mi></math> er mengden og <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter. Alle bedriftene i markedet har marginalkostnad lik <math><mi>c</mi></math>. Hva er et korrekt uttrykk for den totale mengden som vil bli tilbudt i dette markedet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mrow><mn>3</mn><mi>b</mi></mrow></mfrac></math>",
       "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></math>",
@@ -141,13 +127,11 @@
   {
     "question": "I et monopolmarked observerer myndighetene at prisen på produktet er 1 000. De estimerer at (absoluttverdien av) etterspørselselastisiteten er 1,5. Hva er da et naturlig anslag på monopolets marginalkostnad?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0", "333", "667", "1 000"]
   },
   {
     "question": "I det duopolmarked er etterspørselen gitt ved <math><mi>P</mi><mo>=</mo><mn>1000</mn><mo>-</mo><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er total mengde i markedet. Anta at de to bedriftene, som produserer mengdene <math><mi>n</mi></math> og <math><mi>m</mi></math>, tilpasser seg i tråd med Cournot-modellen og har konstante marginalkostnader på <math><mn>100</mn></math>. Hva blir korrekte uttrykk for reaksjonsfunksjonene til bedriftene?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mi>n</mi><mo>=</mo><mfrac><mrow><mn>1000</mn><mo>-</mo><mi>m</mi></mrow><mn>2</mn></mfrac></math> og <math><mi>m</mi><mo>=</mo><mfrac><mrow><mn>1000</mn><mo>-</mo><mi>n</mi></mrow><mn>2</mn></mfrac></math>",
       "<math><mi>n</mi><mo>=</mo><mfrac><mrow><mn>900</mn><mo>-</mo><mi>m</mi></mrow><mn>2</mn></mfrac></math> og <math><mi>m</mi><mo>=</mo><mfrac><mrow><mn>900</mn><mo>-</mo><mi>n</mi></mrow><mn>2</mn></mfrac></math>",
@@ -158,37 +142,31 @@
   {
     "question": "I det duopolmarked er etterspørselen gitt ved P = 1 000 - Q, der P er prisen og Q er total mengde i markedet. Anta at de to bedriftene, som produserer mengdene n og m, tilpasser seg i tråd med Cournot-modellen og har konstante marginalkostnader på 100. Hva blir prisen i likevekt i duopolmarkedet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["200", "400", "600", "800"]
   },
   {
     "question": "I et monopolmarked er etterspørselen gitt ved P = 1 000 - Q, der P er prisen og Q er  mengden. Monopolets marginalkostnader er null og vi skal se bort fra de faste kostnadene. Hva blir nå dødvektstapet, tapt samfunnsøkonomisk overskudd, som følge av monopolet setter en pris som er høyere enn marginalkostnaden?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0", "100 000", "125 000", "250 000"]
   },
   {
     "question": "Et selskap har totale aktiva på 200 millioner og gjeld på 100 millioner. Hva er selskapets gjeldsgrad?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2", "1", "0,5", "0,25"]
   },
   {
     "question": "Et selskap har totale aktiva på 200 millioner og gjeld på 100 millioner. Totalkapitalrentabiliteten er 10 % og gjeldsavkastningen er 5 %. Hva er da egenkapitalrentabiliteten?",
     "answers": [2],
-    "exam": ".*",
     "options": ["5 %", "10 %", "15 %", "20 %"]
   },
   {
     "question": "Hva er nåverdien av å få 100 kroner om to år dersom avkastningskravet er 10 %?",
     "answers": [1],
-    "exam": ".*",
     "options": ["80,0", "82,6", "83,3", "90,9"]
   },
   {
     "question": "Et prosjekt innebærer en investering på <math><mi>I</mi></math> nå, og så en kontantstrøm på <math><mi>k</mi></math> om ett år og så hvert år deretter i all overskuelige framtid. Avkastningskravet er <math><mi>r</mi></math>. Hva blir et korrekt uttrykk for internrenten, <math><mi>IR</mi></math>, til prosjektet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mi>IR</mi><mo>=</mo><mfrac><mi>k</mi><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></math>",
       "<math><mi>IR</mi><mo>=</mo><mfrac><mi>k</mi><mi>r</mi></mfrac></math>",
@@ -199,7 +177,6 @@
   {
     "question": "En risikoavers investor har tre investeringsmuligheter, A, B og C, og kan bare investere i en av dem. (Investoren har ingen andre investeringer.) A har forventet avkastning på 8 % og standardavvik på 25 %. B har forventet avkastning på 10 % og standardavvik på 30 %. C har forventet avkastning på 12 % og standardavvik på 20 %. Hva kan vi si om hvilken investering investoren vil foretrekke?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Investoren vil velge investering A.",
       "Investoren vil velge investering B.",
@@ -210,7 +187,6 @@
   {
     "question": "Hva innebærer diversifisering i en investeringsportefølje?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "At når avkastningene til investeringene er perfekt korrelerte, blir porteføljen alltid risikofri.",
       "At når avkastningene til investeringene er perfekt negativt korrelerte blir porteføljen alltid risikofri.",
@@ -221,13 +197,11 @@
   {
     "question": "En investering på 800 000 nå gir positiv kontantstrøm om ett og om to år. Om ett år er det 50 % sannsynlighet for 500 000 og 50 % sannsynlighet for 250 000. Om to år er det 60 % sannsynlighet for 400 000 og 40 % sannsynlighet for 800 000. Avkastningskravet er 10 %. Hva blir forventet nettonåverdi for prosjektet?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Ca 3 700", "Ca 7 000", "Ca 0", "Ca -135 000"]
   },
   {
     "question": "En aksje har en beta på 2. Hva betyr det?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "At når risikoen i markedet går opp eller ned med 1 %, har aksjens standardavvik en tendens til å gå opp eller ned med 2 %.",
       "At når markedet går opp eller ned med 1 %, har aksjens standardavvik en tendens til å gå opp eller ned med 2 %.",
@@ -238,25 +212,21 @@
   {
     "question": "Hva er beta for en risikofri portefølje i følge kapitalverdimodellen?",
     "answers": [1],
-    "exam": ".*",
     "options": ["-1", "0", "1", "2"]
   },
   {
     "question": "En aksje har en beta på 1,5. Risikofri rente er 3 % og forventet markedsavkastning er 7 %. Hva blir forventet avkastning for aksjen i følge kapitalverdimodellen (CAPM)?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0 %", "7 %", "9 %", "14,5 %"]
   },
   {
     "question": "Nettonåverdien til en investering skal beregnes ved hjelp av WACC (avkastningskravet til totalkapitalen etter skatt). Kontantstrømmen før skatt og renter i år 2 er 1 000 000. Skattesatsen er 28 %. Rentene på investeringen utgjør 100 000 i år 2. Hva blir relevant kontantstrøm for år 2?",
     "answers": [0],
-    "exam": ".*",
     "options": ["720 000", "748 000", "900 000", "1 000 000"]
   },
   {
     "question": "Anta ingen selskapsskatt, ingen konkurskostnader og perfekte kapitalmarkeder. En bedrift har ingen gjeld og avkastningen på egenkapitalen forventes å være 15 %. Anta nå at bedriften tar opp gjeld og betaler hele beløpet ut som utbytte slik at den ender opp med like mye gjeld som egenkapital. Forventet avkastning på gjelden er 5 %. Hva blir nå forventet egenkapitalavkastning?",
     "answers": [2],
-    "exam": ".*",
     "options": ["15 %", "20 %", "25 %", "30 %"]
   }
 ]

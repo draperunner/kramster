@@ -2,7 +2,6 @@
   {
     "question": "Hvilken betegnelse bruker vi for et protein som bidrar til riktig folding av andre proteiner?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "tertiært protein",
       "chaperon",
@@ -14,7 +13,6 @@
   {
     "question": "Hva er den strukturelle egenskapen ved DNA som muliggjør replikering?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "sukker-fosfat kjeden",
       "komplementær paring av de nitrogenholdige basene?",
@@ -26,7 +24,6 @@
   {
     "question": "Alle disse forekommer i en prokaryot celle utenom",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "DNA.",
       "cellevegg.",
@@ -38,13 +35,11 @@
   {
     "question": "Store mengder ribosomer er til stede i celler som er spesialiserte for å produsere hvilke av de følgende molekyler?",
     "answers": [2],
-    "exam": ".*",
     "options": ["lipider", "glykogen", "proteiner", "cellulose", "nukleinsyrer"]
   },
   {
     "question": "Hvilken organelle tar ofte opp mye av volumet i en plantecelle?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "lysosomer",
       "vakuole",
@@ -56,7 +51,6 @@
   {
     "question": "I en plantecelle kan DNA finnes",
     "answers": [3],
-    "exam": "2013 Vår",
     "options": [
       "bare i kjernen.",
       "bare i kjernen og mitokondrier.",
@@ -68,7 +62,6 @@
   {
     "question": "Ioner kan transportere direkte fra cytoplasma i en dyrecelle til cytoplasma i nabocelle gjennom",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "plasmodesmata.",
       "intermediære filamenter.",
@@ -80,7 +73,6 @@
   {
     "question": "Hvilket av de følgende utsagnene beskriver best terminering av transkripsjon i prokaryoter?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "RNA polymerase transkriberer gjennom polyadenyleringssignalet, dette forårsaker at proteiner assosieres med transkriptet og kutter det løs fra polymerasen.",
       "RNA polymerase transkriberer gjennom terminatorsekvensen, dette forårsaker at polymerase separeres fra DNA og frigir transkriptet.",
@@ -92,7 +84,6 @@
   {
     "question": "Hvilket av det følgende er sant for integrale membranproteiner?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "De mangler tertiærstruktur.",
       "De er løst bundet til overflaten av dobbeltlaget.",
@@ -104,7 +95,6 @@
   {
     "question": "Den primære funksjonen for polysakkarider som er bundet til glykoproteinene og glykolipidene i cellemembraner hos dyr er",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "å facilitere diffusjon av molekyler nedover i sin konsentrasjonsgradient.",
       "å aktivt transportere molekyler mot sin konsentrasjonsgradient.",
@@ -116,7 +106,6 @@
   {
     "question": "Hvorfor er lipider og proteiner fri til å forflytte seg sidelengs i membraner?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Det indre av membranen er fylt med flytende vann.",
       "Lipider og proteiner frastøter hverandre i membranen.",
@@ -128,7 +117,6 @@
   {
     "question": "Hvilket av de følgende utsagnene er sant vedrørende katabolske spor?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "De setter sammen molekyler til mer energirike molekyler.",
       "De fyller på med energi, primært i form av ATP for cellens arbeid.",
@@ -140,7 +128,6 @@
   {
     "question": "Hvor skjer glykolysen i eukaryote celler?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "mitokondriell matrix",
       "mitochondriell ytre membran",
@@ -152,7 +139,6 @@
   {
     "question": "ATP som framstilles under glykolyse blir generert ved",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "substrat-nivå fosforylering.",
       "elektrontransport.",
@@ -164,7 +150,6 @@
   {
     "question": "Oksygenet som blir forbrukt under cellulær respirasjon er involvert direkte i hvilken prosess eller hendelse?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "glykolyse",
       "mottar elektroner i enden av elektrontransport-kjeden",
@@ -176,7 +161,6 @@
   {
     "question": "Hvilket av de følgende alternativer karakteriseres ved at en celle frigjør et signalmolekyl til omgivelsene, etterfulgt av at en rekke celler i den umiddelbare nærhet responderer?",
     "answers": [2],
-    "exam": "2013 Vår",
     "options": [
       "hormonell signalering",
       "autokrin signalering",
@@ -188,7 +172,6 @@
   {
     "question": "Fordi de fleste reseptorer er membranproteiner, hvilket av det følgende er vanligvis sant?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "De fører til endringer i intracellulær ionekonsentrasjon.",
       "De åpnes og lukkes som respons på proteinsignaler.",
@@ -200,7 +183,6 @@
   {
     "question": "Siden steroidreseptorer er lokalisert intracellulært, hvilket av det følgende er sant?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Reseptormolekylene er selv lipider eller glykolipider.",
       "Steroid/reseptorkomplekset kan transporteres over kjernemembranen.",
@@ -212,7 +194,6 @@
   {
     "question": "Hvorfor tvinnes kromosomene opp under mitose?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "for å øke sin potensielle energi",
       "for å tillate kromosomene å bevege seg uten å danne floker og ødelegges",
@@ -224,13 +205,11 @@
   {
     "question": "Under hvilken fase av mitosen blir kromatidene til kromosomer?",
     "answers": [0],
-    "exam": ".*",
     "options": ["telofase", "anafase", "profase", "metafase", "cytokinese"]
   },
   {
     "question": "Alternativ RNA-spleising",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "er en mekanisme for å øke transkripsjonsfarten.",
       "kan muliggjøre produksjon av proteiner av forskjellige størrelser fra ett enkelt transkript.",
@@ -242,7 +221,6 @@
   {
     "question": "Cystisk fibrose påvirker lungene, bukspyttkjertelen, fordøyelsesapparatet, og andre organer, noe som resulterer i symptomer som spenner fra pustevansker til tilbakevendende infeksjoner. Hvilket av de følgende begreper beskriver dette best?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "inkomplett dominans",
       "multiple alleler",
@@ -254,7 +232,6 @@
   {
     "question": "Hvilket av de følgende er eksempler på polygen arv?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "rosa blomster hos løvemunn",
       "ABO blodgrupper hos mennesker",
@@ -266,7 +243,6 @@
   {
     "question": "Menn (gutter) rammes oftere av kjønnsbundne egenskaper enn kvinner (jenter) fordi",
     "answers": [3],
-    "exam": "2013 Vår",
     "options": [
       "mannlige kjønnshormoner som testosteron, ofte forårsaker mutasjoner i X-kromosomet.",
       "kvinnelige kjønnshormoner som østrogen, ofte kompenserer for effektene av mutasjoner i X-kromosomet.",
@@ -278,7 +254,6 @@
   {
     "question": "Replikasjon i prokaroter skiller seg fra replikasjon i eukaryoter på grunn av hvilken av de nevnte årsaker?",
     "answers": [1],
-    "exam": "2013 Vår",
     "options": [
       "prokaryote kromosomer har histoner, mens eukaryote kromosomer ikke har dette.",
       "prokaryote kromosomer har ett enkelt replikasjonsorigo, mens eukaryote kromosomer har mange.",

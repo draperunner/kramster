@@ -2,7 +2,6 @@
   {
     "question": "I nesten alle systemer som inkluderer en DMA-modul, har DMA-modulens tilgang til hovedlageret høyere prioritet enn CPU aksess til hovedlageret.  Hvorfor?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Fordi DMA-modulen er mye raskere enn CPU-en til å lese og skrive til lageret.",
       "Fordi DMA-modulen bruker færre sykler må den ha førsteprioritet om den skal få tilgang.",
@@ -13,13 +12,11 @@
   {
     "question": "Gitt en prosessor tilkoblet 3 I/O-enheter via en synkron systembuss, med transmisjonsforsinkelse (tiden det tar for et signal å nå enheten fra prosessoren) på hhv. 4, 9, 2 ns, aksesstid på hhv. 50, 33 og 42 ns. Hva blir sykeltiden gitt at hele I/O-forespørselen (inkludert svar fra I/O-enhet) skal skje innen samme sykel?",
     "answers": [1],
-    "exam": ".*",
     "options": ["50 ns", "58 ns", "68 ns", "83 ns"]
   },
   {
     "question": "Hvilket av utsagnene er mest korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Hensikten med DMA (eng. Direct Memory Access) er å transportere data i en datamaskin på en måte som i liten grad belaster prosessoren.",
       "DMA kan benyttes for å transportere data i en datamaskin uten å involvere prosessoren.",
@@ -29,7 +26,6 @@
   {
     "question": "Hvilket utsagn er mest feil?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Når man bruker DMA uten avbrudd vil prosessoren ligge ubrukt over lengre tid",
       "Hvis man bruker overføring til minnet gjennom prosessoren vil man utnytte prosessoren bedre ved bruk av avbrudd",
@@ -40,7 +36,6 @@
   {
     "question": "Hva er rett når det gjelder DMA?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "DMA moduler kan kommunisere med io-modulene over systembussen",
       "DMA moduler kan kommunisere med io-moduler på en egen dedikert buss",
@@ -51,7 +46,6 @@
   {
     "question": "Hva er sykelstjeling?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Sykelstjeling er når en DMA-enhet tvinger prosessoren til å vente en eller flere sykler fordi DMA-enheten tar over bussen",
       "Sykelstjeling er når et samlebånd stjeler tid fra et annet.",
@@ -61,7 +55,6 @@
   {
     "question": "Hvilken av de følgende påstandene er mest korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Hensikten med DMA-overføring (eng. Direct Memory Access) er å transportere data i en datamaskin på en måte som i liten grad belaster prosessoren.",
       "DMA-overføring transporterer data fra masselageret (for eksempel hard disk) og inn i hovedlageret ved hjelp av direkte avbildning eller fullt assosiativ avbildning.",
@@ -71,7 +64,6 @@
   {
     "question": "Hva gjør prosessoren når DMA-modulen har tatt over styringen av bussen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Prosessoren fortsetter videre med det den holdt på med.",
       "Prosessoren stopper opp og venter hvis den trenger tilgang til bussen",
@@ -81,7 +73,6 @@
   {
     "question": "Hvilken av følgende enheter er <em>ikke</em> en ekstern enhet ?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Harddisk", "Tastatur", "En ruter", "ALU"]
   }
 ]

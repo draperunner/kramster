@@ -2,7 +2,6 @@
   {
     "question": "I hvilken fase av sin utvikling kan en oppstartsbedrift forvente å gå “break-even”?",
     "answers": [2, 3],
-    "exam": ".*",
     "options": [
       "I løpet av start-up fasen",
       "Det punktet der bedriften går break-even definerer avslutningen på start-up fasen",
@@ -13,7 +12,6 @@
   {
     "question": "Hva er forskjellen på «soft funding» og «hard funding»?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "«Soft funding» representerer mindre pengebeløp, mens «hard funding» er de større beløpene",
       "«Soft funding» er penger du får uten motytelser, mens «hard funding» er penger du får mot å gi fra deg eierskap",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken av følgende ressurser regnes normalt ikke inn som en oppstarts-bedrifts organisatoriske ressurser?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Tillit i markedet",
       "Et nettverk av mulige kunder",
@@ -35,13 +32,11 @@
   {
     "question": "VRIO-rammeverket forteller oss hvilke egenskaper en ressurs må ha dersom den skal gi mulighet for å skape et vedvarende konkurransefortrinn. Hva står R-en i rammeverket for?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Rare", "Revenue-generating", "Rich", "Random"]
   },
   {
     "question": "Hvor grundig bør produktideen behandles i en forretningsplan?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Det bør eksistere en prototype",
       "Ideen eksisterer kun som ide",
@@ -52,7 +47,6 @@
   {
     "question": "Hva er vanlige symptomer på at en organisasjon har utfordringer med innovasjonslæring?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Mistro mot effektiviteten av innovasjon, utfordringer ved gjennomføring av innovasjonsprosjekter,\nkun prioritering av inkrementell innovasjon, og forbauselse over nivået andre organisasjoner\ninvesterer i innovasjon",
       "Avtakende utbytte av investeringer, umotiverte ansatte og høy utskiftning av ansatte",
@@ -63,7 +57,6 @@
   {
     "question": "Hva er differensiering?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Prosessen som etablerer kontroll og spesialisering i en organisasjon",
       "Prosessen som kontrollerer autoritet og relasjoner i en organisasjon",
@@ -74,7 +67,6 @@
   {
     "question": "Hvilke av følgende utsagn om relasjonen mellom organisasjonsstørrelse og antall hierarkiske nivå er ikke sanne?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Økningen i antall hierarkiske nivåer er mindre enn proporsjonal med økningen i antall ansatte",
       "En organisasjon med 3000 ansatte vil i gjennomsnitt ha 7 hierarkiske nivåer",
@@ -85,7 +77,6 @@
   {
     "question": "Hva er de tre grunnleggende måtene å lede evner på i organisasjoner?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Trening, utvelgelse og plassering",
       "Utvelgelse, utvikling og motivasjon",
@@ -96,7 +87,6 @@
   {
     "question": "Hva er jobb-berikelse?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Økning i antall oppgaver en ansatt utfører",
       "Økning av en ansatts ansvar og kontroll over hans eller hennes arbeid",
@@ -107,19 +97,16 @@
   {
     "question": "En bedrift har marginalkostnadene C som er konstante og altså uavhengige av mengden, Q. Hva blir\nbedriftens variable kostnader?",
     "answers": [2],
-    "exam": ".*",
     "options": ["C / Q", "C + Q", "C * Q", "Q / C"]
   },
   {
     "question": "En bedrift har totalkostnadene TC, marginalkostnadene MC, variable kostnader VC og faste\nkostnader FC. Den produserer mengden Q. Hva blir bedriftens gjennomsnittskostnader?",
     "answers": [0],
-    "exam": ".*",
     "options": ["(VC + FC) / Q", "(TC - MC ) / Q", "MC / Q", "TC / Q"]
   },
   {
     "question": "Etterspørselen til en bedrift er gitt ved funksjonen <math><mi>P</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Hva er da et korrekt uttrykk for marginalinntekten?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mi>Q</mi><mfrac><mi>dQ</mi><mi>dP</mi></mfrac><mo>+</mo><mi>P</mi></math>",
       "<math><mi>Q</mi><mfrac><mi>dQ</mi><mi>dP</mi></mfrac><mo>-</mo><mi>P</mi></math>",
@@ -130,13 +117,11 @@
   {
     "question": "Dersom etterspørselselastisiteten er definert slik at den er et positivt tall for normal etterspørsel og er\nnøyaktig 1, hva kan vi si om marginalinntekten, MR?",
     "answers": [1],
-    "exam": ".*",
     "options": ["MR = 1", "MR = 0", "MR > 0", "MR < 0"]
   },
   {
     "question": "Hva er en korrekt tolkning når en økonom sier at etterspørselen er svært elastisk?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En relativt liten endring i pris gir en relativt stor endring i den mengden kundene ønsker å kjøpe.",
       "En relativt stor endring i pris gir en relativt liten endring i den mengden kundene ønsker å kjøpe.",
@@ -147,7 +132,6 @@
   {
     "question": "En bedrift i et frikonkurransemarked har marginalkostnader gitt ved <math><mi>MC</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math>, der <math><mi>Q</mi></math> er mengden. Den har faste kostnader på <math><mn>1000</mn></math>. Hva må prisen i markedet være for at bedriften akkurat skal greie å dekke faste kostnader slik at profitten blir null?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mn>80</mn></math>",
       "<math><mn>100</mn></math>",
@@ -158,7 +142,6 @@
   {
     "question": "Et monopol har marginalkostnader gitt ved <math><mi>MC</mi><mo>=</mo><mn>0.2</mn><mi>Q</mi><mo>+</mo><mn>100</mn></math>, der <math><mi>Q</mi></math> er mengden. Etterspørselen kan skrives som <math><mi>Q</mi><mo>=</mo><mn>1020</mn><mo>-</mo><mn>0.1</mn><mi>P</mi></math>, der <math><mi>Q</mi></math> er mengden og <math><mi>P</mi></math> er prisen. Hvilken mengde <math><mi>Q</mi></math> vil monopolet produsere per periode?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mn>500</mn></math>",
       "<math><mn>600</mn></math>",
@@ -169,7 +152,6 @@
   {
     "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved <math><mi>P</mi><mo>=</mo><mn>100</mn><mo>-</mo><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Begge bedriftene har marginalkostnader på <math><mn>10</mn></math>. Hva blir prisen i markedet ved likevekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>10</mn></math>",
       "<math><mn>40</mn></math>",
@@ -180,7 +162,6 @@
   {
     "question": "Balansepostene for en bedrift er de samme i påfølgende perioder. Alle inntektsposter og\nkostnadsposter unntatt avskrivningene er også uforandret mellom periodene. Skattesatsen er den\nsamme. Hva blir effekten på egenkapitalrentabilitet og totalkapitalrentabilitet av at avskrivningene\nøker fra periode én til periode to?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Både totalkapitalrentabilitet og egenkapitalrentabilitet går ned.",
       "Både totalkapitalrentabilitet og egenkapitalrentabilitet går opp.",
@@ -191,7 +172,6 @@
   {
     "question": "Fra periode én til periode to øker verdi av varelager i balansen til en bedrift mens eiendeler for øvrig\nog gjeldsposter er uforandret. Hva blir effekten på likviditetsgrad 1 (current ratio) og likviditetsgrad 2\n(acid test ratio) av økningen i varelager?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Begge likviditetsgradene er uforandret.",
       "Likviditetsgrad 1 øker mens likviditetsgrad 2 er uforandret.",
@@ -202,19 +182,16 @@
   {
     "question": "Et investeringsprosjekt innebærer en investering nå på 100 000 000. Om ett år er forventet positiv\nkontantstrøm 40 000 000, om to år er forventet positiv kontantstrøm på 50 000 000 og, til slutt, om tre\når forventes en positiv kontantstrøm på 60 000 000. Dersom avkastningskravet er 12 %, hva blir\nforventet nettonåverdi for prosjektet?",
     "answers": [0],
-    "exam": ".*",
     "options": ["18 280 794", "22 764 838", "27 533 913", "33 928 571"]
   },
   {
     "question": "Et investeringsprosjekt vil kunne gi positiv kontantstrøm i to år. Det er imidlertid stor usikkerhet\nknyttet til mulige kontantstrømmer. Bedriften regner med at det er 40 % sannsynlighet for at det går\ndårlig første år. Da blir kontantstrømmen 0 og prosjektet avsluttes. Dersom det ikke går dårlig første\nåret, er forventet kontantstrøm om ett år 10 000 000 og prosjektet videreføres inn i det andre året. I så\nfall regner de med at det er like sannsynlig at det vil gi 0 som at det vil gi 20 000 000 to år fra nå. Hva\ner forventet nåverdi av kontantstrømmen når avkastningskravet er 10 % per år?",
     "answers": [0],
-    "exam": ".*",
     "options": ["10 413 223", "10 909 091", "13 719 008", "14 545 455"]
   },
   {
     "question": "Hva er den mest korrekte definisjonen av alternativkostnaden til kapital i forbindelse med\nnettonåverdiberegninger knyttet til mulige investeringsprosjekter i bedrifter?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Den forventede avkastningen i aksjemarkedet.",
       "Den forventede avkastningen til selskapets totalkapital etter skatt.",
@@ -225,7 +202,6 @@
   {
     "question": "Hva kjennetegner en risikoavers investor?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En risikoavers investor vil bare gå inn i risikofrie investeringer.",
       "En risikoavers investor vil alltid prøve å holde en portefølje med beta lik 1.",
@@ -236,7 +212,6 @@
   {
     "question": "Hva kan vi si om risikoen til en portefølje som er godt diversifisert, men ikke perfekt diversifisert?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Porteføljen har ingen unik eller ikke-systematisk risiko.",
       "Porteføljen har bare markedsrisiko, dvs. ikke-diversifiserbar risiko.",
@@ -247,13 +222,11 @@
   {
     "question": "Beta til aksjen til et selskap er 2. Markedsrisikopremien er 6 % og risikofri rente er 3 %. Anta at\nCapital Asset Pricing Model, dvs. kapitalverdimodellen, er korrekt. Hva er da forventet avkastning til\naksjen?",
     "answers": [3],
-    "exam": ".*",
     "options": ["6 %", "9 %", "12 %", "15 %"]
   },
   {
     "question": "La <math><msub><mi>β</mi><mi>A</mi></msub></math> være beta for selskapets aktiva, la <math><msub><mi>β</mi><mi>E</mi></msub></math> være beta for selskapets egenkapital og la <math><msub><mi>β</mi><mi>D</mi></msub></math> være beta for selskapets gjeld. Markedsverdien av selskapets gjeld er <math><mi>D</mi></math> og markedsverdien av selskapets egenkapital er <math><mi>E</mi></math>. Hva blir da et korrekt uttrykk for selskapets egenkapitalbeta?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>D</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
       "<math><msub><mi>β</mi><mi>E</mi></msub><mo>=</mo><msub><mi>β</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>E</mi><mi>D</mi></mfrac><mo>(</mo><msub><mi>β</mi><mi>A</mi></msub><mo>-</mo><msub><mi>β</mi><mi>D</mi></msub><mo>)</mo></math>",
@@ -264,13 +237,11 @@
   {
     "question": "Avkastningen til et selskaps egenkapital er 8 %. Avkastningen til selskapets gjeld er 4 %.\nGjeldsandelen er 40 %. Selskapsskattesatsen er 25 %. Hva blir avkastningskravet til totalkapitalen\netter skatt, dvs. WACC?",
     "answers": [2],
-    "exam": ".*",
     "options": ["4,0 %", "5,5 %", "6,0 %", "8,0 %"]
   },
   {
     "question": "I forbindelse med verdsetting av et selskap er det vanlig at det blir behov for å finne nåverdien av en kontantstrøm som vokser med en andel, <math><mi>g</mi></math>, hvert år framover i prinsippet i et uendelig antall perioder. Dersom kontantstrømmen neste periode er <math><mi>k</mi></math>, perioden etter <math><mi>k</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></math>, neste periode deretter <math><mi>k</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mn>2</mn></msup></math> osv., hva blir nåverdien av kontantstrømmen når avkastningskravet er <math><mi>r</mi></math>?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mrow><mi>k</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mi>r</mi></mfrac></math>",
       "<math><mfrac><mi>k</mi><mrow><mi>r</mi><mo>-</mo><mi>g</mi></mrow></mfrac></math>",
@@ -281,7 +252,6 @@
   {
     "question": "Du har følgende estimater knyttet til et mulig investeringsprosjekt en bestemt periode i framtida:\nKontantstrøm fra drift av prosjektet er 5 000 000, rentekostnader på investeringsbeløpet er 400 000\nog selskapsskattesatsen er 28 %. Du skal bruke avkastningskravet til totalkapitalen etter skatt, dvs.\nWACC som diskonteringsrente. Hvilken kontantstrøm skal du da diskontere den aktuelle perioden?",
     "answers": [1],
-    "exam": ".*",
     "options": ["3 312 000", "3 600 000", "3 712 000", "5 000 000"]
   }
 ]

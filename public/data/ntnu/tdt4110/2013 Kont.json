@@ -2,7 +2,6 @@
   {
     "question": "Hva er pseudokode?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Foreløpig kode som ikke skal brukes i den endelige versjonen av et system",
       "En diagramteknikk for a beskrive algoritmer eller programmer",
@@ -13,19 +12,16 @@
   {
     "question": "Vi har 43 ulike symboler som vi ønsker å kode digitalt. Hva er det minste antall bits som vi må bruke?",
     "answers": [1],
-    "exam": ".*",
     "options": ["5", "6", "7", "8"]
   },
   {
     "question": "Hvilken av disse aksessteknologiene gir høyest kapasitet?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Edge", "3G/UMTS", "HSDPA", "LTE"]
   },
   {
     "question": "Retningslinjene for algoritmer sier at det lønner seg å skrive en løkke for å utføre en repeterende oppgave hvis oppgaven må utføres",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "mer enn 1 gang",
       "3-5 ganger eller mer",
@@ -36,19 +32,16 @@
   {
     "question": "Vi skal bruke binærsøking i en datamengde med 1 000 000 sorterte elementer. Hvor mange oppslag må vi vanligvis gjøre?",
     "answers": [1],
-    "exam": ".*",
     "options": ["10", "20", "30", "50"]
   },
   {
     "question": "Analog informasjon er",
     "answers": [1],
-    "exam": ".*",
     "options": ["Diskret", "Kontinuerlig", "Tilfeldig", "Digital"]
   },
   {
     "question": "Det er fire grunnleggende aktiviteter som inngår i alle programvareutviklingsprosesser.",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Spesifikasjon, utvikling, validering, evolusjon",
       "Spesifikasjon, analyse, programmering, bruk",
@@ -59,13 +52,11 @@
   {
     "question": "Hvor mange negative og positive heltall kan vi representere i 2 byte?",
     "answers": [2],
-    "exam": ".*",
     "options": ["2048", "32768", "65536", "1048576"]
   },
   {
     "question": "Hvorfor kan et WiFi-nettverk påvirke en Bluetooth-forbindelse?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "WiFi-nettverk har så sterkt signal",
       "Bluetooth og WiFi bruker samme frekvensbånd",
@@ -76,13 +67,11 @@
   {
     "question": "Hvor mange instruksjoner er vanlig i en moderne datamaskin?",
     "answers": [2],
-    "exam": ".*",
     "options": ["3-7", "10-20", "rundt 100", "tusenvis"]
   },
   {
     "question": "Hva kjennetegner problemløsning etter top-down-prinsippet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Vi løser de vanskeligste problemene først",
       "Vi designer før vi programmerer en løsning",
@@ -93,13 +82,11 @@
   {
     "question": "Sortering ved innsetting (insertion sort) bruker omtrent 1 sekund på å sortere 1000 elementer. Hvor lang tid vil det omtrent ta å sortere 10000 elementer?",
     "answers": [2],
-    "exam": ".*",
     "options": ["2 s", "10 s", "100 s", "1000 s"]
   },
   {
     "question": "Hva er pipelining?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lignende operasjoner blir utført i rekkefølge",
       "Flere instruksjoner kan være under utførelse samtidig",
@@ -110,19 +97,16 @@
   {
     "question": "Hvor mange symboler kan representeres av en sekvens på K bit?",
     "answers": [1],
-    "exam": ".*",
     "options": ["K^2", "2^K", "K", "2"]
   },
   {
     "question": "Et nettverk sin evne til å levere uavbrutt I kontinuerlig tjeneste defineres som",
     "answers": [2],
-    "exam": ".*",
     "options": ["Skalerbarhet", "Tilgjengelighet", "Pålitelighet", "Ytelse"]
   },
   {
     "question": "Ved digitalisering av lyd, hva oppnår vi med å bruke flere bits i hver punktprøve (sample)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Vi trenger ikke å punktprøve (sample) like ofte",
       "Vi oppfyller kravene i Nyquist-regelen",
@@ -133,13 +117,11 @@
   {
     "question": "Det å utgi seg for være noen andre på internett kalles",
     "answers": [1],
-    "exam": ".*",
     "options": ["Phishing", "Spoofing", "Pharming", "Aliasing"]
   },
   {
     "question": "Er det horisontale eller vertikale fargebånd som komprimeres bra i GIF-filer?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Vertikale",
       "Horisontale",
@@ -150,7 +132,6 @@
   {
     "question": "Hente/Utføre-kretsløpet (Fetch/Execute Cycle) i en moderne datamaskin utføres",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En gang i sekundet",
       "Tusenvis av ganger i sekunder",
@@ -161,7 +142,6 @@
   {
     "question": "Hva kjennetegner inkrementell programvareutvikling?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Utvikler programvaren i de klart avskilte fasene krav, design, implementasjon, testing osv.",
       "Utvikler programvaren uten noen plan eller prosess",

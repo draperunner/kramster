@@ -2,7 +2,6 @@
   {
     "question": "The formula <math><mo>&#x2200;</mo><mi>x</mi><mo>&#x2203;</mo><mi>y</mi><mo> </mo><mi>P</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>&#x2192;</mo><mo>&#x2203;</mo><mi>q</mi><mo> </mo><mi>P</mi><mo>(</mo><mi>q</mi><mo>,</mo><mi>q</mi><mo>)</mo></math> would be treated as a validity.",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Under all possible circumstances",
       "By an inference engine that implements occurs check as Skolem functions",
@@ -13,55 +12,46 @@
   {
     "question": "Universal Instantiation is built on Skolemization.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Backward Chaining Algorithm can be described as follows:\n<ol>\n<li>i. Pose the original query as a goal.</li>\n<li>ii. Find every clause in the knowledge base whose right-hand side unifies with the goal under some substitution.</li>\n<li>iii. Prove in turn every conjunct on the left-hand sides of each of these clauses, keeping track of the accumulated substitutions.</li>\n</ol>",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "There exists a sentence S in First Order Logic such that S cannot be converted\ninto an inferentially equivalent sentence in Conjunctive Normal Form.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Sentiment analysis is a text classification application.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The purpose of smoothing is to avoid dramatic effects of low-frequency counts.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The bag of words model can be seen as a simple language model.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "‘Freeze’, ‘halt’, ‘cease’ and ‘finish’ are examples of stop words.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The task of Information Retrieval is to return the answer to a user query.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Information Extraction systems are often based on templates",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

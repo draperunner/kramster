@@ -2,7 +2,6 @@
   {
     "question": "A recent study of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening velocity per length unit) – 1.1 s-1To compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Limits of agreement",
       "Correlation",
@@ -13,7 +12,6 @@
   {
     "question": "Ejection fraction measured by ultrasound has a high variability. Limits of agreement are ± 10% points. A patient who has had an infarct had an ejection fraction of 45% (slightly reduced) when he left the hospital. Two months later, he was admitted because of dyspnea, but had no new infarction. During the second stay, a new echocardiography was made, and they now found an EF of 38%. The diagnosis of worsening heart failure (HF) was made, and medical treatment for heart failure was started. The conclusion that the patient had worsening heart failure was:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Correct because the EF was below 40%",
       "Correct because the EF had dropped by 7% points",
@@ -24,7 +22,6 @@
   {
     "question": "Ejection fraction measured by ultrasound has a high variability. Limits of agreement are ± 10% points. A patient who has had an infarct had an ejection fraction of 48% (slightly reduced) when he left the hospital. Two months later, he was admitted because of dyspnea, but had no new infarction. During the second stay, a new echocardiography was made, and they now found an EF of 35%. The diagnosis of worsening heart failure (HF) was made, and medical treatment for heart failure was started. The conclusion that the patient had worsening heart failure was:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Correct because the EF was below 40%",
       "Correct because the EF had dropped by 13% points",
@@ -35,7 +32,6 @@
   {
     "question": "What is the sensitivity of a certain diagnostic test?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The probability of having a positive test if you are ill",
       "The probability of having a negative test if you are healthy",
@@ -46,7 +42,6 @@
   {
     "question": "What do we mean by the positive predictive value of a test:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The probability of being ill if the test shows the patient to be ill",
       "The probability of being healthy, if the test shows the patient to be healthy",
@@ -57,7 +52,6 @@
   {
     "question": "What is this?<img src=\"images/m0z5s.webp\" />",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "False positive diagnosis",
       "False negative diagnosis",
@@ -68,7 +62,6 @@
   {
     "question": "The usefulness of a diagnostic test is dependent on it’s ability to separate a healthy population from the population with the disease that the test is specific for. Validity is the bias of the test measure from the “truth”. Reliability or precision is the statistical spread of repeated measurements. Which factor is most important for the diagnostic usefulness?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The validity of the test",
       "The reliability of the test",
@@ -79,37 +72,31 @@
   {
     "question": "<img src=\"images/r5edra.webp\" />\n8. A 50 year old man with no symptoms want a checkup to be sure he doesn’t have coronary heart disease, for safety’s sake. He went to a private specialist centre in order to have a test, and have an exercise ECG. The risk of having significant coronary disease in men without symptoms at that age may be assumed to be 4%. Exercise ECG has a sensitivity of about 65%, and a specificity of 75%. This may be expressed in the following 4x4 table:\nIf the test shows a positive result (meaning it indicates coronary disease), what is the positive predictive value of this test (the probability that he really is ill)?",
     "answers": [1],
-    "exam": ".*",
     "options": ["a) 2,6%", "b) 10%", "c) 24%", "d) 26.6%"]
   },
   {
     "question": "<img src=\"images/xhk01d.webp\" />\nA 50 year old man with no symptoms want a checkup to be sure he doesn’t have coronary heart disease, for safety’s sake. He went to a private specialist centre in order to have a test, and have an exercise ECG. The risk of having significant coronary disease in men without symptoms at that age may be assumed to be 4%. Exercise ECG has a sensitivity of about 65%, and a specificity of 75%. This may be expressed in the following 4x4 table:\nIf the test shows a negative result (meaning it doesn’t indicate coronary heart disease), what is the negative predictive value of the test (the probability that he really is healthy)?",
     "answers": [3],
-    "exam": ".*",
     "options": ["a) 1.4%", "b) 72%", "c) 73.4%", "d) 98%"]
   },
   {
     "question": "<img src=\"images/fg8wvd.webp\" />A 50 year old man with no symptoms want a checkup to be sure he doesn’t have coronary heart disease, for safety’s sake. He went to a private specialist centre in order to have a test, and had a stress echocardiography. The risk of having significant coronary disease in men without symptoms at that age may be assumed to be 4%. Stress echo has a sensitivity of about 80%, and a specificity of 90%. This may be expressed in the following 4x4 table:If the test shows a positive result (meaning it indicates coronary disease), what is the positive predictive value of this test (the probability that he really is ill)?",
     "answers": [2],
-    "exam": ".*",
     "options": ["3.3%", "10.0 %", "25.0 %", "31.3%"]
   },
   {
     "question": "If the test shows a negative result (meaning it doesn’t indicate coronary heart disease), what is the negative predictive value of the test (the probability that he really is healthy)?",
     "answers": [0],
-    "exam": ".*",
     "options": ["99.0%", "90.1%", "90.0%", "86.4%"]
   },
   {
     "question": "A man in his mid fifties go to a doctor to check if he has prostate cancer, and asks for a blood test (PSA) that marks the presence of this. He has a blood level of PSA of 10 ng/l, which means that it is elevated. With a cut of of 4 ng/l, the test has a sensitivity of 20% and a specificity of 90%. The prevalence of prostate cancer among men between 50 and 60 years can be taken as about 1 %. What is the probability that he has cancer (positive predictive value of the test)?",
     "answers": [0],
-    "exam": ".*",
     "options": ["2%", "20%", "50%", "90%"]
   },
   {
     "question": "What is “downstream damage” from a diagnostic screening program?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Long term radiation damage from excessive X-ray use",
       "As screening do not result in reduction of total mortality, the downstream damage is the statistical effect that the patients will have to die from something else",
@@ -120,7 +107,6 @@
   {
     "question": "What is evidence based medical practice?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Practice that is founded in solid physiological experiments as evidence",
       "Practice that is only founded in clinical studies",

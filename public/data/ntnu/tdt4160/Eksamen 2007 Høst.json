@@ -2,7 +2,6 @@
   {
     "question": "Hvilken av disse påstandene om RISC er ikke sann?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "RISC-maskiner har som regel flere registre enn CISC-maskiner.",
       "RISC har som regel fast instruksjonslengde.",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilket av disse typene er ikke en form for avbildning i hurtigbuffer (eng: cache)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Sett-assosiativ avbildning",
       "Direkte avbildning",
@@ -24,7 +22,6 @@
   {
     "question": "Hva er hensikten med hurtigbuffer (eng: cache)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Å øke minnekapasiteten til maskinen.",
       "Å senke den gjennomsnittlige aksesstiden til minnet.",
@@ -35,7 +32,6 @@
   {
     "question": "Hvilket element er ikke en egenskap ved en seriell buss?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En seriell buss krever at enhetene har en felles klokke.",
       "Overfører et bit om gangen.",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken av disse metodene er ikke en metode for å kontrollere I/O – enheter?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Avbruddstyrt I/O",
       "Programstyrt I/O",
@@ -57,7 +52,6 @@
   {
     "question": "Organisasjonen av en prosessor deles ofte i:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Styreenhet og utførende enhet",
       "Register og aritmetisk-logisk enhet (eng: ALU)",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilket av disse utsagnene om minne er ikke sant?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Dynamisk RAM (DRAM) bruker kondensatorer for å lagre informasjon, og krever\nderfor oppfriskning med jevne mellomrom",
       "Statisk RAM (SRAM) bruker transistorer for å lagre informasjon, og krever derfor ikke\noppfriskning.",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken påstand om three-state buffer er ikke sann?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Three-state buffer brukes ofte i busser for å unngå at flere enheter driver bussen\nsamtidig.",
       "Når et three-state buffer kobler en enhet av bussen kalles denne tilstanden for ’Z’.",
@@ -90,7 +82,6 @@
   {
     "question": "Hvilken av disse påstandene er ikke sann om arbitrering?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Arbitrering styrer hvem som kan bruke bussen til enhver tid.",
       "Arbitrering kan være sentral eller desentralisert.",
@@ -101,7 +92,6 @@
   {
     "question": "Vektorisert avbrudd vil si at:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At man har flere avbruddsrutiner, en for hvert avbrudd som kan komme.",
       "At man bruker vektor-registre for å behandle avbruddet.",
@@ -112,7 +102,6 @@
   {
     "question": "Hvilket utsagn om forgreningspredikering (eng: branch prediction) er ikke riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Forgreningspredikering er bare viktig for mikrokontrollere.",
       "Forgreningspredikering prøver å forutse om et hopp blir utført eller ikke.",
@@ -123,7 +112,6 @@
   {
     "question": "Hvilken av disse påstandene er ikke sann om samlebånd?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Man kan benytte høyere klokkefrekvens med samlebånd enn uten.",
       "Samlebånd krever at man tar spesielle hensyn til avhengigheter mellom instruksjoner.",
@@ -134,7 +122,6 @@
   {
     "question": "Hva er det ISA ikke spesifiserer?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Hvilke mikroinstruksjoner som finnes",
       "Hvilke registre som er tilgjengelig for programmereren..",
@@ -145,7 +132,6 @@
   {
     "question": "Hvilket av disse er ikke en adresseringsmodi?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Direkte adressering",
       "Register adressering",
@@ -156,7 +142,6 @@
   {
     "question": "Når man kaller en prosedyre kan man lagre returadressen på flere forskjellige måter.\nHvilken av disse metodene gir størst fleksibilitet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Å lagre returadressen på stakken.",
       "Å lagre returadressen i et spesielt register.",

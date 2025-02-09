@@ -2,301 +2,251 @@
   {
     "question": "A protocol defines the format and the order of messages exchanged between two communicating entities.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Packets are transmitted over each communication link at a rate equal to the full transmission rate of the link.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In circuit-switched networks, the resources needed along a path to provide for com-munication between the end systems are reserved for the duration of the communication session between the end systems.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The transmission delay has nothing to do with the distance between routers.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "At each layer, a packet has typically two components: header fields and a payload, where the payload is from the layer below.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Bit errors are equally common in wireless links as in wired links.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "For a given modulation scheme, the higher the SNR (signal-to-noise ratio), the higher the BER (bit error rate).",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "HTTP streaming is more widely used than UDP streaming by today’s Internet video streaming applications.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Consider a server (S) and a client (C) connected through a router (R) by two communication links: S – R – C. Let r1 denote the rate of the link between the server and the router, and r2 the rate of the link between the router and the client. Then, the server-to-client throughput is (r1+r2)/2.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In case of a Web application, there are two distinct programs that communicate with each other, namely the Web browser program and the Web server program.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "There is no difference between network architecture and application architecture.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "HTTP is a stateless protocol.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "HTTP and FTP run on top of UDP rather than TCP.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Caching can reduce user-perceived response time.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A company can have the same aliased name for its mail server and for its Web server.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In BitTorrent, if Alice provides chunks to Bob throughout a certain interval, Bob will necessarily return the favor and provide chunks to Alice in this same interval.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In designing a distributed hash table (DHT), there is trade-off between the number of neighbors each peer has to track and the number of messages that the DHT needs to send to resolve a single query.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a P2P system, when a peer wants to come or leave the system, it must first inform the P2P server.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a typical client-server application, the server program must be executed before the client program.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A transport-layer protocol can provide reliable data transfer even if the underlying network layer only provides an unreliable service.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Suppose Host A sends one TCP segment with sequence number 30 and 4 bytes of data over a TCP connection to Host B. In this same segment, the acknowledgement number is necessarily 34.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In Go-back-N, the sender is allowed to transmit packets without waiting for an acknowledgement from the receiver.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In TCP, the congestion window at the sender imposes a constraint on the rate at which the TCP sender can send traffic into the network.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "When TCP is used, the TCP port number of the destination needs not be the same as the TCP port number of the source.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The size of the TCP announced receive window “rwnd” may change throughout the duration of the connection.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Suppose Host A is sending Host B a large file over a TCP connection. If the sequence number for a segment of this connection is 100, then the sequence number for the subsequent segment will necessarily be 101.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The TCP segment has a field in its protocol header representing the congestion window variable.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Suppose Host A is sending a large file to Host B over a TCP connection. Assume Host B has no data to send Host A. Then, Host B will not send acknowledgements to Host A, because Host B cannot piggyback the acknowledgements on data.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP and UDP have the same header size.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The IP address 192.32.158.11 in binary notation is: 11000000 00100000 11011000 00000011",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A subnet, which has a CIDR address of the form a.b.c.d/25, can accommodate about 128 hosts.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a virtual circuit (VC) network, a packet keeps the same VC number on each of the links along its route.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Switching in a router forwards data from an input port to an output port.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "HOL (head-of-the-line) blocking is a challenge for input queued switches.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "All routers only look at the network part and not the host part of the IP address.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Consider a home network connecting to the global Internet via a NAT (network address translation) router. To the global Internet, the NAT router behaves as a single device with a single IP address.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "ICMP (Internet control message protocol) messages are carried as IP payload.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "IPv6 does not allow for fragmentation and reassembly at intermediate routers.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The distance-vector (DV) routing algorithm is a global routing algorithm.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "With the two-dimensional parity check scheme, the receiver can detect and correct a single bit error.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "While TDM and FDM assign time slots and frequencies respectively, CDMA assigns a different code to each node.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Checksum methods provide relatively stronger protection against errors as compared to cyclic redundancy check (CRC).",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "FEC (forward error correction) techniques can increase the number of required sender retransmissions.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Dividing the binary value 10011000 by 1010 gives a remainder of 100.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The maximum efficiency of slotted ALOHA is higher than the maximum efficiency of pure ALOHA.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In the Internet, hosts and routers not only have network-layer addresses but also have link-layer addresses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a switch-based Ethernet LAN, there is no need for a MAC protocol.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A switch, which supports VLAN, allows multiple virtual local area networks to be defined over a single physical local area network infrastructure.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "MPLS (multiprotocol label switching) networks are circuit-switched in the same manner as time division circuit-switched telephone networks.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

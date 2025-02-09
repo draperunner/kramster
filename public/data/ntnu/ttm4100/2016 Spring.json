@@ -2,307 +2,256 @@
   {
     "question": "The main purpose of the network core is to forward packets from one network to another.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Protocol layering provides structure to the design of protocols for distributed applications.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In the five-layer Internet protocol stack the network layer is positioned between the\ntransport and the link layer.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "When using protocol encapsulation the payload field at a given protocol layer contains the full protocol unit from the layer above, including higher layer address information.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Normally shared resources are being used more efficiently in a packet switched\nnetwork than in a circuit switched network.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Buffering at output ports of switches is necessary in both circuit and packet switches.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "When the output link of a packet switch is shared between several data flows, this\ncan give packet queuing delays.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Packet loss in a packet switch happens mainly because of collisions on the (optical or copper) output links.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The signal propagation speed of an optical fiber is identical to the speed of light in air.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The throughput of a connection over a series of links between a sender and a receiver\nis given by the link with the highest available capacity.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Carrier Sense Multiple Access (CSMA) with Collision Detection (CD) is used in a\nWiFi (802.11) LAN.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The link layer (or MAC) address of a network adapter (i.e. network interface) is\nunique for each host or router in a network.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The function of the Address Resolution Protocol (ARP) is to translate between\nhostnames and MAC addresses.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A link layer switch forwards packets using MAC addresses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Multi-Protocol Label Switching (MPLS) adds an extra header, making the frame not\ncomprehensible for a standard home router.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Frames sent over a WiFi (802.11) LAN are never acknowledged.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a WiFi (802.11) LAN the Request-to-Send (RTS) and Clear-to-Send (CTS) frames\nare used to reserve access to the communication channel.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Communication over a radio channel is more susceptible to noise than\ncommunication over a fiber or copper channel.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Voice-over-IP does not need buffering at the receiver side.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Use of Virtual LANs (VLANs) allows multiple logical LANs to be defined over a\nsingle physical LAN.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Application layer protocols are executed in hosts and all network nodes.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In peer-to-peer (P2P) file sharing, a communication process is both a client and a\nserver.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The File Transfer Protocol (FTP) uses only one TCP connection as its underlying\ntransport protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "UDP provides a more reliable transport service than TCP.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "HTTP uses UDP as its underlying transport protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The main function of the Domain Name System (DNS) is to translate between\nhostnames and IP addresses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Client-server architectures are more scalable with regard to file sharing than peer-to-peer\n(P2P) architectures.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Using a socket of type SOCK_DGRAM, the connect() method prepares the receiver\nfor the user data to follow.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The purpose of a web cache is to keep copies of recently requested objects in local\nstorage to reduce bandwidth use and delays.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Using the HTTP protocol the server will always be stateless.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Internet is a virtual circuit network at the network (IP protocol) layer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a datagram network routers are keeping track of the state of each connection\npassing through it.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Head-of-line (HOL) blocking happens if a packet is not allowed access to a free\nresource because it is being blocked (e.g. in a FIFO queue) by another packet waiting for\nan unavailable resource.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The term \"packet forwarding\" is used for a single router to denote transfer of a packet\nfrom an incoming link to an outgoing link.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The forwarding tables used in the Internet routers contain both information about\nwhich next hop (or output link) to use to reach a given (IP address) destination, and\ninformation on how to treat a packet with regard to Type of Service (ToS).",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Datagram fragmentation is a result of link layers having different abilities in which\npacket sizes they can carry.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Using a link-state (LS) routing algorithm, all nodes in a network need to get\ninformation from all other nodes in the network.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A distance-vector (DS) routing algorithm is more robust than a link-state (LS) routing\nalgorithm if a router fails or is sabotaged.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The main purpose of NAT (network address translation) is to allow for the re-use of\nthe IPv4 subnet addresses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The address 223.1.1.0/24 denotes an IP subnet where any address 223.1.xxx.yyy is\navailable for use. (xxx and yyy are any integer value between 0 and 255).",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Transport layer protocols are always present both in end-systems and in network\nrouters.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Selective repeat protocols are based on cumulative acknowledgements.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Sockets are used for demultiplexing of data flows.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Application data transported in an UDPv4 segment may be protected by a checksum\nfor error detection.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Go-Back-N protocols are also referred to as sliding-window protocols.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP state information is maintained in both the end-systems and in the core routers.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A three-way handshake is necessary to establish a TCP connection between two\nhosts.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The protocol header of the TCP segment contains source and destination ports and IP\naddresses of both sender and receiver.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP flow control is implemented through a window variable at the sender side,\nindicating the available buffer space at the receiver side.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Slow start\", \"fast recovery\" and \"congestion avoidance\" are phases of TCP\ncongestion control.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Suppose we want to transmit the bit pattern 1110 0011 1010 0110 (spaces added for readability\nonly) by using a two-dimensional even parity scheme, see Figure 1 below.\nChoose the correct content of the x row (left to right), the y column (top to bottom) and z value in\nFigure 1 below.\nFig. 1:\n<pre>1 1 1 0 y\n0 0 1 1 y\n1 0 1 0 y\n0 1 1 0 y\nx x x x z</pre>",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "x: 0 0 0 1, y: 1 0 0 0, and z: 1",
       "x: 0 0 0 1, y: 0 1 1 1, and z: 0",
@@ -314,7 +263,6 @@
   {
     "question": "From 2.1: \"Suppose we want to transmit the bit pattern 1110 0011 1010 0110 (spaces added for readability\nonly) by using a two-dimensional even parity scheme, see Figure 1 below.\"\nIndicate which of the following statements (one or more) are true for the scheme presented in 2.1 above.\nFig. 1:\n<pre>1 1 1 0 y\n0 0 1 1 y\n1 0 1 0 y\n0 1 1 0 y\nx x x x z</pre>",
     "answers": [0, 1],
-    "exam": ".*",
     "options": [
       "One data bit error can be detected and corrected.",
       "One parity bit error can be detected and corrected.",
@@ -326,7 +274,6 @@
   {
     "question": "Assume that instead of parity bits we want to protect the bit pattern above with a CRC, using\ngenerator G=10011. Indicate below which string of bits will be transmitted after the CRC has been\nadded. (Spaces are added for readability and are not transmitted).\nFig. 1:\n<pre>1 1 1 0 y\n0 0 1 1 y\n1 0 1 0 y\n0 1 1 0 y\nx x x x z</pre>",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "1110 0011 1010 0110 1010",
       "1110 0011 1010 0110 0011",
@@ -339,13 +286,11 @@
   {
     "question": "How large bursts errors (i.e. consecutive bit errors) can be detected by using a CRC, using the generator G=10011?\nFig. 1:\n<pre>1 1 1 0 y\n0 0 1 1 y\n1 0 1 0 y\n0 1 1 0 y\nx x x x z</pre>",
     "answers": [2],
-    "exam": ".*",
     "options": ["0 (none)", "2 or less", "4 or less", "5 or less", "6 or less"]
   },
   {
     "question": "Which of the following statements are true?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "A WiFi (802.11) LAN must use an Access Point (AP).",
       "In the context of CDMA \"chipping rate\" refers to the rate of changing frequency of\ntransmission.",
@@ -357,7 +302,6 @@
   {
     "question": "Assume that an existing TCP connection is active across (at our reference time t0) a not congested\nIP network. (Note that the question below relates to the versions of TCP described in the curriculum).\nAt time t1 > t0 the sender side of the TCP connection detects (potential) network congestion. Which\nof the following events (one or more) will be interpreted by the sender as (potential) network congestion?",
     "answers": [1, 2],
-    "exam": ".*",
     "options": [
       "Explicit congestion signal from a network router.",
       "Three duplicate ACKs received.",
@@ -369,7 +313,6 @@
   {
     "question": "Assume that an existing TCP connection is active across (at our reference time t0) a not congested\nIP network. (Note that the question below relates to the versions of TCP described in the curriculum).\nAt time t1 > t0 the sender side of the TCP connection detects (potential) network congestion.\nHow will a sender behave after the immediate action to (perceived) network congestion (i.e. during a time interval > t1)?\nMore than one answer may be possible.",
     "answers": [2, 3],
-    "exam": ".*",
     "options": [
       "\"Slow start\" is performed by reducing the congestion window linearly down to 1.",
       "\"Slow start\" is performed with a linear increase in congestion window (and send rate) until \"slow\nstart threshold\" is reached; then an exponential increase in send rate until a new (perceived) network\ncongestion is detected.",
@@ -381,7 +324,6 @@
   {
     "question": "We now focus on the hierarchical topology data center architecture shown in Figure 2. Assume the\nfollowing capacities on links in this system. Between each server and its TOR (Top of rack) switch: 1 Gbit/s\n(as illustrated for server rack 1 in Figure 2). Between each TOR switch and it’s Tier-2 switch, and between\neach Tier-2 switch and it’s Tier-1 switch: 10 Gbit/s. Furthermore assume 100 Gbit/s between each Tier-1\nswitch and its Access router, and also 100 Gbit/s between each Access router and the Border router. Further\nassume that all switches and routers are \"store-and-forward\", have sufficient buffer space available and\noperates fast enough to not limit the flow of data in the system. Also: all propagation delays can be ignored\nsince distances are short.\n<img src=\"images/4i903l.webp\"/>\nAssume large continuous (lasting for minutes or longer) file transfers as follows:\nI: from a server in rack 1 to a server in rack 7, and\nII: from a server in rack 5 to the same server as above in rack 7.\n(No other data flows are active and ignoring all control data, i.e. assuming all capacity is available for\nthe two file transfers).\nWhat can you assume about the mean available throughput of each file transfer?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "I: 1 Gbit/s and II: 1 Gbit/s",
       "I: 100 Gbit/s and II: 10 Gbit/s",
@@ -393,7 +335,6 @@
   {
     "question": "We now focus on the hierarchical topology data center architecture shown in Figure 2. Assume the\nfollowing capacities on links in this system. Between each server and its TOR (Top of rack) switch: 1 Gbit/s\n(as illustrated for server rack 1 in Figure 2). Between each TOR switch and it’s Tier-2 switch, and between\neach Tier-2 switch and it’s Tier-1 switch: 10 Gbit/s. Furthermore assume 100 Gbit/s between each Tier-1\nswitch and its Access router, and also 100 Gbit/s between each Access router and the Border router. Further\nassume that all switches and routers are \"store-and-forward\", have sufficient buffer space available and\noperates fast enough to not limit the flow of data in the system. Also: all propagation delays can be ignored\nsince distances are short.\n<img src=\"images/wfwtpc.webp\"/>\nAssume large continuous (lasting for minutes or longer) file transfers as follows:\nI: from 10 different servers in rack 2 to 10 different servers in rack E\nII: from 10 different servers in rack 6 to 10 different servers in rack G\nIII: from 10 different servers in rack 1 to 10 different servers in rack B\nIV: from 10 different servers in rack 5 to 10 different servers in rack H\n(No other traffic flows are active and ignoring all control traffic, i.e. assuming all capacity is\navailable for the 40 file transfers).\nWhat can you say about the mean available throughput of each file transfer?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I: 1 Gbit/s and II: 1 Gbit/s and III: 1 Gbit/s and IV: 1 Gbit/s",
       "I: 0.33 Gbit/s and II: 0.33 Gbit/s and III: 0.50 Gbit/s and IV: 0.33 Gbit/s",
@@ -405,7 +346,6 @@
   {
     "question": "We now focus on the hierarchical topology data center architecture shown in Figure 2. Assume the\nfollowing capacities on links in this system. Between each server and its TOR (Top of rack) switch: 1 Gbit/s\n(as illustrated for server rack 1 in Figure 2). Between each TOR switch and it’s Tier-2 switch, and between\neach Tier-2 switch and it’s Tier-1 switch: 10 Gbit/s. Furthermore assume 100 Gbit/s between each Tier-1\nswitch and its Access router, and also 100 Gbit/s between each Access router and the Border router. Further\nassume that all switches and routers are \"store-and-forward\", have sufficient buffer space available and\noperates fast enough to not limit the flow of data in the system. Also: all propagation delays can be ignored\nsince distances are short.\n<img src=\"images/dlbb9.webp\"/>\nAssume only one active file transfer in the system, from a server in rack 4 to a server in rack 7.\nThe size of the file is 10 GBytes. Assuming fragmentation of the file before transport, and ignoring\nprocessing and store-and-forward delays of the fragments, what is the approximate end-to-end delay\nfor this file transfer?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "8 seconds",
       "10 seconds",
@@ -418,7 +358,6 @@
   {
     "question": "We now focus on the hierarchical topology data center architecture shown in Figure 2. Assume the\nfollowing capacities on links in this system. Between each server and its TOR (Top of rack) switch: 1 Gbit/s\n(as illustrated for server rack 1 in Figure 2). Between each TOR switch and it’s Tier-2 switch, and between\neach Tier-2 switch and it’s Tier-1 switch: 10 Gbit/s. Furthermore assume 100 Gbit/s between each Tier-1\nswitch and its Access router, and also 100 Gbit/s between each Access router and the Border router. Further\nassume that all switches and routers are \"store-and-forward\", have sufficient buffer space available and\noperates fast enough to not limit the flow of data in the system. Also: all propagation delays can be ignored\nsince distances are short.\n<img src=\"images/njx3o6.webp\"/>\nAssume that the traffic situation described in 5.2 above is constant, i.e. all active servers are\ngenerating at the maximum rate they are allowed to. The size of one of the files to be transferred as\npart of III above (i.e. from a server in rack 1 to a server in rack B) is 1 MByte. Assume that the whole\nfile is now transported as one frame without fragmentation (using store-and-forward) but ignoring\nprocessing delays. What is the expected end-to-end delay for this file transfer (i.e. based on mean\navailable throughput on each link in 5.2 above)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "68.8 milliseconds",
       "45.5 milliseconds",

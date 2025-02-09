@@ -2,7 +2,6 @@
   {
     "question": "Hva er <em>ikke</em> en felles karakteristikk av RAID?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "RAID er et sett av fysiske harddisker som operativsystemet ser som en stor logisk harddisk.",
       "Redundant diskkapasitet blir brukt til å lagre paritetsinformasjon, som garanterer gjennopprettelse av data i tilfeller der disken feiler.",
@@ -13,19 +12,16 @@
   {
     "question": "Anta en disk med følgende karakteristikk: 7200 omdreininger pr.min (120 pr.sek), 120 sektorer pr.spor(track), sektorstørrelse 512 byte og gjennomsnittlig søketid 7,5 ms. Hva er nedre grense for tidsbruk for å lese en 120MB fil fra disk?",
     "answers": [3],
-    "exam": ".*",
     "options": ["33 ms", "1 sek", "13,4 sek", "17,1 sek.", "18,9 sek."]
   },
   {
     "question": "Hva er maksimalkapasitet på DVD?",
     "answers": [3],
-    "exam": ".*",
     "options": ["774 MB", "3 GB", "4,7 GB", "17 GB", "24 GB"]
   },
   {
     "question": "Hva er forskjellen på en CD og en DVD?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Bit-ene står mye tettere på en DVD fordi den bruker en laser med lengre bølgelengde.",
       "Bit-ene står mye tettere på en DVD fordi den bruker en laser med kortere bølgelengde.",
@@ -36,13 +32,11 @@
   {
     "question": "Hvilket nivå av RAID baserer seg på speiling av disken?",
     "answers": [1],
-    "exam": ".*",
     "options": ["RAID 0", "RAID 1", "RAID 2", "RAID 3"]
   },
   {
     "question": "Hvorfor er ikke RAID 0 en ekte RAID?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "RAID 0 bruker en disk",
       "RAID 0 inneholder ingen redundans",
@@ -53,7 +47,6 @@
   {
     "question": "Hva er forskjellen på parallell aksess og uavhengig aksess når det gjelder RAID?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Ved parallell aksess vil alle medlemsdisker delta i utføring av hver I/O-forespørsel. Ved uavhengig aksess vil alle medlemsdisker operere uavhengig av hverandre slik at ulike I/O forespørsler kan skje i parallell.",
       "Ved parallell aksess er alle skrive- og lesehoder på samme posisjon på de ulike platene. Ved uavhenging aksess kan hodene være på ulike posisjoner på disken.",
@@ -63,7 +56,6 @@
   {
     "question": "Hvilket utsagn om CD-ROM er <em>usant</em>?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Har en konstant lineær hastighet",
       "Den er billig å masseprodusere",
@@ -75,7 +67,6 @@
   {
     "question": "DVD har større kapasitet enn en CD-ROM. Hvilket utsagn om kapasitetsforskjellen er <em>usant</em>?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "DVD har større kapasitet, fordi den pakker bitene tettere på DVD-en",
       "DVD har større kapasitet, fordi den er tykkere",
@@ -86,7 +77,6 @@
   {
     "question": "Hvordan oppnår man redundans i et RAID-system?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I RAID 0 har man ingen redundans, i RAID 1 bruker man speiling og i resten av RAID-ene bruker parites blokker.",
       "I RAID 1 oppnår man redundans ved å ha to identiske kopier av all data. For høyere niva oppnår man redundans ved å bruke feilrettende kode.",

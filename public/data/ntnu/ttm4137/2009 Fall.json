@@ -2,7 +2,6 @@
   {
     "question": "Is the same key used for both authentication and encryption in WEP?",
     "answers": [0],
-    "exam": "2009 Fall",
     "options": [
       "Yes",
       "No",
@@ -13,7 +12,6 @@
   {
     "question": "How does WEP detect replay?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "There is no replay detection",
       "By the intialization vector (TV)",
@@ -24,19 +22,16 @@
   {
     "question": "How long is the IV used in TKIP?",
     "answers": [1],
-    "exam": ".*",
     "options": ["24 bits", "48 bits", "64 bits", "128 bits"]
   },
   {
     "question": "Which protocol encapsulates the EAP messages transported between the supplicant and authenticator in WPA/RSN?",
     "answers": [1],
-    "exam": ".*",
     "options": ["EAP-TLS", "EAPOL", "802.11", "802.1X"]
   },
   {
     "question": "What is the purpose of the first phase of PEAP?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The supplicant provides the identity to the authentication server",
       "The supplicant and authentication server negotiate the EAP method to be used",
@@ -47,7 +42,6 @@
   {
     "question": "Which 802.11 frame type is cryptographically protected by the 802.11w standard?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Management frames",
       "Control frames",
@@ -58,7 +52,6 @@
   {
     "question": "How is the 128 bits start value of the counter for CCMP encryption initialized in RSN?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "By a random IV",
       "By the concatenation of IV and the extended IV",
@@ -69,13 +62,11 @@
   {
     "question": "What is the key size of AES as used in RSN?",
     "answers": [0],
-    "exam": "2009 Fall",
     "options": ["128 bits", "192 bits", "256 bits", "512 bits"]
   },
   {
     "question": "Does EAP-SIM provide mutual authentication?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "No, it uses the regular GSM authentication",
       "Yes, it uses the regular UMTS authentication",
@@ -86,7 +77,6 @@
   {
     "question": "What is the purpose of the EAPOL 4-way handshake?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "To exchange a fresh pairwise temporal key (PTK) from the pairwise master key (PMK)",
       "To exchange a fresh pairwise message key (PMK) from the pairwise transient key (PTK)",
@@ -97,7 +87,6 @@
   {
     "question": "What are the four types of EAPOL messages used in WPA/RSN?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Start, Key, Packet, Logoff",
       "Request, Authenticate, Result, Stop",
@@ -108,7 +97,6 @@
   {
     "question": "What is the purpose of the sequence number (SQN) used in 3G/UMTS networks?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The USIM can detect replay of authentication messages",
       "The VLR/SGSN can detect replay of authentication messages",
@@ -119,13 +107,11 @@
   {
     "question": "List the message authentication code types used in UMTS",
     "answers": [1],
-    "exam": ".*",
     "options": ["MIC, MAC", "MAC-A, MAC-I, MAC-S", "IK, AK", "AUTIN, AUTS"]
   },
   {
     "question": "What are the three most important security services in GSM?",
     "answers": [0],
-    "exam": "2009 Fall",
     "options": [
       "User authentication, radio channel confidentiality, and temporary identities",
       "Subscriber Identity Module, Visiting Location Register, and Authentication Centre",
@@ -136,7 +122,6 @@
   {
     "question": "What are the variables of the authentication token (AUTN) used in UMTS networks?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>XRES</mi></math>, <math><mi>MAC</mi></math>",
       "<math><mi>SQN</mi><mo>&#x2295;</mo><mi>AK</mi></math>, <math><mi>AMF</mi></math>, <math><mi>MAC</mi></math>",
@@ -147,7 +132,6 @@
   {
     "question": "Which UTRAN layers provide encryption?",
     "answers": [3],
-    "exam": "2009 Fall",
     "options": [
       "MAC layer and RRC layer",
       "RLC layer and RRC layer",
@@ -158,13 +142,11 @@
   {
     "question": "Which UTRAN layer provides integrity protection?",
     "answers": [2],
-    "exam": "2009 Fall",
     "options": ["MAC layer", "RLC layer", "RRC layer", "PHY layer"]
   },
   {
     "question": "What is a call session control function (CSCF)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "A SIP server or proxy used in IMS",
       "A Mobile Switching Centre (MSC) with IMS support",
@@ -175,19 +157,16 @@
   {
     "question": "What is the length of the cipher key CK used in UMTS?",
     "answers": [2],
-    "exam": "2009 Fall",
     "options": ["56 bits", "64 bits", "128 bits", "256 bits"]
   },
   {
     "question": "How many rounds does the KASUMI cipher use?",
     "answers": [0],
-    "exam": ".*",
     "options": ["8", "10", "12", "16"]
   },
   {
     "question": "What kind of cipher is KASUMI?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Stream cipher",
       "Feistel cipher",
@@ -198,7 +177,6 @@
   {
     "question": "Why is the UICC normally easily removable from the mobile station?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The USIM holds an expiration date and, like credit cards, must be replaced",
       "The failure rate of the integrated circuit cards (UICCs) are high because the issuers (mobile operators) want to optimize cost against subscription duration",
@@ -209,7 +187,6 @@
   {
     "question": "Why must the USIM implementation be tamper-proof?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "To facilitate the mobile operator with secure computation and storage at the UE side",
       "To protect the proprietary crypto-algorithms of the mobile operator",
@@ -220,7 +197,6 @@
   {
     "question": "How is a oneway hash function useful in digital forensic investigations?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "For fast recognition of known file content",
       "For reconstructing the hash tables of deleted files",
@@ -231,7 +207,6 @@
   {
     "question": "What is the purpose of the MILENAGE functions in UMTS?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Block cipher family of functions that build the algorithms for integrity code and the encryption process",
       "Transformation of keys for the inter-operation of GSM and UMTS basestations and net works",

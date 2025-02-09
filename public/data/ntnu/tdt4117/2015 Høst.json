@@ -2,7 +2,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Micon og videogjenfinning hører sammen",
       "Micon og lydgjenfinning fra videoshots hører sammen",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken påstand er riktig? <math><mi>J</mi><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mo>|</mo><mi>A</mi><mo>&#x2229;</mo><mi>B</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>A</mi><mo>&#x222A;</mo><mi>B</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>A</mi><mo>&#x2229;</mo><mi>B</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>A</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>B</mi><mo>|</mo><mo>-</mo><mo>|</mo><mi>A</mi><mo>&#x2229;</mo><mi>B</mi><mo>|</mo></mrow></mfrac></math>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Denne formelen er et likhetsmål som egner seg veldig godt til bruk i rangering av resultater med søk av store strukturerte dokumenter",
       "Denne formelen forteller noe om mengden av informasjon som er i dokumentene",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Et Huffman-tre er en variant av et suffix tre",
       "Et Huffman-tre er et komprimeringstre som kan være både \"bit\"-basert (binært) og \"byte\"-basert samtidig.",
@@ -35,7 +32,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Automatic Global Analysis og Automatic Local Analysis bruker to motsatte metoder for utvidede spørringer",
       "Pseudo relevance feedback er en metode for å utvide spørringer",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "IDF står for \"Information of Document Frequency\"",
       "IDF står for \"Invariant Document Frequency\" og brukes til å måle hvor mye svingninger det er i antall termer per dokument",
@@ -57,7 +52,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Zipf's law kan brukes til å vurdere hvilke ord som kan være gode kandidater til stoppordlista",
       "Zipf's og Heap's law er viktig for genfinningsregler i websøkesystemer",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Harvest-websøkesystem er basert på en sentralisert systemarkitektur med koordinerte crawlers",
       "Harvest-websøkesystem er basert på en distribuert systemarkitektur med koordinerte gatherers",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Et bildegjenfinningssystem består av en \"feature extractor\"-del som gjør det enkelt å automatisere lagring av informasjon om innholdet i et bilde",
       "Et bildegjenfinningssystem må bruke alle teknikker fra databaseteknikk for å kunne enkelt utføre spørringer",
@@ -90,7 +82,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Okapi BM25 er en variant av sannsynlighetsmodellen, men bruker både TF og IDF til å estimere sannsynlighetene",
       "Okapi BM25 er en variant av språkmodellen (Language model for information retrieval)",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Precision og recall er like viktige uavhengig av søkeapplikasjoner",
       "Recall er typisk viktigere enn precision for søk i Gulesider",

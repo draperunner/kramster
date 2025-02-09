@@ -2,7 +2,6 @@
   {
     "question": "Hvilken systemutviklingsprosess vil fungere best i følge læreboka hvis kunden er svært\nusikker på kravene og hvordan det endelige systemet skal bli?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Vannfallsmodellen",
       "Inkrementell utvikling",
@@ -12,7 +11,6 @@
   {
     "question": "Til sammen bruker X mennesker internettet. Rundt år 2009 fins det over Y mobiltelefoner",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "X = 3 milliarder Y = 1.5 milliarder",
       "X = 300 millioner Y = 1.5 milliarder",
@@ -22,7 +20,6 @@
   {
     "question": "Hva brukes en prosessor hovedsakelig til?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Direkte kjøre kode skrevet i JSP, Matlab eller andre programmeringsspråk",
       "Utføre regneoperasjoner på og sammenlikninger av registre",
@@ -32,7 +29,6 @@
   {
     "question": "I hvilket tilfelle kan man IKKE benytte seg av binærsøkalgoritmen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Når man har for stor datamengde (tar for lang tid)",
       "Når dataene ikke er sortert",
@@ -42,13 +38,11 @@
   {
     "question": "Hva er tallet 1365 10 representert som et binært tall?",
     "answers": [2],
-    "exam": ".*",
     "options": ["11100101011", "10110101010", "10101010101"]
   },
   {
     "question": "Hva menes med fysisk datauavhengighet i databaser i følge læreboka?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Databasens konseptuelle skjema kan endres uten å endre på applikasjonen",
       "Måten data er fysisk representert i databasen kan endres uten å endre på\napplikasjonen",
@@ -58,7 +52,6 @@
   {
     "question": "Hva er hovedoppgaven til kontrollenheten i en prosessor?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Holde orden på hvor langt prosessoren har kommet i JSP- eller Matlab-\nprogrammet",
       "Kontrollere at regneoperasjonene i ALU er korrekte",
@@ -68,7 +61,6 @@
   {
     "question": "TCP/IP er en samling av protokoller som inneholder protokollene:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "HTTP, HTML, PHP, TCP, SMTP",
       "HTTP, FTP, TCP, IP, SMTP",
@@ -78,7 +70,6 @@
   {
     "question": "Hvilket av følgende alternativer blir IKKE i følge loven ansett som sensitive\npersonopplysninger ved opprettelse av personregistre i følge læreboka?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Etnisk bakgrunn",
       "Politisk oppfatning",
@@ -88,13 +79,11 @@
   {
     "question": "Hvor mange bits trengs for å kode det norske alfabetet med enkel koding (hver\nbokstav/tegn er representert med like mange bit)?",
     "answers": [1],
-    "exam": ".*",
     "options": ["4", "5", "6"]
   },
   {
     "question": "Hva er den viktigste oppgaven til en nettverksruter?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Koble sammen flere nettverkssegmenter av samme type",
       "Forsterke og rense signaler i nettverket",
@@ -104,7 +93,6 @@
   {
     "question": "Hva er en \"Service Level Agreement\" (SLA) i forbindelse med tjenestekvalitet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En kontrakt som omfatter priser på ulike hastigheter på nettverk",
       "En gjensidig kontrakt med krav til kunde og leverandør relatert til kvalitet på\nnettverktjenester",
@@ -114,7 +102,6 @@
   {
     "question": "Hvordan finner man databasekrav i henhold til designprosessen for databaser beskrevet i\nlæreboka?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Bestemmer hvilken informasjon fra den virkelige verden som trengs i\napplikasjonen",
       "Bestemmer hvilket type databaseverktøy som trengs for å støtte en applikasjon",
@@ -124,7 +111,6 @@
   {
     "question": "Minnehierarki i en datamaskin sortert på hastighet er som følger:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "registre, cache, primærminne, sekundærminne",
       "cache, registre, primærminne, sekundærminne",
@@ -134,7 +120,6 @@
   {
     "question": "Når var Radiorør og Transistor funnet opp?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "1940: Radiorør - 1955: Transistorer",
       "1930: Radiorør - 1920: Transistorer",
@@ -144,7 +129,6 @@
   {
     "question": "Hva er et nøkkelattributt i databasesammenheng?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Et attributt som styrer hvem som skal ha tilgang til bestemt informasjon i en\ndatabase",
       "Et attributt som gjør det mulig å logge seg inn på en database med brukernavn og\npassord",
@@ -154,7 +138,6 @@
   {
     "question": "Hvilke lag inngår i TCP/IP protokollen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Applikasjon, transport, nettverk, link",
       "Applikasjon, transponder, nettverk, lenke",
@@ -164,13 +147,11 @@
   {
     "question": "Hvor mange bits benyttes i nåværende IP-adresser (IPv4)?",
     "answers": [0],
-    "exam": ".*",
     "options": ["32 bits", "16 bits", "48 bits"]
   },
   {
     "question": "Hva gjør nettverkslaget i TCP/IP?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Gir en ende-til-ende forbindelse",
       "Ruter pakker gjennom nettet fra maskin til maskin",
@@ -180,7 +161,6 @@
   {
     "question": "Bruk Huffman-koding for å finne bitmønstrene til symbolene A, B, C, D og E når du har\nTabell 1 Fordeling av antall symboler oversendt i en melding på 100 symboler\n<table class=\"table table-striped\">\n<thead>\n    <tr>\n        <th>Symbol</th>\n        <th>Antall i melding</th>\n    </tr>\n</thead>\n<tbody>\n    <tr>\n        <td>A</td>\n        <td>50</td>\n    </tr>\n    <tr>\n        <td>B</td>\n        <td>20</td>\n    </tr>\n    <tr>\n        <td>C</td>\n        <td>15</td>\n    </tr>\n    <tr>\n        <td>D</td>\n        <td>10</td>\n    </tr>\n    <tr>\n        <td>E</td>\n        <td>5</td>\n    </tr>\n</tbody>\n</table>\noppgitt fordeling som vist i Tabell 1 på en melding som består av 100 symboler.",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "A:1, B:01, C:001, D:0001, E:0000",
       "A:1, B:01, C:011, D:0011, E:0001",

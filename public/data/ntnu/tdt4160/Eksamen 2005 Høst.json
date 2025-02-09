@@ -2,7 +2,6 @@
   {
     "question": "Hvilken av de følgende påstandene om Pentium 4 er ikke riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Pentium 4 er en 32 bits prosessor.",
       "Pentium 4 har et langt samlebånd (mange steg).",
@@ -14,7 +13,6 @@
   {
     "question": "Hvilken av de følgende påstandene om UltraSPARC III er ikke riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "UltraSPARC III er en RISC-prosessor.",
       "UltraSPARC III har relativt få registre, fokusert på hovedlager.",
@@ -26,7 +24,6 @@
   {
     "question": "Hvilken av de følgende påstandene om 8051 er ikke riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "8051 er en mikrokontroller.",
       "8051 har ingen hurtigbuffer.",
@@ -38,7 +35,6 @@
   {
     "question": "Hvilken av alternativene under er ikke en årsak til å ha mer enn en buss i en datamaskin?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Med kun en buss, blir denne gjerne en flaskehals.",
       "Flere busser gir økt risiko for overflyt.",
@@ -50,7 +46,6 @@
   {
     "question": "Hvilken av alternativene under er en ulempe med direkte adressering?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Gir gjerne et langt instruksjonsformat.",
       "Feltlengden begrenser operandstørrelsen.",
@@ -62,7 +57,6 @@
   {
     "question": "Hvilken av de følgende påstandene om samlebånd (\"pipeline\") er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Samlebånd reduserer tiden det tar å utføre en enkelt instruksjon.",
       "Samlebånd reduserer tiden det tar å utføre en serie med instruksjoner.",
@@ -74,7 +68,6 @@
   {
     "question": "Hvilken av de følgende påstandene om RISC er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "RISC-prosessorer har instruksjoner som er kompliserte å dekode.",
       "De fleste instruksjoner i RISC-prosessorer kan aksessere hovedlager.",
@@ -86,7 +79,6 @@
   {
     "question": "Hvilken av de følgende påstandene om multidatamaskin og multiprosessor er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Prosessorer i multidatamaskiner deler hovedlager.",
       "Med mange prosessorer er multiprosessor bedre enn multidatamaskin.",
@@ -98,7 +90,6 @@
   {
     "question": "Hvilken av de følgende påstandene om PCI og PCI Express er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "PCI er ikke egentlig en buss, men punkt-til-punkt-forbindelse.",
       "PCI er parallell mens PCI Express er seriell.",
@@ -110,7 +101,6 @@
   {
     "question": "Registeromdøping (\"register renaming\") er en teknikk som ...",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "... gjør det vanskeligere å skrive assemblykode.",
       "... er unødvendig for CISC-prosessorer.",
@@ -122,7 +112,6 @@
   {
     "question": "Prefetch er en teknikk som ...",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "... går ut på at betingede hopp (\"conditional branch\") utføres vha. to instruksjoner (eks:\nCompare/Branch).",
       "... IA-64 bruker for å bestemme hvilken utførende enhet en instruksjon skal utføres av\nfør instruksjonen blir hentet fra hovedlager.",
@@ -134,7 +123,6 @@
   {
     "question": "Hva vil det si at en prosessor er superskalar?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Den er spesiallaget for heltallsoperasjoner.",
       "Den bruker 1 klokkesyklus på å utføre en instruksjon.",
@@ -146,7 +134,6 @@
   {
     "question": "Hva vil det si at en prosessor har støtte for 3-adresseinstruksjoner (\"3-address instruction\")?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Den pakker 3 instruksjoner sammen i en pakke med et felt som indikerer begrensninger\ni parallellitet.",
       "Den har spesielle hoppinstruksjoner som kan medføre hopp til 3 forskjellige adresser alt\netter resultat av forrige instruksjon.",
@@ -158,7 +145,6 @@
   {
     "question": "Hvor mange forskjellige tall kan man maksimalt representere vha. 32 bit?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "2^31 (= 2 147 483 648)",
       "2^31 - 1 (= 2 147 483 647)",
@@ -170,7 +156,6 @@
   {
     "question": "Hva brukes predikatregistrene i IA-64 til?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "De brukes i forbindelse med forgreningspredikering.",
       "De brukes i forbindelse med registeromdøping.",

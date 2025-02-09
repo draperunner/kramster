@@ -2,7 +2,6 @@
   {
     "question": "Hjerteveggen består av 3 lag: epikard, myokard og endokard. Hvilke(n) påstand(er) er riktig(e)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Epikard er en del av perikardet",
       "Myokard er selve hjertemuskelen",
@@ -13,7 +12,6 @@
   {
     "question": "Hjertet består av fire kammer: to atrier (forkammer) og to ventrikler (hjertekammer). I hvilken rekkefølge passerer blodet disse kamrene (H = høyre, V = venstre)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "H.ventrikkel  -> v.ventrikkel -> v.atrium->  h.atrium",
       "V.ventrikkel -> h.atrium -> h.ventrikkel -> v.atrium",
@@ -24,7 +22,6 @@
   {
     "question": "I hjertet finner vi spesialiserte celler vi kaller pacemakerceller eller celler med pacemakerfunksjon. Hva er karakteristisk for disse cellene?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "De gir høy puls",
       "De gir lav puls",
@@ -35,13 +32,11 @@
   {
     "question": "Hvor starter aksjonspotensialet og utbredelsen av det elektriske signalet i hjertet vanligvis?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Purkinjefibrene", "HIS-bunten", "Sinusknuten", "AV-knuten"]
   },
   {
     "question": "Pacemakercellene i de ulike stedene i hjertet har ulik depolariseringsfrekvens. Dersom pacemakercellene i sinusknuten blir ødelagt overtar pacemakercellene i AV-knuten reguleringen av hjertekontraksjonen. Hva skjer mht. hvilepulsen?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Pulsen blir uendret",
       "Pulsen øker",
@@ -52,7 +47,6 @@
   {
     "question": "Et EKG består normalt av en P-takk, et QRS-kompleks og en T-takk. Hva uttrykker P-takken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Depolarisering (kontraksjon) av ventriklene",
       "Depolarisering (kontraksjon) av atriene",
@@ -63,7 +57,6 @@
   {
     "question": "Hvilken ligning beskriver riktig sammenheng mellom hjertets minuttvolum (MV), blodtrykk (BT) og motstanden i karsystemet (TPM)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "MV = TPM x BT",
       "MV = TPM / BT",
@@ -74,7 +67,6 @@
   {
     "question": "Hvilken hovedoppgave har bindevevsplaten (anulus fibrosus) i hjertet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Å sikre en rask spredning av aksjonspotensialet gjennom hjertet",
       "Å hindre bakteriell spredning i hjertet",
@@ -85,7 +77,6 @@
   {
     "question": "Hvis menneskehjertet hadde vært helt upåvirket av hormoner og nerver ville det slå med en frekvens på ca:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "70 slag i minuttet",
       "45 slag i minuttet",
@@ -96,7 +87,6 @@
   {
     "question": "Hvor får hjertets muskulatur sin blodtilførsel fra?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Venstre ventrikkel",
       "Aorta",

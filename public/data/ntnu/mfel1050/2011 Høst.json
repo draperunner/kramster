@@ -2,7 +2,6 @@
   {
     "question": "Ved bedret maksimalt oksygenopptak vil følgende tilpasninger finne sted i hvile:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Slagvolum går ned, hjertefrekvens går ned",
       "Slagvolum går ned, hjertefrekvens går opp",
@@ -13,19 +12,16 @@
   {
     "question": "Hvor mange repetisjoner bør kroppsbyggere bruke i sin styrketrening for å øke tverrsnittet?",
     "answers": [3],
-    "exam": ".*",
     "options": ["1-3", "4", "6-8", "10-12"]
   },
   {
     "question": "KOLS (COPD) pasienter har nedsatt...",
     "answers": [2],
-    "exam": ".*",
     "options": ["FLT1 og CLV", "REG1 og HLT", "FVC og FEV1", "KKL og RPT1"]
   },
   {
     "question": "I et studie av Helgerud et al. (2009) ble hjertets slagvolum målt ved hjelp av følgende metode:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Acetylene rebreathing",
       "Single breath acetylene uptake",
@@ -36,7 +32,6 @@
   {
     "question": "Det dannes mer melkesyre på en gitt belastning i 2000 meters høyde sammenliknet med havnivå fordi:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Melkesyreterskelen har endret seg",
       "Det lavere lufttrykket stimulerer mer til dannelse av melkesyre",
@@ -47,13 +42,11 @@
   {
     "question": "Hvis en skiløper har et maksimalt oksygenopptak i overkropp på 60 mL · kg · min, trener maksimal styrketrening og forbedrer stakeøkonomien med 20 %. Hvor mye vil prestasjonen hennes forbedres på 20 minutter staking?",
     "answers": [3],
-    "exam": ".*",
     "options": ["40 sek", "80 sek", "120 sek", "240 sek"]
   },
   {
     "question": "Anaerob terskel ligger før en treningsperiode på 85% av VO2max. Etter 8 uker med 4x4 min intervalltrening 3 ganger i uken, Hvor vil anaerob terskel være?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Litt lavere, ca 80% av VO2max.",
       "Omtrent det samme, ca 85% av VO2max.",
@@ -64,7 +57,6 @@
   {
     "question": "Blodstrøm i kapillærer i muskel begrenses ved muskelarbeid fra:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "15% av 1RM og opp",
       "30% av 1RM og opp",
@@ -75,7 +67,6 @@
   {
     "question": "At enbeinssykling gir den beste framgangen på tobeins VO2max hos KOLS-pasienter indikerer at deres oksygenopptak i første rekke er;",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Begrenset av hjertets slagvolum.",
       "Begrenset av muskelens evne til å ta opp oksygenet.",
@@ -86,7 +77,6 @@
   {
     "question": "Dimensjonsskalering gjør at",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Store personer blir undervurdert ved vurdering av styrke",
       "Små personer blir undervurdert ved vurdering av styrke",
@@ -97,19 +87,16 @@
   {
     "question": "PAD pasienter bør først begynne med trening...",
     "answers": [1],
-    "exam": ".*",
     "options": ["På tredemølle", "Av leggene", "Sykling", "Utendørs i motbakke"]
   },
   {
     "question": "Langkjøring ga følgende økning i VO2max hos friske mannlige studenter som trente i 2 måneder:",
     "answers": [0],
-    "exam": ".*",
     "options": ["0%", "5%", "10%", "15%"]
   },
   {
     "question": "For KOLS (COPD) pasienter er intervalltrening av ett og ett bein på sykkel mer effektivt enn trening av begge beina samtidig fordi:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Styrken (1RM) blir forbedret mer ved ettbeinssykling",
       "Treningsintensiteten på muskel blir høyere",
@@ -120,7 +107,6 @@
   {
     "question": "Hvordan kan man best måle løpsøkonomi?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Ved å måle hjertefrekvens på en submaksimal belastning",
       "Ved å måle oksygenopptaket på en submaksimal belastning",
@@ -131,13 +117,11 @@
   {
     "question": "Røde blodceller produseres i:",
     "answers": [1],
-    "exam": ".*",
     "options": ["Nyrene", "Beinmargen", "Blodet", "Muskelen"]
   },
   {
     "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Bli ca 5% mindre",
       "Forbli uendret",
@@ -148,7 +132,6 @@
   {
     "question": "Maksimal styrketrening virker på:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "VO2max og arbeidsøkonomi",
       "VO2max",
@@ -159,7 +142,6 @@
   {
     "question": "Hva er hovedårsaken til endringer i muskelstyrke som følge av maksimal styrketrening:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Overgang fra type I til type II muskelfibre ved muskelaktivering",
       "Økt aktivering som følge av flere sarcomerer",
@@ -170,7 +152,6 @@
   {
     "question": "I nye artikler er det vist at hos topptrente forsøkspersoner vil hjertets slagvolum:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Reduseres når subjektene nærmer seg VO2max",
       "Flate ut ved ca 60% av VO2max",
@@ -181,13 +162,11 @@
   {
     "question": "Hvor langt løper en elite fotballspiller i løpet av en kamp?",
     "answers": [1],
-    "exam": ".*",
     "options": ["3-5 km", "8-12 km", "18-20 km", "22-26 km"]
   },
   {
     "question": "Hva betyr hjertets slagvolum?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Hvor mye hjertet pumper i minuttet",
       "Hvor mye hjertet pumper i sekundet",
@@ -198,7 +177,6 @@
   {
     "question": "Hva skjer med hjertets slagvolum når intensiteten øker for godt trente utøvere?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Slagvolumet går ned",
       "Slagvolumet flater av på ca 50% av maksimalt oksygenopptak",
@@ -209,7 +187,6 @@
   {
     "question": "Hvordan virker 4x4 min intervalltrening på KOLS-pasienter når de trener med et og et bein?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En-beinstrening øker maksimalt oksygenopptak i et bein, men maksimalt oksygenopptak når begge beina brukes samtidig endres ikke",
       "En-beinstrening øker maksimalt oksygenopptak når pasienten sykler med begge beina",
@@ -220,7 +197,6 @@
   {
     "question": "Hva skjer med maksimalt oksygenopptak og hjertets slagvolum på tredemølle når røykebeinspasienten (PAD-pasienten) trenes opp med plantarfleksjonssykling?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Maksimalt oksygenopptak øker men slagvolumet endres ikke",
       "Slagvolumet og maksimalt oksygenopptak øker",
@@ -231,7 +207,6 @@
   {
     "question": "I vår studie fra 2007 som sammenlignet kort intervall (15/15) med bl.a 4x4 min langintervall fant vi;",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "At 15/15 treningen gav dobbelt så stor økning av maksimalt oksygenopptak som 4x4 min?",
       "At 4x4 min intervallene gav dobbelt så stor økning i maksimalt oksygenopptak som 15/15 treningen?",
@@ -242,13 +217,11 @@
   {
     "question": "Hvis du trener en gruppe friske eldre på ca 70 år, 3 ganger pr uke i 10 uker med 4x4 intervalltrening, hva forventer du at de skal øke sitt maksimale oksygenopptak med?",
     "answers": [0],
-    "exam": ".*",
     "options": ["13%", "3%", "25%", "32%"]
   },
   {
     "question": "Hva vil du velge hvis du skal øke maksimalt oksygenopptak på en gruppe fotballspillere?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "6x20 sekunder maksimal innsats",
       "4x4 min intervalltrening (90-95% av maksimal hjertefrekvens) i dribleløype",
@@ -259,7 +232,6 @@
   {
     "question": "I vårt studie av hjertepasienter fra 2010 fant vi at 4x4 min intervalltrening gav følgende resultat;",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Maksimalt oksygenopptak økte, men slagvolumet på hjertet var uendret?",
       "Slagvolumet økte, men maksimalt oksygenopptak var uendret?",
@@ -270,7 +242,6 @@
   {
     "question": "I studiet referert over fant vi også at;",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Gruppen som trente maksimal styrketrening økte sitt maksimale oksygenopptak?",
       "Både styrkegruppen og utholdenhetsgruppen forbedret sin gangøkonomi?",
@@ -281,7 +252,6 @@
   {
     "question": "Etter at du har trent PAD-pasienter i 4 uker med plantarfleksjonstrening, hvordan vil du fortsette de neste treningsukene for å sikre effekt på hjertets slagvolum?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Fortsette med gang på tredemølle",
       "Øke treningsdosen med plantarfleksjonssykling",
@@ -292,7 +262,6 @@
   {
     "question": "Med maksimal styrketrening forbedrer KOLS-pasienter",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "lungeinflammasjon",
       "maksimalt oksygenopptak",
@@ -303,7 +272,6 @@
   {
     "question": "Med maksimal styrketrening forbedrer fotballspillere",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "lungestørrelse",
       "maksimalt oksygenopptak",
@@ -314,7 +282,6 @@
   {
     "question": "Med maksimal styrketrening forbedrer fotballspillere",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "akselerasjon (10m sprint)",
       "oksygenmetning i blod",
@@ -325,7 +292,6 @@
   {
     "question": "I gjennomføring av maksimal styrketrening er det viktig å flytte belastningen med så stor\nhastighet som mulig (maksimal ”intended velocity”), hvorfor?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "for at sprintteknikken skal bli bedre",
       "for å koordinere motoriske enheter",
@@ -336,25 +302,21 @@
   {
     "question": "Ved hvor mange repetisjoner i styrketrening opphører forbedring av styrke (1RM)?",
     "answers": [0],
-    "exam": ".*",
     "options": ["ca. 15", "ca. 40", "ca. 6", "ca 100"]
   },
   {
     "question": "Etter en periode med maksimal styrketrening forbedres løpsøkonomi og sykkeløkonomi med 5%. Hvor mye fortere kan du da løpe eller sykle på samme oksygenopptak?",
     "answers": [1],
-    "exam": ".*",
     "options": ["10%", "5%", "20%", "35%"]
   },
   {
     "question": "Knebøy 1RM til 90 grader i kneleddet for elite fotballspillere er i området",
     "answers": [2],
-    "exam": ".*",
     "options": ["50-100 kg", "0-50 kg", "150-200 kg", "200-250 kg"]
   },
   {
     "question": "Hvorfor skal de fleste idrettsutøvere legge vekt på nevrale tilpasninger heller enn større\nmuskler ved styrketrening?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "de øker styrke uten å øke kroppsmasse",
       "større muskler gir større kroppsvekt",
@@ -365,13 +327,11 @@
   {
     "question": "Pasienter og friske responderer godt på 4x4/5 repetisjoner maksimal styrketrening. Hvor stor styrkeøkning kan en forvente pr treningsøkt?",
     "answers": [1],
-    "exam": ".*",
     "options": ["ca. 0,5%", "ca. 2%", "ca5%", "ca 20%"]
   },
   {
     "question": "Newton’s 2.lov Kraft = masse x akselerasjon tilsier at hvis en idrettsutøver øker styrken/kraftutviklingen sin med 30% uten å øke kroppsvekten, hvor mye fortere løper han en 10m sprint?",
     "answers": [1],
-    "exam": ".*",
     "options": ["10%", "30%", "50%", "100%"]
   }
 ]

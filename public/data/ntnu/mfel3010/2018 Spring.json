@@ -2,7 +2,6 @@
   {
     "question": "Which hardware component in an MR system enables spatial encoding of the signal?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The main superconducting magnet.",
       "The radiofrequency antennas/coils.",
@@ -13,7 +12,6 @@
   {
     "question": "In an MR machine, energy input (RF pulse) results in net magnetization of the nuclei. The loss of this energy is called relaxation, and results in signal output that is used for imaging. There are two kinds of relaxation: T1 is the regrowth of longitudinal magnetization vector, T2 is the loss of transverse magnetization vector. Why is T1 different from T2?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The regrowth of longitudinal magnetization depends on the difference in energy states of the “up” and “down” states.",
       "The regrowth of longitudinal magnetization also depends on “in-phasing” of the magnetic longitudinal magnetic vectors.",
@@ -24,7 +22,6 @@
   {
     "question": "How is the DNA able to replicate perfectly?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The cell has stored a copy of the DNA in the nucleus",
       "The DNA replicas are synthesized from a RNA template stored in the cell",
@@ -35,13 +32,11 @@
   {
     "question": "And in which part of the cell cycle is DNA replicated?",
     "answers": [1],
-    "exam": ".*",
     "options": ["G1 phase", "S phase", "G2 phase", "M phase"]
   },
   {
     "question": "What makes the cell differentiation possible?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The genes are different in different tissues.",
       "Different translation mechanisms in different tissues",
@@ -52,7 +47,6 @@
   {
     "question": "The method called restriction fragment length polymorphism (RFLP) is used to:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Increase the amount of DNA found in a small sample",
       "Increase the amount of DNA found in a degraded samples",
@@ -63,7 +57,6 @@
   {
     "question": "In B-mode ultrasound, an image is built up by lines, where each line is related to a pulse sent and retuned from the echoes. This means that the number of lines in a sector is limited\nby the speed of sound, and determines the lateral resolution of the image. With 64 scan\nlines, we can get about 56 frames per second (FPS), given a depth of 12 cm, as there are\nother limitations as well.\nIn some cases, there is a need for a higher frame rate. How would you achieve that?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "By increasing the number of scanlines in the imaging plane",
       "By reducing the number of scanlines in the imaging plane",
@@ -74,7 +67,6 @@
   {
     "question": "In B-mode ultrasound, an image is built up by lines, where each line is related to a pulse sent and retuned from the echoes. This means that the number of lines in a sector is limited\nby the speed of sound, and determines the lateral resolution of the image. With 64 scan\nlines, we can get about 56 frames per second (FPS), given a depth of 12 cm, as there are\nother limitations as well.\nWhat happens if you want to acquire a 3D volume instead of a single 2D plane?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "If you want to maintain the same number of lines, the frame rate will be reduced by a factor of four",
       "If you want to maintain the same number of lines, the frame rate will be reduced by a square factor",
@@ -85,7 +77,6 @@
   {
     "question": "What is the basis for the velocity information from Doppler analysis?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "When the ultrasound pulse hits a moving object, the amplitude (intensity) of the reflected signal is proportional to the velocity of the object",
       "When the ultrasound pulse hits a moving object, the frequency (wavelength) of the reflected signal is proportional to the velocity of the object",
@@ -96,7 +87,6 @@
   {
     "question": "What is correct about an action potential?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "An action potential is triggered by an increase in calcium in the extracellular fluid",
       "An action potential is triggered by an increase in calcium in the cytoplasm",
@@ -107,31 +97,26 @@
   {
     "question": "<img src=\"images/s2yo4.webp\" />\n\nThe diagram shows a schematic picture of a cardiac action potential.\nWhich of the phases corresponds to the T-wave in the ECG?",
     "answers": [2],
-    "exam": ".*",
     "options": ["A", "B", "C", "D"]
   },
   {
     "question": "The ejection fraction is used a measure of ventricular function. However, this has some limitations. Endurance training increases left ventricular volume and reduces heart rate. A certain (male) cross country skier has an end diastolic left ventricular volume of 258 ml. During rest, he has a normal cardiac output of 5.1 litres /min with a heart rate of 42 beats / min. What is the resting ejection fraction?",
     "answers": [2],
-    "exam": ".*",
     "options": ["79%", "53%", "47%", "16%"]
   },
   {
     "question": "During exercise, this runner has the ability to increase the ejection fraction to 85%. End diastolic volume does not increase during exercise in the healthy. His maximal heart rate is 175 beats / min. What is his maximal cardiac output?",
     "answers": [2],
-    "exam": ".*",
     "options": ["7 l/min", "15 l/min", "38 l/min", "50 l/min"]
   },
   {
     "question": "Maximum oxygen uptake (VO2max) is a measure of aerobic fitness. Oxygen uptake is related to cardiac output by the formula: VO2 = CO x O2 extraction. During maximal exercise, the oxygen extraction (= arteriovenous O2 difference) may be as high as 90% (i.e. arterial oxygen saturation of 100%, venous saturation of 10%). One gram of hemoglobin binds 1.4 ml O2. Given a body weight of 85 kg and hemoglobin\nof 15.4 g/dl, what is then his VO2max?",
     "answers": [1],
-    "exam": ".*",
     "options": ["99 ml/kg/min", "88 ml/kg/min", "79 ml/kg/min", "70 ml/kg/min"]
   },
   {
     "question": "The mitral valve may become incompetent (leaking) due to disease. This will give a murmur that can be heard through a stethoscope. When in the ECG cycle is this murmur heard?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The PQ interval",
       "During the QRS",
@@ -142,25 +127,21 @@
   {
     "question": "A patient with mitral regurgitation has an end diastolic volume of 250 ml, and an ejection frac- tion of 70%. 100 ml blood leaks back through the mitral valve into the left atrium during each heartbeat. What is his cardiac output, measured in the aorta with a HR of 70?",
     "answers": [2],
-    "exam": ".*",
     "options": ["12.2 l/min", "7 l/min", "5.2 l/min", "4.9 lmin"]
   },
   {
     "question": "Mean incidence of a virus epidemic in Trondheim in in a certain week was 5%. Duration was on the average three days. What was the average prevalence?",
     "answers": [1],
-    "exam": ".*",
     "options": ["35%", "15%", "2.1%", "0.7%"]
   },
   {
     "question": "Mean incidence of a virus epidemic in Trondheim in in a certain week was 5%. Duration was on the average three days. At the same time, the incidence of the same epidemics in Oslo was 7.5%. What was the relative risk of acquiring the virus disease in Oslo compared to Trondheim?",
     "answers": [3],
-    "exam": ".*",
     "options": ["7.5 times", "5 times", "2.5 times", "1.5 times"]
   },
   {
     "question": "What does it mean that a study is controlled?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The study is under the regulations of the FDA (Food and Drug Agency) or similar regulating bodies",
       "The study has a control group (for instance receiving no treatment or an established treatment)",
@@ -171,7 +152,6 @@
   {
     "question": "The Power of a controlled study result, is often given as a percentage. What does this percentage mean?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Power is the probability of discovering a result that is real",
       "Power is the probability of the study result being wrong (random)",
@@ -182,7 +162,6 @@
   {
     "question": "The significance (P value) of a controlled study result, is often given as a percentage. What does this percentage mean?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "P is the probability of the study result being true (non random)",
       "P is the probability of the study result being wrong (random)",
@@ -193,7 +172,6 @@
   {
     "question": "Two different studies of treatment A and treatment B for the same disease, showed that treatment A was better than placebo (P &lt; 0.001), and treatment B was better than placebo (p &lt; 0.01). The conclusion that treatment A was better than B was:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Correct as treatment A had a lower P value than B",
       "Correct, as the P-value is a measure of treatment effect",
@@ -204,7 +182,6 @@
   {
     "question": "What is the main function of the myelin sheaths around some nerve fibres (axons)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Mechanical support",
       "Nutrition of the nerve fiber",
@@ -215,7 +192,6 @@
   {
     "question": "Nerve fibers are conductors, but connected in an information network. The connections are called synapses. How is information transmitted from one nerve cell to the next?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The axon contracts, increasing the synaptic distance, thus changing the environment of\nthe next cell, triggering a depolarization",
       "The action potential triggers the release of chemical substances, that diffuses across the synaptic space, affecting the depolarization threshold of the post synaptic cell",
@@ -226,7 +202,6 @@
   {
     "question": "Should every study finding a statistically significant improvement in survival with a certain treatment of a disease, lead to a recommendation of that treatment in the guidelines?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Yes, the significance shows the treatment to improve survival",
       "Yes, even if there is a probability of type I error, there is nothing to loose, as survival was best in the treatment group.",
@@ -237,7 +212,6 @@
   {
     "question": "Systematic reviews, takes many studies into account, to calculate more robustly the significance and size of treatment effects, and is often considered a higher level of evidence. What may be the main problem with systematic reviews?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Patient selection",
       "Publication bias",
@@ -248,7 +222,6 @@
   {
     "question": "<img src=\"images/ojfkg9.webp\" />\nA patient in the coronary care unit suddenly displays a change in the heart rhythm and pulse as shown in the figure.\nWhat is the mechanism?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The atria suddenly starts to beat in an uncoordinated manner",
       "The AV-node suddenly stops conducting the impulses from the atria to the ventricles",
@@ -259,7 +232,6 @@
   {
     "question": "<img src=\"images/hrlye4.webp\" />\nA patient in the coronary care unit suddenly displays a change in the heart rhythm and pulse as shown in the figure.\nHow would you treat the mechanism as first line treatment?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Electrical shock",
       "Pacemaker",
@@ -270,7 +242,6 @@
   {
     "question": "The blood pressure is usually measured by inflating a cuff around the upper arm, and then reducing the pressure gradually. Which of the statements below are correct in relation to this procedure?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "When the systolic pressure equals the pressure in the cuff, the artery will just start to open.",
       "When the systolic pressure equals the cuff pressure, the artery is open during the whole heart cycle",
@@ -281,7 +252,6 @@
   {
     "question": "The usefulness of a diagnostic test is dependent on it’s ability to separate a healthy population from the population with the disease that the test is specific for. Validity is the bias of the test meas- ure from the “ground truth”. Reliability or precision is the statistical spread of repeated measure- ments. Which factor is most important for the diagnostic usefulness?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The validity of the test",
       "The reliability of the test",
@@ -292,7 +262,6 @@
   {
     "question": "What is the sensitivity of a certain diagnostic test?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The probability of having a positive test if you are ill",
       "The probability of having a negative test if you are healthy",
@@ -303,25 +272,21 @@
   {
     "question": "A 50 year old man has no symptoms but with hypertension. Knowing that hypertension gives an increased risk of getting coronary disease, he is worried and wants a checkup for safety’s sake. He went to a private specialist centre in order to have a test, and had a stress echocardiography. The risk of having significant coronary disease in men without symtoms, but with hypertension at that age may be assumed to be 7%. Stress echo has a sensitivity of about 80%, and a specificity of 90%. This may be expressed in the following 4x4 table:\n<img src=\"images/6nhip.webp\" />\nWhat’s the accuracy of the test?",
     "answers": [1],
-    "exam": ".*",
     "options": ["90.0 %", "89.3 %", "88.8 %", "85.0 %"]
   },
   {
     "question": "A 50 year old man has no symptoms but with hypertension. Knowing that hypertension gives an increased risk of getting coronary disease, he is worried and wants a checkup for safety’s sake. He went to a private specialist centre in order to have a test, and had a stress echocardiography. The risk of having significant coronary disease in men without symtoms, but with hypertension at that age may be assumed to be 7%. Stress echo has a sensitivity of about 80%, and a specificity of 90%. This may be expressed in the following 4x4 table:\n<img src=\"images/2iplvu.webp\" />\nIf the test shows a positive result (meaning it indicates coronary disease), what is the positive predictive value of this test (the probability that he really is ill)?",
     "answers": [2],
-    "exam": ".*",
     "options": ["60.2 %", "8.3 %", "37.6 %", "17.5 %"]
   },
   {
     "question": "A 50 year old man has no symptoms but with hypertension. Knowing that hypertension gives an increased risk of getting coronary disease, he is worried and wants a checkup for safety’s sake. He went to a private specialist centre in order to have a test, and had a stress echocardiography. The risk of having significant coronary disease in men without symtoms, but with hypertension at that age may be assumed to be 7%. Stress echo has a sensitivity of about 80%, and a specificity of 90%. This may be expressed in the following 4x4 table:\n<img src=\"images/ytwzjb.webp\" />\nIf the test shows a negative result (meaning it doesn’t indicate coronary heart disease), what is the negative predictive value of the test (the probability that he really is healthy)?",
     "answers": [1],
-    "exam": ".*",
     "options": ["91.5%", "98.4%", "93.9%", "62.4%"]
   },
   {
     "question": "What is correct about excitation contraction coupling?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The action potential causes inflow of Na+ intracellularly, which binds to contractile proteins",
       "The action potential causes outflow of K+ extracellularly, which binds to membrane surface proteins",
@@ -332,7 +297,6 @@
   {
     "question": "A recent study from NTNU of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening rate per length unit) – 1.1 s-1To compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Limits of agreement",
       "Correlation",
@@ -343,7 +307,6 @@
   {
     "question": "<img src=\"images/ifkwk4.webp\" />\nIn this chest X-ray image we see an abnormal shadow that looks like a tumor (arrows). A solid tumor and In this chest X-ray image we see an abnormal shadow that looks like a tumor (arrows). A solid tumor and the heart have about the same X-ray density. What does it mean that we can see the contour of the heart through the tumor?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The shadow must have a different density from the heart, and ergo, is not a tumor.",
       "The possible tumor must lie outside the chest",
@@ -354,7 +317,6 @@
   {
     "question": "What is the reason Technetium can be used for imaging of so many different organs?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Because technetium is so reactive, it will react with molecules in most cells when injected",
       "Because Technetium emits so many different wavelengths, depending on the tissue composition, making it possible to select the wavelengths from different tissues with adjustment of the gamma camera",
@@ -365,7 +327,6 @@
   {
     "question": "In the situation called “fight or flight response” one part of the peripheral nervous system is activated even before action starts. Which?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The parasympathetic system",
       "The sympathetic system",
@@ -376,7 +337,6 @@
   {
     "question": "The association between hypertension (high blood pressure) and stroke was examined in a cohort study. The study showed that the relative risk of stroke was 3 among people with hypertension, compared with peo- ple without hypertension. What is the correct interpretation of this result?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "People with hypertension had a 3 times higher probability of getting a stroke, compared with people without hypertension.",
       "When people with hypertension got a stroke, they had a 3 times higher probability of dying from the disease, compared with people without hypertension.",

@@ -2,7 +2,6 @@
   {
     "question": "Hvordan sikres maksimal sentralnervøs fyring i styrketrening?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Markert stopp i ytterposisjon og maksimal mobilisering",
       "Gjennomfør repetisjonene så hurtig som mulig",
@@ -12,7 +11,6 @@
   {
     "question": "Blodstrømmen til kapillærene blokkeres fullstendig ved:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Ca 15 % av maksimalkraft",
       "Ca. 70 % av maksimalkraft",
@@ -22,7 +20,6 @@
   {
     "question": "Hva er viktigst for trening av maksimalt oksygenopptak?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Varighet",
       "Intensitet",
@@ -32,7 +29,6 @@
   {
     "question": "Bedret arbeidsøkonomi på en gitt belastning vises som:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Redusert oksygenopptak",
       "Økt oksygenopptak",
@@ -42,13 +38,11 @@
   {
     "question": "Hvis maksimal styrke (1-repetisjons maksimum) øker med 70% i 90 graders knebøy, hva vil du da forvente i en statisk (isometrisk) test?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0%", "50%", "20%"]
   },
   {
     "question": "Hvor stor framgang i maksimalt oksygenopptak er dokumentert på 70 åringer i løpet av 10 ukers trening, 3x pr uke?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2%", "13%", "40%"]
   }
 ]

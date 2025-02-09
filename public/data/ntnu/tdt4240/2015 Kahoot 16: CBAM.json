@@ -2,7 +2,6 @@
   {
     "question": "What is gained from doing a CBAM compared to doing an ATAM?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Economical analysis",
       "Less effort",
@@ -13,7 +12,6 @@
   {
     "question": "What is the ultimate resulting goal of doing a CBAM analysis?",
     "answers": [0, 3],
-    "exam": ".*",
     "options": [
       "Maximize gains",
       "Maximize risk",
@@ -24,19 +22,16 @@
   {
     "question": "In CBAM, A SET OF SCENARIOS are used by varying the values of...",
     "answers": [0],
-    "exam": ".*",
     "options": ["Responses", "Stimuli", "Trade-offs", "Utilities"]
   },
   {
     "question": "What is the total benefit obtained from architectural strategy 2? <img src=\"images/wfar98.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["600", "1050", "2225", "5000"]
   },
   {
     "question": "Which architectural strategy gives highest Value for Cost? <img src=\"images/0gedy9.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["1", "2", "3", "4"]
   }
 ]

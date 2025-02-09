@@ -2,7 +2,6 @@
   {
     "question": "What are the main elements in the definition of software architecture?",
     "answers": [0, 1, 2, 3],
-    "exam": ".*",
     "options": [
       "Set of structures",
       "Software elements",
@@ -13,31 +12,26 @@
   {
     "question": "Structures that can answer which CPUs software elements are executed on are named...",
     "answers": [0],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["Allocation", "Component-and-Connector", "Module", "None"]
   },
   {
     "question": "What TYPE of architectural pattern can this be classified as? <img src=\"images/a8buj2.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-connector", "Fictive", "Modular"]
   },
   {
     "question": "What pattern can be used to ensure a single instance of a class?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Abstract Factory", "Composite", "Observer", "Singleton"]
   },
   {
     "question": "What TYPE of architectural pattern can this be classified as? <img src=\"images/gnn16q.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-connector", "Fictive", "Modular"]
   },
   {
     "question": "The most important technical factor that contributes to the architecture is...",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Architect's experise",
       "Development tools",
@@ -48,19 +42,16 @@
   {
     "question": "What are the main influences of the stakeholders related to software architectures?",
     "answers": [0, 2, 3],
-    "exam": ".*",
     "options": ["Business", "Programming Language", "Project", "Technical"]
   },
   {
     "question": "Structures that can answer what parts of the system can run in parallel are...",
     "answers": [1],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-Connector", "Module", "None"]
   },
   {
     "question": "A quality attribute scenario is used to describe...",
     "answers": [1],
-    "exam": "2015 Kahoot 17: Summary",
     "options": [
       "Quality assurance",
       "Quality requirements",
@@ -71,7 +62,6 @@
   {
     "question": "What parameters are typically used in performance models?",
     "answers": [0, 1, 3],
-    "exam": ".*",
     "options": [
       "Arrival rate",
       "Network bandwidth",
@@ -82,13 +72,11 @@
   {
     "question": "What view is most relevant for the end user? (4+1 view model)",
     "answers": [1],
-    "exam": ".*",
     "options": ["Development", "Logical", "Process", "Physical"]
   },
   {
     "question": "What is important for getting a good object-oriented design?",
     "answers": [0, 1, 3],
-    "exam": "2015 Kahoot 17: Summary",
     "options": [
       "Abstraction/generalization",
       "Delegation",
@@ -99,7 +87,6 @@
   {
     "question": "What do you call a collection of patterns that build on each other to generate a system?",
     "answers": [2],
-    "exam": "2015 Kahoot 17: Summary",
     "options": [
       "Architectural Pattern",
       "Idioms",
@@ -110,25 +97,21 @@
   {
     "question": "What Type of architectural pattern has been used here? <img src=\"images/c0tacc.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-connector", "Fictive", "Modular"]
   },
   {
     "question": "Important keywords related to the description of a design pattern are...",
     "answers": [0, 1, 3],
-    "exam": ".*",
     "options": ["Context", "Problem", "Programming language", "Solution"]
   },
   {
     "question": "A safe architectural design decision is named:",
     "answers": [0],
-    "exam": ".*",
     "options": ["Non-risk", "Risk", "Sensitivity point", "Tradeoff point"]
   },
   {
     "question": "What analysis models exist for Usability?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Conceptual frameworks",
       "Markov models",
@@ -139,19 +122,16 @@
   {
     "question": "Which structures from the textbook can be classified as allocation structures?",
     "answers": [1, 3],
-    "exam": ".*",
     "options": ["Data model", "Implementation", "Uses", "Work assignment"]
   },
   {
     "question": "What view has the main focus on non-functional requirements such as availability & scalability?",
     "answers": [2, 3],
-    "exam": ".*",
     "options": ["Development", "Logical", "Process", "Physical"]
   },
   {
     "question": "What analysis models exist for Performance?",
     "answers": [2, 3],
-    "exam": ".*",
     "options": [
       "Conceptual frameworks",
       "Component interaction metrics",
@@ -162,19 +142,16 @@
   {
     "question": "What types of views are described in the textbook?",
     "answers": [0, 1, 3],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["Allocation", "Component-and-connector", "Dynamic", "Module"]
   },
   {
     "question": "Description of patterns specific to a programming language is called...",
     "answers": [2],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
   },
   {
     "question": "How can an architecture affect business goals of a system?",
     "answers": [0, 2],
-    "exam": ".*",
     "options": [
       "Add value",
       "Support cloud computing",
@@ -185,25 +162,21 @@
   {
     "question": "Description of fundamental structural organization or schema for software systems is called...",
     "answers": [0],
-    "exam": ".*",
     "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
   },
   {
     "question": "What pattern can be used to ensure that single and multiple objects can be treated similarly?",
     "answers": [1],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["Abstract Factory", "Composite", "Singleton", "Template Method"]
   },
   {
     "question": "In what view can ER-modeling typically be used? (4+1 view model)",
     "answers": [1],
-    "exam": ".*",
     "options": ["Development", "Logical", "Physical", "Scenario"]
   },
   {
     "question": "What questions do ATAM produce answers to?",
     "answers": [0, 2],
-    "exam": ".*",
     "options": [
       "Is the architecture suitable?",
       "Which architecture is best?",
@@ -214,13 +187,11 @@
   {
     "question": "Structures that allow reasoning about how primary functionality is assigned to units are named:",
     "answers": [2],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-Connector", "Module", "None"]
   },
   {
     "question": "What is this? <img src=\"images/l57v9n.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Risk themes",
       "Sensitivity points",
@@ -231,25 +202,21 @@
   {
     "question": "What pattern can be used to implement/maintain several almost identical pieces of code?",
     "answers": [3],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["Abstract Factory", "Composite", "Observer", "Template Method"]
   },
   {
     "question": "What pattern can be used to ensure that a change of one object influences other objects?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Abstract Factory", "Composite", "Observer", "Template Method"]
   },
   {
     "question": "A decision that will affect two or more fighting quality attributes is named:",
     "answers": [3],
-    "exam": ".*",
     "options": ["Non-risk", "Risk", "Sensitivity point", "Tradeoff point"]
   },
   {
     "question": "Tactics are in a software architecture context...",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Architectural design process",
       "Architectural patterns",
@@ -260,7 +227,6 @@
   {
     "question": "How can you implement variation points for software product line in code?",
     "answers": [1, 2],
-    "exam": ".*",
     "options": [
       "Client-server pattern",
       "Generalization",
@@ -271,7 +237,6 @@
   {
     "question": "Modeling of architecture for availability is typically carried out for determining...",
     "answers": [0, 2],
-    "exam": ".*",
     "options": [
       "Failure rates",
       "Latency",
@@ -282,19 +247,16 @@
   {
     "question": "How is the scoping of the variation points in the software product line for this scenario? \"Have you developed something on our software product line?\" \"Yeah I tried. The software product line did not help much. Had to implement most of it from scratch!\"",
     "answers": [2],
-    "exam": ".*",
     "options": ["Just right", "Too narrow", "Too broad", "No scope"]
   },
   {
     "question": "What adoption strategy for software product lines is used in this company? Bill Gates: \"When I started my company, I decided that we should go for a software product line from day one!\"",
     "answers": [1, 3],
-    "exam": ".*",
     "options": ["Bottom-up", "Proactive", "Reactive", "Top-down"]
   },
   {
     "question": "What analysis models exist for Availability?",
     "answers": [2, 3],
-    "exam": "2015 Kahoot 17: Summary",
     "options": [
       "Coupling metrics",
       "Cost models",
@@ -305,19 +267,16 @@
   {
     "question": "The term for a representation of a coherent set of architectural elements is...",
     "answers": [3],
-    "exam": ".*",
     "options": ["Architecture", "Module", "Structure", "View"]
   },
   {
     "question": "What view represents an abstraction of the most important requirements? (4+1 view model)",
     "answers": [3],
-    "exam": ".*",
     "options": ["Development", "Logical", "Process § Scenario"]
   },
   {
     "question": "What is the TA in ATAM an abbreviation for?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Testability Attributes",
       "Testability Analysis",
@@ -328,7 +287,6 @@
   {
     "question": "What are typical outputs of the ATAM?",
     "answers": [0, 2, 3],
-    "exam": ".*",
     "options": [
       "Concise architecture",
       "Cost/benefit analysis",
@@ -339,13 +297,11 @@
   {
     "question": "A decision that will affect only one quality attribute is named:",
     "answers": [2],
-    "exam": ".*",
     "options": ["Non-risk", "Risk", "Sensitivity point", "Tradeoff point"]
   },
   {
     "question": "What are typical outputs of the ATAM?",
     "answers": [0, 1, 2],
-    "exam": ".*",
     "options": [
       "Set of nonrisks",
       "Set of risks",
@@ -356,7 +312,6 @@
   {
     "question": "What is this? <img src=\"images/xwu69d.webp\"/>",
     "answers": [0],
-    "exam": "2015 Kahoot 17: Summary",
     "options": [
       "Analysis of architectural approaches",
       "Quality replication",
@@ -367,7 +322,6 @@
   {
     "question": "What are typical outputs of the ATAM?",
     "answers": [2, 3],
-    "exam": ".*",
     "options": [
       "Initial system implementation",
       "Project plan",
@@ -378,7 +332,6 @@
   {
     "question": "What is gained from doing a CBAM compared to doing an ATAM?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Economical analysis",
       "Simpler architecture",
@@ -389,37 +342,31 @@
   {
     "question": "Which architectural strategy should be chosen from the numbers? <img src=\"images/13c6tp.webp\"/>",
     "answers": [1],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["1", "2", "3", "4"]
   },
   {
     "question": "What adoption strategy for software product lines is used in this company? \"In our company, the programmers were tired creating all these products from scratch. So we decided to do a software product line!\"",
     "answers": [0, 2],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["Bottom-up", "Proactive", "Reactive", "Top-down"]
   },
   {
     "question": "Categorize the following characteristic: \"Support multi-tenancy\"",
     "answers": [0],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["Cloud", "Not cloud"]
   },
   {
     "question": "How is the scoping of the following scenario? \"Have you now developed something on our <b>new</b> software product line? Isn't it good?\" \"Well... This time I tried to implement three new products, but only one fitted into the software product line. Bummer!\"",
     "answers": [0],
-    "exam": ".*",
     "options": ["Too narrow", "Just right", "Too broad", "No scope"]
   },
   {
     "question": "Categorize the following characteristic: \"HDFS file system\"",
     "answers": [0],
-    "exam": ".*",
     "options": ["Cloud", "Not cloud"]
   },
   {
     "question": "What is the main characteristic from an Edge dominant system?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Many users",
       "Depend on input from users",
@@ -430,25 +377,21 @@
   {
     "question": "Categorize the following characteristic: \"Heterogeneous clients\"",
     "answers": [1],
-    "exam": ".*",
     "options": ["Not cloud", "Cloud"]
   },
   {
     "question": "What is the term that describes people who both produce and consume content?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Prosumers", "Conproders", "Cores", "Edgers"]
   },
   {
     "question": "Categorize the following characteristic: \"Private hardware\"",
     "answers": [1],
-    "exam": ".*",
     "options": ["Cloud", "Not cloud"]
   },
   {
     "question": "What is important when designing the architecture for the CORE of an Edge dominant system?",
     "answers": [0, 2],
-    "exam": ".*",
     "options": [
       "Highly modular",
       "Provide many services",
@@ -459,13 +402,11 @@
   {
     "question": "Categorize the following characteristic: \"FAT file system\"",
     "answers": [0],
-    "exam": ".*",
     "options": ["Not cloud", "Cloud"]
   },
   {
     "question": "Requirements in Edge dominant systems are usually established from...",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Interviews",
       "Talking to customers",
@@ -476,7 +417,6 @@
   {
     "question": "What is the total benefit obtained from architectural strategy 2? <img src=\"images/dygp3m.webp\"/>",
     "answers": [1],
-    "exam": "2015 Kahoot 17: Summary",
     "options": ["600", "1050", "2225", "5000"]
   }
 ]

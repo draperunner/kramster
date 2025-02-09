@@ -2,7 +2,6 @@
   {
     "question": "Gitt følgende verdier: D1 = 0, D2 = 0, D3 = 1, D4 = 1, H1 = 1, H2 = 1, H3 = 0. Koden har også et ekstra bit, H4=0 (ikke vist på figuren), slik at koden kan brukes til å detektere dobbeltbitfeil. Hvilket utsagn er riktig?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Bit D1 er feil.",
       "Bit D2 er feil.",
@@ -14,7 +13,6 @@
   {
     "question": "Gitt følgende verdier: D1 = 1, D2 = 1, D3 = 1, D4 = 1, H1 = 0, H2 = 1, H3 = 0. Hvilket utsagn er da riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bit D1 er feil.",
       "Bit D2 er feil.",
@@ -26,7 +24,6 @@
   {
     "question": "Hva er fordelen ved å bruke Hamming-kode fremfor bruk av paritetsbit?",
     "answers": [4, 3],
-    "exam": ".*",
     "options": [
       "Den er enklere å beregne",
       "Den kan brukes til å detektere enkeltbit-feil",
@@ -42,7 +39,6 @@
   {
     "question": "Hva er et paritetsbit?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Et bit man bruker for å bestemmer om tallet er et oddetall eller et partall. 0 for partall og 1 for odde.",
       "Et bit man bruker for å sjekke at innholdet er riktig i forholdt til om man skal ha et oddetall eller et partall. Metoden fungerer alltid.",

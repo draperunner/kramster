@@ -2,7 +2,6 @@
   {
     "question": "I kompendiet hevdes det at følgende elementer er sentrale komponenter i en forretningsmodell:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Strategic resources, revenue streams, marketing and accounting.",
       "Core strategy, strategic resources, partnership network and customer interface",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "I tidlig fase vil bankene som regel være den viktigste finansieringskilden.",
       "I Norge er finansiering sjelden et problem siden vi har så gode offentlige virkemidler.",
@@ -24,7 +22,6 @@
   {
     "question": "En mulighetsanalyse bør inneholde:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Stor vekt på grundige økonomianalyser.",
       "En innledende vurdering av tekniske, markedsmessige, organisatoriske og økonomiske forhold knyttet til ideen",
@@ -35,7 +32,6 @@
   {
     "question": "Venturekapitalister kan i mange tilfeller bidra med mer enn finanskapital for å utvikle nye teknologibedrifter. Hvilken av fordelene nevnt under blir normalt IKKE tilbudt av venturekapitalister?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Tilgang til relevante markedskanaler",
       "Økt legitimitet og tilgang til et større nettverk",
@@ -46,7 +42,6 @@
   {
     "question": "I kompendiet beskrives tre ulike typer forretningsplaner. Hvilke?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Internal business plan, external business plan and investment proposal.",
       "Full business plan, operational business plan and summary business plan",
@@ -57,7 +52,6 @@
   {
     "question": "Det finnes fire ulike læringssystemer for innovasjon som alle baserer seg en eller flere former for læring. Tre av læringssystemene baserer seg på taus kunnskap, enten i seg selv eller forsøk på å gjøre taus kunnskap eksplisitt. Hvilket læringssystem baserer seg utelukkende på eksplisitt kunnskap?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Fremkommende strategier. (Systems for crafting strategy)",
       "Verdiskapning (System for delivering value).",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken av påstandene under beskriver en forskjell mellom en integrasjonsrolle og en koordinatorrolle?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Integrasjonsrollen er lokalisert utenfor organisasjonsenhetene som koordineres.",
       "En koordinatorrolle er en mer kompleks integrasjonsmekanisme.",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken av de fire påstandene under beskriver en fordel med matrisestrukturer?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Konflikter om ressursfordeling er redusert.",
       "Konsernstaben fører tilsyn med prosjektteamene.",
@@ -90,7 +82,6 @@
   {
     "question": "Hvilken av følgende motivasjonsteorier er opptatt av at resultatene den enkelte får oppfattes å stå i forhold til den input en har bidratt med?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Rettferdighetsteori.",
       "Samsvarsteori.",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilken av påstandene om personlighetstrekket nevrotisisme er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Nevrotisisme reflekterer tendensen til å oppleve positive følelser for et individ.",
       "Nevrotisisme beskriver personer som ikke klarer å motivere seg til å gjøre kjedelige oppgaver som å ta oppvasken, selv om de vet det burde vært gjort.",
@@ -112,13 +102,11 @@
   {
     "question": "En bedrift har totale kostnader, TC, gitt av TC = 80Q + 1 000, der Q er produsert mengde. Hva er bedriftens marginalkostnader?",
     "answers": [3],
-    "exam": ".*",
     "options": ["80 + 1000/Q", "80/Q", "1 000", "80"]
   },
   {
     "question": "Hva blir de variable kostnadene, VC, og gjennomsnittskostnadene, AC, for bedriften som har totalkostnader TC, gitt av TC = 80Q + 1 000, der Q er produsert mengde?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "VC = 80Q, AC = 80 + 1000/Q",
       "VC = 80, AC = 1000/Q",
@@ -129,7 +117,6 @@
   {
     "question": "Hva er en korrekt tolkning av begrepet marginalinntekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Prosentvis endring i inntekt pr prosentvis endring i mengde.",
       "Inntekten på den ekstra enheten som selges minus tapt inntekt på grunn av prisreduksjon på eksisterende mengde.",
@@ -140,7 +127,6 @@
   {
     "question": "Etterspørselen etter et gode kan skrives som Q = a - bP der Q er mengden, P er prisen og a og b er strengt positive konstanter. Ved hvilken mengde, Q, går skillet mellom uelastisk og elastisk etterspørsel, og på hvilken side er da etterspørselen elastisk?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Skillet går ved Q = a/2, og etterspørselen er elastisk for Q < a/2.",
       "Skillet går ved Q = a/2, og etterspørselen er elastisk for Q > a/2.",
@@ -151,19 +137,16 @@
   {
     "question": "I et marked selger veldig mange bedrifter et produkt som er homogent slik at kjøperne ikke bryr seg om hvilken bedrift som har produserte det. Alle bedriftene har marginalkostnader som øker med økende produksjon. Dersom vi summerer alle mengdene for hver marginalkostnad, får vi industriens marginalkostnadskurve. Den er gitt som følger: MC = 1 000 + 0,01Q. Q er total mengde produsert i industrien. Etterspørselen i markedet kan uttrykkes som P = 100 000 - 0,1Q der Q er total etterspurt mengde og P er markedsprisen. Hva blir omsatt mengde i markedet?",
     "answers": [2],
-    "exam": ".*",
     "options": ["10 000", "100 000", "900 000", "1 000 000"]
   },
   {
     "question": "Et monopol har totalkostnader gitt av TC = 4000Q + 15 000 000 der Q er produsert mengde. Etterspørselen er gitt ved Q = 20 000 - 2P, der Q er mengden og P er prisen. Hva blir profitten ved optimal tilpasning?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0", "3 000 000", "6 000 000", "12 000 000"]
   },
   {
     "question": "Gitt normal etterspørsel og normal kostnadsstruktur, hvilken betingelse må være tilfredsstilt for at det samfunnsøkonomiske overskuddet skal være maksimalt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Produsentoverskuddet er null.",
       "Konsumentoverskuddet er lik produsentoverskuddet.",
@@ -174,13 +157,11 @@
   {
     "question": "I et duopolmarked tilpasser bedriftene seg i tråd med den såkalte Cournot-modellen. Etterspørselen i markedet kan skrives som P = 100 - Q, der P er prisen og Q er mengden. Begge bedriftene har marginalkostnader på 40. Hva blir total mengde, Q, i markedet ved likevekt?",
     "answers": [1],
-    "exam": ".*",
     "options": ["20", "40", "60", "80"]
   },
   {
     "question": "En gammel tommelfingerregel går ut på at likviditetsgrad 1 bør være minst 2 og at likviditetsgrad 2 bør være minst 1. Hva må være tilfellet for at likviditetsgrad 1 skal vær lik 2 samtidig som likviditetsgrad 2 er lik 1?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Mest likvide omløpsmidler må være det dobbelte av kortsiktig gjeld.",
       "Mest likvide omløpsmidler må være halvparten av kortsiktig gjeld.",
@@ -191,13 +172,11 @@
   {
     "question": "En bedrift har like mye gjeld som egenkapital slik at gjeldsandelen er 50 %. Hva er da bedriftens gjeldsgrad?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0,5", "1,0", "1,5", "2,0"]
   },
   {
     "question": "I investeringsanalyse er prinsippet om at penger har en tidsverdi sentralt og danner grunnlaget for nåverdiberegninger. Hva er den beste forklaring på dette prinsippet når det anvendes på generelle investeringer?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Tidsverdien reflekterer at inflasjon reduserer pengeverdi over tid.",
       "Tidsverdien reflekterer at ettersom inntektsnivået i samfunnet øker, blir penger mindre verdt for den enkelte.",
@@ -208,19 +187,16 @@
   {
     "question": "Hva er nåverdien av å få 5 000 000 om fire år når avkastningskravet er 10 % pr år?",
     "answers": [3],
-    "exam": ".*",
     "options": ["4 545 455", "4 132 231", "3 756 574", "3 415 067"]
   },
   {
     "question": "Et prosjekt innebærer en investering på 12 000 000 nå. Om ett år kommer en positiv kontantstrøm på 20 000 000 med sannsynlighet 60 % eller 5 000 000 med sannsynlighet 40 %. Dersom risikojustert avkastningskrav er 12 %, hva blir nettonåverdien til prosjektet?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0", "250 000", "500 000", "2 000 000"]
   },
   {
     "question": "For et selskap er verdi av gjeld <math><mi>D</mi></math> og verdi av egenkapital <math><mi>E</mi></math>. Avkastningene for gjeld og egenkapital er henholdsvis <math><msub><mi>r</mi><mi>D</mi></msub></math> og <math><msub><mi>r</mi><mi>E</mi></msub></math>. Avkastning på aktiva er <math><msub><mi>r</mi><mi>A</mi></msub></math>. Hvilken sammenheng gjelder mellom disse størrelsene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>r</mi><mi>A</mi></msub><mo>-</mo><msub><mi>r</mi><mi>D</mi></msub><mo>)</mo></math>",
       "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><msub><mi>r</mi><mi>D</mi></msub><mo>)</mo></math>",
@@ -231,7 +207,6 @@
   {
     "question": "I kapitalverdimodellen, CAPM, er en størrelse kalt beta sentral. Hva uttrykker den?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Investeringens beta uttrykker hvor store utslag markedsavkastning tenderer til å gi for avkastningen til investeringen, slik at beta på 2 tilsier at når markedet går opp eller ned med 1 % tenderer investeringen til å gå opp eller ned med 2 %.",
       "Investeringens beta uttrykker andelen diversifiserbar risiko, slik at en beta på 2 tilsier at halvparten av totalrisikoen er diversifiserbar.",
@@ -242,13 +217,11 @@
   {
     "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), gir en sammen­heng mellom størrelsen kalt beta, forventet avkastning på en investering, risikofri avkastning og forventet avkastning i markedet. Anta at beta for en aksje er 0,5. Forventet markedsavkastning er 8 % og risikofri rente er 2 %. Hva blir da forventet avkastning for aksjen i følge CAPM?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2,0 %", "5,0 %", "8,0 %", "10,0 %"]
   },
   {
     "question": "Hva er den mest korrekte beskrivelsen av diversifiseringseffekten?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Diversifisering innebærer at markedsrisikoen (og dermed også beta) til en portefølje blir lavere enn det veide gjennomsnittet av markedsrisikoene til enkeltinvesteringene gitt at de ikke er perfekt korrelerte.",
       "Diversifisering innebærer at risikoen til en portefølje blir lavere enn det veide gjennomsnittet av risikoene til enkeltinvesteringene gitt at de ikke er perfekt positivt korrelerte.",
@@ -259,19 +232,16 @@
   {
     "question": "Renten på gjelden til et selskap er 4 %. Selskapsskattesatsen er 25 %, og selskapet betaler selskapsskatt alle år. Hvis gjelden et gitt år er på 1 milliard gjennom hele året, hva blir skattefordelen av gjeld dette året?",
     "answers": [0],
-    "exam": ".*",
     "options": ["10 millioner", "20 millioner", "25 millioner", "40 millioner"]
   },
   {
     "question": "Markedsverdien av egenkapitalen til et selskap er 2 milliarder og selskapet har gjeld på 3 milliarder. Forventet avkastning på selskapets aksjer er 10 % og avkastningen på gjelden er 6 %. Selskapsskattesatsen er 28 %. Hva blir WACC, det vil si totalkapitalens forventede avkastning etter skatt?",
     "answers": [1],
-    "exam": ".*",
     "options": ["5,7 %", "6,6 %", "7,5 %", "10,0 %"]
   },
   {
     "question": "Et prosjekt skal finansieres med en kombinasjon av gjeld og egenkapital. I nettonå­ver­di­beregningen skal forventet kontantstrøm diskonteres med WACC, dvs. totalkapitalens avkastningskrav etter skatt. Selskapsskattesatsen er 25 %. Første periode etter investeringen forventes en netto driftsinntekt på 30 000 000, gjeldsrenter på 10 000 000 og skatt på 5 000 000, slik at regnskapsført overskudd etter skatt blir 15 000 000. Hvilken kontantstrøm skal legges inn i nettonåverdiberegningen for denne perioden?",
     "answers": [2],
-    "exam": ".*",
     "options": ["30 000 000", "25 000 000", "22 500 000", "15 000 000"]
   }
 ]

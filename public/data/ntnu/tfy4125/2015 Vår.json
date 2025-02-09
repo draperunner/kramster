@@ -2,7 +2,6 @@
   {
     "question": "En BMW kjører 30 m bak en traktor og begge kjører i 30 km/t. På en oversiktlig strekning trykker BMWen inn gasspedalen (ved <math><mi>t</mi><mo>=</mo><mn>0</mn></math>) slik at bilen får en akselerasjon på <math><mi>a</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>3.0</mn><mo>&#x2009;</mo><mfrac><mi>m</mi><msup><mi>s</mi><mn>3</mn></msup></mfrac><mo>)</mo><mi>t</mi><mo>-</mo><mo>(</mo><mn>0.2</mn><mo>&#x2009;</mo><mfrac><mi>m</mi><msup><mi>s</mi><mn>4</mn></msup></mfrac><mo>)</mo><msup><mi>t</mi><mn>2</mn></msup></math>. Hvor lang tid tar det før BMWen er på siden av traktoren? (Hint: Du klarer kanskje ikke å regne ut svaret direkte men kan finne et uttrykk hvor du kan sjekke hvilket alternativ som er riktig).",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mn>3.4</mn><mo>&#x2009;</mo><mi>s</mi></math>",
       "<math><mn>3.8</mn><mo>&#x2009;</mo><mi>s</mi></math>",
@@ -14,7 +13,6 @@
   {
     "question": "Lionel Messi sparker en ball slik at den får en utgangfart på <math><mn>12.0</mn><mo>&#x2009;</mo><mfrac><mi>m</mi><mi>s</mi></mfrac></math> og en retning 40 grader over horisontalen. Hvor lang tid tar det før ballen lander (se bort fra luftmotstand)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mn>1.6</mn><mo>&#x2009;</mo><mi>s</mi></math>",
       "<math><mn>2.1</mn><mo>&#x2009;</mo><mi>s</mi></math>",
@@ -26,7 +24,6 @@
   {
     "question": "Mars har en masse <math><msub><mi>m</mi><mi>m</mi></msub><mo>=</mo><mn>623</mn><mo>&#xD7;</mo><msup><mo>10</mo><mn>21</mn></msup><mi>kg</mi></math> og er i en avstand <math><mi>r</mi><mo>=</mo><mn>228</mn><mo>&#xD7;</mo><msup><mo>10</mo><mn>9</mn></msup><mi>m</mi></math> fra sola som har en masse <math><msub><mi>m</mi><mi>s</mi></msub><mo>=</mo><mn>1.99</mn><mo>&#xD7;</mo><msup><mo>10</mo><mn>30</mn></msup><mi>kg</mi></math>. Hvor mange dager er et år på Mars (altså hvor lang tid bruker den på å rotere en gang rundt sola)? Anta en sirkulær bane.",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>542</mn></math>",
       "<math><mn>687</mn></math>",
@@ -38,7 +35,6 @@
   {
     "question": "Du dytter en kloss med masse <math><mi>m</mi><mo>=</mo><mn>1.0</mn><mo>&#x2009;</mo><mi>kg</mi></math> bortover et bord med konstant hastighet. Friksjonskoeffisienten er <math><mi>&#x03BC;</mi><mo>=</mo><mn>0.20</mn></math>. Med hvilken kraft virker klossen på hånden din (anta <math><mi>f</mi><mo>=</mo><mi>&#x03BC;</mi><mi>N</mi></math>)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mn>2.0</mn><mo>&#x2009;</mo><mi>N</mi></math>",
       "<math><mn>4.0</mn><mo>&#x2009;</mo><mi>N</mi></math>",
@@ -50,7 +46,6 @@
   {
     "question": "Vi har to partikler, <math><msub><mi>Q</mi><mn>1</mn></msub></math> og <math><msub><mi>Q</mi><mn>2</mn></msub></math>, begge med ladning <math><mn>2.0</mn><mo>&#x2009;</mo><mi>&#x03BC;</mi><mi>C</mi></math>. Ladning <math><msub><mi>Q</mi><mn>2</mn></msub></math> beveger seg fra et punkt A som ligger på en sirkel med radius <math><msub><mi>r</mi><mn>1</mn></msub><mo>=</mo><mn>1.0</mn><mo>&#x2009;</mo><mi>m</mi></math>, sentrert på <math><msub><mi>Q</mi><mn>1</mn></msub></math>, til et punkt B som ligger på en sirkel med radius <math><msub><mi>r</mi><mn>2</mn></msub><mo>=</mo><mn>3.0</mn><mo>&#x2009;</mo><mi>m</mi></math>, sentrert på <math><msub><mi>Q</mi><mn>1</mn></msub></math> som vist i figuren. Hva er endringen i potensiell energi for <math><msub><mi>Q</mi><mn>2</mn></msub></math> fra punkt A til punkt B? <img src=\"images/lo3ekv.webp\"/>",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<math><mn>3.3</mn><mo>&#x2009;</mo><mi>mJ</mi></math>",
       "<math><mn>6.2</mn><mo>&#x2009;</mo><mi>mJ</mi></math>",
@@ -62,7 +57,6 @@
   {
     "question": "To klosser med samme fart og masse kolliderer med hverandre og fortsetter som ett objekt. Klossene beveger seg før sammenstøtet <math><mn>90</mn><mo>&#xb0;</mo></math> på hverandre. Hva blir forholdet <math><mfrac><msub><mi>K</mi><mn>2</mn></msub><msub><mi>K</mi><mn>1</mn></msub></mfrac></math> mellom den totale kinetiske energien før støtet, <math><msub><mi>K</mi><mn>1</mn></msub></math> og etter støtet, <math><msub><mi>K</mi><mn>2</mn></msub></math>?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
       "<math><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></math>",
@@ -74,7 +68,6 @@
   {
     "question": "En ball med masse <math><mi>m</mi><mo>=</mo><mn>0.5</mn></math> kg faller mot bakken fra en høyde på <math><mn>2.0</mn></math> m og spretter opp til en høyde på <math><mn>1.6</mn></math> m. Hva er impulsen på ballen i støtet mot bakken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>3.5</mn><mo>&#x2009;</mo><mi>kg</mi><mo>&#x2009;</mo><mfrac><mi>m</mi><mi>s</mi></mfrac></math>",
       "<math><mn>5.9</mn><mo>&#x2009;</mo><mi>kg</mi><mo>&#x2009;</mo><mfrac><mi>m</mi><mi>s</mi></mfrac></math>",
@@ -86,7 +79,6 @@
   {
     "question": "En kloss med masse <math><mi>m</mi><mo>=</mo><mn>2.0</mn></math> kg er festet mellom to fjærer med samme fjærkonstant <math><mi>k</mi><mo>=</mo><mn>3.0</mn><mo>&#x2009;</mo><mfrac><mi>N</mi><mi>m</mi></mfrac></math> og beveger seg på et friksjonsfritt underlag. Hva blir svingefrekvensen til systemet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mn>0.28</mn><mo>&#x2009;</mo><mi>Hz</mi></math>",
       "<math><mn>0.48</mn><mo>&#x2009;</mo><mi>Hz</mi></math>",
@@ -98,7 +90,6 @@
   {
     "question": "Du gjennomfører et eksperiment hvor du lar en kloss skli ned et skråplan som har en vinkel på 45° (anta eksakt) over horisontalen, og måler tiden det tar for klossen, som starter fra ro, å skli ned 1,000 m ± 0,005 m. Du finner at tiden det tar er 1,3 s ± 0,2 s. Fra Newtons andre lov finner du at <math display=\"block\"><mi>μ</mi><mo>=</mo><mo>tan</mo><mo>⁡</mo><mi>θ</mi><mo>-</mo><mfrac><mrow><mn>2</mn><mi>s</mi></mrow><mrow><mi>g</mi><msup><mi>t</mi><mn>2</mn></msup><mo>cos</mo><mi>θ</mi></mrow></mfrac></math> Hva blir usikkerheten i friksjonskoeffisienten <math><mi>μ</mi></math> med disse målingene (anta <math><mi>g</mi><mo>=</mo><mn>9.81</mn><mo> </mo><mtext>m/s²</mtext></math>, eksakt)? Bruk Gauss feilforplantningslov (usikkerheten <math><msub><mi>Δ</mi><mi>y</mi></msub></math> i en variabel <math><mi>y</mi></math> er angitt som <math><mi>y</mi><mo>±</mo><msub><mi>Δ</mi><mi>y</mi></msub></math>).",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>",
       "<math><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>",
@@ -110,7 +101,6 @@
   {
     "question": "For at en kule skal trille rent (uten å skli) nedover et skråplan må det være en viss friksjon f som gir kulen et\ndreiemoment. Om vi bytter ut en kompakt kule med med en kule som består av et tynt skal men med samme masse\nog radius så vil denne kraften (på samme skråplan)",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "øke.",
       "minke.",
@@ -122,7 +112,6 @@
   {
     "question": "Anta at vi har en kompakt kule med masse <math><mi>m</mi></math> og radius <math><mi>R</mi></math> som ruller ned et skråplan med vinkel <math><mi>θ</mi></math>. Hvor stor må friksjonskoeffisienten være for å få ren rulling, uten å skli? Treghetsmomentet til en kompakt kule er gitt av <math><mi>I</mi><mo>=</mo><mi>γ</mi><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></math>.",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<math><mi>μ</mi><mo>=</mo><mfrac><mrow><mi>γ</mi><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup><mo>sin</mo><mi>θ</mi></mrow><mrow><mn>1</mn><mo>+</mo><mo>cos</mo><mi>θ</mi></mrow></mfrac></math>",
       "<math><mi>μ</mi><mo>=</mo><mfrac><mrow><mi>m</mi><mi>R</mi><mo>cos</mo><mi>θ</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>m</mi><mi>R</mi></mrow></mfrac></math>",
@@ -134,13 +123,11 @@
   {
     "question": "Tre ladninger er plassert i hjørnene på et likesidet triangel. To av ladningene har ladning q. Hva må ladningen på den\nsiste ladningen være for at den elektriske feltstyrken i sentrum av triangelet skal være null?",
     "answers": [1],
-    "exam": ".*",
     "options": ["-q", "q", "2q", "3q", "Umulig å få til."]
   },
   {
     "question": "Et elektrisk felt er gitt av <math><mrow><mi>𝔼</mi><mo>=</mo><mrow><mo>(</mo><mn>3</mn><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mn>3</mn><mover><mi>j</mi><mo>^</mo></mover><mo>)</mo></mrow><mi>V</mi><mo> </mo><msup><mi>m</mi><mo>-1</mo></msup></mrow></math>. Langs hvilken av følgende retninger endrer potensialet seg minst som funksjon av posisjon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mover><mi>i</mi><mo>^</mo></mover><mo>-</mo><mover><mi>j</mi><mo>^</mo></mover></math>",
       "<math><mo>-</mo><mover><mi>i</mi><mo>^</mo></mover><mo>-</mo><mover><mi>j</mi><mo>^</mo></mover></math>",
@@ -152,7 +139,6 @@
   {
     "question": "I en <math><mn>10</mn></math> m lang ledning går det en strøm på <math><mn>16.0</mn></math> A. Ledningen har et tverrsnitt på <math><mn>2.5</mn></math> mm<sup>2</sup> og er laget av kobber som har en resistivitet på <math><mi>ρ</mi><mo>=</mo><mn>1.8</mn><mo>×</mo><msup><mn>10</mn><mn>8</mn></msup><mo>Ω</mo><mi>m</mi></math>. Hvor stor effekt blir dissipert i ledningen?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mn>1.2</mn><mo>W</mo></math>",
       "<math><mn>5.4</mn><mo>W</mo></math>",
@@ -164,7 +150,6 @@
   {
     "question": "En partikkel med ladning <math><mi>q</mi><mo>=</mo><mn>4.0</mn><mo>&#xB5;</mo><mi>C</mi></math> beveger seg med banefart <math><mi>v</mi><mo>=</mo><mn>10</mn><mi>m</mi><msup><mi>s</mi><mo>-1</mo></msup></math> i en sirkulær bane med radius <math><mi>r</mi><mo>=</mo><mn>2.0</mn><mi>mm</mi></math>. Hva blir det magnetiske feltet i sentrum av sirkelen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>0.56</mn><mo>&#xB5;</mo><mi>T</mi></math>",
       "<math><mn>1.0</mn><mo>&#xB5;</mo><mi>T</mi></math>",
@@ -176,7 +161,6 @@
   {
     "question": "En strømsløyfe ligger i ro xy-planet (se figur 1). Et homogent magnetfelt peker i negativ z-retning (inn i planet i\nfiguren). En konstant strøm I går i sløyfen som angitt i figuren. Hvilket av følgende utsagn er sanne?\n<img src=\"images/xmtnkw.webp\"/>",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Sløyfen vil rotere slik at punkt A beveger seg ut av planet.",
       "Sløyfen vil rotere slik at punkt B beveger seg ut av planet.",
@@ -188,7 +172,6 @@
   {
     "question": "Magnetfeltet i en strømsløyfe med areal <math><mi>A</mi><mo>=</mo><mn>1.0</mn><msup><mi>m</mi><mn>2</mn></msup></math> er uniformt og vinkelrett på arealet omsluttet av sløyfen. Feltet endrer seg som <math><mi>B</mi><mo>=</mo><mo>(</mo><mn>3.0</mn><mi>T</mi><msup><mi>s</mi><mo>-1</mo></msup><mo>)</mo><mi>t</mi></math>. Hva blir absoluttverdien av den genererte elektromotoriske spenningen i sløyfen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>2.1</mn><mi>V</mi></math>",
       "<math><mn>3.0</mn><mi>V</mi></math>",
@@ -200,7 +183,6 @@
   {
     "question": "En strømsløyfe med areal <math><mi>A</mi></math> roterer i et konstant magnetfelt med konstant vinkelhastighet <math><mi>&#x03C9;</mi></math>. Motstanden i sløyfen er <math><mi>R</mi></math>. Hvor stor energi <math><mi>E</mi><mo>=</mo><mo>&#x222B;</mo><mi>&#x03B5;</mi><mo>(</mo><mi>t</mi><mo>)</mo><mi>I</mi><mo>(</mo><mi>t</mi><mo>)</mo><mi>d</mi><mi>t</mi></math> blir omsatt i sløyfen gjennom én rotasjon (Du trenger kanskje at <math><msubsup><mo>&#x222B;</mo><mn>0</mn><mn>2&#x03C0;</mn></msubsup><msup><mo>sin</mo><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>&#x03C0;</mi></math>). Se figur 2. <img src=\"images/6aj2yl.webp\"/>",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "0",
       "<math><mfrac><mrow><msup><mi>&#x03C9;</mi><mn>2</mn></msup><msup><mi>B</mi><mn>2</mn></msup><msup><mi>A</mi><mn>2</mn></msup><msup><mi>&#x03C0;</mi><mn>2</mn></msup></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></math>",
@@ -212,7 +194,6 @@
   {
     "question": "Anta at magneten til venstre i figuren sitter fast og at magneten til høyre er fri til å rotere. Hvilket av følgende\nutsagn er sanne om magneten til høyre?\n<img src=\"images/dulv1e.webp\"/>",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Den vil være i ro.",
       "Den vil rotere med klokken.",
@@ -224,13 +205,11 @@
   {
     "question": "Hva blir strømmen i <math><msub><mi>R</mi><mn>2</mn></msub></math> når bryteren har vært lukket lenge? <math><msub><mi>R</mi><mn>1</mn></msub></math> = 10 <math><mi>&#x03A9;</mi></math>, <math><msub><mi>R</mi><mn>2</mn></msub></math> = 40 <math><mi>&#x03A9;</mi></math>, <math><mi>V</mi></math> = 10 V og <math><mi>C</mi></math> = 10 mF. <img src=\"images/82jm6a.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["0 A", "0,20 A", "0,39 A", "0,59 A", "0,78 A"]
   },
   {
     "question": "En uendelig stor plate har en overflateladning på <math><mi>&#x03C3;</mi> = 2,0</math> <math><mi>&#x03BC;</mi>C/m<sup>2</sup></math>. 1,0 m over platen er en punktladning med ladning <math><mi>q</mi> = 5,0</math> <math><mi>&#x03BC;</mi>C</math>. Hva er absoluttverdien til det totale elektrisk feltet midt mellom platen og punktladningen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math>23</math> kV m<sup>-1</sup>",
       "<math>67</math> kV m<sup>-1</sup>",
@@ -242,7 +221,6 @@
   {
     "question": "Tyholttårnet er 124 m på vinteren når det er -20°C. Hvor mye lengre er Tyholttårnet om sommeren når det er 20°C? Tyholttårnet er laget av betong som har en termisk utvidelseskoeffisient på <math><mi>&#x03B1;</mi> = 14.8 × 10<sup>-6</sup> K<sup>-1</sup></math>.",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<math><mn>9.7</mn><mi>mm</mi></math>",
       "<math><mn>14</mn><mi>mm</mi></math>",
@@ -254,7 +232,6 @@
   {
     "question": "Du har en kopp varm kaffe (<math><mn>0.1</mn><mi>kg</mi></math>) som du vil lage om til iskaffe. Kaffen har en temperatur på <math><mn>70</mn><mo>°</mo><mi>C</mi></math>. Du putter i en neve isbiter som holder en temperatur på <math><mo>-</mo><mn>10</mn><mo>°</mo><mi>C</mi></math> og rører godt. Hvor mye is vil smelte før kaffen har en temperatur på <math><mn>5</mn><mo>°</mo><mi>C</mi></math>? Anta at kaffen og isen er et isolert system som ikke mister varme til omgivelsene. Vi gjør en forenkling ved å anta at isen smelter såpass raskt at den resterende isen ikke endrer temperatur (Hint: Isen må varmes opp, smelte og den smeltede væsken varmes opp). Noen materialparametere: Kaffe/vann: <math><msub><mi>c</mi><mi>v</mi></msub><mo>=</mo><mn>4.187</mn><mfrac><mrow><mi>kJ</mi></mrow><mrow><mi>kg</mi><mo>&#x22C5;</mo><mi>K</mi></mrow></mfrac></math>. Is: <math><msub><mi>c</mi><mi>i</mi></msub><mo>=</mo><mn>2.108</mn><mfrac><mrow><mi>kJ</mi></mrow><mrow><mi>kg</mi><mo>&#x22C5;</mo><mi>K</mi></mrow></mfrac></math>, <math><msub><mi>L</mi><mrow><mi>f,i</mi></mrow></msub><mo>=</mo><mn>334</mn><mfrac><mrow><mi>kJ</mi></mrow><mrow><mi>kg</mi><mo>&#x22C5;</mo><mi>K</mi></mrow></mfrac></math>.",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mn>12</mn><mi>g</mi></math>",
       "<math><mn>26</mn><mi>g</mi></math>",
@@ -266,7 +243,6 @@
   {
     "question": "En kald vårdag kjører du i bilen din fra toppen av Byåsen hvor temperaturen er <math><mn>0</mn><mo>°</mo><mi>C</mi></math>. Når du kommer ned til Gløshaugen har temperaturen steget til <math><mn>20</mn><mo>°</mo><mi>C</mi></math>. Hva blir forholdet mellom trykket i dekkene <math><mfrac><msub><mi>p</mi><mn>1</mn></msub><msub><mi>p</mi><mn>2</mn></msub></mfrac></math> mellom Byåsen <math><msub><mi>p</mi><mn>1</mn></msub></math> og Gløshaugen <math><msub><mi>p</mi><mn>2</mn></msub></math> gitt at det ikke er noen volumendring av dekket? Anta at gassen i dekket oppfører seg som en ideell gass.",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mn>0.22</mn></math>",
       "<math><mn>0.51</mn></math>",
@@ -278,7 +254,6 @@
   {
     "question": "Hvor stort arbeid blir gjort i prosessen fra A til B figur 3? Trykket langs kurven A til B er gitt av <math><mi>p</mi><mo>(</mo><mi>V</mi><mo>)</mo><mo>=</mo><msub><mi>p</mi><mn>0</mn></msub><mo>[</mo><mn>1</mn><mo>+</mo><mn>0.25</mn><mo>&#x22C5;</mo><mo>sin</mo><mo>(</mo><mfrac><mrow><mi>&#x03C0;</mi><mo>(</mo><mi>V</mi><mo>-</mo><msub><mi>V</mi><mn>0</mn></msub><mo>)</mo></mrow><msub><mi>V</mi><mn>R</mn></msub></mfrac><mo>)</mo><mo>]</mo></math> hvor <math><msub><mi>p</mi><mn>0</mn></msub><mo>=</mo><mn>4.0</mn><mi>&#x20;</mi><mi>bar</mi></math>, <math><msub><mi>V</mi><mn>0</mn></msub><mo>=</mo><mn>1.0</mn><mi>&#x20;</mi><mi>L</mi></math> og <math><msub><mi>V</mi><mn>R</mn></msub><mo>=</mo><mn>2.0</mn><mi>&#x20;</mi><mi>L</mi></math>. (1 bar = <math><mn>1</mn><mo>&#x00D7;</mo><msup><mn>10</mn><mn>5</mn></msup><mi>&#x20;</mi><mi>Pa</mi></math>, 1 L = <math><mn>1</mn><mo>&#x00D7;</mo><msup><mn>10</mn><mn>-3</mn></msup><mi>&#x20;</mi><msup><mi>m</mi><mn>3</mn></msup></math>) <img src=\"images/8kxa4d.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>0.42</mn><mi>&#x20;</mi><mi>kJ</mi></math>",
       "<math><mn>0.93</mn><mi>&#x20;</mi><mi>kJ</mi></math>",
@@ -290,25 +265,21 @@
   {
     "question": "Hva blir entropiendringen til systemet for en komplett syklus (ABCDA) av den termodynamiske prosessen i figur 3?\n<img src=\"images/p0h6n.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": ["0 J/K", "2,2 J/K", "3,8 J/K", "5,6 J/K", "9,7 J/K"]
   },
   {
     "question": "Vi har en varmemaskin som kun henter varme fra et varmereservoar på 800 K. Varmemaskinen har en virkningsgrad\npå 0,3. Gitt at varmemaskinen kun avgir varme ved en gitt lavere temperatur, hva må denne temperaturen være?\nAnta at varmemaskinen følger en reversibel termodynamisk prosess.",
     "answers": [4],
-    "exam": ".*",
     "options": ["190 K", "280 K", "360 K", "420 K", "560 K"]
   },
   {
     "question": "1.0 mol av en ideell gass utvider seg reversibelt og isotermisk fra 1.0 L til 2.0 L ved 300 K. Hva blir endringen i\nentropi?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0 J/K", "5,8 J/K", "9,6 J/K", "16 J/K", "22 J/K"]
   },
   {
     "question": "Når et objekt i fart treffer et annet i ro (f.eks et balltre på en ball), får ikke ballen instantant samme hastighet som balltreet (det ville innebære uendelig stor akselerasjon). Det betyr at ballen (og balltreet) må deformeres mens objektene akselererer. Vi lager en enkel modell for dette vist i figur 4. Klossene representerer balltre og ball og fjæren mellom representerer deformasjon. Vi lar fjæren ha en fjærkonstant <math><mi>k</mi></math> og balltre og ball henholdsvis masse <math><msub><mi>m</mi><mn>1</mn></msub></math> og <math><msub><mi>m</mi><mn>2</mn></msub></math>. <math><msub><mi>x</mi><mn>1</mn></msub></math> og <math><msub><mi>x</mi><mn>2</mn></msub></math> representerer posisjonene til henholdsvis ball og balltre og med nullpunkt når de kommer i kontakt. Vi kan så sette opp bevegelseslikningene for systemet (fra Newtons andre og tredje lov) og får da et koblet sett med differensiallikninger som vi kan løse. De kan for eksempel diskretiseres og løses numerisk som vist nedenfor. Hva er den riktige koden som skal plasseres i kodeavsnittet ved (***) for at <math><msub><mi>x</mi><mn>1</mn></msub></math> og <math><msub><mi>x</mi><mn>2</mn></msub></math> gir bevegelsen til balltre og ball?\n<pre>\nimport numpy as np\nm1 = 1.0 # Masse balltre\nm2 = 0.1 # Masse ball\nk = 200.0\n\n# Discretization parameters\nT = 0.1\nN = 1000\nt = np.linspace(0,T,N)\nh = T/(N-1) # stepsize\n# Initialization\nx1 = np.zeros(N) # Balltre\nx2 = np.zeros(N) # Ball\nv1 = np.zeros(N)\nv2 = np.zeros(N)\nv1[0] = 2.0 # Initiell fart balltre\nfor i in range(0,N-1):\n  x1[i+1] = v1[i]*h+x1[i]\n  x2[i+1] = v2[i]*h+x2[i]\n  if x1[i] > x2[i]:\n    ***\n  else:\n    v1[i+1] = v1[i]\n    v2[i+1] = v2[i]\n</pre>\n<img src=\"images/uu18ws.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<pre>\nv1[i+1] = -k/m1*(x1[i]-x2[i])+v1[i]\nv2[i+1] = -k/m2*(x2[i]-x1[i])+v2[i]\n</pre>",
       "<pre>v1[i+1] = (x1[i]-x2[i])*h+v1[i]\nv2[i+1] = (x2[i]-x1[i])*h+v2[i]\n</pre>",
@@ -320,7 +291,6 @@
   {
     "question": "Anta at vi har en pendel med lengde <math><mi>r</mi></math> hvor det virker en friksjonskraft (f.eks. luftmotstand) som er gitt av <math><mi>f</mi><mo>=</mo><mo>-</mo><mi>b</mi><mi>v</mi></math> (<math><mi>v</mi></math> er banefarten og <math><mi>b</mi></math> er en friksjonskoeffisient) hvor vi har målt vinkelhastigheten i <math><mi>N</mi></math> jevnt fordelte posisjoner fra startpunktet <math><mi>θ</mi><mo>=</mo><mn>20</mn><mo>°</mo></math> til bunnpunktet og lagret disse dataene i (python)variabelen <math><mi>w</mi></math> (verdiene til <math><mi>w</mi></math> er negative siden nullpunktet er satt til bunnpunktet). Hvilket av følgende alternativer skal byttest ut med *** i koden nedenfor for at variabelen <math><mi>W</mi></math> skal være en tilnærming til absoluttverdien av arbeidet som blir gjort av friksjonskraften i løpet av denne bevegelsen?\n<pre>\nimport numpy as np\n# Målepunktene er lastet inn i variabelen w\nb = 0.05 # Friksjonskoeffisient\nN = 10000 # Antall målepunkter\nr = 1.0 # Lengde snor\ntheta_0 = 20*3.14/180 # Startpunkt\nd_theta = theta_0/(N-1) # Vinkelintervall mellom målepunkter\ndW = np.zeros(N-1)\n***\nW = np.sum(dW)\n</pre>\n<img src=\"images/ayz3em.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<pre>F = -m/g*np.sin(w)-b*r*w\ndW = F[1:N-1]*r*d_theta\n</pre>",
       "<pre>F = -b*r*w\ndW = F[1:N-1]*d_theta\n</pre>",

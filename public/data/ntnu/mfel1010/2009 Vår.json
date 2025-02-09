@@ -2,7 +2,6 @@
   {
     "question": "Hoveddelen av cellas DNA finnes i cellekjernen. Hvilke organeller har også DNA? /\nHovuddelen av cellas DNA finnes i cellekjernen. Kva for organellar har og DNA? /\nThe main part of the DNA in the cell is found in the nucleus. What other organelles do\nalso contain DNA?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Golgi-apparatet / The Golgi apparatus",
       "Endoplasmatisk reticulum / The endoplasmic reticulum",
@@ -13,7 +12,6 @@
   {
     "question": "Når aortaklaffen lukkes, høres et klikk, en hjertetone. Når omtrent høres denne i\nrelasjon til EKG? / Når aortaklaffen blir lukka, kan ein høre eit klikk, ein hjartetone.\nNår omtrent kommer denne i relasjon til EKG? / When the aortic valve closes, there is\na click, a heart sound. When can this be heard in relation to the ECG?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "P-takken /The P-wave",
       "Q-takken / The Q wave",
@@ -24,7 +22,6 @@
   {
     "question": "Hva er hovedfunksjonen til cerebrospinalvæsken? / Kva er hovudfunksjonen til\ncerebrospinalvæska? / What is the main function of the cerebrospinal fluid?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Transport av næring til sentralnervesystemet / transport of nutritents to the\ncentral nervous system",
       "Drenasje av avfallsstoff fra hjernen / Drenasje av avfallsstoff frå hjernen /\nDrain waste from the brain",
@@ -35,7 +32,6 @@
   {
     "question": "Blodtrykket reguleres blant annet av perifer motstand. Hvilke kar er ansvarlige for\nden største delen av denne motstanden? / Blodtrykket blir mellom anna regulert av\nperifer motstand. Kva for kar er ansvarlige for den største delen av denne motstanden?\n/ The blood pressure is among other things regulated by peripheral resistance. Which\nvessels are responsible for most of this resistance?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Arterier / Arteries",
       "Arterioler / Arterioles",
@@ -46,7 +42,6 @@
   {
     "question": "Hva er elektrontransportkjeden? / Kva er elektrontransport kjeda? / What is the\nelectron transport chain?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Elektroner transporteres over cellemembranen for å bygge opp\nmembranpotensialet / Elektron blir transportert over cellemembranen for å\nbygge opp membranpotensialet / Electrons are transported across the cell\nmembrane to build up the membrane potential",
       "Elektroner transporteres langs aksonene fra en Ranviers knute til neste for å\nlede en nerveimpuls / Elektron blir transportert langs aksonene fra en Ranviers\nknute til neste for å lede en nerveimpuls / Electrons are transported along the\naxons from one node of Ranvier to the next to propagete a nerve impulse",
@@ -57,7 +52,6 @@
   {
     "question": "Ved nyresvikt får en lavere nivå av aktivt vitamin D. Hvordan vil dette virke på\ncalcium og PTH-nivået i blod? / Ved nyresvikt får ein lågare nivå av aktivt vitamin\nD. Korleis vil dette virke på calcium og PTH-nivået i blod? / In renal failure will\nthere be lower levels of active vitamin D. How will that influence the levels of calcium\nand PTH?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ca 2+ ↑ / PTH↑",
       "Ca 2+ ↑ / PTH↓",
@@ -68,7 +62,6 @@
   {
     "question": "Hyperventilering (økt ventilasjon) kan skje som følge av for eksempel smerter eller\nstress. Hva skjer med blodets pH? / Hyperventilering (auka ventilasjon) kan skje som\nfølgje av for eksempel smerter eller stress. Kva skjer med blodets pH? /\nHyperventilation may happen as a result of pain or stress. What happens to the pH in\nthe blood?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Øker /Auker / Increases",
       "Uforandra / Unchanged",
@@ -79,7 +72,6 @@
   {
     "question": "Normal rekkefølge i blodstrømmen er: / Normal rekkefølge i blodstraumen er: /The\nnormal flow direction of the blood is:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Høyre ventrikkel – Aorta – Vena cava – Venstre atrium/ Høgre ventrikkel –\nAorta – V. cava – Venstre atrium/ Right ventricle – Aorta – Vena Cava – Left\natrium",
       "Høyre atrium – Lungearterien – Lungevener – Venstre ventrikkel / Høgre\natrium – Lungearterien – Lungevener – Venstre ventrikkel / Right atrium –\nPulmonary artery – pulmonary veins – Left Ventricle",
@@ -90,7 +82,6 @@
   {
     "question": "Næringsstoffer som suges opp i tarmen samles i portvenen. Hvilket organ tar imot\nblodet fra portvenen? / Næringsstoff som blir sugd opp i tarmen blir samla i\nportvenen. Kva for organ tar imot blodet frå portvenen? / Nutrients that are absorbed\nin the intestine are collected by the portal vein. What organ receives the blood from\nthe portal vein?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Pancreas",
       "Milten / The spleen",
@@ -101,7 +92,6 @@
   {
     "question": "Sekretoriske vesikler er en vanlig metode for en celle til å skille ut aktive substanser.\nHvilken organelle danner sekretoriske vesikler? / Sekretoriske vesiklar er en vanlig\nmetode for en celle til å skilje ut aktive substansar. Kva for organelle dannar\nsekretoriske vesiklar? / Secretory vesicles is a common method for a cell to excrete\nactive substances. Which organelle produces secretory vesicles?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Cellekjernen / The cell nucleus",
       "Golgi apparatet / The Golgi apparatus",
@@ -112,7 +102,6 @@
   {
     "question": "Når en celle deler seg i en vanlig mitose, fordobles arvematerialet. Dette kalles: / Når\nein celle deler seg I en vanlig mitose, fordobles arvematerialet. Dette blir kalla: /\nWhen a cell divides in an ordinary mitosis, doubles the genetic material. This is\ncalled:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Resepsjon / Reception",
       "Transkripsjon / Transcription",
@@ -123,7 +112,6 @@
   {
     "question": "Rotasjon av hodet foregår: / Rotasjon av hovudet gjeng føre seg: / Rotation of the\nhead takes place:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Mellom kraniet og første halsvirvel / Between the cranium and the first\ncervical vertebra",
       "Mellom første og annen halsvirvel / Between the first and second cervical\nvertebrae",
@@ -134,7 +122,6 @@
   {
     "question": "Saltsyre produseres i og av magesekken, blant annet for å løse opp maten. Lenger ned\ni tarmen nøytraliseres syra av hydrogenkarbonat; HCO 3  ̄. Hvilket organ produserer\nHCO 3  ̄? / Saltsyre blir produsert i og av magesekken, mellom anna for å løyse opp\nmaten. Lenger ned i tarmen blir syra nøytralisert av hydrogenkarbonat; HCO 3  ̄. Kva\nfor organ produserer HCO 3  ̄? / Hydrochloric acid is produced by and in the stomach,\namong other things in order to dissolve the food. Further down in the bowel is the\nacid neutralised by bicarbonate; HCO 3  ̄. Which organ produces HCO 3  ̄?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Tolvfingertarmen / The duodenum",
       "Bukspyttkjertelen / The pancreas",
@@ -145,7 +132,6 @@
   {
     "question": "Hvor i fordøyelseskanalen absorbers den største vannmengden? / Kor i\nfordøyelseskanalen absorberast den største mengda vatn? / Where in the digestive\ntract is the largest amount of water absorbed?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I magesekken / In the gastric ventricle",
       "I tynntarmen / In the small intestine",
@@ -156,19 +142,16 @@
   {
     "question": "Det inngår fire nukleotider i DNA. En av dem er også spesielt viktig i\nenergistoffskiftet. Hvilket? / Det inngår fire nukleotider i DNA. En av dei er og\nspesielt viktig i energistoffskiftet. Kva for eit? / There are four nucleotides in DNA.\nOne of them is especially important in the energy metabolism also. Which one?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Cytosine", "Guanine", "Adenine", "Thymine"]
   },
   {
     "question": "Koagulasjon skjer ved at spesialiserte proteiner i plasma; koagulasjonsfaktorer\nreagerer i en kaskadereaksjon. Hva er sluttproduktet; selve hovedbestanddelen i et\nkoagel? / Koagulasjon skjer ved at spesialiserte protein i plasma; koagulasjonsfaktorar\nreagerer i en kaskadereaksjon. Kva er sluttproduktet; sjølve hovudbestanddelen i et\nkoagel? / The coagulation process happens as specialised proteins in plasma;\ncoagulation factors reacts in a cascade reaction. What is the end product of this\nreaction; the main ingredient in a clot?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Fibrin", "Plasmin", "Albumin", "Gammaglobulin"]
   },
   {
     "question": "Og hvor blir de fleste koagulasjonsfaktorene produsert? / Og kor blir dei fleste\nkoagulasjonsfaktorane produsert? / And were are most of the coagulation factors\nproduced?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Beinmargen / The bone marrow",
       "Milten / The spleen",
@@ -179,7 +162,6 @@
   {
     "question": "Hvor mye filtrat produseres av nefronene i begge nyrene i løpet av et døgn? / Kor\nmykje filtrat produserast av nefronane i begge nyra i løpet av eit døgn? / How much\nfiltrate is produced in all nephrons of both kidneys during 24 hours?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ca 200 ml",
       "Ca 1,6 liter / Ca 1,6 litres",
@@ -190,7 +172,6 @@
   {
     "question": "Hvorfor trenger de fleste friske mennesker lesebriller når man blir eldre? / Kvifor\ntreng dei fleste friske menneske lesebriller når en blir eldre? / Why do most healthy\npeople need reading glasses when they get older?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Fordi linsen blir uklar med alderen, slik at en trenger forstørrelse av\nbokstavene / Fordi linsa blir uklar med alderen, slik at en trenger forstørring av\nbokstavane / Because the lens gets opaque with age, so the letters need to be\nmagnified",
       "Fordi linsen blir stivere med alderen, slik at den ikke kan øke brytningen ved\nnærinnstilling / Fordi linsa blir stivare med alderen, slik at den ikkje kan auke\nbrytinga ved nærinnstilling / Because the lens get stiffer with age, so it can no\nlonger increase refraction in accommodation",
@@ -201,7 +182,6 @@
   {
     "question": "Hva er korrekt om eksitasjons-kontraksjonskoplingen? / Kva er korrekt om\neksitasjons-kontraksjonskoplinga? / What is correct about exitation contraction\ncoupling?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Aksjonspotensialet gir innstrømming av Na + intracellulært som binder seg til\ntubulin / Aksjonspotensialet gir innstrøyming av Na + intracellulært som binder\nseg til tubulin / The action potential causes inflow of Na + intracellularly,\nwhich binds to tubulin",
       "Aksjonspotensialet gir innstrømming av Na + intracellulært som binder seg til\ntroponin / Aksjonspotensialet gir innstrøyming av Na + intracellulært som\nbinder seg til troponin / The action potential causes inflow of Na +\nintracellularly, which binds to troponin",
@@ -212,7 +192,6 @@
   {
     "question": "Diabetes type 2 er en sykdom der den perifere sensitiviteten for insulin er redusert, og\nden gir dermed forhøyd blodsukker. Hva skjer med insulinnivået ved blodet ved ved\nstarten av en typisk type 2 diabetes? / Diabetes type 2 er en sjukdom der den perifere\nsensitiviteten for insulin er redusert, og den gir dermed forhøgd blodsukker. Kva skjer\nmed insulinnivået ved blodet ved starten av ein typisk type 2 diabetes? / Diabetes type\n2 is a disease where the peripheral sensitivity of insulin is decreased, leading to\nelevated blood sugar. What happens to the level of insulin in the blood at the start of a\ntypical type 2 diabetes?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Øker / Auker / Increases",
       "Uendret / Uendra / Unchanged",
@@ -223,7 +202,6 @@
   {
     "question": "Høyt progesteron og østrogen er nødvendig for normal livmorfunksjon i\nsvangerskapet. Hvordan opprettholdes dette i første trimester? / Høgt progesteron og\nøstrogen er nødvendig for normal livmorfunksjon i svangerskapet. Korleis blir dette\noppretthaldt i første trimester? / High progesterone and estrogen levels are necessary\nto normal uterine function during pregnancy. How is this maintained during the first\ntrimester?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Placenta stimulerer hypothalamus til å produsere høye nivåer av gonadotropin\nreleasing hormone (GnRH) / Placenta stimulerer hypothalamus til å produsere\nhøge nivå av gonadotropin releasing hormone (GnRH) / Placenta stimulates\nthe hypothalamus to produce high levels of gonadotropin releasing hormone\n(GnRH)",
       "Placenta stimulerer hypofysen til å produsere høye nivåer av FSH og LH /\nPlacenta stimulerar hypofysen til å produsere høge nivå av FSH og LH / The\nPlacenta stimulates the hypophysis to secrete high levels of FSH and LH",
@@ -234,7 +212,6 @@
   {
     "question": "Intravenøst narkotikamisbruk med bruk av urene sprøyter kan føre til at en kan\ninjisere bakterier intravenøst. Disse kan slå seg ned i indre organer og gi infeksjon. Ut\nfra kunnskap om sirkulasjonen, hvilket organ er det mest sannsynlige målorgan for en\nslik infeksjon? / Intravenøst narkotikamisbruk med bruk av urene sprøyter kan føre til\nat en kan injisere bakteriar intravenøst. Disse kan slå seg ned i indre organ og gje\ninfeksjon. Ut frå kunnskap om sirkulasjonen, kva for organ er det mest sannsynlege\nmålorgan for ein slik infeksjon? / Intravenous drug abuse with polluted syringes can\nresult in intravenous injection of bacteria. The bacteria can settle in internal organs\nand result in infection. From a knowledge of the circulation, which organ is the most\nlikely target organ for such an infection?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lever / Liver",
       "Lunge / Lung",
@@ -245,7 +222,6 @@
   {
     "question": "Hvordan aktiveres hjertemuskelen til å kontrahere? / Korleis blir hjertemuskelen\naktivert til å kontrahere / How is the heart muscel activated to contract?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Innstrømmende blod i diastole strekker hjertemuskelcellene, og strekket\nutløser aksjonspotensialer / Blod som strøymer inn i diastolen strekker\nhjertemuskelcellene og strekket utløyser et aksjonspotensial / In flowing blood\nduring diastole stretches the heart muscle cells and the stretching triggers an\naction potential",
       "Aksjonspotensialene utløses av synaptisk stimulering på motoriske endeplater\n/ aksjonspotensiala blir utløyst av synaptisk stimulering på motoriske\nendeplater / The action potentials are triggered by synaptic stimulation on the\nneuromuscular junctions",
@@ -256,7 +232,6 @@
   {
     "question": "Hvilken funksjon har thyroxin? / Kva for funksjon har thyroxin? / What is the function\nof thyroxin?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Stimulerer opptak av kalsium i kroppen / Stimulates uptake of calcium in the\nbody",
       "Stimulerer basalstoffskiftet / Stimulates the basal metabolism",
@@ -267,7 +242,6 @@
   {
     "question": "HIV infeksjon reduserer immuniteten fordi den angriper og ødelegger en viss type\nhvite blodlegemer. Hvilken gruppe hører de cellene til? / HIV infeksjon reduserer\nimmuniteten fordi den angriper og øydelegg en viss type kvite blodlekam. Kva for\ngruppe høyrer dei cellene til? / HIV infection reduces immunity because it attacks and\ndestroys a certain type white blood cells. Which group do those cells belong to?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Neutrofile granulocytter / Neutrophils",
       "Makrofager / Macrophages",
@@ -278,7 +252,6 @@
   {
     "question": "Nyrene produserer viktige hormon. Hvilket av de følgende dannes i nyrene? / Nyrane\nproduserar viktige hormon. Kven av dei følgjande dannast i nyrane? / The kidney\nproduces important hormons. Which of the following is produced in the kidney?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Anti-diuretisk hormone (ADH) / Anti-diuretic hormone (ADH)",
       "Atrie-natriuretisk hormone (ANP) / Atria-natriuretic hormone (ANP)",
@@ -289,7 +262,6 @@
   {
     "question": "Hvor i cellene foregår glykolysen? / Kor i cellene går glykolysen føre seg? / Where in\nthe cells does the glycolysis take place?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "I cytoplasma / In the cytoplasm",
       "I endoplasmatisk reticulum / In the endoplasmatic reticulum",
@@ -300,7 +272,6 @@
   {
     "question": "Prostatakjertelen kan vokse med alderen, dette er som regel godartet. Hvilke\nsymptomer kan dette gi? / Prostatakjertelen kan vokse med alderen, dette er som regel\ngodarta. Kva for symptom kan dette gi? / The prostate gland may enlarge with age.\nWhich symptoms can this lead to?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Impotens / Impotency",
       "Sterilitet / Sterility",
@@ -311,7 +282,6 @@
   {
     "question": "Når i menstruasjonssyklus er sjansen for implantasjon av et befrukta egg størst? /\nWhen, during the menstrual cycle is the possibility of implantation of a fertilized egg\ngreatest?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Menstruasjon / Menses",
       "Proliferasjonsfase / Proliferative phase",
@@ -322,13 +292,11 @@
   {
     "question": "Hvor sitter nervesenteret for regulering av blodtrykket? / Kor sit nervesenteret for\nregulering av blodtrykket? / Where is the nerve centre for regulation of the blood\npressure situated?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Thalamus", "Hypothalamus", "Cerebellum", "Medulla oblongata"]
   },
   {
     "question": "Hva er viktigste stimulus for respirasjonen hos friske? / Kva er viktigaste stimulus for\nrespirasjonen hos friske? / What is the most important stimulus for the respiration in\nhealthy persons?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "PO2",
       "Osmolaritet / Osmolarity",
@@ -339,7 +307,6 @@
   {
     "question": "Hva er viktigste stimulus for utskillelse av insulin? / Kva er viktigaste stimulus for\nutskiljing av insulin? / What is the most important stimulus for the secretion of\ninsulin?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Pancreaticotropt hormon fra hypofysen / Pancreaticotropc hormone from the\npituitary",
       "Blodsukkernivået i systemsirkulasjonen / Blood sugar lever in the sustems\ncirculation",
@@ -350,7 +317,6 @@
   {
     "question": "Hvilke hormonendringer skjer etter menopause? / Kva for hormonelle endringar skjer\netter menopause? / Which hormonal changes happens after menopause?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Estrogen↑, FSH↓",
       "Estrogen↑, FSH↑",
@@ -361,7 +327,6 @@
   {
     "question": "Hva er funksjonen til myelinskjedene rundt aksonene? / Kva er funksjonen til\nmyelinskjedene rundt aksonene? / What is the function of the myelin sheaths around\nthe axons?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Beskytte mot mekanisk skade / Protect against mechanical injury",
       "Ernære axonet / Nutrition of the axon",
@@ -372,7 +337,6 @@
   {
     "question": "Flerlaget plateepitel finnes blant annet i.../ Flerilaga plateepitel finnes mellom anna\ni... / Stratified squamous epithelium is among others located in...",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Hud / Skin",
       "Levra / The liver",
@@ -383,7 +347,6 @@
   {
     "question": "På Galdhøpiggen (2469 moh) er lufttrykket redusert med omtrent 25%. Hva skjer med\npartialtrykket for oksygen i blodet? / På Galdhøpiggen (2469 moh) er lufttrykket\nredusert med omtrent 25%. Kva skjer med partialtrykket for oksygen i blodet? / At\nGaldhøpiggen (highest mountain in Norway; 2469 meter above sea-level) is the\natmospheric pressure reduced with 25%. What happens to the partial pressure of\noxygen in the blood?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ikke påvirket / Not affected",
       "Redusert, men med vesentlig mindre enn 25% / Reduced, but by substantially\nless than 25%",
@@ -394,7 +357,6 @@
   {
     "question": "Og hva skjer med oksygenmetningen av hemoglobinet? / Og kva skjer med\noksygenmetninga av hemoglobinet? / And what happens to the oxygen sturation of\nhemoglobin?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Ikke påvirket / Not affected",
       "Redusert, men med vesentlig mindre enn 25% / Reduced, but by substantially\nless than 25%",
@@ -405,7 +367,6 @@
   {
     "question": "Pepsin er et viktig enzym for å bryte ned proteiner. Hvor dannes det? / Pepsin er eit\nviktig enzym for å bryte ned protein. Kor blir det danna? / Pepsin is an important\nenzyme for the breakdown of protein. Where is that produced?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Magesekken / The ventricle",
       "Tolvfingertarmen / The duodenum",
@@ -416,7 +377,6 @@
   {
     "question": "Hvilke klaffer er begge åpne under atriekontraksjon? / Kva for klaffar er begge opne\nunder atriekontraksjon? / Which valves are both open during atrial contraction?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Bicuspidal- (mitral-) og tricuspidalklaffen / The bicuspid and tricuspid valves",
       "Bicuspidal- (mitral-) og aortaklaffen / The bicuspid and aortic valves",
@@ -427,7 +387,6 @@
   {
     "question": "Bestråling av skjoldbruskkjertelen kan føre til hypothyreose. Hva skjer med\nproduksjonen av thyroxin og TSH? / Bestråling av skjoldbruskkjertelen kan føre til\nhypothyreose. Kva skjer med produksjonen av thyroxin og TSH? / Irradiation of the\nthyroid gland can lead to hypothyreosis. What happens to the production of thyroxin\nand TSH?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Thyroxin↑, TSH↑",
       "Thyroxin↑, TSH↓",
@@ -438,7 +397,6 @@
   {
     "question": "En blodåre har en innsnevring i et kort område. Hva skjer med blodstrømmen i denne\ninnsnevringen? / Ein blodåre har ei innsnevring i et kort område. Kva skjer med\nblodstraumen i denne innsnevringa? / A blood vessel has a narrowing in a short\nsegment. What happens to the blood flow in this narrow segment?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Blodstrømshastigheten øker / Blodstraumshastigheten auker / The blood\nvelocity increases",
       "Blodstrømshastigheten avtar / Blodstraumshastigheten avtek / The blood\nvelocity decreases",
@@ -449,7 +407,6 @@
   {
     "question": "Hvilken av disse cellene tilhører det uspesifikke celleforsvaret? / Kva for av disse\ncellene tilhører det uspesifikke celleforsvaret? / Which of these celle belong to the\nunspecific cellular defence?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Neutrofil granulocytt / Neutrophile granulocyte",
       "B- lymfocytt / B- lymphocyte",
@@ -460,7 +417,6 @@
   {
     "question": "<img src=\"images/w81dtub.webp\"/>\nHva heter den bevegelsen som er vist ved pilen på figuren? / Kva heiter den\nbevegelsen som er vist ved pilen på figuren? /What is the movement called that is\nshown by the arrow in the figure?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Pronasjon / Pronation",
       "Supinasjon / Supination",
@@ -471,7 +427,6 @@
   {
     "question": "Blodtrykket måles gjerne ved at en mansjett rundt overarmen blåses opp slik at\nmansjetten klemmer sammen pulsårene i armen, og så reduseres trykket gradvis.\nHvilket av nedenstående utsagn er riktig i relasjon til denne prosedyren? / Blodtrykket\nblir det gjerne målt ved at ein mansjett rundt overarmen blåses opp slik at mansjetten\nklemmer saman pulsårene i armen, og så blir trykket gradvis redusert. Kva for eit av\nutsegna under er riktig i relasjon til denne prosedyren? / The blood pressure is usually\nmeasured by inflating a cuff around the upper arm, and then reducing the pressure\ngradually. Which of the statements below are correct in relation to this procedure?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Når det diastoliske blodtrykket er lik trykket i mansjetten, vil pulsåren så vidt\nbegynne å åpne seg. / Når det diastoliske blodtrykket er lik trykket i\nmansjetten, vil pulsåra så vidt begynne å opne seg. / When the diastolic\npressure equals the pressure in the cuff, the artery will just start to open.",
       "Når trykket i mansjetten er lik null, begynner blodet å strømme i pulsåren. /\nNår trykket i mansjetten er lik null, begynner blodet å strømme i pulsåra. /\nWhen the cuff pressure is zero, the blood starts to flow in the artery",
@@ -482,7 +437,6 @@
   {
     "question": "Hvilken av disse sykdomstilstandene kan man få ved mangel på vitamin B 12 ? / Kva\nfor ein av disse sjukdomstilstanda kan ein få ved mangel på vitamin B 12 ? / Which of\nthese disease states can occur in vitamin B 12 Deficiency?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Anemi / Anemia",
       "Osteoporose / Osteoporosis",
@@ -493,13 +447,11 @@
   {
     "question": "<img src=\"images/nffz.webp\"/>\nBildet viser hastighetskurver fra blodstrømmen i mitral- (bicuspidal-)ostiet som er tatt\nopp med ultralyd. Hva kalles denne ultralydmodaliteten? / Bildet viser\nhastighetskurver frå blodstraummen i mitralostiet som er tatt opp med ultralyd. Kva\nblir denne ultralydmodaliteten kalla? / The picture shows velocity curves from the\nblood flow in the mitral ostium. What is this ultrasound modality called?",
     "answers": [3],
-    "exam": ".*",
     "options": ["A-mode", "B-mode", "M-mode", "Doppler mode"]
   },
   {
     "question": "Muskulaturen hjertets venstre ventrikkel får det meste av sin blodforsyning i: / The\nmusculature of the left ventricle of the heart receives most of its blood supply during:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Systole",
       "Diastole",
@@ -510,7 +462,6 @@
   {
     "question": "Hva er peristaltikk / Kva er peristaltikk / What is peristalsis?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Rytmiske kontraksjoner i hjertet / Rytmiske kontraksjonar i hjertet / Rythmic\ncontractions of the heart",
       "Samtidig kontraksjon av antagonistiske muskler / Samtidig kontraksjon av\nantagonistiske musklar / Simultaneous contraction of antagonistic muskles",
@@ -521,7 +472,6 @@
   {
     "question": "Bilirubin er et avfallsstoff som blir skilt ut i gallen. Hvis avløpet for galle er blokkert,\nfører det til gul farge i huden. Hvilket stoff brytes ned til bl. a. bilirubin? / Bilirubin er\net avfallsstoff som blir skilt ut i gallen. Om avløpet for galle er blokkert, fører det til\ngul farge i huda. Kva for stoff blir brutt ned til m. a. bilirubin? / Bilirubin is a waste\nproduct that is secreted in the bile. If the bile draainage is blocked, it leads to yellow\nskin colour. What substance is broken down to among other things, bilirubin?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Kolesterol / Cholesterol",
       "Albumin",
@@ -532,7 +482,6 @@
   {
     "question": "En pasient har symptomer som tyder på et skiveprolaps i nakkeregionen. Hvilken\nundersøkelse kan legen da bruke? / Ein pasient har symptom som tyder på eit\nskiveprolaps i nakkeregionen. Kva for undersøking kan legen da bruke? / A patient\nhas symptoms that are suspect of a prolapse of a cervical disc. Which examination\nwould the doctor use?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Anatomisk MRI / Anatomical MRI",
       "Funsjonell MRI / Functional MRI",
@@ -543,7 +492,6 @@
   {
     "question": "Hvilken av disse faktorene kan varieres for å variere dybdeoppløsningen i ultralyd? /\nKva for av disse faktorane kan varierast for å variere dybdeoppløysingen i ultralyd? /\nWhich of these factors can be changed to change the depth resolution in ultrasound?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lydstyrken / Sound intensity",
       "Lydfrekvensen / Sound frequency",
@@ -554,7 +502,6 @@
   {
     "question": "Hvor i thorax er trykket laves under inspirasjon? / Kor i thorax er trykket lågast under\ninspirasjon? / Where in thorax is the pressure lowest during inspiration?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Trachea",
       "Bronkiene / Bronkiane / The bronchii",
@@ -565,7 +512,6 @@
   {
     "question": "Hvilken gruppe næringsstoff tilhører triglycerider? / Kva for gruppe næringsstoff\ntilhører triglycerider? / What group of nutritients does triglycerides belong to?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Karbohydrat / Carbohydrates",
       "Fett / Fats",
@@ -576,7 +522,6 @@
   {
     "question": "Hvor stor del av den voksne befolkningen vil legges inn på sykehus i løpet av en\nmåned? / Kor stor del av den vaksne befolkninga vil bli lagt inn på sjukehus i løpet av\nein månad? / About how many of the grown population will be admitted to a hospital\nduring one month?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Ca 9%", "Ca 5%", "Ca 0,9% / Ca 0.9%", "Ca 0,1% / Ca 0.1%"]
   }
 ]

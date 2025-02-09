@@ -2,7 +2,6 @@
   {
     "question": "Which one of the following security goals were present for the WEP design:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "To be equivalent to the Kerberos access policy.",
       "To be equivalent to wired access point security.",
@@ -13,7 +12,6 @@
   {
     "question": "Which key distribution protocol is specified in WEP?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Diffie-Hellman key distribution.",
       "RC4 key distribution.",
@@ -24,7 +22,6 @@
   {
     "question": "What is the major weakness in WEP, exploited by the PTW attack used in the lab?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "RC4 is broken even with 104 bit keys",
       "The initialization vector is too short",
@@ -35,13 +32,11 @@
   {
     "question": "WPA and WPA2 share the following security component:",
     "answers": [1],
-    "exam": ".*",
     "options": ["CCMP", "TKIP", "AES", "RC4"]
   },
   {
     "question": "How many message integrity failures have to be logged in order the Temporal Key Integrity Protocol to start the Denial Of Service mechanism:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Two failures within 60 seconds",
       "Two failures within 30 seconds",
@@ -52,19 +47,16 @@
   {
     "question": "In RSN, the encryption and message authentication are realized via",
     "answers": [3],
-    "exam": ".*",
     "options": ["AES-GCM", "AES-CBC", "AES-HMAC", "AES-CCMP"]
   },
   {
     "question": "How big is the message integrity code in RSN",
     "answers": [2],
-    "exam": ".*",
     "options": ["32 bits", "48 bits", "64 bits", "128 bits\n2"]
   },
   {
     "question": "What is Extensible Authentication Protocol (EAP)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "EAP is a set of encapsulation messages for upper-layer authentication methods",
       "EAP is a set of encapsulation messages for physical layer authentication methods",
@@ -75,7 +67,6 @@
   {
     "question": "In GSM, what is the role of the Visitor Location Register:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "When mobile equipment register to the network, to retrieve the information for that equipment from HLR.",
       "To protect the anonymity of the owner of the mobile equipment.",
@@ -86,7 +77,6 @@
   {
     "question": "Which security mechanism is NOT present in GSM:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Authentication",
       "Confidentiality",
@@ -97,7 +87,6 @@
   {
     "question": "In GSM, what is the role of A8 algorithm:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "For production of random numbers",
       "For encryption key generation",
@@ -108,7 +97,6 @@
   {
     "question": "The function f6( ) in the MAPsec protocol of UMTS is:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "AES in counter mode",
       "AES in CBC mode",
@@ -119,13 +107,11 @@
   {
     "question": "How many modes of protection offers MAPsec?",
     "answers": [2],
-    "exam": ".*",
     "options": ["1", "2", "3", "4"]
   },
   {
     "question": "What is the crucial protocol in IP Multimedia Subsystem",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Internet Key Exchange (IKE)",
       "MAPsec",
@@ -136,7 +122,6 @@
   {
     "question": "A simple description of MILENAGE functions can be done as:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><msub><mi>f</mi><mrow><mi>i</mi>,<mi>K</mi></mrow></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><mi>x</mi><mo>&#x2295;</mo><msub><mi>c</mi><mi>i</mi></msub><mo>))</mo></math>; where <math><mi>i</mi><mo>=</mo>1,2,3,4,5</math>, and <math><msub><mi>c</mi><mi>i</mi></msub></math> are distinct constants",
       "<math><msub><mi>f</mi><mrow><mi>i</mi>,<mi>K</mi></mrow></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><msub><mi>E</mi><mi>K</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#x2295;</mo><msub><mi>c</mi><mi>i</mi></msub><mo>)</mo></math>; where <math><mi>i</mi><mo>=</mo>1,2,3,4,5</math>, and <math><msub><mi>c</mi><mi>i</mi></msub></math> are distinct constants",
@@ -147,7 +132,6 @@
   {
     "question": "Which two ciphers are used in UEA1 and UEA2",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "AES and KASUMI",
       "AES and RC4",
@@ -158,7 +142,6 @@
   {
     "question": "In UMTS, the function f9( ) is used for:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Integrity key generation",
       "Integrity protection",
@@ -169,7 +152,6 @@
   {
     "question": "Where is encryption located in the UMTS stack of protocols?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "In Physical Layer and Media Access Control Layer",
       "In Media Access Control Layer and Radio Link Control Layer",
@@ -180,7 +162,6 @@
   {
     "question": "In UMTS, the security mechanisms employed between the Mobile Station and the Radio\nNetwork Controller are responsible for:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Sequence Number Management",
       "Encryption and Integrity Protection",
@@ -191,7 +172,6 @@
   {
     "question": "In LTE, the Home Subscriber Server has the following information:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "policy control and decision-making rules,",
       "IP address allocation for the UE,",
@@ -202,7 +182,6 @@
   {
     "question": "In LTE, E-UTRAN is the part of the whole system infrastructure responsible for the:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "radio access network",
       "circuit switch core network",
@@ -213,13 +192,11 @@
   {
     "question": "How many security levels has LTE?",
     "answers": [0],
-    "exam": ".*",
     "options": ["5", "4", "3", "2"]
   },
   {
     "question": "The following component IS NOT a part of the RFID technology",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Transceiver – Tag Reader",
       "Transponder – RFID tag",
@@ -230,7 +207,6 @@
   {
     "question": "The EPCGen2 tag is",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "A passive tag that allows just low-speed reading and sortation",
       "An Active tag that allows high-speed reading and sortation",
@@ -241,7 +217,6 @@
   {
     "question": "In RFID, the usual budget for implementation of the cryptographic primitives is:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "100 – 200 gates",
       "200 – 500 gates",

@@ -2,7 +2,6 @@
   {
     "question": "What is the function of the sodium-potassium pump?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Levelling the membrane potential by transports of sodium and potassium from high to low concentration.",
       "Building up the membrane potential, by active transport of Sodium and Potassium from low to high concentration.",
@@ -13,7 +12,6 @@
   {
     "question": "What is the function of the sodium-potassium pump, and what is the result of this process?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Utilizing the concentration gradient of sodium and potassium for synthesis of ATP.",
       "The concentration gradient of potassium lead to a diffusion of potassium that is not followed by anionic diffusion, and this builds up a membrane potential",
@@ -24,7 +22,6 @@
   {
     "question": "How is the DNA able to replicate perfectly?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The cell has stored a copy of the DNA in the nucleus",
       "The DNA replicas are synthesized from a RNA template stored in the cell",
@@ -35,13 +32,11 @@
   {
     "question": "And in which part of the cell cycle is DNA replicated?",
     "answers": [1],
-    "exam": ".*",
     "options": ["G1 phase", "S phase", "G2 phase", "M phase"]
   },
   {
     "question": "What makes the cell differentiation possible?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The genes are different in different tissues.",
       "Different translation mechanisms in different tissues",
@@ -52,7 +47,6 @@
   {
     "question": "The method called restriction fragment length polymorphism (RFLP) is used to:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Increase the amount of DNA found in a small sample",
       "Increase the amount of DNA found in a degraded samples",
@@ -63,19 +57,16 @@
   {
     "question": "Mean incidence of a virus epidemic in Trondheim in in a certain week was 5%. Duration was on the average three days. What was the average prevalence?",
     "answers": [2],
-    "exam": ".*",
     "options": ["35%", "15%", "2.1%", "0.7%"]
   },
   {
     "question": "Mean incidence of a virus epidemic in Trondheim in in a certain week was 5%. Duration was on the average three days. At the same time, the incidence of the same epidemics in Oslo was 7.5%. What was the relative risk of acquiring the virus disease in Oslo compared to Trondheim?",
     "answers": [3],
-    "exam": ".*",
     "options": ["7.5 times", "5 times", "2.5 times", "1.5 times"]
   },
   {
     "question": "The significance (P value) of a controlled study result, is often given as a percentage. What does this percentage mean?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "P is the probability of the study result being true (non random)",
       "P is the probability of the study result being wrong (random)",
@@ -86,13 +77,11 @@
   {
     "question": "For a treatment result to be considered significant, what is the customary limit for the p value?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2.5%", "5%", "10%", "20%"]
   },
   {
     "question": "Two different studies of treatment A and treatment B for the same disease, showed that treatment A was better than placebo (P &lt; 0.001), and treatment B was better than placebo (p &lt; 0.01). The conclusion that treatment A was better than B was:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Correct as treatment A had a lower P value than B",
       "Correct, as the P-value is a measure of treatment effect",
@@ -103,7 +92,6 @@
   {
     "question": "Should every study finding a statistically significant improvement in survival with a certain treatment of a disease, lead to a recommendation of that treatment in the guidelines?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Yes, the significance shows the treatment to improve survival",
       "Yes, even if there is a probability of type I error, there is nothing to loose, as survival was best in the treatment group.",
@@ -114,7 +102,6 @@
   {
     "question": "Systematic reviews, takes many studies into account, to calculate more robustly the significance and size of treatment effects, and is often considered a higher level of evidence. What may be the main problem with systematic reviews?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Patient selection",
       "Publication bias",
@@ -125,7 +112,6 @@
   {
     "question": "What is evidence based medical practice?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Practice that is founded in solid physiological experiments as evidence",
       "Practice that is only founded in clinical studies",
@@ -136,25 +122,21 @@
   {
     "question": "The ejection fraction is used a measure of ventricular function. However, this has some limitations. Endurance training increases left ventricular volume and reduces heart rate. A certain (male) cross country skier has an end diastolic left ventricular volume of 258 ml. During rest, he has a normal cardiac output of 5.1 litres /min with a heart rate of 42 beats / min. What is the resting ejection fraction?",
     "answers": [2],
-    "exam": ".*",
     "options": ["79%", "53%", "47%", "16%"]
   },
   {
     "question": "During exercise, this runner has the ability to increase the ejection fraction\nto 85%. End diastolic volume does not increase during exercise in the healthy. His maximal heart rate is 175 beats / min. What is his maximal cardiac output?",
     "answers": [2],
-    "exam": ".*",
     "options": ["7 l/min", "15 l/min", "38 l/min", "50 l/min"]
   },
   {
     "question": "The blood pressure is among other things regulated by peripheral resistance. Which vessels are responsible for most of this resistance?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Arteries", "Arterioles", "Capillaries", "Venules"]
   },
   {
     "question": "The aortic valve may be calcified and narrow due to disease. This will give a murmur that can be heard through a stethoscope. When in the ECG cycle is this murmur heard?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The PQ interval",
       "During the QRS",
@@ -165,19 +147,16 @@
   {
     "question": "The aortic valve may be calcified and narrow due to disease. In one patient, this increases the blood flow velocity at ejection from 1 m/s below the valve to 5 m/s velocity through the valve. If the cross sectional area of the opening below the valve is 3.2 cm2, what is the cross sectional area of the valve itself in the narrowest part?",
     "answers": [3],
-    "exam": ".*",
     "options": ["1.6 cm2", "1.0 cm2", "0.8 cm2", "0.6 cm2"]
   },
   {
     "question": "The mitral valve may be diseased and leak (regurgitate). A patient with mitral regurgitation has an end diastolic volume of 250 ml, and an ejection fraction of 70%. 100 ml blood leaks back through the mitral valve into the left atrium during each heartbeat. What is his cardiac output, measured in the aorta with a HR of 70?",
     "answers": [2],
-    "exam": ".*",
     "options": ["12.2 l/min", "7 l/min", "5.2 l/min", "4.9 lmin"]
   },
   {
     "question": "As muscle relaxes, the relaxation itself is an energy demanding process, meaning that a contracted muscle will not relax if the cell is depleted of energy. What is the main energy demanding process in the cell responsible for relaxation?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The active elongation of the cell, as the actin – myosin cross bridges turns the other way, pushing action and myosin from each other.",
       "The uncoupling of actin-myosin cross bridges",
@@ -188,7 +167,6 @@
   {
     "question": "<img src=\"images/k8zceg.webp\" />\nA patient in the coronary care unit suddenly displays a change in the heart rhythm and pulse as shown in the figure. What is the mechanism?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The atria suddenly starts to beat in an uncoordinated manner",
       "The AV-node suddenly stops conducting the impulses from the atria to the ventricles",
@@ -199,7 +177,6 @@
   {
     "question": "<img src=\"images/5mvoqc.webp\" />\nA patient in the coronary care unit suddenly displays a change in the heart rhythm and pulse as shown in the figure. How would you treat the mechanism as first line treatment?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Electrical shock",
       "Pacemaker",
@@ -210,19 +187,16 @@
   {
     "question": "<img src=\"images/8h6x7wd.webp\" />\nWhich of the phases corresponds to the QRS in the ECG?",
     "answers": [0],
-    "exam": ".*",
     "options": ["A", "B", "C", "D"]
   },
   {
     "question": "<img src=\"images/1c5ju.webp\" />\nAnd which phase corresponds to the ejection of blood (emptying of the ventricles)?",
     "answers": [1],
-    "exam": ".*",
     "options": ["A", "B", "C", "D"]
   },
   {
     "question": "What is the sensitivity of a certain diagnostic test?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The probability of having a positive test if you are ill",
       "The probability of having a negative test if you are healthy",
@@ -233,7 +207,6 @@
   {
     "question": "What's this?\n<img src=\"images/hrti5f.webp\" />",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "False positive test",
       "False negative test",
@@ -244,7 +217,6 @@
   {
     "question": "The Power of a controlled study result, is often given as a percentage. What does this percentage mean?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Power is the probability of discovering a result that is real",
       "Power is the probability of the study result being wrong (random)",
@@ -255,7 +227,6 @@
   {
     "question": "What is the study power dependent on?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Only study size",
       "Only the variability of the outcome variable",
@@ -266,25 +237,21 @@
   {
     "question": "<img src=\"images/wnb3ed.webp\" />\nA 50 year old man has no symptoms but with hypertension. Knowing that hypertension gives an increased risk of getting coronary disease, he is worried and wants a checkup for safety’s sake. He went to a private specialist centre in order to have a test, and had a stress echocardiography. The risk of having significant coronary disease in men without symtoms, but with hypertension at that age may be assumed to be 7%. Stress echo has a sensitivity of about 80%, and a specificity of 90%. This may be expressed in the following 4x4 table:\n\nWhat's the accuracy of the test?",
     "answers": [1],
-    "exam": ".*",
     "options": ["90.0%", "89.3. %", "88.8%", "85.0%"]
   },
   {
     "question": "<img src=\"images/3blyco.webp\" />\nIf the test shows a positive result (meaning it indicates coronary disease), what is the positive predictive value of this test (the probability that he really is ill)?",
     "answers": [2],
-    "exam": ".*",
     "options": ["60.2 %", "8.3 %", "37.6 %", "17.5 %"]
   },
   {
     "question": "<img src=\"images/123ad0p.webp\" />\nIf the test shows a negative result (meaning it doesn’t indicate coronary heart disease), what is the negative predictive value of the test (the probability that he really is healthy)?",
     "answers": [1],
-    "exam": ".*",
     "options": ["91.5%", "98.4%", "93.9%", "62.4%"]
   },
   {
     "question": "What's the mechanism for nerve impulse conduction along an axon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "An action potential will displace ions along the membrane, depolarising the neighbour areas, triggering action potential in the neighbouring area.",
       "An action potential will open potassium channels in the neighbour areas, pushing the action potential along the membrane",
@@ -295,7 +262,6 @@
   {
     "question": "What are synapses?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Synapses are support cells which works as the maintenance and immune cells of the nervous system",
       "Synapses are specialized nerve cells, whose primary function is transmission of the fast signal activity throughout the nervous system",
@@ -306,7 +272,6 @@
   {
     "question": "In B-mode ultrasound, an image is built up by lines, where each line is related to a pulse sent and retuned from the echoes. This means that the number of lines in a sector is limited by the speed of sound, and determines the lateral resolution of the image. With 64 scan lines, we can get about 56 frames per second (FPS), given a depth of 12 cm, as there are other limitations as well. In some cases, there is a need for a higher frame rate. How would you achieve that?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "By increasing the number of scanlines in the imaging plane",
       "By reducing the number of scanlines in the imaging plane",
@@ -317,7 +282,6 @@
   {
     "question": "What happens if you want to acquire a 3D volume instead of a single 2D plane?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "If you want to maintain the same number of lines, the frame rate will be reduced by a factor of four",
       "If you want to maintain the same number of lines, the frame rate will be reduced by a square factor",
@@ -328,7 +292,6 @@
   {
     "question": "What is the basis for the velocity information from Doppler analysis?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "When the ultrasound pulse hits a moving object, the amplitude (intensity) of the reflected signal is proportional to the velocity of the object",
       "When the ultrasound pulse hits a moving object, the frequency (wavelength) of the reflected signal is proportional to the velocity of the object",
@@ -339,7 +302,6 @@
   {
     "question": "Which hardware component in an MR system enables spatial encoding of the signal?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The main superconducting magnet.",
       "The radiofrequency antennas/coils.",
@@ -350,7 +312,6 @@
   {
     "question": "In an MR machine, energy input (RF pulse) results in net magnetization of the nuclei. The loss of this energy is called relaxation, and results in signal output that is used for imaging. There are two kinds of relaxation: T1 is the regrowth of longitudinal magnetization vector, T2 is the loss of transverse magnetization vector. Why is T1 different from T2?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The regrowth of longitudinal magnetization depends on the difference in energy states of the “up” and “down” states.",
       "The regrowth of longitudinal magnetization also depends on “in-phasing” of the magnetic longitudinal magnetic vectors.",

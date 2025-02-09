@@ -2,7 +2,6 @@
   {
     "question": "Hvilken av disse funksjonene har nøytrofile granulocytter?",
     "answers": [1],
-    "exam": "Blod og immun",
     "options": [
       "De skiller ut histamin",
       "De fagocytterer bakterier",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilket utsagn om albumin er riktig?",
     "answers": [0],
-    "exam": "Blod og immun",
     "options": [
       "Albumin har betydning for det osmotiske trykket i blodet",
       "Albumin har en viktig funksjon i koagulasjonsmekanismen",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilket utsagn om blodet er riktig?",
     "answers": [0],
-    "exam": "Blod og immun",
     "options": [
       "Blodet består av plasma og blodceller",
       "Hemoglobinet finnes i leukocyttene",
@@ -35,7 +32,6 @@
   {
     "question": "Hvilke blodceller fagocytterer kroppsfremmed materiale ved en betennelse?",
     "answers": [2],
-    "exam": "Blod og immun",
     "options": [
       "Mastceller og plasmaceller",
       "B- og T-lymfocytter",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken av disse celletypene skiller ut histamin?",
     "answers": [1],
-    "exam": "Blod og immun",
     "options": [
       "Nøytrofile granulocytter",
       "Mastceller",
@@ -57,7 +52,6 @@
   {
     "question": "Hvilket utsagn om lymfocytter er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lymfocytter tilhører det ytre immunforsvaret (barriereforsvaret)",
       "B-lymfocytter produserer antistoffer",
@@ -68,7 +62,6 @@
   {
     "question": "Hva er funksjonen til erytrocytter?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Erytrocytter transporterer O2 til kroppens vev, og returnerer CO2 til lungene",
       "Erytrocytter er en del av infeksjonsforsvaret",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilket utsagn om hemostasen er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Når blodplatepluggen er dannet, er hemostaseprosessen fullstendig",
       "Fibrin lages av blodplater",
@@ -90,7 +82,6 @@
   {
     "question": "Hvilket utsagn om fibrinolysen er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Fibrinolyse betyr dannelse av fibrin",
       "Fibrinolyse medfører dannelse av blodpropp (koagel)",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilket utsagn om reguleringen av produksjonen av erytrocytter er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Leveren produserer erytropoietin",
       "Erytropoietin stimulerer dannelsen av erytrocytter i beinmargen",
@@ -112,7 +102,6 @@
   {
     "question": "Hvilken funksjon har antistoffer?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Antistoffer øker produksjonen av antigener i kroppen",
       "Antistoffer binder seg til antigen og derved kan uskadeliggjøre antigenene",
@@ -123,7 +112,6 @@
   {
     "question": "Hvordan transporteres mesteparten av oksygenet i blodet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Løst i plasma",
       "Bundet til hemoglobin i erytrocytter",
@@ -134,13 +122,11 @@
   {
     "question": "Hva er samlebetegnelsen på hvite blodceller?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Lymfocytter", "Monocytter", "Fagocytter", "Leukocytter"]
   },
   {
     "question": "Hva er effekten av hukommelsesceller?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Unngå smitte",
       "Hindre betennelse",
@@ -151,7 +137,6 @@
   {
     "question": "Hvilket utsagn om makrofager er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Umodne makrofager kalles granulocytter",
       "Hovedoppgaven til makrofager er å løse opp blodplateplugger",

@@ -2,7 +2,6 @@
   {
     "question": "Hvorfor er biologisk-inspirerte teknikker noen ganger aktuelle alternativer til tradisjonelle metoder?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Biologisk inspirerte teknikker er de eneste metodene som kan oppnå virkelig intelligente systemer",
       "Biologisk inspirerte teknikker er mer motiverende å jobbe med",
@@ -14,7 +13,6 @@
   {
     "question": "Hvilket av de følgende punktene er ikke en konsekvens av Moores lov?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Arbitrering på serielle busser bør helst skje distribuert.",
       "Økt prosessorytelse.",
@@ -26,7 +24,6 @@
   {
     "question": "Hva er det Moores lov sier??",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Antall transistorer i en krets fordobles hver 18. måned",
       "<em>Keep it simple, stupid</em>",
@@ -38,7 +35,6 @@
   {
     "question": "Mange innvevde systemer benytter seg av en mikrokontroller.  Hva er en mikrokontroller?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En enkelt brikke som inneholder en fullstendig datamaskin (CPU, RAM, ROM, I/O-kontrollere)",
       "En I/O-kontroller som tilfredsstiller visse krav til fysisk størrelse og strømforbruk",
@@ -49,7 +45,6 @@
   {
     "question": "Hvilken påstand er korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Moores lov har vist seg å gjelde siden den ble formulert",
       "Moores lov gjelder kun for radiorør",
@@ -60,7 +55,6 @@
   {
     "question": "Hvilken påstand er mest korrekt om utviklingen av minne og prosessor gjennom tidene?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Maksimal hastighet til prosessorer øker i takt med hastigheten til minnet",
       "Minnets størrelse og tetthet øker i takt",
@@ -71,7 +65,6 @@
   {
     "question": "Hva er et innvevd system?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Norsk ord for \"plug-in\" (brukes f.eks i en nettleser).",
       "Datamaskin som gjør en spesifikk oppgave og er del i et større system.",
@@ -81,7 +74,6 @@
   {
     "question": "Hva er en av motivasjonene for biologisk inspirert maskinvare?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Biologer er gjerne mer kreative enn teknologer slik at de kan påvirke utviklingsprosesser på en positiv måte.",
       "Enkle problemer kan gjerne løses automatisk.",
@@ -93,7 +85,6 @@
   {
     "question": "Hva er <em>ikke</em> riktig å si om et innvevd system i forhold til en PC?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Spesialiert design",
       "Liten størrelse og lav vekt",
@@ -105,7 +96,6 @@
   {
     "question": "Hvilken av disse påstandene om utviklingstrender er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "DRAM-tetthet øker raskere enn DRAM-hastighet",
       "DRAM-hastighet øker raskere enn DRAM-tetthet",
@@ -116,7 +106,6 @@
   {
     "question": "Hva sier Moores lov?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Antall transistorer pr. brikke tredobles hvert 3. år",
       "Antall transistorer pr. brikke tredobles hvert 4. år",

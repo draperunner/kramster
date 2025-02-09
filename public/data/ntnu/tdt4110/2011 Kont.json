@@ -2,7 +2,6 @@
   {
     "question": "Hva er en tjener i en klient-/tjenerarkitektur?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En tjener utfører tjenester på vegne av en klient.",
       "En tjener etterspør tjenester fra klienter.",
@@ -13,13 +12,11 @@
   {
     "question": "En del av et program består av en FOR-løkke, inne i en FOR-løkke, inne i en FOR-løkke. Alle løkkene løper gjennom tallene fra 1 til N. Tidsforbruket for denne programdelen vil være proporsjonal med:",
     "answers": [0],
-    "exam": ".*",
     "options": ["N^3", "3N", "3NlogN"]
   },
   {
     "question": "Hva er hovedoppgaven til en navnetjener?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Å oversette domenenavn til IP-adresser.",
       "Å oversette IP-adresser til domenenavn.",
@@ -30,7 +27,6 @@
   {
     "question": "Kari har utviklet et programsystem i den bedriften der hun har vært ansatt. Kan hun ta med seg og videreutvikle denne programvaren hvis hun slutter i bedriften?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Ja, i følge Åndsverksloven er det programmereren som har rettighetene til programvaren.",
       "Nei, det er bedriften som eier programvaren.",
@@ -40,7 +36,6 @@
   {
     "question": "Svart-boks-testing er:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Testing der man prøver ut systemets eller modulens indre oppbygging.",
       "Testing der man ser bort fra systemets eller modulens indre oppbygning og kun tar i betraktning de ytre egenskapene.",
@@ -50,7 +45,6 @@
   {
     "question": "Hva er riktig rekkefølge når ulike minnetyper sorteres etter synkende hastighet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Registre, cache, primærminne, sekundærminne.",
       "Cache, registre, primærminne, sekundærminne.",
@@ -60,7 +54,6 @@
   {
     "question": "Når kan man ikke benytte seg av binærsøkingsalgoritmen?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Når datamengden er så stor at det vil ta for lang tid.",
       "Når det er stor sannsynlighet for at det man søker etter ikke finnes i datamengden.",
@@ -71,7 +64,6 @@
   {
     "question": "Hva er i lovverket ikke definer som sensitive personopplysninger:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Etnisk bakgrunn.",
       "Politisk oppfatning.",
@@ -82,13 +74,11 @@
   {
     "question": "Vi skal kode tegnene a-å, A-Å, 0-9, mellomrom, spørsmålstegn, utropstegn, punktum, kolon, semikolon og bindestrek. Hvor mange binære siffer (engelsk: bits) er nødvendig i kodene når alle tegn skal representeres med like mange binære siffer?",
     "answers": [1],
-    "exam": ".*",
     "options": ["6", "7", "8"]
   },
   {
     "question": "Hva blir resultatet når 81 kodes binært (i 2-tallsystemet)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "1011011",
       "1010101",
@@ -99,7 +89,6 @@
   {
     "question": "Hva tilsvarer ABCD i det heksadesimale tallsystemet (16-tallsystemet) i 10-tallsystemet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "42561",
       "43981",
@@ -110,7 +99,6 @@
   {
     "question": "QoS er forkortelse for:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Quantity of Storage.",
       "Quality of Servers.",
@@ -121,13 +109,11 @@
   {
     "question": "Vi har en sortert liste med 100 000 000 elementer. Ved binærsøking i denne listen, hvor mange sammenligninger må vi i verste fall gjøre?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Omtrent 20.", "Omtrent 27.", "Omtrent 34."]
   },
   {
     "question": "&lt;p&gt;…&lt;/p&gt; i en HTML-fil definerer:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Et avsnitt.",
       "Et adressefelt.",
@@ -138,7 +124,6 @@
   {
     "question": "A || !(B && C) er usant (engelsk: false) når:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "A false, B true, C true",
       "A true, B true, C false",
@@ -149,7 +134,6 @@
   {
     "question": "Hva er entropi?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Et mål på informasjonsinnholdet i en melding.",
       "En algoritme for effektiv koding av symboler.",
@@ -160,7 +144,6 @@
   {
     "question": "En URL (Uniform Resource Locator) har følgende format:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Protokoll, maskin, sti, fil",
       "Protokoll, maskin, sti",
@@ -171,7 +154,6 @@
   {
     "question": "Anta at karakterene har følgende fordeling: A (12 %), B (24 %), C (35 %), D (20 %), E (7 %) og F (2 %). Hva er en korrekt Huffmankoding for A-F?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "A: 001 B: 10 C: 11 D: 01 E: 0001 F: 0000",
       "A: 010 B: 01 C: 10 D: 111 E: 1110 F: 1111",
@@ -182,7 +164,6 @@
   {
     "question": "En IP-adresse er:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En numerisk adresse som identifiserer en datamaskin eller annen type enhet i et IPnettverk.",
       "En mekanisme som gjør det mulig å kontakte en Internett Provider, for eksempel når det oppstår feil i nettet.",
@@ -192,7 +173,6 @@
   {
     "question": "Hva er inspeksjon av programvare?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Kjøring av programmer for å se om programvaren oppfyller kravene til systemet.",
       "Overvåking av variablenes verdier under programkjøring for å finne årsakene til feil.",

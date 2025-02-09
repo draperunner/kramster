@@ -2,7 +2,6 @@
   {
     "question": "Hva skjer som følge av at insulin skilles ut?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Blodsukkeret går ned",
       "Blodsukkeret stiger",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken påstand er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Adrenalin dannes i binyrebarken",
       "Adrenalin hemmer nedbrytingen av glykogen i muskel- og leverceller",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilket utsagn er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Adrenalin forsterker effekten av det parasympatiske nervesystemet",
       "Adrenalin reduserer blodglukosen",
@@ -35,7 +32,6 @@
   {
     "question": "Hvilket hormon stimulerer til økt produksjon av brystmelk?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Prolaktin",
       "Oksytocin",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilket utsagn om kortisol er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Kortisol reduserer glukosenivået i blodet",
       "Kortisol stimulerer nedbryting av proteiner",
@@ -57,13 +52,11 @@
   {
     "question": "Hvor finner vi skjoldkjertelen?",
     "answers": [0],
-    "exam": ".*",
     "options": ["I halsregionen", "I hjernen", "I abdomen", "I thorax"]
   },
   {
     "question": "Hvilket utsagn om thyreoideahormonene (T3 og T4) er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "T3 og T4 skilles ut fra hypofysen",
       "T3 og T4 produseres i binyrene",
@@ -74,7 +67,6 @@
   {
     "question": "Hva er én av virkningene av glukagon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Øker blodglukose ved at glykogen brytes ned til glukose",
       "Reduserer blodglukose ved at opptaket av glukose fra blodet til kroppens celler øker",
@@ -85,13 +77,11 @@
   {
     "question": "Hva virker TSH stimulerende på?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Thymus", "Binyrebarken", "Binyremargen", "Skjoldkjertelen"]
   },
   {
     "question": "Hva skjer når insulin skilles ut?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Blodsukkeret synker",
       "Blodsukkeret stiger",
@@ -102,7 +92,6 @@
   {
     "question": "Hva er en av virkningene når insulin skilles ut?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Glukagonutskillelsen fra pankreas øker",
       "Blodsukkeret stiger",
@@ -113,7 +102,6 @@
   {
     "question": "Hvilket utsagn om adrenalin er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Adrenalin produseres i binyrebarken",
       "Adrenalin hemmer glykogennedbrytningen i muskelceller og leverceller",

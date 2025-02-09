@@ -2,301 +2,251 @@
   {
     "question": "Without a DNS server, it is not possible to contact web servers.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "You have to use a browser ala Opera, Firefox or Internet explorer to retrieve an object from a web server.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Forward error correction is a way to recover from packet loss.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The two parameters that must be specified in order to instantiate a Java \"socket\" are destination host name/address and destination port number.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Client side delayed playout is data buffering to compensate for network-added jitter.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Network and link layer are always executed together.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Within the same broadcast network, it is the IP network part of the destination address that identifies the receiver.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "DHCP can be used to assign default gatway and DNS server address.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "ARP is used to find the next hop when forwarding packets.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "If an organisation has licenced the network address space designated by 128.39.16.0/20, an IP packet addressed to 128.39.7.10 will not be sent to this organisation.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "All internet application protocols are text based.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "It is possible for a client to send e-mail over HTTP rather than SMTP.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A HTTP web server uses persistent connections. The server spawns a separate process for each client that connects to the server. Each of these processes will have different server port numbers. oppretter en separat prosess for hver klient som kopler seg opp mot tjeneren.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "P2P file distribution. Upload rate server is 10Mbps and peers 1 Mbps. Download rate peers is 10Mbps. There are 100 peers and the file is 12,5 Mbytes. The minimum distribution time is about 100 s.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "SIP is used to transfer voice packets between two communicating peers.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A BitTorrent peer A may upload to a peer B even if B is not sending anything to A.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The DNS architecture is centralized around root servers.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "There are distributed applications that use neither TCP nor UDP.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A browser will generate header lines dependent on browser type and version.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The value of a DNS resource record of Type = MX is the hostname of the mail server.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "It is primarily the characteristics of the applications that determine the complexity of a reliable data transfer protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "When a TCP host receives data from the network layer, it can identifiy the appropriate process to pass the data to by using the source port, source IP address and destination port.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A web server using non-persistent connections runs slow-start for each message larger than MSS (maximum segment size).",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A TCP transport layer sender window may contain both acknowledged and unacknowledge data.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP provides a reliable, simplex service to the application layer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "For every write() to a TCP streamsocket, there must be a corresponding read() at the other end to receive the data.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The maximum data rate between two hosts communicating using TCP depends solely on the bandwidth of the underlying internetwork.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The original TCP (without extensions) is best characterized as a pipelined, go-back-N protocol.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The size of the largest segment a TCP sender will transmit, is limited by the lower layers.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP has spesific protocol headers for connection set-up and close.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In theory, packet switching can support more users than circuit switching.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A datagram is a packet that is transferred independently of all other packets.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The primary purpose of a router's main processor is to run management and routing software.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Two primary functions of a router's output adapter are link layer processing and network layer encapsulation.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "All routers only look at the network part and not the host part of the IP address.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a distance-vector routing algorithm each node has a map of the entire network and determines the shortest path from itself to all other nodes in the network.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The distance vector routing algorithm is based on information received only from neighbours.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Two important reasons for organizing the Internet as a hierarchy of networks for the purpose of routing, are scale and administrative autonomy.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The host component of a CIDR address of the form a.b.c.d/23 can contain addresses for appr. 500 hosts.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Network address translation (NAT) is used in the Internet to translate between IP addresses found in separate sub-networks.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A node's LAN address used by the link layer is simply another form of the node's IP address.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A CSMA/CD node constructs a frame, senses the channel idle, and transmits the frame. The node then knows for sure that the frame will arrive at the receiver within the same subnet.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a switch-based ethernet LAN there are no collision domains.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Detecting collisions in a wireless LAN is not always possible due to collision avoidance.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Wireless 802.11 protocol header includes MAC addresses to both the access point and the first-hop router.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "For a given wireless modulation scheme, the higher the SNR (signal to noise ratio) the lower the BER (bit error rate).",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In CDMA, the coded signal has a higher bandwidth than the original data being communicated.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The entries in a switch table need to be configured by the network administrator.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Considering the expression D * 2r XOR R as the mathematical representation of data with CRC bits appended. The CRC bit pattern represented by R is determined using modulo 2 arithmetic, wherein R is the remainder when a generator value, G, is divided into D * 2r.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a CAT-5 UTP ethernet installation all nodes are exactly 100 meters from the hub. The time it takes for a bit to propagate from hub to node for a 10BaseT ethernet is ten times longer than for a 100BaseT ethernet.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

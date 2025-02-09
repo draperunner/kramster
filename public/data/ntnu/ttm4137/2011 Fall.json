@@ -2,7 +2,6 @@
   {
     "question": "What is the major weakness in WEP, exploited by the PTW attack used in the lab?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The initialization vector is too short",
       "No protection against message replay",
@@ -13,13 +12,11 @@
   {
     "question": "What is the length of the WEP initialization vector (IV)?",
     "answers": [0],
-    "exam": ".*",
     "options": ["24 bits", "32 bits", "48 bits", "64 bits"]
   },
   {
     "question": "How are EAP messages transported between the authenticator and the authentication server in RSN?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "EAP messages are encapsulated in TCP/IP",
       "EAP messages are encapsulated in EAP-TLS",
@@ -30,13 +27,11 @@
   {
     "question": "Which cryptographic algorithm is used in counter mode with cipher block chaining message authentication code protocol in CCMP?",
     "answers": [0],
-    "exam": ".*",
     "options": ["AES", "Michael", "RC4", "KASUMI"]
   },
   {
     "question": "What is the purpose of the EAPOL 4-way handshake?",
     "answers": [2],
-    "exam": "2011 Fall",
     "options": [
       "To compute a fresh pairwise temporal key (PTK) from the pairwise message key (PMK)",
       "To compute a fresh pairwise master key (PMK) from the pairwise transient key (PTK)",
@@ -47,7 +42,6 @@
   {
     "question": "How does the counter mode operation of a block cipher E() work?",
     "answers": [2],
-    "exam": "2011 Fall",
     "options": [
       "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>&#x2295;</mo><mi>i</mi></math>",
       "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>&#x2295;</mo><mi>M</mi><mo>&#x2295;</mo><mi>i</mi></math>",
@@ -58,7 +52,6 @@
   {
     "question": "Is the complete MAC PDU encrypted by the CCMP?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Yes, the CCMP uses a shared key",
       "Yes, the CCMP header is encrypted",
@@ -69,7 +62,6 @@
   {
     "question": "Which block cipher mode of operation is used for AES in RSN?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Counter Mode with Cipher Block Chaining Message Authentication Code",
       "Counter Mode with Galois Message Authentication Code",
@@ -80,7 +72,6 @@
   {
     "question": "How is the 128 bits start value of the counter for CCMP encryption initialized in RSN?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "By a random IV",
       "By the concatenation of IV and the extended IV",
@@ -91,7 +82,6 @@
   {
     "question": "Which 802.11 frame type is cryptographically protected by the 802.11w standard?",
     "answers": [2],
-    "exam": "2011 Fall",
     "options": [
       "Data frames",
       "Control frames",
@@ -102,7 +92,6 @@
   {
     "question": "How is the subscriber identity protected from radio channel eavesdropping in UMTS?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "By the network providing temporary subscriber identities to the USIMs",
       "By keeping the subscriber identity in the USIM only",
@@ -113,7 +102,6 @@
   {
     "question": "Which information is sent from the HSS to the MME during the LTE/EPS authentication protocol?",
     "answers": [1],
-    "exam": "2011 Fall",
     "options": [
       "IMSI, RAND, AUTN, XRES",
       "RAND, AUTIN, XIRES, <math><msub><mi>K</mi><mi>ASME</mi></msub></math>",
@@ -124,7 +112,6 @@
   {
     "question": "Which UTRAN protocol layers provide encryption?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "MAC layer and RRC layer",
       "RLC layer and RRC layer",
@@ -135,7 +122,6 @@
   {
     "question": "What happens if the result of the UTRAN cryptoalgorithm negotiation is that the user equipment (UE) and the network do not have a common encryption algorithm?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "UTRAN provides a new encryption algorithm as an app download",
       "The connection is shut down immediately by UTRAN",
@@ -146,7 +132,6 @@
   {
     "question": "In which mode of operation is KASUMI used for constructing the 3GPP f8 key stream generator?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Combining Counter-mode and ECB-mode",
       "Combining Counter-mode and CCM-mode",
@@ -157,7 +142,6 @@
   {
     "question": "What was the underlying assumption for the MILENAGE security analysis?",
     "answers": [1],
-    "exam": "2011 Fall",
     "options": [
       "No assumptions were made",
       "The kernel function must be a secure block cipher",
@@ -168,7 +152,6 @@
   {
     "question": "Why can the USIM be physically removed from the rest of the UE?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The UE manufacturing and lifecycle can be managed independently from the personalization and subscription process",
       "The failure rate of the integrated circuit cards (UICCs) are high because the issuers (mobile operators) want to reduce cost for short subscription duration",
@@ -179,13 +162,11 @@
   {
     "question": "What is the bit length of the permanent subscriber key in UMTS?",
     "answers": [2],
-    "exam": ".*",
     "options": ["56", "64", "128", "256"]
   },
   {
     "question": "The end points of the user data encryption in EPS are",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The UICC and the eNB",
       "The UE and the MME",
@@ -196,7 +177,6 @@
   {
     "question": "The end points of signal-message encryption in the EPS access stratum are",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The UICC and the eNB",
       "The UE and the eNB",
@@ -207,7 +187,6 @@
   {
     "question": "The end points of signal-message integrity protection in the EPS non-stratum access are",
     "answers": [3],
-    "exam": "2011 Fall",
     "options": [
       "The UICC and the eNB",
       "The UE and the eNB",
@@ -218,7 +197,6 @@
   {
     "question": "Does LTE/EPS provide end-to-end data security?",
     "answers": [0],
-    "exam": "2011 Fall",
     "options": [
       "No",
       "Yes, but only authenticity",
@@ -229,7 +207,6 @@
   {
     "question": "Can a 3G USIM work in an LTE UE handset?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "No, because the cryptokeys must be kept in the USIM",
       "No, because the cryptokeys are not compatible",
@@ -240,7 +217,6 @@
   {
     "question": "Where does the key derivation function KDF of EPS reside?",
     "answers": [3],
-    "exam": "2011 Fall",
     "options": [
       "In the USIM and the AuC",
       "In the USIM and the UE",
@@ -251,7 +227,6 @@
   {
     "question": "What is lawful interception in mobile communication networks?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Eavesdropping approved by judicial court",
       "Eavesdropping performed by or on behalf of the police authorities",

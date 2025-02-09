@@ -2,13 +2,11 @@
   {
     "question": "Hvor mange mikroinstruksjoner kan ”control store” inneholde? (Se figur 6)\n<img src=\"images/4ikhh.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": ["512", "36", "18432", "9"]
   },
   {
     "question": "Hvilken påstand er ikke korrekt for Instruksjonssetarkitektur (ISA).",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Første nivå tilgjengelig for (ekspert-)brukere.",
       "Grense mellom maskinvare og programvare.",
@@ -19,7 +17,6 @@
   {
     "question": "Hva er skissert i Figur 4?\n<img src=\"images/mola09.webp\"/>",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Dynamisk RAM-celle.",
       "Halvadder.",
@@ -30,7 +27,6 @@
   {
     "question": "Hvilken påstand for mikrokontrollersystemet i Figur 5 er korrekt?\n<img src=\"images/cl1fqt.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Prosessoren adresserer 2<sup>8</sup> minnelokasjoner.",
       "Systemet har multiplekset adresse- og databuss.",
@@ -41,7 +37,6 @@
   {
     "question": "Under følger en rekke påstander om datamaskinkomponenter. Hvilken påstand er korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Superscalare prosessorer må være RISC-maskiner.",
       "Ved å innføre Superscalaritet øker ILP.",

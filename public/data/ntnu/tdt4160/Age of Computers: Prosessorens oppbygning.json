@@ -2,7 +2,6 @@
   {
     "question": "Hva er forholdet mellom en mikrooperasjon og en instruksjon?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "De er en og samme ting",
       "En mikrooperasjon er en elementær operasjon prosessoren kan utføre mens en instruksjon kan bestå av flere mikrooperasjoner",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilket utsagn er mest riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Oppdelingen av en prosessor i styre-enhet (Eng. control unit) og utførende enhet (Eng. datapath) er en nødvendighet for å få den til å virke riktig.",
       "Oppdelingen av en prosessor i styre-enhet (Eng. control unit) og utførende enhet (Eng. datapath) er en anbefalt konstruksjonsmetode ved konstruksjon av en prosessor eller et annet større digitalt system.",
@@ -23,7 +21,6 @@
   {
     "question": "Hvilke hoveddeler består en utførende enhet av?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Funksjonell enhet og registerfil",
       "ALU og skifter",
@@ -34,7 +31,6 @@
   {
     "question": "En null-adresse maskin (eng. zero-address machine) er en datamaskin",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "som benytter en stakk og har instruksjoner som implisitt henter eller skriver data på stakken i LIFO rekkefølge.",
       "der alle adresser som sendes til lager-enheten slutter på null.",
@@ -44,7 +40,6 @@
   {
     "question": "Hva er rett om sammenhengen mellom instruksjoner og mikrooperasjoner?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En instruksjon tar en klokkesykel",
       "Instruksjoner brukes i høy-nivå programmeringsspråk",
@@ -55,7 +50,6 @@
   {
     "question": "Hvilket av utsagnene er mest riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En null-adresse maskin (Eng. zero-address machine) er en datamaskin der alle adresser som sendes til lager-enheten slutter på null.",
       "En null-adresse maskin (Eng. zero-address machine) er en datamaskin som benytter instruksjoner med såkalt immediate-operander som er lagret i en del av instruksjonsordet, og der ord-bredden fylles opp av 0-ere (Eng. zero-fill) for å forme en komplett adresse operand."
@@ -64,7 +58,6 @@
   {
     "question": "Hvilketa av utsagnene er mest riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En null-adresse maskin (Eng. zero-address machine) er en datamaskin som benytter en stakk og har instruksjoner som implisitt henter eller skriver data på stakken i LIFO rekkefølge."
     ]
@@ -72,7 +65,6 @@
   {
     "question": "Hvilken prosessortype har som oftest kortest instruksjonsord?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Akkumulatormaskin", "Load/store-maskin", "Stakkmaskin"]
   }
 ]

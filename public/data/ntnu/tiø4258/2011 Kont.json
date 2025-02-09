@@ -2,7 +2,6 @@
   {
     "question": "En av påstandene under om betydningen av innovasjoner er IKKE korrekt etter pensum. Hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Innovasjoner kan gi oss mange strategiske fordeler, for eksempel at vi gjennom å innovere kan endre konkurransemekanismene i vårt marked fra pris til kvalitet eller omvendt",
       "Innovasjon er et nytt fenomen som dukket opp på 60-tallet da innføring av ny elektronikk akselererte en rivende teknologisk utvikling.",
@@ -13,7 +12,6 @@
   {
     "question": "En av påstandene under er IKKE korrekt om Discontinuities slik begrepet diskuteres i pensum. Hvilken?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Discontinuities er definert som noe som skjer utenfor en enkelt bedrift sin kontroll, men som samtidig har et potensiale for å endre reglene for hvordan denne bedriftens (og andre bedrifters) forretningsdrift gjøres.",
       "Discontinuities kan representere store muligheter for en bedrift.",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken av de fire fasene under er IKKE en del av den innovasjonsmodellen vi benytter i dette emnet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Search:  der vi ser etter muligheter for innovasjoner",
       "Implement:  der vi skal sette utvalgte ideer ut i livet",
@@ -35,7 +32,6 @@
   {
     "question": "Det sies i pensum at store og små bedrifter har ulike fordeler og ulemper i forhold til å drive innovasjoner. Hvilke av fordelene under gjelder normalt for store bedrifter, og ikke for små?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "at bedriften har en klar, langsiktig strategi",
       "at bedriften har en uformell kultur",
@@ -46,7 +42,6 @@
   {
     "question": "En av påstandene nedenfor er feil når det gjelder ferdigheter bedrifter trenger for å lykkes med innovasjonsprosesser. Hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Choosing og Learning er to av mange ferdigheter bedrifter trenger for å kunne nyttiggjøre seg innovasjonsprosesser",
       "De ferdighetene som er nyttige til å drive en bedrift, er de samme som er viktige til å drive innovativt arbeid",
@@ -57,7 +52,6 @@
   {
     "question": "Tidd og Bessant (2009) deler risikobildet inn i tre kategorier. Hvilke?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "1. Risiko knyttet til markedsadopsjon, 2. Risiko knyttet til produksjon og 3. Risko knyttet til logistikk.",
       "1. Usikkerhet, 2. Risiko, 3. Usikkerhet og risikostyring.",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Bankene vil normalt sett ikke engasjere seg finansielt i de tidlige fasene ved utviklingen av en teknologibedrift.",
       "I tidlig fase vil bankene som regel være den viktigste finansieringskilden.",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken av følgende påstander om venturekapitalfond er korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Venturekapitalfond er ofte spesialisert i forhold til fase eller bransje.",
       "Dette er offentlige fond som skal støtte opp om etablering av bedrifter.",
@@ -90,7 +82,6 @@
   {
     "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Gründer, såkornfond, venturekapitalfond, familie og venner, Business Angels.",
       "Gründer, familie og venner, Business Angels, såkornfond, venturekapitalfond",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilken av følgende påstander om såkalte business angels er korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Er som hovedregel passive eiere.",
       "Er aktive eiere som tilfører bedriften knappe ressurser.",
@@ -112,7 +102,6 @@
   {
     "question": "Porter (1980) bruker begrepene innovation leadership og â€œinnovation followership. Hva legger han i dette?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Man må lede innovasjonsutviklingen, man kan ikke følge etter andre.",
       "Man vil spare mye ressurser på å følge etter first mowers.",
@@ -123,7 +112,6 @@
   {
     "question": "Teece og Pisano (1994) bruker begrepet dynamiske kapabiliteter. Hvilke kriterier mener de må ligge til grunn for at kapabilitetene kan omtales som strategiske?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "De må være dynamiske, de må være verdifulle for bedriften og de må være skalerbare.",
       "De må være unike, dynamiske og vanskelig å kopiere.",
@@ -134,7 +122,6 @@
   {
     "question": "Hamel og Prahalad (1990) sine ideer om kjernekompetanse kan oppsummeres slik:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Én kjernekompetanse – ett produkt som er markedsledende",
       "Kjernekompetansen må være 1. Verdifull, 2. Sjelden, 3. Vanskelig å imitere, og 4. Innbakt i bedriftens organisasjon.",
@@ -145,7 +132,6 @@
   {
     "question": "Hvilken av følgende påstander om mulighetsanalyser av teknologibaserte forretningsideer er korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Mulighetsanalyser innebærer en innledende vurdering av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
       "Mulighetsanalyser er en fullstendig og gjennomgripende gjennomgang av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
@@ -156,7 +142,6 @@
   {
     "question": "I følge Brush et al. (2001) og deres ressurspyramide må følgende fire elementer ligge til grunn før man kan oppnå unike konkurransefordeler:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Generiske ressurser, spesifikke ressurser, kapabiliteter og nettverkskapabiliteter (generic resources, specific resources, capabilities and network capabilities).",
       "Generiske ressurser, kapabiliteter, kjernekompetanser og strategiske aktiva (generic resources, capabilities, core competences and strategic assets).",
@@ -167,7 +152,6 @@
   {
     "question": "Tidd og Bessant (2009) beskriver to ytterpunkter for hvordan man kan organisere innovasjon (R&D) globalt. Hvilke?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Spesialisert eller integrert.",
       "Innkjøp av innovative løsninger eller intern utvikling.",
@@ -178,7 +162,6 @@
   {
     "question": "Prahalad (2006) bruker begrepet bottom of the pyramid (BoP Markets). Hva mener han med det?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Marked bestående av populasjon som lever under fattigdomsgrensen.",
       "Markeder som har så lav kjøpekraft at lønnsomheten vil være dårlig.",
@@ -189,7 +172,6 @@
   {
     "question": "I boken til Tidd og Bessant (2009) brukes begrepene exploitation og exploration. Hva mener de med dem?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Exploitation handler om å bruke sjeldne ressurser, mens exploration handler om å kombinere sjeldne ressurser.",
       "Exploitation handler om å utnytte andres ressurser, mens exploration handler om å utnytte egne ressurser.",
@@ -200,7 +182,6 @@
   {
     "question": "I følge Mitchell og Hamilton (1988) er det tre overlappende kategorier av innovasjon som store bedrifter må finansiere. Hvilke?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "1. Produktinnovasjon, 2. Markedsinnovasjon og 3. Organisasjonsinnovasjon.",
       "1. Markedsinnovasjon, 2. Prosessinnovasjon og 3. Produktinnovasjon.",
@@ -211,7 +192,6 @@
   {
     "question": "Innenfor strategilitteraturen har det lenge pågått en diskusjon mellom tilhengere av rasjonalisme og inkrementalisme. Hvilket av alternativene under knyttes til rasjonalisme?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Prøving og feiling.",
       "Å bestemme seg for handlinger basert på en grundig analyse.",
@@ -222,7 +202,6 @@
   {
     "question": "Hva er den generelle sammenhengen mellom organisasjonens måloppnåelse og organisasjonens uoffisielle aspekter?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Organisasjonens uoffisielle aspekter utfyller de offisielle, og bidrar således positivt til måloppnåelse.",
       "Organisasjonens uoffisielle aspekter bryter med de offisielle og bidrar derfor negativt til måloppnåelse.",
@@ -233,7 +212,6 @@
   {
     "question": "Hvilken av disse er ifølge Tidd og Bessants (2009) liste ikke en komponent i innovative organisasjoner?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Kreativt klima.",
       "Eksternt fokus.",
@@ -244,7 +222,6 @@
   {
     "question": "Hvilken av disse er ifølge Watson (2008; K1) en nødvendig betingelse for produktivt samarbeid?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At organisasjonens oppgaver blir utført på et tilstrekkelig høyt nivå til at organisasjonen kan fortsette i fremtiden.",
       "At alle medlemmene av organisasjonen deler et felles mål.",
@@ -255,7 +232,6 @@
   {
     "question": "Ledelse kan ifølge Watsons (2006; K2) overordnede rammeverk forstås som:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "handlinger, funksjon og formell rolle (posisjon).",
       "planlegging, gjennomføring og kontroll.",
@@ -266,7 +242,6 @@
   {
     "question": "At mellomledere har en fragmentert arbeidsdag (arbeidsdagen består av en rekke aktiviteter og interaksjoner av kort varighet), kan ifølge pensumtekstene best forklares med:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "At mellomlederne lider av mental overbelastning (forvirring).",
       "At organisasjonens formelle systemer for planlegging som oftest er dårlig designet, slik at lederne må bruke mesteparten av tiden på reaktiv brannslukking.",
@@ -277,7 +252,6 @@
   {
     "question": "Hvilken av Minitzbergs seks organisasjonstyper har kreativitet som sin fremste styrke?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Divisjonalisert struktur.",
       "Maskinbyråkrati.",
@@ -288,7 +262,6 @@
   {
     "question": "Hva menes med mønster av overbærenhet (indulgency pattern)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At ledere ignorerer ansattes regelbrudd i bytte mot at ansatte gjør en ekstrainnsats når de blir spurt om det.",
       "At ledere ignorerer ansattes regelbrudd, slik at de ansatte i praksis bestemmer hvordan arbeidet utføres.",
@@ -299,7 +272,6 @@
   {
     "question": "Høy involvering i innovasjonsprosessen (HII) er typisk mest positivt for:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Organisasjonens evne til radikal innovasjon.",
       "Organisasjonens evne til kontinuerlig forbedring.",
@@ -310,7 +282,6 @@
   {
     "question": "Hvilken påstand om teamarbeid og mål har ikke støtte i pensumlitteraturen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I effektive team har medlemmene den samme oppfatningen av teamets mål.",
       "I innovative team bør målene være uklare, siden uklarhet mobiliserer kreativ energi.",
@@ -321,7 +292,6 @@
   {
     "question": "Hva innebærer det at innovasjonsprosesser er grenseoverskridende (boundary spanning)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "At de resulterer i innovasjoner som bryter grensen for hva deltakerne trodde det var teknologisk mulig å oppnå.",
       "At de resulterer i innovasjoner som bryter grensen for hva organisasjonens kunder (kjøperne av den konkrete innovasjonen) trodde det var teknologisk mulig å oppnå.",
@@ -332,7 +302,6 @@
   {
     "question": "Det viktigste med gruppekreativitet er at vi:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "kan utvikle våre ferdigheter innenfor gruppearbeid",
       "kan gjøre en jobb raskere",
@@ -343,7 +312,6 @@
   {
     "question": "Samvirke kan foregå på ulike nivåer. En av påstandene nedenfor er ikke i samsvar med pensum når det gjelder samvirke om innovasjon. Hvilken?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Samvirke på gruppenivå oppnås best når hvert enkelt individ er kreativt i seg. På den måten oppnås effektivitet selv om ikke alle individene er like godt trenet i gruppearbeid",
       "Samvirke på avdelingsnivå kan være spesielt nyttig i forhold til tverrfaglige oppgaver",
@@ -354,7 +322,6 @@
   {
     "question": "Nedenfor har vi klippet fire utsagn fra bedriften IT-NORGE sin strategi når det gjelder samarbeid med andre bedrifter. Tre av disse kan gjenkjennes som viktige årsaker til at det å være en del av et fungerende innovasjonsnettverk er viktig for enkeltbedrifter, men IKKE den fjerde. Hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Samarbeid gir oss mulighet til å få tilgang til kompetanse vi ikke har i egen bedrift",
       "Samarbeid gir oss mulighet til å utnytte ledig kapasitet i produksjonen",
@@ -365,7 +332,6 @@
   {
     "question": "Nedenfor er fire utfordringer som i følge pensum oppstår når man skal lede arbeide innenfor et innovasjonsnettverk. En av dem er ikke korrekt i forhold til pensum. Hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Det å håndtere free-riders",
       "Det å sikre at egen bedrifts økonomiske interesser blir ivaretatt",
@@ -376,7 +342,6 @@
   {
     "question": "Hvilken av følgende fire grupper vil i henhold til forskning presentert i pensum i størst grad fungere som utviklingspartner for en bedrift som ønsker å drive med produktutvikling?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Myndighetene",
       "Leverandørene",
@@ -387,13 +352,11 @@
   {
     "question": "En bedrifts totale kostnader er gitt ved TC = 3 000 000 + 200 * Q<sup>0.5</sup>, der Q er mengden. Hva er bedriftens marginalkostnad (også kalt grensekostnad) når mengden er 10 000?",
     "answers": [3],
-    "exam": ".*",
     "options": ["3 020 000", "20 000", "200", "1"]
   },
   {
     "question": "Ledelsen i et monopol finner ut at marginalinntekten (også kalt grenseinntekten) er 10 % høyere enn marginalkostnaden (også kalt grensekostnaden). Hva tilsier dette om hva bedriften bør gjøre for å øke profitten?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Øke produsert mengde.",
       "Øke produsert mengde med akkurat 10 %.",
@@ -404,7 +367,6 @@
   {
     "question": "Anta at etterspørselen er lineær slik at prisen er en lineær, synkende funksjon av mengden for alle positive priser og mengder, dvs. i hele det relevante området. Hva kan vi da si om effekten av økt mengde på etterspørselselastisiteten?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ingenting – etterspørselselastisiteten kan være både synkende og økende i det relevante området.",
       "Etterspørselselastisiteten er da konstant og uavhengig av produsert mengde.",
@@ -415,25 +377,21 @@
   {
     "question": "Anta at etterspørselen i markedet er gitt ved P = a - bQ, der P er prisen, Q er mengden og a og b er positive konstanter. Hva er da et korrekt uttrykk for marginalinntekten (også kalt grenseinntekten), MR?",
     "answers": [3],
-    "exam": ".*",
     "options": ["MR = b", "MR = 2b", "MR = a - bQ", "MR = a - 2bQ"]
   },
   {
     "question": "Alle bedriftene i et frikonkurransemarked har marginalkostnader (også kalt grensekostnader) på 1 000. Etterspørselen er gitt ved P = 10 000 - Q, der P er prisen og Q er mengden. Hva blir total mengde tilbudt i dette markedet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["10 000", "9 000", "4 500", "2 500"]
   },
   {
     "question": "Et monopol har marginalkostnader (også kalt grensekostnader) på 1 000. Etterspørselen er gitt ved P = 10 000 - Q, der P er prisen og Q er mengden. Hva blir total mengde tilbudt i dette markedet?",
     "answers": [2],
-    "exam": ".*",
     "options": ["10 000", "9 000", "4 500", "2 500"]
   },
   {
     "question": "Se bort fra selskapsskatt! Et selskap er finansiert av en del gjeld og en del egenkapital. Totalkapitalrentabiliteten er <math><msub><mi>r</mi><mi>A</mi></msub></math>, egenkapitalrentabiliteten er <math><msub><mi>r</mi><mi>E</mi></msub></math> og gjeldsavkastningen er <math><msub><mi>r</mi><mi>D</mi></msub></math>. Hva er da en korrekt implikasjon av at <math><msub><mi>r</mi><mi>E</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><msub><mi>r</mi><mi>E</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&#xA0;</mo>og<mo>&#xA0;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&lt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>",
       "<math><msub><mi>r</mi><mi>E</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&#xA0;</mo>og<mo>&#xA0;</mo><msub><mi>r</mi><mi>D</mi></msub><mo>&gt;</mo><msub><mi>r</mi><mi>A</mi></msub></math>",
@@ -444,25 +402,21 @@
   {
     "question": "Et selskap har en gjeldsandel på 20 %. Hva er da selskapets gjeldsgrad?",
     "answers": [2],
-    "exam": ".*",
     "options": ["80 %", "50 %", "25 %", "20 %"]
   },
   {
     "question": "Hva er nåverdien av å få 1 000 000 om ti år dersom kapitalkostnaden er 10 %?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Ca 0.", "Ca 385 000.", "Ca 500 000.", "Ca 1 000 000."]
   },
   {
     "question": "Et prosjekt innebærer en investering på 1 200 000 nå. Etter ett år gir det en sikker netto kontantstrøm på 1 000 000. Etter to år gir det enten en negativ netto kontantstrøm på 1 000 000 eller en positiv netto kontantstrøm på 1 500 000. Sannsynligheten for å få den negative kontantstrømmen det andre året er 40 %. Det risikojusterte avkastningskravet er 6 %. Hva blir nettonåverdien til prosjektet?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Ca 500 000.", "Ca 300 000.", "Ca 190 000.", "Ca 0."]
   },
   {
     "question": "I kapitalverdimodellen inngår en størrelse som kalles for beta. Hvilken type risiko er det den fanger opp?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Ikke-diversifiserbar risiko.",
       "Diversifiserbar risiko.",
@@ -473,19 +427,16 @@
   {
     "question": "En forward-kontrakt på en aksje betyr at det avtales en gitt pris mellom to aktører for omsetning av aksjen en gang i framtida. Betaling for og overføring av aksjen skjer altså til avtalt pris en dag i framtida. En aksje med beta på 2 er verdt akkurat 100 nå. Risikofri rente er 3 %. Forventet markedsavkastning er 8 %. Anta at kapitalverdi­modellen holder, se bort fra risikoen for at en av partene misligholder sin del av avtalen og ikke ta hensyn til eventuelt utbytte! Hva er korrekt aksjepris i en forwardkontrakt som innebærer at aksjen skal omsettes om ett år?",
     "answers": [1],
-    "exam": ".*",
     "options": ["100", "103", "108", "113"]
   },
   {
     "question": "Gjelden til en bedrift har en beta på 0,2. Forventet markedsrisikopremie er 5 %. Forventet risikofri rente er 3 %. Hva er forventet avkastning på bedriftens gjeld i følge kapitalverdimodellen?",
     "answers": [2],
-    "exam": ".*",
     "options": ["3,0 %", "3,4 %", "4,0 %", "5,0 %"]
   },
   {
     "question": "Kostnaden til totalkapitalen etter skatt, også kalt WACC, kan skrives som <math><mtext>WACC</mtext><mo>=</mo><mfrac><mrow><mi>D</mi></mrow><mrow><mi>V</mi></mrow></mfrac><mo>(</mo><mn>1</mn><mo>-</mo><msub><mi>T</mi><mi>C</mi></msub><mo>)</mo><msub><mi>r</mi><mi>D</mi></msub><mo>+</mo><mfrac><mrow><mi>E</mi></mrow><mrow><mi>V</mi></mrow></mfrac><msub><mi>r</mi><mi>E</mi></msub></math>. Her er <math><mi>D</mi></math> verdien av gjeld, <math><mi>E</mi></math> er verdien av egenkapital, <math><mi>V</mi></math> er total verdi av aktiva, <math><msub><mi>r</mi><mi>D</mi></msub></math> er gjeldsavkastning, <math><msub><mi>r</mi><mi>E</mi></msub></math> er egenkapitalavkastning og <math><msub><mi>T</mi><mi>C</mi></msub></math> er selskapsskattesatsen. Anta at <math><mtext>WACC</mtext></math> skal brukes i en nettonåverdiberegning. Hvordan skal da kontantstrømmen beregnes?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Etter skatt som om prosjektet var egenkapitalfinansiert.",
       "Før skatt, men etter rentekostnader.",
@@ -496,7 +447,6 @@
   {
     "question": "Anta ingen selskapsskatt, ingen konkurskostnader og perfekte kapitalmarkeder. En bedrift har ingen gjeld og avkastningen på egenkapitalen forventes å være 10 %. Anta nå at bedriften tar opp gjeld og betaler hele beløpet ut som utbytte slik at den ender opp med like mye gjeld som egenkapital. Forventet avkastning på gjelden er 5 %. Hva blir nå forventet egenkapitalavkastning?",
     "answers": [3],
-    "exam": ".*",
     "options": ["0 %", "5 %", "10 %", "15 %"]
   }
 ]

@@ -2,13 +2,11 @@
   {
     "question": "Anta tre flyttall <math><mi>a</mi></math>, <math><mi>b</mi></math> og <math><mi>c</mi></math>. Anta at <math><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>+</mo><mi>c</mi></math> og <math><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mi>a</mi><mo>+</mo><mo>(</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo></math>. Da vil <math><msub><mi>t</mi><mn>1</mn></msub></math> alltid være lik <math><msub><mi>t</mi><mn>2</mn></msub></math>.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "Hva er «sign and magnitude system»?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I dette systemet endrer man det mest signifikante bit-et fra en til null for å lage negative verdier.",
       "I dette systemet endrer man det mest signifikante bit-et fra null til en for å lage negative verdier.",
@@ -19,7 +17,6 @@
   {
     "question": "Hva er underflyt (underflow) i forbindelse med flyttallsregning?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Det samme som normalisering",
       "At et tall er mindre enn 1",
@@ -31,19 +28,16 @@
   {
     "question": "Hvilken metode under er <em>ikke</em> en metode for å representere både negative og positive binære tall?",
     "answers": [2],
-    "exam": ".*",
     "options": ["sign and magnitude", "toerkomplement", "treerkomplement"]
   },
   {
     "question": "Hvis du har ti fingre, hva er det meste du kan telle til i totallsystmet? (Holder du fingeren opp betyr det 1 og holder du fingen nede betyr det 0.)",
     "answers": [2],
-    "exam": ".*",
     "options": ["32", "64", "1023", "1024"]
   },
   {
     "question": "Normalisering av flyttall",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "benyttes for å kunne representere større tall enn med ikke-normaliserte flyttall",
       "innebærer en standardisert justering av mantisse og eksponent for å oppnå maksimal utnyttelse av den presisjon som er mulig med det aktuelle flyttallsformat.",

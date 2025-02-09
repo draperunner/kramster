@@ -2,7 +2,6 @@
   {
     "question": "What does architectural patterns define to solve a problem?",
     "answers": [1, 2],
-    "exam": "2015 Kahoot 03: Architectural Patterns Intro",
     "options": [
       "Class diagrams",
       "Element types",
@@ -13,25 +12,21 @@
   {
     "question": "What Type of architectural pattern has been used here? <img src=\"images/k7mc09.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-Connector", "Fictive", "Modular"]
   },
   {
     "question": "What TYPE of architectural pattern can this be classified as? <img src=\"images/7svst.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-Connector", "Modular", "None"]
   },
   {
     "question": "What TYPE of architectural pattern can this be classified as? <img src=\"images/w3wqr7.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-Connector", "Modular", "None"]
   },
   {
     "question": "A well-designed architecture is usually a product of...",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "All stakeholders",
       "Few or one architect",
@@ -42,7 +37,6 @@
   {
     "question": "Important aspects to include to help the design of an architecture are...",
     "answers": [2],
-    "exam": "2015 Kahoot 03: Architectural Patterns Intro",
     "options": [
       "Merge procedure/consume models",
       "Single view",
@@ -53,7 +47,6 @@
   {
     "question": "Important aspects to include to help the design of an architecture are...",
     "answers": [1, 2],
-    "exam": ".*",
     "options": [
       "Design for specific hardware",
       "Information hiding",
@@ -64,7 +57,6 @@
   {
     "question": "What are the main elements in the definition of software architecture?",
     "answers": [0, 1, 2, 3],
-    "exam": ".*",
     "options": [
       "Set of strutures",
       "Software elements",

@@ -2,7 +2,6 @@
   {
     "question": "Hva er isolert I/O?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Isolert I/O har man når man isolerer adresseringen til I/O og minne i et enkelt adresseområde",
       "Isolert I/O er når man har et eget adresseområde for I/O",
@@ -12,7 +11,6 @@
   {
     "question": "Hvilket av utsagnene om kommunikasjon mellom en I/O-modul og prosessoren er <em>ikke</em> sant? (Velg det mest dekkende alternativet)",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Data blir utvekslet mellom prosessoren og I/O-modulen ved å bruke databussen.",
       "I/O-modulen sender statusrapporter til prosessoren.",
@@ -23,7 +21,6 @@
   {
     "question": "Hvordan vet I/O-kontrolleren at prosessoren ønsker å lese/skrive fra den?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I/O-kontrolleren sender avbruddsignal til prosessoren",
       "Prosessoren sender et avbruddsignal på kontrollinjen",
@@ -34,7 +31,6 @@
   {
     "question": "Hva er <em>ikke</em> en fordel med lageravbildet (eng. memory-mapped) I/O?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Man trenger ikke en ekstra styrelinje på bussen for å skille mellom lagerkommandoer og I/O-kommandoer.",
       "Addresseringen er mer fleksibel.",
@@ -45,7 +41,6 @@
   {
     "question": "Hva er er polling?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Noe en prosessor gjør for å finne ut om en I/O enhet er ferdig med forespurt operasjon.",
       "Noe I/O-enheten gjør for å finne eksterne enheter den kan snakke med.",
@@ -55,7 +50,6 @@
   {
     "question": "Når prosessoren, hovedlageret og I/O-modulen deler en felles buss finnes det to modi å adressere på.  Hvilke?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Direkte og Indirekte",
       "Lageravbildet og isolert",
@@ -66,7 +60,6 @@
   {
     "question": "Hva gjør prosessoren når den pollede I/O-modulen utfører en operasjon?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Fortsetter videre med noe annet",
       "Lagrer data i lageret",
@@ -77,7 +70,6 @@
   {
     "question": "Hva er fordelen med lageravbildet (eng. memory mapped) I/O?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lageravbildet I/O bruker lagerreferanseinstruksjoner, derfor blir lengden til programmet kortere.",
       "Man trenger ikke en ekstra styrelinje for å skille mellom lagerinstruksjoner og I/O-instruksjoner",
@@ -87,7 +79,6 @@
   {
     "question": "Hva kan generere et avbrudd?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Programvare",
       "Maskinvare",
@@ -98,7 +89,6 @@
   {
     "question": "Hvilket utsagn om «daisy chain» er <em>ikke</em> sant?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "«Daisy chain» er en måte å håndtere avbruddsprioritet på.",
       "Prioriteten i en «daisy chain» er bestemt av posisjonen i kjeden.",
@@ -109,7 +99,6 @@
   {
     "question": "Hva er rett om avbrudd?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Når vi får et avbrudd har det oppstått en feil",
       "Avbrudd muliggjør at prosessoren kan kjøre en annen prosess mens den venter på en io-enhet",
@@ -120,7 +109,6 @@
   {
     "question": "Hva er forskjellen på isolert I/O og lageravbildet (memory-mapped) I/O?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Isolert I/O jobber kun mot I/O-modulen, mens lageravbildet I/O kan jobbe med lageret også.",
       "Ved bruk av isolert I/O kan man bruke et stort sett av instruksjoner slik at man får mer effektiv programmering, lageravbildning gjør at adresseområdet til minnet blir større.",
@@ -130,7 +118,6 @@
   {
     "question": "Hvilken av de følgende teknikkene er <em>ikke</em> en måte å bestemme hvem som signaliserte avbrudd og hvem som skal få lov til å gjennomføre et avbrudd?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Mange avbruddslinjer",
       "Softvare poll",
@@ -142,7 +129,6 @@
   {
     "question": "Hva er «daisy chain»?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En mekanisme DMA-enheter bruker for å lage en sekvens av I/O-enheter.",
       "En buss som ligger mellom I/O-enhetene og lageret",
@@ -153,7 +139,6 @@
   {
     "question": "Hva er <em>feil</em> når det gjelder io-moduler?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Io-moduler buffrer datene før de sendes til prosessoren",
       "Io-moduler inneholder ofte feil-deteksjon",
@@ -165,7 +150,6 @@
   {
     "question": "Hva er avbruddsdrevet I/O?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Avbruddsdrevet I/O er når prosessoren forteller de andre enhetene i datamaskinen at det har oppstått en feil.",
       "Avbruddsdrevet I/O er en spesiell form for I/O som kontrollerer at det ikke er virus i programmene. Om den finner et virus sender den et avbrudd.",
@@ -175,7 +159,6 @@
   {
     "question": "Hva er likheten mellom avbruddsdreven I/O og DMA?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Begge bruker avbrudd",
       "Begge har direkte I/O-til-lager overføring",
@@ -186,7 +169,6 @@
   {
     "question": "Hva er problemet med å bruke mange avbruddslinjer for å bestemme hvem som har forespurt et avbrudd?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Det er upraktisk å dedikere mer enn noen få lagerområder for å ta hånd om avbrudd, derfor vil man sannsynligvis få mange I/O-moduler pr. linje og vi har kommet like langt.",
       "Det er upraktisk å dedikere mer en noen få bufferplasser til avbrudd, derfor vil man sannsynligvis få mange I/O moduler pr.  linje og vi har kommet like langt.",
@@ -196,13 +178,11 @@
   {
     "question": "Hvilken I/O-kommando kan <em>ikke</em> en I/O-modul motta fra en prosessor som henvender seg til modulen?",
     "answers": [4],
-    "exam": ".*",
     "options": ["Kontroll", "Test", "Read", "Write", "Wait"]
   },
   {
     "question": "Lageravbildet (eng. memory-mapped) IO (input-output) har flere fordeler. Den viktigste er at",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "instruksjonssettet blir enklere.",
       "IO går raskere fordi det går via lager (minne).",
@@ -212,7 +192,6 @@
   {
     "question": "Hva er en I/O-buss?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En buss man kan ha mellom alle I/O-enhetene",
       "En buss som ligger mellom I/O-enhetene og prosessoren",
@@ -222,7 +201,6 @@
   {
     "question": "Hva er <em>ikke</em> prinsipielt en I/O teknikk?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "programmert I/O",
       "avbruddsdreven I/O",
@@ -233,7 +211,6 @@
   {
     "question": "Hvorfor driver I/O-modulen med databufring?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Fordi det ikke er plass til hele adressen til den eksterne enheten",
       "Fordi I/O-modulen ofte må kunne garantere jevn flyt av data til I/O-enheten, et buffer vil føre til friere tidskrav for prosessorens dataoverføring til I/O-modulen.",
@@ -243,7 +220,6 @@
   {
     "question": "Hva er lageravbildet I/O?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Lageravbildet I/O har man når prosessoren behandler status og dataregister til I/O-modulen som lagerlokasjoner og bruker de samme instruksjonene til å aksessere både lager og I/O enheten.",
       "Lageravbildet I/O er når I/O-modulen inneholder et speilbilde av det som ligger i minne.",
@@ -253,7 +229,6 @@
   {
     "question": "Hva er ulempen med programmert I/O og avbruddsdreven I/O?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Når man bruker disse teknikkene kan man bare overføre data fra eksterne enheter og ikke interne (for eksempel lageret).",
       "Prosessoren kan ikke gjøre noe annet mens den venter på at operasjonen som I/O modulen utfører er ferdig. Overføringsraten til I/O enheten er begrenset av tiden det tar en prosessor å teste og tjene en enhet.",
@@ -263,7 +238,6 @@
   {
     "question": "Hva er <em>ikke</em> en typisk oppgave til en I/O-modul i en vanlig PC?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Bufring av data",
       "Interprosesskommunikasjon",

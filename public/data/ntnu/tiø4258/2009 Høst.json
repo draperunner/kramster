@@ -2,7 +2,6 @@
   {
     "question": "Hvilken av følgende påstander om mulighetsanalyser av teknologibaserte forretningsideer er mest i samsvar med pensum?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Mulighetsanalyser innebærer en innledende vurdering av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
       "Mulighetsanalyser er en fullstendig og gjennomgripende gjennomgang av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av følgende påstander om kreativitetsprosesser er mest i samsvar med pensum?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Før man starter med kreativitetsprosesser er det viktig med en omfattende og detaljert innsamling av data som beskriver nåsituasjonen grundig.",
       "Man må akseptere de grunnleggende antakelsene for å unngå at prosessene flyter ut.",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken av følgende påstander om innovasjon er mest i samsvar med pensum?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "For å oppnå lønnsomhet fra forskning og utvikling så må bedriften oppdage og utvikle løsningen selv.",
       "Det som kommer først til markedet med en innovasjon vil som regel vinne.",
@@ -35,7 +32,6 @@
   {
     "question": "Hva mener man med kapabiliteter i en kunnskapsbedrift?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "At bedriften er i stand til overholde sine serviceforpliktelser ved reklamasjoner",
       "Med dette menes bedriften klarer å kombinere ressurser på en slik måte at den utvikler konkurransefortrinn.",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken av følgende påstander om nye teknologibedrifter er mest i samsvar med pensum?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En genial ide er den viktigste forutsetningen for å starte en ny teknologibedrift",
       "Det beste er å være alene som gründer i startfasen, da har man kontroll på alt og kan lett rekruttere de menneskene man trenger.",
@@ -57,7 +52,6 @@
   {
     "question": "Hva er riktig rekkefølge på disse elementene i en forretningsplan?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Analyse, målsetning, strategi og beskrivelse",
       "Analyse, beskrivelse, målsetning og strategi",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken av følgende påstander om innovative løsninger er mest i samsvar med pensum?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "I store selskaper er forskningsavdelingene den viktigste kilden til nye og innovative løsninger.",
       "For at en løsning skal bli betraktet som en innovasjon må den oppfattes som ny i alle markeder.",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken av påstandene står i konflikt med en åpen innovasjon tilnærming?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Det er bedre å utvikle en robust forretningsmodell enn å komme ut i markedet først.",
       "Man må nyttiggjøre seg av interne og eksterne innovasjons ideer.",
@@ -90,7 +82,6 @@
   {
     "question": "Hva er den vanligste rekkefølgen av følgende aktivitetene for en potensiell vekstbedrift?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Innhenting av kapital, mulighetsanalyse, forretningsplan, første salg",
       "Mulighetsanalyse, forretningsplan, innhenting av kapital, første salg",
@@ -101,7 +92,6 @@
   {
     "question": "Gi et eksempel på bootstrapping når det kommer til finansiering?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Kjøpe brukt istedenfor å kjøpe nytt.",
       "Kjøpe i stedet for å lease.",
@@ -112,7 +102,6 @@
   {
     "question": "Hva er en Business Angel?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En privatperson som spesialiserer seg på å redde bedrifter fra konkurs",
       "En person som jobber i venturefond, som investerer penger i tidlig-fase bedrifter, og som ønsker størst mulig avkastning på investeringen.",
@@ -123,7 +112,6 @@
   {
     "question": "Hvilken av følgende påstander om såkalte business angels er mest i samsvar med pensum?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Er som hovedregel passive eiere.",
       "Er aktive eiere som tilfører bedriften knappe ressurser.",
@@ -134,7 +122,6 @@
   {
     "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Gründer, familie og venner, Business Angels, såkornfond, venturekapital fond",
       "Såkornfond, venturekapital fond, Business Angels, gründer, familie og venner",
@@ -145,7 +132,6 @@
   {
     "question": "Hvilken av følgende påstander om venturekapital fond er mest i samsvar med pensum?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Dette er offentlige fond som skal støtte opp om etablering av bedrifter.",
       "Dette er privatpersoner som går sammen og investerer direkte i nye teknologibedrifter",
@@ -156,7 +142,6 @@
   {
     "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter er mest i samsvar med pensum?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I tidlig fase vil bankene alltid være den viktigste finansieringskilden.",
       "I Norge er finansiering sjelden et problem siden vi har så gode offentlige virkemidler.",
@@ -167,7 +152,6 @@
   {
     "question": "Watson (2006, 2008) legger vekt på at definisjoner av (arbeids)organisasjoner må inkludere en anerkjennelse av konflikter mellom organisasjonsmedlemmers ulike interesser. Hvilken definisjon er mest i tråd med denne forståelsen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Organisasjoner er målsentrerte koordineringssystemer av menneskelige og teknologiske aktiviteter.",
       "Organisasjoner er utførelse av en tilstrekkelig grad av produktivt samarbeid slik at organisasjonen kan fortsette å eksitere i fremtiden.",
@@ -178,7 +162,6 @@
   {
     "question": "Max Weber beskrev kjennetegn ved et idealtypisk byråkrati, Hvordan fungerer egentlig byråkratier? Bare én av påstandene under beskriver hvordan byråkratiske organisasjoner fungerer i praksis, hvilken?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Uformelle eller uoffisielle aspekter eksiterer ikke i byråkratiske organisasjoner.",
       "Alle beslutninger som blir tatt i byråkratisk organisasjoner er nøytrale, upersonlige, og ikke påvirket av følelser.",
@@ -189,7 +172,6 @@
   {
     "question": "Watson (2006) peker på tre ulike dimensjoner av fenomenet ledelse, og han har en rekke punkter om hva ledere gjør av handlinger i hverdagen sin. Nedenfor er det fire påstander om ledelse som slike handlinger og hva ledere gjør. En av dem er riktig, hvilken?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Ledere bruker uformelle og tilfeldige møter for eksempel i heisen, til å oppnå sin agenda.",
       "Ledere får utført oppgaver ved å kommandere sine underordnede til å gjøre dem.",
@@ -200,7 +182,6 @@
   {
     "question": "Forskjellen mellom lederkompetanse og ledereffektivitet illustrer det prosessrelasjonelle perspektivet på ledelse som er utgangspunktet for Watson (2006). En av påstandene under er ikke innenfor dette perspektivet, hvilken?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Arbeidsfordeling innad i en ledergruppe fører til variasjon i de ulike ledernes lederjobber slik at de til sammen er mest mulig effektive.",
       "Utøvelse av sosiale, politiske og kulturelle ferdigheter er nødvendig for å overtale andre og dermed for å lede organisasjon i en tenkt retning.",
@@ -211,7 +192,6 @@
   {
     "question": "Den implisitt forståtte kontrakt for en ansatt er et konsept for å beskrive hvordan den ansatte vurderer forholdet mellom det han/hun bidrar med i forhold til det en får igjen fra organisasjonen. En av påstandene under om hvordan dette konseptet fungerer er feil, hvilken?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Når ledere har et mønster av overbærenhet, det vil si at de ignorer ansattes overtredelse av regler i organisasjonen, vil det ikke kunne medføre noen gjensidige forpliktelser tilbake fra de ansatte.",
       "Belønninger som tilbys ansatte må være noe de ansatte faktisk er, eller kan bli, interessert i.",
@@ -222,7 +202,6 @@
   {
     "question": "Det er to alternative prinsipper for arbeidsdesign, direkte kontroll eller indirekte kontroll (Watson, 2006). Av de fire alternativene nedenfor er det bare en påstand som er riktig i forhold til beskrivelsen av indirekte kontroll, hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Organisasjoner basert på slik kontroll kan ha en teamdimensjon hvor en formann fordeler arbeidsoppgaver og passer på at de blir gjort.",
       "De indirekte kontrollprinsippene for arbeidsdeling passer sammen med fleksibilitet i forhold til langsiktig tilpassningsevne.",
@@ -233,7 +212,6 @@
   {
     "question": "Mekanisk og organisk organisasjonsstruktur er sentrale begreper i forhold til å legge til rette for innovasjoner. En av påstandene under om disse strukturene er feil, hvilken?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En organisk og fleksibel organisasjonsstruktur er mer effektiv enn en mekanisk organisasjonsstruktur når oppgavene som skal utføres er strukturerte.",
       "Det er ikke mulig med organisasjoner som har elementer fra både mekanisk og organisk organisasjonsstrukturer.",
@@ -244,7 +222,6 @@
   {
     "question": "Hvilken av de fire typene organisasjoner som beskrevet under er i samsvar med Nivå 5 i Høy involvering i innovasjonsprosessen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Organisasjoner basert på semi-autonome arbeidsgrupper.",
       "Organisasjoner basert på maskinbyråkratisk organisasjonsstruktur.",
@@ -255,7 +232,6 @@
   {
     "question": "Teamarbeid blir ofte sett på som en av nøklene til innovasjon, men det er både fordeler og ulemper med bruk av teamarbeid som påpekt av Tidd og Bessant (2009). Av de fire påstandene om slike fordeler og ulemper er en ikke riktig, hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I team kan det bli et sterkt sosialt press om å samle seg om en felles løsning, uavhengig av kvaliteten på denne løsningen.",
       "Individer er ofte mer ansvarlige i team enn når de har eneansvar for en beslutning, noe som senker teamets villighet til å ta risiko.",
@@ -266,7 +242,6 @@
   {
     "question": "Tidd og Bessant (2009) peker på en rekke dimensjoner av organisasjonsklimafaktorer som påvirker innovasjonsevnen til organisasjoner. En av påstandene under er ikke riktig. Hvilken?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Desto mer tillit det er i organisasjonen, jo bedre blir innovasjonsevnen til organisasjonen.",
       "For lite tid og rom til å utvikle nye ideer kan skape stress for den enkelte medarbeider og naturligvis hindre graden av innovasjon.",
@@ -277,7 +252,6 @@
   {
     "question": "I kapittel 6 i Tidd og Besant gis det flere gode grunner for å øke bruken av nettverk når man jobber med innovasjon. Nedenfor er det oppgitt fire grunner, men en av dem er ikke nevnt i pensum. Hvilken?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Nettverk gir bedrifter muligheten til å dele kostnadene",
       "Nettverk gir bedrifter muligheten til å dele risikoen",
@@ -288,7 +262,6 @@
   {
     "question": "Hvilke av disse fire påstandene er ikke korrekt om gruppekreativitet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Gruppekreativitet fungerer fordi deltagerne i gruppa kan bygge på hverandres ideer",
       "Ikke alle typer av oppgaver egner seg for å benytte gruppekreativitet",
@@ -299,7 +272,6 @@
   {
     "question": "Kapittel 6 nevner også flere utfordringer ved det å skulle lede innovasjonsnettverk. Nedenfor følger fire påstander om det å lede et innovasjonsnettverk. En av påstandene er ikke i samsvar med pensum. Hvilken?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Det å lede et innovasjonsnettverk bør alltid gjøres som et prosjekt",
       "Å lede et innovasjonsnettverk betyr at man ofte må lede prosesser eller prosjekter som innbefatter ressurser og personer vi ikke eier eller kontrollerer, for eksempel fordi de jobber for andre firma enn vårt.",
@@ -310,7 +282,6 @@
   {
     "question": "Bare én av påstandene under er i henhold til pensum i artikkel K4 når det gjelder utvikling av teknologi. Hvilken?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Teknologi drives frem av oppfinnere",
       "Teknologi drives frem av Big Science, som CERN er et godt eksempel på",
@@ -321,7 +292,6 @@
   {
     "question": "Hvilken av påstandene under om teknologiens økonomiske potensiale er feil i henhold til artikkel K4?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Patentrettigheter er viktig for å sikre teknologiens økonomiske potensiale for oppfinneren",
       "På grunn av embeddeness kan verdiøkningen av teknologisk utvikling like gjerne skje i helt andre bedrifter enn de som faktisk holder på med et utviklingsprosjekt.",
@@ -332,7 +302,6 @@
   {
     "question": "Hva kaller Nonaka spredning/omforming av individuell taus (tacit) kunnskap til organisatorisk taus kunnskap?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Internalization (Internalisering)",
       "Externalization (Eksternalisering)",
@@ -343,7 +312,6 @@
   {
     "question": "Hvilket begrep er ikke et av de fem typer (eller former) for kunnskap i Blacklers typologi?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Encoded knowledge",
       "Enlisted knowledge",
@@ -354,7 +322,6 @@
   {
     "question": "Hvilket av nedenstående beskrivelser passer for praksisfellsskap (community of practice)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En fagskole med vekt på praktisk trening",
       "Et uformelt nettverk mellom mennesker som jobber med likeartede arbeidsoppgaver",
@@ -365,7 +332,6 @@
   {
     "question": "Hva er et grenseobjekt (boundary object)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Et kamera som automatisk registrerer avvik fra produksjonsnormer",
       "Objekter som markerer grenser mellom ulike arbeidsgrupper i åpne kontorlandskap",
@@ -376,7 +342,6 @@
   {
     "question": "Hva er taus (tacit) kunnskap?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Kunnskap som ikke lar seg formulere eksplisitt",
       "Kunnskap som er bygget inn i arkitektoniske løsninger",
@@ -387,19 +352,16 @@
   {
     "question": "Et monopol har marginalkostnader på 50 og en etterspørsel gitt ved P = 250 - 2Q der P er prisen og Q er mengden. Hva er optimal mengde for monopolet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["25", "50", "75", "100"]
   },
   {
     "question": "Etterspørselen er gitt ved P = 100 - 2Q der P er pris og Q er mengde. Hva er etterspørselselastisiteten når prisen er 50?\nVi definerer etterspørselselastisiteten slik at den er ikke-negativ for et gode der solgt mengde synker med økende pris.",
     "answers": [1],
-    "exam": ".*",
     "options": ["0,5", "1,0", "1,5", "2,0"]
   },
   {
     "question": "Vi definerer etterspørselselastisiteten slik at den er ikke-negativ for et gode der solgt mengde synker med økende pris. Hvilken sammenheng mellom marginandel og etterspørselselastisiteten, <math><mi>e</mi></math>, kan utledes fra førsteordensbetingelsen for maksimal monopolprofitt når indirekte etterspørsel, dvs. prisen som funksjon av mengden, er <math><mi>P</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> og marginalkostnadene er <math><mi>MC</mi></math>?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></math>",
       "<math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mi>e</mi></math>",
@@ -410,25 +372,21 @@
   {
     "question": "En produsent selger produktet sitt gjennom et uavhengig salgsledd. Salgsleddet betaler prisen w for hver enhet de kjøper inn. Salgsleddet har tilnærmet null marginalkostnader bortsett fra denne innkjøpsprisen. Etterspørselen er gitt ved P = 1000 - Q der P er prisen og Q er etterspurt mengde pr periode. Produsenten har marginalkostnader på 200. Hvilken pris fra produsent til salgsledd, w, vil maksimere produsentens profitt?",
     "answers": [2],
-    "exam": ".*",
     "options": ["200", "400", "600", "800"]
   },
   {
     "question": "En bedrift har marginalkostnader på 5 000 kr. Bedriften forurenser slik at den påfører samfunnet kostnader på 1 000 kr pr enhet i tillegg til kostnadene i bedriften på 5 000 kr pr enhet. Etterspørselen etter bedriftens produkter er gitt ved P = 10000 - 10Q der P er prisen og Q er etterspurt mengde pr periode. Hvilken pris P, ville maksimere det samfunnsøkonomiske overskuddet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["5 000", "6 000", "7 500", "8 000"]
   },
   {
     "question": "En bedrift med totale aktiva verdt 1 milliard, har forventet egenkapitalrentabilitet på 10 % med kun egenkapitalfinansiering. Bedriften kan gå til en gjeldsandel på 50 % ved å ta opp et lån på 500 millioner med rente på 5 % og bruke alle pengene til å betale ut utbytte. Hva blir da forventet egenkapitalrentabilitet?",
     "answers": [2],
-    "exam": ".*",
     "options": ["5 %", "10 %", "15 %", "20 %"]
   },
   {
     "question": "Likviditetsgrad 1 er basert på alle omløpsmidler, mens likviditetsgrad 2 er basert på de mest likvide omløpsmidlene. En bedrift har et produksjonssystem av typen JIT (Just In Time). Det betyr at bedriften har svært lite lager av råvarer, mellomprodukter og ferdige produkter. Hva betyr dette for forskjellen mellom likviditetsgrad 1 og 2 sett i forhold til bedrifter som har et produksjonssystem med større lagerbeholdninger?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "JIT-bedriften vil ha mindre forskjell i tallene for likviditetsgrad 1 og 2.",
       "JIT-bedriften vil ha større forskjell i tallene for likviditetsgrad 1 og 2.",
@@ -439,13 +397,11 @@
   {
     "question": "Tabellen under viser et budsjett for et selskap for de neste to periodene. Periode 1 gir kontantstrøm om ett år, og periode to gir kontantstrøm om to år. Skattesatsen er 25 %. Hva blir nåverdien av skattefordelen av gjeld når diskonteringsrenten er 5 %?\n<img src=\"images/5wu0vm.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["25", "68", "69", "75"]
   },
   {
     "question": "Ledelsen i et selskap kan maksimere aksjonærenes formue ved å:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Gjennomføre alle prosjekter med positiv NNV.",
       "Gjennomføre alle prosjekter med NNV større enn investeringskostnaden.",
@@ -456,13 +412,11 @@
   {
     "question": "Figuren under viser sannsynligheter og kontantstrømmer i periode 1, 2 og 3 for et prosjekt. Hva er nåverdien av forventet kontantstrøm dersom avkastningskravet er 10 %?\n<img src=\"images/zpdazf.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": ["11,1", "13,5", "16,9", "21,0"]
   },
   {
     "question": "Den andelen av risiko som ikke kan elimineres ved diversifisering kalles:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Unik risiko.",
       "Konkursrisiko.",
@@ -473,25 +427,21 @@
   {
     "question": "Beta for et selskaps aktiva er 2. Beta for gjelden er 0,5. Markedsverdien for gjeld er 50 % av markedsverdien til selskapets aktiva. Hva er beta for selskapets aksjer?",
     "answers": [2],
-    "exam": ".*",
     "options": ["1,5", "2,5", "3,5", "4,5"]
   },
   {
     "question": "Den risikofrie renten er 5,5 % og markedsavkastningen er 13,5 %. Beta for Freon er 0,73. Hva er forventet avkastning for Freon?",
     "answers": [0],
-    "exam": ".*",
     "options": ["11,3 %", "12,6 %", "13,9 %", "15,6 %"]
   },
   {
     "question": "Nettonåverdi for et prosjekt skal beregnes ved hjelp av WACC i en bedrift som garantert vil være i skatteposisjon framover. Prosjektet vil gi en kontantstrøm pr periode på 1 000 fra driften av det før skatt. Rentebetaling knyttet til finansieringen av prosjektet utgjør 100 pr periode. Skattesatsen er 25 %. Hva er korrekt kontantstrøm pr periode å bruke i beregningen?",
     "answers": [2],
-    "exam": ".*",
     "options": ["900", "775", "750", "675"]
   },
   {
     "question": "Landet Utopia har et skattesystem som skiller seg fra det norske ved at skattbart overskudd i bedrifter regnes før rentekostnader. Hva tilsier pensum om hvordan bedrifter i Utopia vil tilpasse seg forskjellig fra bedrifter i Norge?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "De vil ha tendens til å ha lavere gjeldsandel.",
       "De vil ha tendens til å ha høyere gjeldsandel.",

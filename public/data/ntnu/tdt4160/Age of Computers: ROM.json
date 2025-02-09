@@ -2,7 +2,6 @@
   {
     "question": "Hvilket utsagn om EEPROM (Electronically Erasable Read Only Memory) er <em>feil</em>?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Innholdet kan slettes ved hjelp av spesielle elektriske pulser.",
       "EEPROM-brikken kan skrives om mange ganger.",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilket av alternativene er <em>ikke</em> en grunn til å lagre styreprogrammer til mikrokontrollere i flashminne?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Flashminne er overskrivbart slik at programvaren kan oppdateres.",
       "Innholdet bevares uten strømtilførsel.",
@@ -25,7 +23,6 @@
   {
     "question": "Hva bruker man <em>ikke</em> ROM til?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Midlertidig lagring.",
       "Funksjonstabeller.",
@@ -36,19 +33,16 @@
   {
     "question": "Hvilken lagerteknologi ville du brukt til lagring av styreprogrammet i en mobiltelefon dersom brukeren skal kunne oppgradere programvaren?",
     "answers": [5],
-    "exam": ".*",
     "options": ["RAM", "ROM", "PROM", "EPROM", "EEPROM", "Flash"]
   },
   {
     "question": "Hvilken lagerteknologi ville du brukt til lagring av midlertidige variabler brukt i styreprogrammet til en mobiltelefon?",
     "answers": [0],
-    "exam": ".*",
     "options": ["RAM", "ROM", "PROM", "EPROM", "EEPROM", "Flash"]
   },
   {
     "question": "Hva er forskjellen på PROM og EPROM?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Det tar lengre tid å slette noe på en PROM i forhold til en EPROM",
       "Det er mulig å slette innholdet på en EPROM brikke med UV-lys. Man kan ikke slette innholdet på en PROM-brikke.",
@@ -60,13 +54,11 @@
   {
     "question": "Hvilken lagerteknologi ville du brukt til lagring av telefonlisten i en mobiltelefon?",
     "answers": [4],
-    "exam": ".*",
     "options": ["RAM", "ROM", "PROM", "EPROM", "EEPROM", "Flash"]
   },
   {
     "question": "Hva er <em>ikke</em> en egenskap med Flash-minne?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Flash-minne kan omskrives uendelig mange ganger",
       "Flash-minne har hurtigere skriving enn EEPROM",
@@ -77,7 +69,6 @@
   {
     "question": "Hvilket utsagn om ROM (Read Only Memory) er <em>usant</em>?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Innholdet er definert ved produksjon",
       "Har en høy fastkostnad",
@@ -88,7 +79,6 @@
   {
     "question": "Hvilke utsagn om EEPROM (Electronically Erasable Read Only Memory) er <em>feil</em>?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Innholdet kan slettes ved hjelp av spesielle elektriske pulser.",
       "EEPROM-brikken kan skrives om mange ganger.",

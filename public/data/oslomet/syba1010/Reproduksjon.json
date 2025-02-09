@@ -2,7 +2,6 @@
   {
     "question": "Hvor foregår sædcelleproduksjonen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "I testiklenes sædkanaler",
       "I bitestiklenes epitelceller",
@@ -13,13 +12,11 @@
   {
     "question": "Hvor modnes og lagres sædcellene?",
     "answers": [1],
-    "exam": ".*",
     "options": ["I testiklene", "I bitestiklene", "I prostata", "I sædblærene"]
   },
   {
     "question": "I hvilken fase av menstruasjonssyklus er det høyest produksjon av progesteron?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Under menstruasjonen, dag 1-4",
       "I follikkelfasen, dag 5-13",
@@ -30,13 +27,11 @@
   {
     "question": "Hva er uterus?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Eggstokk", "Livmor", "Eggleder", "Skjede"]
   },
   {
     "question": "Hvilket utsagn er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Menstruasjonssyklusen varer i 28 dager og starter med eggløsning",
       "Menstruasjonssyklusen varer i 14 dager og starter med eggløsning",
@@ -47,13 +42,11 @@
   {
     "question": "Hva er epididymis?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Testikkelen", "Bitestikkelen", "Pungen", "Blærehalskjertelen"]
   },
   {
     "question": "Hvilket utsagn om sædceller er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Sædcelleproduksjon foregår i testiklenes sædkanaler",
       "Sædcelleproduksjon foregår i bitestiklenes epitelceller",
@@ -64,7 +57,6 @@
   {
     "question": "Hvilket utsagn om menstruasjonssyklusen er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Den er 14 dager og starter med follikkelfasen",
       "Den er 30 dager og starter med sekresjonsfasen",
@@ -75,13 +67,11 @@
   {
     "question": "Hvor skjer befruktningen?",
     "answers": [2],
-    "exam": ".*",
     "options": ["I livmorhalsen", "I livmoren", "I eggleder", "I eggstokk"]
   },
   {
     "question": "Hvilket utsagn om kvinnelige kjønnshormoner er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Utskillelsen av østradiol (østrogen) øker frem mot eggløsningen",
       "Utskillelsen av østradiol (østrogen) er størst under menstruasjonsblødningen",
@@ -92,13 +82,11 @@
   {
     "question": "Hvor foregår eggcelleproduksjon?",
     "answers": [0],
-    "exam": ".*",
     "options": ["I ovariene", "I endometriet", "I fimbriene", "I corpus uteri"]
   },
   {
     "question": "Hva er follikkelfasen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Perioden med eggcellemodning til eggløsningen",
       "Perioden etter eggløsningen",

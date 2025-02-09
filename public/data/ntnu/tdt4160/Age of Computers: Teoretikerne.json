@@ -2,7 +2,6 @@
   {
     "question": "Gitt to uttrykk (1) og (2). Der uttrykk (1) er: (A + B)C = AC + BC og uttrykk (2) er: AB + C = (A + C)(B + C). Hvilket alternativ under er korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "(1) er sann mens (2) er usann",
       "(2) er sann mens (1) er usann",
@@ -13,13 +12,11 @@
   {
     "question": "Von Neumann-arkitekturen består av fire hoveddeler. Hvilken er <em>ikke</em> en av de fire hoveddelene?",
     "answers": [4],
-    "exam": ".*",
     "options": ["ALU", "Kontrollenhet", "Minne", "I/O", "Tastatur"]
   },
   {
     "question": "Hvilket uttrykk er <em>ikke</em> ekvivalent med <math><mi>x</mi><mi>y</mi><mo>+</mo><mi>x</mi><mo>&#xAC;</mo><mi>y</mi><mi>z</mi><mo>+</mo><mo>&#xAC;</mo><mi>x</mi><mi>y</mi><mi>z</mi></math> (Her betyr <math><mo>&#xAC;</mo><mi>X</mi></math> ikke)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mi>x</mi><mi>y</mi><mo>+</mo><mi>x</mi><mi>z</mi><mo>+</mo><mi>y</mi><mi>z</mi></math>",
       "<math><mi>x</mi><mi>y</mi><mo>+</mo><mo>&#xAC;</mo><mi>y</mi><mi>z</mi><mo>+</mo><mo>&#xAC;</mo><mi>x</mi><mi>y</mi><mi>z</mi></math>",
@@ -29,7 +26,6 @@
   {
     "question": "Hva er rett i forhold til deMorgans lover? (<math><mo>&#xAC;</mo><mi>X</mi></math> betyr X invertert)",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mo>&#xAC;</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>&#x22C5;</mo><mi>b</mi></math>",
       "<math><mo>&#xAC;</mo><mo>(</mo><mi>a</mi><mo>&#x22C5;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mo>&#xAC;</mo><mi>a</mi><mo>+</mo><mo>&#xAC;</mo><mi>b</mi></math>",
@@ -40,7 +36,6 @@
   {
     "question": "Hva er <em>ikke</em> en egenskap ved von Neumann-arkitekturen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Data og instruksjoner er lagret i separerte minnebrikker",
       "Det er mulig å adressere data uten å ta hensyn til hvilken type data det er snakk om",

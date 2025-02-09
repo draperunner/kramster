@@ -2,7 +2,6 @@
   {
     "question": "What is the purpose of the EAPOL 4-way handshake?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Authenticated key agreement for session keys",
       "User authentication",
@@ -13,7 +12,6 @@
   {
     "question": "How does WEP provide replay protection?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "By using a sequence counter",
       "By using an integrity check value",
@@ -24,13 +22,11 @@
   {
     "question": "How many messages are exchanged in a group key handshake?",
     "answers": [1],
-    "exam": ".*",
     "options": ["1", "2", "3", "4"]
   },
   {
     "question": "What are the five input values to the CCMP Decryption block?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Key, Data, Nonce, PN, AAD",
       "Key, Data, Nonce, MAC1, MAC2",
@@ -41,7 +37,6 @@
   {
     "question": "What is a mutable field in CCMP?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "A header field that is not integrity protected because it can be modified in transit",
       "A header field that is integrity protected because it will not be modified in transit",
@@ -52,7 +47,6 @@
   {
     "question": "What is the major weakness in WEP, exploited by the PTW attack used in the lab?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Weak IVs",
       "IV reuse",
@@ -63,7 +57,6 @@
   {
     "question": "How are EAP messages transported between the authenticator and the authentication server in RSN?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Encapsulated in EAPOL",
       "Encapsulated in RADIUS",
@@ -74,7 +67,6 @@
   {
     "question": "Which frame types are cryptographically protected by 802.11i?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Data frames only",
       "Data and Management frames",
@@ -85,7 +77,6 @@
   {
     "question": "Which standard actually enabled practical DoS attacks on 802.11i TKIP?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "802.11e Quality of Service Enhancements",
       "802.11h Spectrum and Transmit Power Management Extensions",
@@ -96,7 +87,6 @@
   {
     "question": "Does Windows 10 Wi-Fi Sense allow sharing of 802.11i keys?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "No, Wi-Fi Sense only shares SSIDs",
       "No, Wi-Fi Sense only shares location information for open hotspots",
@@ -107,7 +97,6 @@
   {
     "question": "Does Windows 10 Wi-Fi Sense enforce access control to wireless networks?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Yes, by using 802.1X",
       "Yes, by using the Windows Filtering Platform on the client",
@@ -118,7 +107,6 @@
   {
     "question": "Does GSM provide mutual authentication?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Yes, but only between the SIM and the home network",
       "Yes, but only between the SIM and the visited network",
@@ -129,7 +117,6 @@
   {
     "question": "How is backward key separation achieved during handovers over X2 connections in EPS?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "X2 handovers in EPS do not support backward key separation",
       "The target eNB receives a fresh key from the MME",
@@ -140,13 +127,11 @@
   {
     "question": "How is the EPS key derivation function constructed?",
     "answers": [2],
-    "exam": ".*",
     "options": ["AES-CBC", "AES-CCM", "HMAC-SHA256", "HMAC-MD5"]
   },
   {
     "question": "How long are the cipher key (CK) and integrity key (IK) used in UTRAN, and how are they obtained if a GSM SIM is used to access a UTRAN?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "CK 128 bits, IK 128 bits, obtained using a conversion function",
       "CK 256 bits, IK 256 bits, obtained using a conversion function",
@@ -157,7 +142,6 @@
   {
     "question": "What is cryptographic network separation (in EPS)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "All network entities have separate cryptographic keys",
       "Communication between different core networks is protected by IPSec",
@@ -168,7 +152,6 @@
   {
     "question": "Which values are sent from the AuC to the VLR/SGSN during 3G/UMTS authentication?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "RAND, XRES, Kc, AUTN",
       "RAND, XRES, CK, IK, AUTN",
@@ -179,13 +162,11 @@
   {
     "question": "Which UMTS entities implement the functions f1-f5, f1* and f5*?",
     "answers": [3],
-    "exam": ".*",
     "options": ["UE and VLR", "UE and AuC", "USIM and VLR", "USIM and AuC"]
   },
   {
     "question": "Why does EPS provide a more complex key hierarchy than UMTS and GSM?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "To support more cryptographic algorithms",
       "For backward compatibility with UMTS and GSM",
@@ -196,7 +177,6 @@
   {
     "question": "Will 3G USIMs work with EPS UE handsets?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Yes, but only after a firmware update",
       "Yes, because the ME computes the EPS keys",
@@ -207,7 +187,6 @@
   {
     "question": "Does EPID have a mechanism for key revocation?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Yes, using a revocation list",
       "Yes, using the Online Certificate Status Protocol",
@@ -218,7 +197,6 @@
   {
     "question": "What is the purpose of the EPID join procedure?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "To prove membership of a group",
       "To join a network",
@@ -229,7 +207,6 @@
   {
     "question": "Which three entities participate in the WPS configuration process?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Supplicant, Authenticator, Authentication Server",
       "Enrollee, Access Point, Registrar",
@@ -240,13 +217,11 @@
   {
     "question": "How many messages are exchanged in the WPS in-band registration protocol?",
     "answers": [3],
-    "exam": ".*",
     "options": ["2", "4", "6", "8"]
   },
   {
     "question": "Which protocol state will an 802.11 STA be in after having received a deauthentication notification message?",
     "answers": [0],
-    "exam": ".*",
     "options": ["State 1", "State 2", "State 3", "State 4"]
   }
 ]

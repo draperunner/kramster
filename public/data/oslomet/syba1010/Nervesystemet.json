@@ -2,7 +2,6 @@
   {
     "question": "Hvilken del av nervesystemet sender nerveimpulser til hjertet som øker hjertefrekvensen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Det sensoriske nervesystemet",
       "Det sympatiske nervesystemet",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilke funksjoner har myelin?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Produserer og skiller ut cerebrospinalvæske",
       "Beskytter hjernevevet og spinalvæsken mot uønskede stoffer i blodet",
@@ -24,7 +22,6 @@
   {
     "question": "Hva heter hjernenerven som leder sensoriske nervefibrer fra øynene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Nervus opticus",
       "Nervus facialis",
@@ -35,7 +32,6 @@
   {
     "question": "Hva er cerebellums (lillehjernens) funksjoner?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Hørsel og luktesans",
       "Koordinasjon og balanse",
@@ -46,7 +42,6 @@
   {
     "question": "Hvor i hjernen er respirasjonssenteret?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "I frontallappen",
       "I parietallappen",
@@ -57,7 +52,6 @@
   {
     "question": "Hvilken del av nervesystemet aktiveres ved fysiske påkjenninger og stress?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Det sensoriske nervesystem",
       "Det motoriske nervesystem",
@@ -68,13 +62,11 @@
   {
     "question": "Hva kalles kontaktområdet der det overføres informasjon mellom nerveceller?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Myelinskjedefeste", "Synapse", "Akson", "Nevron"]
   },
   {
     "question": "Hvilke to deler består det autonome nervesystemet av?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Det perifere nervesystemet og sentralnervesystemet",
       "Det sympatiske nervesystemet og det parasympatiske nervesystemet",

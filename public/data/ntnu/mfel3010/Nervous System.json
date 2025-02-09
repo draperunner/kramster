@@ -2,7 +2,6 @@
   {
     "question": "What is correct about excitation contraction coupling?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The action potential causes inflow of Na+ intracellularly, which binds to tubulin",
       "The action potential causes inflow of Na+ intracellularly, which binds to troponin",
@@ -13,7 +12,6 @@
   {
     "question": "What is the function of the sodium-potassium pump?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Transporting potassium and Sodium across the cell membrane from low to high concentration by utilizing the membrane potential",
       "Transporting potassium and Sodium across the cell membrane from low to high concentration by use of energy in the form of ATP",
@@ -24,7 +22,6 @@
   {
     "question": "What is the result of the process which is the function of the sodium-potassium pump?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Utilizing the concentration gradient of sodium and potassium for synthesis of ATP.",
       "The concentration gradient of potassium lead to a diffusion of potassium that is not followed by anionic diffusion, and this builds up a membrane potential",
@@ -35,7 +32,6 @@
   {
     "question": "Where is the regulatory centre for respiration situated in the nervous system?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The sympathetic ganglia",
       "The brain stem",
@@ -46,7 +42,6 @@
   {
     "question": "Where in the central nervous system is pulse and blood pressure controlled?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The cerebral cortex",
       "The cerebellum",
@@ -57,7 +52,6 @@
   {
     "question": "What is the function of myelin sheaths around nerve axons?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Nutrition",
       "Mechanical support",
@@ -68,7 +62,6 @@
   {
     "question": "What are synapses?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Synapses are support cells which works as the maintenance and immune cells of the nervous system",
       "Synapses are specialized nerve cells, whose primary function is transmission of the fast signal activity throughout the nervous system",
@@ -79,7 +72,6 @@
   {
     "question": "What is correct about an action potential?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "An action potential is triggered by an increase in calcium in the extracellular fluid",
       "An action potential is triggered by an increase in calcium in the cytoplasm",
@@ -90,7 +82,6 @@
   {
     "question": "In the situation called “fight or flight response” one part of the peripheral nervous system is activated even before action starts. Which?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The parasympathetic system",
       "The sympathetic system",

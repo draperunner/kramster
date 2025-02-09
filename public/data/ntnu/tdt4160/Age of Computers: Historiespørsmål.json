@@ -2,7 +2,6 @@
   {
     "question": "Hva er <em>ikke</em> en ulempe med radiorør?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Trege",
       "Upålitelige",
@@ -13,7 +12,6 @@
   {
     "question": "Hva hadde Robert Noyce og Jack Kilby til felles?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Begge fant opp transistoren.",
       "Begge fant opp integrerte kretser.",
@@ -25,7 +23,6 @@
   {
     "question": "Hvilken datamaskin ble brukt under den TV-sendte folketellingen i 1952 (USA)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "ENIAC",
       "PDP-1",
@@ -38,7 +35,6 @@
   {
     "question": "Digital Equipment Corporation lagde PDP-1. Hva er PDP-1?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En transistor",
       "En integrert krets",
@@ -51,13 +47,11 @@
   {
     "question": "Hvilken datamaskin var Nord-1 basert på?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Colossus", "Enigma", "SIGMA-II", "Nord-0"]
   },
   {
     "question": "Hvem var Bill Shockley?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Han som var med på å konstruere en av de første transistorene.",
       "Han som var med på å konstruere et av de første radiorørene.",
@@ -68,7 +62,6 @@
   {
     "question": "Hva er NUSSE?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Et hovedkort",
       "En datamaskin",
@@ -79,7 +72,6 @@
   {
     "question": "Hva var SAM?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En datamaskin som var laget av FFI på Kjeller.",
       "En simulator som ble laget på Kjeller.",
@@ -90,7 +82,6 @@
   {
     "question": "Hva står IBM for?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Internal Boss Machines",
       "International Business Makers",
@@ -101,7 +92,6 @@
   {
     "question": "Hva er en transistor laget av?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Radiorør",
       "Halvledere",

@@ -2,7 +2,6 @@
   {
     "question": "The lungs have a state and size of equilibrium where there is a balance between elastic forces pulling the thorax wall outwards and the lungs inwards. Thus, we don’t need to use respiratory muscle activity to maintain this state. The different volumes of the lungs can be described by dynamic and static lung volumes. What is the name of the total gas volume we have in this equilibrium state?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Recidual volume (RV)",
       "Expiratory reserve volume (ERV)",
@@ -13,7 +12,6 @@
   {
     "question": "What is the function of the sodium-potassium pump?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Transporting potassium and Sodium across the cell membrane from low to high concentration by utilizing the membrane potential",
       "Transporting potassium and Sodium across the cell membrane from low to high concentration by use of energy in the form of ATP",
@@ -24,7 +22,6 @@
   {
     "question": "What is the function of the sodium-potassium pump, and what is the result of this process?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Utilizing the concentration gradient of sodium and potassium for synthesis of ATP.",
       "The concentration gradient of potassium lead to a diffusion of potassium that is not followed by anionic diffusion, and this builds up a membrane potential",
@@ -35,7 +32,6 @@
   {
     "question": "The kidney produces urine to get rid of waste products. What is the mechanism best describing how the \"pre-urine\" is produced in the glomerulus?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Osmosis",
       "Filtration",
@@ -46,13 +42,11 @@
   {
     "question": "The kidney produces urine to get rid of waste products. How much pre urine is produced in all nephrons of both kidneys during 24 hours?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Ca 1,6 litres", "Ca 3 litres", "Ca 20 litres", "Ca 180 litres"]
   },
   {
     "question": "What is the effect of antidiuretic hormone?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Facilitates active transport of water from pre urine",
       "Induces active transport of sodium from pre urine, and thus water follows passively",
@@ -63,7 +57,6 @@
   {
     "question": "The method called restriction fragment length polymorphism (RFLP) is used to:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Increase the amount of DNA found in a small sample",
       "Increase the amount of DNA found in a degraded samples",
@@ -74,7 +67,6 @@
   {
     "question": "Which characteristics of the hippocampus can be studied with MRI?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "3D shape",
       "memory-related activation",
@@ -85,7 +77,6 @@
   {
     "question": "The structural and functional organization of the human body can be described on several different levels. Cells are the basic unit of life, yet cells can differ fundamentally when it comes to form, protein and organelle content, and function. How can such differences between cell types be explained?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Different cell types have different DNA",
       "Different cell types use different genetic codes",
@@ -96,13 +87,11 @@
   {
     "question": "Where in thorax is the pressure lowest during inspiration?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Trachea", "The bronchii", "The alveoli", "Pleura"]
   },
   {
     "question": "Hypertension (high blood pressure) is an important risk factor for cardiovascular diseases like heart attack, stroke, etc. Which of the following is the most important cause of hypertension?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Obesity (overweight, body mass index >30)",
       "Diabetes",
@@ -113,7 +102,6 @@
   {
     "question": "The blood pressure is usually measured by inflating a cuff around the upper arm, and then reducing the pressure gradually. Which of the statements below are correct in relation to this procedure?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "When the cuff pressure falls below the systolic artery pressure, the artery will\njust start to open.",
       "When the cuff pressure falls below the diastolic artery pressure, the artery will\njust start to open.",
@@ -124,19 +112,16 @@
   {
     "question": "The blood pressure is among other things regulated by peripheral resistance. Which vessels are responsible for most of this resistance?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Arteries", "Arterioles", "Capillaries", "V enules"]
   },
   {
     "question": "The ejection fraction is used a measure of ventricular function. However, this has some limitations. Endurance training increases left ventricular volume and reduces heart rate. A certain (male) endurance runner has an end diastolic left ventricular volume of 220 ml. During rest, he has a normal cardiac output of 4.7 litres /min with a heart rate of 45 beats / min. What is the resting ejection fraction?",
     "answers": [2],
-    "exam": ".*",
     "options": ["89%", "53%", "47%", "35%"]
   },
   {
     "question": "Endurance training increases the maximal oxygen uptake. What is the factor that is increased by training, and thus responsible for increased fitness?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The Hemoglobin",
       "The Arterial oxygen saturation (meaning more efficient oxygenation by the\nlungs)",
@@ -147,7 +132,6 @@
   {
     "question": "A certain clinical study shows treatment 1 to be better to reduce the mortality (number of deaths) than treatment 2 for a certain disease with a p value (significance) of 5%. What does this mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The probability of dying of the disease with treatment 1 is 5% lower than with treatment 2",
       "The number needed to treat the disease with treatment 1 instead of treatment 2, in order to reduce the number of deaths by one patient, is 5",
@@ -158,13 +142,11 @@
   {
     "question": "For a treatment result to be significant, what is the customary limit for the p value?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2.5%", "5%", "10%", "20%"]
   },
   {
     "question": "The study power was calculated, and was found to be only 70% for the patient number and significance level of 5%. What does that mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "That only 70% of the patients would profit from treatment 1 over treatment 2",
       "That 70% of the patients would survive with treatment 1, as opposed to only 30% with treatment 2",
@@ -175,7 +157,6 @@
   {
     "question": "A recent study of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening velocity per length unit) – 1.1 s-1\nTo compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Limits of agreement",
       "Correlation",
@@ -186,7 +167,6 @@
   {
     "question": "Ultrasound Doppler can measure blood velocity. We are interested in measuring the blood velocity at a certain depth. This is done by pulsed Doppler. How is the depth selectivity achieved?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "By varying the frequency in the transmitted signal",
       "By varying the total energy in the transmitted signal",
@@ -197,7 +177,6 @@
   {
     "question": "Which of these factors are important for the resolution in an ultrasound image?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The wavelength",
       "The frequency",
@@ -208,7 +187,6 @@
   {
     "question": "What are the main biological effects of MR?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Chemical, due to ionization",
       "Chemical, due to free radical formation",
@@ -219,7 +197,6 @@
   {
     "question": "What is the principle of PET (positron emission tomography) scan?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Gamma rays are emitted directly by a radioisotope injected into the body, and are detected by a ring of detectors around the patient. The concentration of the isotope is mapped by the intensity of radiation in the cross section.",
       "Positrons are emitted by a radioisotope injected into the body, and are detected by a ring of detectors around the patient. The concentration of the isotope is mapped by the intensity of radiation in the cross section.",
@@ -230,7 +207,6 @@
   {
     "question": "A researcher has performed a radioimmunoassay. The setup includes standards, a negative control, a positive control and 50 samples from an experiment. Upon evaluating the results, she finds that the negative control is higher than the predefined limit. What is the best conclusion she can draw?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The setup is reliable if the positive control is OK",
       "The setup is OK if the sample results seem reasonable",
@@ -241,7 +217,6 @@
   {
     "question": "What is an oncogene?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "A gene that codes for enzymes that repair damaged DNA",
       "A gene that regulates cell growth and death",
@@ -252,7 +227,6 @@
   {
     "question": "You happen to be admitted to the cardiology department for chest pain and palpitations (a noticeably rapid, strong, or irregular heartbeat due to agitation, exertion, or illness) and is being examined by Dr. Asbjørn Heart, a consultant in cardiology. Upon completion of the examination, he uses an Electronic health record system to prepare a clinical note. You suffer from atrial fibrillation. You are put on a anticoagulant (a substance having the effect of retarding or inhibiting the coagulation of the blood), discharged from the hospital the next day, and scheduled for a follow- up with Dr. Heart within three weeks.\nFive days later, you develop a nose bleeding (that might be related to the use of the anticoagulant). You rush to visit your primary care physician (fastlege). He queries his primary care EHR-system, but cannot find any discharge letter from the hospital, and is not aware that you are using an anticoagulant. He seeks to find out by making a phone call to Dr. Heart.\nWhich of the following clinical purposes of Electronic health record (EHR) systems applies to the situation of your primary care physician?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "EHR systems shall facilitate the clinical care of individual patients by making information available to others with access to the record system who are involved in the care of the same patients.",
       "EHR systems shall facilitate the clinical care of individual patients by providing information for inclusion in other documents (e.g. laboratory requests referrals and medical reports).",
@@ -263,7 +237,6 @@
   {
     "question": "Which hardware component in an MR system enables spatial encoding of the signal?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The main superconducting magnet.",
       "The radiofrequency antennas/coils.",
@@ -274,7 +247,6 @@
   {
     "question": "The stomach epithelium secretes hydrochloric acid into the lumen, making the contents very acidic. What is the function of this low pH?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "It stimulates the secretion of gastrin, in order to facilitate digestion by increasing the secretions in the duodenum.",
       "It activates and optimizes the Pepsin action of digesting proteins in the stomach",
@@ -285,7 +257,6 @@
   {
     "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The Esophagus",
       "The stomach",
@@ -296,7 +267,6 @@
   {
     "question": "In diabetes glucose is found in the urine as a sign of elevated blood sugar. What is the mechanism for this?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Glucose is normally not filtrated in the urine, only in elevated blood sugar.",
       "In elevated blood sugar, the renal capacity for reabsorption is exceeded by the urine concentration of glucose",
@@ -307,7 +277,6 @@
   {
     "question": "In diabetes glucose is found in the urine as a sign of elevated blood sugar. What will happen if there are large amounts of glucose in the urine?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The amount of urine (water) will increase due to the osmotic effect of the glucose",
       "The amount of urine will decrease, as the active reabsorption of glucose going at maximal capacity will reabsorb a larger volume of water through osmosis",
@@ -318,7 +287,6 @@
   {
     "question": "A blood vessel has a narrowing in a short segment. What will always happen to the blood dynamics in this narrow segment? (Velocity: meters/sec, Flow: litres/min)",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The blood velocity increases",
       "The blood velocity decreases",
@@ -329,37 +297,31 @@
   {
     "question": "Mean incidence of influenza in Norway in week 8 in 2012 was 3%. We may consider that the duration of influenza to be on the average 5 days for that epidemic. What was the mean prevalence of influenza during that week?",
     "answers": [0],
-    "exam": ".*",
     "options": ["2.1%", "3%", "6%", "14%"]
   },
   {
     "question": "A 50 year old man with no symptoms want a checkup to be sure he doesn’t have coronary heart disease, for safety’s sake. He went to a private specialist centre in order to have a test, and had a stress echocardiography. The risk of having significant coronary disease in men without symtoms at that age may be assumed to be 4%. Stress echo has a sensitivity of about 80%, and a specificity of 90%. This may be expressed in the following 4x4 table:\nIf the test shows a positive result (meaning it indicates coronary disease), what is the positive predictive value of this test (the probability that he really is ill)?\n<img src=\"images/59twfm.webp\" />",
     "answers": [2],
-    "exam": ".*",
     "options": ["1.3%", "6.2 %", "7.7%", "9.4%"]
   },
   {
     "question": "A 50 year old man with no symptoms want a checkup to be sure he doesn’t have coronary heart disease, for safety’s sake. He went to a private specialist centre in order to have a test, and had a stress echocardiography. The risk of having significant coronary disease in men without symtoms at that age may be assumed to be 4%. Stress echo has a sensitivity of about 80%, and a specificity of 90%. This may be expressed in the following 4x4 table:\nIf the test shows a negative result (meaning it doesn’t indicate coronary heart disease), what is the negative predictive value of the test (the probability that he really is healthy)?\n<img src=\"images/843opg.webp\" />",
     "answers": [1],
-    "exam": ".*",
     "options": ["99.8%", "96.4%", "90.0%", "85.6%"]
   },
   {
     "question": "Anemia is a state of reduced hemoglobin content of the blood. What dietary requirement is essential for normal hemoglobin?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Calcium", "Magnesium", "Iron", "Iodine"]
   },
   {
     "question": "In a paternity case, there are four possible fathers (a, b, c and d). A DNA test is done, which of the four candidates is the most probable father?",
     "answers": [1],
-    "exam": ".*",
     "options": ["a", "b", "c", "d"]
   },
   {
     "question": "The main part of the DNA in the cell is found in the nucleus. What other organelles do also contain DNA?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The Golgi apparatus",
       "The endoplasmic reticulum",

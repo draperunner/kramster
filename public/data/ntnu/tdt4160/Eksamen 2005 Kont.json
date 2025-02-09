@@ -2,7 +2,6 @@
   {
     "question": "Hvor mange assemblerinstruksjoner er det i en mikroinstruksjon?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Dette er avhengig av instruksjonssettarkitekturen (ISA)",
       "Spørsmålet gir ikke mening fordi en assemblerinstruksjon består av flere mikroinstruksjoner",
@@ -13,7 +12,6 @@
   {
     "question": "Enkelte maskiner har noe som heter segmentregister, hva brukes det til?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Peker på register som skal leses i en registerfil",
       "Brukes av hurtiglager for å vite hvor data skal ligge i hovedlager",
@@ -24,7 +22,6 @@
   {
     "question": "Hva er riktig om samlebånd (eng. pipelines)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Samlebånd øker hastigheten for hver enkelt instruksjon isolert sett",
       "Samlebånd i prosessorer benyttes ikke lengre, dette er gammel teknologi",
@@ -35,7 +32,6 @@
   {
     "question": "Hva er FEIL om samlebånd?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Klokkefrekvensen til en prosessor med samlebånd er begrenset av summen av tiden samlebåndet bruker i de ulike trinnene",
       "Klokkefrekvensen til en prosessor med samlebånd er begrenset av det tregeste trinnet",
@@ -46,7 +42,6 @@
   {
     "question": "Dersom du har et vanlig (in-order execution) samlebånd, hvilke dataavhengigheter vil\nskape problemer i følgende program (Dark-syntaks)?<pre>\nADD $1, $2, $3\nADD $4, $2, $3</pre>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Avhengigheten på grunn av register 2",
       "Avhengigheten på grunn av register 3",
@@ -57,7 +52,6 @@
   {
     "question": "Hva skiller indirekte adresseringsmodus fra direkte adresseringsmodus (velg det alternativet som er mest riktig)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Indirekte er enklere enn direkte adressering fordi indirekte adressering krever et ekstra oppslag",
       "Indirekte adressering adresserer relativt til stakkregisteret, mens direkte adressering adresserer relativt til instruksjonsregisteret",
@@ -68,7 +62,6 @@
   {
     "question": "Hvorfor snakker man om 1ers komplement og 2ers komplement?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "De to måtene å kode tall på benyttes i forskjellige regneoperasjoner",
       "Det er lettere for en datamaskin å addere to tall som er på 2ers komplement enn\n1ers komplement",
@@ -79,13 +72,11 @@
   {
     "question": "Hvilken prosessortype har som oftest kortest instruksjonsord?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Akkumulatormaskin", "Load/store-maskin", "Stakkmaskin"]
   },
   {
     "question": "Hva er et instruksjonsregister?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Mikroprosessoren leser instruksjonen som skal utføres til dette registret",
       "Instruksjonen benytter dette registret til å lagre heltall",
@@ -96,7 +87,6 @@
   {
     "question": "Hvordan lagres data i hurtigminnet (SRAM) på en PC?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Hver bit ligger lagret som strøm i en transistor",
       "Hver bit ligger lagret som ladning i en kondensator",
@@ -107,7 +97,6 @@
   {
     "question": "Hvis man har to ulike datamaskiner som utfører like mange instruksjoner per sekund, hva\nkan man si om de to maskinene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Antall MIPS (millions of instructions per second) for de to maskinene er like",
       "Ytelsen er lik",
@@ -118,7 +107,6 @@
   {
     "question": "Hvordan programmerer man en mikroprosessor med samlebånd?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Man må passe seg for ”farer” (eng. hazards) i enkelte arkitekturer",
       "Man må spesifisere rekkefølgen på de ulike trinnene for hver instruksjon",
@@ -129,7 +117,6 @@
   {
     "question": "Hvilket av følgende utsagn er mest FEIL om harddisker?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Harddisker er mekaniske og tåler dårlig støt",
       "Harddisker er basert på optiske plater som roterer relativt raskt (ca 7200 RPM).",
@@ -140,7 +127,6 @@
   {
     "question": "Hvordan henter en datamaskin vanligvis informasjon fra omgivelsene?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Dette skjer ved at DRAM brikken er koblet til eksterne linjer",
       "Dette skjer ved at ALU enheten er koblet til eksterne linjer",
@@ -151,7 +137,6 @@
   {
     "question": "Hva er ulempen til USB?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Man kan ikke ta utstyr fra en maskin og forvente at det fungerer på en annen maskin",
       "Protokollen er ikke laget for overføring av store datamengder, her er firewire raskere",

@@ -2,43 +2,36 @@
   {
     "question": "The term for a representation of a coherent set of architectural elements is...",
     "answers": [3],
-    "exam": ".*",
     "options": ["Architecture", "Module", "Structure", "View"]
   },
   {
     "question": "Structures that allow reasoning about how primary functionality is assigned to units are named",
     "answers": [2],
-    "exam": "2015 Kahoot 02: Structures and Views",
     "options": ["Allocation", "Component-and-Connector", "Module", "Nothing"]
   },
   {
     "question": "Structures that can answer <em>which processors software elements are executed on</em> are named...",
     "answers": [0],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-Connector", "Module", "Nothing"]
   },
   {
     "question": "Structures that can answer <em>what parts of the system can run in parallel</em> are...",
     "answers": [1],
-    "exam": ".*",
     "options": ["Allocation", "Component-and-Connector", "Module", "Nothing"]
   },
   {
     "question": "Which stuctures can be classified as module structures?",
     "answers": [0, 3],
-    "exam": "2015 Kahoot 02: Structures and Views",
     "options": ["Class", "Concurrency", "Deployment", "Layer"]
   },
   {
     "question": "Which structures can be classified as Component-and-connector structures?",
     "answers": [0, 2],
-    "exam": ".*",
     "options": ["Concurrency", "Decomposition", "Service", "Work assignment"]
   },
   {
     "question": "Which structures can be classified as allocation structures?",
     "answers": [1, 3],
-    "exam": ".*",
     "options": ["Data model", "Implementation", "Uses", "Work assignment"]
   }
 ]

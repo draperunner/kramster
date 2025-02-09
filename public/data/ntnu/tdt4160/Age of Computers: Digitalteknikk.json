@@ -2,19 +2,16 @@
   {
     "question": "Hva blir utgang Y lik hvis S0=1, S1=0, D0= 1, D1=0, D2=0, D3=1?",
     "answers": [0],
-    "exam": ".*",
     "options": ["0", "1", "10", "00"]
   },
   {
     "question": "Hva blir utgang Y lik hvis S0=0, S1=0, D0= 1, D1=0, D2=0, D3=1?",
     "answers": [0],
-    "exam": ".*",
     "options": ["1", "0", "00", "11"]
   },
   {
     "question": "Hva er en multiplekser (MUX)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En MUX er en kombinatorisk krets som velger en av inngangene og sender den ut på utgangen.",
       "En MUX er en kombinatorisk krets som tar inngangen og splitter den opp til flere utganger.",
@@ -29,7 +26,6 @@
   {
     "question": "Hvis inngangene er D0D1D2D3=0100 og Y=1, hva må S1S0 være da?",
     "answers": [1],
-    "exam": ".*",
     "options": ["00", "01", "10", "11"]
   }
 ]

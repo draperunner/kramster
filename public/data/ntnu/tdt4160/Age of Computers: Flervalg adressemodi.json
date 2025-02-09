@@ -2,7 +2,6 @@
   {
     "question": "Ved PC-relativ adresseringsmodus blir den effektive adressen:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Adressedelen av instruksjonen + verdien i hovedlageret som PC adresserer.",
       "Adressedelen av instruksjonen + innholdet i PC.",
@@ -12,7 +11,6 @@
   {
     "question": "Hva er register indirekteadressering?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -27,7 +25,6 @@
   {
     "question": "Hva er adressedifferanse (displacement) adressering?",
     "answers": [5],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -42,7 +39,6 @@
   {
     "question": "Hva er direkteadressering?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -57,13 +53,11 @@
   {
     "question": "Hvor mange ganger må CPU-en referere til datalageret når den den skal hente en operand ved indirekte adressering?",
     "answers": [1],
-    "exam": ".*",
     "options": ["1 gang", "2 ganger", "3 ganger", "4 ganger", "5 ganger"]
   },
   {
     "question": "Hva er stakkadressering?",
     "answers": [7],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -78,7 +72,6 @@
   {
     "question": "Hva er indirekteadressering?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -93,7 +86,6 @@
   {
     "question": "Hva er en adresseringsmodus?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En regel som forteller prosessoren hvordan den skal finne frem til operanden ut fra informasjonen i instruksjonsordet.",
       "En operands adresse.",
@@ -103,7 +95,6 @@
   {
     "question": "Hva er relativ adressering?",
     "answers": [6],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -118,7 +109,6 @@
   {
     "question": "Hva er adressemodusen «register mode»?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Register mode er når operanden ligger i et prosessorregister og registeret blir angitt i instruksjonen",
       "Register mode er når operanden ligger i lageret og registeret inneholder bare deler av operanden",
@@ -128,7 +118,6 @@
   {
     "question": "Hvilket utsagn om direkteadressering er <em>usant</em>?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Adressefeltet inneholder adressen til operanden",
       "Trenger ingen lagerreferanse",
@@ -140,7 +129,6 @@
   {
     "question": "Hva er «immediate» adressering?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -155,7 +143,6 @@
   {
     "question": "Hvilket utsagn om registeradressering er <em>usant</em>?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Trenger ikke lageroppslag",
       "Veldig rask uførelse",
@@ -166,7 +153,6 @@
   {
     "question": "Hva er registeradressering?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Verdien til operanden er inne i instruksjonen",
       "Adressefeltet inneholder den effektive adresse til operanden, der effektive adressen er den faktiske adressen til lagercellen som inneholder operanden",
@@ -181,7 +167,6 @@
   {
     "question": "Hvor mange ganger må CPU-en referere til lageret når den skal hente en operand ved register-indirekte adressering?",
     "answers": [0],
-    "exam": ".*",
     "options": ["1 gang", "2 ganger", "3 ganger", "4 ganger", "5 ganger"]
   }
 ]

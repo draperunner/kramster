@@ -2,619 +2,516 @@
   {
     "question": "When a data packet moves from the upper layer to the lower layers, headers are removed.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A Layer offering a connection-oriented service must use a connection-oriented protocol.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Under the layering protocol hierarchy, the Physical Layer talks to the Network Layer directly.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Network Layer is responsible to provide reliable end-to-end transmission.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Television broadcast is an example of half-duplex transmission.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A network’s logical topology must be the same as its physical topology.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Connection-oriented service is not always reliable.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A protocol is the set of rules that determine the behavior between entities on adjacent layers, i.e. between entities on (N+1)-layer and (N)-layer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In protocol hierarchy, if the Link Layer uses a connection-oriented protocol, then the Network Layer must also use a connection-oriented protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Packet switching based on datagram never loses packets.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Circuit switching gives higher variation in the end-to-end transfer time than packet switching.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a network with 20 computers, mesh physical topology requires the most extensive cabling than other topologies.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A point-to-point connection provides a dedicated link between two devices.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Internet Protocol (IP) is a connection-oriented protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Circuit switching never wastes transmission channel capacity.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a packet switching network, assume that all packets have the same length and the queuing delay is ignored. Then, for the connection-oriented service, the connection setup time is always longer than the transfer time of a packet from the sender to the receiver.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "SMS (short message service) is supported in a digital subsystem of the GSM system and voice telephony is supported in an analogue subsystem of the GSM system.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a GSM system, after the registration phase is over, a subscriber A’s HLR (Home Location Registry) has a pointer/reference to A’s current VLR (Visiting Location Registry).",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In the Norwegian requirement for public safety network, the requirement for 2- party real time video calls is stated to be more important than the support for group call communication.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In both GSM and TETRA the authentication works such that: The terminal is authenticated by the network, and the network is authenticated by the terminal.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A digital signal must be sent over a digital channel.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A modem converts a serial stream of bits to a modulated analog carrier signal.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The baud rate of a signal can be lower than the bit rate.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A cosine signal contains all the frequency components necessary to represent a digital signal as a sequence of square pulses.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Frequency modulation must be used alone.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Amplitude modulation can be used together with phase modulation.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Wavelength division multiplexing is a variation of frequency division multiplexing.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Consider a noiseless 4KHz channel. The maximum data rate achieved by the channel can be higher than 128 kbits/sec.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A signal coming out of a low-pass filter of bandwidth H can be completely reconstructed by making 2H samples per second.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The twisted pair cable suffers from at least three problems: attenuation, delay distortion, and noise.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Shannon theorem on data rates takes noise into account.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Consider the maximum data rate that can be achieved by a noisy channel. The rate calculated from the Shannon theorem is always smaller than the rate calculated from the Nyquist theorem.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The essential difference between message switching and packet switching is that a message can be arbitrarily long in message switching, while packet switching has a maximum packet size.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A network can be wireless but not mobile.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a mobile phone system, when a mobile user crosses the boundary from one cell to another, the current call can be terminated, even though all the transmitters and receivers are functioning properly.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "For a mobile phone system, hard handoff provides better service than soft handoff.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Asynchronous framing can be used with synchronous transmission.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Bit-stuffing in the link layer is required to support framing synchronization in bit-oriented protocols.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A CRC (Cyclic Redundancy Check) check detects all errors.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Error control based on odd parity means that a parity bit is added so that the number of ‘1’s is odd.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Assume a code with a Hamming distance H=17. The maximum number of errors that can be corrected is 4.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Generator polynomials are used in CRC to generate checksums for error detection. The generator polynomials used by the sender and the receiver must be the same.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Suppose a parity bit is used to detect single bit errors in a bit-string of 7 bits. If even parity is used and the controlled bit-string has the value 0110101, then the value of the parity bit is 1.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Dividing binary value 10011110 by 1001 gives a remainder of 100.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The throughput of Slotted ALOHA approaches 1.0 when the offered traffic approaches infinity.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Preamble of an Ethernet MAC frame is used to synchronize the receiver’s clock with the sender’s.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Consider a complete set of codewords: 00000000; 00110011; 11001100; 11111111. Then, the Hamming distance of this complete code set is:5.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The byte 10011111 is transmitted using the standard CRC method using the generator polynomial x 3 + 1. Then, the transmitted bit stream has bit pattern 0110000011.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "To detect d single bit errors in any codeword from a set of legal codewords, the Hamming distance of the set of codewords needs to be at least (d + 1).",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The LLC (Logical Link Control) sub-layer adapts the Data link layer to the Physical layer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Bridges use IP addresses to route frames to their destinations.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Manchester encoding ensures that every bit period has a transition at the start of the bit period.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Hubs use the frame destination address to route frames to their destination.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In VLANs (Virtual Local Area Network) the logical topology is decoupled from the physical topology.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Character-stuffing (or byte-stuffing) is a mechanism used to make a sequence of characters easy to remember by the network user.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Wireless LANs using the PCF (Point Coordination Function) mode use a base station to control all activity in its cell.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A network layer service can be both connectionless and unreliable.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A network layer service can be both connection-oriented and reliable.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A sink tree for routing contains loops.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Distance vector routing always converges slowly in constructing the sink tree.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "With network layer service, the transport layer should not need to know anything about the number of subnets or the type or topology of the subnets.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The network layer uses the end-to-end service offered by the data link layer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The network layer service should be independent of the underlying network technology.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Network layer addresses should be global and uniform.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Adaptive routing adapts to topology changes of the network.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Datagrams require routers to remember what connections they belong to.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "With IP, there is no guarantee that the packets will arrive in the right sequence.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Datagrams typically consume more bandwidth than the virtual circuit when transmitting the same amount of data.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A virtual circuit is more robust concerning network errors because it knows the destination of the packets.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The optimality principle for routing states that if router B is on the optimal path from router A to router C, then the optimal path from B to C also falls along the same route.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Best effort\" means that the source uses retransmission if necessary.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In the Internet, packets are sent independently and can use different routes through the network.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "To establish a connection, the initial sequence numbers of both the sender and the receiver must be the same.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Asymmetric and symmetric releases must be used together to release a connection.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Transport addresses are needed only for connection-oriented transport connections.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "With symmetric release, data loss can be completely avoided.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Piggybacking in flow control helps make use of the connection more efficiently.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In sliding window flow control, both the sender window and the receiver window must have the same fixed window size all the time.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In general, sliding window flow control is more efficient in utilizing the connection capacity than stop-and-wait flow control.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Normally, transport layer protocol data units are processed only by end hosts.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In the Selective-Repeat error control, if an error PDU is found, the receiver is allowed to accept and buffer the PDUs following it.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In both flow control and error control, timeout timers are needed to ensure their proper functioning.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP provides message stream transport service.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP is a connection-oriented protocol.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "UDP is a connectionless protocol.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "All transport layer protocols must perform error control.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Transport Layer hides transport service users from the detailed information such as technology, design and implementation of the communication subnet.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "DNS uses a flat address hierarchy.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A web browser can use only one HTTP/TCP connection at one time.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A proxy server must be located on the same place as the web server.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Dynamic Web documents at the server site are created when they are requested by clients.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An e-mail system is made up of user agent and mailbox subsystems.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An e-mail delivered through the network is made up of 3 parts that are envelope, header and body.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "E-mail does not use DNS.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TELNET is a transport layer protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A browser plug-in runs as an internal part of the browser software.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "SMTP (Simple Mail Transfer Protocol) can not be used between mail servers.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A machine with a single DNS name can have multiple IP addresses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A computer can have two DNS names that fall in different top-level domains.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A domain name can be absolute or relative.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Error Resilience is the capability to continue decoding even when the received media stream contains errors.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP is always a preferred transport layer for live streaming media because it ensures that the content is transported to the client without error.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Real Time Protocol contains timestamp and sequence numbers to ensure that the decoder can synchronize audio and video.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

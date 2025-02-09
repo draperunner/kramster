@@ -2,7 +2,6 @@
   {
     "question": "Hvilken av de følgende påstandene stemmer <em>ikke</em> for Pentium 4:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Prosessoren inneholder en RISC-kjerne.",
       "Programmer skrevet for Pentium 4 består av RISC-instruksjoner.",

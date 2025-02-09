@@ -2,7 +2,6 @@
   {
     "question": "Det er mange gode grunner til å lage en forretningsplan. Hvilken av de fire nedenfor er IKKE korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En forretningsplan tvinger entreprenøren til å tenke systematisk igjennom alle viktige sider ved sin oppstart",
       "Forretningsplanen hjelper firmaets øvrige ansatte til å forstå hva gründerne har tenkt på med oppstarten",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av følgende påstander om teknologibaserte bedrifter som ønsker å vokse er korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Alle teknologibedrifter som lykkes godt kommersielt har en unik ide som kan beskyttes med\npatenter eller andre formelle beskyttelsesmekanismer.",
       "Alle entreprenør-bedrifter som skal lykkes bør ha tidlig finansiering av banker, slik at tilgangen på\nkapital sikres.",
@@ -24,13 +22,11 @@
   {
     "question": "Hvilken av ressursene under regnes normalt IKKE som en fysisk ressurs?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Egenkapital", "Maskiner", "Bygninger", "Produksjonsanlegg"]
   },
   {
     "question": "Hvilke tre \"investment risks\" omtales ofte i forbindelse med investeringeri potensielle\nvekstbedrifter?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Konkurranserisiko, økonomisk risiko og kompetanserisiko",
       "Teknologirisiko, konkursrisiko, og markedsrisiko",
@@ -41,7 +37,6 @@
   {
     "question": "Hvilken av følgende finansieringskilder vil normalt regnes som «hard funding»?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Etablererstipend",
       "Venner og bekjente",
@@ -52,7 +47,6 @@
   {
     "question": "Hvilket av de følgende utsagnene beskriver ikke en del av motivasjonsligningen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Utfall som følelsen av å tilhøre en gruppe, deling av normer og verdier",
       "Ytelse, slik som mengde og kvalitet på utført arbeid, samt nivået på kundeservice",
@@ -63,7 +57,6 @@
   {
     "question": "Hva er forskjellen mellom indre (intrinsic) og ytre (extrinsic) motivasjon?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Indre motivasjon er styrt av individuelle preferanser men ytre motivasjon er styrt av eksterne krav",
       "Hovedforskjellen er at indre motivasjon er biologisk betinget, men ytre motivasjon er betinget av\nsituasjonen",
@@ -74,7 +67,6 @@
   {
     "question": "Hvilke av de følgende problemene er assosiert med funksjonelle strukturer?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Delegasjonsproblemer forårsaket av komplekse interne gjensidige avhengigheter mellom ulike\ntyper ekspertise",
       "Utfordringer for beslutningstaking som er forårsaket av ulike prioriteringer mellom forskjellige\nprodukter og prosesser og deres overordnede funksjon for bedriften",
@@ -85,7 +77,6 @@
   {
     "question": "Hva kjennetegner en sentralisert organisasjon?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En sentralisert organisasjon har minimalt antall hierarkiske nivåer, og dette sikrer at alle beslutninger alltid blir tatt nært den enhet/avdeling som blir påvirket av beslutningen",
       "En organisatorisk oppbygning hvor autoriteten til å gjøre viktige beslutninger er plassert hos ledere\npå toppen av hierarkiet",
@@ -96,7 +87,6 @@
   {
     "question": "Hvilket utsagn om eksplisitt kunnskap er ikke korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Eksplisitt kunnskap er den viktigste kunnskapstypen for radikal innovasjon",
       "Eksplisitt kunnskap er enkel å kommunisere",
@@ -107,7 +97,6 @@
   {
     "question": "En bedrift har marginalkostnader som kan skrives som <math><mi>MC</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>Q</mi><mo>+</mo><mi>b</mi></math>, der <math><mi>Q</mi></math> er mengden og <math><mi>a</mi></math> og <math><mi>b</mi></math> er konstanter. Hva blir da de variable kostnadene?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mi>a</mi><mi>Q</mi></math>",
       "<math><mi>a</mi><mo>+</mo><mi>b</mi><mi>Q</mi></math>",
@@ -118,7 +107,6 @@
   {
     "question": "En bedrift har totalkostnadene <math><mi>TC</mi></math>, marginalkostnadene <math><mi>MC</mi></math>, variable kostnader <math><mi>VC</mi></math>, gjennomsnittskostnader <math><mi>AC</mi></math> og faste kostnader <math><mi>FC</mi></math>. Den produserer mengden <math><mi>Q</mi></math>. Hvilken sammenheng er generelt korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mi>AC</mi><mo>=</mo><mfrac><mi>FC</mi><mi>Q</mi></mfrac></math>",
       "<math><mi>TC</mi><mo>=</mo><mi>AC</mi><mo>&#x22C5;</mo><mi>Q</mi><mo>+</mo><mi>FC</mi></math>",
@@ -129,7 +117,6 @@
   {
     "question": "Etterspørselen til en bedrift er gitt ved funksjonen <math><mi>P</mi><mo>(</mo><mi>Q</mi><mo>)</mo></math> der <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er mengden. Etterspørselen har den normale helningen slik at <math><mfrac><mi>dP</mi><mi>dQ</mi></mfrac><mo>&lt;</mo><mn>0</mn></math>. Marginalinntekten kan skrives som <math><mi>MR</mi><mo>=</mo><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac><mo>+</mo><mi>P</mi></math>. Hva blir den mest presise og korrekte beskrivelsen av de to leddene i marginalinntekten?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "P er inntektsøkningen ved å selge én enhet mer mens <math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac></math> er inntektsreduksjonen som følge av prisreduksjonen som er nødvendig for å selge én enhet mer.",
       "P er inntekten for den siste enheten som selges og <math><mi>Q</mi><mo>&#x22C5;</mo><mfrac><mi>dP</mi><mi>dQ</mi></mfrac></math> er gjennomsnittsinntekten for alle enhetene.",
@@ -140,13 +127,11 @@
   {
     "question": "Dersom etterspørselselastisiteten er definert slik at den er et positivt tall for normal etterspørsel og er\nnøyaktig 1, hva kan vi si om marginalinntekten, MR?",
     "answers": [1],
-    "exam": ".*",
     "options": ["MR = 1", "MR = 0", "MR > 0", "MR < 0"]
   },
   {
     "question": "Hva er en korrekt tolkning når en økonom sier at etterspørselen er mer elastisk i marked A enn i\nmarked B?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En prisøkning på én enhet fører til reduksjon i etterspurt mengde med flere enheter i marked A enn\ni marked B.",
       "En prisøkning på én enhet fører til reduksjon i etterspurt mengde med færre enheter i marked A\nenn i marked B.",
@@ -157,31 +142,26 @@
   {
     "question": "En bedrift i et frikonkurransemarked har marginalkostnader gitt ved MC = 0,1Q + 1000 der Q er\nmengden. Dersom prisen i markedet øker fra 2000 til 2050, hvor mange flere enheter vil bedriften\nprodusere?",
     "answers": [3],
-    "exam": ".*",
     "options": ["200", "300", "400", "500"]
   },
   {
     "question": "Et monopol har marginalkostnader gitt ved MC = 0,2Q + 100 der Q er mengden. De faste\nkostnadene er på 100 000. Etterspørselen kan skrives som P = 1100 - 0,9Q der Q er mengden og P\ner prisen. Hva blir profitten til monopolet per periode?",
     "answers": [1],
-    "exam": ".*",
     "options": ["50 000", "150 000", "200 000", "250 000"]
   },
   {
     "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved\nP = 200 - 2Q der P er prisen og Q er mengden. Begge bedriftene har marginalkostnader på 20. Hva\nblir prisen i markedet ved likevekt?",
     "answers": [0],
-    "exam": ".*",
     "options": ["80", "90", "100", "110"]
   },
   {
     "question": "En bedrift har egenkapital på 100 og egenkapitalrentabilitet på 10 % før skatt. En annen bedrift er helt\nlik, bortsett fra at den har egenkapital på 50 og gjeld på 50 som den betaler 5 % rente på. Hva blir\ndenne bedriftens egenkapitalrentabilitet før skatt?",
     "answers": [2],
-    "exam": ".*",
     "options": ["5 %", "10 %", "15 %", "20 %"]
   },
   {
     "question": "En bedrift har ikke varelager. Omløpsmidlene består kun av kontanter. Og kortsiktig gjeld er bare\nleverandørgjeld. Hva kan vi da si om relasjonen mellom likviditetsgrad 1 (current ratio) og\nlikviditetsgrad 2 (acid test ratio)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ingenting. Vi må ha mer informasjon for å kunne si noe.",
       "Likviditetsgrad 1 er større enn likviditetsgrad 2.",
@@ -192,19 +172,16 @@
   {
     "question": "Et investeringsprosjekt innebærer en investering nå på 200 000 000. Om ett år er forventet positiv\nkontantstrøm 0, om to år er forventet positiv kontantstrøm på 150 000 000 og, til slutt, om tre år\nforventes en positiv kontantstrøm på 100 000 000. Dersom avkastningskravet er 8 %, hva blir\nforventet nettonåverdi for prosjektet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0", "7 984 047", "24 622 771", "50 000 000"]
   },
   {
     "question": "I forbindelse med et investeringsprosjekt der det er stor usikkerhet om framtidige kontantstrømmer,\nregner en bedrift med at to år etter investeringstidspunktet vil det være en tredjedel sannsynlighet for\nhver av følgende: En negativ kontantstrøm på 1 million, en positiv kontantstrøm på 1 million og en\npositiv kontantstrøm på 2 millioner. Hva er forventet nåverdi av kontantstrømmen den nevnte\nperioden når avkastningskravet er 10 % per år?",
     "answers": [0],
-    "exam": ".*",
     "options": ["550 964", "606 060", "666 667", "2 000 000"]
   },
   {
     "question": "Hva skal diskonteringsrenten som brukes ved nettonåverdiberegninger knyttet til mulige\ninvesteringsprosjekter i bedrifter prinsipielt sett reflektere?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Den forventede avkastningen i aksjemarkedet.",
       "Renten på statsobligasjoner.",
@@ -215,7 +192,6 @@
   {
     "question": "En risikoavers investor vurderer å kjøpe andeler i ett av tre mulige aksjefond som vi kaller A, B og C.\nDet er ikke aktuelt å investere i mer enn ett av fondene, men investoren har mulighet til å også ha\nbankinnskudd eller låne penger til samme, risikofrie rente på 1 %. Aksjefond A har forventet\navkastning på 5 % og standardavvik på 12 %. Aksjefond B har forventet avkastning på 7 % og\nstandardavvik på 15 %. Aksjefond C har forventet avkastning på 9 % og standardavvik på 24 %.\nHvilket fond vil investoren velge?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Aksjefond A.",
       "Aksjefond B.",
@@ -226,7 +202,6 @@
   {
     "question": "I forbindelse med diversifisering er det vanlig å skille mellom to former for risiko. Hvilken\nkombinasjon av begreper fanger opp begge?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Systematisk risiko og markedsrisiko.",
       "Diversifiserbar risiko og unik risiko.",
@@ -237,31 +212,26 @@
   {
     "question": "Beta til aksjen til et selskap er 1,5. Forventet avkastning i markedet er 9 % og risikofri rente er 3 %.\nAnta at Capital Asset Pricing Model, dvs. kapitalverdimodellen, er korrekt. Hva er da forventet\navkastning til aksjen?",
     "answers": [2],
-    "exam": ".*",
     "options": ["6 %", "9 %", "12 %", "15 %"]
   },
   {
     "question": "Beta for aktiva for et selskap er 1,00. Beta for selskapets gjeld er 0,25. Gjeldsandelen er 40 %. Hva\nblir da beta til selskapets egenkapital?",
     "answers": [1],
-    "exam": ".*",
     "options": ["1,00", "1,50", "1,75", "2,00"]
   },
   {
     "question": "Avkastningen til et selskaps egenkapital er 8 %. Avkastningen til selskapets gjeld er 4 %.\nGjeldsandelen er 40 %. Selskapsskattesatsen er 25 %. Hva blir avkastningskravet til totalkapitalen\netter skatt, dvs. WACC?",
     "answers": [2],
-    "exam": ".*",
     "options": ["4,0 %", "5,5 %", "6,0 %", "8,0 %"]
   },
   {
     "question": "Et verdipapir gir en positiv kontantstrøm på 100 om ett år og så hvert år i all framtid. Dersom\navkastningskravet er 5 % per år, hva blir verdien av verdipapiret nå?",
     "answers": [2],
-    "exam": ".*",
     "options": ["500", "1 000", "2 000", "5 000"]
   },
   {
     "question": "Du har følgende estimater knyttet til et mulig investeringsprosjekt en bestemt periode i framtida:\nKontantstrøm fra drift av prosjektet er 8 000 000, rentekostnader på investeringsbeløpet er 600 000\nog selskapsskattesatsen er 27 %. Det er ingen avskrivninger eller nedskrivninger. Du skal bruke\navkastningskravet til totalkapitalen etter skatt, dvs. WACC som diskonteringsrente. Hvilken\nkontantstrøm skal du da diskontere den aktuelle perioden?",
     "answers": [0],
-    "exam": ".*",
     "options": ["5 840 000", "6 002 000", "7 400 000", "8 000 000"]
   }
 ]

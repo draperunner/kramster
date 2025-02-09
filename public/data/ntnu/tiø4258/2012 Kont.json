@@ -2,7 +2,6 @@
   {
     "question": "Det er seks dimensjoner av innovasjon: Verdi for kunden, verdikjeder, målgruppe i markedet, nye produkter og tjenester, prosessteknologier, støttende teknologier. Hvilken av følgende påstander om inkrementelle, semi-radikale og radikale innovasjoner er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En innovasjon er semi-radikal når det er betydelig endringer i en av de tre teknologiske innovasjonsdimensjonene og betydelig endringer i en av de tre forretningsmodellinnovasjonene",
       "En innovasjon er inkrementell når det er mindre endringer i en av de tre teknologiske innovasjonsdimensjonene og mindre endringer i en av de tre forretningsmodellinnovasjonene",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Bankene vil som regel engasjere seg finansielt i de tidlige fasene ved utviklingen av en teknologibedrift.",
       "I en fase med ordinær drift vil bankene som regel være den mest sentrale eksterne finansieringskilden.",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken av følgende påstander om venturekapitalfond er korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Venturekapitalfond er som hovedregel ikke spesialisert i forhold til fase eller bransje. Dette for å diversifisere risikoprofilen til fondet.",
       "Dette er offentlige fond som skal støtte opp om etablering av bedrifter.",
@@ -35,7 +32,6 @@
   {
     "question": "Hva er normalt rekkefølgen for hvordan disse aktørene engasjerer seg finansielt i en teknologibedrift med betydelig vekstpotensial?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Entreprenør, private banker, såkornfond, venturekapitalfond, Business Angels.",
       "Entreprenør, Business Angels, såkornfond, venturekapitalfond, private banker.",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken av følgende påstander om såkalte business angels er korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Er som hovedregel finansielle eiere som i liten grad blir aktivt involvert i utviklingen av bedriften.",
       "Er ofte aktive eiere som tilfører bedriften erfaring, kompetanse og nettverk i tillegg til det finansielle engasjementet.",
@@ -57,7 +52,6 @@
   {
     "question": "I forhold til utviklingen av en ny vekstbedrift omtales det ofte som viktig at bedriften utvikler kapabiliteter. Hva menes med dette?",
     "answers": [1],
-    "exam": "2012 Kont",
     "options": [
       "At bedriften er meget kompetente i forhold til å utvikle nye produkter og tjenester.",
       "Med dette menes at bedriften klarer å anskaffe, utvikle og kombinere ressurser på en slik måte at den utvikler konkurransefortrinn.",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken av disse organisasjonsstrukturene er ikke en divisjonsstruktur?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Matrisestruktur",
       "Markedsstruktur",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken av de følgende påstandene om en produktdivisjonsstruktur er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Består av komplette divisjoner med støttefunksjoner",
       "Sentraliserte støttefunksjoner betjener flere ulike produktdivisjoner",
@@ -90,7 +82,6 @@
   {
     "question": "De fleste tilnærminger til jobbdesign fokuserer til en viss grad på de ansattes indre motivasjonsfaktorer. Hvilken av de følgende tilnærmingene er overhodet ikke opptatt av de ansattes indre motivasjon?",
     "answers": [2],
-    "exam": "2012 Kont",
     "options": [
       "Jobberikelse",
       "Jobbklassifisering",
@@ -101,7 +92,6 @@
   {
     "question": "I forventningsteori står begrepet valens sentralt. Hvilken av følgende påstander om hvordan en ansatt vil forholde seg hvis han eller hennes valens er negativ, er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Den ansatte vil foretrekke å få konsekvensen av resultatet (outcome) fremfor å ikke få det",
       "Den ansatte foretrekker å ikke få konsekvensen av resultatet (outcome)",
@@ -112,13 +102,11 @@
   {
     "question": "En bedrift som produserer 1 000 enheter pr periode har faste kostnader på 2 000 000 og variable kostnader på 3 000 000. Hva er da gjennomsnittskostnaden?",
     "answers": [2],
-    "exam": ".*",
     "options": ["2 000", "3 000", "5 000", "10 000"]
   },
   {
     "question": "For den mengden en bedrift produserer er marginalkostnadene økende i mengden, og er lik gjennomsnittskostnadene. Hva kan vi da si om gjennomsnittskostnadene?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ingenting.",
       "Den deriverte av gjennomsnittskostnadene er større enn null.",
@@ -129,13 +117,11 @@
   {
     "question": "En bedrift har marginalinntekt lik null (og selger produktet sitt til en pris større enn null). Hva er da (absoluttverdien av) etterspørselselastisiteten bedriften ser?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0", "0,5", "1", "2"]
   },
   {
     "question": "Etterspørselen i et marked er lineær og kan skrives som Q = a - bP, der Q er mengden, P er prisen og a og b er strengt positive konstanter. Hva skjer med (absoluttverdien til) etterspørselselastisiteten når mengden øker?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ingenting, den er konstant.",
       "Den synker mot 1 når mengden går mot punktet der P er null.",
@@ -146,19 +132,16 @@
   {
     "question": "Bedriftene i en industri opptrer i tråd med modellen for frikonkurranse. Marginal­kostnadene, MC, til bedriftene kan uttrykkes som MC = 1 000 + 0,3Q. Q er mengden til bedriftene totalt. Etterspørselen i markedet kan skrives som P = 11 000 - 0,1Q. Hva blir prisen i dette markedet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["7 500", "8 500", "10 000", "11 000"]
   },
   {
     "question": "Et monopol har marginalkostnader, MC, som kan skrives som MC = 1 000 - 0,1Q. Q er mengden. Etterspørselen i markedet kan skrives som P = 11 000 - 0,15Q. Hvilken mengde, Q, vil monopolet tilby?",
     "answers": [1],
-    "exam": ".*",
     "options": ["25 000", "50 000", "100 000", "200 000"]
   },
   {
     "question": "I et duopolmarked er etterspørselen gitt ved <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math>, der <math><mi>P</mi></math> er prisen, <math><mi>Q</mi></math> er total mengde i markedet, og <math><mi>a</mi></math> og <math><mi>b</mi></math> er strengt positive konstanter. Anta at de to bedriftene har konstante, positive, marginalkostnader på <math><mi>c</mi></math> og opptrer i tråd med Cournot-modellen. Hva blir prisen i likevekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mrow><mi>a</mi><mo>+</mo><mn>2</mn><mi>c</mi></mrow><mn>3</mn></mfrac></math>",
       "<math><mfrac><mrow><mi>a</mi><mo>-</mo><mi>c</mi></mrow><mrow><mn>3</mn><mi>b</mi></mrow></mfrac></math>",
@@ -169,7 +152,6 @@
   {
     "question": "Anta at etterspørselen i et marked er lineær. Dødvektstapet (dead weight loss) vil være avhengig av hvor mange bedrifter i som konkurrerer i markedet. Vi tenker oss at det kan være et antall bedrifter, som alle har nøyaktig de samme kostnadene i dette markedet. Hva kan vi si om størrelsen til dødvektstapet ved monopol, duopol eller frikonkurranse?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Dødvektstapet er størst ved monopol, neststørst ved duopol og minst ved frikonkurranse.",
       "Dødvektstapet er størst ved duopol, neststørst ved monopol og minst ved frikonkurranse.",
@@ -180,7 +162,6 @@
   {
     "question": "Utvalgte tall fra balansen til to selskap er som i følgende tabell:<br />\n<img src=\"images/0u1y5h.webp\"/>\n\nHva er likviditetsgrad 1 (Current Ratio) for de to selskapene?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "1,0 for begge selskap",
       "2,0 for begge selskap",
@@ -191,7 +172,6 @@
   {
     "question": "Hva blir likviditetsgrad 2 (Acid Test Ratio) for selskapene i følgende tabell? <br />\n<img src=\"images/zkjzj.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "2,0 for begge selskap.",
       "1,0 for selskap A og 2,0 for selskap B.",
@@ -202,7 +182,6 @@
   {
     "question": "Anta at kapitalverdimodellen, CAPM, gjelder. På hvilken måte varierer alternativ­kostnaden til kapital investert i ulike prosjekter med risikoen målt ved standard­avviket?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Jo større standardavvik prosjektets avkastning har, desto høyere alternativkostnad.",
       "Jo større standardavvik prosjektets avkastning har, desto lavere alternativkostnad.",
@@ -213,13 +192,11 @@
   {
     "question": "En investering innebærer en forventet utbetaling på 1 000 000 om to år. Risikojustert avkastningskrav er 12 % pr år. Hva blir nåverdien av utbetalingen?",
     "answers": [1],
-    "exam": ".*",
     "options": ["711 780", "797 194", "892 857", "1 000 000"]
   },
   {
     "question": "En risikoavers investor, en risikosøkende investor og en risikonøytral investor får tilbud om å betale for å delta i to ulike terningspill. I det ene spillet, énterningspillet, kastes én terning og spilleren vinner like mange tusen kroner som det antall øyne terningen viser. I det andre spillet, toterningspillet, kastes to terninger og spilleren vinner like mange tusen kroner som halvparten av det antall øyne de to terningene viser til sammen. Forventet utbetaling, når man først har betalt for å delta, er 3 500 for begge spillene. Hva kan vi si om de ulike investorenes villighet til å betale for å delta i de to spillene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Den risikonøytrale investoren er villig til å betale like mye for begge spillene, den risikoaverse vil betale mer for toterningspillet enn for énterningspillet og den risikosøkende vil betale mer for énterningspillet enn for toterningspillet.",
       "Den risikonøytrale investoren er villig til å betale like mye for begge spillene, den risikoaverse vil betale mindre for toterningspillet enn for énterningspillet og den risikosøkende vil betale mindre for énterningspillet enn for toterningspillet.",
@@ -230,7 +207,6 @@
   {
     "question": "En investor vil sette sammen en portefølje av bare to aksjer som vi kan kalle 1 og 2. Hver aksje vil utgjøre halvparten av porteføljen i verdi. Standard­avvikene er på 30 % og 50 % for henholdsvis aksje 1 og 2. På grunn av diversifi­serings­effekten, blir standardavviket til porteføljen bare 25 %. Aksje 1 har beta på 1,0 og aksje 2 har beta lik 2,0. Hva kan vi si om hva beta for porteføljen blir?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Porteføljens beta blir mindre enn 1,0.",
       "Porteføljens beta blir mellom 1,0 og 1,5.",
@@ -241,7 +217,6 @@
   {
     "question": "Dersom mange verdipapirer kombineres i en portefølje blir mye risiko borte og det meste av den risikoen vi står igjen med kan knyttes til kovariasjonen mellom verdipapirene i porteføljen. Hva kalles den delen av risikoen som ikke reduseres ved dannelse av porteføljer?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Unik risiko.",
       "Diversifiserbar risiko.",
@@ -252,25 +227,21 @@
   {
     "question": "Anta at forventet markedsavkastning er 8,0 % og risikofri rente er 3,0 %. En aksje har en beta på 1,5. Hva blir da forventet avkastning for aksjen i følge CAPM?",
     "answers": [2],
-    "exam": ".*",
     "options": ["3,0 %", "8,0 %", "10,5 %", "15,0 %"]
   },
   {
     "question": "Et prosjekt innebærer en investering på 2 000 000 nå og så ingen kontantstrøm før etter tre år. Etter tre år kommer en positiv kontantstrøm på 100 000, etter fire år kommer en kontantstrøm på 105 000, det vil si 5 % mer enn etter tre år, og slik fortsetter kontantstrømmen å vokse med 5 % for hvert år for all overskuelig framtid. Avkastningskravet er 9 %. Hva bli forventet nettonåverdi for prosjektet?",
     "answers": [1],
-    "exam": "2012 Kont",
     "options": ["- 69 541", "104 200", "293 578", "500 000"]
   },
   {
     "question": "Aksjen til et selskap har en beta på 1,0. Selskapets gjeld har beta på 0,25. Risikofri rente er 3 % og forventet markedsavkastning er 7 %. Skattesatsen er 25 %. Gjelden til selskapet tilsvarer én fjerdedel av verdien til aktiva. Hva blir selskapets WACC?",
     "answers": [1],
-    "exam": ".*",
     "options": ["5,00 %", "6,00 %", "7,00 %", "9,00 %"]
   },
   {
     "question": "Anta at et selskap har gjelden <math><mi>D</mi></math> og kommer til å ha den for all framtid. Anta også at selskapet betaler renten <math><mi>r</mi></math> på denne gjelden for all framtid og at selskapsskattesatsen vil være <math><mi>T</mi></math> for all framtid. Gitt at verdien av skattefordelen av gjeld skal diskonteres med samme rente som gjeldsrenten, det vil si <math><mi>r</mi></math>, hva blir nåverdien av skattefordelen av gjeld?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mi>D</mi><mo>&#x22C5;</mo><mi>T</mi></math>",
       "<math><mi>D</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>T</mi><mo>)</mo></math>",
@@ -281,7 +252,6 @@
   {
     "question": "Modigliani og Miller viste at verdien av selskap burde være uavhengig av giring gitt perfekte kapitalmarkeder, ingen (vridende) skatt osv. En teori som bygger på mer realistiske forutsetninger tilsier at det finnes en optimal giring. Det vil si et forhold mellom gjeld og egenkapital som maksimerer verdien av selskapet. Hva vil i følge denne teorien skje dersom myndighetene reduserer selskaps­skatte­satsen?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Bedriftene vil øke gjeldsandelen for å beholde samme skattefordel av gjeld som før.",
       "Bedriftene vil ikke endre giringen, men vil redusere sin investeringsaktivitet.",

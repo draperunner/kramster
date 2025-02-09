@@ -2,7 +2,6 @@
   {
     "question": "Which of these architectural patterns should be used for this scenario? <img src=\"images/9ubka7.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Map-Reduce Pattern",
       "Peer-to-Peer Pattern",
@@ -13,7 +12,6 @@
   {
     "question": "Which of these architectural patterns should be used for this scenario? <img src=\"images/q7lag.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Pipe-and-Filter Pattern",
       "Broker Pattern",
@@ -24,7 +22,6 @@
   {
     "question": "Which of these architectural patterns should be used for this scenario? <img src=\"images/rgmrc.webp\"/>",
     "answers": [2],
-    "exam": "2015 Kahoot 18: Patterns and Tactics",
     "options": [
       "Broker Pattern",
       "Client-Server Pattern",

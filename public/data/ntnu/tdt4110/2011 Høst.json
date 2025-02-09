@@ -2,7 +2,6 @@
   {
     "question": "Hva er et hovedkort (motherboard)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Et kretskort i en datamaskin der enheter som CPU, RAM, og andre enheter kobles sammen.",
       "En minnekrets som tar vare på systemets innstillinger.",
@@ -13,7 +12,6 @@
   {
     "question": "Hva er en pakke (packet) i nettverkssammenheng?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En datablokk av fast lengde som sendes gjennom nettverket, fra avsender til mottaker.",
       "En datamelding som har ankommet og som står i kø for å bli levert til mottakermaskinen.",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken av disse lagringsenhetene er ikke en sekundærlagrings-enhet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En harddisk.",
       "En datamaskins hurtigbuffer (cache).",
@@ -35,7 +32,6 @@
   {
     "question": "Hva er en protokoll i nettverkssammenheng?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Et sett kommunikasjonsregler for utveksling av data.",
       "En avtale mellom nettverkseier og en bedrift som bruker nettet.",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilket mål brukes vi vanligvis på overføringskapasitet i nettverk?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Bits pr sekund (bps).",
       "Gigabyte.",
@@ -57,7 +52,6 @@
   {
     "question": "Hva definerer et klient/tjener (\"client/server\") forhold?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Klienter tilbyr data og tjenester til tjenere.",
       "Klienter og tjenere tilbyr data og tjenester til hverandre.",
@@ -68,7 +62,6 @@
   {
     "question": "Hva definerer et ”peer-to-peer” nettverk?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En er sjef, de andre er slaver.",
       "En er slave, de andre er sjefer.",
@@ -79,7 +72,6 @@
   {
     "question": "Hvordan kan en GPS bestemme en posisjon?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En GPS beregner sin posisjon ved å lokalisere nærmeste mobile basestasjon.",
       "En GPS beregner sin posisjon ved å bruke lokasjonen til flere satellitter.",
@@ -90,7 +82,6 @@
   {
     "question": "Hva er Wi-Fi?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Et sett av standarder for trådløs dataoverføring.",
       "En kvalitetsbetegnelse for trådløse nett.",
@@ -101,7 +92,6 @@
   {
     "question": "En device driver er:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "en spesialdatamaskin for kjøretøy.",
       "spesialisert programvare for input/output, slik at utstyr kan kommunisere med resten av systemet.",
@@ -112,7 +102,6 @@
   {
     "question": "Et maskinspråk (machine language) er:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "et programmeringsspråk som oversettes av en kompilator (oversetter) til kjørbar kode.",
       "et binær-type programmeringsspråk bygd inn i prosessoren som datamaskinen kan kjøre direkte.",
@@ -123,7 +112,6 @@
   {
     "question": "Ordstørrelse (word size) for en prosessor er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "antall ord i en tekst som kan sammenlignes i et søk.",
       "antall bokstaver som kan behandles i en tekststreng.",
@@ -134,7 +122,6 @@
   {
     "question": "Ytelse for superdatamaskiner måles i:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "FLOPS.",
       "Gigabytes.",
@@ -145,7 +132,6 @@
   {
     "question": "Systemklokka i en datamaskin:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "fordeler tiden som brukes på ulike programmer.",
       "bestemmer hvor raskt operasjoner i en mikroprosessor utføres.",
@@ -156,7 +142,6 @@
   {
     "question": "Hovedformålet med forstudiefasen (fase 1) i utvikling av informasjonssystemer er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Dokumentere krav til systemet.",
       "Programmere systemet.",
@@ -167,7 +152,6 @@
   {
     "question": "Hva vil det si å vedlikeholde et informasjonssystem?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Rette opp eksisterende feil i systemet.",
       "Utføre endringer i systemet basert på nye betingelser.",
@@ -178,7 +162,6 @@
   {
     "question": "Hva gjør en enhetstest?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Tester at ulike deler av systemet fungerer sammen på korrekt måte.",
       "Tester at selve datamaskinen (maskinvaren) fungerer.",
@@ -189,7 +172,6 @@
   {
     "question": "Hva er en algoritme?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Krav som stilles til et dataprogram.",
       "En test for å finne feil i et dataprogram.",
@@ -200,7 +182,6 @@
   {
     "question": "Hva er et flytskjema?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Grafisk representasjon av en algoritme.",
       "Et skjema for å fylle inn informasjon på en webside.",
@@ -211,7 +192,6 @@
   {
     "question": "Hva står ACID for innen databaser?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Appropriate, Cynical, Isolation, Development.",
       "Appropriate, Collaborative, Irrelevant, Driver.",

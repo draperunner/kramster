@@ -2,7 +2,6 @@
   {
     "question": "Maksimal hastighetsøkning for et samlebånd med <math><mi>k</mi></math> steg er:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mi>k</mi></math>",
       "<math><msup><mi>k</mi><mn>2</mn></msup></math>",
@@ -14,7 +13,6 @@
   {
     "question": "For at samlebåndsprinsippet (eng: pipelining) skal kunne utnyttes best mulig",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "bør flest mulig av trinnene i samlebåndet gjøre nyttig arbeid til enhver tid.",
       "bør positiv flanke-triggede D-vipper benyttes.",
@@ -24,7 +22,6 @@
   {
     "question": "Hva er den viktigste årsaken til at forgreninger er et problem for samlebånd?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Adressen til neste instruksjon er ikke klar før etter at forgreningsinstruksjonen er utført.",
       "Det er ikke sikkert at instruksjonene ligger etter hverandre i hovedlageret.",
@@ -36,7 +33,6 @@
   {
     "question": "Under er det gitt fem argumenter for å ikke ha mange steg i et samlebånd. Hvilket av disse er ikke riktig?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Ytelsestap pga. gal forgreiningsprediksjon (branch penalty)",
       "Hvert steg introduserer forsinkelse pga.  bufferforsinkelse (latch delay)",
@@ -48,7 +44,6 @@
   {
     "question": "Hva er <em>ikke</em> riktig om samlebånd?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Samlebånd utnytter at man kan benytte flere sentrale enheter i prosessoren i parallell og dermed kunne ha flere instruksjoner under utførelse samtidig.",
       "Prosessorer med samlebånd benyttes i så godt som alle PC-er.",
@@ -59,7 +54,6 @@
   {
     "question": "Et av de største problemene med samlebåndsprinsippet (eng. pipelining) for konstruksjon av prosessorer er",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "generelt tregere minneaksess.",
       "mulighet for at dataavhengigheter kan oppstå.",
@@ -69,7 +63,6 @@
   {
     "question": "Hva er <em>feil</em> når det gjelder pipelining(samlebånd)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En av de størte utfordringene ved bruk av pipelining er å forutse hopp instruksjoner",
       "Ved bruk av pipelining vil hver instrukjson ta flere klokkesykler",

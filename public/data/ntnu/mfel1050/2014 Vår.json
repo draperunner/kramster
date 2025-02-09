@@ -2,7 +2,6 @@
   {
     "question": "Hvorfor gir en-beinstrening bedre treningsresponser enn bruk av begge bein for KOLS-pasienter?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "De blir ikke like andpusten",
       "De er begrenset av lungesykdommen",
@@ -13,7 +12,6 @@
   {
     "question": "Hvorfor gjør du en bedre løpsutholdenhetprestasjon etter maksimal styrketrening?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Maksimalt oksygenopptak øker",
       "Du får lengre løpssteg",
@@ -24,7 +22,6 @@
   {
     "question": "Hva skjer med maksimalt oksygenopptak og hjertets slagvolum på tredemølle når røykebeinspasienten (PAD-pasienten) trenes opp med plantarfleksjonssykling?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Maksimalt oksygenopptak øker men slagvolumet endres ikke",
       "Slagvolumet og maksimalt oksygenopptak øker",
@@ -35,7 +32,6 @@
   {
     "question": "Nevrale tilpasninger etter maksimal styrketrening inkluderer",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Økt fyringsfrekvens til muskelfibre",
       "Økt reflekspotensiale til muskelfibre",
@@ -46,7 +42,6 @@
   {
     "question": "Hypertrofitrening trenes på følgende måte:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "4 repetisjoner 4 serier med eksplosiv utførelse",
       "4 repetisjoner 4 serier med langsom utførelse",
@@ -57,19 +52,16 @@
   {
     "question": "VO2max tilsvarer i % HRmax:",
     "answers": [3],
-    "exam": ".*",
     "options": ["Ca. 80%", "Ca. 85%", "Ca. 90%", "Ca. 95%"]
   },
   {
     "question": "Langkjøring ga følgende økning i VO2max hos friske mannlige studenter som trente i 2 måneder:",
     "answers": [0],
-    "exam": ".*",
     "options": ["0%", "5%", "10%", "15%"]
   },
   {
     "question": "Hvorfor forbedres arbeidsøkonomien ved trening av VO2max når fotballspillere løper?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "VO2max forbedrer arbeidsøkonomi",
       "Laktatterskel forbedrer arbeidsøkonomi",
@@ -80,7 +72,6 @@
   {
     "question": "Effektiv maksimal styrketrening bedrer:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Anaerob terskel i % av VO2max",
       "Arbeidsøkonomi",
@@ -91,7 +82,6 @@
   {
     "question": "Hva skjer med det meste av melkesyren etter hardt arbeid?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Den svettes ut gjennom huden",
       "Den bygges opp til glukose i leveren",
@@ -102,13 +92,11 @@
   {
     "question": "Lungene er en stor begrensning i oksygentransporten for:",
     "answers": [2],
-    "exam": ".*",
     "options": ["Eldre", "Fotballspillere", "KOLS-pasienter", "Alle 3 ovenfor"]
   },
   {
     "question": "Ved bedret maksimalt oksygenopptak vil følgende tilpasninger finne sted i hvile:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Slagvolum går ned, hjertefrekvens går ned",
       "Slagvolum går ned, hjertefrekvens går opp",
@@ -119,7 +107,6 @@
   {
     "question": "Hvorfor øker utholdenheten mer ved høyere intensitet på den aerobe treningen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Større blodflow",
       "Større blodtrykk",
@@ -130,7 +117,6 @@
   {
     "question": "Høyere intensitet på treningen over laktatterskel (melkesyreterskel) gir proporsjonalt større bidrag av:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Aerob og anaerob energiproduksjon",
       "Fettoksidering",
@@ -141,7 +127,6 @@
   {
     "question": "Hvorfor koster det mer energi for en pasient å gå med samme hastighet som en student?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Pasienten har lavere oksygenopptak",
       "Pasienten har lavere styrke",
@@ -152,7 +137,6 @@
   {
     "question": "Trening for nervesystemstilpasninger gjennomføres annerledes enn trening for hypertrofi, hvordan?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Samme hastighet konsentrisk og eksentrisk",
       "Langsomme bevegelser",
@@ -163,7 +147,6 @@
   {
     "question": "FEV1 er:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Mengden luft du puster ut pr. sekund ved ventilasjon i hvile",
       "Mengden oksygen du kan ta opp pr. sekund ved VO2max",
@@ -174,7 +157,6 @@
   {
     "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Bli ca 5% mindre",
       "Forbli uendret",
@@ -185,7 +167,6 @@
   {
     "question": "Hvordan bør eldre trene utholdenhet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Eldre kan ikke trene VO2max og bør derfor trene styrketrening for å bedre\narbeidsøkonomien",
       "Eldre bør trene med lavere intensitet, og heller øke varigheten av treningen.",
@@ -196,7 +177,6 @@
   {
     "question": "Mange utholdenhetsutøvere oppholder seg i høyden fordi det har en positiv innvirkning på:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Hjertets slagvolum",
       "Blodets evne til å frakte oksygen",
@@ -207,13 +187,11 @@
   {
     "question": "Slagvolumet til en ung mann med VO2max på 50-60ml⋅kg-1⋅min-1 er ca:",
     "answers": [1],
-    "exam": ".*",
     "options": ["30-50ml", "130-150ml", "230-250ml", "330-350ml"]
   },
   {
     "question": "Hva er riktig om trening og prestasjon i høyden?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Personer med lav VO2max får redusert sin kapasitet ved lavere høyder enn personer\nmed høy VO2max",
       "Personer med høy VO2max får redusert sin kapasitet ved lavere høyder enn personer\nmed lav VO2max",
@@ -224,7 +202,6 @@
   {
     "question": "Hvordan bør en legge opp et høydeopphold for å få best mulig effekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bo i lavlandet (1250m) og trene i moderat høyde (2500m)",
       "Bo og trene i moderat høyde (2500m)",
@@ -235,7 +212,6 @@
   {
     "question": "I en studie med 6213 menn, fant man at forholdet mellom VO2max og sjanse for å dø av alle årsaker var:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "De som har en høy VO2max har mindre sjanse for å dø enn de som har en lav VO2max",
       "En forbedring i VO2max på 3,5ml⋅kg-1⋅min-1 (1MET) gir i gjennomsnitt 12% større sjanse\nfor å ikke dø",
@@ -246,7 +222,6 @@
   {
     "question": "Hvordan rekrutters muskelfibrene i en muskel ved en maksimal hurtig kontraksjon?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Alle typer muskelfibre rekrutteres på likt under en maksimal hurtig kontraksjon",
       "Store og raske muskelfibrene blir alltid rekruttert først når man gjør en maksimal\nhurtig kontraksjon, små og langsomme muskelfibrene blir rekruttert sist",
@@ -257,7 +232,6 @@
   {
     "question": "I studiet til Helgerud og medarbeidere fra 2010 ble en gruppe hjertepasienter trent med intervalltrening på 85-95% av maksimal hjertefrekvens i 8 uker. Maksimalt oksygenopptak økte med i gjennomsnitt 17%. Hva var hovedårsaken til denne økningen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "23% økning i hjertets slagvolum",
       "14% redusert hvilepuls",
@@ -268,7 +242,6 @@
   {
     "question": "I studiet til Helgerud og medarbeidere fra 2007 ble effekten av forskjellige treningsintensiteter studert. Hvilken utholdenhetsparameter ble forbedret i alle gruppene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Løpsøkonomi",
       "Melkesyreterskel i % av maksimalt oksygenopptak",
@@ -279,7 +252,6 @@
   {
     "question": "Maximal aerobic speed (MAS) er avhengig av maksimalt oksygenopptak, men også avhengig av",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Maksimal hjertefrekvens",
       "Løpsøkonomi",
@@ -290,7 +262,6 @@
   {
     "question": "Hoff og Helgerud viser i sin review-artikkel fra 2004 at en dribleløype i fotball kan gi samme framgang i maksimalt oksygenopptak som ved løp hvis treningsintensiteten er den samme. Hvordan ble dette dokumentert i artikkelen?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ved å sikre at begge aktivitetene fikk spillerne inn i området 85-95% av maksimal puls",
       "Ved å trene en gruppe spillere først ved løp i 8 uker, for deretter å sammenligne med en annen gruppe som trente i dribleløypa",
@@ -301,7 +272,6 @@
   {
     "question": "Hva var datagrunnlaget for at Myers og medarbeidere (2002) konkluderte med at; “Exercise capacity is a more powerful predictor of mortality among men than other established risk factors for cardiovascular disease”.",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Direkte måling av maksimalt oksygenopptak",
       "Måling av maksimal styrke i strekkapparatet i beina",
@@ -312,7 +282,6 @@
   {
     "question": "Hvorfor koster det mindre energi å løpe med samme hastighet etter at du er blitt sterkere?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "fordi du får et større hjerte",
       "fordi størrelsen på arteriene øker",
@@ -323,13 +292,11 @@
   {
     "question": "Hvor stor styrkeøkning kan du vente pr treningsøkt hvis du er konkurranseaktiv løper og trener 4x4 reps maksimal styrketrening?",
     "answers": [0],
-    "exam": ".*",
     "options": ["ca. 1-2%", "ca. 0,5%", "ca. 5%", "ca 10%"]
   },
   {
     "question": "En liten person som får oppgitt maksimalt oksygenopptak i mL/kg x min blir overvurdert sammenlignet med en stor person. Hvordan blir denne sammenligningen for arbeidsøkonomi?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "en liten person blir overvurdert på arbeidsøkonomi",
       "en liten person blir undervurdert på arbeidsøkonomi",
@@ -340,7 +307,6 @@
   {
     "question": "KOLS-pasienter som trener maksimal styrketrening for beina forbedrer lungefunksjonen. Hvorfor?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Maksimal styrketrening for beina reduserer obstrukjon i luftveiene",
       "Maksimal styrketrening for beina gir bedre arbeidsøkonomi",
@@ -351,7 +317,6 @@
   {
     "question": "Fotballspillere som trener maksimal styrketrening i beina blir hurtigere over 10 og 20m. Hvorfor?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "de bedrer løpsteknikken",
       "større kraft gir bedre akselerasjon",
@@ -362,7 +327,6 @@
   {
     "question": "Følgende signifikante endringer ble funnet etter maksimal styrketrening hos distanseløpere",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "CR↓, tMAS↑, RFD↓",
       "CR↑, tMAS↓, RFD↑",
@@ -373,7 +337,6 @@
   {
     "question": "Følgende fysiologiske mål er det beste man kjenner til for kardiorespiratorisk kapasitet:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Mitokondriefunksjon",
       "Maksimal hjertefrekvens",
@@ -384,7 +347,6 @@
   {
     "question": "Som følge av styrketrening er det vist at",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Andelen type IIx muskelfibre reduseres",
       "Andelen type IIa muskelfibre reduseres",
@@ -395,7 +357,6 @@
   {
     "question": "Trening på anaerob terskel er vist å ha følgende effekt for moderat aktive studenter:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Bedrer hjertets slagvolum og maksimal hjertefrekvens",
       "Bedrer anaerob terskel, men ikke maksimalt oksygenopptak",
@@ -406,7 +367,6 @@
   {
     "question": "Forbruk av 1 L oksygen tilsvarer ~5kcal. Hvor mange kilokalorier bruker en moderat trent mannlig universitetsstudent på gjennomføringen av en 4x4 intervalløkt",
     "answers": [1],
-    "exam": ".*",
     "options": ["350", "650", "950", "1250"]
   }
 ]

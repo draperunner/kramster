@@ -2,7 +2,6 @@
   {
     "question": "De øvre luftveiene består av?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Nesehulen og svelget",
       "Nesehulen og strupen",
@@ -13,7 +12,6 @@
   {
     "question": "De nedre luftveiene består av?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Luftrøret og lungene",
       "Strupehodet, luftrøret og bronkiene (luftrørsforgreiningene)",
@@ -24,7 +22,6 @@
   {
     "question": "Hva er nesehulens funksjon i forhold til respirasjon?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Har sanseceller som registrerer lukt",
       "Kledd med slimhinner og nesehår",
@@ -35,13 +32,11 @@
   {
     "question": "Hva er det latinske navnet på strupelokket?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Cavum oris", "Lanrynx", "Epiglottis", "Pharynx"]
   },
   {
     "question": "Hva er surfaktant?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Det latinske ordet for flimmerhårene som kler innsiden av respiratorisk epitel",
       "Et stoff som legger seg som en film på innsiden av alveolene og nedsetter overflatespenningen i alveolene",
@@ -52,7 +47,6 @@
   {
     "question": "Hva menes med det anatomiske dødrommet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Volumet som utgjøres av nesehulen og munnhulen",
       "Volumet som utgjøres av luftveiene inkludert respiratoriske bronkioler og alveoler",
@@ -63,7 +57,6 @@
   {
     "question": "Hvordan skjer gassutvekslingen av O2 og CO2 mellom alveolene og lungekapillærene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Ved diffusjon",
       "Ved osmose",
@@ -74,7 +67,6 @@
   {
     "question": "Hvilken anatomisk struktur avgrenser IKKE brystkassen/thorax?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Sternum (brystbeinet/ikke les opp)",
       "Diafragma (mellomgulvet/ikke les opp)",
@@ -85,7 +77,6 @@
   {
     "question": "Hva er normalt ventilasjonsfrekvens i hvile hos en voksen person?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Ca. 70 ganger i minuttet",
       "Ca. 12 ganger i minuttet",
@@ -96,7 +87,6 @@
   {
     "question": "Hva er normalt tidevolum hos voksne i hvile?",
     "answers": [0],
-    "exam": ".*",
     "options": ["500 ml", "1,5 L", "300 ml", "4,2 L"]
   }
 ]

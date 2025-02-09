@@ -2,7 +2,6 @@
   {
     "question": "Hva var Ada Augusta Lovelace kjent for?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Hun var gift med Charles Babbage.",
       "Hun var den første kvinnelige datamaskinkonstruktøren.",
@@ -13,13 +12,11 @@
   {
     "question": "Hvem var Charles Babbage?",
     "answers": [2],
-    "exam": ".*",
     "options": ["En filosof", "En regnemaskin", "En oppfinner", "En egypter"]
   },
   {
     "question": "Hva er et hullkort?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Et regneverktøy", "En del av prosessoren", "En lagringsenhet"]
   }
 ]

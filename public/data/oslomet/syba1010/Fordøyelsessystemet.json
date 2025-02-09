@@ -2,13 +2,11 @@
   {
     "question": "Hvor har bukspytt og galle felles utførselsgang?",
     "answers": [0],
-    "exam": ".*",
     "options": ["I duodenum", "I jejunum", "I ileum", "I coecum (cøkum)"]
   },
   {
     "question": "Enzymet amylase finnes i spytt og bukspytt. Hva spalter amylase?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Proteiner til aminosyrer",
       "Fett til fettsyrer",
@@ -19,7 +17,6 @@
   {
     "question": "Hvilket utsagn om sekresjon i ventrikkelen er riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Parietalcellene skiller ut saltsyre som gir lav pH",
       "Parietalcellene skiller ut mucin",
@@ -30,7 +27,6 @@
   {
     "question": "Hvilket utsagn om fordøyelsesenzymer er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Lipase og amylase produseres i leveren",
       "Pepsin produseres i leveren",
@@ -41,7 +37,6 @@
   {
     "question": "Hvilke deler består tynntarmen av?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Øsofagus og pylorus",
       "Duodenum, jejunum og ileum",
@@ -52,19 +47,16 @@
   {
     "question": "Hvor skjer hovedsakelig absorbsjon av næringsstoffer?",
     "answers": [1],
-    "exam": ".*",
     "options": ["I magesekken", "I tynntarmen", "I tykktarmen", "I endetarmen"]
   },
   {
     "question": "Hvor blir galle tømt ut i mage/tarm-kanalen?",
     "answers": [1],
-    "exam": ".*",
     "options": ["I ventrikkelen", "I duodenum", "I jejunum", "I ileum"]
   },
   {
     "question": "Hvilket utsagn om enzymer som kan spalte næringsstoffer er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "I leveren produseres enzymene lipase og amylase",
       "I leveren produseres enzymene sekretin og pepsin",
@@ -75,7 +67,6 @@
   {
     "question": "Hva spaltes av enzymet amylase?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Lipider", "Karbohydrater", "Proteiner", "Nukleinsyrer"]
   }
 ]

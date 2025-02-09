@@ -2,13 +2,11 @@
   {
     "question": "USB er bedre egnet enn SCSI som grensesnitt mot harddisk",
     "answers": [1],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "Hva er USB?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En RAM-type",
       "En buss-type",
@@ -20,7 +18,6 @@
   {
     "question": "En PCI-buss inneholder 32 datalinjer. Disse kan brukes til å:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "4 forbindelser mellom forskjellige enheter, der en overfører 1 byte samtidig på hver forbindelse",
       "Samtidig overføre 4 byte mellom to enheter",
@@ -32,7 +29,6 @@
   {
     "question": "Hvilket av de følgende utsagnene er riktig når det gjelder asynkron og isokron dataoverføring på en FireWire-buss?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Asynkron overføring bruker pakker med fast lengde.",
       "Isokron overføring bruker kvittering (acknowledge).",
@@ -44,25 +40,21 @@
   {
     "question": "Hvilken type overføring støtter FireWire?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Asynkron", "Isokron", "Begge"]
   },
   {
     "question": "Hvor mange enheter kan man maksimalt koble til en SCSI-1 buss?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2", "8", "32", "128", "1024"]
   },
   {
     "question": "Hvilken av de følgende er <em>ikke</em> en buss?",
     "answers": [2],
-    "exam": ".*",
     "options": ["PCI", "USB", "LPT", "FireWire", "SCSI", "IDE"]
   },
   {
     "question": "Hvilket av alternativene er riktig når det gjelder FireWire?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Det er en parallell buss.",
       "Alle enheter må manuelt konfigureres med en unik ID.",
@@ -79,7 +71,6 @@
   {
     "question": "Hvilken av de følgende påstandene er <em>ikke</em> korrekt?",
     "answers": [2, 3],
-    "exam": ".*",
     "options": [
       "FireWire støtter hot-swapping og automatisk rekonfigurering av enheter",
       "FireWire-enheter kan kobles sammen i en trestruktur",
@@ -96,7 +87,6 @@
   {
     "question": "Hva beskriver det fysiske laget i FireWire standaren?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Definisjon av mediet og karakteristikk for signalene",
       "Beskriver hvordan dataene blir sendt i pakker",
@@ -106,13 +96,11 @@
   {
     "question": "Alle enheter på en SCSI-buss opererer uavhengig av hverandre",
     "answers": [0],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "Hva er <em>ikke</em> korrekt når det gjelder PCI?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "PCI støtter tilkobling av andre busser",
       "PCI kan implementeres på få brikker",
@@ -124,7 +112,6 @@
   {
     "question": "Hva stemmer <em>ikke</em> når det gjelder FireWire?",
     "answers": [2, 1],
-    "exam": ".*",
     "options": [
       "FireWire er seriell",
       "FireWire støtter hot-plugging",
@@ -140,7 +127,6 @@
   {
     "question": "Hvilken av disse egenskapene er <em>ikke</em> karakteristisk for PCI-bussen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Skjult arbitrering",
       "Støtte for isokron dataoverføring",
@@ -152,7 +138,6 @@
   {
     "question": "Hva beskriver transaksjonslaget i FireWire standaren?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Definisjon av mediet og karakteristikk for signalene",
       "Beskriver hvordan dataene blir sendt i pakker",
@@ -162,7 +147,6 @@
   {
     "question": "Hvilken av de følgende påstandene er ikke riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "USB er en seriell buss.",
       "USB støtter plug",
@@ -174,7 +158,6 @@
   {
     "question": "Hva beskriver linklaget i FireWire standarden?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Definisjon av mediet og karakteristikk for signalene",
       "Beskriver hvordan dataene blir sendt i pakker",
@@ -184,13 +167,11 @@
   {
     "question": "Den nyeste bussteknologien for grafikk kalles?",
     "answers": [0],
-    "exam": ".*",
     "options": ["AGP", "RS-232C", "SCSI", "PCI"]
   },
   {
     "question": "Hvilken av disse bussene ville du helst ha koblet et grafikk-kort til dersom du kunne velge?",
     "answers": [2],
-    "exam": ".*",
     "options": ["SCSI", "FireWire", "PCI Express", "PCI", "FibreChannel"]
   }
 ]

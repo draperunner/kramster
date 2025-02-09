@@ -2,7 +2,6 @@
   {
     "question": "Hvilken påstand om en prosessor er ikke riktig?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En generell prosessor trenger bare instruksjoner for aritmetiske operasjoner og betingede hopp",
       "En prosessor er ofte delt inn i en utførende enhet og en kontrollenhet",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av disse påstandene om RISC-maskiner er ikke korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "RISC-maskiner har mange generelle registre",
       "RISC-maskiner har få og enkle instruksjonsformater",
@@ -24,7 +22,6 @@
   {
     "question": "Hva er det viktigste kjennetegnet ved en Von Neumann-arkitektur?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Arkitekturen mangler flyttallsenhet fordi programmereren bør kunne holde styr på komma",
       "Arkitekturen har et hurtigbuffer til data og et til instruksjoner",
@@ -35,7 +32,6 @@
   {
     "question": "Hvilken av disse påstandene er ikke en grunn til at man har begynt å bygge flerkjerneprosessorer\n(eng: Chip Multiprocessor, multi-core architecture)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Det er vanskelig å øke ytelsen ytterligere ved hjelp av teknikker som utnytter ILP",
       "Avanserte enkjerneprosessorer er så kompliserte at det å designe og verifisere dem utgjør\nen betydelig kostnad",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken av disse påstandene om flerkjerneprosessorgenerasjoner (eng: Chip Multiprocessor generations) er ikke korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Første generasjon med flerkjerneprosessorer er det beste valget hvis du trenger rask kommunikasjon mellom prosessorkjernene",
       "Andre generasjon med flerkjerneprosessorer deler hurtigbuffer mellom prosessorkjernene",
@@ -57,7 +52,6 @@
   {
     "question": "Hvilken påstand om et set-assosiativt hurtigbuffer (eng: cache) er riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Et dataelement kan lagres på kun en lokasjon i hurtigbufferet",
       "Et dataelement kan lagres på alle lokasjoner i hurtigbufferet",
@@ -68,7 +62,6 @@
   {
     "question": "Anta en prosessor med ett nivå hurtigbuffer (eng: cache), en hurtigbufferaksesstid på 3\nklokkesykler og en minnelatens på 400 klokkesykler. Hva blir den gjennomsnittlige minneaksesstiden når 95% av\nforespørslene treffer i hurtigbufferet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "3 klokkesykler",
       "23 klokkesykler",
@@ -79,19 +72,16 @@
   {
     "question": "Mystisk Dark stakkmaskinkode:\n<pre>\n    push 4\na:  dup\n    push 2\n    lt\n    jtrue e\n    push 1\n    sub\n    jmp a\ne:\n</pre>\nHusk at:<br />\n• lt: resultat ← nest øverst < øverst<br />\n• sub: resultat ← nest øverst − øverst<br />\n\nDark stakkmaskinprogrammet over kjøres på en tom stakk. Hvilken verdi ligger igjen på\nstakken når programmet har kjørt ferdig?",
     "answers": [0],
-    "exam": ".*",
     "options": ["1", "2", "3", "4"]
   },
   {
     "question": "Mystisk mikrokode:\n<pre>\nMAR = SP - 1; rd\nMAR = SP\nH = MDR; wr\nMDR = TOS\nMAR = SP - 1; wr\nTOS = H; goto Main1\n</pre>\nKoden over implementerer en IJVM-instruksjon for Mic-1. Hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Invokevirtual", "Swap", "Bipush", "Istore"]
   },
   {
     "question": "Flyttall på formen <math><mi>n</mi><mo>=</mo><mi>f</mi><mo>&#x22C5;</mo><msup><mn>2</mn><mi>e</mi></msup></math> er kodet med følgende flyttallsformat:\n<img src=\"images/1p78p9.webp\"/>\nI dette formatet er exponent kodet som “excess 8”, og alle bit i fraction er kodet eksplisitt.\nHva er verdien til flyttallet 001101100 i 10-tallsystemet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0.09375", "0.1875", "0.375", "0.75"]
   }
 ]

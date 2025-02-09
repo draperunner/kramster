@@ -2,121 +2,101 @@
   {
     "question": "Artificial intelligence was born when Alan Turing formulated the Turing Test.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Early advances in artificial intelligence were met with skepticism and doubt.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The agent function maps percept sequences to action.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The real world is fully observable.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A taxi driving from A to B in traffic operates in a deterministic environment.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A simple reflex agent has a small but limited short-term memory.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Goal-based agents often rely on search and planning to find their goal.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A utility-based agent is better suited in the real world than a learning agent, since it is able to estimate its own utility.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Learning is necessary for complex agent behaviour to arise in a multi-agent setting.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Learning helps in a stochastic and continuous environment.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Intelligent agents are supposed to optimize their performance measure.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The vacuum world is not a toy problem.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Redundant paths in a search tree are impossible to avoid.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "GRAPH-SEARCH is the same as TREE-SEARCH, only with history.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Time complexity and space complexity are the two best ways to evaluate the performance of an algorithm.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Blind search is also known as heuristic search.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A graph with branching factor b and depth d can be solved in most cases by uninformed search.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Bidirectional search reduces the time complexity with the square root.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An heuristic estimates the cheapest cost from one node to the goal node, even if the path is impossible to execute.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A* is the best known form of best-first search.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

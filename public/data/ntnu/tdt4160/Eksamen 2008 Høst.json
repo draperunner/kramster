@@ -2,7 +2,6 @@
   {
     "question": "Kva ligg i Addr-feltet i MIR? Sjå figur 5.\n<img src=\"images/rhth3d.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Adressa til neste mikroinstruksjon i control store.",
       "Inneheld kun gyldig adresse viss det skal gjerast eit betinga hopp, aktivt J-bit.",
@@ -13,7 +12,6 @@
   {
     "question": "Kva påstand er korrekt for ein ein-brikke mulitiprosessorer (CMP)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Er ein \"Array computer\".",
       "Er type SIMD.",
@@ -24,7 +22,6 @@
   {
     "question": "Kva er skissert i figur 3?\n<img src=\"images/6vh8m.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Fulladder.",
       "Halvadder.",
@@ -35,13 +32,11 @@
   {
     "question": "Korleis er einingane i figur 4 prioritert? Nivå 1 (level 1 er prioritert\nover nivå 2 (level 2). Rekkefølgja er gitt frå høgaste til lågaste.\n<img src=\"images/0xvaj.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["1, 2, 3, 4", "2, 3, 1, 4.", "1, 4, 2, 3.", "3, 2, 4, 1."]
   },
   {
     "question": "Under følgjer ei rekke påstandar om datamaskinkomponentar. Kva påstand er korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Asynkron bussoverføring må nytte ei global klokke.",
       "Ein ALU som kan utføre addisjon og invertere kan utføre subtraksjon.",

@@ -2,121 +2,101 @@
   {
     "question": "The course is about designing rational agents.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Weak AI defines a machine that can act intelligently.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Turing test is a good robot performance measure.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Strong AI is the same as machine consciousness.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "When you throw a dice twice, the probability of getting 6 at least once is 1/6.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Partial observability is not a problem in most cases.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A Boolean random variable is the best way to model temperature.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Conditional probability is the same as prior probability.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Structuring causal knowledge into belief networks is intuitive and helpful for humans.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Independence between variables is common in most applications.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A rational agent does not have to always choose the action that maximizes expected utility.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Humans are always irrational.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Stochastic dominance can often be determined with qualitative reasoning.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "You add action nodes, utility nodes and policy nodes to a belief network in order to do rational decision making.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Case-based reasoning is a form of supervised learning.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Neural networks are typically trained with the backpropagation algorithm.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Neural networks accurately represent all the properties of real neurons.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A perceptron can be used to represent any function.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Backpropagation is the same as gradient descent.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The real world is a Partially Observable Markov Decision Process.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

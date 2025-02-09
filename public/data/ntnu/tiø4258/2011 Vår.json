@@ -2,7 +2,6 @@
   {
     "question": "I innledningen av Tidd & Bessant nevnes 4P-modellen, som forklarer ulike typer av innovasjoner. Hvilken av typene under er IKKE nevnt i 4P-modellen?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Product – som betegner innovasjoner i de produkter og tjenester vi tilbyr",
       "Paradigm – som betegner innovasjoner i hvordan vi oppfatter hva vi tilbyr (også kalt framing)",
@@ -13,7 +12,6 @@
   {
     "question": "I emnet benytter vi en modell for innovasjonsprosessen som deler prosessen inn i fire faser. Ett av utsagnene under er feil om fase 2 (select-fasen). Hvilket?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "I Select-fasen siler vi ut de ideene vi skal selge til andre",
       "En viktig del av Select-fasen er å se på ideene vi har generert i forhold til bedriftens strategi",
@@ -24,7 +22,6 @@
   {
     "question": "Discontinuities er en betegnelse på hendelser som fører til økte muligheter for å komme med en suksessfull innovasjon. Hvilken av de fire hendelsene under vil normalt ikke regnes som en discontinuity, selv om den kan ha virkninger for oss som ligner de vi får av en discontinuity?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En konkurrent går konkurs",
       "En korrupsjonsskandale rammer et av våre største markeder, og fører til innføring av nye lover som skal hindre korrupsjon",
@@ -35,7 +32,6 @@
   {
     "question": "Nedenfor er fire eksempler på innovasjoner. Hvilken av disse fire vil normalt bli betraktet som den mest radikale innovasjonen hvis den ble lansert i Norge i 2011?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En flyvende bil",
       "En ny type cola",
@@ -46,7 +42,6 @@
   {
     "question": "Det er en åpen debatt om hvorvidt innovasjonsprosessen kan styres eller ikke, og i hvor stor grad, og hvordan, den eventuelt kan styres. Kapittel 2 bruker mye plass på dette spørsmålet. Pensumlitteraturen vil tendere til å være enig med tre av utsagnene nedenfor, men ikke det fjerde. Hvilket?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Innovasjonsprosesser er usikre, risikofylte og utsatt for tilfeldige påvirkninger, men det gjør dem ikke umulig å styre",
       "Produktinnovasjoner er lettere å styre enn de tre andre hovedtypene av innovasjoner",
@@ -57,7 +52,6 @@
   {
     "question": "Hvilket utsagn er korrekt om teknologibaserte bedrifter som ønsker å vokse.",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Alle teknologibedrifter som lykkes har en unik ide som kan beskyttes med patenter.",
       "Det beste er å være alene som gründer i startfasen, da har man kontroll på alt og kan rekruttere de menneskene man trenger.",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken av påstandene stemmer godt med en åpen innovasjontilnærming?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Det er ofte bedre å utvikle en robust forretningsmodell enn å komme ut i markedet først.",
       "Det viktigste er alltid å ligge i forkant av utviklingen, å være en first mover.",
@@ -79,7 +72,6 @@
   {
     "question": "Teece og Pisano (1994) bruker begrepet dynamiske kapabiliteter. Hvilke kriterier mener de må ligge til grunn for at kapabilitetene kan omtales som strategiske?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "De må være dynamiske, de må være verdifulle for bedriften og de må være skalerbare.",
       "De må være knyttet til kundenytte, unike og vanskelige å imitere.",
@@ -90,7 +82,6 @@
   {
     "question": "Hamel og Prahalad (1990) sine ideer om kjernekompetanse kan oppsummeres slik:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Én kjernekompetanse – ett produkt",
       "Kjernekompetansen må være 1. Verdifull, 2. Sjelden, 3. Vanskelig å imitere, og 4. Innbakt i bedriftens organisasjon.",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilket av følgende utsagn er korrekt om innovasjon:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Vi må unngå at andre profiterer på våre oppfinnelser og må kontrollere alle intellektuelle rettigheter selv.",
       "Bedrifter som har en egen forskning og utviklingsavdeling er som regel best på innovasjon.",
@@ -112,7 +102,6 @@
   {
     "question": "Hvilket av følgende påstander om innovative løsninger er korrekt:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I store selskaper er et godt samarbeid mellom forskningsavdelingen og produksjonsavdelingen den viktigste kilden til nye og innovative løsninger.",
       "Alle nye løsninger tar utgangspunkt i at en markedsundersøkelse har vist at det er et behov.",
@@ -123,7 +112,6 @@
   {
     "question": "Innenfor strategilitteraturen har det lenge pågått en diskusjon mellom tilhengere av rasjonalisme og inkrementalisme. Hvilket av alternativene under knyttes til rasjonalisme?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Prøving og feiling",
       "Anerkjennelsen av kompleksiteten til omgivelsene",
@@ -134,7 +122,6 @@
   {
     "question": "Ulike typer tilbydere av egenkapital kommer gjerne inn på ulike tidspunkt. I hvilken rekkefølge kommer normalt aktørene inn?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Såkornfond, venturekapital fond, Business Angels, gründer, familie og venner",
       "Venturekapital fond, såkornfond, Business Angels, gründer, familie og venner",
@@ -145,7 +132,6 @@
   {
     "question": "Prahalad (2006) bruker begrepet bottom of the pyramid (BoP Markets). Hva mener han med det?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ødelagte produkter som dumpes til lave priser.",
       "Markeder som adopterer innovasjon sist.",
@@ -156,7 +142,6 @@
   {
     "question": "I boken til Tidd og Bessant (2009) brukes begrepene exploitation og exploration. Hva mener de med dem?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Exploitation handler om å bruke sjeldne ressurser, mens exploration handler om å kombinere sjeldne ressurser.",
       "Exploitation handler om å utnytte andres ressurser, mens exploration handler om å utvikle egne ressurser.",
@@ -167,7 +152,6 @@
   {
     "question": "Tidd og Bessant (2009) deler ledelse av risiko inn i tre kategorier. Hvilke?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "1. Risiko knyttet til markedsadopsjon, 2. Risiko knyttet til produksjon og 3. Risko knyttet til logistikk.",
       "1. Teknisk risiko, 2. Markedsmessig risiko, 3. Total porteføljerisiko.",
@@ -178,7 +162,6 @@
   {
     "question": "Hvilken av følgende utsagn er korrekt om finansiering av teknologibedrifter.",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I tidlig fase vil bankene som regel være den viktigste finansieringskilden.",
       "I Norge er finansiering sjelden et problem siden vi har så gode offentlige virkemidler.",
@@ -189,7 +172,6 @@
   {
     "question": "En mulighetsanalyse bør inneholde:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Fullstendige budsjetter for de neste fem år.",
       "En fullstendig forretningsstrategi.",
@@ -200,7 +182,6 @@
   {
     "question": "Venturekapital tilbyr mange andre fordeler enn bare penger. Hvilken av fordelene under blir ikke tilbudt av venturekapitalister?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Tilgang til større nettverk",
       "Økt legitimitet",
@@ -211,7 +192,6 @@
   {
     "question": "I følge Brush et al. (2001) og deres ressurspyramide må følgende fire elementer ligge til grunn før man kan oppnå unike konkurransefordeler.",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Generiske ressurser, kapabiliteter, kjernekompetanser og strategiske aktiva (generic resources, capabilities, core competences and strategic assets).",
       "Generiske ressurser, spesifikke ressurser, kapabiliteter og nettverkskapabiliteter (generic resources, specific resources, capabilities and network capabilities).",
@@ -222,7 +202,6 @@
   {
     "question": "Hvilken av de følgende inngår ikke i Tidd og Bessants (2009) liste over komponenter i en innovativ organisasjon?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Eksternt fokus.",
       "Passende organisasjonsstruktur.",
@@ -233,7 +212,6 @@
   {
     "question": "Hvilke av disse elementene inngår i Watsons (2008, K1) definisjon av arbeidsorganisasjon?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "At organisasjonens medlemmer jobber mot det samme målet.",
       "At relasjonene mellom organisasjonens medlemmer er formalisert og regulert av kontrakter.",
@@ -244,7 +222,6 @@
   {
     "question": "Forskningsinstitusjoner som NTNU og SINTEF er typiske eksempler på hvilken av Mintzbergs organisasjonsformer?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Oppdragsorienterte organisasjoner.",
       "Maskinbyråkrati.",
@@ -255,7 +232,6 @@
   {
     "question": "Hvilken av disse er en typisk begrensning (svakhet) ved byråkratier?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Avgjørelser bygger på personlige skjønnvurderinger.",
       "Byråkratier åpner for korrupsjon og favorisering.",
@@ -266,7 +242,6 @@
   {
     "question": "Hva menes med at organisasjoner er instrumentelt rasjonelle?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At organisasjoner identifiserer og velger de handlingsalternativer som best bidrar til oppnåelse av organisasjonens mål.",
       "At organisasjoner forsøker å skape mest mulig profitt.",
@@ -277,7 +252,6 @@
   {
     "question": "Hva innebærer det å ha et system-kontroll perspektiv på motivasjon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At menneskelig handling forstås som et resultat av enkeltpersoners motivasjon til å oppfylle behov og mangler.",
       "At mennesker motiveres når de får muligheten til å realisere sine prosjekter og påvirke sitt eget liv.",
@@ -288,7 +262,6 @@
   {
     "question": "I forbindelse med arbeidsdesign er selvstyrte arbeidsgrupper (selvstyrte team) et eksempel på:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Indirekte kontroll.",
       "Scientific management (taylorisme).",
@@ -299,7 +272,6 @@
   {
     "question": "På hvilken måte kan teamarbeid være negativt for innovasjoner?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Enkeltpersoner har ulik bakgrunn og ulike erfaring.",
       "Økt involvering vanskeliggjør implementering av endringer.",
@@ -310,7 +282,6 @@
   {
     "question": "Ifølge Watson (2006, K3), hva er sammenhengen mellom kortsiktig- og langsiktig fleksibilitet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Tilrettelegger man for god kortsiktig fleksibilitet, oppnår man også langsiktig fleksibilitet.",
       "Langsiktig fleksibilitet dreier seg om radikal innovasjon, mens kortsiktig fleksibilitet dreier seg om kontinuerlig forbedring. Organisasjonen trenger begge deler.",
@@ -321,7 +292,6 @@
   {
     "question": "Ifølge Tidd og Bessant (2009), hvilken påstand om sammenhengen mellom konflikt og innovasjon er riktig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Konflikter er negativt for innovasjon. De bør elimineres gjennom restrukturering og tillitsbyggende innovasjoner.",
       "For lite konflikter kan skape apatiske og uinteresserte individer, som igjen svekker kreativiteten og innovasjonsevnen.",
@@ -332,7 +302,6 @@
   {
     "question": "Gruppekreativitet kan bidra til innovasjonsprosesser, men bør ikke brukes ukritisk. Hvilket av de fire utsagnene nedenfor om gruppekreativitet er ikke i overensstemmelse med pensum?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En viktig ingrediens for at gruppekreativitet skal være vellykket er at deltagerne er ulike i bakgrunn, kompetanse og personlighet, men samtidig ikke FOR ulike.",
       "Utvikling av både personlige og interpersonlige ferdigheter hos deltagerne er en nødvendig, men ikke tilstrekkelig betingelse for suksessfylte gruppeprosesser",
@@ -343,7 +312,6 @@
   {
     "question": "Det finnes mange typer nettverk som i boken til Tidd & Bessant kalles innovasjonsnettverk. En av de fire typene under nevnes imidlertid IKKE i boken. Hvilket?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Entreprenørielt nettverk",
       "Sektornettverk",
@@ -354,7 +322,6 @@
   {
     "question": "Embeddedness er et sentralt begrep i artikkel K4 om Technology and Business Networks. Hvilken av påstandene nedenfor er feil om embeddedness?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Embeddedness refererer til de mange koblingene som finnes mellom et enkelt teknologisk produkt og omliggende teknologier og produkter",
       "Å si at utviklingen av elbiler er embedded blant annet i utviklingen av batteriteknologi er korrekt bruk av begrepet",
@@ -365,7 +332,6 @@
   {
     "question": "En av påstandene under om Knowledge Push-strategier er feil i henhold til pensum. Hvilken?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En Knowledge Push-strategi betyr at bedriften selv utvikler innovasjonen basert på kunnskaper og teknologier den har selv eller kan skaffe via sitt nettverk",
       "Knowledge Push-strategier krever normalt en sterkere Forsknings- og utviklingsavdeling enn Needs Pull-strategier",
@@ -376,7 +342,6 @@
   {
     "question": "Figur 7.2 i artikkel K4 om Technology and Business Networks diskuterer i hvilke tilfeller relasjoner kan være til hjelp i arbeidet med å realisere økonomisk gevinst av teknisk utvikling. Hvilket av de fire utviklingsprosjektene nedenfor vil etter denne teorien ha MINST nytte av allerede etablerte relasjoner?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Statoil ønsker å bruke sin boreteknologi til å eksperimentere med vannboring i ørkenstrøk.",
       "En produsent av dataskjermer ønsker å gjøre inkrementelle forbedringer i design av knappene på skjermen.",
@@ -387,37 +352,31 @@
   {
     "question": "Totalkostnadene til et selskap kan skrives som TC = 1000000 + 100Q + Q<sup>2</sup> der Q er mengde pr periode. Anta at selskapet produserer 100 enheter pr periode. Hva blir de variable kostnadene pr periode?",
     "answers": [2],
-    "exam": ".*",
     "options": ["1000000", "500000", "20000", "10000"]
   },
   {
     "question": "Totalkostnadene til et selskap kan skrives som TC = 1000000 + 100Q + Q<sup>2</sup> der Q er mengde pr periode. Anta at selskapet produserer 100 enheter pr periode. Hva blir marginalkostnaden (også kalt grensekostnaden) til selskapet?",
     "answers": [1],
-    "exam": ".*",
     "options": ["500", "300", "200", "100"]
   },
   {
     "question": "Totalkostnadene til et selskap kan skrives som TC = 1000000 + 100Q + Q<sup>2</sup> der Q er mengde pr periode. Etterspørselen til selskapet er lineær og kan skrives som P = 1100 – bQ der P er prisen og b er en ukjent, positiv konstant. Dersom selskapet er et monopol, hva må b være for at optimal mengde skal være 100 pr periode?",
     "answers": [3],
-    "exam": ".*",
     "options": ["1", "2", "3", "4"]
   },
   {
     "question": "Et monopol har marginalkostnader på 100. Ved optimal tilpasning er (absoluttverdien til) etterspørselselastisiteten 1,5. Hva er optimal pris?",
     "answers": [2],
-    "exam": ".*",
     "options": ["100", "200", "300", "400"]
   },
   {
     "question": "I en industri er det frikonkurranse. Produsert mengde er 100000 enheter pr periode og prisen er 1000 pr enhet. Dødvektstapet kan defineres som forskjellen mellom faktisk samfunnsøkonomisk overskudd og det maksimale samfunnsøkonomiske overskuddet. Hvor stort blir dødvektstapet i denne industrien?",
     "answers": [0],
-    "exam": ".*",
     "options": ["0", "1 000", "100 000", "100 000 000"]
   },
   {
     "question": "Et monopol har marginalkostnader som er tilnærmet lik null. Hva kan vi si om optimal tilpasning?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Monopolet vil tilpasse seg i det uelastiske området for etterspørselen.",
       "Monopolet vil tilpasse seg der (absoluttverdien til) etterspørselselastisiteten er større enn 2.",
@@ -428,7 +387,6 @@
   {
     "question": "Regnskapene til en bedrift viser at egenkapitalrentabiliteten er nøyaktig lik renten betalt på gjeld, slik at vi kan si at avkastning på egenkapital har vært lik avkastning på gjeld. Hva kan vi da si om totalkapitalrentabiliteten?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Totalkapitalrentabiliteten har vært lik avkastningen på gjeld og egenkapital.",
       "Totalkapitalrentabiliteten har vært lik summen av avkastningen på gjeld og egenkapital.",
@@ -439,7 +397,6 @@
   {
     "question": "I løpet av den siste regnskapsperioden har verdien av varelageret til en bedrift gått fra 10 millioner til 20 millioner. På hvilken måte påvirker denne utviklingen forholdet mellom likviditetsgrad 1 og likviditetsgrad 2?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Denne utviklingen påvirker ikke forholdet mellom likviditetsgradene.",
       "Denne utviklingen trekker i retning av at likviditetsgrad 1 blir relativt større i forhold til likviditetsgrad 2.",
@@ -450,13 +407,11 @@
   {
     "question": "Diskonteringsrenten er 10 % pr år. Hva er nåverdien av å få en utbetaling på 1000 kroner pr år i ti år når første utbetaling er om 2 år?",
     "answers": [2],
-    "exam": ".*",
     "options": ["10000", "6145", "5586", "4398"]
   },
   {
     "question": "Et investeringsprosjekt kan (litt forenklet) beskrives som følger: Investering på 600 millioner nå gir 1000 millioner med sannsynlighet 50 % om et år, og et tap på 100 millioner med samme sannsynlighet. Dersom prosjektet går med tap det første året, avsluttes det. Dersom det går med de nevnte 1000 millioner i overskudd, fortsetter det i ett år til. Gitt at det fortsetter, er sannsynligheten 75 % for positiv kontantstrøm på 1000 milllioner mens det er 25 % sannsynlighet for et tap på 100 millioner dette andre året. Avkastningskravet er 10 %. Hva blir nettonåverdien til prosjektet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Ca 0",
       "Ca 100 millioner",
@@ -467,7 +422,6 @@
   {
     "question": "En investor vurderer å sette sammen to aksjer til en portefølje. I hvilket tilfelle blir diversifiseringseffekten størst?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Når det er ingen korrelasjon mellom aksjene.",
       "Når aksjene har perfekt positiv korrelasjon slik at de svinger i takt.",
@@ -478,13 +432,11 @@
   {
     "question": "Anta at kapitalverdimodellen gir en korrekt risikopremie for aksjer. En aksje har beta lik 2. Risikofri rente er 3 %. Markedsrisikopremien er 6 %. Hva blir forventet avkastning for aksjen?",
     "answers": [3],
-    "exam": ".*",
     "options": ["3 %", "6 %", "9 %", "15 %"]
   },
   {
     "question": "Markedets standardavvik er 20 %. En aksje har beta på 1,5. Hva kan vi si sikkert om risikoen knyttet til aksjen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Aksjens standardavvik er akkurat 30 %.",
       "Aksjens markedsrisiko er 30 %, mens totalrisikoen er minst 30 %.",
@@ -495,13 +447,11 @@
   {
     "question": "Verdien av gjeld for et selskap er akkurat dobbelt så stor som verdien av egenkapitalen. Avkastning på aktiva er 10 %. Avkastning på gjeld er 5 %. Hva blir avkastningen på egenkapital?",
     "answers": [3],
-    "exam": ".*",
     "options": ["5 %", "10 %", "15 %", "20 %"]
   },
   {
     "question": "Et selskap har gjeldsgrad på 75 %. Forventet avkastning på egenkapitalen er 24 %. Forventet gjeldsavkastning er 16 %. Og selskapsskattesatsen er 25 %. Hva blir forventet avkastning på totalkapitalen (WACC) etter skatt?",
     "answers": [0],
-    "exam": ".*",
     "options": ["15 %", "16 %", "20 %", "24 %"]
   }
 ]

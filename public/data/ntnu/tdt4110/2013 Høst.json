@@ -2,19 +2,16 @@
   {
     "question": "Vi har 1750 ulike tilstander som vi ønsker å representere. Hvor mange bit må vi minst bruke?",
     "answers": [1],
-    "exam": ".*",
     "options": ["En byte (8 bit)", "11 bit", "12 bit", "2 byte (16 bit)"]
   },
   {
     "question": "Anta at en RGB-farge angis med heksadesimale tall. Hvilken kode representerer en mørkegrå farge?",
     "answers": [1],
-    "exam": ".*",
     "options": ["#FFFFFF", "#404040", "#506496", "#300000"]
   },
   {
     "question": "Hvor mye plass tar 20 minutter med (ukomprimert) stereo lyd av CD-kvalitet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Omtrent 200 MB",
       "Omtrent 500 MB",
@@ -25,7 +22,6 @@
   {
     "question": "Anta IEEE floating-point representation av tall. Hvilken påstand er riktig?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Representasjonen består av tre deler: Fortegn, mantisse og eksponent",
       "Nøyaktigheten påvirkes av antall bits i mantissen",
@@ -36,7 +32,6 @@
   {
     "question": "Anta at et telefonnr (8 siffer) skal lagres. Hvilken representasjon tar minst plass?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Som heltall",
       "Som en streng av ASCII-tegn",
@@ -47,7 +42,6 @@
   {
     "question": "Hvert skritt i binærsøkalgoritmen",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "halverer søkerommet",
       "finner søkenøkkelen",
@@ -58,7 +52,6 @@
   {
     "question": "Hvilket av følgende er et krav på ei liste der vi vil bruke innstikksorteringsalgoritmen?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Listen må ha et odde antall elementer",
       "Elementene må være sorterte",
@@ -69,7 +62,6 @@
   {
     "question": "Hva er den raskeste sikre måten å søke etter en enkelt verdi i en usortert tallrekke?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Skanne lineært gjennom alle elementene i rekken til verdien er funnet",
       "Sortere rekken og utføre binærsøk",
@@ -80,7 +72,6 @@
   {
     "question": "Verste fall i en lineær søkealgoritme oppstår når",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "det søkte elementet er et sted i midten av listen",
       "det søkte elementet ikke er i listen i det hele tatt",
@@ -91,13 +82,11 @@
   {
     "question": "Hvilken minneteknologi er raskest?",
     "answers": [3],
-    "exam": ".*",
     "options": ["DDR-RAM", "SSD", "Cache", "Alle disse er like raske"]
   },
   {
     "question": "Hvordan virker monitoren?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Den viser tre forskjellige farger i hver piksel",
       "Den blander fargene Rød, Gul og Blå for å lage alle mulige farger",
@@ -108,7 +97,6 @@
   {
     "question": "Hva er sant angående primær- og sekundærminne?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Primærminnet er permanent (ikke-flyktig)",
       "Sekundærminnet kalles ofte for RAM",
@@ -119,7 +107,6 @@
   {
     "question": "Hva er sant angående datamaskiners historiske ytelses-forbedringer",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Maskinen kan gå fortere jo tettere transistorene i hver integrerte krets er",
       "Miniatyrisering gjør at klokkefrekvensen kan være over 1 GHz",
@@ -130,7 +117,6 @@
   {
     "question": "Hvilke fem typer hoved-kretser finnes i Prosessoren (CPU)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Instruksjon-hent (IF), Inst.-dekod (ID), Data-hent (DF), utfør (EX), Resultat-retur (RR)",
       "Kontrollenhet, Aritmetisk-logisk enhet (ALU), Register, Input- og Outputkretser",
@@ -141,7 +127,6 @@
   {
     "question": "Hva er en protokoll?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Regler for hva en payload i en IP pakke kan inneholde",
       "En beskrivelse av hvor raskt en melding kan overføres i et pakkesvitsjet nett som Internett",
@@ -152,7 +137,6 @@
   {
     "question": "Hvilken oppgave har TCP protokollen som brukes på Internett?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Tildeling av IP adresse, nettmaske og default gateway",
       "Tilby logiske forbindelser og multipleksing av disse",
@@ -163,7 +147,6 @@
   {
     "question": "Dersom man ofte opplever at en tjeneste ikke virker når den ønskes benyttet, så beskrives dette som:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Dårlig ytelse på din forbindelse til Internett",
       "Lav tilgjengelighet for den aktuelle tjenesten",
@@ -174,7 +157,6 @@
   {
     "question": "Hvilke aspekter beskriver best de tekniske egenskapene ved en aksessteknologi?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Kapasitet, Markedsandel og Prismodell",
       "Protokoller, Installasjon og Terminalutstyr",
@@ -185,7 +167,6 @@
   {
     "question": "Hvordan kan man oppdage om en melding har blitt endret underveis fra sender til mottaker?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ved å benytte analog signatur",
       "Ved å benytte IPv6 i stedet for IPv4",
@@ -196,7 +177,6 @@
   {
     "question": "Hvorfor benyttes ofte CRC for å detektere feil i digitale signaler?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Fordi CRC har gode egenskaper med tanke på å oppdage burstfeil",
       "Fordi CRC er bedre enn paritet og enkel sjekksum, samt like bra som hash funksjoner",

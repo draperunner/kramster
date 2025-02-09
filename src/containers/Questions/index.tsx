@@ -4,7 +4,6 @@ import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { getQuestions } from "../../api";
 import { LoadingSpinner, ProgressBar } from "../../components";
 import Question from "./Question";
-import Explanation from "./Explanation";
 import Alternative from "../../components/Buttons/Alternative";
 import { Question as QuestionType } from "../../interfaces";
 
@@ -111,7 +110,6 @@ function Questions(): JSX.Element {
       setHistory((prevHistory) => [
         ...prevHistory,
         {
-          questionId: currentQuestion.id,
           givenAnswer,
           wasCorrect: answerIsCorrect(givenAnswer, currentQuestion),
         },
@@ -158,7 +156,6 @@ function Questions(): JSX.Element {
 
       {answerGiven ? (
         <div className={styles.explanationRow}>
-          <Explanation text={currentQuestion.explanation} />
           <b role="alert" className={styles.continueTip}>
             Click any answer to continue
           </b>

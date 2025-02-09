@@ -2,31 +2,26 @@
   {
     "question": "IJVM har ein multiplikasjonseining.\n<img src=\"images/58g4wh.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "RISC-prosessorar nyttar ofte \"hardwired\" styreeining.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "I eit ”scoreboard” kan ein lese ut antal gonger eit register er brukt\nsom kilde av instruksjonane som er \"aktive\" (under utføring).",
     "answers": [0],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "IJVM har meir til felles med CISC- enn RISC-maskiner.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "Ein versjon av prosessoren 8051 har multipleksa 8 bit databuss og 16\nbit adressebuss. Denne versjonen av 8051 kan adressere 64KB minne.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   }
 ]

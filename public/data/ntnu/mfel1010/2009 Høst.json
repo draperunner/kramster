@@ -2,7 +2,6 @@
   {
     "question": "Hva gjør natrium-kalium-utvekslingspumpen? Kva gjer natrium-kalium-vekselspumpa. / What is the function of the sodium-potassium pump?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Utjevner membranpotensialet gjennom transport av natrium og kalium fra høy til lav konsentrasjon. / Utjamnar membranpotensialet gjennom transport av natrium og kalium frå høg til låg konsentrasjon. / Levelling the membrane potential by transports of sodium and potassium from high to low concentration.",
       "Bygger opp membranpotensialet gjennom aktiv transport av natrium og \nkalium fra lav til høy konsentrasjon. / Bygg opp membranpotensialet gjennom \naktiv transport av natrium og kalium frå låg til høg konsentrasjon. / Building \nup the membrane potential, by active transport of Sodium and Potassium from \nlow to high concentration.",
@@ -13,7 +12,6 @@
   {
     "question": "Anaerob metabolisme med dannelse av melkesyre foregår når kravet til \nmuskelarbeid overstiger den energien vi kan få fra oksydativ forbrenning. Hvor i \ncellene foregår dette? / Anaerob metabolisme med danning av mjølkesyre skjer når \nkravet til muskelarbeid overstiger den energien vi kan få frå oksydativ forbrenning. \nKor i cellene går dette føre seg? / Anaerobic metabolism takes place when the \ndemands for muscular work surpasses the amount of energy that can be produced by \noxidative metabolism. Where in the cell does this take place?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Cytoplasma / The cytoplasm",
       "Mitochondriene / The mitochondria",
@@ -24,7 +22,6 @@
   {
     "question": "Levra er viktig som energilager. Hvordan lagres energien? / Levra er viktig som \nenergilager. Korleis lagrast energien? / The liver is important for storage of energy. \nHow is the energy stored?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Som fett / As fat",
       "Som sukker / As sugar",
@@ -35,7 +32,6 @@
   {
     "question": "Hvordan er lufttrykket i alveolene under inspirasjon? /Korleis er lufttrykket i \nalveolane under inspirasjon? / What is the alveolar air pressure during inspiration?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Lavere enn atmosfæretrykket / Lågere enn atmosfæretrykket / Lower than the \natmospheric pressure",
       "Likt atmosfæretrykket / Equal to the atmospheric pressure",
@@ -46,7 +42,6 @@
   {
     "question": "En lekkasje (insuffisiens) i mitral- (bicuspidal-)klaffen gir opphav til en bilyd. Når \ni hjertesyklus vil den høres? / Ein lekkasje (insuffisiens) i mitral- (bicuspidal-)klaffen \ngir opphav til ein bilyd. Når i hjertesyklus vil den høres? / A leaky (incompetent) \nbicuspid (mitral) valve will give a murmur. When, during the heart cycle will that \nmurmur be heard?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "I systole / In systole",
       "I diastole / In diastole",
@@ -57,7 +52,6 @@
   {
     "question": "Hva er forholdet mellom minuttvolumet fra høyre ventrikkel og fra venstre \nventrikkel hos friske? / Kva er forholdet mellom minuttvolumet fra høyre ventrikkel \nog fra venstre ventrikkel hos friske? / What is the relation between the cardiac output \nfrom the right ventricle and the left ventricle inhealthy individuals?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Hø > Ve / Right > Left",
       "Hø = Ve / Right = Left",
@@ -68,7 +62,6 @@
   {
     "question": "Hva muliggjør celledifferensieringen? / Kva gjer celledifferensieringa mogleg? /\nWhat makes the cell differentiation possible?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Genene er forskjellige i ulike vev. Gena er ulike i dei ulike veva. / The genes \nare different in different tissues.",
       "Ulik translasjonsmekanisme i ulike vev./ Different translation mechanism in \ndifferent tissues.",
@@ -79,7 +72,6 @@
   {
     "question": "Hva slags ledd er albueleddet? / Kva slag ledd er albueleddet? / What type of joint\nis the elbow joint?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Glideledd / Sliding (plane) joint",
       "Hengselledd / Hinge joint",
@@ -90,7 +82,6 @@
   {
     "question": "Høyt progesteron og østrogen er nødvendig for normal livmorfunksjon i \nsvangerskapet. Hvordan opprettholdes dette i siste trimester? / Høgt progesteron og \nøstrogen er nødvendig for normal livmorfunksjon i svangerskapet. Korleis blir dette \noppretthaldt i sisste trimester? / High progesterone and estrogen levels are necessary \nto normal uterine function during pregnancy. How is this maintained during the last \ntrimester?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Placenta stimulerer hypothalamus til å produsere høye nivåer av gonadotropin \nreleasing hormone (GnRH) / Placenta stimulerer hypothalamus til å produsere \nhøge nivå av gonadotropin releasing hormone (GnRH) / Placenta stimulates \nthe hypothalamus to produce high levels of gonadotropin releasing hormone \n(GnRH)",
       "Placenta stimulerer hypofysen til å produsere høye nivåer av FSH og LH / \nPlacenta stimulerar hypofysen til å produsere høge nivå av FSH og LH / The \nPlacenta stimulates the hypophysis to secrete high levels of FSH and LH",
@@ -101,7 +92,6 @@
   {
     "question": "Presbyopi er en normal aldringstilstand som påvirker synsfunksjonen. Hva er \nmekanismen? / ) Presbyopi er ein normal aldringstilstand som påverkar \nsynsfunksjonen. Kva er mekanismen? / Presbyopia is a normal ageing that affects the \nvisual function. What is the mechanism?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Trykket i øyet øker så synsnervefibrene skades / Trykket i auget aukar så \nsynsnervefibra blir skada / The pressure in the eye increase, so the visualo \nnerve fobres are damaged",
       "Linsen blir uklar / Linsa blir uklar / The lens becomes unclear",
@@ -112,7 +102,6 @@
   {
     "question": "Hva er den viktigste regulator for hjerteaksjonen i hvile? / Kva er den viktigaste \nregulatoren for hjerteaksjonen i kvile? / What is the most important regulator for the \nheart action at rest?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Blodtrykket / The blood pressure",
       "Oksygenmetningen / The oxygen saturation",
@@ -123,7 +112,6 @@
   {
     "question": "Ved et hjerteinfarkt kan det dannes en blodpropp inne i venstre hjertekammer, som \nså kan løsne og føres med blodstrømmen. Hvor vil den kunne havne? / Ved eit \nhjerteinfarkt kan det dannes en blodpropp inne i venstre hjertekammer, som så kan \nlausne og føres med blodstraumen. Kor vil den kunne ende? / In a myocardial \ninfarction, a thrombus may be formed inside the left ventricle. It can detach and \nfollow the bloodstream. Where may it end?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Vena cava / Vena cava",
       "Høyre atrium / Right atrium",
@@ -134,7 +122,6 @@
   {
     "question": "Ved diabeteskoma kan blodets pH bli nedsatt på grunn av ketondannelse. Hva \nslags syre-base forstyrrelse er dette? / Ved diabeteskoma kan blodets pH bli nedsett på \ngrunn av ketondannelse. Kva slag syre-base forstyrring er dette? / In a diabetic coma \nthe pH in the blood is decreased due to increased production of ketones. What kind of \nacid-base disturbance is this?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Metabolsk acidose / Metabolic acidosis",
       "Respiratorisk acidose / Respiratory acidosis",
@@ -145,7 +132,6 @@
   {
     "question": "I hvilken del av menstruasjonssyklus er kvinnen fertil? / I kva for del av \nmenstruasjonssyklus er kvinnen fertil? /In what part of the menstrual cycle is a \nwoman fertile?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Menstruasjon / Menses",
       "Follikkelfase / Follicular phase",
@@ -156,13 +142,11 @@
   {
     "question": "Kroppsmasseindeks (KMI) er et mål for fedme (egentlig vekt justert for høyde: \nKMI = V / h2). Hvilket intervall for KMI er normal kroppsvekt? / Kroppsmasseindeks \n(KMI) er eit mål for fedme (eigentlig vekt justert for høgde: KMI = V / h2). Kva for \nintervall for BMI er normal kroppsvekt? / Body mass index is a measure of obesity \n(actually it is the weight adjusted for height: BMI = Wt/Ht2). What interval for BMI is \nthe normal body weight?",
     "answers": [0],
-    "exam": ".*",
     "options": ["<25 (19 – 25)", "25 - 30", "30 - 35", "40"]
   },
   {
     "question": "Hvor i sentralnervesystemet kontrolleres puls og blodtrykk /Kor i \nsentralnervesystemet blir puls og blodtrykk kontrollert / Where in the central nervous \nsystem is pulse and blood pressure controlled?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Hjernebarken / The cerebral cortex",
       "Lillehjernen / The cerebellum",
@@ -173,13 +157,11 @@
   {
     "question": "Hva er mediatoren som gjør at aksjonspotensialet utløser sammentrekning? / Kva \ner mediatoren som gjer at aksjonspotensialet utløyser sammentrekning? / What is the \nmediator that causes the action potential to trigger a contraction?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Ca 2+", "Mg 2+", "Fe 2+", "Na +"]
   },
   {
     "question": "Blodtrykket reguleres blant annet av perifer motstand. Hvilke kar er ansvarlige for \nden største delen av denne motstanden? / Blodtrykket blir mellom anna regulert av \nperifer motstand. Kva for kar er ansvarlige for den største delen av denne motstanden? \n/ The blood pressure is among other things regulated by peripheral resistance. Which \nvessels are responsible for most of this resistance?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Arterier / Arteries",
       "Arterioler / Arterioles",
@@ -190,7 +172,6 @@
   {
     "question": "Hyperventilering (økt ventilasjon) kan skje som følge av for eksempel smerter \neller stress. Hva skjer med blodets pH? / Hyperventilering (auka ventilasjon) kan skje \nsom følgje av for eksempel smerter eller stress. Kva skjer med blodets pH? / \nHyperventilation may happen as a result of pain or stress. What happens to the pH in \nthe blood?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Øker /Auker / Increases",
       "Uforandra / Unchanged",
@@ -201,7 +182,6 @@
   {
     "question": "HIV infeksjon reduserer immuniteten fordi den angriper og ødelegger en viss type \nhvite blodlegemer. Hvilken gruppe hører de cellene til? / HIV infeksjon reduserer \nimmuniteten fordi den angriper og øydelegg en viss type kvite blodlekam. Kva for \ngruppe høyrer dei cellene til? / HIV infection reduces immunity because it attacks and \ndestroys a certain type white blood cells. Which group do those cells belong to?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Neutrofile granulocytter / Neutrophils",
       "Makrofager / Macrophages",
@@ -212,7 +192,6 @@
   {
     "question": "Diabetes type 2 er en sykdom der den perifere sensitiviteten for insulin er redusert, \nog den gir dermed forhøyd blodsukker. Hva skjer med insulinnivået ved blodet ved \nved starten av en typisk type 2 diabetes? / Diabetes type 2 er en sjukdom der den \nperifere sensitiviteten for insulin er redusert, og den gir dermed forhøgd blodsukker. \nKva skjer med insulinnivået ved blodet ved starten av ein typisk type 2 diabetes? / \nDiabetes type 2 is a disease where the peripheral sensitivity of insulin is decreased, \nleading to elevated blood sugar. What happens to the level of insulin in the blood at \nthe start of a typical type 2 diabetes?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Øker / Auker / Increases",
       "Uendret / Uendra / Unchanged",
@@ -223,7 +202,6 @@
   {
     "question": "Hva er hematokrit? / Kva er hematokrit? / What is the hematocrit?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Hemoglobinkonsentrasjonen i g/dl / The hemoglobin concentration in g/dl",
       "Hemoglobinkonsentrasjonen i mmol/l / The The hemoglobin concentration in \nmmol/l",
@@ -234,13 +212,11 @@
   {
     "question": "I en nødssituasjon, hvilken blodgruppe kan ta imot blodlegemer fra alle \nblodgruppene i AB0 – systemet? / I ein naudssituasjon, kva for blodgruppe kan ta \nimot blodlekam frå alle blodgruppene i AB0 – systemet? / In an emergency, what \nblood group can receive red blood cells from all blood groups in the AB0 system?",
     "answers": [2],
-    "exam": ".*",
     "options": ["A", "B", "AB", "0"]
   },
   {
     "question": "Bukspyttkjertelen produserer insulin, men også: / Bukspyttkjertelen produserer \ninsulin, men og: / The pancreas produces insulin, but also",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Saltsyre som vedlikeholder surt miljø i tynntarmen / Saltsyre som held vedlike \nsurt miljø i tynntarmen / Hydrochloric acid that maintains an acidic \nenvironment in the intestine",
       "Hormonet Gastrin som regulerer tarmmotorikken / The hormone Gatrin that \nregulates the motor finctionof the intestine",
@@ -251,7 +227,6 @@
   {
     "question": "Første trinn i dannelsen av urin i nyrene skjer i glomeruli. Dette trinnet er: / Første \ntrinn i danninga av urin i nyrene skjer i glomeruli. Dette trinnet er: / The frst step in \nthe urine formation takes place in the glomeruli. This step is:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Filtrasjon / Filtration",
       "Sekresjon / Secretion",
@@ -262,7 +237,6 @@
   {
     "question": "Sigarettrøyk inneholder en rekke stoffer. Et av disse er karbonmonoksyd. \nKarbonmonoksyd har effekt på blodets funksjon, hvilken effekt? / Sigarettrøyk \ninnehelder ein rekke stoff. Eit av disse er karbonmonoksyd. Karbonmonoksyd har \neffekt på blodets funksjon, kva for effekt? / Cigarette smoke contains a lot of different \nchemicals. One of these is carbon monoxide. Carbon mnoxide has an effect on the \nfunction of the blood, which effect?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Hemmer immunresponsen / Inhibits the immune response",
       "Hemmer koagulasjonen / Inhibits the coagulation",
@@ -273,7 +247,6 @@
   {
     "question": "Ved pneumothorax kommer det luft inn i pleurahulen. Hva fører dette til? / Ved \npneumothorax kommer det luft inn i pleurahulen. Kva fører dette til? / In \npneumothorax there is air in the pleural cavity. What will this cause?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lungen blåses opp på grunn av økt trykk i pleura / Lunga blåses opp på grunn \nav auka trykk i pleura / The lung is inflated due to increased pleural pressure",
       "Lungen kollapser på grunn av tap av vakuum i pleura / Lunga kollapsar på \ngrunn av tap av vakuum i pleura / The lung collapses due to loss of vacuum in \nthe pleura",
@@ -284,7 +257,6 @@
   {
     "question": "En svulst i hypofysen skader selve synsnervekrysningen ( de fibrene som krysser \ntil motsatt side). Kva slags synsfeltutfall vil det gi? / Ein svulst i hypofysen skader \nsjølve synsnervekrysningen ( de fibrane som kryssar til motsett side). Kva slag \nsynsfeltutfall vil det gi? / A tumor in the pituitary gland damages the visual nerve \ncrossing ( the fibres that cross to the opposite side). What kind of visual defect will \nthat give?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Tap av synsfelt på høyre side på begge øyne / Tap av synsfelt på høyre side på \nbegge auge / Right sided visual defect on both eyes",
       "Tap av synsfelt på venstre side på begge øyne/ Tap av synsfelt på venstre side \npå begge auge / Left sided visual defect on both eyes",
@@ -295,7 +267,6 @@
   {
     "question": "Hva er knoklene i leddflatene kledd med? / Kva er knoklane i leddflatene kledd\nmed? / What are the bones in the joint surfaces covered with?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Epitel / Epithelium",
       "Endotel / Endothelium",
@@ -306,7 +277,6 @@
   {
     "question": "<img src=\"images/4st05.webp\"/>\nHva heter den bevegelsen som er vist ved pilen på figuren? / Kva heter den\nbevegelsen som er vist ved pilen på figuren? /What is the movement called that is \nshown by the arrow in the figure?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Pronasjon / Pronation",
       "Supinasjon / Supination",
@@ -317,7 +287,6 @@
   {
     "question": "Kalium har høyere konsentrasjon intracellulært enn ekstracellulært. Dette gjør at \nkalium langsomt lekker ut av cellene. Hva heter denne prosessen? / Kalium har \nhøgare konsentrasjon intracellulært enn ekstracellulært. Dette gjør at kalium langsomt \nlekker ut av cellene. Kva heter denne prosessen? / Potassium has a higher \nintracellular than extracellular concentration. This causes potassium to leak slowly \nout of the cells. What is this process called?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Osmose / Osmosis",
       "Aktiv transport / Active transport",
@@ -328,7 +297,6 @@
   {
     "question": "Hva kalles muskler som beveger et ledd i to motsatte retninger? / Kva kallast \nmusklar som beveger eit ledd i to motsette retningar? / What do you call muscles that \nmove a joint in two opposite directions?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Agonister /Agonistar/Agonists",
       "Antagonister / Antagonistar / Antagonists",
@@ -339,7 +307,6 @@
   {
     "question": "Både ved lever- og galleveissykdommer blir avløpet av galle til tarmen hindret. \nDette fører til opphopning av et stoff gir gul hudfarge (gulsott). Hvilket stoff? / Både \nved lever- og gallevegssjukdomar blir avløpet av galle til tarmen hindra. Dette fører til \nopphoping av et stoff gir gul hudfarge (gulsott). Kva for stoff? / Both in liver- and bile \nduct disease is the drainage of bile to the intestine hindered. This leads to \naccumulation of a substance that gives yellow skin (jaundice). Which substance?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Cholesterol",
       "Cholecystokinin",
@@ -350,7 +317,6 @@
   {
     "question": "Ved en form for thyreotoxicose (høyt stoffskifte) opptrer et antistoff mot TSH \nreseptorer i skjoldkjertelen som stimulerer reseptorene i stedet for å blokkere eller \nødelegge dem. Hva skjer da med nivåene av TSH og thyroxin? / Ved ein form for \nthyreotoxicose (høgt stoffskifte) opptrer et antistoff mot TSH reseptorar i \nskjoldkjertelen som stimulerer reseptorane i staden for å blokkere eller øydelegge dei. \nKva skjer då med nivåa av TSH og thyroxin? / In one kind of hyperthyroidism, there \nis present an antibody against TSH receptors that stimulates TSH receptors in the \nthyroid instead of blocking or destroying them. What happens then to the levels of \nThyroxin and TSH?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Thyroxin↑, TSH↑",
       "Thyroxin↑, TSH↓",
@@ -361,7 +327,6 @@
   {
     "question": "En pasient har hudblødninger som skyldes mangel på en bestemt celletype i blodet. \nHvilken? / Ein pasient har hudblødningar som skyldes mangel på ein bestemt \ncelletype i blodet. Kva for ein? / A patient has skin haemorrhages caused by lack of a \ncertain cell type in the blood. Which?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Erythrocytter / Erythrocytes",
       "Trombocytter / Thrombocytes",
@@ -372,7 +337,6 @@
   {
     "question": "En styrkeløfter prøver et markløft, men vekta er så tung at han ikke klarer å bevege \nden. Hva slags muskelkontraksjon utfører han da? / Ein styrkeløftar prøver eit \nmarkløft, men vekta er så tung at han ikkje klarer å bevege den. Kva slag \nmuskelkontraksjon utfører han da? / A powerlifter tries a deadlift, butt he weight is so \nheavy that he can’t move it. What kind of muscle contraction is he performing?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Isometrisk / Isometric",
       "Isotonisk / Isotonic",
@@ -383,7 +347,6 @@
   {
     "question": "Hvilke sekreter produseres i magesekken? / Kva for sekret vert produsert i \nmagesekken? / What secretions are produced in the stomach?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Pepsin og saltsyre / Pepsin and hydrochloric acid",
       "Trypsin og hydrogenkarbonat / Trypsin and bicarbonate",
@@ -394,7 +357,6 @@
   {
     "question": "Hvilke hormonforandringer skjer i puberteten? / Kva for hormonforandringar skjer \ni puberteten? / What hormonal changes take place in puberty?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Testosteron↓, FSH↑ / Testosterone ↓ , FSH ↑",
       "Testosteron↓, FSH↓ / Testosterone ↓ , FSH ↓",
@@ -405,7 +367,6 @@
   {
     "question": "Ved kronisk nyresvikt blir pasienten ofte anemisk. Hvorfor? / Ved kronisk \nnyresvikt blir pasienten ofte anemisk. Kvifor? / In chronic renal insufficiency will the \npatient often become anaemic. Why?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Nyrene produserer mindre erythropoietin / The kidneys produces less \nerythropoietin",
       "Nyrene produserer mindre aktivt vitamin D (D 3 ) / The kidneys produce less \nactive vitamin D (D 3 )",
@@ -416,7 +377,6 @@
   {
     "question": "Hva er funksjonen til knoklene i mellomøret? / Kva er funksjonen til knoklane i \nmellomøret? / What is the function of the bones inthe middle ear?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Avstive trommehinna /Support the tympanic membrane",
       "Holde øretuben (salpinx) åpen så luft kan passere fra nesa til mellomøret / \nHolde øretuben (salpinx) open så luft kan passere frå nesa til mellomøret / \nKeep the ear tube (salpinx) open in order for air to be able to pass from the \nnose to the middle ear",
@@ -427,7 +387,6 @@
   {
     "question": "Hva karakteriserer sirkulasjonssjokk? / Kva karakteriserer sirkulasjonssjokk? / \nWhat characterises circulatory shock?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Nedsatt blodtrykk, men normal sirkulasjon / Nedsett blodtrykk, men normal \nsirkulasjon / Reduced blood pressure, but normal circulation",
       "Nedsatt blodtrykk og nedsatt sirkulasjon / Nedsett blodtrykk og nedsett \nsirkulasjon / Reduced blood pressure and reduced circulation",
@@ -438,7 +397,6 @@
   {
     "question": "Ved angina er det vanlig å ta nitroglycerin. Hvordan virker nitroglycerin? / Ved \nangina er det vanlig å ta nitroglycerin. Korleis verker nitroglycerin? / In angina it is \ncommon to use nitroglygerine. How does nitroglycerine work?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Det påvirker hjertemuskelen så minuttvolumet øker / Det påverkar \nhjertemuskelen så minuttvolumet aukar / It increases cardiac output by direct \neffect on the heart muscle",
       "Det reduserer hjertefrekvensen så hjertets arbeid avtar / Det reduserer \nhjertefrekvensen så hjertets arbeid minkar / It reduces the heart rate leading to \ndecreased heart work",
@@ -449,7 +407,6 @@
   {
     "question": "Hva er den viktigste årsak til hjerneslag? / Kva er den viktigaste årsaka til \nhjerneslag? / What is the most important cause of stroke?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Blødning / Haemorrage",
       "Skade / Trauma",
@@ -460,13 +417,11 @@
   {
     "question": "Hvilket vitamin er viktig for normal kalsiumbalanse? / Kva for vitamin er viktig \nfor normal kalsiumbalanse? / Which vitamin is important for normal calcium \nbalance?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Vitamin A", "Vitamin B 12", "Vitamin D", "Vitamin K"]
   },
   {
     "question": "Muskulaturen i hjertets venstre ventrikkel får det meste av sin blodforsyning i: / \nThe musculature of the left ventricle of the heart receives most of its blood supply \nduring:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Systole",
       "Diastole",
@@ -477,7 +432,6 @@
   {
     "question": "Hvilken type energi gir billeddannelsen ved CT? / Kva for type energi gir \nbilleddanninga ved CT? / What kind of energy gives the image formation in CT?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Gammastråler / Gasmma rays",
       "Røntgenstråler / X-rays",
@@ -488,7 +442,6 @@
   {
     "question": "Hva er hovedproblemet med et skiveprolaps? / Kva er hovuproblemet med eit \nskiveprolaps? / What is the main problem of a nucleus prolapse( ruptured disk)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Redusert bevegelighet av ryggvirvlene / Redusert bevegelighet av \nryggvirvlane / Reduced mobility of the vertebrae",
       "Betennelse omkring skiven / Inflammation around the disc",
@@ -499,7 +452,6 @@
   {
     "question": "Målet på risikoen for å få en sykdom er: / Målet på risikoen for å få ein sjukdom\ner: / The measure of the risk of acquiring a disiase is:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Insidens raten / The incidence rate",
       "Insidens raten multiplisert med sykdommens varighet / Insidens raten \nmultiplisert med sjukdommens varigheit / The incidence rate multiplied by the \ndisease duration",
@@ -510,7 +462,6 @@
   {
     "question": "Hva begrenser den maksimale oksygentransporten under arbeid hos friske? / Kva \nbegrensar den maksimale oksygentransporten under arbeid hos friske? / What limits \nthe oxygen transport during work in healthy persons?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Blodvolumet / The blood volume",
       "Lungene / The lungs",
@@ -521,7 +472,6 @@
   {
     "question": "En pasient oppsøker legen med utslett over hele kroppen. Det kommer fram at han \nnoen måneder tidligere hadde et sår på penis, som imidlertid grodde av seg selv. \nLegen mistenker kjønnssykdom. Hvilken? / Ein pasient oppsøker legen med utslett \nover hele kroppen. Det kommer fram at han noen månader tidligare hadde et sår på \npenis, som imidlertid grodde av seg sjølv. Legen mistenker kjønssjuke. Kva for ein? / \nA patient sees his doctor with a rash all over his body. It comes to light that he some \nmonths earlier had an ulcer at the penis, which, however, healed spontaneously. The \ndoctor suspect a venereal disease. Which?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Syfilis / Syphilis",
       "Gonorré / Gonorrhoea",
@@ -532,7 +482,6 @@
   {
     "question": "<img src=\"images/krog0u.webp\"/>\nBildet viser et 2-dimensjonalt ultralydbilde av et hjerte. Hva kalles denne\nultralydmodaliteten? / Bildet viser eit 2-dimensjonalt ultralydbilde av eit hjerte. Kva \nblir denne ultralydmodaliteten kalla? / The picture shows a 2-dimensional ultrasound \npicture of a heart. What is this ultrasoun modality called?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "A-mode",
       "B-mode",
@@ -543,7 +492,6 @@
   {
     "question": "Tykktarmskreft er en vanlig kreftform som vanligst sprer seg med blodbanen. Hvor vil \nda dattersvulstene (metastasene) da vanligvis dukke opp først? / Tjukktarmskreft er en \nvanlig kreftform som vanlegast spreier seg med blodbanen. Kor vil då dottersvulstane \n(metastasene) da vanlegvis dukke opp først? / Cancer of the colon is a common type of \ncancer that usually spreads with the blood. Where will the daughter tumours \n(metastases)usually occur?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Hjernen / The brain",
       "Lungene / The lungs",
@@ -554,7 +502,6 @@
   {
     "question": "Hvordan virker vanlig P-pille (kombinasjonspille)? / Korleis verker vanlig P-pille \n(kombinasjonspille)? / How does ordinary P-pills (combination pills)work?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "De virker på livmorhalsen slik at den blir ugjennomtrengelig for sædceller / \nDei verker på livmorhalsen slik at den blir ugjennomtrengelig for sædceller / \nThey act on the cervix so it becomes impenetrable for spermia",
       "De virker på eggene slik at de blir ugjennomtrengelig for sædceller selv om de \ner modne / Dei verker på eggene slik at de blir ugjennomtrengelig for \nsædceller sjølv om dei er modne / They act on the eggs, making them \nimpenetrable for the spermia, even thoug they ripen normally",
@@ -565,7 +512,6 @@
   {
     "question": "En blodåre har en innsnevring i et kort område. Hva skjer med blodstrømmen i denne \ninnsnevringen? / Ein blodåre har ei innsnevring i et kort område. Kva skjer med \nblodstraumen i denne innsnevringa? / A blood vessel has a narrowing in a short segment. \nWhat happens to the blood flow in this narrow segment?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Blodstrømshastigheten øker / Blodstraumshastigheten auker / The blood velocity \nincreases",
       "Blodstrømshastigheten avtar / Blodstraumshastigheten avtek / The blood velocity \ndecreases",
@@ -576,7 +522,6 @@
   {
     "question": "Hva er de viktigste regulatorer for ventilasjonen under basalbetingelser? / Kva er \ndei viktigaste regulatorane for ventilasjonen ved basalbetingelser? / What is the main \nregulators of ventilation during basal conditions?",
     "answers": [0],
-    "exam": ".*",
     "options": ["CO 2 + pH", "CO 2 + CO", "O 2 + pH", "CO 2 + O 2"]
   }
 ]

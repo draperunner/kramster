@@ -2,7 +2,6 @@
   {
     "question": "Hvilken tjeneste/applikasjon på Internett krever vanligvis IKKE lav tidsforsinkelse?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "On-demand Video.",
       "Interaktiv audio og video.",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilket alternativ er IKKE en del av fossefallsmetoden?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Kravanalyse og definisjon",
       "System- og programvaretesting",
@@ -24,7 +22,6 @@
   {
     "question": "For et problem av størrelsen n finnes fire algoritmer med forskjellig tids-kompleksitet. Hvilken vil bruke lengst tid (i verste fall) på store problemer?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "O(1) (konstant tid)",
       "O(n) (lineær tid)",
@@ -35,7 +32,6 @@
   {
     "question": "Ifølge Nyquist-regelen er samplefrekvensen for lyd",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "halvparten av de frekvensene et menneske kan høre",
       "den samme som de frekvensene et menneske kan høre",
@@ -46,7 +42,6 @@
   {
     "question": "Hva er en protokoll?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "En definisjon av hva datakommunikasjon er",
       "Et sett med regler som gjør det mulig for to datamaskiner å kommunisere",
@@ -57,7 +52,6 @@
   {
     "question": "Den riktige rekkefølgen fra minst til størst er",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "giga, kilo, mega, tera",
       "kilo, mega, giga, tera",
@@ -68,7 +62,6 @@
   {
     "question": "Gitt følgende funksjon:<br /><pre><code>def funksjon(n):<br />    if n < 0:<br />        return n + funksjon(n+1)<br />    else if n > 0:<br />        return n + funksjon(n-1)<br />    else:<br />        return 0</code></pre><br />Hva kalles den kodeblokken som kjøres hvis n==0?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "rekursiv del (recursive case)",
       "iterasjonsdel (iterative case)",
@@ -79,7 +72,6 @@
   {
     "question": "ALU brukes i",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Instruction Fetch",
       "Instruction Execution",
@@ -90,13 +82,11 @@
   {
     "question": "Hvilken av disse forkortelsene er en kjent prosessmodell innen systemutvikling",
     "answers": [2],
-    "exam": ".*",
     "options": ["SCRUP", "UTML", "RUP", "RAM"]
   },
   {
     "question": "En digital-til-analog konverterer (DAC)",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Endrer digital informasjon til analog",
       "Konverterer kontinuerlig lyd til digital lyd",
@@ -107,13 +97,11 @@
   {
     "question": "Hvilket av de følgende er ikke et høy-nivå språk?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Java", "C", "Assembly", "Visual Basic"]
   },
   {
     "question": "Når er et sekvensielt søk effektivt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Når datamengden er sortert",
       "Når dataene er tall",
@@ -124,13 +112,11 @@
   {
     "question": "Sangen «A little bit» er 3 minutter og 47 sekunder lang. Hvor mange bit trengs for å lagre den i stereo på en vanlig musikk-CD?",
     "answers": [3],
-    "exam": ".*",
     "options": ["1 411 200", "40 042 800", "84 672 000", "320 342 400"]
   },
   {
     "question": "Hva er VPN?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En metode som brukes for å oversette logiske navn til et IP-nummer",
       "En del av TCP/IP spesifikasjonen",
@@ -141,7 +127,6 @@
   {
     "question": "En router er",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "en datamaskin som forbinder flere nettverk",
       "et program som sender informasjonspakker mellom 2 datamaskiner",
@@ -152,7 +137,6 @@
   {
     "question": "Gitt navnelisten «Alice, Byron, Carol, Duane, Elaine, Floyd, Gene, Henry, Iris». Hvilken søkealgoritme vil finne Carol først (gjøre færrest sammenligninger)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Binærsøk",
       "Sekvensielt søk",
@@ -163,7 +147,6 @@
   {
     "question": "En byte hukommelse kan lagre",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "ett av 1024 forskjellige tall",
       "et ord",
@@ -174,13 +157,11 @@
   {
     "question": "Hvor mange steg er det i Fetch/Execute syklusen",
     "answers": [2],
-    "exam": ".*",
     "options": ["3", "4", "5", "6"]
   },
   {
     "question": "Programtelleren endres direkte av instruksjoner som kalles",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Add and Multiply",
       "Branch and Jump",
@@ -191,13 +172,11 @@
   {
     "question": "Hvordan representeres det heksadesimale tallet A8 binært?",
     "answers": [0],
-    "exam": ".*",
     "options": ["10101000", "10010100", "11001000", "10001100"]
   },
   {
     "question": "Forkortelsen DDOS i pensum står for",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Digital Disk Operating System",
       "Double Density Optical Storage",
@@ -208,7 +187,6 @@
   {
     "question": "Hovedforskjellen mellom Boehm sin spiralmodell for programvareutvikling og andre, tidligere prosessmodeller var",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "eksplisitt fokus på analyse og håndtering av risiko",
       "eksplisitt fokus på arbeidsmiljøet i programvarebedriftene",
@@ -219,7 +197,6 @@
   {
     "question": "Person A skal sende en konfidensiell melding til person B. Hva slags krypteringsnøkler skal i så fall brukes?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "A krypterer med A sin private nøkkel, B dekrypterer med A sin offentlige nøkkel",
       "A krypterer med B sin private nøkkel, B dekrypterer med A sin offentlige nøkkel",
@@ -230,7 +207,6 @@
   {
     "question": "Brannmur (firewall) er en type sikkerhetsteknologi. Hva er den mest korrekte og relevante påstanden når det gjelder brannmurer og trusler fra såkalte trojanske hester (\"Trojan Horses\")?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Brannmurer kan verne mot trojanske hester ved å hindre uventet internett-trafikk fra utsida og inn til et system.",
       "Brannmurer kan verne mot trojanske hester ved å hindre uventet trafikk fra innsiden og ut til internett.",
@@ -241,7 +217,6 @@
   {
     "question": "Hva er en viktig forskjell mellom systemtesting og akseptansetesting?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Systemtesting fokuserer på å finne feil i et program, mens akseptansetesting fokuserer på de delene som fungerer.",
       "Systemtesting bruker gjerne oppkonstruerte testdata mens akseptansetesting bruker data fra kunden som skal ha systemet.",

@@ -2,7 +2,6 @@
   {
     "question": "Helsepsykologi kjennetegnes ved at den er",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Dualistisk",
       "At den er mer opptatt av psykologi enn helse",
@@ -13,7 +12,6 @@
   {
     "question": "... er en relativt stabil disposisjon knyttet til spesielle atferdsmessige mønster (Epstein 1977). Er definisjon av ...",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En disposisjon for utvikling av positiv helseatferd",
       "Disposisjonen for et sykdomsfremkallende trekk, Type C",
@@ -24,7 +22,6 @@
   {
     "question": "Med en bio-psyko-sosial helsemodell menes:",
     "answers": [2],
-    "exam": "2009",
     "options": [
       "En modell for helseutvikling som også tar inn verdien og påvirkningen av bioenergi",
       "En modell for å måle helseutvikling ved hjelp av biometriske-psykometriske- og sosiometriske modeller",
@@ -35,7 +32,6 @@
   {
     "question": "I psykosomatikk og helsepsykologi benyttes ulike metoder og instrumenter for å samle inn data om ulike forskjeller eller sammenhenger. En sier at en slik metode er valid når den:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Måler eksakt det samme fra gang til gang",
       "Måler eksakt det en ønsker å måle",
@@ -46,7 +42,6 @@
   {
     "question": "Lazarus og Selye er kjent for sine teorier om...",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Sammensatt sykdomsutvikling",
       "Livskvalitet",
@@ -57,7 +52,6 @@
   {
     "question": "Type A atferdsmønster er blitt forbundet med utviklingen av en bestemt sykdom. Det er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Sukkersyke",
       "Obstruktive lungelidelser",
@@ -68,13 +62,11 @@
   {
     "question": "I hvilken landsdel i Norge er selvmordsforekomsten lavest?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Nord-Norge", "Midt-Norge", "Vestlandet", "Sørøstlandet"]
   },
   {
     "question": "I Oslo har det ofte tidligere vært snakk om at forventet levetid er høyere vest i byen enn øst i byen. I de nyeste undersøkelsene viser det seg at nå er dette slik at:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Det fortsatt er slik",
       "Dette er blitt helt motsatt",
@@ -85,7 +77,6 @@
   {
     "question": "Er det farlig å snakke om selvmord?",
     "answers": [2],
-    "exam": "2009",
     "options": [
       "Ja",
       "Nei",
@@ -96,7 +87,6 @@
   {
     "question": "Det synspunkt at menneskelige fenomener (som for eksempel ærlighet og depresjon) er grunnleggende sett det samme (kvalitativt) i alle kulturer kalles:",
     "answers": [3],
-    "exam": "2009",
     "options": [
       "Absolutisme",
       "Relativisme",
@@ -107,7 +97,6 @@
   {
     "question": "En person med Type B atferdsmønster",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lar seg veldig lett hisse opp",
       "Tar livet som det kommer, og lar seg flyte med livsstrømmen",
@@ -118,7 +107,6 @@
   {
     "question": "En kultur der sykdom blir sett på som forårsaket av faktorer i det enkelte individ kalles:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Kollektivistisk",
       "Individualistisk",
@@ -129,7 +117,6 @@
   {
     "question": "Det finnes ulike sykdoms- og helsemodeller. Helsepsykologer og forskere som arbeider med psykosomatikk benytter seg vanligvis av den mest moderne av disse modellene og den kalles for",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bio-medisinsk helsemodell",
       "Bio-holistisk helsemodell",
@@ -140,7 +127,6 @@
   {
     "question": "Livskvalitet er et lett forståelig begrep. Er det også lett å måle i vitenskapelige studier? Ett av svaralternativene nedenfor er riktig. Hvilket?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ja, livskvalitet har en entydig definisjon og er enkelt å måle",
       "Ja, livskvalitet er enkelt å måle fordi begrepet er endimensjonalt",
@@ -151,7 +137,6 @@
   {
     "question": "«Det generelle adapsjonssyndromet» (GAS) som begrep",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Stammer fra den Engels generelle teori om hvordan sykdom utvikles",
       "Stammer fra Selyes beskrivelse av reaksjoner på stress",
@@ -162,13 +147,11 @@
   {
     "question": "Hvem regnes som Utbrenthetsbegrepets «far» og skrev de første artiklene?",
     "answers": [1],
-    "exam": "2009",
     "options": ["Freud", "Freudenberger", "Farber", "French"]
   },
   {
     "question": "Utbrenthet skiller seg fra andre begrep som depresjon og stress fordi:",
     "answers": [2],
-    "exam": "2009",
     "options": [
       "Utbrenthet er smittsomt",
       "Utbrenthet rammer bare folk i toppjobber",
@@ -179,7 +162,6 @@
   {
     "question": "Den mest anerkjente og brukte definisjonen på utbrenthet er laget av Maslach. Hun deler utbrenthet inn i:",
     "answers": [2],
-    "exam": "2009",
     "options": [
       "En dimensjon",
       "To dimensjoner",
@@ -190,7 +172,6 @@
   {
     "question": "Nyere oppsummering av forskningsstatus vedrørende strategier for reduksjon av alkoholrelaterte skader i samfunnet viser at en strategi som har høy grad av effekt er:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Alkoholopplysning i skolen",
       "Selvhjelpsgrupper",
@@ -201,7 +182,6 @@
   {
     "question": "Totalforbruksteorien handler om",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Totalforbruket er den dominerende faktor som styrer alkoholskadenes omfang i samfunnet, men ikke den eneste faktor",
       "Totalforbruket er den eneste faktor som styrer alkoholskadenes omfang i samfunnet",
@@ -212,13 +192,11 @@
   {
     "question": "Hvilke av personlighetstrekkene nedenfor er sterkest relatert til rapportering av symptomer",
     "answers": [0],
-    "exam": ".*",
     "options": ["Nevrotisisme", "Introversjon", "Åpenhet", "Planmessighet"]
   },
   {
     "question": "Hva kjennetegner, i følge Friedman og kolleger, personer som lever lenge?",
     "answers": [2],
-    "exam": "2009",
     "options": [
       "De er optimistiske og planmessige",
       "De skårer lavt på nevrotisisme og lavt på medmenneskelighet",
@@ -229,7 +207,6 @@
   {
     "question": "Med forkortningen BMI",
     "answers": [0],
-    "exam": "2009",
     "options": [
       "Mener vi vanligvis Body Mass Index",
       "Mener vi forholdet mellom hofte og mageomkrets",
@@ -240,7 +217,6 @@
   {
     "question": "Innen medisin og sykepleie defineres «livskvalitet» som:",
     "answers": [1],
-    "exam": "2009",
     "options": [
       "Lykke",
       "Helse og velvære",
@@ -251,7 +227,6 @@
   {
     "question": "Livskvalitet måles oftest ved hjelp av:",
     "answers": [0],
-    "exam": "2009",
     "options": [
       "Selvrapportering",
       "Helsepersonells vurdering",
@@ -262,7 +237,6 @@
   {
     "question": "De fleste som må fjerne livmoren lider av:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Kreft",
       "Smerter og store blødninger",
@@ -273,7 +247,6 @@
   {
     "question": "De fleste «cancer survivors» opplever en god livskvalitet fordi:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Behandling av kreft ikke gir noen komplikasjoner",
       "Oppfatningen av hva som er viktig i livet endres",
@@ -284,7 +257,6 @@
   {
     "question": "Det finnes forskjellige risikofaktorer knyttet til enkeltindividers helseutvikling i vestlige land i dag. Hvilken blir vurdert til å være den skumleste i nær fremtid?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "At nedgangen i røyking skal bli til en utvikling der mennesker foretrekker snus og med de skadevirkninger det kan få",
       "Miljøtrusselen",
@@ -295,7 +267,6 @@
   {
     "question": "Et måleinstrument med høy reliabilitet er",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Et instrument som er relativt nøyaktig",
       "Et instrument som måler det en ønsker å måle med stor grad av nøyaktighet",

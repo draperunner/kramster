@@ -2,7 +2,6 @@
   {
     "question": "Porter (1980) bruker begrepene innovation leadership og innovation followership. Hva legger han i dette?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Man må lede innovasjonsutviklingen, man kan ikke følge etter andre.",
       "Man vil spare mye ressurser på å følge etter first movers.",
@@ -13,7 +12,6 @@
   {
     "question": "Teese og Pisano (1994) bruker begrepet dynamiske kapabiliteter. Hvilke kriterier mener de må ligge til grunn for at kapabilitetene kan omtales som strategiske?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "De må være dynamiske, de må være verdifulle for bedriften og de må være skalerbare.",
       "De må være dynamiske og vanskelig å kopiere.",
@@ -24,7 +22,6 @@
   {
     "question": "Hamel og Prahalad (1990) sine ideer om kjernekompetanse kan oppsummeres slik:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "1. Varig konkurransekraft ligger i bedriftens kjernekompetanse. 2. Kjernekompetansen brukes i flere produkter. 3. Organisatorisk kompetanse er vesentlig. 4. Kjernekompetanse krever fokus. 5. Bedrifter kan ses på som en samling av kompetanse.",
       "Én kjernekompetanse – ett produkt",
@@ -35,7 +32,6 @@
   {
     "question": "Hvilken av følgende påstander om mulighetsanalyser av teknologibaserte forretningsideer er mest korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Mulighetsanalyser er en fullstendig og gjennomgripende gjennomgang av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
       "Mulighetsanalyser innebærer en innledende vurdering av tekniske, markedmessige, økonomiske og organisatoriske forhold.",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken av følgende påstander om innovasjon er mest korrekt:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Vi må unngå at andre profiterer på våre oppfinnelser og må kontrollere alle intellektuelle rettigheter selv.",
       "Bedrifter som har egen forskning og utvikling er best på innovasjon.",
@@ -57,7 +52,6 @@
   {
     "question": "Tidd og Bessant (2009) beskriver to ytterpunkter for hvordan man kan organisere innovasjon (R&D) globalt. Hvilke?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Innkjøp eller internt.",
       "Sammen med global partner eller internt.",
@@ -68,7 +62,6 @@
   {
     "question": "Hvilken av følgende påstander om innovative løsninger er mest korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I store selskaper er forskningsavdelingene den viktigste kilden til nye og innovative løsninger.",
       "Eksisterende brukere/kunder er for mange bedrifter den viktigste kilden til innovasjon.",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken av påstandene står i konflikt med en åpen innovasjon tilnærming?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Man oppnår alltid god lønnsomhet fra forskning og utvikling dersom bedriften oppdager og utvikler løsningen selv.",
       "Det er bedre å utvikle en robust forretningsmodell enn å komme ut i markedet først.",
@@ -90,7 +82,6 @@
   {
     "question": "Prahalad (2006) bruker begrepet bottom of the pyramid (BoP Markets). Hva mener han med det?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Ødelagte produkter som selges dumpes til lave priser.",
       "Marked bestående av populasjon som lever under fattigdomsgrensen.",
@@ -101,7 +92,6 @@
   {
     "question": "I boken til Tidd og Bessant (2009) brukes begrepene exploitation og exploration. Hva mener de med dem?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Exploitation handler om å bruke og videreutvikle de ressursene de har, mens exploration handler om å ta i bruk ressurser som ligger utenfor deres domene.",
       "Exploitation handler om å bruke sjeldne ressurser, mens exploration handler om å kombinere sjeldne ressurser.",
@@ -112,7 +102,6 @@
   {
     "question": "Tidd og Bessant (2009) deler ledelse av risiko inn i tre kategorier. Hvilke?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "1. Risiko knyttet til markedsadopsjon, 2. Risiko knyttet til produksjon og 3. Risko knyttet til logistikk.",
       "1. Estimering av teknisk og kommersiell suksess, 2. Psykologisk og sosiologisk persepsjon av risiko og 3. Politisk influering",
@@ -123,7 +112,6 @@
   {
     "question": "Hva er en Business Angel?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En privatperson som spesialiserer seg på å redde bedrifter fra konkurs",
       "En person som bruker private midler, og som investerer penger i tidlig. fase bedrifter, og som ønsker størst mulig avkastning på investeringen.",
@@ -134,7 +122,6 @@
   {
     "question": "Hva er rekkefølgen (fra først til sist) på når disse aktørene normalt investerer?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Venturekapital fond, såkornfond, Business Angels, gründer, familie og venner",
       "Gründer, familie og venner, Business Angels, såkornfond, venturekapital fond",
@@ -145,7 +132,6 @@
   {
     "question": "I følge Mitchell og Hamilton (1988) er det tre overlappende kategorier av innovasjon som store bedrifter må finansiere. Hvilke?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "1. Produktinnovasjon, 2. Markedsinnovasjon og 3. Organisasjonsinnovasjon.",
       "1. Markedsinnovasjon, 2. Markedsinnovasjon og 3. Markedsinnovasjon.",
@@ -156,7 +142,6 @@
   {
     "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter er mest korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I tidlig fase vil bankene alltid være den viktigste finansieringskilden.",
       "I Norge er finansiering sjelden et problem siden vi har så gode offentlige virkemidler.",
@@ -167,7 +152,6 @@
   {
     "question": "Hva er spesielt med Watson (2008; K1) sin definisjon av en organisasjon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Den anerkjenner interessemotsetninger og maktstrukturer.",
       "Den forutsetter økonomisk rasjonelle aktører.",
@@ -178,7 +162,6 @@
   {
     "question": "Ifølge Watson (2006; K2), så kan ledelse (management) forstås i tre dimensjoner. Dimensjonene er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Formell rolle (position), uformell rolle (role) og funksjon (function).",
       "Ferdigheter (skills), karisma (charisma) og autoritet (authority).",
@@ -189,7 +172,6 @@
   {
     "question": "Hvilken av disse egenskapene er ikke et kjennetegn ved et idealbyråkrati?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Formalisering av prosedyrer for beslutninger.",
       "Det er et skarpt skille mellom de som tenker (ledere) og de som utfører (arbeidere).",
@@ -200,7 +182,6 @@
   {
     "question": "Hva mener Tidd og Bessant (2009) med organisatorisk treghet (inertia)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At organisatoriske aktører utvikler en rekke kognitive, adferdsmessige og sosiale strukturer som bidrar til å opprettholde status quo.",
       "At store organisasjoner (med større masse) har vanskeligere for å endre seg enn små organisasjoner (med mindre masse).",
@@ -211,7 +192,6 @@
   {
     "question": "Ifølge et prosess-relasjonelt syn på ledelse (Watson 2006; K2), hvilke av disse egenskapene eller ferdighetene er viktigst for å lykkes som leder:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "At man behersker grunnleggende ledelsesteori og kan diskutere ledelsesfag på en presis måte med kollegaer og underordnede.",
       "Å kunne anvende teknisk kunnskap på en intelligent og nøytral måte.",
@@ -222,7 +202,6 @@
   {
     "question": "Hvilken av de følgende komponentene blir ikke fremhevet av Tidd og Bessant (2009) som et kjennetegn på en innovativ organisasjon?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Effektivt teamarbeid.",
       "Kreativt klima.",
@@ -233,7 +212,6 @@
   {
     "question": "Hvilken av disse ledelsesstrategiene er et eksempel på indirekte kontroll (Watson 2006; K3)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Kameraovervåkning på arbeidsplassen.",
       "Standardisering av arbeidsprosesser.",
@@ -244,7 +222,6 @@
   {
     "question": "Hva ligger i Watson (2006; K3) sitt begrep om ansattes implisitt forståtte kontrakt (employees' perceived implicit contract)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Hvordan den ansatte vurderer forholdet mellom det han bidrar med til organisasjonen og hva han får igjen.",
       "Avtalen som juridisk regulerer arbeidstakers plikter og rettigheter.",
@@ -255,7 +232,6 @@
   {
     "question": "Hvilke av disse påstandene om detaljert arbeidsdeling (Watson 2006; K3) er ikke riktig?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Detaljert arbeidsdeling fører til spesialisering og dermed som oftest til økt produktivitet.",
       "Detaljert arbeidsdeling gjør i mange tilfeller at man kan erstatte faglærte arbeidstakere med ufaglærte. Dermed kan lønnskostnader reduseres.",
@@ -266,7 +242,6 @@
   {
     "question": "Hva er den prinsipielle positive sammenhengen mellom teamorganisering og organisasjons innovasjonsevne (Tidd og Bessant 2009)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Team jobber mer effektivt enn enkeltpersoner hver for seg. Dermed går det raskere for organisasjonen å få nye produkter til markedet.",
       "Team bringer sammen ulike personer med ulike perspektiver. Kombinasjonen av ulike perspektiver muliggjør kreativ og innovativ problemløsning.",
@@ -277,7 +252,6 @@
   {
     "question": "Hva kaller Nonaka de fire formene for spredning/omforming til og fra taus og eksplisitt kunnskap?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Integrering, Eksternalisering, Sosialisering, Kalibrering",
       "Internalisering, Eksternalisering, Sosialisering, Kombinering",
@@ -288,7 +262,6 @@
   {
     "question": "Hvilket begrep er ikke et av de fem typer (eller former) for kunnskap i Blacklers typologi?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Encoded knowledge",
       "Embrained knowledge",
@@ -299,7 +272,6 @@
   {
     "question": "På hvilken måte fungerer praksisfellsskap (community of practice) som nettverk for kunnskapsspredning?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Gjennom at prosjektgrupper utvikler og vedlikeholder en felles IKT-basert erfaringsdatabase",
       "Gjennom at folk som jobber med likeartede arbeidsoppgaver deler relevant arbeidserfaring gjennom uformell kommunikasjon",
@@ -310,7 +282,6 @@
   {
     "question": "Hva er et grenseobjekt (boundary object)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Objekter som kommuniserer på tvers av ulike praksisfellesskap eller kunnskapsområder",
       "Et kamera som automatisk registrerer avvik fra produksjonsnormer",
@@ -321,7 +292,6 @@
   {
     "question": "Hvilken tilnærming til KM sammenfaller mest med et objektivistisk kunnskapssyn?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Fasilitere utvikling og spredning av historier",
       "Arbeide med å utvikle mellommenneskelige relasjoner og samspill",
@@ -332,7 +302,6 @@
   {
     "question": "Hvilken av påstandene under er korrekt om konseptet discontinuities?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Discontinuities representerer brudd med tidligere teknologi",
       "Discontinuities gir større rom for innovativ virksomhet",
@@ -343,7 +312,6 @@
   {
     "question": "Hvilket av følgende prosjekter har minst bruk for de unike egenskapene i en velfungerende tverrfaglig arbeidsgruppe?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Planleggingsfasen av et byggeprosjekt der typen bygg er velkjent",
       "Planleggingsfasen av UKA11",
@@ -354,7 +322,6 @@
   {
     "question": "Tidd & Besant (kap 6) nevner mange barrierer (tabell 6.3) som hindrer bygging av innovasjonsnettverk, men en av de fire under nevnes ikke i pensum. Hvilken?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Geografisk avstand kan gjøre det vanskelig å vurdere partnere",
       "Økonomiske problemer gjør at indre forhold prioriteres fremfor nettverksbygging",
@@ -365,7 +332,6 @@
   {
     "question": "Embeddedness er et sentralt konsept i K4 (Technology and Business Networks av Ford et al). En av påstandene under om embeddedness er ikke korrekt i følge pensum. Hvilken?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Embeddedness refererer til de mange koblingene (connections) mellom et teknologisk utviklingsprosjekt og omgivelsene",
       "For å håndtere embeddeness har ledere to hovedstrategier, å fokusere på en eller noen få koblinger, eller å interagere med andre bedrifter i prosessen",
@@ -376,7 +342,6 @@
   {
     "question": "K4 diskuterer hvordan bedrifter organiserer sitt samarbeid med andre bedrifter. En av følgende fire påstander om slik organisering er ikke i samsvar med forskning presentert i pensum. Hvilken?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Forskning viser at forskningsinstitutter og universiteter er den vanligste samarbeidspartneren til bedrifter i utviklingsprosjekter",
       "Forskning viser at vi kan dele bedrifters samarbeidsmønster inn i tre hovedgrupper; isolerte selskaper, fokuserte selskaper og selskaper med bredt samarbeidsmønster",
@@ -387,13 +352,11 @@
   {
     "question": "Et verdipapir gir 100 kroner om ett år og så 5 % mer, dvs. 105 kroner, om to år og så 5 % mer for hvert år til evig tid. Hva er verdien av verdipapiret nå, dersom avkastningskravet er 6 %?",
     "answers": [1],
-    "exam": ".*",
     "options": ["1 000", "10 000", "100 000", "1 000 000"]
   },
   {
     "question": "Vi kan skrive   førsteordensbetingelsen for maksimal profitt som <math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></math>, der <math><mi>P</mi></math> er prisen, <math><mi>MC</mi></math> er (grense- eller) marginalkostnaden og <math><mi>e</mi></math> er etterspørselselastisiteten. Dersom vi har et frikonkurransemarked kan betingelsen forenkles. Hvordan ser den ut da?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mn>1</mn></math>",
       "<math><mi>MC</mi><mo>=</mo><mi>e</mi></math>",
@@ -404,7 +367,6 @@
   {
     "question": "Etterspørselen etter et gode er gitt ved <math><mi>Q</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>P</mi></math> der <math><mi>Q</mi></math> er mengden, <math><mi>P</mi></math> er prisen og <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter. Dersom vi definerer etterspørselselastisiteten slik at førsteordensbetingelsen for maksimal profitt kan skrives som <math><mfrac><mrow><mi>P</mi><mo>-</mo><mi>MC</mi></mrow><mi>P</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></math>, der <math><mi>P</mi></math> er prisen, <math><mi>MC</mi></math> er (grense- eller) marginalkostnaden og <math><mi>e</mi></math> er etterspørselselastisiteten, hva blir etterspørselselastisiteten til godet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mn>1</mn></math>",
       "<math><mo>-</mo><mn>1</mn></math>",
@@ -415,7 +377,6 @@
   {
     "question": "Marginalinntekten (også kalt grenseinntekten) kan dekomponeres i to deler der den ene uttrykker inntekten ved å selge en enhet ekstra og den andre uttrykker effekten av tilhørende prisendring. La <math><mi>Q</mi></math> være mengden og <math><mi>P</mi></math> prisen. Hva er de matematiske uttrykkene for de to delene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mi>Q</mi><mfrac><mrow><mi>dP</mi></mrow><mrow><mi>dQ</mi></mrow></mfrac></math> og <math><mi>P</mi></math>",
       "<math><mi>Q</mi><mfrac><mrow><mi>dP</mi></mrow><mrow><mi>dQ</mi></mrow></mfrac></math> og <math><mi>Q</mi></math>",
@@ -426,25 +387,21 @@
   {
     "question": "Hvilken av de fire figurene under viser en mulig kombinasjon av marginalkostnader (også kalt grensekostnader), MC, og gjennomsnittskostnader (også kalt enhetskostnader), AC?\n<img src=\"images/yt4twm.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": ["A", "B", "C", "D"]
   },
   {
     "question": "Nåværende pris på aksjene til selskapet X er 100. Tabellen under gir data på mulige priser på slutten av året avhengig av hvilken tilstand økonomien er i. Beregn forventet avkastning for aksjen.\n<img src=\"images/r66ti9.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": ["10 %", "15 %", "20 %", "40 %"]
   },
   {
     "question": "Beta for en risikofri portefølje er:",
     "answers": [0],
-    "exam": ".*",
     "options": ["0", "0,5", "1,0", "-1,0"]
   },
   {
     "question": "Markedsrisikopremien er:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Forskjellen mellom avkastningen på en investering og den risikofrie renten.",
       "Forskjellen mellom avkastningen på markedsporteføljen og den risikofrie renten.",
@@ -455,13 +412,11 @@
   {
     "question": "Anta at risikofri rente er 3 % og at forventet markedsavkastning er 8 %. En bedrift har beta for egenkapital på 1,8 og beta for gjeld på 0,6. Hva blir da avkastningskravet til bedriftens totalkapital (WACC) når vi antar at det ikke betales skatt, og gjeldsandelen er 50 %?",
     "answers": [1],
-    "exam": ".*",
     "options": ["8 %", "9 %", "10 %", "11 %"]
   },
   {
     "question": "La verdien av gjeld være <math><mi>D</mi></math>, verdien av egenkapital <math><mi>E</mi></math>, gjeldsavkastningen <math><msub><mi>r</mi><mi>D</mi></msub></math>, egenkapitalrentabiliteten <math><msub><mi>r</mi><mi>E</mi></msub></math> og totalkapitalrentabiliteten <math><msub><mi>r</mi><mi>A</mi></msub></math>. Hva er da et korrekt uttrykk for egenkapitalrentabiliteten?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>A</mi></msub><mo>+</mo><mi>D</mi><mfrac><mrow><msub><mi>r</mi><mi>A</mi></msub><mo>-</mo><msub><mi>r</mi><mi>E</mi></msub></mrow><mrow><mi>D</mi><mo>+</mo><mi>E</mi></mrow></mfrac></math>",
       "<math><msub><mi>r</mi><mi>E</mi></msub><mo>=</mo><msub><mi>r</mi><mi>D</mi></msub><mo>+</mo><mi>D</mi><mfrac><mrow><msub><mi>r</mi><mi>A</mi></msub><mo>-</mo><msub><mi>r</mi><mi>D</mi></msub></mrow><mi>E</mi></mfrac></math>",
@@ -472,7 +427,6 @@
   {
     "question": "Hva er det vanlig å kalle brøken <math><mfrac><mrow><mi>Resultat</mi><mo>+</mo><mi>Rentekostnader</mi></mrow><mrow><mi>Egenkapital</mi><mo>+</mo><mi>Gjeld</mi></mrow></mfrac></math>?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Egenkapitalrentabilitet",
       "Totalkapitalrentabilitet",
@@ -483,13 +437,11 @@
   {
     "question": "I figuren under er MC (grense- eller) marginalkostnader, MR er (grense- eller) marginalinntekt, P(Q) er etterspørsel og Q er mengden. Bokstavene A, B, C, D, E og F skal være lik arealet til områdene de ligger i og som er avgrenset med linjer (stiplet eller ikke stiplet). Hva er et riktig uttrykk for det tapet konsumentene lider på grunn av monopoltilpasning sett i forhold til frikonkurransetilpasning?\n<img src=\"images/ckbp6vy.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": ["C+F", "A+B+C+D+E", "A+D", "A+B+C"]
   },
   {
     "question": "En bedrift har kostnader gitt ved <math><mi>C</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mn>20 000 000</mn><mo>+</mo><mi>Q</mi><mo>+</mo><mn>0.01</mn><msup><mi>Q</mi><mn>2</mn></msup></math>, der <math><mi>Q</mi></math> er mengden per periode. Bedriften selger produktet sitt i et frikonkurransemarked der prisen er <math><mn>1001</mn></math> per enhet. Hva blir optimal mengde for bedriften?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mn>20 000</mn></math>",
       "<math><mn>30 000</mn></math>",
@@ -500,7 +452,6 @@
   {
     "question": "Et oljeselskap vurderer om de skal borre på et felt. Alternativkostnaden til kapital i denne bransjen er 10 %. Det er 20 % sannsynlighet for at brønnen er tørr og den vil da gi null inntekt. Det er 80 % sannsynlighet for at den inneholder olje. Da er nettoinntekten, dvs. inntekt etter driftskostnader og skatt, 1 000 pr år i 20 år. Det går ett år fra de starter å borre til brønnen eventuelt produserer olje. Kostnaden for å borre brønnen er 5 000. Hva er et korrekt uttrykk for forventet nettonåverdi av å borre en brønn?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mo>-</mo><mn>5000</mn><mo>+</mo><mn>800</mn><mo>[</mo><mfrac><mn>1</mn><mn>0.1</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><msup><mn>1.1</mn><mn>20</mn></msup></mfrac><mo>&#x22C5;</mo><mfrac><mn>1</mn><mn>1.1</mn></mfrac><mo>]</mo></math>",
       "<math><mo>-</mo><mn>0.8</mn><mo>&#x22C5;</mo><mn>5000</mn><mo>+</mo><mn>800</mn><mo>[</mo><mfrac><mn>1</mn><mn>0.1</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><msup><mn>1.1</mn><mn>20</mn></msup></mfrac><mo>&#x22C5;</mo><mfrac><mn>1</mn><mn>1.1</mn></mfrac><mo>]</mo></math>",
@@ -511,7 +462,6 @@
   {
     "question": "Beta for et selskaps aktiva er 2. Beta for egenkapitalen er 3,5. Markedsverdien for gjeld er 50 % av markedsverdien til selskapets aktiva. Hva er beta for selskapets gjeld?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0", "0,5", "1,0", "1,5"]
   }
 ]

@@ -2,7 +2,6 @@
   {
     "question": "Hva betyr det når du beregner et 95 % konfidensintervall?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "95 av 100 konfidensintervall beregnet på den samme måten vil inneholde den sanne verdien",
       "du kan være 95 % sikker på at intervallet inkluderer den sanne verdien",
@@ -13,7 +12,6 @@
   {
     "question": "Hva ville skje med intervallet dersom du beregnet et 99 % konfidensintervall i stedet for et 95 % konfidensintervall (og alt annet er likt)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "det vil bli smalere",
       "det vil ikke endres",
@@ -24,7 +22,6 @@
   {
     "question": "Når utvalgsstørrelsen øker, hva skjer som oftest med konfidensintervallet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "det blir mer presist",
       "det blir smalere",
@@ -35,7 +32,6 @@
   {
     "question": "Standardavviket til en fordeling representerer:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "feilkilder i målingen",
       "spredning av verdier rundt et gjennomsnitt",
@@ -46,7 +42,6 @@
   {
     "question": "Den enkeltverdien som best representerer alle de andre verdiene i en fordeling defineres som:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "sentraltendens",
       "standardavvik",
@@ -57,7 +52,6 @@
   {
     "question": "I en kji-kvadrattest ser man på sammenhengen mellom:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "to kontinuerlige variabler",
       "to kategoriske variabler",
@@ -68,7 +62,6 @@
   {
     "question": "I en kji-kvadrattest sammenligner man forskjellen mellom:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "forventet verdi og et felles gjennomsnitt",
       "forventet verdi og variansen i gruppene",
@@ -79,13 +72,11 @@
   {
     "question": "<img src=\"images/a819ci.webp\"/>\nHvor stort er effektmålet i denne studien?",
     "answers": [1],
-    "exam": ".*",
     "options": ["7,15798", "1,57692", "2,96897", "det er ikke oppgitt"]
   },
   {
     "question": "<img src=\"images/8r6ysg.webp\"/>\nHer er forskjellen i gjennomsnitt 1,58 og 95% konfidensintervall går fra 0,18 til 2,97. Hva betyr dette?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "1,58 ligger innenfor konfidensintervallet og forskjellen er ikke statistisk signifikant",
       "statistisk signifikans kan ikke bestemmes uten å vite p-verdien",
@@ -96,7 +87,6 @@
   {
     "question": "Hva er en ratio?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "et tall minus et annet tall",
       "et tall pluss et annet tall",
@@ -107,7 +97,6 @@
   {
     "question": "Hva er nullverdien til en relativ risiko (verdien som indikerer ingen sammenheng)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "den har ingen nullverdi",
       "nullverdien er 1 (én)",
@@ -118,7 +107,6 @@
   {
     "question": "Dersom vi vil sammenligne gjennomsnittet mellom flere enn to grupper er det nødvendig å gjøre en\nvariansanalyse (ANOVA). Hvilket forhold indikerer at det er en forskjell i gjennomsnitt i en slik analyse?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "dersom variasjonen mellom gruppene er større enn variasjonen innen gruppene",
       "dersom variasjonen innen gruppene er større enn variasjonen mellom gruppene",
@@ -129,7 +117,6 @@
   {
     "question": "I tillegg til normalfordelte data er det en annen forutsetning som gjelder for t-tester og ANOVA-tester; hvilken?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "at gruppene som sammenlignes skal være like store",
       "at gruppene som sammenlignes skal ha forskjellig gjennomsnitt",

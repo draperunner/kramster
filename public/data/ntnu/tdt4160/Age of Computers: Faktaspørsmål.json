@@ -2,7 +2,6 @@
   {
     "question": "Hvilke hoveddeler består en datamaskin av?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "I/O, lager og prosessoren",
       "Lager, prosessoren og CPU",
@@ -13,7 +12,6 @@
   {
     "question": "Hva er det som er så spesielt med en mikroprosessor?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Den er veldig liten",
       "Alle komponentene til CPU-en er på en enkelt brikke.",
@@ -23,7 +21,6 @@
   {
     "question": "Prosessorer er ofte delt opp i to moduler. Hva heter de to modulene?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "kontrollenhet og registfil",
       "kontrollenhet og utførende enhet",

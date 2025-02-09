@@ -2,7 +2,6 @@
   {
     "question": "En mulighetsanalyse bør inneholde ...",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Svært grundige økonomiske analyser slik at man har et godt beslutningsgrunnlag",
       "En innledende vurdering av tekniske, markedsmessige, organisatoriske og økonomiske forhold knyttet til ideen.",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av følgende påstander er korrekt om kunnskapsbaserte bedrifter som har vekstambisjoner?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bedrifter som lykkes godt kommersielt har nesten alltid en ide som kan beskyttes med patenter.",
       "Det beste er å være alene som entreprenør i oppstarten, da har man kontroll på alt og kan rekruttere de menneskene man trenger.",
@@ -24,7 +22,6 @@
   {
     "question": "Venturekapital hevdes å være «smarte penger». Hvilken av fordelene under blir ikke tilbudt av venturekapitalister?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Tilgang til større nettverk",
       "Økt legitimitet",
@@ -35,13 +32,11 @@
   {
     "question": "VRIO-rammeverket forteller oss hvilke egenskaper en ressurs må ha dersom den skal gi mulighet for å skape et vedvarende konkurransefortrinn. Hva står R-en i rammeverket for?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Rare", "Rapid", "Rich", "Real"]
   },
   {
     "question": "Hvilken av følgende påstander om finansiering av kunnskapsbedrifter med vekstpotensial er korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "I tidlig fase vil forretningsbankene som regel være den mest sentrale kilden til finanskapital.",
       "Bankene vil normalt sett ikke engasjere seg med egenkapitalfinansiering til potensielle vekstbedrifter.",
@@ -52,7 +47,6 @@
   {
     "question": "Hvilket av utsagnene er korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I komplementaritetsstadiet i læringslivssyklusen vil det være naturlig for en bedrift å både se etter muligheter for komplementaritet mellom egne produkter og forretningsenheter, og å bygge nettverk med andre bedrifter som kan forsterke verdiløftet til kundene.",
       "I ytelsesstadiet i læringslivssyklusen investerer de fleste bedriftene i å forbedre ytelsen til produktet så raskt som mulig, og ofte er det kun én ytelsesdimensjon som blir målt.",
@@ -63,7 +57,6 @@
   {
     "question": "Hva er de fire grunnleggende utfordringene ved organisasjonsdesign? Velg alternativ D dersom verken A, B eller C er korrekte.",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Å definere arbeidsdelingen, (2) å formalisere arbeidsoppgavene, (3) å motivere de ansatte, (4) å designe kontrollsystemer.",
       "Differensiering, (2) balansering av differensiering og integrering, (3) balansering av sentralisering og desentralisering, (4) balansering av standardisering og gjensidig tilpasning.",
@@ -74,7 +67,6 @@
   {
     "question": "Hvilket av utsagnene er korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En funksjonsstruktur er særlig egnet når ansatte trenger å lære fra hverandre for å bli mer spesialiserte og produktive.",
       "Kontrollproblemer kan oppstå når man produsere mange typer produkter på mange steder. Den vanligste strukturtypen en organisasjon anvender for å håndtere disse problemene er divisjonsstrukturen.",
@@ -85,7 +77,6 @@
   {
     "question": "Hvilket av utsagnene er korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Personer som har en ekstern kontrollplassering (external locus of control) ønsker i større grad enn de med en intern kontrollplassering (internal locus of control) å oppføre seg på en sosialt akseptabelt måte, og følger derfor spesielt med på signaler som indikerer passende eller upassende adferd.",
       "I læreboken nevnes tre primære typer individuelle forskjeller, (1) personlighetsforskjeller, (2) evneforskjeller og (3) preferanseforskjeller.",
@@ -96,7 +87,6 @@
   {
     "question": "Hvilket av utsagnene er korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Den sosiale informasjonsprosesserings-modellen (the social information\nprocessing model) innebefatter både intern og ekstern motivasjon.",
       "Jobberikelse er en form for ekstern motivasjon som kan brukes i flere typer\njobbdesign.",
@@ -107,7 +97,6 @@
   {
     "question": "En bedrift produserer mengden Q. Bedriften har strengt positive variable kostnader og strengt positive faste kostnader. Hva er den mest korrekte tolkningen av det bestemte integralet av marginalkostnadene fra null til Q?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Variable kostnader for mengden Q.",
       "Gjennomsnittskostnader for mengden Q.",
@@ -118,7 +107,6 @@
   {
     "question": "Gjennomsnittskostnadene til en bedrift er 10, mens marginalkostnadene er 12. Hva vil skje med gjennomsnittskostnadene og totalkostnadene ved en (marginal) økning i mengden?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Gjennomsnittskostnadene øker, mens totalkostnadene minker.",
       "Gjennomsnittskostnadene minker, mens totalkostnadene øker.",
@@ -129,7 +117,6 @@
   {
     "question": "Ta utgangspunkt i et monopolmarked med normal etterspørsel slik at det er en negativ sammenheng mellom mengde og pris. Monopolet har strengt positiv marginalinntekt og maksimerer profitt. Hva kan vi da si om relasjonen mellom pris og marginalinntekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Prisen er lik marginalinntekten.",
       "Prisen er mindre enn marginalinntekten.",
@@ -140,7 +127,6 @@
   {
     "question": "Ta utgangspunkt i et marked med normal etterspørsel slik at det er en negativ sammenheng mellom mengde og pris. Hvilke tilstander for etterspørselselastisitet, marginalinntekt og totalinntekt hører sammen?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Absoluttverdien av elastisiteten er større enn 1, marginalinntekten er negativ og totalinntekten er maksimal.",
       "Absoluttverdien av elastisiteten er 1, marginalinntekten er maksimal og totalinntekten er null.",
@@ -151,7 +137,6 @@
   {
     "question": "En bedrift tilpasser seg optimalt i et frikonkurransemarked. Hva kan vi da si generelt om marginalkostnader og fortegnet til profitten for bedriften?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Ved optimal tilpasning er bedriftens marginalkostnader lik prisen i markedet, men vi kan ikke si sikkert om profitten er positiv eller negativ.",
       "Ved optimal tilpasning er bedriftens marginalkostnader lavere enn prisen i markedet, men vi kan ikke si sikkert om profitten er positiv eller negativ.",
@@ -162,13 +147,11 @@
   {
     "question": "Et monopol som har marginalkostnader på 20, har etterspørsel gitt ved 𝑃 = 200 − 0,01𝑄 der 𝑃 er prisen og 𝑄 er mengden. Hvilken mengde vil maksimere monopolets profitt?",
     "answers": [1],
-    "exam": ".*",
     "options": ["4 500", "9 000", "13 500", "18 000"]
   },
   {
     "question": "Som følge av lavere oljepriser reduseres marginalkostnadene og gjennomsnittskostnadene til et monopol som selger til forbrukere. Hva kan vi da forvente om effekten på monopolets profitt og på konsumentoverskuddet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Konsumentoverskuddet påvirkes ikke, og monopolets profitt øker mindre enn reduksjonen i gjennomsnittskostnader ganger produsert mengde før oljeprisnedgangen.",
       "Konsumentoverskuddet går ned, og monopolets profitt øker mindre enn reduksjonen i gjennomsnittskostnader ganger produsert mengde før oljeprisnedgangen.",
@@ -179,7 +162,6 @@
   {
     "question": "Etterspørselen i et duopolmarked der bedriftene opptrer i tråd med Cournot-modellen er gitt ved 𝑃 = 200 − 𝑄 der 𝑃 er prisen og 𝑄 er mengden. Bedriftene har begge konstante marginalkostnader på 𝐶. Hva blir et korrekt uttrykk for total mengde i markedet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mn>200</mn><mo>-</mo><mi>C</mi></mrow><mn>2</mn></mfrac></math>",
       "<math><mi>Q</mi><mo>=</mo><mfrac><mrow><mn>200</mn><mo>-</mo><mi>C</mi></mrow><mn>3</mn></mfrac></math>",
@@ -190,7 +172,6 @@
   {
     "question": "En bedrift finansiert av både egenkapital og gjeld har høyere egenkapitalrentabilitet enn renten på gjeld og renten på gjeld er positiv. Hva kan vi da si om totalkapitalrentabiliteten?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Totalkapitalrentabiliteten er høyere enn egenkapitalrentabiliteten.",
       "Totalkapitalrentabiliteten er lavere enn renten på gjelden.",
@@ -201,7 +182,6 @@
   {
     "question": "En bedrift har ikke varelager. Omløpsmidlene består kun av kontanter. Og kortsiktig gjeld er bare leverandørgjeld. Hva kan vi da si om relasjonen mellom likviditetsgrad 1 (current ratio) og likviditetsgrad 2 (acid test ratio)?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ingenting. Vi må ha mer informasjon for å kunne si noe.",
       "Likviditetsgrad 1 er større enn likviditetsgrad 2.",
@@ -212,7 +192,6 @@
   {
     "question": "Hva er tanken bak bruken av alternativkostnaden til kapital i forbindelse med beregninger av nettonåverdi for investeringsprosjekter?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Det skal sikre at bare prosjekter som alltid vil bidra til positiv profitt for selskapet blir gjennomført.",
       "Det skal sikre at bare prosjekter med høyere avkastning enn forventet avkasting i aksjemarkedet blir gjennomført.",
@@ -223,13 +202,11 @@
   {
     "question": "Nåverdien av 1 000 000 som er forventet å bli mottatt ett år fra i dag, med en diskon- teringsrente på 4 % pr år er nærmest:",
     "answers": [0],
-    "exam": ".*",
     "options": ["961 538", "980 392", "990 099", "1 004 000"]
   },
   {
     "question": "Et produktutviklingsprosjekt er tenkt å gjennomføres i tre faser. Dersom det er vellykket hele veien, forventes det å gi en positiv kontantstrøm på 100 millioner med sannsynlighet 75 % og 50 millioner med sannsynlighet 25 % om tre år. Imidlertid vil det kunne bli avsluttet etter ett eller etter to år. Da blir det ingen kontantstrøm etter tre år. Sannsynligheten for at det avsluttes etter ett år er 20 %. Gitt at det ikke avsluttes da, er sannsynligheten for at det avsluttes etter to år på 30 %. Avkastningskravet er 10 % pr år. Hva er forventet nåverdi av de mulige kontantstrømmene om tre år?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "32,9 millioner",
       "36,8 millioner",
@@ -240,13 +217,11 @@
   {
     "question": "En investor kan kombinere bankinnskudd eller lån til samme rente på 3% med en andel i nøyaktig ett av aksjefondene A, B, C eller D. Tabellen under viser forventet avkastning og risiko målt med standardavvik for fondene.\n<img src=\"images/q94duq.webp\" />\nHvilket av aksjefondene vil investoren velge?",
     "answers": [2],
-    "exam": ".*",
     "options": ["A", "B", "C", "D"]
   },
   {
     "question": "Den andelen av risiko som kan elimineres ved diversifisering kalles:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Unik risiko.",
       "Markedsrisiko.",
@@ -257,7 +232,6 @@
   {
     "question": "Hva er den mest korrekte beskrivelsen av hva investorer forventes å ville oppnå ved diversifisering?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Investorer utnytter diversifisering med sikte på å minimere risiko.",
       "Investorer utnytter diversifisering med sikte på å maksimere risiko.",
@@ -268,13 +242,11 @@
   {
     "question": "Beta til aksjen til et selskap er 1,2. Forventet avkastning i markedet er 7 % og risikofri rente er 2 %. Anta at Capital Asset Pricing Model, dvs. kapitalverdimodellen, er korrekt. Hva er da forventet avkastning til aksjen?",
     "answers": [2],
-    "exam": ".*",
     "options": ["3,0 %", "7,0 %", "8,0 %", "10,4 %"]
   },
   {
     "question": "Hva kan vi si om kapitalmarkedslinjen og verdipapirmarkedslinjen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Kapitalmarkedslinjen og verdipapirmarkedslinjen uttrykker nøyaktig samme sammenheng.",
       "Kapitalmarkedslinjen reflekterer effektive porteføljer når risiko måles ved standardavvik, mens verdipapirmarkedslinjen gjelder også for enkeltinvesteringer når risiko måles med beta.",
@@ -285,13 +257,11 @@
   {
     "question": "Et selskap har gjeld på én milliard med en årlig rente på 3 %. Selskapsskattesatsen er 25 %. Når vi ser bort fra alle andre skatter, hva er skattefordelen av gjeld per år?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0", "7,5 millioner", "30 millioner", "250 millioner"]
   },
   {
     "question": "Investor A vil få utbetalt et stort beløp om ett år. Investor B eier 100 000 aksjer som A har lyst til å overta, men som han ikke ønsker å kjøpe før han får den nevnte utbetalingen. Anta nå at de to investorene inngår en avtale om at A skal kjøpe aksjene fra B om ett år til en pris som spesifiseres i avtalen. Se bort fra risiko i avtaleforholdet – anta at det er helt sikkert at avtalen vil bli gjennomført som spesifisert. Aksjene har beta på 1,5 og har markedsverdi på 200 pr stk. Markedspremien er 5 % og risikofri rente er 2 %. Dersom de to investorene opptrer i tråd med kapitalverdimodellen, CAPM, hvilken pris vil de avtale pr aksje?",
     "answers": [1],
-    "exam": ".*",
     "options": ["200", "204", "214", "219"]
   }
 ]

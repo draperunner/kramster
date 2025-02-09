@@ -2,7 +2,6 @@
   {
     "question": "En rampete måke flyr etter deg og sikter inn en ladning. Du tusler med en konstant hastighet på <math><mn>1.4</mn><mo>&#xA0;</mo><msup><mrow><mi>ms</mi></mrow><mrow><mn>-1</mn></mrow></msup></math>. Måken flyr <math><mn>20</mn></math> m høyere enn deg med en fart på <math><mn>11</mn><mo>&#xA0;</mo><msup><mrow><mi>ms</mi></mrow><mrow><mn>-1</mn></mrow></msup></math> parallelt med bakken og din fartsretning. Hvor langt unna deg (dvs. horisontal avstand) må måken avfyre for at den skal treffe deg? Anta at avføringen har samme startfart som farten til måken, se bort fra luftmotstand og din egen høyde og anta at <math><mi>g</mi><mo>=</mo><mn>9.81</mn><mo>&#xA0;</mo><msup><mrow><mi>ms</mi></mrow><mn>-2</mn></msup></math>.",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>2.8</mn><mi>m</mi></math>",
       "<math><mn>19</mn><mi>m</mi></math>",
@@ -14,7 +13,6 @@
   {
     "question": "Du skal hoppe strikk fra en <math><mn>50</mn></math> m høy heiskran. Strikken har en fjærkonstant på <math><mn>150</mn><mo>&#xA0;</mo><mi>N</mi><msup><mrow><mi>m</mi></mrow><mrow><mn>-1</mn></mrow></msup></math>. Anta at du veier <math><mn>75</mn></math> kg. Hvor lang kan strikken være for at du akkurat skal stoppe rett før du treffer bakken? Anta <math><mi>g</mi><mo>=</mo><mn>9.8</mn><mo>&#xA0;</mo><msup><mrow><mi>ms</mi></mrow><mn>-2</mn></msup></math>.",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<math><mn>7</mn><mi>m</mi></math>",
       "<math><mn>10</mn><mi>m</mi></math>",
@@ -26,7 +24,6 @@
   {
     "question": "To kuler med samme fart <math><mi>v</mi></math> og samme masse <math><mi>m</mi></math> går henholdsvis i <math><mi>x</mi></math>-retning og <math><mi>y</mi></math>-retning. Hva er absoluttverdien til den totale bevegelsesmengden til systemet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>2</mn><mi>m</mi><mi>v</mi></math>",
       "<math><msqrt><mn>2</mn></msqrt><mi>m</mi><mi>v</mi></math>",
@@ -38,7 +35,6 @@
   {
     "question": "En liten kule med masse <math><mi>m</mi></math> som henger i en snor med lengde <math><mi>L</mi></math> som er festet i taket blir trukket ut til siden så den er <math><mfrac><mi>L</mi><mn>2</mn></mfrac></math> høyere enn likevektspunktet og sluppet. Hva er snorkraft i det kula når likevektspunktet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mn>0</mn></math>",
       "<math><mi>m</mi><mi>g</mi></math>",
@@ -50,7 +46,6 @@
   {
     "question": "To fjærer, med fjærkonstantene <math><msub><mi>k</mi>1</msub></math> og <math><msub><mi>k</mi><mn>2</mn></msub></math>, er seriekoblet. Du skal erstatte de to fjærene med én fjær og skape et tilsvarende system med samme effektive fjærkonstant. Hvilken fjærkonstant skal den nye fjæren ha?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub></math>",
       "<math><msub><mi>k</mi><mn>1</mn></msub><mo>-</mo><msub><mi>k</mi><mn>2</mn></msub></math>",
@@ -62,7 +57,6 @@
   {
     "question": "Anta at vi har en tynn stang med lengde <math><mi>L</mi></math> hvor massetettheten <math><mi>&#x3C1;</mi></math> til stangen varierer som <math><mi>&#x3C1;</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>&#x3C1;</mi><msub>0</msub><mo>(</mo><mn>1</mn><mo>+</mo><mi>b</mi><mi>x</mi><mo>)</mo></math> langs stangen, hvor <math><mi>x</mi></math> er posisjon langs stangen med <math><mi>x</mi><mo>=</mo><mn>0</mn></math> ved enden. Konstanten <math><mi>b</mi></math> er gitt av <math><mi>b</mi><mo>=</mo><mfrac><mn>2</mn><mi>L</mi></mfrac></math>. Hva er treghetsmomentet til stangen for rotasjon rundt midtpunktet på stangen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mi>&#x3C1;</mi><msub>0</msub><mfrac><mn>1</mn><mn>6</mn></mfrac><msup><mi>L</mi><mn>3</mn></msup></math>",
       "<math><mi>&#x3C1;</mi><msub>0</msub><mfrac><mn>5</mn><mn>12</mn></mfrac><msup><mi>L</mi><mn>3</mn></msup></math>",
@@ -74,7 +68,6 @@
   {
     "question": "Anta at vi har en uniform lang tynn stang med treghetsmoment <math><mi>I</mi><mo>=</mo><mn>12</mn></math> med vinkelhastighet <math><mi>&#x3C9;</mi></math> rundt en akse gjennom midtpunktet. Dersom vi nå plasserer to punktmasser, hver med masse <math><mi>M</mi></math>, slik at de fester seg på enden av stangen mens den roterer, (uten at det virker noe eksternt dreiemoment på systemet), hva blir den resulterende vinkelhastigheten?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>&#x3C9;</mi></math>",
       "<math><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>&#x3C9;</mi></math>",
@@ -86,7 +79,6 @@
   {
     "question": "Anta at vi har et svingesystem som består av en masse og en fjær med en gitt resonansfrekvens. Dersom vi\ndobler massen og halverer fjærkonstanten, hva skjer med resonansfrekvensen?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Den øker.",
       "Den minker.",
@@ -98,7 +90,6 @@
   {
     "question": "En sylinder med masse <math><mi>m</mi></math>, radius <math><mi>R</mi></math> og med treghetsmoment <math><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>m</mi><msup><mi>R</mi><mn>2</mn></msup></math> (altså med ikke-uniform massefordeling), ruller nedover et skråplan med helning <math><mi>&#x3B8;</mi></math>. Anta ren rulling. Hva er friksjonskraften som må virke fra skråplanet på sylinderen?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mi>g</mi><mi>sin</mi><mo>&#x2061;</mo><mi>&#x3B8;</mi></math>",
       "<math><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>m</mi><mi>g</mi><mi>sin</mi><mo>&#x2061;</mo><mi>&#x3B8;</mi></math>",
@@ -110,7 +101,6 @@
   {
     "question": "En kule festet i en snor som er festet til en vegg henger inntil veggen (som vist i figur 1). Lengden på snoren er <math><mi>L</mi></math> og radien på kula er <math><mi>R</mi></math>. Massen er <math><mi>M</mi></math>. Hva er snorkraften som virker på kula?\n<img src=\"images/yethsn.webp\"/>",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mi>M</mi><mi>g</mi></math>",
       "<math><mfrac><mrow><mi>M</mi><mi>g</mi></mrow><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mi>R</mi><mrow><mi>R</mi><mo>+</mo><mi>L</mi></mrow></mfrac></mrow></msqrt></mfrac></math>",
@@ -122,7 +112,6 @@
   {
     "question": "Du trekker rett opp på en snor som er festet til en jojo som vist på figur 2. Det er tilstrekkelig friksjon til at\njojoen ikke spinner. Hva er riktig om friksjonskraften på jojoen og retningen den vil rulle?\n<img src=\"images/dwrwgc.webp\"/>",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ruller til venstre, friksjonskraft er null.",
       "Ruller til høyre, friksjonskraft er null.",
@@ -134,7 +123,6 @@
   {
     "question": "Anta at vi har to ladninger med ladning +q og -q plassert på x-aksen, symmetrisk om origo. I hvilken\nretning peker det elektrisk feltet i et punkt på y-aksen?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "x-retning",
       "y-retning",
@@ -146,7 +134,6 @@
   {
     "question": "Det elektriske feltet rundt en veldig lang leder med en uniform ladningsfordeling kan skrives som\n<math><mi>E</mi><mo>(</mo><mi>r</mi><mo>)</mo><mo>=</mo><mfrac><mi>k</mi><mi>r</mi></mfrac><msub><mi>a</mi><mi>r</mi></msub></math>, hvor <math><msub><mi>a</mi><mi>r</mi></msub></math> er den radielle enhetsvektor (positiv retning utover). Om vi lar <math><mi>k</mi><mo>=</mo><mn>1.0</mn><mi>V</mi></math>, hva blir det elektriske potensialet ved\n<math><mi>r</mi><mo>=</mo><mn>0.50</mn><mi>m</mi></math>, relativt til <math><mi>r</mi><mo>=</mo><mn>1.0</mn><mi>m</mi></math>?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mn>0.11</mn><mi>V</mi></math>",
       "<math><mn>0.43</mn><mi>V</mi></math>",
@@ -158,7 +145,6 @@
   {
     "question": "En metallring roterer med uniform vinkelhastighet rundt y-aksen, slik at normalvektoren på arealet omsluttet\nav ringen roterer i xz-planet. Ringen roterer i et homogent magnetfelt som peker i en vilkårlig retning i xz-planet. Ved\nhvilken vinkel mellom ringens normalvektor og B-feltet vil den induserte spenningen i lederen være størst?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<math><mn>0</mn><mo>°</mo></math>",
       "<math><mn>30</mn><mo>°</mo></math>",
@@ -170,7 +156,6 @@
   {
     "question": "En ladd partikkel beveger seg med en hastighet v. I hvilken retning i forhold til bevegelsesretningen vil det\nmagnetiske feltet generert av partikkelen være sterkest i en avstand R fra partikkelen?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Foran partikkelen, langs partikkelens bevegelsesretning.",
       "45 grader til siden for bevegelsesretning.",
@@ -182,13 +167,11 @@
   {
     "question": "En krets består kun av en kondensator og en motstand i serie. Anta at kondensatoren, som har en kapasitans\nC = 1.0 mF, initielt er ladet opp med en hvis ladning Q. Når vi slutter kretsen lades kondesatoren ut gjennom motstanden\nog vi måler at totalt 10 J termisk energi genereres i motstanden gjennom utladningen. Hvor mye ladning var initsielt på\nkondensatoren?",
     "answers": [4],
-    "exam": ".*",
     "options": ["0.11 mC", "0.45 mC", "12 mC", "35 mC", "0.14 C"]
   },
   {
     "question": "Hovedegenskapen til en spole i en elektrisk krets er å",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Lagre ladning",
       "Hindre rask endring i motstand",
@@ -200,7 +183,6 @@
   {
     "question": "En kvadratisk sløyfe beveger seg bort fra en strømførende leder som vist på figur 3. Hvilket utsagn er riktig\nom den induserte spenningen i sløyfen?\n<img src=\"images/182sy.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "går mot klokken, øker med r og proporsjonal med I.",
       "går med klokken, øker med r og proporsjonal med I.",
@@ -212,7 +194,6 @@
   {
     "question": "To positivt ladde partikler med ladning <math><mi>q</mi></math> passerer hverandre i en avstand <math><mi>d</mi></math> med hastighet <math><mi>v</mi></math> langs parallelle\nbaner, men i motsatt retning som vist i figur 4. Positiv z-retning er ut av arket. Hva blir det magnetiske feltet i origo?\n<img src=\"images/4efexc.webp\"/>",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mo>-</mo><mfrac><mrow><mn>2</mn><msub><mi>μ</mi><mn>0</mn></msub><mi>v</mi><msup><mi>q</mi><mn>2</mn></msup></mrow><mrow><mi>π</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac><mover><mi>k</mi><mo>^</mo></mover></math>",
       "<math><mo>-</mo><mfrac><mrow><mn>2</mn><msub><mi>μ</mi><mn>0</mn></msub><mi>v</mi><msup><mi>q</mi><mn>2</mn></msup></mrow><mrow><mi>π</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac><mover><mi>j</mi><mo>^</mo></mover></math>",
@@ -224,7 +205,6 @@
   {
     "question": "En punktladning beveger seg i retningen <math><mover><mi>r</mi><mo>^</mo></mover><mo>=</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mover><mi>x</mi><mo>^</mo></mover><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mover><mi>y</mi><mo>^</mo></mover></math>. Det blir skrudd på et konstant og uniformt\nmagnetisk felt i x-retning. Hvordan oppfører punktladningen seg?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "Den fortsetter uendret i samme retning",
       "Bøyer av og fortsetter parallelt med x-aksen",
@@ -236,7 +216,6 @@
   {
     "question": "I CERNs partikkelakselerator blir protoner (ladning <math><mn>1.60</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup><mi>C</mi></math>, masse <math><mn>1.67</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>27</mn></mrow></msup><mi>kg</mi></math>) akselerert til borti-\nmot lyshastigheten <math><mi>c</mi><mo>=</mo><mn>3.00</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mn>8</mn></mrow></msup><mfrac><mi>m</mi><mi>s</mi></mfrac></math>. En del av akseleratoren består av en sirkulær bane med en radius på 25.0 m.\nHer blir protonene akselerert fra en fart på <math><mfrac><mi>c</mi><mn>3</mn></mfrac></math> til <math><mn>0.916</mn><mi>c</mi></math> ved hjelp av elektriske felt. Magnetiske felt blir brukt for å\nstyre protonene. Anta at magnetfeltet alltid står vinkelrett på bevegelsesretningen til protonene. Hva må styrken til\nmagnetfeltet være for at protonene holder seg i en sirkulær bane?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "41.8 mT",
       "øke fra 41.8 mT til 76.0 mT",
@@ -248,7 +227,6 @@
   {
     "question": "Anta vi har en aksling som skal stikkes inn i et hull på et tannhjul. Hullet er like stort som akslingen med\nveldig god nøyaktighet slik at det kan være trangt å få stukket den inn. Hva bør vi gjøre for å gjøre det enklere å få den\ninn?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "varme opp begge objektene",
       "kjøle ned begge objektene",
@@ -260,7 +238,6 @@
   {
     "question": "Anta at vi har en vegg som består av 2 lag med termisk ledningsevne <math><msub><mi>&#x03BA;</mi><mn>1</mn></msub><mo>=</mo><mn>0.040</mn><mo>&#x2009;</mo><mfrac><mi>W</mi><mrow><mi>m</mi><mo>&#x22C5;</mo><mi>K</mi></mrow></mfrac></math> og <math><msub><mi>&#x03BA;</mi><mn>2</mn></msub><mo>=</mo><mn>0.13</mn><mo>&#x2009;</mo><mfrac><mi>W</mi><mrow><mi>m</mi><mo>&#x22C5;</mo><mi>K</mi></mrow></mfrac></math>. Tykkelsene på lagene er henholdsvis <math><msub><mi>d</mi><mn>1</mn></msub><mo>=</mo><mn>10</mn><mo>&#x2009;</mo><mi>cm</mi></math> og <math><msub><mi>d</mi><mn>2</mn></msub><mo>=</mo><mn>2.0</mn><mo>&#x2009;</mo><mi>cm</mi></math>. Anta at temperaturen på ytterflaten til det tykkeste laget er konstant <math><mo>+</mo><mn>20</mn><mo>&#xB0;</mo><mi>C</mi></math>, og <math><mo>-</mo><mn>20</mn><mo>&#xB0;</mo><mi>C</mi></math> på den andre ytterflaten. Anta en stasjonær tilstand (altså at temperaturfordelingen gjennom veggen ikke endres over tid). Hva blir temperaturen i grensesjiktet mellom de to lagene?",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<math><mn>2</mn><mo>&#xB0;</mo><mi>C</mi></math>",
       "<math><mo>-</mo><mn>2</mn><mo>&#xB0;</mo><mi>C</mi></math>",
@@ -272,7 +249,6 @@
   {
     "question": "En beholder med hydrogengass blir fylt ved <math><mn>0.0</mn><mo>&#xB0;</mo><mi>C</mi></math> til <math><mn>4.0</mn><mo>&#x2009;</mo><mi>bar</mi></math>. Hva blir trykket i tanken på en varm dag hvor beholderen og gassen blir varmet opp til <math><mn>30</mn><mo>&#xB0;</mo><mi>C</mi></math>? Anta at beholderens volum ikke endrer seg. Anta at hydrogengassen oppfører seg som en ideell gass.",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mn>4.4</mn><mo>&#x2009;</mo><mi>bar</mi></math>",
       "<math><mn>6.2</mn><mo>&#x2009;</mo><mi>bar</mi></math>",
@@ -284,7 +260,6 @@
   {
     "question": "En Stirling-syklus består av to isotermer og to isokore prosesser (se figur 5). Anta at vi har <math><mn>1.0</mn><mo>&#x2009;</mo><mi>mol</mi></math> av en gass\nsom følger en Stirling-syklus med følgende parametre: <math><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mi>L</mi></math>, <math><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi></math>, <math><msub><mi>T</mi><mi>H</mi></msub><mo>=</mo><mn>600</mn><mi>K</mi></math> og <math><msub><mi>T</mi><mi>C</mi></msub><mo>=</mo><mn>300</mn><mi>K</mi></math>. Hvor mye varme\nblir tilført langs isotermen ved den høyeste temperaturen?\n<img src=\"images/fg50dg.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mn>3.5</mn><mo>&#x2009;</mo><mi>kJ</mi></math>",
       "<math><mn>4.7</mn><mo>&#x2009;</mo><mi>kJ</mi></math>",
@@ -296,7 +271,6 @@
   {
     "question": "En Stirling-syklus består av to isotermer og to isokore prosesser (se figur 5). Anta at vi har <math><mn>1.0</mn><mo>&#x2009;</mo><mi>mol</mi></math> av en gass\nsom følger en Stirling-syklus med følgende parametre: <math><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mi>L</mi></math>, <math><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi></math>, <math><msub><mi>T</mi><mi>H</mi></msub><mo>=</mo><mn>600</mn><mi>K</mi></math> og <math><msub><mi>T</mi><mi>C</mi></msub><mo>=</mo><mn>300</mn><mi>K</mi></math>. Hva er virkningsgraden til Stirling-prosessen? Anta at varmen som avgis i den ene\nisokore prosessen kan absorberes uten tap i den andre isokore prosessen, slik at varmen som overføres i disse prosessene\nikke påvirker virkningsgraden.\n<img src=\"images/jrx1x7.webp\"/>",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "<math><mn>0.34</mn></math>",
       "<math><mn>0.50</mn></math>",
@@ -308,7 +282,6 @@
   {
     "question": "Anta en reversibel Stirling-prosess (se figur 5) hvor varmeoverføringen i de isotermiske prosessene er <math><mn>2</mn><mi>J</mi></math> og <math><mn>1</mn><mi>J</mi></math> og varmeoverføringen i de isokore prosessene er <math><mn>0.5</mn><mi>J</mi></math>. <math><msub><mi>T</mi><mi>H</mi></msub><mo>=</mo><mn>1000</mn><mi>K</mi></math> og <math><msub><mi>T</mi><mi>C</mi></msub><mo>=</mo><mn>500</mn><mi>K</mi></math>. Hva er den totale endringen i systemets entropi gjennom en full syklus?\n<img src=\"images/gl2xwd.webp\"/>",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mn>0</mn></math>",
       "<math><mn>0.5</mn><mo>&#x2009;</mo><mo>&#xD7;</mo><msup><mn>10</mn><mn>-3</mn></msup><mo>&#x2009;</mo><mi>J</mi><msup><mi>K</mi><mn>-1</mn></msup></math>",
@@ -320,7 +293,6 @@
   {
     "question": "Hvilket av følgende utsagn er sant?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Termodynamikkens andre lov er en konsekvens av første lov.",
       "Det er ikke mulig for en syklisk prosess å overføre varme fra et kaldt til et varmt objekt.",
@@ -332,7 +304,6 @@
   {
     "question": "Anta at vi har en stang med lengde L og masse m som balanserer vertikalt på et fast rotasjonspunkt på\nden nederste enden av stangen. Dersom vi gir stangen en liten startfart slik at den svinger nedover, hvilken av følgende\nkodesnutter skal legges inn for *** i følgende kode for å finne stangens vinkelposisjonen θ(t) (theta) relativt til vertikalen\n(θ = 0 i utgangsposisjonen)?\n<pre>\nimport numpy as np\nimport matplotlib.pyplot as plt\nL = 0.30 # Lengde på stang\nm = 1.0 # Masse\nI = m*L**2/3 # Treghetsmoment rundt enden av stangen\ng = 9.8\n\nN = 1000\nT = 1.5\nh = T/(N-1)\nt = np.linspace(0,T,N)\ntheta = np.zeros(N)\nomega = np.zeros(N)\ntau = np.zeros(N)\nomega[0] = 0.01 #startfart\nfor i in range(0,N-1):\n  ***\n  theta[i+1] = theta[i]+omega[i]*h\n  omega[i+1] = omega[i] + tau[i]/I*h\n#--------------------------\n</pre>",
     "answers": [4],
-    "exam": ".*",
     "options": [
       "<pre>tau[i] = m*g*np.cos(theta[i])*2L</pre>",
       "<pre>tau[i] = m*g*np.sin(theta[i])</pre>",
@@ -344,7 +315,6 @@
   {
     "question": "Anta at vi har en ulineær fjær beskrevet av av <math><mi>F</mi><mo>=</mo><mo>-</mo><msub><mi>k</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub><msup><mi>x</mi><mn>2</mn></msup></math> (x = 0) i likevekt). En masse <math><mi>m</mi></math> er festet i enden på fjæren. Hvilken av følgende kodesnutter skal byttes ut med *** i følgende kode for at programmet skal gi\nposisjonen til massen som funksjon av tid dersom vi strekker fjæren med massen og slipper?\n<pre>\nimport numpy as np\nimport matplotlib.pyplot as plt\nm = 2.0\nk1 = 1.0\nk2 = 0.2\nT = 10.0\nN = 1000\nh = T/(N-1)\nt = np.linspace(0,T,N)\nv = np.zeros(N)\nx = np.zeros(N)\nx[0] = 0.5\nfor i in range(0,N-1):\n  F = -k1*x[i]+k2*x[i]**2\n  ***\n  x[i+1] = x[i] + v[i]*h\n#--------------------------\n</pre>",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<pre>v[i+1] = x[i] + F/m*h</pre>",
       "<pre>v[i+1] =x[i] + F/m</pre>",

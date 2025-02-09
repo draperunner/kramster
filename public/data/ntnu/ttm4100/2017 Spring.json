@@ -2,289 +2,241 @@
   {
     "question": "When using HTTP with persistent connections, a brand-new connection\nmust be established and maintained for each requested object.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Domain Name System (DNS) is used to translate hostnames into numerical IP addresses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An HTTP server is stateless.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Sockets can only be used by an application which uses the TCP protocol as its transport layer protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "When streaming stored video through the Internet, we cannot use UDP as the transport layer protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Forward Error Correction (FEC) adds redundant information to a packet stream that can be used to recreate some (potentially) lost information in the network, at the destination.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Interleaving\" can be used by a Voice-over-IP application to mitigate the effect of packet loss. This results in reducing the quality of the received voice signal for a longer time period instead of losing the whole voice signal for a shorter time period.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "When streaming stored video, client side buffers can be used to absorb variations in the server-to-client delay.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Packet jitter\" is a result of packet loss in a network.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In symmetric key cryptography, both sender and receiver share a secret key.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In public key cryptography, all keys are public but the algorithm used is secret.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Message integrity\" is the concept of detecting if (or making sure that) the content of a message has (not) been changed.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A \"cryptographic hash function\" is a special type of checksum to detect unauthorized changes to the content of a message.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A \"digital signature\" is used to protect against unauthorized access to the content of a message.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a \"known-plaintext\" attack, an intruder has access to the encryption process and can get access to the encrypted version (i.e. the ciphertext) corresponding to any chosen plaintext.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Cipher-Block Chaining\" (CBC) is used to make sure that identical blocks of plaintext results in different blocks of ciphertext.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Secure Sockets Layer\" (SSL) is an (application layer) enhancement or extension of TCP to make communication secure.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"IPsec\" provides security at the link layer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A firewall is used to protect an internal network or a single server or PC against attacks via the public Internet.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In a wireless ad hoc network, the mobile units do not communicate via a common access point.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Wireless links are more reliable than wired links (e.g. copper cables, fiber links), thus resulting in fewer bit errors during transmissions.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The \"hidden terminal\" problem of wireless communication denotes the challenge of synchronizing transmissions to the same frequencies.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An 802.11 wireless LAN use CSMA/CD as medium access protocol.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An 802.11 wireless LAN using an Access Point (AP) is an example of an ad hoc network.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The optional \"Request-To-Send\" (RTS) / \"Clear-To-Send\" (CTS) mechanism defined by the 802.11 standard may help solve the hidden terminal problem.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The 4G (LTE) mobile architecture has an all-IP core network.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The 4G (LTE) mobile architecture has a Radio Access Network (RAN) based on CDMA for transmissions over the air.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The 2G (GSM) mobile architecture is a pure circuit-switched network, made mainly for voice conversations.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The \"Transmission Control Protocol\" (TCP) is the most used transport protocol in the Internet.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The \"User Datagram protocol\" (UDP) is a connection oriented protocol, well suited for reliable data transfer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "In TCP a \"three-way handshake\" is used to establish a connection before starting to transfer data.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The \"Go-Back-N\" (GBN) protocol cannot use cumulative acknowledgements.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Sequence numbers in TCP flow control is based on the number of packets transmitted.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "TCP flow control uses cumulative acknowledgements.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Slow start\", \"congestion avoidance\", and \"fast recovery\" are all components of the TCP congestion control mechanism.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Sequence numbers in data transmission are used for addressing purposes.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The transport layer is below the network layer in the protocol stack.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Sequence numbers start counting from zero after a new TCP connection is established.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Routing\" is used locally for one router to denote the process of getting a packet from an input link to the (correct) output link; \"Forwarding\" denotes the whole process of determining a path for a packet from source to destination node, thus involving all network routers.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Internet Protocol (IP) version 4 uses 48 bit addresses.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Internet protocol (IP) version 6 uses 128 bit addresses.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Parity bits can be used to detect (and sometimes correct) bit errors in frames sent over a link between two neighboring nodes.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Cyclic Redundancy Check\" (CRC) codes (or polynomial codes) are based on modulo-2 arithmetic without carries in addition or borrows in subtraction.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Shared broadcast medium Ethernets use \"Carrier Sense Multiple Access with Collision Detection\" (CSMA/CD) as the multiple access protocol.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Switched Ethernets uses \"collision-less\" (layer 2) store-and-forward frame switches.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Both routers and link-layer switches forward packets or frames based on IP addressing.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The IP version 4 address 223.1.1.0/24 denotes a subnet with a maximum of 28 - 2 = 254 addresses available for local hosts.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The \"Internet Control Message Protocol\" (ICMP) is used to communicate network layer information between hosts and routers.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

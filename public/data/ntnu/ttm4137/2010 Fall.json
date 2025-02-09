@@ -2,7 +2,6 @@
   {
     "question": "Is the same key used for both authentication and encryption in WEP?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Yes, if 802.1X authentication is not used",
       "The same key is never used twice",
@@ -13,7 +12,6 @@
   {
     "question": "What is the major weakness in WEP, exploited by the PTW attack used in the lab?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Too short IV",
       "No protection against message replay",
@@ -24,7 +22,6 @@
   {
     "question": "What is EAP?",
     "answers": [2],
-    "exam": "2010 Fall",
     "options": [
       "Extensible Authentication Protocol is a set of encapsulation messages for mutual authentication methods",
       "Extensible Authentication Protocol is a set of encapsulation messages for smartcard-based authentication methods",
@@ -35,7 +32,6 @@
   {
     "question": "How are EAP messages transported between the authenticator and the authentication server in RSN?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "EAP messages are encapsulated in TCP/IP",
       "EAP messages are encapsulated in EAP-TLS",
@@ -46,13 +42,11 @@
   {
     "question": "Which security method is used in the first phase of PEAP",
     "answers": [0],
-    "exam": ".*",
     "options": ["TLS", "EAPOL", "802.1x", "LEAP"]
   },
   {
     "question": "The Pairwise Transient Key (PTK) is a collection of several keys. List these keys and their\nlength when CCMP is used.",
     "answers": [1],
-    "exam": "2010 Fall",
     "options": [
       "EAPOL MIC Key (128), EAPOL Encr Key (128), Data Encr Key (128), Data MIC Key (128)",
       "EAPOL MIC Key (128), EAPOL Encr Key (128), Data Encr/MIC Key (128)",
@@ -63,7 +57,6 @@
   {
     "question": "What is Michael in WPA/RSN?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The encryption algorithm in TKIP",
       "The key mixing algorithm of RC4",
@@ -74,7 +67,6 @@
   {
     "question": "What is the purpose of the EAPOL 4-way handshake?",
     "answers": [2],
-    "exam": "2010 Fall",
     "options": [
       "To compute a fresh pairwise temporal key (PTK) from the pairwise master key (PMK)",
       "To compute a fresh pairwise master key (PMK) from the pairwise transient key (PTK)",
@@ -85,7 +77,6 @@
   {
     "question": "How does the counter mode operation of a block cipher E() work?",
     "answers": [2],
-    "exam": "2010 Fall",
     "options": [
       "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>⊕</mo><mi>i</mi></math>",
       "<math><mi>C</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>i</mi><mo>)</mo><mo>⊕</mo><mi>M</mi><mo>⊕</mo><mi>i</mi></math>",
@@ -96,7 +87,6 @@
   {
     "question": "How is the IEEE 802.11 CCMP nonce input constructed?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The values of the Pairwise Transient Key, the NonceA, and the NonceB",
       "The values of the Pairwise Temporal Key, the Source Address, and the Destination Address",
@@ -107,13 +97,11 @@
   {
     "question": "Does GSM provide mutual authentication?",
     "answers": [0],
-    "exam": ".*",
     "options": ["No", "Yes", "Operator dependent", "In cooperation with UMTS"]
   },
   {
     "question": "How is the subscriber identity protected from radio channel eavesdropping in GSM?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "By the network providing temporary subscriber identities to the SIMs",
       "By storing the subscriber identity in the SIM only",
@@ -124,7 +112,6 @@
   {
     "question": "Which information is sent from the AuC to the VLR/SGSN during 3G/UMTS authentication?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "IMSI",
       "RAND, AUTN, XRES, CK, IK",
@@ -135,7 +122,6 @@
   {
     "question": "Which UTRAN layers provide encryption?",
     "answers": [3],
-    "exam": "2010 Fall",
     "options": [
       "MAC layer and RRC layer",
       "RLC layer and RRC layer",
@@ -146,7 +132,6 @@
   {
     "question": "What happens if the result of the UTRAN algorithm negotiation is that the user equipment (UE) and the network do not have a common encryption algorithm?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "UTRAN provides a new encryption algorithm as an app",
       "The connection is shut down immediately by UTRAN",
@@ -157,7 +142,6 @@
   {
     "question": "Can the security header in MAPsec be encrypted? Why/why not?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "No, because the header consists of {SPI || Original Component ID || TVP}",
       "Yes, because the header consists of {SPI || Original Component ID || TVP}",
@@ -168,13 +152,11 @@
   {
     "question": "Which CSCF handles SIP registration requests and informs the Home Subscription Server (HSS)?",
     "answers": [3],
-    "exam": "2010 Fall",
     "options": ["All", "P-CSCF", "I-CSCF", "S-CSCF"]
   },
   {
     "question": "Which three modes does the confidentiality algorithm in UMTS support?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "RLC-Transparent, RLC-Unacknowledged, RLC-Acknowledged",
       "RRC-Transparent, RRC-Unacknowledged, RRC-Acknowledged",
@@ -185,7 +167,6 @@
   {
     "question": "In which mode of operation is KASUMI used for constructing the 3GPP f8 key stream generator?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Combining Counter-mode and ECB-mode",
       "Combining Counter-mode and CCM-mode",
@@ -196,7 +177,6 @@
   {
     "question": "What are the three functional requirements for UMTS authentication?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Mutual authentication between USIM and HSS, securing the radio channel communication, and end-to-end confidentiality",
       "Mutual authentication between USIM and AuC, securing the radio channel communication, and user identity confidentiality",
@@ -207,7 +187,6 @@
   {
     "question": "What was the underlying assumption for the MILENAGE security analysis?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "No assumptions were made",
       "The kernel function must be a robust block cipher",
@@ -218,7 +197,6 @@
   {
     "question": "Which part of the IEEE 802.16 MAC PDU is encrypted?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Both the header and the payload part",
       "The payload part and some fields of the header",
@@ -229,7 +207,6 @@
   {
     "question": "Which WiMAX entity is generating the Traffic Encryption Key (TEK)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The Base Station",
       "The AAA Server",
@@ -240,7 +217,6 @@
   {
     "question": "Why can the USIM be removed from the rest of the UE?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The USIM holds an expiration date and, like credit cards, must be replaced",
       "The failure rate of the integrated circuit cards (UICCs) are high because the issuers (mobile operators) want to optimize cost against subscription duration",
@@ -251,7 +227,6 @@
   {
     "question": "What is Internet Key Exchange (IKE)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The security association set up protocol in the IPsec protocol suite",
       "The key exchange subprotocol of the Transport Layer Security protocol",

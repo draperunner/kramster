@@ -2,79 +2,66 @@
   {
     "question": "An agent that senses only partial information about the state cannot be perfectly rational.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Every agent is rational in an unobservable environment.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False."]
   },
   {
     "question": "\"Strikking av en sokk\" involves a fully observable, deterministic, sequential, static, continuous, single agent miljø.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "\"Bidding in auction\" involves a fully observable, strategic, sequential, static, discrete, multi-agent.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The Turing test evaluates a computer system’s ability to act rationally.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A stochastic environment is one in which the next state is completely determined by the agent’s action.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An advantage of Hill Climbing search is that it requires minimal memory.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "A danger of depth-first search is that it may not terminate if the search space is infinite, even if a finite solution exists.",
     "answers": [0],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The knowledge, i.e, the content of the knowledge base determines the system’s performance while representation of knowledge determines its competence.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "Principal of rationality (due to Allen Newell) maintains that the agent chooses actions in order to achieve its goal using the knowledge it has the knowledge it might gather.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "This is procedural knowledge about two cities in Norway: bigger (Oslo, Trondheim)",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "An advantage of declarative knowledge is the storage economy, that is, representation of declarative knowledge needs less memory than procedural knowledge.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   },
   {
     "question": "The production rules in a rule-based system is represented in the ”working memory”.",
     "answers": [1],
-    "exam": ".*",
     "options": ["True", "False"]
   }
 ]

@@ -2,7 +2,6 @@
   {
     "question": "Hva er forskjellen på maskinspråk og assemblyspråk?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Et assemblyspråk består av kun binære tall",
       "Det er enklere for en person å forstå maskinkode",
@@ -13,13 +12,11 @@
   {
     "question": "Kan man skrive heksadesimale tall i assemblykode?",
     "answers": [0],
-    "exam": ".*",
     "options": ["ja", "nei"]
   },
   {
     "question": "Hva er en assembler?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En oversetter mellom assemblykode og maskinspråk",
       "En person som skriver assemblykode",

@@ -2,7 +2,6 @@
   {
     "question": "Nedenfor er fire eksempler på strategiske fordeler. Alle er korrekte, men en av dem kan ikke sies å være basert på innovasjon som strategi. Hvilken?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Starbucks ble en suksesshistorie fordi de endret konkurransegrunnlaget fra lavest mulig pris for kaffen, til best mulig kvalitet.",
       "GM innførte på 90-tallet plattformtenking rundt sine bilmodeller, der man forenklet antallet komponenter og brukte samme komponent i mange ulike modeller. Bilene ble dermed mer like hverandre, bortsett fra i et lite antall deler som særpreget de ulke bilmodellene. Dette førte til store besparelser i deleproduksjon og innkjøp.",
@@ -13,7 +12,6 @@
   {
     "question": "Den sentrale modellen vi benytter for å snakke om innovasjon er basert på fire faser. En av de fasene som nevnes nedenunder er feil. Hvilken?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Search-fasen, der vi leter etter mulige ideer for innovasjon",
       "Capture-fasen, der vi finner en måte å utnytte ferdig utviklede ideer på",
@@ -24,7 +22,6 @@
   {
     "question": "Discontinuities er et sentralt begrep som representerer situasjoner der en bedrift har større muligheter enn normalt for å drive innovativ virksomhet. Hvilken av de fire eksemplene under vil normalt IKKE regnes som en discontinuity?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Bedriften er konkurstruet på grunn av manglende likvider",
       "Stortinget vedtar en ny og strengere miljøvernlov for å redusere utslipp av klimagasser.",
@@ -35,7 +32,6 @@
   {
     "question": "Hvilken av disse påstandene er ikke korrekt om radikale innovasjoner?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Radikale innovasjoner kobles vanligvis sammen med enkeltmennesker som finner opp nye produkter eller tjenester",
       "Vi deler innovasjoner inn i radikale og inkrementelle, der radikale vanligvis bryter med eksisterende teknologi, mens inkrementelle forbedrer eksisterende teknologi",
@@ -46,7 +42,6 @@
   {
     "question": "Bedriftens størrelse er faktisk korrelert med innovasjon på den måten at små foretak har visse fordeler (og ulemper) fremfor store. Hviken av forholdene under regnes vanligvis som et område der STORE bedrifter har fordel fremfor små?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Rask beslutningstaking",
       "Enighet innad om visjon",
@@ -57,7 +52,6 @@
   {
     "question": "Hvilken av følgende påstander om mulighetsanalyser av teknologibaserte forretningsideer er korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Mulighetsanalyser er en fullstendig og gjennomgripende gjennomgang av tekniske, markedmessige, økonomiske og organisatoriske forhold",
       "Grunnlaget for en mulighetsanalyse har man først etter å ha utarbeidet en god forretningsplan.",
@@ -68,7 +62,6 @@
   {
     "question": "Hva opplever ofte entreprenører i vekstbedrifter som den mest sentrale utfordringen i forhold til å lykkes med oppstarten av en potensiell vekstbedrift?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Finansiering",
       "Markedsintroduksjon",
@@ -79,7 +72,6 @@
   {
     "question": "Hvordan kan man dele inn nyetablerte bedrifter i forhold til ressursbehov?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Oppstartsbedrifter, gründerbedrifter og entreprenørielle bedrifter",
       "Gründerbedrifter, ressursbedrifter og vekstbedrifter",
@@ -90,7 +82,6 @@
   {
     "question": "Hvorfor skriver man en forretningsplan?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "For å synliggjøre muligheter og avklare risiko",
       "Fordi banken alltid vil kreve det.",
@@ -101,7 +92,6 @@
   {
     "question": "Hvilken av følgende påstander om innovasjon er korrekt:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Bedrifter som har mest fokus på egen forskning og utvikling er som regel best på innovasjon.",
       "En bedrift må samarbeide med flinke mennesker og bedrifter utenfor og innenfor egen bedrift for å oppnå konkurransekraft.",
@@ -112,7 +102,6 @@
   {
     "question": "En av påstandene under er korrekt om kreativitetsprosessen. Hvilken?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Før man starter med kreativitetsprosesser er det viktig med en omfattende og detaljert innsamling av data som beskriver nåsituasjonen grundig.",
       "Man må akseptere de grunnleggende antakelsene for å unngå at prosessene flyter ut.",
@@ -123,7 +112,6 @@
   {
     "question": "Hva mener man med kapabiliteter i en kunnskapsbedrift?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "At bedriften er i stand til overholde sine serviceforpliktelser ved reklamasjoner",
       "Med dette menes at bedriften klarer å kombinere ressurser på en slik måte at den utvikler konkurransefortrinn.",
@@ -134,7 +122,6 @@
   {
     "question": "I pensumlitteraturen er begrepet bottom of the pyramid (BoP Markets) anvendt. Hva menes med det?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ødelagte produkter som selges / dumpes til lave priser",
       "Markeder som adopterer innovasjon sist.",
@@ -145,7 +132,6 @@
   {
     "question": "Hvilken av følgende påstander om oppstarten av teknologibaserte bedrifter som ønsker å vokse er korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En genial ide er den viktigste forutsetningen for å starte en ny teknologibedrift",
       "Det beste er å være alene som gründer i startfasen, da har man kontroll på alt og kan lett rekruttere de menneskene man trenger.",
@@ -156,7 +142,6 @@
   {
     "question": "Hvilken av følgende påstander om innovative løsninger er korrekt?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "I store selskaper er forskningsavdelingene den viktigste kilden til nye og innovative løsninger.",
       "For at en løsning skal bli betraktet som en innovasjon må den oppfattes som ny i alle markeder.",
@@ -167,7 +152,6 @@
   {
     "question": "Hvilken av påstandene står i konflikt med en åpen innovasjon tilnærming?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Det er bedre å utvikle en robust forretningsmodell enn å komme ut i markedet først.",
       "Man må nyttiggjøre seg av interne og eksterne innovasjons ideer.",
@@ -178,7 +162,6 @@
   {
     "question": "Hva er en Business Angel?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "En privatperson som spesialiserer seg på å redde bedrifter fra konkurs",
       "En person som jobber i venturefond, som investerer penger i tidlig. fase bedrifter, og som ønsker størst mulig avkastning på investeringen.",
@@ -189,7 +172,6 @@
   {
     "question": "Hvilken av følgende påstander om såkalte Business Angels er korrekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Er som hovedregel passive eiere og blir kun aktive dersom bedriften får problemer.",
       "Er ofte aktive eiere som tilfører bedriften erfaring og nettverk i tillegg til finansiell kapital.",
@@ -200,7 +182,6 @@
   {
     "question": "Ulike typer tilbydere av egenkapital kommer gjerne inn på ulike tidspunkt. I hvilken rekkefølge kommer normalt aktørene inn?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Såkornfond, venturekapital fond, Business Angels, gründer, familie og venner",
       "Venturekapital fond, såkornfond, Business Angels, gründer, familie og venner",
@@ -211,7 +192,6 @@
   {
     "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter er korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "I tidlig fase vil bankene alltid være den viktigste finansieringskilden.",
       "I Norge er finansiering sjelden et problem siden vi har så mange og gode offentlige virkemidler.",
@@ -222,7 +202,6 @@
   {
     "question": "Hva menes med en contingency tilnærming til organisasjonsdesign?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At organisasjonsstrukturer må tilpasses organisasjonens omgivelser og teknologi.",
       "At hvilke organisasjonsstrukturer som er hensiktsmessige er gitt ut fra hvilken teknologi organisasjonen benytter.",
@@ -233,7 +212,6 @@
   {
     "question": "Hva mener Tidd og Bessant (2009) med konseptet kjernerigiditet (core rigitity)?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Kjernerigiditet er det samme som organisatorisk treghet; det som hindrer organisatorisk endring.",
       "At organisasjonens operative kjerne følger byråkratiske regler og prosedyrer uten tanke for organisasjonens egentlige mål.",
@@ -244,7 +222,6 @@
   {
     "question": "Hvilket av de følgende kjennetegnene ved en organisasjons design er ikke et kjennetegn på Scientific management og Fordisme?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "At arbeidstempoet er styrt av maskiner.",
       "At planlegging og utførelse av arbeid gjøres av ulike personer.",
@@ -255,7 +232,6 @@
   {
     "question": "Ifølge Watson (2006; K2), hva menes med ledelse (management) i en organisasjon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Ledelse er den overordnete utformingen av forbindelser, forståelser, og prosesser innenfor en arbeidsorganisasjon som skal bidra til å fullføre de oppgaver som organisasjonen har påtatt seg i sitt navn, slik at organisasjonen kan fortsette i framtiden.",
       "Ledelse er å koordinere og kontrollere de ansattes oppgaver, slik at et produktivt samarbeid blir mulig.",
@@ -266,7 +242,6 @@
   {
     "question": "Hva menes med at ledere er begrenset rasjonelle?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "At de ofte baserer beslutningstaking på rykter og informasjon fra uformelle samtaler.",
       "At ledere ikke gjør bruk av formelle optimeringsmodeller ved beslutningstaking.",
@@ -277,7 +252,6 @@
   {
     "question": "I diskusjoner om ansattes motivasjon og implisitte arbeidskontrakt (Watson 2006; K3), hva menes med begrepet mønster av overbærenhet (indulgency pattern)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Når ledere ignorerer ansattes overtredelse av regler mot at de ansatte på sin side i større grad sier ja til forespørsler som de egentlig kunne avslått.",
       "At ledere bryr seg lite med de ansatte så lenge de leverer varer/tjenester i rett mengde og med rett kvalitet.",
@@ -288,7 +262,6 @@
   {
     "question": "Hva er sammenhengene mellom organisasjonens ytelse (performance) og involvering (involvement) av ansattes ifølge Tidd og Bessant (2009)?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "For hvert trinn med økt involvering, vil organisasjonens yteevne øke.",
       "Best ytelse oppnås når ansattes involvering skjer i strukturerte former, som kan overvåkes og modereres av toppledelsen.",
@@ -299,7 +272,6 @@
   {
     "question": "Hvilket av punktene under er ikke et eksempel på jobberikelse?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "At man går fra direkte til indirekte kontroll.",
       "At syklustiden for arbeidsoperasjonene forlenges.",
@@ -310,7 +282,6 @@
   {
     "question": "Ifølge Watson (2006; K3), hva er svakheten med motivasjonsteori i å forklare ansattes innstilling til arbeidet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Motivasjon er høyst subjektivt, og umulig å lage noen troverdig teori for.",
       "Intervensjoner basert på motivasjonsteori fungerer ikke, fordi ansatte ofte ikke vet sitt eget beste. Typisk vil ansatte mislike mer ansvar eller større frihet i jobben, enda de egentlig burde sette pris på det.",
@@ -321,7 +292,6 @@
   {
     "question": "Hvilken av disse er et kjennetegn på hensiktsmessig beslutningstaking innenfor diskontinuerlig (radikal) innovasjon (Tidd og Bessant 2009)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Risikoaversjon: en liten, men sikker avkastning foretrekkes fremfor en stor, men usikker avkastning.",
       "At man holder mulighetene åpne, og unngår å gjøre store, forpliktende innvesteringer på et tidlig tidspunkt.",
@@ -332,7 +302,6 @@
   {
     "question": "Hvilken av disse påstandene om gruppekreativitiet er IKKE korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Gruppekreativitet tillater at man kan jobbe raskere enn enkeltpersoner",
       "Gruppekreativitet krever ferdigheter og gjerne også erfaring for å fungere på en god måte",
@@ -343,7 +312,6 @@
   {
     "question": "Hvilken av disse påstandene om innovasjonsnettverk er IKKE korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Innovasjonsnettverk kan hjelpe bedrifter til å spre risikoen ved innføring av nye innovasjoner",
       "Innovasjonsnettverk kan hjelpe bedrifter til å takle dramatiske endringer i omgivelsene",
@@ -354,7 +322,6 @@
   {
     "question": "Hvilken av følgende definisjoner beskriver Embeddedness best?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Embeddedness betyr enkelt sagt at alt henger sammen med alt",
       "Embeddedness er et særtegn ved teknologi, som innebærer at har man først valgt en teknologi som skal inngå i et produkt, så kan ikke denne senere endres, fordi den da er embedded i produktet..",
@@ -365,7 +332,6 @@
   {
     "question": "Hvilken påstand er feil om Knowledge Push og Needs Pull?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bruken av tastaturer med QWERTY-utforming (bokstavrekkefølgen på øverste bokstavrad lest fra venstre) er et typisk eksempel på Knowledge Push.",
       "Man trenger Knowledge Push, særlig for radikale innovasjoner hvor det ofte er vanskelig for kundene å be om løsninger, siden de ikke kan se for seg skulle eksistere",
@@ -376,7 +342,6 @@
   {
     "question": "Hvilken av følgende påstander er feil om bedrifters utviklingspartnere?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Leverandører og kunder er de viktigste utviklingspartnerne for en bedrift",
       "De fleste bedrifter har få eller ingen utviklingspartnere",
@@ -387,7 +352,6 @@
   {
     "question": "En bedrift har høyere marginalkostnader (også kalt grensekostnader) enn gjennom­snitts­kostnader (også kalt enhetskostnader). Hva kan vi si sikkert om bedriftens kost­nads­struktur?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bedriften har vesentlige faste kostnader.",
       "De variable gjennomsnittskostnadene er høyere enn de totale gjennomsnitts­kost­nad­ene.",
@@ -398,7 +362,6 @@
   {
     "question": "En lineær etterspørselsfunksjon kan skrives P = a - bQ der a og b er positive kon­stanter mens P er prisen og Q er etterspurt mengde. Hva kan vi si om absoluttverdien til etterspørselselastisiteten dersom etterspørselen er lineær?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Den er lik b.",
       "Den er a.",
@@ -409,7 +372,6 @@
   {
     "question": "Et monopol som har konstante marginalkostnader (også kalt grensekostnader), MC, ser en lineær etterspørsel som kan skrives som P = a - bQ der a og b er positive konstanter mens P er prisen og Q er etterspurt mengde. Hva blir et korrekt uttrykk for optimal mengde, Q, for monopolet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mi>Q</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>MC</mi></math>",
       "<math><mi>Q</mi><mo>=</mo><mi>MC</mi></math>",
@@ -420,7 +382,6 @@
   {
     "question": "Anta at etterspørselen i markedet er <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math>, der <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter mens <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er etterspurt mengde og at det er veldig mange bedrifter i dette markedet som tilpasser seg i tråd med teorien om perfekt konkurranse (også kalt frikonkurranse) og som alle sammen har faste marginalkostnader, <math><mi>MC</mi></math>. Hva blir et korrekt uttrykk for total mengde, <math><mi>Q</mi></math>, i markedet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mi>Q</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>MC</mi></math>",
       "<math><mi>Q</mi><mo>=</mo><mi>MC</mi></math>",
@@ -431,7 +392,6 @@
   {
     "question": "Et monopol som har konstante marginalkostnader (også kalt grensekostnader), <math><mi>MC</mi></math>, ser en lineær etterspørsel som kan skrives som <math><mi>P</mi><mo>=</mo><mi>a</mi><mo>-</mo><mi>b</mi><mi>Q</mi></math> der <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter mens <math><mi>P</mi></math> er prisen og <math><mi>Q</mi></math> er etterspurt mengde. Hva er et korrekt uttrykk for dødvektstapet (tapt samfunnsøkonomisk overskudd) knyttet til monopolet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mfrac><msup><mrow><mo>(</mo><mi>a</mi><mo>-</mo><mi>MC</mi><mo>)</mo></mrow><mn>2</mn></msup><mrow><mn>8</mn><mi>b</mi></mrow></mfrac></math>",
       "<math><mfrac><mrow><mi>a</mi><mo>-</mo><mi>MC</mi></mrow><mrow><mn>8</mn><mi>b</mi></mrow></mfrac></math>",
@@ -442,13 +402,11 @@
   {
     "question": "Verdien av totale aktiva for en bedrift er 750 millioner. Verdien av bedriftens egenkapital er 500 millioner. Hva er bedriftens gjeldsgrad?",
     "answers": [1],
-    "exam": ".*",
     "options": ["1/3", "1/2", "2/3", "2"]
   },
   {
     "question": "En bedrift har totalkapitalrentabilitet på 5 % (før skatt). Egenkapitalrentabiliteten (før skatt) er lavere enn totalkapitalrentabiliteten. Hva kan vi da trygt si om avkastningen på bedriftens gjeld?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Avkastningen på gjeld er lavere enn avkastningen på egenkapital.",
       "Avkastningen på gjeld er høyere enn avkastningen på totalkapital.",
@@ -459,13 +417,11 @@
   {
     "question": "Nåverdien av 115 000 som er forventet å bli mottatt ett år fra i dag, med en diskonteringsrente (avkastningskrav) på 10 % pr år er:",
     "answers": [3],
-    "exam": ".*",
     "options": ["121 000", "100 500", "110 000", "104 545"]
   },
   {
     "question": "Alternativkostnaden til kapital investert i et risikofylt prosjekt er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Forventet avkastning på en statsobligasjon med samme levetid som prosjektet.",
       "Forventet avkastning på en veldiversifisert portefølje av aksjer.",
@@ -476,7 +432,6 @@
   {
     "question": "Ledelsen i et selskap kan maksimere aksjonærenes formue ved å:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Bare gjennomføre prosjekter med positiv nettonåverdi.",
       "Bare å gjennomføre prosjekter med nettonåverdi større enn investeringskostnaden.",
@@ -487,7 +442,6 @@
   {
     "question": "Internrenten er definert som:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Avkastningskravet som gir nettonåverdi lik null.",
       "Forskjellen mellom kapitalkostnaden og nåverdien av kontantstrømmen.",
@@ -498,7 +452,6 @@
   {
     "question": "Den andelen av risiko som ikke kan elimineres ved diversifisering kalles:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Unik risiko.",
       "Markedsrisiko.",
@@ -509,7 +462,6 @@
   {
     "question": "Følgende endring i kontantstrøm skal ikke med direkte i nettonåverdiberegningen når en bilprodusent vurderer å sette i gang utviklingen av en elektrisk bil:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Reduksjon i kontantstrøm fra salg av selskapets eksisterende bensinmodeller fordi enkelte kunder vil velge den nye elbilen heller enn en av selskapets bensinbiler.",
       "Kostnader knyttet til nye fabrikker og utstyr.",
@@ -520,13 +472,11 @@
   {
     "question": "Markedsrisikopremien er 5 %. Risikofri rente er 3 %. Et selskap tilbyr en investering kalt Aksje-Terning-Moro. Utbetalingen på denne investeringen om ett år tilsvarer verdien til en aksje med beta på 1, og et standardavvik på 17 %, pluss 10 % av dagens verdi på aksjen for hvert øyne som vises på en (perfekt) terning som skal kastes rett før utbetalingen. Forventningsverdien til den delen av avkastningen som er knyttet til selve terningen utgjør 35 % av aksjens verdi i dag, og standardavviket til denne delen av avkastningen er også 17 %. Dersom aksjens verdi i dag er 100, hvor mye ville en godt diversifisert investor, som opptrer i tråd med kapitalverdimodellen (CAPM), være villig til å betale for denne investeringen?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Ca. 127", "Ca. 131", "Ca. 132", "Ca. 134"]
   },
   {
     "question": "Beta for et selskaps aktiva er 1. Beta for gjelden er 0,5. Markedsverdien for gjeld er 50 % av markedsverdien til selskapets aktiva. Hva er beta for selskapets aksjer?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0,5", "1,0", "1,5", "2,0"]
   }
 ]

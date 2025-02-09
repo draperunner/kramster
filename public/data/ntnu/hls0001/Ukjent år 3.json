@@ -2,7 +2,6 @@
   {
     "question": "Type A atferdsmønster er blitt forbundet med utviklingen av en bestemt sykdom. Det er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Sukkersyke",
       "Obstruktive lungelidelser",
@@ -13,7 +12,6 @@
   {
     "question": "I Oslo har det ofte tidligere vært snakk om at forventet levetid er høyere vest i byen enn øst i byen. I de nyeste undersøkelsene viser det seg at nå er dette slik at:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Det er fortsatt slik",
       "Det er blitt helt motsatt",
@@ -24,7 +22,6 @@
   {
     "question": "Er det farlig å snakke om selvmord?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ja",
       "Nei",
@@ -35,7 +32,6 @@
   {
     "question": "Det synspunktet at menneskelige fenomener (som for eksempel ærlighet og depresjon)\ner grunnleggende sett det samme (kvalitativt) i alle kulturer kalles:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Absolutisme",
       "Relativisme",
@@ -46,7 +42,6 @@
   {
     "question": "En person med type B atferdsmønster",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lar seg veldig lett hisse opp",
       "Tar livet som det kommer. Og lar seg flyte med livsstrømmen",
@@ -57,7 +52,6 @@
   {
     "question": "Det finnes ulike sykdoms- og helsemodeller. Helsepsykologer og forskere som arbeider\nmed psykosomatikk benytter seg vanligvis av den mest moderne av disse modellene og\nden kalles for",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bio-medisinsk helsemodell",
       "Bio-holistisk helsemodell",
@@ -68,7 +62,6 @@
   {
     "question": "Det er minst fire måter å beskrive forholdet mellom helse og livskvalitet. En av de fire\nmåtene nevnt nedenfor er mest dekkende. Hvilken?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Livskvalitet og helse er atskilte fenomener",
       "Livskvalitet og helse er identiske",
@@ -79,7 +72,6 @@
   {
     "question": "Livskvalitet er et lett forståelig begrep. Er det også lett å måle i vitenskapelige\nstudier? Ett av svaralternativene nedenfor er riktig. Hvilket?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ja, livskvalitet har en entydig definisjon og er enkelt å måle",
       "Ja, livskvalitet er enkelt å måle fordi begrepet er en-dimensjonalt",
@@ -90,7 +82,6 @@
   {
     "question": "«Det generelle adaptasjonssyndromet» (GAS) som begrep",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Stammer fra den Engels generelle teori om hvordan sykdom utvikler",
       "Stammer fra Selyes beskrivelse av reaksjon på stress",
@@ -101,13 +92,11 @@
   {
     "question": "Hvem regnes som Utbrenthetsbegrepets «far» og skrev de første artiklene?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Freud", "Freudenberger", "Farber", "French"]
   },
   {
     "question": "Utbrenthet skiller seg fra andre begrep om depresjon og stress fordi",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Utbrenthet er smittsomt",
       "Utbrenthet rammer bare folk i toppjobber",
@@ -118,7 +107,6 @@
   {
     "question": "Den mest anerkjente og brukte definisjonen på utbrenthet er laget av Maslach. Hun deler utbrenthet inn i?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En dimensjon",
       "To dimensjoner",
@@ -129,7 +117,6 @@
   {
     "question": "Nyere oppsummering av forskningsstatus vedrørende strategier for reduksjon av\nalkoholrelaterte skader i samfunnet viser at en strategi som har høy grad av effekt er:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Alkoholopplysning i skolen",
       "Selvhjelpsgrupper",
@@ -140,7 +127,6 @@
   {
     "question": "Totalforbruksteorien handler om",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Totalforbruket er den dominerende faktor som styrer alkoholskadens omfang i\nsamfunnet, men ikke den eneste faktor",
       "Totalforbruket er den eneste faktor som styrer alkoholskadenes omfang i samfunnet.",
@@ -151,13 +137,11 @@
   {
     "question": "Hvilken av personlighetstrekkene nedefor er sterkest relatert til rapportering av symptomer?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Nevrotisisme", "Introversjon", "Åpenhet", "Planmessighet"]
   },
   {
     "question": "Hva kjennetegner, i følge Friedman og kollegaer, personer som lever lenge?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "De er optimistiske og planmessige",
       "De skårer lavt på nevrotisisme og lavt på medmenneskelighet",
@@ -168,7 +152,6 @@
   {
     "question": "Med forkortningen BMI",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Mener vi vanligvis Body Mass Index",
       "Mener vi forholdet mellom hofte og mageomkrets",
@@ -179,7 +162,6 @@
   {
     "question": "Innen medisin og sykepleie defineres «livskvalitet» som",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Lykke",
       "Helse og velvære",
@@ -190,7 +172,6 @@
   {
     "question": "Livskvalitet måles oftest ved hjelp av",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Selvrapportering",
       "Helsepersonells vurdering",
@@ -201,7 +182,6 @@
   {
     "question": "De fleste som må fjerne livmoren lider av",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Kreft",
       "Smerter og store blødninger",
@@ -212,7 +192,6 @@
   {
     "question": "De fleste «cancer survivors» opplever en god livskvalitet fordi",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Behandlingen av kreft ikke gir noen komplikasjoner",
       "Oppfatningen av hva som er viktig i livet endres",

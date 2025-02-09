@@ -2,13 +2,11 @@
   {
     "question": "En byte inneholder hvor mange bits?",
     "answers": [1],
-    "exam": ".*",
     "options": ["1", "8", "16", "32"]
   },
   {
     "question": "Hva kalles en test der man bare ser på inputs og outputs av en funksjon?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Hvitbokstest (white box test).",
       "IO-test (Input Output test).",
@@ -19,7 +17,6 @@
   {
     "question": "Omtrent hvor mange enheter er koblet til Internett i dag?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Halvparten så mange som det finnes mennesker på jorden.",
       "Like mange som det finnes mennesker på jorden.",
@@ -30,7 +27,6 @@
   {
     "question": "Hva er en transistor?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Enheten som omformer 220V vekselstrøm til likestrøm som kan brukes til de ulike enhetene (CPU, lydkort, grafikkort, harddisk, RAM osv.) i datamaskinen.",
       "Et kretskort der man kobler samme de ulike delene i en datamaskin, som CPU, minne, lydkort, grafikkort, RAM osv.",
@@ -41,13 +37,11 @@
   {
     "question": "Hvordan representeres desimaltallet 321 som et binært tall?",
     "answers": [3],
-    "exam": ".*",
     "options": ["1100101", "11001001", "100101101", "101000001"]
   },
   {
     "question": "Hva er hensikten med en DAC?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Konvertere fra analogt til digitalt signal.",
       "Konvertere fra digitalt til analogt signal.",
@@ -58,7 +52,6 @@
   {
     "question": "Hva får vi med like mengder av rødt, grønt og blått i et punkt på en skjerm?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Sort, hvitt eller gråtoner.",
       "Cyan, magenta og gult.",
@@ -69,7 +62,6 @@
   {
     "question": "Hva menes med 'sampling rate' under digitalisering av lyd?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Hvor hyppig man måler lyden.",
       "Frekvensen på lyden som skal digitaliseres.",
@@ -80,7 +72,6 @@
   {
     "question": "Hva er RGB?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Random GB - hukommelsen i en datamaskin.",
       "En fargemodell for reflektert lys som viser hvordan alle farger dannes fra primærfargene.",
@@ -91,7 +82,6 @@
   {
     "question": "Hva er «booting» av en datamaskin?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Prosessen som starter opp datamaskinen.",
       "Endre systeminnstillinger på en datamaskin.",
@@ -102,7 +92,6 @@
   {
     "question": "Hva ligger i begrepet ”system engineering” i følge læreboka?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "”System engineering” fokuserer på underliggende teorier og metoder som utgjør datasystemer.",
       "”System engineering” fokuserer på praktiske problemer med å produsere programvare.",
@@ -113,7 +102,6 @@
   {
     "question": "Hvilke av disse enhetene er vanligvis involvert i ”Fetch/Execute Cycle”?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "ALU, CU (Control Unit), RAM.",
       "ROM, ALU, RAM.",
@@ -124,7 +112,6 @@
   {
     "question": "Hva går aktiviteten arkitekturdesign (architectural design) ut på?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Definere grensesnitt mellom systemkomponenter.",
       "Designe hvordan hver systemkomponent skal fungere.",
@@ -135,7 +122,6 @@
   {
     "question": "Når det gjelder henholdsvis lagring og overføring av data så måles de vanligvis i …",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Bits (lagring) og Bits pr. sekund (overføring).",
       "Bits (lagring) og Byte pr. sekund (overføring).",
@@ -146,7 +132,6 @@
   {
     "question": "En ulempe med inkrementell utvikling kan være:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Må ha alle krav på plass før man kan starte på design og implementering av system.",
       "Gjør det vanskeligere å teste systemet for feil.",
@@ -157,7 +142,6 @@
   {
     "question": "Man kan sende stadig mer informasjon gjennom luften ved å …",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Bruke eldre stabile omkodere (Encoders).",
       "Bytte til lavere frekvenser.",
@@ -168,7 +152,6 @@
   {
     "question": "Når det gjelder adresse-feltene i gammel (versjon 4) og ny IP-versjon (versjon 6), så er det\nslik at",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "De bruker like mange bit.",
       "Den gamle versjonen har ikke nok bit til å adressere alle maskinene på Internett.",
@@ -179,7 +162,6 @@
   {
     "question": "Hva er programvareevolusjon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Programvare som må endres pga. av endringer i utføringsmiljøet.",
       "Kjøre programvare på raskere datamaskiner.",
@@ -190,13 +172,11 @@
   {
     "question": "Anta at vi har en todimensjonal liste (liste av lister) med navn. For eksempel <code>lister = [['Anh, Ine', 'By, Ken', …], ['By, Ken', 'Cox, Jo', …], …]</code>. Her er hver indre liste alfabetisk sortert etter etternavn og uten duplikater, men samme navn kan forekomme i flere av de indre listene. Anta også at antall elementer i hver av de indre listene er omtrent det\nsamme som antall lister i den ytre lista. Vi ønsker en funksjon <code>antall_n(lister, navn)</code> som returnerer hvor mange av listene det gitte navnet finnes i. Her er pseudokode for en slik løsning, bestående av to funksjoner, hvor den ene – <code>antall_n()</code> – kaller den andre som heter <code>antall()</code>.\n<pre>\nfunction antall_n(lister, navn):\n    ant ← 0\n    la liste_n gå fra og med første til og med siste element lister:\n        ant ← ant + antall(liste_n, navn) # funksjonen fra psaudokoden\n        # for antall() under, vil gi 0 eller 1\n    returner ant\n\nfunction antall(liste, navn):\n    antall ← 0\n    la n gå fra og med første til og med siste element i liste:\n        hvis n == navn:\n            antall ← antall + 1\n    returner antall\n</pre>\nKompleksiteten til denne løsningen vil være:",
     "answers": [2],
-    "exam": ".*",
     "options": ["Θ(n)", "Θ(n log n)", "Θ(n2)", "Θ(n3)"]
   },
   {
     "question": "I stedet for å bruke funksjonen <code>antall()</code> inni funksjonen <code>antall_n</code>, kan vi bruke binærsøk,\ndvs. vi bytter ut <code>ant ← ant + antall(liste_n, navn)</code> i pseudokoen med <code>ant ← ant +\nbin_search(liste_n, navn)</code> hvor det kan antas at <code>bin_search</code> i dette tilfellet returnerer 1\nhvis navn fins i <code>liste_n</code> og 0 hvis det ikke fins.\n<pre>\nfunction antall_n(lister, navn):\n    ant ← 0\n    la liste_n gå fra og med første til og med siste element lister:\n        ant ← ant + antall(liste_n, navn) # funksjonen fra psaudokoden\n        # for antall() under, vil gi 0 eller 1\n    returner ant\n\nfunction antall(liste, navn):\n    antall ← 0\n    la n gå fra og med første til og med siste element i liste:\n        hvis n == navn:\n            antall ← antall + 1\n    returner antall\n</pre>\nKompleksiteten til <code>antall_n</code> vil da bli:",
     "answers": [1],
-    "exam": ".*",
     "options": ["Θ(n)", "Θ(n log n)", "Θ(n2)", "Θ(n3)"]
   }
 ]

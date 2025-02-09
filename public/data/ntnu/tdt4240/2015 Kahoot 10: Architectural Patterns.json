@@ -2,37 +2,31 @@
   {
     "question": "Choose the most appropriate pattern: \"Need a mechanism to provide easy management of several configurations of look and feel in a software framework for graphical user interfaces that provides the same core functionality (buttons, windows, text-entry fields, etc)\"",
     "answers": [0],
-    "exam": ".*",
     "options": ["Abstract Factory", "Composite", "Observer", "Singleton"]
   },
   {
     "question": "Choose the most appropriate pattern: \"Need a mechanism to manage various shapes in a graphics editor where complex shapes (e.g. a rectangle) are made out of simple shapes (e.g. lines)\"",
     "answers": [1],
-    "exam": ".*",
     "options": ["Abstract Factory", "Composite", "Observer", "Template method"]
   },
   {
     "question": "Choose the most appropriate pattern: \"Need a mechanism to notify clients when a server finds news gathered from the web related to the clients' specifications\"",
     "answers": [3],
-    "exam": ".*",
     "options": ["Abstract Factory", "Composite", "Singleton", "Observer"]
   },
   {
     "question": "Choose the most appropriate pattern: \"An application for a travel agency to manage packages of trips should be developed. You should provide a mechanism to allow all the trips to follow the same structure (transport to location, visiting a location, transport back), but each trip package provides variations in transports (to and back), and locations.\"",
     "answers": [2],
-    "exam": ".*",
     "options": ["Abstract Factory", "Composite", "Template method", "Singleton"]
   },
   {
     "question": "Choose the most appropriate pattern: \"Provide a global logging mechanism that can be accessed by all parts of a system\"",
     "answers": [3],
-    "exam": ".*",
     "options": ["Abstract Factory", "Composite", "Observer", "Singleton"]
   },
   {
     "question": "Which architectural pattern would you choose? \"Software for taking raw data from seismic samples and transforming the data through several stages until the data can be used for visualization\"",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Layered",
       "Client-Server",
@@ -43,7 +37,6 @@
   {
     "question": "Which architectural pattern would you choose? \"A system for managing air traffic that consists of a user interface that uses flight management and sector management that uses a set of classes providing general aeronautical services that uses general support mechanisms such as network, storage, resource management, etc.\"",
     "answers": [1],
-    "exam": ".*",
     "options": ["Client-Server", "Layered", "Map-Reduce", "Shared data"]
   }
 ]

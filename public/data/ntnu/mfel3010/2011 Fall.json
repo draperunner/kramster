@@ -2,7 +2,6 @@
   {
     "question": "What is correct about excitation contraction coupling?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The action potential causes inflow of Na+ intracellularly, which binds to tubulin",
       "The action potential causes inflow of Na+ intracellularly, which binds to troponin",
@@ -13,7 +12,6 @@
   {
     "question": "At the end of a cardiac action potential, calcium is pumped from the cytoplasm into the sarcoplasmatic recticulum against a concentration gradient. What kind of transport is this?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Active transport",
       "Mediated diffusion",
@@ -24,13 +22,11 @@
   {
     "question": "What are the main regulators of ventilation during basal conditions?",
     "answers": [0],
-    "exam": ".*",
     "options": ["CO2 + pH", "CO2 + CO", "O2 + pH", "CO2 + O2"]
   },
   {
     "question": "Haemolytic disease of the newborn is due to the rhesus blood type system. Which combination of blood types has to exist to induce this disease?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Both mother and child are rhesus negative",
       "Mother is rhesus positive, child is rhesus negative",
@@ -41,7 +37,6 @@
   {
     "question": "What is the function of the sodium-potassium pump?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Levelling the membrane potential by transports of sodium and potassium from high to low concentration.",
       "Building up the membrane potential, by active transport of Sodium and Potassium from low to high concentration.",
@@ -52,7 +47,6 @@
   {
     "question": "Krebs’ cycle is a biochemical process that is the basis for most of the energy production. Where in the cell does this process take place?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The cytoplasm",
       "Smooth endoplasmatic reticulum",
@@ -63,7 +57,6 @@
   {
     "question": "What is the pressure in the pleural cavity during normal inspiration?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Lower than the atmospheric pressure",
       "Equal to the atmospheric pressure",
@@ -74,7 +67,6 @@
   {
     "question": "The partial pressure of oxygen in the air decreases with altitude. If the partial pressure is reduced by 50%, how much will this reduce the oxygen saturation of blood?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Nothing",
       "Moderately reduced, but substantially less than 50%",
@@ -85,19 +77,16 @@
   {
     "question": "A patient with heart failure has an end diastolic left ventricular volume of 350 ml, an ejection fraction of 15%. What would the resting heart rate have to be, to maintain a normal cardiac output of 4.5 l/min?",
     "answers": [1],
-    "exam": ".*",
     "options": ["155", "85", "70", "62"]
   },
   {
     "question": "Mean incidence of influenza in Norway in week 45 in 2009 was 14%. We may consider that the duration of influenza to be on the average 3 days. What was the mean prevalence of influenza during that week?",
     "answers": [2],
-    "exam": ".*",
     "options": ["2.25%", "4.5%", "6%", "14%"]
   },
   {
     "question": "Which of these factors can be changed to change the depth resolution in ultrasound?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Sound intensity",
       "Sound frequency",
@@ -108,19 +97,16 @@
   {
     "question": "The coagulation process happens as specialised proteins in plasma; coagulation factors reacts in a cascade reaction. What is the end product of this reaction; the main ingredient in a clot?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Fibrin", "Plasmin", "Albumin", "Gammaglobulin"]
   },
   {
     "question": "Where are most of the coagulation factors produced?",
     "answers": [2],
-    "exam": ".*",
     "options": ["The bone marrow", "The spleen", "The liver", "The lymph nodes"]
   },
   {
     "question": "Hyperventilation may happen as a result of pain or stress. What happens to the pH in the blood?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Increases",
       "Unchanged",
@@ -131,7 +117,6 @@
   {
     "question": "Ejection fraction measured by ultrasound has a high variability. Limits of agreement are ± 10% points. A patient who has had an infarct had an ejection fraction of 45% (slightly reduced) when he left the hospital. Two months later, he was admitted because of dyspnea, but had no new infarction. During the second stay, a new echocardiography was made, and they now found an EF of 38%. The diagnosis of worsening heart failure (HF) was made, and medical treatment for heart failure was started. The conclusion that the patient had worsening heart failure was:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Correct because the EF was below 40%",
       "Correct because the EF had dropped by 7% points",
@@ -142,13 +127,11 @@
   {
     "question": "A child has been wounded by steel fragments from a cluster bomb. Which of these imaging methods should definitely not be used to locate the fragments in the body for safety reasons?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Ultrasound", "X-ray", "MRI", "Nuclear imaging"]
   },
   {
     "question": "A clinical study of a certain disease, comparing treatment A with treatment B, found a difference in mortality between treatment A and treatment B (A<B) with a significance of < 2%. What does that mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "That the mortality is reduced by ≥ 2% with treatment A compared to B",
       "That the study strength was 98%",
@@ -159,7 +142,6 @@
   {
     "question": "In MRI, the atomic nuclei in a patient have aligned their spin with the magnetic field they are placed in. To make images, the nuclei are first brought into a higher energy state by beaming in energy (excitation to a higher energy state) and then capturing the energy as it escapes again afterwards. What kind of energy is beamed in?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Electron beams",
       "Gamma ray beams",
@@ -170,13 +152,11 @@
   {
     "question": "What does the cytoskeleton consist of?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Phospholipids", "Amino acids", "Glycogen", "Cholesterol"]
   },
   {
     "question": "Ultrasound Doppler can measure blood velocity. We are interested in measuring the blood velocity at a certain depth. This is done by pulsed Doppler. How is the depth selectivity achieved?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "By varying the frequency in the transmitted signal",
       "By varying the total energy in the transmitted signal",
@@ -187,7 +167,6 @@
   {
     "question": "What happens with the cardiac pumping during the PQ interval?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The atria contracts and fills the ventricles.",
       "The ventricles contract, in order to increase the pressure, without ejectiong blood",
@@ -198,13 +177,11 @@
   {
     "question": "Hypertension is a risk factor for stroke and heart infarction. What’s the limit between high normal blood pressure (prehypertension) and manifest hypertension (stage 1)?",
     "answers": [1],
-    "exam": ".*",
     "options": ["120/80", "140/90", "160/100", "180/110"]
   },
   {
     "question": "The blood pressure is usually measured by inflating a cuff around the upper arm, and then reducing the pressure gradually. Which of the statements below are correct in relation to this procedure?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "When the systolic pressure equals the pressure in the cuff, the artery will just start to open.",
       "When the systolic pressure equals the cuff pressure, the artery is open during the whole heart cycle",
@@ -215,7 +192,6 @@
   {
     "question": "Maximum oxygen uptake is a measure of aerobic fitness. What limits the maximal oxygen uptake in healthy individuals?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The maximal pumping capacity of the heart",
       "The maximal ventilatory capacity of the lungs",
@@ -226,7 +202,6 @@
   {
     "question": "During pregnancy, ionizing radiation may harm the fetus. Which two of these imaging methods should thus be avoided as far as possible during pregnancy?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Ultrasound and MR",
       "MR and nuclear imaging",
@@ -237,19 +212,16 @@
   {
     "question": "A 50 year old man with no symptoms want a checkup to be sure he doesn’t have coronary heart disease, for safety’s sake. He went to a private specialist centre in order to have a test, and have an exercise ECG. The risk of having significant coronary disease in men without symtoms at that age may be assumed to be 4%. Exercise ECG has a sensitivity of about 65%, and a specificity of 75%. This may be expressed in the following 4x4 table:\n<img src=\"images/32w4ju.webp\" />\nIf the test shows a positive result (meaning it indicates coronary disease), what is the positive predictive value of this test (the probability that he really is ill)?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2,6%", "10%", "24%", "26.6%"]
   },
   {
     "question": "A 50 year old man with no symptoms want a checkup to be sure he doesn’t have coronary heart disease, for safety’s sake. He went to a private specialist centre in order to have a test, and have an exercise ECG. The risk of having significant coronary disease in men without symtoms at that age may be assumed to be 4%. Exercise ECG has a sensitivity of about 65%, and a specificity of 75%. This may be expressed in the following 4x4 table:\n<img src=\"images/o7nx1m.webp\" />\nIf the test shows a negative result (meaning it doesn’t indicate coronary heart disease), what is the negative predictive value of the test (the probability that he really is healthy)?",
     "answers": [3],
-    "exam": ".*",
     "options": ["1.4%", "72%", "73.4%", "98%"]
   },
   {
     "question": "A blood vessel has a narrowing in a short segment. What happens always to the blood flow in this narrow segment?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The blood velocity increases",
       "The blood velocity decreases",
@@ -260,19 +232,16 @@
   {
     "question": "<img src=\"images/zoc8nc.webp\" />\nIn a paternity case, there are four possible fathers (a, b, c and d). A DNA test is done, which of the four candidates is the most probable father?",
     "answers": [1],
-    "exam": ".*",
     "options": ["a", "b", "c", "d"]
   },
   {
     "question": "How much filtrate is produced in all nephrons of both kidneys during 24 hours?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Ca 1,6 litres", "Ca 3 litres", "Ca 20 litres", "Ca 180 litres"]
   },
   {
     "question": "ELISA is a method for biochemical analysis of blood components. What is true about the ELISA method?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "It can mainly be used to measure electrolytes",
       "It is based upon binding of two antibody molecules to each molecule of the substance that shall be measured",
@@ -283,7 +252,6 @@
   {
     "question": "What is the effect of carbon monoxide on the blood?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "It inhibits coagulation",
       "It inhibits the immune system",
@@ -294,7 +262,6 @@
   {
     "question": "Water is reabsorbed along most of the nephron. Which mechanism is mainly responsible for reabsorbtion of water?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Osmosis",
       "Facilitated diffusion",
@@ -305,13 +272,11 @@
   {
     "question": "Which of the marked volumes on the diagram below represents the expiratory reserve volume?\n<img src=\"images/d9wmm.webp\" />",
     "answers": [1],
-    "exam": ".*",
     "options": ["A", "B", "C", "D"]
   },
   {
     "question": "What makes the cell differentiation possible?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The genes are different in different tissues.",
       "Different translation mechanisms in different tissues",
@@ -322,7 +287,6 @@
   {
     "question": "The main part of the DNA in the cell is found in the nucleus. What other organelles do also contain DNA?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "The Golgi apparatus",
       "The endoplasmic reticulum",
@@ -333,7 +297,6 @@
   {
     "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The Esophagus",
       "The stomach",
@@ -344,7 +307,6 @@
   {
     "question": "In diabetes is glucose found in the urine as a sign of elevated blood sugar. What is the mechanism for this?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Glucose is normally not filtrated in the urine,only in elevated blood sugar.",
       "In elevated blood sugar, the renal capacity for reabsorption is exceeded by the urine concentration of glucose",
@@ -355,7 +317,6 @@
   {
     "question": "Anaerobic respiration is a process where glucose is metabolised to lactic acid, producing a small amount of ATP. Where in the cell does this process take place?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "The cytoplasm",
       "Smooth endoplasmatic reticulum",
@@ -366,7 +327,6 @@
   {
     "question": "Which of these three functions are all functions of the liver?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Storage of carbohydrates, secretion of bile, plasma protein synthesis",
       "Secretion of bile, plasma protein synthesis, insulin production",

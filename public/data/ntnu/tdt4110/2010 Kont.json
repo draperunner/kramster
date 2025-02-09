@@ -2,25 +2,21 @@
   {
     "question": "Hvor mange bit trenger du til å kode det norske alfabetet (29 forskjellige bokstaver) ved enkel koding hvor alle symbolene er representert med samme antall bit?",
     "answers": [0],
-    "exam": ".*",
     "options": ["5 bits", "6 bits", "8 bits"]
   },
   {
     "question": "Kalle har klart å knekke passordet til en database som lagrer alle karakterene på NTNU etter flere forsøk, men ombestemmer seg og ser ikke på innholdet i databasen. Har Kalle gjort noe ulovlig i følge loven?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Nei", "Ja", "Loven sier ikke noe om dette"]
   },
   {
     "question": "Hvilken type minne har normalt høyest tilgangstid (access time) i en datamaskin?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Registre", "Cache", "Primærminne"]
   },
   {
     "question": "En ulempe med åpen kildekode (open source) er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Du kan ikke endre produktet selv",
       "Det er store firma står som regel bak utviklingen",
@@ -30,7 +26,6 @@
   {
     "question": "Hva er beskriver en kravspesifikasjon?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Kravspesifikasjon beskriver HVA systemet skal gjøre",
       "Kravspesifikasjon beskriver HVORDAN systemet skal lages",
@@ -40,7 +35,6 @@
   {
     "question": "Hva er svart-boks testing?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Testing som konsentrerer seg om systemets eller modulens indre oppbygning",
       "Testing som ikke ser på systemets eller modulens indre oppbygning",
@@ -50,7 +44,6 @@
   {
     "question": "Hva er kjernen i et operativsystem?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Den delen som tar i mot input fra brukeren",
       "Den delen som administrerer maskinressurser",
@@ -60,7 +53,6 @@
   {
     "question": "Hvorfor krypteres data?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "For at data ikke skal kunne leses av uvedkommende",
       "For at det skal ta mindre plass",
@@ -70,7 +62,6 @@
   {
     "question": "En protokoll er:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Et program som oversetter kildekode til maskinkode slik at det kan kjøres på en datamaskin",
       "En enhet som gjør beregninger og sammenlikninger i en datamaskin",
@@ -80,7 +71,6 @@
   {
     "question": "Er binærsøk alltid raskere enn sekvensielt søk?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Binærsøk er alltid raskere enn sekvensielt søk uansett",
       "Binærsøk er alltid raskere enn sekvensielt søk på sorterte datamengder",
@@ -90,7 +80,6 @@
   {
     "question": "Hva gjør man når man designer et system under systemutvikling?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Beskriver hva systemet skal gjøre",
       "Beskriver hvordan systemet skal lages",
@@ -100,7 +89,6 @@
   {
     "question": "Hva er hovedoppgaven til en navnetjener?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Oversetter domenenavn til IP-adresser",
       "Oversetter IP-adresser til domenenavn",
@@ -110,13 +98,11 @@
   {
     "question": "I det binære tallsystemet, hva er 010 multiplisert med 101?",
     "answers": [1],
-    "exam": ".*",
     "options": ["111", "1010", "1111"]
   },
   {
     "question": "Hva er inspeksjon i systemutvikling?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Inspeksjon innebærer å finne feil eller forsikre seg om at feil ikke finnes uten å kjøre programmet",
       "Inspeksjon innebærer å undersøke om de som programmerer lager ryddige programmer som er lette å lese",
@@ -126,7 +112,6 @@
   {
     "question": "Hva er en normal konfigurasjon av en klient-tjener arkitektur?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Få tjenere, mange klienter",
       "Mange tjenere, få klienter",
@@ -136,19 +121,16 @@
   {
     "question": "En bit av et program består av ei for-løkke inne i ei for-løkke. Begge løkkene løper igjennom tallverdiene 1:N. Tidsforbruket til denne programbiten vil være proporsjonalt med",
     "answers": [2],
-    "exam": ".*",
     "options": ["N", "N log N", "N^2"]
   },
   {
     "question": "Gitt ei sortert liste av 272 verdier. Vi søker etter en verdi som ikke finnes i lista. Hvor\nmange sammenligninger må vi i verste fall gjøre ved bruk av binærsøk?",
     "answers": [2],
-    "exam": ".*",
     "options": ["136", "8", "9"]
   },
   {
     "question": "Hva er en database i følge læreboka?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "En samling strukturerte data",
       "Et program for å håndtere store datamengder",
@@ -158,13 +140,11 @@
   {
     "question": "Hvilken av følgende alternativer blir IKKE ifølge loven ansett som sensitive personopplysninger ved\topprettelse av personregistre ifølge læreboka?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Religiøs bakgrunn", "Karakterer", "Fagforeningsbakgrunn"]
   },
   {
     "question": "Bruk huffman‐koding for å finne bitmønstrene til symbolene A, B, C, D, E, F og G når du har oppgitt fordeling som vist i Tabell 1 på en melding som består av 100 symboler.\nTabell 1 Fordeling av antall symboler oversendt i en melding på 100 symboler\n<table class=\"table table-striped\">\n    <thead>\n        <tr>\n            <th>Symbol</th>\n            <th>Antall i melding</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>A</td>\n            <td>40</td>\n        </tr>\n        <tr>\n            <td>B</td>\n            <td>20</td>\n        </tr>\n        <tr>\n            <td>C</td>\n            <td>15</td>\n        </tr>\n        <tr>\n            <td>D</td>\n            <td>10</td>\n        </tr>\n        <tr>\n            <td>E</td>\n            <td>8</td>\n        </tr>\n        <tr>\n            <td>F</td>\n            <td>5</td>\n        </tr>\n        <tr>\n            <td>G</td>\n            <td>2</td>\n        </tr>\n    </tbody>\n</table>",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "A:1, B:01, C:011, D:001, E:0011, F:0001, G:00011",
       "A:1, B:011, C:010, D:001, E:0001, F:00001, G:00000",

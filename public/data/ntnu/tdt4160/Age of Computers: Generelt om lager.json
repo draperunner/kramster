@@ -2,7 +2,6 @@
   {
     "question": "Hva er forskjellen på romlig lokalitet og tidsmessig lokalitet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Romlig lokalitet refererer til lageraksesser som involverer et antall lagerlokasjoner som er i en klynge (nærliggende adresser). Tidsmessig lokalitet refererer til lageraksesser mot data som nylig har vært aksessert tidligere.",
       "Romlig lokalitet referer til lagerblokker som ligger ved siden av hverandre i hurtigbufferet, mens tidsmessig lokalitet referer til om det tar like lang tid å utføre to programmer som ligger i lageret.",
@@ -12,7 +11,6 @@
   {
     "question": "Hva  er den generelle strategien for å oppnå tidsmessig lokalitet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Man kan oppnå tidsmessig lokalitet om man setter opp alle instruksjoner som skal utføres i gitt rekkefølge etterhverandre i hurtigbufferet.",
       "Man kan oppnå tidsmessig lokalitet om man lagrer nylig brukte instruksjoner og dataverdier i hurtigbufferet og bruker et hurtigbufferhirarki.",
@@ -22,7 +20,6 @@
   {
     "question": "Lokalitet i referanser (eng. locality of reference) er en viktig egenskap i et program fordi",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "programmet ellers vil plassere dataene på tilfeldige adresser i minnet og dermed skape kaos.",
       "det er en forutsetning for effektiv utnyttelse av minnehierarkiet.",
@@ -32,7 +29,6 @@
   {
     "question": "Hvilken påstand er <em>feil</em> om lagerhierarki?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Samme data kan finnes på flere nivåer i hierarkiet",
       "Nivåer lengre ned i hierarkiet har høyere kapasitet",
@@ -45,7 +41,6 @@
   {
     "question": "I dagens systemer kan aksess til hovedlager være en flaskehals. Dette problemet kan løses på forskjellige måter. Hvilken av metodene nedenfor er ikke egnet til å redusere dette problemet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Øke antallet bit som hentes på en gang",
       "Inkludere hurtigbuffer på hver minnebrikke",
@@ -61,7 +56,6 @@
   {
     "question": "Hva er den generelle relasjonen mellom aksesstid, lagerkostnad og kapasitet?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Raskere aksesstid gir mindre kostnad per bit, større kapasitet gir større kostnad per bit og større kapasitet gir tregere aksesstid.",
       "Raskere aksesstid gir større kostnad per bit, større kapasitet gir minder kostnad per bit og større kapasitet gir tregere aksesstid.",
@@ -71,7 +65,6 @@
   {
     "question": "Hva er ordlengden til en datamaskin?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Antall ord i en instruksjon",
       "Antall bit i et ord",
@@ -82,7 +75,6 @@
   {
     "question": "Hva er den viktigste grunnen til at vi har innført lagerhierarki?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Det er for å kunne skille mellom viktige og mindre viktige data",
       "For å minske tiden det tar for å aksessere data",
@@ -94,7 +86,6 @@
   {
     "question": "Hva er et ord i lagersammenheng?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Et sett av adresser",
       "Et sett av lagerceller",
@@ -105,7 +96,6 @@
   {
     "question": "Hva er romlig lokalitet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Romlig lokalitet er når etterfølgende lageraksesser består av et antall lagerlokasjoner som er satt sammen i en klynge.",
       "Romlig lokalitet er når man bruker ulike \"rom\" i prosessoren til å oppbevare data i.",
@@ -115,7 +105,6 @@
   {
     "question": "Lokalitet i referanser (Eng. locality of reference) er en viktig egenskap i et program fordi",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "programmet ellers vil plassere dataene på tilfeldige adresser i minnet og dermed skape kaos.",
       "det er en forutsetning for effektiv utnyttelse av minnehierarkiet",
@@ -125,7 +114,6 @@
   {
     "question": "Hvilket av følgende utsagn er <em>ikke</em> korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Større kapasitet gir tregere aksesstid",
       "Raskere aksesstid gir større kostnad per bit.",
@@ -136,7 +124,6 @@
   {
     "question": "Hva er tidsmessig lokalitet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Tidsmessig lokalitet er når to operasjoner skjer i sekvens etter hverandre",
       "Tidsmessig lokalitet er når to lagerblokker skal bli utført etter hverandre og derfor er de satt ved siden av hverandre i lageret.",
@@ -146,7 +133,6 @@
   {
     "question": "Virtuelt minne",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "brukes for å få større minnekapasitet (lagerplass).",
       "brukes for å oppnå raskere minneaksesser (i gjennomsnitt) for alle programmer.",
@@ -156,7 +142,6 @@
   {
     "question": "Hva er en strategi for å utnytte romlig lokalitet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Romlig lokalitet kan man generelt utnytte ved å bruke store hurtigbufferblokker og ved å legge inn en mekanisme for å forhåndshente lagerblokker.",
       "Romlig lokalitet kan man generelt utnytte ved å klynge hurigbufferblokkene i sett, slik at man kan ta inn klynger av lagerblokker som er på størrelse med settene i hurtigbufferen. Om settene er for små må man dele opp klyngen.",
@@ -166,7 +151,6 @@
   {
     "question": "Hvorfor fungerer lagerhierarkiet så godt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lagerhierarkiet er en akademisk konstruksjon laget av pedagogiske hensyn og fungerer ikke godt i praksis.",
       "Lokalitet i referanser gjør at prosessoren bare jobber på et lite subsett av data av gangen.  Vi vil få en stor hastighetsøkning ved å bufre dette subsettet med en raskere lagertype.",

@@ -2,61 +2,51 @@
   {
     "question": "Piksel-­til-­piksel-sammenligning av to bilder er godt egnet til å beregne/evaluere bildenes likheter.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "To lydfiler kan sammenlignes ved å bruke frekvensspektrene til lydene.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "R-frame og R-precision er to mål som brukes i evaluering av søkesystemer.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "Statistisk Thesaurus er et thesaurus som brukes til å forbedre søk eller utvidelse av spørringer når man tar i bruk «local automatic analysis».",
     "answers": [1],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "Harvest og Crawler har samme funksjon, men brukes i to forskjellige web-søkemotorarkitekturer.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "Videoinformasjon kan ikke gjenfinnes ved hjelp av gjenfinningsmetoder som er laget for bilder og lyd.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "Rangering av resultater i vektorbaserte og sannsynlighetsbaserte søkesystemer bruker samme prinsipp.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "Audiogjenfinningssystemer kan bruke teknikker kjent fra tekstgjenfinningsystemer.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "Bevegelsesinformasjon er ganske nyttig som feature til videogjenfinning.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   },
   {
     "question": "Bildehistogram kan brukes til å gjenfinne bilder. I tillegg kan det brukes i videogjenfinning.",
     "answers": [0],
-    "exam": ".*",
     "options": ["Rett", "Galt"]
   }
 ]

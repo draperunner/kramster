@@ -2,7 +2,6 @@
   {
     "question": "Hvilken av følgende påstander om finansiering av teknologibedrifter med vekstpotensial er korrekt?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Bankenes krav til sikkerhet gjør at de i beskjeden grad vil eksponere seg finansielt i tidlig fase.",
       "I tidlig fase vil bankene som regel være den mest sentrale kilden til finanskapital.",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilken av følgende påstander om teknologibaserte bedrifter som ønsker å vokse er korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Alle teknologibedrifter som lykkes godt kommersielt har en unik ide som kan beskyttes med patenter eller andre formelle beskyttelsesmekanismer.",
       "Det beste er å være alene som entreprenør i oppstartsfasen, da har man kontroll på alt og kan rekruttere de menneskene man trenger.",
@@ -24,7 +22,6 @@
   {
     "question": "Hvilken av følgende påstander om venturekapitalfond er korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Dette er offentlige fond som skal støtte opp om etablering av nye bedrifter med stort vekstpotensial.",
       "Dette er privatpersoner som går sammen og investerer direkte i nye teknologibedrifter.",
@@ -35,7 +32,6 @@
   {
     "question": "Hva er rekkefølgen på når disse aktørene normalt investerer?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Business Angels, entreprenør, såkornfond, venturekapitalfond.",
       "Entreprenør, Business Angels, såkornfond, venturekapitalfond",
@@ -46,7 +42,6 @@
   {
     "question": "Hvilken av følgende påstander om såkalte business angels er korrekt?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Er som hovedregel passive eiere som kun tilfører finansiell kapital.",
       "Vil som regel eie majoriteten av aksjene i bedriften slik at det har mulighet til bruke sin kompetanse og erfaring for utvikle bedriften videre og derved øke sannsynligheten for at bedriften lykkes kommersielt.",
@@ -57,7 +52,6 @@
   {
     "question": "Det finnes fire ulike læringssystemer for innovasjon som alle baserer seg en eller flere former for læring. Tre av læringssystemene baserer seg på forventningslæring, enten alene eller i kombinasjon. Hvilket læringssystem baserer seg utelukkende på erfaringslæring?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Fremkommende strategier",
       "Kompetansebygging",
@@ -68,7 +62,6 @@
   {
     "question": "En bedrift opplever at de ikke utnytter mange nye forretningsmuligheter som dukker opp som en følge av at ansatte ikke tar risiko og ansvar. Hvilken av de fundamentale organisasjonsdesignsutfordringene er det denne bedriften står ovenfor?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Etablere riktig inndeling av vertikal og horisontal differensiering.",
       "Balansere differensiering og integrering.",
@@ -79,7 +72,6 @@
   {
     "question": "Hvilken av følgende problemer vil en organisasjon som har en funksjonell organisasjonsstruktur ikke oppleve når de vokser kraftig?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Kommunikasjonsproblemer",
       "Læringsproblemer",
@@ -90,7 +82,6 @@
   {
     "question": "Noen bilverksteder lover å kunne gjennomføre et oljeskift på minst 30 minutter. Disse selskapene har en person til å kjøre bilen på heisen, en person til å tømme den gamle oljen, en person til å fylle på ny olje, og noen ganger en fjerde person til å sjekke at jobbene til de andre er gjennomført på en tilfredsstillende måte. Hva kalles denne metode for design av en arbeidsprosess?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Tids- og bevegelsesstudier",
       "Forenkling og spesialisering",
@@ -101,7 +92,6 @@
   {
     "question": "For personer i lederstillinger er det en viktig kunnskap vedkommende bør ha om personlighet:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En arbeidstaker som klager på alt mulig har et personlighetsproblem.",
       "Personlighet har ingen innflytelse på hvordan arbeidstaker presterer i jobben sin.",
@@ -112,7 +102,6 @@
   {
     "question": "Etterspørselen etter et produkt som omsettes i et frikonkurransemarked er uelastisk. Det er et normalt produkt og kostnadene for produktet utgjør en liten del av kjøpernes inntekt. Hva kan vi si om sammenhengen mellom pris og mengde for produktet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "For en liten økning i pris vil prosentvis økning i mengde være større enn prosentvis økning i pris.",
       "For en liten økning i pris vil prosentvis reduksjon i mengde være større enn prosentvis økning i pris.",
@@ -123,7 +112,6 @@
   {
     "question": "Hva er den mest korrekte definisjonen på begrepet marginalkostnad?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Marginalkostnaden er lik variabel enhetskostnad.",
       "Marginalkostnaden er lik totale gjennomsnittskostnader.",
@@ -134,7 +122,6 @@
   {
     "question": "Hva kan vi si om etterspørselen dersom marginalinntekten er positiv?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Etterspørselen er uelastisk.",
       "Etterspørselen er elastisk.",
@@ -145,7 +132,6 @@
   {
     "question": "<math><mi>P</mi></math> er pris, <math><mi>MC</mi></math> er marginalkostnad og <math><mi>e</mi></math> er etterspørselselastisiteten som er definert slik at den er et positivt tall for normale goder. Hva er da et korrekt uttrykk for optimal pris for et monopol?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "<math><mi>P</mi><mo>=</mo><mfrac><mi>MC</mi><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mrow></mfrac></math>",
       "<math><mi>P</mi><mo>=</mo><mi>MC</mi><mo>(</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>)</mo></math>",
@@ -156,19 +142,16 @@
   {
     "question": "Anta at etterspørselen kan uttrykkes som P = 100 - Q. Hva blir konsumentoverskuddet dersom prisen er 50?",
     "answers": [0],
-    "exam": ".*",
     "options": ["1 250", "2 500", "3 750", "5 000"]
   },
   {
     "question": "Etterspørselen i et frikonkurransemarked kan skrives som Q = 100 - P, der Q er mengden og P er prisen. Omsatt mengde i markedet er 30. Hva er da marginalkostnaden i industrien?",
     "answers": [1],
-    "exam": ".*",
     "options": ["100", "70", "30", "1"]
   },
   {
     "question": "I et duopolmarked er etterspørselen gitt ved Q = 1 000 - P, der P er prisen og Q er total mengde i markedet. Anta at de to bedriftene har konstante marginalkostnader på 100 og opptrer i tråd med Cournot-modellen. Hva blir mengden til de to bedriftene  i likevekt?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Hver bedrift produserer 400 enheter.",
       "Hver bedrift produserer 300 enheter.",
@@ -179,7 +162,6 @@
   {
     "question": "Et monopol vurderer å gjøre en investering i nytt produksjonsutstyr som vil gi lavere marginalkostnader. Hva kan vi si om lønnsomheten for slike investeringer for monopolet i forhold til lønnsomheten for samfunnet?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Samfunnsøkonomisk overskudd vil være uforandret, men det kan likevel være lønnsomt for monopolet, fordi profitten til monopolet vil øke.",
       "Økningen i samfunnsøkonomisk overskudd vil være mindre enn økningen i profitt for monopolet slik at lønnsomheten blir større for monopolet enn for samfunnet.",
@@ -190,31 +172,26 @@
   {
     "question": "I balansen til et selskap er omløpsmidlene på totalt 800 millioner rapportert som følger: Likvider: 100, Varelager: 500, Fordringer: 200. Gjelden på totalt 2 milliarder er fordelt som følger: Langsiktig gjeld: 1 400, Kortsiktig gjeld: 600. Hva er likviditetsgrad 2 (Acid Test Ratio) for selskapet?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0,25", "0,40", "0,50", "1,33"]
   },
   {
     "question": "I balansen til et selskap er omløpsmidlene på totalt 800 millioner rapportert som følger: Likvider: 100, Varelager: 500, Fordringer: 200. Gjelden på totalt 2 milliarder er fordelt som følger: Langsiktig gjeld: 1 400, Kortsiktig gjeld: 600. Selskapet har verdi av totale aktiva på 6 milliarder. Hva er da selskapets gjeldsgrad?",
     "answers": [1],
-    "exam": ".*",
     "options": ["0,33", "0,5", "1,33", "2,0"]
   },
   {
     "question": "Hva er nåverdien av å få 1 000 000 om to år når diskonteringsrenten er 10 % pr år?",
     "answers": [0],
-    "exam": ".*",
     "options": ["826 446", "833 333", "909 091", "952 381"]
   },
   {
     "question": "En investering på 900 000 gir 60 % sannsynlighet for en kontantstrøm på 500 000 og 40 % sannsynlighet for 250 000 om ett år. Etter to år er det 80 % sannsynlighet for kontantstrøm på 800 000 og 20 % sannsynlighet for 400 000. Avkastningskravet er 7 %. Hva blir nettonåverdien av investeringen?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Ca. -100 000", "Ca. 0", "Ca. 100 000", "Ca. 200 000"]
   },
   {
     "question": "En risikoavers investor har kun tre risikofylte investeringsmuligheter, A, B og C, og kan bare investere i én av dem. Men han kan kombinere investeringen i én av dem med et risikofritt innskudd eller lån med rente på 3 %. (Investoren har ingen andre investeringer.) A har forventet avkastning på 10 % og standardavvik på 25 %. B har forventet avkastning på 12 % og standardavvik på 15 %. C har forventet avkastning på 13 % og standardavvik på 20 %. Hva kan vi si om hvilken investering investoren vil foretrekke?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Investoren vil velge investering B kombinert med risikofritt innskudd eller lån.",
       "Investoren vil velge investering C kombinert med risikofritt innskudd eller lån.",
@@ -225,7 +202,6 @@
   {
     "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), tilsier at verdipapirer vil ligge på den såkalte kapitalmarkedslinjen. Linjen gir en sammenheng mellom forventet avkastning for et verdipapir, <math><mi>r</mi></math>, risikofri rente, <math><msub><mi>r</mi><mi>f</mi></msub></math>, forventet avkastning i markedet, <math><msub><mi>r</mi><mi>m</mi></msub></math>, og verdipapirets beta, <math><mi>β</mi></math>. Hva er et korrekt uttrykk for kapitalmarkedslinjen?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>-</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>",
       "<math><mi>r</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>β</mi><mo>)</mo><msub><mi>r</mi><mi>f</mi></msub><mo>+</mo><mi>β</mi><msub><mi>r</mi><mi>m</mi></msub></math>",
@@ -236,7 +212,6 @@
   {
     "question": "To ulike porteføljer har samme beta, men er ikke perfekt diversifiserte. Hva kan vi si om risikoen til de to porteføljene?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "De to porteføljene har samme markedsrisiko, men kan ha ulik diversifiserbar risiko.",
       "De to porteføljene har samme markedsrisiko, men kan ha ulik systematisk risiko.",
@@ -247,31 +222,26 @@
   {
     "question": "Kapitalverdimodellen, eller Capital Asset Pricing Model (CAPM), gir en sammenheng mellom størrelsen kalt beta, forventet avkastning på en investering, risikofri avkastning og forventet avkastning i markedet. Anta at beta for en aksje er 1,25. Forventet markedsavkastning er 8 % og risikofri rente er 4 %. Hva blir da forventet avkastning for aksjen i følge CAPM?",
     "answers": [2],
-    "exam": ".*",
     "options": ["4 %", "8 %", "9 %", "14 %"]
   },
   {
     "question": "Et selskap har egenkapitalandel på 60 %. Selskapets gjeld har beta på 0,25. Og selskapets egenkapital har beta på 2. Hva blir beta for selskapets aktiva?",
     "answers": [2],
-    "exam": ".*",
     "options": ["0", "0,25", "1,3", "2"]
   },
   {
     "question": "Aksjen til et selskap har en beta på 0,75. Selskapets gjeld har beta på 0,25. Risikofri rente er 3 % og forventet markedsavkastning er 7 %. Skattesatsen er 25 %. Gjelden til selskapet tilsvarer en tredjedel av verdien til aktiva. Hva blir selskapets WACC?",
     "answers": [3],
-    "exam": ".*",
     "options": ["0 %", "3 %", "4 %", "5 %"]
   },
   {
     "question": "Du har følgende opplysninger om kontantstrømmene knyttet til et prosjekt for et gitt år: Positiv kontantstrøm fra drift er 2 000 000, rentekostnadene er 500 000, avdrag på lån som skal betales er på 250 000 og selskapsskattesatsen er 25 %. Hvilken kontantstrøm skal gå inn i en nettonåverdiberegning der WACC brukes som avkastningskrav?",
     "answers": [0],
-    "exam": ".*",
     "options": ["1 500 000", "1 625 000", "1 125 000", "937 500"]
   },
   {
     "question": "Et selskap med gjeldsgrad på 2 har forventet avkastning på aktiva på 10 % og forventet avkastning på gjeld på 5 %. Hva blir forventet avkastning på egenkapital?",
     "answers": [3],
-    "exam": ".*",
     "options": ["5 %", "10 %", "15 %", "20 %"]
   }
 ]

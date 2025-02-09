@@ -2,25 +2,21 @@
   {
     "question": "Mean incidence of influenza in Norway in week 45 in 2009 was 14%. We may consider that the duration of influenza to be on the average 3 days. What was the mean prevalence of influenza during that week?",
     "answers": [2],
-    "exam": ".*",
     "options": ["2.25%", "4.5%", "6%", "14%"]
   },
   {
     "question": "Mean incidence of influenza in Norway in week 8 in 2012 was 3%. We may consider that the duration of influenza to be on the average 5 days for that epidemic. What was the mean prevalence of influenza during that week?",
     "answers": [0],
-    "exam": ".*",
     "options": ["2.1%", "3%", "6%", "14%"]
   },
   {
     "question": "Mean incidence of a virus epidemic in Trondheim in in a certain week was 6%. On the average 1.7% of the people were ill each day. What was the average duration of the disease?",
     "answers": [1],
-    "exam": ".*",
     "options": ["one day", "two days", "three days", "Four days"]
   },
   {
     "question": "The prevalence of diabetes has increased over the last decades. What are possible explanations for this increase?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "More people get diabetes.",
       "People who get diabetes live longer with the disease.",
@@ -31,7 +27,6 @@
   {
     "question": "What happens to the frequency of a disease if a new treatment prevents people from dying, but has no curative (= healing) effect?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The prevalence of the disease will decrease (= go down)",
       "The incidence of the disease will increase (= go up)",
@@ -42,7 +37,6 @@
   {
     "question": "In a case-control study of the association between an exposure and a disease;",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "the controls should not be exposed",
       "10% of the controls should be exposed",
@@ -53,7 +47,6 @@
   {
     "question": "How can confounding change the effect estimate (e.g. a relative risk) of a cohort study? The effect estimate",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "can become either too large or too small",
       "can only become too large",
@@ -64,7 +57,6 @@
   {
     "question": "Compared to cohort studies, what is a major limitation of the case-control design in the study of a causal relation between a factor (= exposure) and a disease (= outcome)?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "A case-control study is more expensive and takes longer time",
       "There may be bias (= systematic error) in the measured presence or absence of the suspected factor (exposure)",
@@ -75,7 +67,6 @@
   {
     "question": "The association between hypertension (high blood pressure) and stroke was examined in a cohort study. The study showed that the relative risk of stroke was 3 among people with hypertension, compared with people without hypertension. What is the correct interpretation of this result?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "People with hypertension had a 3 times higher probability of getting a stroke, compared with people without hypertension.",
       "When people with hypertension got a stroke, they had a 3 times higher probability of dying from the disease, compared with people without hypertension.",
@@ -86,7 +77,6 @@
   {
     "question": "Epidemiological studies shows that heart patients with an oxygen uptake of < 17 ml/kg/min has a 10 year mortality of about 50% (Survival of 50%). Heart patients with oxygen uptake of > 28 ml/kg min on the other hand, has a 10 year mortality of only 20% (survival of 80%). Interval training has been shown to be the most efficient way of increasing oxygen uptake, and increases the Oxygen uptake most. Studies at the NTNU have shown that high intensity interval training is feasible in all kinds of heart patients. In addition, it reduces risk factors most. Does that mean that interval training is the most efficient way of increasing survival in heart patients?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Yes, interval training increases maximum oxygen uptake most, and thus increases survival most",
       "Yes, Interval training reduces risk factors the most, and thus reduces mortality risk (increases survival) the most.",
@@ -97,7 +87,6 @@
   {
     "question": "A certain clinical study shows treatment 1 to be better to reduce the mortality (number of deaths) than treatment 2 for a certain disease with a p value (significance) of 10%. What does this mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The probability of dying of the disease with treatment 1 is 10% lower than with treatment 2",
       "The number needed to treat the disease with treatment 1 instead of treatment 2, in order to reduce the number of deaths by one patient, is 10",
@@ -108,7 +97,6 @@
   {
     "question": "The results of the study above were a little disappointing, as we like the significance level of a clinical study to be below 5% for the result to be useful. So the study power was calculated, and was found to be only 70% for the patient number and desired significance level of\n5%. What does that mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "That only 70% of the patients would profit from treatment 1 over treatment 2",
       "That 70% of the patients would survive with treatment 1, as opposed to only 30% with treatment 2",
@@ -119,7 +107,6 @@
   {
     "question": "A clinical study of a certain disease, comparing treatment A with treatment B, found a difference in mortality between treatment A and treatment B (A< B) with a significance of &lt;1%. What does that mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "That the mortality is reduced by ≥ 1% with treatment A compared to B",
       "That the study strength was 99%",
@@ -130,7 +117,6 @@
   {
     "question": "A certain clinical study shows treatment 1 to be better to reduce the mortality (number of deaths) than treatment 2 for a certain disease with a p value (significance) of 5%. What does this mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "The probability of dying of the disease with treatment 1 is 5% lower than with treatment 2",
       "The number needed to treat the disease with treatment 1 instead of treatment 2, in order to reduce the number of deaths by one patient, is 5",
@@ -141,13 +127,11 @@
   {
     "question": "For a treatment result to be significant, what is the customary limit for the p value?",
     "answers": [1],
-    "exam": ".*",
     "options": ["2.5%", "5%", "10%", "20%"]
   },
   {
     "question": "The study power was calculated, and was found to be only 70% for the patient number and significance level of 5%. What does that mean?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "That only 70% of the patients would profit from treatment 1 over treatment 2",
       "That 70% of the patients would survive with treatment 1, as opposed to only 30% with treatment 2",
@@ -158,7 +142,6 @@
   {
     "question": "What is evidence based medical practice?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Practice that is founded in solid physiological experiments as evidence",
       "Practice that is only founded in clinical studies",
@@ -169,7 +152,6 @@
   {
     "question": "Study power is a measure of the probability of proving a given hypothesis by a clinical study. What is the study strength dependent on?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Only study size",
       "Only variability of the outcome variable",
@@ -180,7 +162,6 @@
   {
     "question": "What does it mean that a study is controlled?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The study is under the regulations of the FDA (Food and Drug Agency) or similar regulating bodies",
       "The study has a control group (for instance receiving no treatment or an established treatment)",
@@ -191,7 +172,6 @@
   {
     "question": "The significance (p value) of a controlled study result, is often given as a percentage, for instance 5%. What does this mean?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "The probability of the study result being true (non random) is 5%",
       "The probability of the study result being wrong (random) is 5%",

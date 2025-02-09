@@ -2,7 +2,6 @@
   {
     "question": "What is important for getting a good object-oriented design?",
     "answers": [0, 1, 2, 3],
-    "exam": ".*",
     "options": [
       "Abstraction/generalization",
       "Delegation",
@@ -13,55 +12,46 @@
   {
     "question": "Important keywords related to the description of a design pattern are...",
     "answers": [0, 1, 3],
-    "exam": ".*",
     "options": ["Context", "Problem", "Programming language", "Solution"]
   },
   {
     "question": "Description of patterns specific to a programming language is called..",
     "answers": [2],
-    "exam": "2015 Kahoot 08: Design patterns",
     "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
   },
   {
     "question": "Description of fundamental structural organisation or schema for software systems is called...",
     "answers": [0],
-    "exam": ".*",
     "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
   },
   {
     "question": "What type of pattern is the Singleton pattern?",
     "answers": [2],
-    "exam": "2015 Kahoot 08: Design patterns",
     "options": ["Additional", "Behavioral", "Creational", "Structural"]
   },
   {
     "question": "What type of pattern is the Observer pattern?",
     "answers": [1],
-    "exam": "2015 Kahoot 08: Design patterns",
     "options": ["Additional", "Behavioral", "Creational", "Structural"]
   },
   {
     "question": "What type of pattern is the Composite pattern?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Additional", "Behavioral", "Creational", "Structural"]
   },
   {
     "question": "What type of pattern is the Factory pattern?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Additional", "Behavioral", "Creational", "Structural"]
   },
   {
     "question": "What type of pattern is the Strategy pattern?",
     "answers": [1],
-    "exam": ".*",
     "options": ["Additional", "Behavioral", "Creational", "Structural"]
   },
   {
     "question": "What type of pattern is the Proxy pattern?",
     "answers": [3],
-    "exam": ".*",
     "options": ["Additional", "Behavioral", "Creational", "Structural"]
   }
 ]

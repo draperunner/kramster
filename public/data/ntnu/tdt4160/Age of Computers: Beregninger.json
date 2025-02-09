@@ -2,7 +2,6 @@
   {
     "question": "Et samlebånd har 5 steg.  Disse har forsinkelse på hhv. 12ns, 15ns, 13ns, 8ns, 22ns. Hva blir maksimal klokkefrekvens?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mn>1</mn><mrow><mn>12</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac><mo>&#xA0;</mo><mi>Hz</mi></math>",
       "<math><mfrac><mn>1</mn><mrow><mn>14</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac><mo>&#xA0;</mo><mi>Hz</mi></math>",
@@ -13,19 +12,16 @@
   {
     "question": "En gitt datamaskin benytter et seksstegs samlebånd (Fetch instruction, Decode instruction, Calculate operands, Fetch operands, Execute instruction og Write operand) og forutser forgreninger i programmene avhengig av operasjonskode. Maskinen gjetter riktig forgrening i 80 % av tilfellene. I gjennomsnitt er 15 % av instruksjonene som blir utført på denne datamaskinen forgreninger. Anta at hver feilprediksjon medfører sletting av 4 instruksjoner (et tap på fire sykler pr. feilprediksjon). Hvor mange sykler vil gjennomsnittlig bli brukt på å utføre 1000 instruksjoner??",
     "answers": [2],
-    "exam": ".*",
     "options": ["1000 sykler", "1120 sykler", "1125 sykler", "1130 sykler"]
   },
   {
     "question": "Med et k-trinns samlebånd kan man maksimalt oppnå en hastighetsøkning på <math><msqrt><mi>k</mi></msqrt></math>.",
     "answers": [1],
-    "exam": ".*",
     "options": ["Sant", "Usant"]
   },
   {
     "question": "Et instruksjonssamlebånd har 5 steg, S1, S2, S3, S4 og S5. Forsinkelsen i hvert steg er hhv. 24ns, 54ns, 12ns, 34ns og 24ns. Hva er den maksimale instruksjonshastigheten målt i instruksjoner pr. sekund?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "<math><mfrac><mn>1</mn><mrow><mn>12</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac></math>",
       "<math><mfrac><mn>1</mn><mrow><mn>24</mn><mo>&#x22C5;</mo><msup><mn>10</mn><mn>-9</mn></msup></mrow></mfrac></math>",

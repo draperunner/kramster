@@ -2,7 +2,6 @@
   {
     "question": "Høydetrening etter prinsippet «Live high-train low» har etter fire uker",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "3 % større effekt på <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> sammenliknet med konvensjonell utholdenhetstrening ved\nhavnivå.",
       "7% større effekt på <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> sammenliknet med konvensjonell utholdenhetstrening ved\nhavnivå.",
@@ -13,7 +12,6 @@
   {
     "question": "I «Live high-train low»-studien av Siebenmann et al. (2012) ble hemoglobinmasse\nmålt. Metoden som ble brukt var",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Blodprøve fra armen, og deretter sentrifugering.",
       "Blodprøve fra låret, og deretter sentrifugering.",
@@ -24,7 +22,6 @@
   {
     "question": "Maksimal hjertefrekvens (<math><msub><mtext>HR</mtext><mn>max</mn></msub></math>) kan påvirkes av trening. I et forsøk med 60- og 20-åringer som\ntrente intervaller i 8 uker (Wang et al., 2014) skjedde følgende:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "<math><msub><mtext>HR</mtext><mn>max</mn></msub></math> økte hos både eldre og yngre",
       "<math><msub><mtext>HR</mtext><mn>max</mn></msub></math> gikk ned hos både eldre og yngre",
@@ -35,25 +32,21 @@
   {
     "question": "Trening med høy intensitet (85-95% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>) er vist å være effektivt for å bedre\n<math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> . Dersom man skal oppnå samme treningsmengde i sonen med 15x15\nintervaller som 4x4 intervaller må antallet intervaller for 15x15 være:",
     "answers": [3],
-    "exam": ".*",
     "options": ["4", "8", "15", "47"]
   },
   {
     "question": "<math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> synker med alder typisk",
     "answers": [0],
-    "exam": ".*",
     "options": ["1% pr år", "3% pr år", "5% pr år", "10% pr år"]
   },
   {
     "question": "Høy muskulær styrke og god utholdenhet reduserer risikoen for tidlig død med...?",
     "answers": [2],
-    "exam": ".*",
     "options": ["20%", "40%", "60%", "80%"]
   },
   {
     "question": "Utholdenhetstrening og maksimal styrketrening ble for CAD-pasienter vist å",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Øke slagvolum like mye",
       "Bedre «walking efficiency» like mye",
@@ -64,7 +57,6 @@
   {
     "question": "Maksimal styrketrening",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Forbedret dynamisk RFD omtrent dobbelt så mye som ved konvensjonell\n(hypertrofi) styrketrening",
       "Forbedret dynamisk RFD like mye som ved konvensjonell (hypertrofi) styrketrening",
@@ -75,25 +67,21 @@
   {
     "question": "I følge McDonagh og Davies (1984), hvilken motstand er minstemotstand for å oppnå\nstyrketreningseffekt?",
     "answers": [2],
-    "exam": ".*",
     "options": ["Kroppsvekt", "33% av 1RM", "66% av 1RM", "99% av 1RM"]
   },
   {
     "question": "Hvilken skaleringseksponent anbefales det å bruke når det er snakk om styrke?",
     "answers": [0],
-    "exam": ".*",
     "options": ["0.67", "0.27", "0.87", "0.75"]
   },
   {
     "question": "Hjertets minuttvolum hos en ung mann med maksimalt oksygenopptak på 50-60\nml⋅ kg⁻¹ ⋅ min⁻¹ er ca.:",
     "answers": [0],
-    "exam": ".*",
     "options": ["25-30 L", "15-20 L", "10-15 L", "35-40 L"]
   },
   {
     "question": "Styrketrening for nevrale tilpasninger trenes på følgende måte:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "4 repetisjoner, 4 serier med langsom eksentrisk bevegelse og eksplosiv\nkonsentrisk bevegelse",
       "4 repetisjoner, 4 serier med hurtig eksentrisk bevegelse og langsom konsentrisk\nbevegelse",
@@ -104,7 +92,6 @@
   {
     "question": "Styrketrening er vist å",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Redusere type IIx muskelfibre",
       "Øke type IIx muskelfibre",
@@ -115,7 +102,6 @@
   {
     "question": "Hvorfor er det viktig å bruke øvelser som belaster hele (eller i alle fall store deler av)\nkroppen når man skal trene effektiv utholdenhetstrening?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Fordi det er viktig å trene alle musklene",
       "Fordi man da fordeler belastningen ut over flere muskler slik at man unngår skader",
@@ -126,7 +112,6 @@
   {
     "question": "Hva er hypertrofi?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Flere aktin og troponin proteintråder i parallell",
       "Flere aktin og myosin proteintråder i parallell",
@@ -137,7 +122,6 @@
   {
     "question": "70% av <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> tilsvarer:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Høyere intensitet enn 70% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>",
       "Lavere intensitet enn 70% av <math><msub><mtext>HR</mtext><mn>max</mn></msub></math>",
@@ -148,7 +132,6 @@
   {
     "question": "Muskulær styrke er relatert til",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Muskelens volum",
       "Muskelens tverrsnitt",
@@ -159,7 +142,6 @@
   {
     "question": "Hva ble gjort i studiet til Helgerud et al. (2007) for å sikre at de fire treningsgruppene\nhadde omtrent det samme omfanget av trening til tross for forskjeller i treningens\nvarighet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "De trente alle 3 ganger pr uke",
       "De svarte på spørreskjema om graden av anstrengelse",
@@ -170,7 +152,6 @@
   {
     "question": "Følgende utsagn er korrekt om laktat:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Det er et avfallsstoff som pustes ut i ekspirasjonen",
       "Det er et avfallsstoff som skilles ut i urinen",
@@ -181,7 +162,6 @@
   {
     "question": "Ved bedret maksimalt oksygenopptak vil følgende tilpasninger finne sted i hvile:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Slagvolum går ned, hjertefrekvens går ned",
       "Slagvolum går ned, hjertefrekvens går opp",
@@ -192,7 +172,6 @@
   {
     "question": "«Hennemans size principle» sier at:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "De langsomme motorenhetene rekrutteres før de hurtige motorenhetene",
       "De hurtige motorenhetene rekrutteres før de langsomme motorenhetene",
@@ -203,7 +182,6 @@
   {
     "question": "Maksimalt oksygenopptak målt som mL ∙ min⁻¹ ∙ kg⁻¹:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Overvurderer den som har lav kroppsvekt",
       "Undervurderer den som har lav kroppsvekt",
@@ -214,7 +192,6 @@
   {
     "question": "Effektiv maksimal styrketrening bedrer:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Anaerob terskel i % av <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math>",
       "Arbeidsøkonomi",
@@ -225,13 +202,11 @@
   {
     "question": "Maksimal styrketrening fører til følgende endring i kroppsvekt etter 24 treningsøkter:",
     "answers": [0],
-    "exam": ".*",
     "options": ["Ingen endring", "10% økning", "15 % økning", "20% økning"]
   },
   {
     "question": "Hvordan trene maksimalt oksygenopptak på en effektiv måte?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "60 min på 60% av maksimal puls",
       "4x4 sekunder i 40 minutter, 90-95% av makspuls",
@@ -242,7 +217,6 @@
   {
     "question": "Hva er hovedårsaken til endringer i muskelstyrke som følge av maksimal\nstyrketrening:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Overgang fra type I til type II muskelfibre ved muskelaktivering",
       "Økt aktivering som følge av flere sarcomerer",
@@ -253,7 +227,6 @@
   {
     "question": "Hva er hovedfunksjonen til det store kretsløpet?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Forsyne perifert vev med oksygenrikt blod",
       "Transportere oksygenfattig blod tilbake til hjertet",
@@ -264,7 +237,6 @@
   {
     "question": "Type I muskelfibre har følgende karakteristikker:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Hvit, glykolytisk, hurtig kontraherende",
       "Hvit, oksidativ, hurtig kontraherende",
@@ -275,13 +247,11 @@
   {
     "question": "Hvor mange repetisjoner bør kroppsbyggere bruke i sin styrketrening for å øke\ntverrsnittet?",
     "answers": [3],
-    "exam": ".*",
     "options": ["1-3", "4", "6-8", "10-12"]
   },
   {
     "question": "Hva kan du si om to idrettsutøvere som løper sammen og har samme hjertefrekvens?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "De har samme maksimale oksygenopptak",
       "De har samme maksimale hjertefrekvens",
@@ -292,7 +262,6 @@
   {
     "question": "For høye kraftkontraksjoner som varer i 1-2 sekund, så er den innledende energikilden:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Phosphocreatinelagre",
       "Myoglobinlagre",
@@ -303,13 +272,11 @@
   {
     "question": "Langkjøring ga følgende økning i <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> hos friske mannlige studenter som trente i 2\nmåneder:",
     "answers": [0],
-    "exam": ".*",
     "options": ["0%", "5%", "10%", "15%"]
   },
   {
     "question": "Hva står RFD for?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Rate of force distance.",
       "Ratio of force distance.",
@@ -320,7 +287,6 @@
   {
     "question": "I en studie som sammenliknet to intervalltreningsformer med langkjøring og terskeltrening ble laktatterskel målt på følgende måte:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Hastighet som korresponderte til en ventilatorisk terskel der respiratorisk kvotient var lik 1.0",
       "Hastighet som korresponderte til en laktatverdi 1.5mmol·L-1 høyere enn oppvarmingsverdi",
@@ -331,7 +297,6 @@
   {
     "question": "Et treningsmål om å løfte sin egen kroppsvekt i benkpress eller det doble av\nkroppsvekten i 90 graders knebøy er:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Greit for en lett person og vanskelig for en tung person",
       "Er like vanskelig for en lett og en tung person",
@@ -342,13 +307,11 @@
   {
     "question": "Q – eller hjertets minuttvolum – er bestemt av følgende faktorer:",
     "answers": [2],
-    "exam": ".*",
     "options": ["SV og VC", "HRmax og VEmax", "HRmax og SV", "HDL, LDL, CK"]
   },
   {
     "question": "Følgende signifikante endringer ble funnet etter maksimal styrketrening hos\ndistanseløpere",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "CR↓, tMAS↑, RFD↓",
       "CR↑, tMAS↓, RFD↑",
@@ -359,7 +322,6 @@
   {
     "question": "Når en KOLS-pasient forbedrer lungefunksjonen med maksimal styrketrening, hvorfor\nskjer det?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Forbedret oksygenopptak",
       "Forbedret anaerob terskel",
@@ -370,7 +332,6 @@
   {
     "question": "I reviewet til Hoff og Helgerud (2004) om fysisk trening i fotball blir en studie av to\njuniorlag omtalt. Treningsgruppen økte sitt maksimale oksygenopptak fra 58 til 64\nml∙kg⁻¹∙min⁻¹. Dette medførte følgende i en fotball kamp:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "87.6% økt løpsdistanse i kampen, 20% bedre løpsøkonomi, 7% flere sprinter",
       "7% bedre løpsøkonomi, 24% mer involvering med ball, 15.4% flere sprinter",
@@ -381,7 +342,6 @@
   {
     "question": "Hvilke faktorer korrelerer (samvarierer) best med antall løpte meter i en fotballkamp:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Løpsøkonomi",
       "Anaerob terskel",

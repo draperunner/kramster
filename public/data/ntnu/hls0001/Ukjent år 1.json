@@ -2,7 +2,6 @@
   {
     "question": "I 1980 definerte helsepsykologen Matarzzo helsepsykologi som:",
     "answers": [2],
-    "exam": "Ukjent år 1",
     "options": [
       "«Læren om psykologiens innvirkning på helse.»",
       "«Psykologiens forhold til helse og utvikling av helseressurser.»",
@@ -13,7 +12,6 @@
   {
     "question": "Hvilke metoder foretrekker helsepsykologien å fokusere på i arbeidet?",
     "answers": [2],
-    "exam": "Ukjent år 1",
     "options": [
       "Holistisk behandling",
       "Kognitive terapiformer",
@@ -24,13 +22,11 @@
   {
     "question": "Hvor lang tid omtrent har helsepsykologi eksistert som egen disiplin her i landet?",
     "answers": [0],
-    "exam": "Ukjent år 1",
     "options": ["Ca 10 år", "Ca 30 år", "Ca 40 år", "Ca 50 år"]
   },
   {
     "question": "I psykosomatikk og helsepsykologi benyttes ulike metoder og instrumenter for å samle data om ulike forskjeller eller sammenhenger. En sier at en slik metode er valid når den:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Måler eksakt det samme fra gang til gang",
       "Måler eksakt det den ønsker å måle",
@@ -41,7 +37,6 @@
   {
     "question": "Type A atferdsmønster er blitt forbundet med utviklingen av en bestemt sykdom. Det er:",
     "answers": [2],
-    "exam": "Ukjent år 1",
     "options": [
       "Sukkersyke",
       "Obstruktive lungelidelser",
@@ -52,7 +47,6 @@
   {
     "question": "I Oslo har det ofte tidligere vært snakk om at forventet levetid er høyest vest i byen enn øst i byen. I de nyeste undersøkelsene viser det sg at nå er dette slik at:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Alt er som før",
       "Dette er blitt helt motsatt",
@@ -63,7 +57,6 @@
   {
     "question": "En person med Type B atferdsmønster",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Lar seg lett opphisse",
       "Tar livet som det kommer og lar sg flyte med i livsstrømmen",
@@ -74,7 +67,6 @@
   {
     "question": "Det finnes ulike sykdoms- og helsemodeller. Helsepsykologer og forskere som arbeider med psykosomatikk benytter seg vanligvis av den mest moderne av disse modellene og den kalles for",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Bio-medisinsk modell",
       "Bio-holistisk modell",
@@ -85,7 +77,6 @@
   {
     "question": "Det er minst fire måter å beskrive forholdet mellom helse og livskvalitet. En av de fire måtene nevnt nedenfor er mest dekkende. Hvilken?",
     "answers": [3],
-    "exam": "Ukjent år 1",
     "options": [
       "Livskvalitet og helse er atskilte fenomener",
       "Livskvalitet og helse er identiske",
@@ -96,7 +87,6 @@
   {
     "question": "Et av svaralternativene nedenfor blir hevdet å være viktigst for det å oppleve en god livskvalitet. Hvilket?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "At man har gode og nære relasjoner med familie og venner",
       "At man har mange penger i banken",
@@ -107,7 +97,6 @@
   {
     "question": "Livskvalitet er et lett forståelig begrep. Er det også lett å måle i vitenskapelige studier? Et av svaralternativene nedenfor er riktig. Hvilket?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Ja, livskvalitet har en entydig definisjon og er enkelt å måle",
       "Ja, livskvalitet er enkelt å måle fordi begrepet er en-dimensjonalt",
@@ -118,7 +107,6 @@
   {
     "question": "Har økningen i levekår og inntekt i vår del av verden de siste 50-årene bidratt til økt lykkefølelse?",
     "answers": [0],
-    "exam": "Ukjent år 1",
     "options": [
       "Nei, til tross for at vi har hatt en sterk økning i levekår og personlig inntekt de siste 50 årene har lykkefølelsen holdt seg omtrent konstant",
       "Ja, økningen i levekår og inntekt har ført til at folk er mye lykkeligere i dag enn før.",
@@ -129,7 +117,6 @@
   {
     "question": "Utbrenthet skiller seg fra andre begrep som depresjon og stress fordi:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Utbrenthet er smittsomt",
       "Utbrenthet rammer bare folk i topp jobber",
@@ -140,7 +127,6 @@
   {
     "question": "Den mest anerkjente og brukte definisjonen på utbrenthet er forfattet av Maslach. Hun deler utbrenthet inn i?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "En dimensjon",
       "To dimensjoner",
@@ -151,13 +137,11 @@
   {
     "question": "Hvilke av personlighetstrekkene nedenfor er sterkest relatert til rapportering av symptomer?",
     "answers": [0],
-    "exam": ".*",
     "options": ["Nevrotisisme", "Introversjon", "Åpenhet", "Planmessighet"]
   },
   {
     "question": "Hva kjennetegner, ifølge Friedman og kollegaer, personer som lever lenge?",
     "answers": [2],
-    "exam": "Ukjent år 1",
     "options": [
       "De er optimistiske og planmessige",
       "De skårer lavt på nevrotisime og lavt på medmenneskelighet",
@@ -168,7 +152,6 @@
   {
     "question": "Livskvalitet har vært et kjent begrep i:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "2000 år (filosofi)",
       "200 år (industrialisering)",
@@ -179,7 +162,6 @@
   {
     "question": "Innen medisin og sykepleie defineres «livskvalitet» oftest som:",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "Lykke",
       "Helse og velvære",
@@ -190,7 +172,6 @@
   {
     "question": "Livskvalitet måles oftest ved hjelp av:",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Selvrapportering",
       "Helsepersonells vurdering",
@@ -201,7 +182,6 @@
   {
     "question": "De fleste som må fjerne livmoren lider av:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Kreft",
       "Smerter og store blødninger",
@@ -212,13 +192,11 @@
   {
     "question": "For de fleste kvinner som får fjernet livmoren blir helsen:",
     "answers": [0],
-    "exam": ".*",
     "options": ["Bedre", "Dårligere", "Uforandret", "Først bedre, så dårligere"]
   },
   {
     "question": "Å fjerne livmoren fører ofte til komplikasjoner som:",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Depresjon",
       "Seksuelle problemer",
@@ -229,7 +207,6 @@
   {
     "question": "De fleste «cancer survivors» opplever en god livskvalitet fordi:",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Behandling av kreft ikke gir noen komplikasjoner",
       "Oppfatningen av hva som er viktig i livet endres",
@@ -240,7 +217,6 @@
   {
     "question": "Det finnes forskjellige risikofaktorer knyttet til enkeltindividers helseutvikling i vestlige land i dag. Hvilken er vurdert til å være den skumleste i nær framtid?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "At nedgangen i røyking skal bli en utvikling der mennesker foretrekker snus og med de skadevirkninger det kan få",
       "Miljøtrusselen",
@@ -251,7 +227,6 @@
   {
     "question": "Med psykosomatisk forskning menes?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Helseforskning som konsentrerer seg ensidig om det psykosomatiske og dermed får et nyttig og godt fokus på få faktorer i forklaring i helseutvikling",
       "Helseforskning som søker å se på hvordan menneskers helse utvikles som en sum av de faktorer, indre og ytre, som det påvirkes av",
@@ -262,7 +237,6 @@
   {
     "question": "Et måleinstrument med høy reliabilitet er",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Et instrument som er nokså nøyaktig",
       "Et instrument som måler det en ønsker å male med stor grad av nøyaktighet",
@@ -273,7 +247,6 @@
   {
     "question": "Claudius Galnus (129-200) ofte referert til som Galen er kjent som...",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Legekunstens far",
       "Lege og vitenskapsmann fra Lilleasia (Tyrkia)",
@@ -284,7 +257,6 @@
   {
     "question": "Hvilken vei var det vanlig å tenke seg årsak virkning når det gjaldt psykisk-fysiske problemer, symptomer og sykdommer i romertiden?",
     "answers": [0],
-    "exam": ".*",
     "options": [
       "Fysiske problemer slo ut i psykiske symptomer",
       "Det var ingen spesiell retning det var snakk om",
@@ -295,7 +267,6 @@
   {
     "question": "«Er det usunt å spise egg?» kan være........forskning",
     "answers": [0],
-    "exam": "Ukjent år 1",
     "options": [
       "en problemstilling for",
       "en hypotese for",
@@ -306,7 +277,6 @@
   {
     "question": "Å gjøre en problemstilling forskbar kalles for å",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "kvantifisere problemstillingen",
       "operasjonalisere problemet",
@@ -317,7 +287,6 @@
   {
     "question": "Sammenhengen mellom uavhengig og avhengig variabel i eksperimenter er",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "den avhengige variabelen er den en bevisst varierer",
       "den uavhengige variabelen er den en bevisst varierer",
@@ -328,7 +297,6 @@
   {
     "question": "Klassisk kasus-kontrollstudier kjennetegnes ved at en har",
     "answers": [0],
-    "exam": "Ukjent år 1",
     "options": [
       "en gruppe som naturlig eller eksperimentelt utsettes for et eller annet og som har en kontrollgruppe",
       "en kontrollgruppe som stadig kontrolleres som en gruppe som er med for å gi ekstra informasjon",
@@ -339,13 +307,11 @@
   {
     "question": "Hvilket ord mangler?\n....... er enhver aktivitet hos en person som oppfatter seg som frisk, og hvor målet er å\nforebygge sykdom eller oppdage sykdom før den bryter ut»",
     "answers": [3],
-    "exam": ".*",
     "options": ["Livsstil", "Helsefremming", "Forebygging", "Helseatferd"]
   },
   {
     "question": "Hva er den grunnleggende hensikten med vaksinasjon?",
     "answers": [0],
-    "exam": "Ukjent år 1",
     "options": [
       "At de som vaksineres skal utvikle resistens",
       "Å forhindre smittespredning i befolkninger",
@@ -356,7 +322,6 @@
   {
     "question": "KAP-modellen er n viden brukt helseatferdsmodell. K står for knowledge, A for\nattitude og P for practice (kunnskap, holdninger og atferd). Hva har vært den\nvanligste kritikken mot denne modellens gangbarhet?",
     "answers": [2],
-    "exam": ".*",
     "options": [
       "At den er for omtrentlig i beskrivelsen av kunnskap",
       "At den ikke er tydelig nok på rekkefølgen",
@@ -367,7 +332,6 @@
   {
     "question": "Med self-efficacy eller mestringsforventning på norsk mener Albert Bandura...",
     "answers": [0],
-    "exam": "Ukjent år 1",
     "options": [
       "At sannsynligheten for at vi skal gjøre noe, øker proporsjonalt med den troen vi har på at vi skal få det til",
       "At sannsynligheten for at vi skal få noe til øker også selvtilliten",
@@ -378,7 +342,6 @@
   {
     "question": "I en artikkel fra 2000 bruker Taylor og medarbeidere uttrykket «tend and befriend». Med dette uttrykket forsøker Taylor og medarbeidere å beskrive",
     "answers": [3],
-    "exam": "Ukjent år 1",
     "options": [
       "Hvordan sosial nettverk bygges",
       "En modell for barneoppdragelse som medfører helsegevinster på sikt.",
@@ -389,7 +352,6 @@
   {
     "question": "Hva er ifølge Holmes and Rahe’s forskning den mest stressende livshendelse?",
     "answers": [3],
-    "exam": ".*",
     "options": [
       "Dødsfall hos nær venn",
       "Å bli oppsagt fra jobben",
@@ -400,7 +362,6 @@
   {
     "question": "Hva menes i helsepsykologien med begrepet «The Big Five»?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "De 5 store folkesykdommene; kreft, hjerte karsykdom, diabetes, hode-nakke-skulderplager og KOLS",
       "De 5 hovedfaktorene som beskriver vår personlighet",
@@ -411,7 +372,6 @@
   {
     "question": "Hvilke ord mangler?\n......har som formål å redusere forekomsten av sykdommer, skader, sosiale\nproblemer, død og risikofaktorer.",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Helsefremmende tiltak",
       "Forebyggende tiltak",
@@ -422,7 +382,6 @@
   {
     "question": "Korrelasjonsstudier benyttes ofte i helseforskning. Hva er den største svakheten\nmed slike studier?",
     "answers": [2],
-    "exam": "Ukjent år 1",
     "options": [
       "Det forsøkes ofte å trekkes vidtrekkende konklusjoner med for mange variabler involvert",
       "Det involverer ofte for få individer til at bestemte konklusjoner kan trekkes",
@@ -433,7 +392,6 @@
   {
     "question": "Sommeren 2008 kom en artikkel fra den kjente forskeren Martin Seligman. Her foreslo han et nytt forskningsfelt. Hva var det?",
     "answers": [1],
-    "exam": ".*",
     "options": [
       "Positive health promotion",
       "Positive health",
