@@ -23,7 +23,9 @@ function Exams(): JSX.Element {
 
   return (
     <div className={styles.wrapper}>
-      <h1>{exams[0].courseName}</h1>
+      <h1>
+        {exams[0].course.toUpperCase()} – {exams[0].courseName}
+      </h1>
 
       <div className={styles.categoriesRow}>
         <div>

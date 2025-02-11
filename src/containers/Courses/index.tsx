@@ -48,7 +48,9 @@ function Courses(): JSX.Element {
 
   return (
     <div className={styles.container}>
-      <h1>{schoolData?.name}</h1>
+      <h1>
+        {schoolData?.abbreviation} – {schoolData?.name}
+      </h1>
       <div className={styles.coursesGrid}>
         {courses.map(({ code, name }) => (
           <div key={code}>
