@@ -13,6 +13,10 @@
         "source": "**",
         "headers": [
           {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          },
+          {
             "key": "Content-Security-Policy",
             "value": "default-src 'self'; connect-src 'self' https://plausible.io; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://plausible.io; img-src 'self' data:; style-src 'self' 'unsafe-inline'; object-src 'none'"
           },
@@ -31,6 +35,42 @@
           {
             "key": "X-Frame-Options",
             "value": "SAMEORIGIN"
+          }
+        ]
+      },
+      {
+        "source": "assets/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "images/*.webp",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "@(data|icons)/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=604800"
+          }
+        ]
+      },
+      {
+        "source": "**/*.ttf",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000, immutable"
           }
         ]
       }
