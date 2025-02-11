@@ -10,10 +10,10 @@
 .standard {
   composes: base from "../BaseButton.module.css";
   composes: hyphenate;
-  composes: white from "../../../base-styles/colors.module.css";
-  composes: blueBackground from "../../../base-styles/colors.module.css";
-  composes: blueLightBackgroundHover from "../../../base-styles/colors.module.css";
-  composes: blueLightBackgroundFocus from "../../../base-styles/colors.module.css";
-  composes: darkGrayHover from "../../../base-styles/colors.module.css";
-  composes: darkGrayFocus from "../../../base-styles/colors.module.css";
+  background-color: var(--blue);
+  color: white;
+
+  &:hover {
+    background-color: var(--blue-light);
+  }
 }
