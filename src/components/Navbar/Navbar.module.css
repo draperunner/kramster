@@ -1,5 +1,4 @@
 .navbar {
-  composes: blue from "../../base-styles/colors.module.css";
   font-family: var(--font-header);
   margin-bottom: 20px;
   background: none;
@@ -9,14 +8,16 @@
   letter-spacing: 1px;
 }
 
+.navbar a {
+  color: var(--blue);
+}
+
 .navbar ul {
   list-style: none;
   margin: 0;
 }
 
 .logo {
-  composes: blue from "../../base-styles/colors.module.css";
-  composes: blueLightHover from "../../base-styles/colors.module.css";
   letter-spacing: 2px;
   text-decoration: none;
   font-size: 18px;
@@ -28,8 +29,6 @@
 }
 
 .link {
-  composes: blue from "../../base-styles/colors.module.css";
-  composes: blueLightHover from "../../base-styles/colors.module.css";
   text-decoration: none;
   font-size: 14px;
 }

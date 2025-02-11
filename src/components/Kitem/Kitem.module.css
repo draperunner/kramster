@@ -84,7 +84,7 @@ a.kitem:hover {
 .blue {
   background-color: var(--blue);
   display: block;
-  color: black;
+  color: white;
 }
 
 .bluehead {

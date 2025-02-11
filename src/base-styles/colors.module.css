@@ -45,43 +45,43 @@
  * BLUE
  */
 .blue {
-  color: #2980b9;
+  color: var(--blue);
 }
 
 .blueHover:hover {
-  color: #2980b9;
+  color: var(--blue);
 }
 
 .blueBackground {
-  background-color: #2980b9;
+  background-color: var(--blue);
 }
 
 .blueBackgroundHover:hover {
-  background-color: #2980b9;
+  background-color: var(--blue);
 }
 
 .blueBackgroundFocus:focus {
-  background-color: #2980b9;
+  background-color: var(--blue);
 }
 
 .blueLight {
-  color: #3498db;
+  color: var(--blue-light);
 }
 
 .blueLightHover:hover {
-  color: #3498db;
+  color: var(--blue-light);
 }
 
 .blueLightBackground {
-  background-color: #3498db;
+  background-color: var(--blue-light);
 }
 
 .blueLightBackgroundHover:hover {
-  background-color: #3498db;
+  background-color: var(--blue-light);
 }
 
 .blueLightBackgroundFocus:focus {
-  background-color: #3498db;
+  background-color: var(--blue-light);
 }
 
 /*
