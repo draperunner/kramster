@@ -7,12 +7,25 @@ interface Props {
 }
 
 const ProgressBar = (props: Props): JSX.Element => {
-  const value = props.questions.length > 0 ? 100 / props.questions.length : 0;
+  const value =
+    props.questions.length > 0
+      ? Math.round((100 * props.history.length) / props.questions.length)
+      : 0;
+
+  const itemWidth =
+    props.questions.length > 0 ? 100 / props.questions.length : 0;
+
   const type = (index: number): "correct" | "wrong" =>
     props.history[index] ? "correct" : "wrong";
 
   return (
-    <div>
+    <div
+      role="progressbar"
+      aria-label="Progress"
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-valuenow={value}
+    >
       <p className={styles.progressText}>
         {`${props.history.length}/${props.questions.length}`}
       </p>
@@ -21,12 +34,7 @@ const ProgressBar = (props: Props): JSX.Element => {
           <div
             key={i}
             className={styles[type(i)]}
-            aria-valuenow={value}
-            aria-valuemin={0}
-            aria-valuemax={100}
-            aria-valuetext={`${value}`}
-            style={{ width: `${value}%` }}
-            role="progressbar"
+            style={{ width: `${itemWidth}%` }}
           />
         ))}
       </div>
