@@ -14,13 +14,11 @@
   letter-spacing: 1px;
   border-radius: 0.5rem;
   border: none;
-  color: rgb(236, 240, 241);
   text-align: center;
 }
 
 a.kitem:hover {
   text-decoration: none;
-  color: rgb(236, 240, 241);
 }
 
 .kitem p {
@@ -34,11 +32,11 @@ a.kitem:hover {
 
 .clickable:hover,
 .clickable:focus {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .minHeight {
@@ -70,78 +68,84 @@ a.kitem:hover {
 * GREEN
 */
 .green {
-  composes: greenBackground from "../../base-styles/colors.module.css";
+  background-color: var(--green);
   display: block;
+  color: black;
 }
 
 .greenhead {
   composes: head;
-  composes: greenLightBackground from "../../base-styles/colors.module.css";
+  background-color: var(--green-light);
 }
 
 /*
 * BLUE
 */
 .blue {
-  composes: blueBackground from "../../base-styles/colors.module.css";
+  background-color: var(--blue);
   display: block;
+  color: black;
 }
 
 .bluehead {
   composes: head;
-  composes: blueLightBackground from "../../base-styles/colors.module.css";
+  background-color: var(--blue-light);
 }
 
 /*
 * PURPLE
 */
 .purple {
-  composes: purpleBackground from "../../base-styles/colors.module.css";
+  background-color: var(--purple);
   display: block;
+  color: white;
 }
 
 .purplehead {
   composes: head;
-  composes: purpleLightBackground from "../../base-styles/colors.module.css";
+  background-color: var(--purple-light);
 }
 
 /*
 * YELLOW
 */
 .yellow {
-  composes: yellowBackground from "../../base-styles/colors.module.css";
+  background-color: var(--yellow);
   display: block;
+  color: black;
 }
 
 .yellowhead {
   composes: head;
-  composes: yellowLightBackground from "../../base-styles/colors.module.css";
+  background-color: var(--yellow-light);
 }
 
 /*
 * ORANGE
 */
 .orange {
-  composes: orangeBackground from "../../base-styles/colors.module.css";
+  background-color: var(--orange);
   display: block;
+  color: black;
 }
 
 .orangehead {
   composes: head;
-  composes: orangeLightBackground from "../../base-styles/colors.module.css";
+  background-color: var(--orange-light);
 }
 
 /*
 * RED
 */
 .red {
-  composes: redBackground from "../../base-styles/colors.module.css";
+  background-color: var(--red);
   display: block;
+  color: white;
 }
 
 .redhead {
   composes: head;
-  composes: redLightBackground from "../../base-styles/colors.module.css";
+  background-color: var(--red-light);
 }
 
 @media (max-width: 767px) {
