@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Question = (props: Props): JSX.Element => (
-  <h1
+  <p
     className={styles.question}
     dangerouslySetInnerHTML={{ __html: sanitize(props.text) }}
   />

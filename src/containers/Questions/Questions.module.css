@@ -1,16 +1,20 @@
+.wrapper {
+  margin: 0;
+}
+
 .questionRow {
-  margin: 40px 0 20px;
+  margin: 40px 0;
 }
 
 .alternatives,
 .explanationRow {
-  margin: 20px 15px;
+  margin: 20px 0;
 }
 
 .alternatives {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 
   > button {
     width: fit-content;
@@ -18,13 +22,12 @@
 }
 
 .continueTip {
-  composes: blue from "../../base-styles/colors.module.css";
+  color: var(--blue);
   display: block;
   margin: 3px;
 }
-
 @media (max-width: 767px) {
-  .alternatives {
-    margin: 10px;
+  h1 {
+    font-size: 1rem;
   }
 }

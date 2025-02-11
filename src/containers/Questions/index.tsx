@@ -39,6 +39,12 @@ function Questions(): JSX.Element {
     mode = paramMode;
   }
 
+  const examName = exam
+    ? decodeURIComponent(exam)
+    : mode
+      ? `${number || ""} ${mode}`.trim()
+      : "";
+
   const [loading, setLoading] = useState<boolean>(false);
   const [answerGiven, setAnswerGiven] = useState<boolean>(false);
   const [questions, setQuestions] = useState<QuestionType[]>([]);
@@ -127,7 +133,11 @@ function Questions(): JSX.Element {
   }
 
   return (
-    <div>
+    <div className={styles.wrapper}>
+      <h1>
+        {course.toUpperCase()} – {examName}
+      </h1>
+
       <ProgressBar
         history={history.map((q) => q.wasCorrect)}
         questions={questions}

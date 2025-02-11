@@ -12,7 +12,7 @@ const ProgressBar = (props: Props): JSX.Element => {
     props.history[index] ? "correct" : "wrong";
 
   return (
-    <div className={styles.wrapper}>
+    <div>
       <p className={styles.progressText}>
         {`${props.history.length}/${props.questions.length}`}
       </p>
