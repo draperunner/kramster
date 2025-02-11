@@ -6,4 +6,5 @@
 @font-face {
   font-family: fredoka;
   src: url("/Fredoka-SemiBold.ttf");
+  font-display: swap;
 }
