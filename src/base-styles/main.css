@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #ecf0f1;
+  background-color: var(--background-color);
   font-family: var(--font-body);
-  color: var(--gray);
+  color: var(--text-color);
   padding-bottom: 48px;
 }
 
@@ -19,7 +19,7 @@ canvas {
 }
 
 a {
-  color: var(--blue);
+  color: var(--brand-color);
   text-decoration: none;
 }
 

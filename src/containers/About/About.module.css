@@ -1,11 +1,10 @@
 .about {
-  color: #2c3e50;
   padding: 0 80px;
   margin-bottom: 40px;
 }
 
 .title {
-  composes: blue from "../../base-styles/colors.module.css";
+  color: var(--brand-color);
   font-family: var(--font-header);
   letter-spacing: 2px;
   line-height: 40px;

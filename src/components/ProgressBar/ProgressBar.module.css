@@ -35,7 +35,7 @@
 }
 
 .progressText {
-  composes: blue from "../../base-styles/colors.module.css";
+  color: var(--brand-color);
   text-align: right;
   font-weight: bold;
   margin-bottom: 2px;

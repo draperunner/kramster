@@ -9,7 +9,7 @@
 }
 
 .navbar a {
-  color: var(--blue);
+  color: var(--brand-color);
 }
 
 .navbar ul {

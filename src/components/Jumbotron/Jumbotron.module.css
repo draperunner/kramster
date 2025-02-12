@@ -6,14 +6,13 @@
 
 .title {
   font-family: var(--font-header);
-  composes: blue from "../../base-styles/colors.module.css";
+  color: var(--brand-color);
   font-size: 63px;
   font-weight: 500;
   letter-spacing: 2px;
 }
 
 .subtitle {
-  composes: darkGray from "../../base-styles/colors.module.css";
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;

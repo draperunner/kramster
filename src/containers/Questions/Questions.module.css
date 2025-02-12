@@ -22,7 +22,7 @@
 }
 
 .continueTip {
-  color: var(--blue);
+  color: var(--brand-color);
   display: block;
   margin: 3px;
 }

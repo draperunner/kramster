@@ -13,4 +13,16 @@
   --red-light: #e74c3c;
   --gray: #2c3e50;
   --gray-light: #ecf0f1;
+
+  --brand-color: var(--blue);
+  --text-color: var(--gray);
+  --background-color: var(--gray-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand-color: #68afde;
+    --text-color: var(--gray-light);
+    --background-color: var(--gray);
+  }
 }
