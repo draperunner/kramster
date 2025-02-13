@@ -26,8 +26,9 @@
   display: block;
   margin: 3px;
 }
+
 @media (max-width: 767px) {
-  h1 {
+  .wrapper h1 {
     font-size: 1rem;
   }
 }
