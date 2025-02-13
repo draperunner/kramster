@@ -2,11 +2,6 @@ import styles from "./Jumbotron.module.css";
 
 import DivChart from "../DivChart";
 
-const randomChartData = new Array(6).fill(0).map((_, i) => ({
-  label: String.fromCharCode(65 + i),
-  value: Math.random(),
-}));
-
 const Jumbotron: React.FC = () => {
   const subtitle = (): string => {
     const subtitles = [
@@ -25,7 +20,7 @@ const Jumbotron: React.FC = () => {
   return (
     <div className={styles.jumbotron}>
       <h1 className={styles.title}>Kramster!</h1>
-      <DivChart height={370} data={randomChartData} />
+      <DivChart />
       <p className={styles.subtitle}>{subtitle()}</p>
     </div>
   );

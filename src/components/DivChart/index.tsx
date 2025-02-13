@@ -1,42 +1,22 @@
-import { FC, useMemo } from "react";
+import { FC } from "react";
 import styles from "./DivChart.module.css";
 
-const DivChart: FC<Props> = ({ height, data }) => {
-  // Make data percentages of max value
-  const normalizeData = useMemo(() => {
-    const maxValue = Math.max(...data.map((d) => d.value));
+const HEIGHTS = new Array(6).fill(0).map(() => 100 * Math.random());
 
-    if (maxValue === 0) return data;
-
-    return data.map((d) => ({
-      ...d,
-      value: d.value / maxValue,
-    }));
-  }, [data]);
-
+const DivChart: FC = () => {
   return (
-    <div className={styles.divChart} style={{ height }}>
-      {normalizeData.map(({ label, value }) => (
+    <div className={styles.divChart}>
+      {HEIGHTS.map((value) => (
         <div
-          key={label}
+          key={value}
           className={styles.divChartBar}
           style={{
-            height: 100 * value + "%",
+            maxHeight: Math.min(Math.max(value, 20), 100) + "%",
           }}
-        >
-          <div className={styles.divChartLabel}>{label}</div>
-        </div>
+        />
       ))}
     </div>
   );
-};
-
-type Props = {
-  height: number;
-  data: Array<{
-    label: string;
-    value: number;
-  }>;
 };
 
 export default DivChart;

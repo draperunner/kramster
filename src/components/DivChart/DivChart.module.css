@@ -3,14 +3,35 @@
   justify-content: space-around;
   align-items: flex-end;
   gap: 4px;
+  height: 370px;
 }
 
 .divChartBar {
-  align-items: flex-end;
   flex: 1;
-  background-color: #e74c3c;
+  background-color: var(--red-light);
   border-radius: 0.5rem;
-  border-bottom: 4px solid #c0392b;
+  border-bottom: 4px solid var(--red);
+  animation: 800ms slide-in ease-in-out forwards;
+}
+
+.divChartBar:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+.divChartBar:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+.divChartBar:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+.divChartBar:nth-child(5) {
+  animation-delay: 400ms;
+}
+
+.divChartBar:nth-child(6) {
+  animation-delay: 500ms;
 }
 
 .divChartBar:hover .divChartLabel {
@@ -21,4 +42,20 @@
   padding: 1rem;
   opacity: 0;
   transition: opacity 300ms;
+}
+
+@keyframes slide-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .divChart {
+    height: 200px;
+  }
 }
