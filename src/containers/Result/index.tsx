@@ -40,11 +40,9 @@ function Result(): JSX.Element {
         <ResultButton
           href={"/" + [school, course, exam, number].filter(Boolean).join("/")}
         >
-          <h4>Try again</h4>
+          Try again
         </ResultButton>
-        <ResultButton href={`/${school}/${course}`}>
-          <h4>Try another</h4>
-        </ResultButton>
+        <ResultButton href={`/${school}/${course}`}>Try another</ResultButton>
       </div>
     </div>
   );

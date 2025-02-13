@@ -1,12 +1,15 @@
 .result {
   composes: base from "../BaseButton.module.css";
-  composes: white from "../../../base-styles/colors.module.css";
-  composes: greenLightBackground from "../../../base-styles/colors.module.css";
-  composes: darkGrayHover from "../../../base-styles/colors.module.css";
-  composes: darkGrayFocus from "../../../base-styles/colors.module.css";
+  background-color: var(--green);
   padding: 8px;
+  color: black;
+
+  &:hover {
+    background-color: var(--green-light);
+  }
 }
 
-.result h4 {
-  margin: 10px;
+.result {
+  padding: 10px;
+  font-family: var(--font-header);
 }

@@ -1,3 +1,4 @@
+import { FC, ReactNode } from "react";
 import { Link } from "react-router-dom";
 
 interface Props {
@@ -8,10 +9,10 @@ interface Props {
       | React.KeyboardEvent<HTMLAnchorElement>
       | React.MouseEvent<HTMLAnchorElement>,
   ) => void;
-  children?: string | JSX.Element | JSX.Element[];
+  children?: ReactNode;
 }
 
-const BaseButton = (props: Props): JSX.Element => (
+const BaseButton: FC<Props> = (props) => (
   <Link
     to={props.href}
     className={props.className}

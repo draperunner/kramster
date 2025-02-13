@@ -1,3 +1,4 @@
+import { FC, ReactNode } from "react";
 import BaseButton from "../BaseButton";
 import styles from "./ResultButton.module.css";
 
@@ -8,10 +9,10 @@ interface Props {
       | React.KeyboardEvent<HTMLAnchorElement>
       | React.MouseEvent<HTMLAnchorElement>,
   ) => void;
-  children?: JSX.Element | JSX.Element[];
+  children?: ReactNode;
 }
 
-const ResultButton = (props: Props): JSX.Element => (
+const ResultButton: FC<Props> = (props) => (
   <BaseButton {...props} className={styles.result}>
     {props.children}
   </BaseButton>

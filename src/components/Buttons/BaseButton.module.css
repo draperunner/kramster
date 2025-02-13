@@ -1,6 +1,5 @@
 .base {
   white-space: normal;
-  outline: none;
   letter-spacing: 1px;
   border-radius: 0.5rem;
   border: none;
@@ -10,6 +9,10 @@
   text-align: center;
   text-decoration: none !important;
   cursor: pointer;
+
+  &:focus {
+    outline: 2px solid var(--brand-color);
+  }
 }
 
 @media (max-width: 767px) {
