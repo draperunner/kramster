@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 import { Kitem, Jumbotron } from "../../components";
 import styles from "./Schools.module.css";
@@ -18,9 +18,7 @@ function Schools(): JSX.Element {
               head={school.abbreviation}
               body={school.name}
               color="green"
-              onClick={(): void =>
-                navigate(`/${school.abbreviation.toLowerCase()}`)
-              }
+              onClick={() => navigate(`/${school.abbreviation.toLowerCase()}`)}
             />
           </div>
         ))}

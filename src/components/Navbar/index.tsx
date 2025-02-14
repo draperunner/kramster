@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router";
 import styles from "./Navbar.module.css";
 import { FC } from "react";
 

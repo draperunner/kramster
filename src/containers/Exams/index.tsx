@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 
 import CategoryButton from "../../components/Buttons/CategoryButton";
 import StandardButton from "../../components/Buttons/StandardButton";

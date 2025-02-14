@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 
 import { formatPercentage, percentageToGrade, COLORS } from "../../utils";
 import { Kitem } from "../../components";

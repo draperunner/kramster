@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 
 import { Navbar } from "../components";
 import { HistoryEntry } from "../interfaces";

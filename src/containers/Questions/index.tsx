@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router";
 
 import { getQuestions } from "../../api";
 import { LoadingSpinner, ProgressBar } from "../../components";

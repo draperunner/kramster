@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router";
 
 import { Kitem, LoadingSpinner } from "../../components";
 import styles from "./Courses.module.css";
@@ -59,7 +59,7 @@ function Courses(): JSX.Element {
               body={name}
               color={assignColor(code)}
               minHeight
-              onClick={(): void => navigate(`/${school}/${code}`)}
+              onClick={() => navigate(`/${school}/${code}`)}
             />
           </div>
         ))}
