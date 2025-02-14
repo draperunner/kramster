@@ -4,7 +4,7 @@ import { RouterProvider } from "react-router/dom";
 import AppContainer from "./containers/AppContainer";
 import Schools from "./containers/Schools";
 
-export default function Routes(): JSX.Element {
+export default function Routes() {
   const router = createBrowserRouter([
     {
       path: "/",

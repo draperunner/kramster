@@ -8,7 +8,7 @@ import styles from "./Exams.module.css";
 
 import examsIndex from "../../exams.json";
 
-function Exams(): JSX.Element {
+function Exams() {
   const { school = "", course = "" } = useParams();
 
   const exams = examsIndex.filter(

@@ -1,3 +1,4 @@
+import { FC, ReactNode } from "react";
 import BaseButton from "../BaseButton";
 import styles from "./StandardButton.module.css";
 
@@ -8,10 +9,10 @@ interface Props {
       | React.KeyboardEvent<HTMLAnchorElement>
       | React.MouseEvent<HTMLAnchorElement>,
   ) => void;
-  children?: string | JSX.Element | JSX.Element[];
+  children?: ReactNode;
 }
 
-const StandardButton = (props: Props): JSX.Element => (
+const StandardButton: FC<Props> = (props) => (
   <BaseButton {...props} className={styles.standard}>
     {props.children}
   </BaseButton>

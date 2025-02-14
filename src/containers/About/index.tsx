@@ -1,6 +1,7 @@
+import { FC } from "react";
 import styles from "./About.module.css";
 
-const About = (): JSX.Element => (
+const About: FC = () => (
   <div>
     <div className={styles.about}>
       <h1 className={styles.title}>Cram with Kramster!</h1>

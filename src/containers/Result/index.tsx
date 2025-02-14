@@ -8,7 +8,7 @@ import { HistoryEntry } from "../../interfaces";
 
 import styles from "./Result.module.css";
 
-function Result(): JSX.Element {
+function Result() {
   const { school, course, exam, number } = useParams();
 
   const [history] = useHistory();

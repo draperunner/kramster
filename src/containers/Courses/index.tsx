@@ -6,7 +6,7 @@ import styles from "./Courses.module.css";
 import courseIndex from "../../courses.json";
 import schoolIndex from "../../schools.json";
 
-function Courses(): JSX.Element {
+function Courses() {
   const { school } = useParams();
 
   const courses = courseIndex.filter(

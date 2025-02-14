@@ -4,7 +4,7 @@ import { Kitem, Jumbotron } from "../../components";
 import styles from "./Schools.module.css";
 import schools from "../../schools.json";
 
-function Schools(): JSX.Element {
+function Schools() {
   const navigate = useNavigate();
 
   return (

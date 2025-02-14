@@ -18,7 +18,7 @@ type Params = {
   number: string | undefined;
 };
 
-function Questions(): JSX.Element {
+function Questions() {
   const navigate = useNavigate();
   const location = useLocation();
 

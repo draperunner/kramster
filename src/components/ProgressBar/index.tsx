@@ -1,12 +1,13 @@
 import styles from "./ProgressBar.module.css";
 import { Question } from "../../interfaces";
+import { FC } from "react";
 
 interface Props {
   history: boolean[];
   questions: Question[];
 }
 
-const ProgressBar = (props: Props): JSX.Element => {
+const ProgressBar: FC<Props> = (props) => {
   const value =
     props.questions.length > 0
       ? Math.round((100 * props.history.length) / props.questions.length)

@@ -1,3 +1,4 @@
+import { FC } from "react";
 import styles from "./Kitem.module.css";
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
   ) => void;
 }
 
-const Kitem = (props: Props): JSX.Element => {
+const Kitem: FC<Props> = (props) => {
   const mobile = window.screen.width < 800;
 
   let className = `${styles.kitem} `;

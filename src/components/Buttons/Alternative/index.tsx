@@ -1,3 +1,4 @@
+import { FC, ReactNode } from "react";
 import { sanitize } from "../../../utils";
 import styles from "./Alternative.module.css";
 
@@ -9,10 +10,10 @@ interface Props {
       | React.KeyboardEvent<HTMLButtonElement>
       | React.MouseEvent<HTMLButtonElement>,
   ) => void;
-  children?: JSX.Element | JSX.Element[];
+  children?: ReactNode;
 }
 
-const Alternative = (props: Props): JSX.Element => {
+const Alternative: FC<Props> = (props) => {
   const text = sanitize(props.text);
 
   return (

@@ -5,7 +5,7 @@ import { Navbar } from "../components";
 import { HistoryEntry } from "../interfaces";
 import { HistoryContext } from "../hooks/contexts";
 
-const App = (): JSX.Element => {
+const App = () => {
   const [history, setHistory] = useState<HistoryEntry[]>([]);
 
   return (
