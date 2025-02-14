@@ -39,16 +39,7 @@
         ]
       },
       {
-        "source": "assets/**",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=31536000, immutable"
-          }
-        ]
-      },
-      {
-        "source": "images/*.webp",
+        "source": "@(assets|images)/**",
         "headers": [
           {
             "key": "Cache-Control",
