@@ -16,10 +16,6 @@
       "En MUX er en kombinatorisk krets som velger en av inngangene og sender den ut på utgangen.",
       "En MUX er en kombinatorisk krets som tar inngangen og splitter den opp til flere utganger.",
       "En MUX er en sekvensiell krets som alltid tar inn to verdier og gir ut en kombinasjon av disse på utgangen.",
-      "En MUX brukes til å dekode inngangen og gi riktig verdi til de ulike registrene.",
-      "En MUX er en kombinatorisk krets som velger en av inngangene og sender den ut på utgangen.",
-      "En MUX er en kombinatorisk krets som tar inngangen og splitter den opp til flere utganger.",
-      "En MUX er en sekvensiell krets som alltid tar inn to verdier og gir ut en kombinasjon av disse på utgangen.",
       "En MUX brukes til å dekode inngangen og gi riktig verdi til de ulike registrene."
     ]
   },
