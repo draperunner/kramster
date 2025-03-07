@@ -14,7 +14,7 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "no-cache"
+            "value": "no-store"
           },
           {
             "key": "Content-Security-Policy",

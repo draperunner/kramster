@@ -2,6 +2,7 @@
 node_modules/
 bower_components/
 dist/
+dev-dist
 *.annotated.js
 src/client/scripts.min.js
 src/client/styles.min.css
