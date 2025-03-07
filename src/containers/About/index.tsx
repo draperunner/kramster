@@ -11,6 +11,17 @@ const About: FC = () => (
         questions with instant feedback.
       </p>
       <p>
+        This is a Progressive Web App (PWA). Add the website to your home screen
+        for offline support and a more app-like experience. Cram for your exam
+        even without internet!
+      </p>
+      <p>
+        Want to add an exam? It requires some technical skills, but you can do
+        this on <a href="https://github.com/draperunner/kramster">GitHub</a>.
+        Create a JSON file for your exam on the expected format and submit a
+        pull request.
+      </p>
+      <p>
         Kramster is made by <a href="https://byrkje.land">Mats Byrkjeland</a>{" "}
         and it is{" "}
         <a href="https://github.com/draperunner/Kramster">open source</a>. Do
