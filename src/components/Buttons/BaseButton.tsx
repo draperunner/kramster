@@ -21,6 +21,7 @@ const BaseButton: FC<Props> = (props) => (
     role="button"
     type="button"
     tabIndex={0}
+    viewTransition
   >
     {props.children}
   </Link>

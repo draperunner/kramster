@@ -9,7 +9,7 @@ const Navbar: FC = () => {
     <nav className={styles.navbar}>
       <div className={styles.pullLeft}>
         {location.pathname !== "/" ? (
-          <Link className={styles.logo} to="/" tabIndex={0}>
+          <Link className={styles.logo} to="/" tabIndex={0} viewTransition>
             Kramster!
           </Link>
         ) : null}
@@ -17,7 +17,12 @@ const Navbar: FC = () => {
       <div className={styles.pullRight}>
         <ul>
           <li>
-            <Link className={styles.link} to="/about" tabIndex={0}>
+            <Link
+              className={styles.link}
+              to="/about"
+              tabIndex={0}
+              viewTransition
+            >
               About
             </Link>
           </li>

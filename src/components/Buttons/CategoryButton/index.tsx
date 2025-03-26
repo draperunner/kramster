@@ -12,10 +12,10 @@ interface Props {
   children?: ReactNode;
 }
 
-const StandardButton: FC<Props> = (props) => (
+const CategoryButton: FC<Props> = (props) => (
   <BaseButton {...props} className={styles.category}>
     {props.children}
   </BaseButton>
 );
 
-export default StandardButton;
+export default CategoryButton;

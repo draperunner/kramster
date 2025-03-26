@@ -107,7 +107,7 @@ function Questions() {
 
   const answer = (givenAnswer: string): void => {
     if (finished()) {
-      navigate(`${location.pathname}/results`);
+      navigate(`${location.pathname}/results`, { viewTransition: true });
       return;
     }
 

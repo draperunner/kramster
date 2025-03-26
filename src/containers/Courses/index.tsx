@@ -59,7 +59,9 @@ function Courses() {
               body={name}
               color={assignColor(code)}
               minHeight
-              onClick={() => navigate(`/${school}/${code}`)}
+              onClick={() =>
+                navigate(`/${school}/${code}`, { viewTransition: true })
+              }
             />
           </div>
         ))}
