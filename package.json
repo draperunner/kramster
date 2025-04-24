@@ -16,8 +16,7 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "ts": "tsc --noEmit",
-    "lint": "npm run eslint && npm run stylelint && npm run format:check",
-    "deploy": "npm run build && firebase deploy"
+    "lint": "npm run eslint && npm run stylelint && npm run format:check"
   },
   "repository": {
     "type": "git",
@@ -41,7 +40,6 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "firebase-tools": "^13.33.0",
     "prettier": "^3.5.3",
     "stylelint": "^16.15.0",
     "stylelint-config-standard": "^37.0.0",
