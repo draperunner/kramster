@@ -5,7 +5,14 @@ import reactHooks from "eslint-plugin-react-hooks";
 
 export default tseslint.config(
   eslint.configs.recommended,
-  tseslint.configs.strict,
+  tseslint.configs.strictTypeChecked,
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+      },
+    },
+  },
   {
     ...react.configs.flat.recommended,
     settings: {

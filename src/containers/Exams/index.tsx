@@ -17,7 +17,7 @@ function Exams() {
       exam.course === course.toLowerCase(),
   );
 
-  if (!exams?.length) {
+  if (!exams.length) {
     return <LoadingSpinner />;
   }
 

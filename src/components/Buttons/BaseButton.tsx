@@ -17,7 +17,11 @@ const BaseButton: FC<Props> = (props) => (
     to={props.href}
     className={props.className}
     onClick={props.onClick}
-    onKeyDown={(e) => e.which === 13 && props.onClick && props.onClick(e)}
+    onKeyDown={(e) => {
+      if (e.key === "Enter" && props.onClick) {
+        props.onClick(e);
+      }
+    }}
     role="button"
     type="button"
     tabIndex={0}

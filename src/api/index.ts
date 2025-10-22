@@ -10,7 +10,7 @@ async function getExam(
   try {
     const url = `/data/${school.toLowerCase()}/${course.toLowerCase()}/${examName}.json`;
     const response = await fetch(url);
-    const questions = await response.json();
+    const questions = (await response.json()) as Question[];
     return questions;
   } catch {
     return [];

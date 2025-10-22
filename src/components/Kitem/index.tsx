@@ -48,7 +48,11 @@ const Kitem: FC<Props> = (props) => {
       className={className}
       role="button"
       tabIndex={0}
-      onKeyDown={(e) => e.which === 13 && props.onClick && props.onClick(e)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" && props.onClick) {
+          props.onClick(e);
+        }
+      }}
       onClick={props.onClick}
     >
       <div className={styles[`${props.color}head`]}>

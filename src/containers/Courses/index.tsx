@@ -8,16 +8,20 @@ import schoolIndex from "../../schools.json";
 
 function Courses() {
   const { school } = useParams();
+  const navigate = useNavigate();
+
+  if (!school) {
+    return null;
+  }
 
   const courses = courseIndex.filter(
-    (course) => course.school === school?.toLowerCase(),
+    (course) => course.school === school.toLowerCase(),
   );
   const schoolData = schoolIndex.find(
     (s) => s.abbreviation.toLowerCase() === school,
   );
-  const navigate = useNavigate();
 
-  if (!courses || !courses.length) {
+  if (!courses.length) {
     return <LoadingSpinner />;
   }
 
@@ -59,9 +63,9 @@ function Courses() {
               body={name}
               color={assignColor(code)}
               minHeight
-              onClick={() =>
-                navigate(`/${school}/${code}`, { viewTransition: true })
-              }
+              onClick={() => {
+                void navigate(`/${school}/${code}`, { viewTransition: true });
+              }}
             />
           </div>
         ))}

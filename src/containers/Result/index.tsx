@@ -19,6 +19,10 @@ function Result() {
 
   const colorFromUser = COLORS[grade];
 
+  if (!school || !course || !exam) {
+    return null;
+  }
+
   return (
     <div>
       <h1 className={styles.header}>Your results</h1>

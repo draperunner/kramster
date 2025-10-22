@@ -18,11 +18,11 @@ function Schools() {
               head={school.abbreviation}
               body={school.name}
               color="green"
-              onClick={() =>
-                navigate(`/${school.abbreviation.toLowerCase()}`, {
+              onClick={() => {
+                void navigate(`/${school.abbreviation.toLowerCase()}`, {
                   viewTransition: true,
-                })
-              }
+                });
+              }}
             />
           </div>
         ))}

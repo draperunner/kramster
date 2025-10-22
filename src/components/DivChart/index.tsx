@@ -11,7 +11,7 @@ const DivChart: FC = () => {
           key={value}
           className={styles.divChartBar}
           style={{
-            maxHeight: Math.min(Math.max(value, 20), 100) + "%",
+            maxHeight: Math.min(Math.max(value, 20), 100).toString() + "%",
           }}
         />
       ))}

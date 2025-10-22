@@ -41,9 +41,7 @@ function Questions() {
 
   const examName = exam
     ? decodeURIComponent(exam)
-    : mode
-      ? `${number || ""} ${mode}`.trim()
-      : "";
+    : `${number || ""} ${mode}`.trim();
 
   const [loading, setLoading] = useState<boolean>(false);
   const [answerGiven, setAnswerGiven] = useState<boolean>(false);
@@ -63,11 +61,18 @@ function Questions() {
       mode,
       exam,
       limit: Number(number),
-    }).then((questions: QuestionType[]) => {
-      setLoading(false);
-      setQuestions(questions);
-      setCurrentQuestion(questions[0]);
-    });
+    })
+      .then((questions: QuestionType[]) => {
+        setQuestions(questions);
+        setCurrentQuestion(questions[0]);
+      })
+      .catch(() => {
+        setQuestions([]);
+        setCurrentQuestion(null);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   }, [course, exam, mode, school, number, setHistory]);
 
   const answerIsCorrect = (
@@ -75,7 +80,7 @@ function Questions() {
     currentQuestion: QuestionType,
   ): boolean => {
     const q = currentQuestion;
-    return q && q.answers.indexOf(q.options.indexOf(givenAnswer)) >= 0;
+    return q.answers.indexOf(q.options.indexOf(givenAnswer)) >= 0;
   };
 
   // Returns the class (color, mostly) of the option button
@@ -107,7 +112,7 @@ function Questions() {
 
   const answer = (givenAnswer: string): void => {
     if (finished()) {
-      navigate(`${location.pathname}/results`, { viewTransition: true });
+      void navigate(`${location.pathname}/results`, { viewTransition: true });
       return;
     }
 
@@ -158,7 +163,9 @@ function Questions() {
               key={option}
               text={option}
               type={buttonClass(option)}
-              onClick={(): void => answer(option)}
+              onClick={(): void => {
+                answer(option);
+              }}
             />
           ))}
         </div>

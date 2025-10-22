@@ -28,14 +28,14 @@ const ProgressBar: FC<Props> = (props) => {
       aria-valuenow={value}
     >
       <p className={styles.progressText}>
-        {`${props.history.length}/${props.questions.length}`}
+        {`${props.history.length.toString()}/${props.questions.length.toString()}`}
       </p>
       <div className={styles.progress}>
         {props.history.map((_answer, i) => (
           <div
             key={i}
             className={styles[type(i)]}
-            style={{ width: `${itemWidth}%` }}
+            style={{ width: `${itemWidth.toString()}%` }}
           />
         ))}
       </div>
