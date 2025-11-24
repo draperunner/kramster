@@ -1,8 +1,20 @@
 *
-    Cache-Control: no-cache
+    Cache-Control: no-store
     Content-Security-Policy: default-src 'none'; connect-src 'self' https://plausible.io; script-src 'self' https://plausible.io; img-src 'self'; style-src 'self'; font-src 'self'; manifest-src 'self'; object-src 'none'
     Permissions-Policy: geolocation=(), microphone=()
     Referrer-Policy: strict-origin-when-cross-origin
     Strict-Transport-Security: max-age=31556926
     X-Content-Type-Options: nosniff
     X-Frame-Options: SAMEORIGIN
+
+/assets/*
+    Cache-Control: immutable
+
+/data/*
+    Cache-Control: max-age=604800
+
+/icons/*
+    Cache-Control: max-age=604800
+
+/images/*
+    Cache-Control: max-age=604800
