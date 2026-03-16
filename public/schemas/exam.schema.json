@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kramster Index",
+  "type": "object",
+  "required": ["schools"],
+  "additionalProperties": false,
+  "properties": {
+    "schools": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/school"
+      }
+    }
+  },
+  "definitions": {
+    "school": {
+      "type": "object",
+      "required": ["abbreviation", "name", "courses"],
+      "additionalProperties": false,
+      "properties": {
+        "abbreviation": {
+          "type": "string",
+          "description": "Short identifier for the school"
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name of the school"
+        },
+        "courses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/course"
+          }
+        }
+      }
+    },
+    "course": {
+      "type": "object",
+      "required": ["code", "name", "exams"],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Course code identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name of the course"
+        },
+        "exams": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/exam"
+          }
+        }
+      }
+    },
+    "exam": {
+      "type": "object",
+      "required": ["mode", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": ["MC", "TF"],
+          "description": "Exam mode: MC = Multiple Choice, TF = True/False"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name or identifier of the exam"
+        }
+      }
+    }
+  }
+}

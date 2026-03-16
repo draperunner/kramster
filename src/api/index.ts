@@ -1,6 +1,6 @@
 import { Question } from "../interfaces";
 
-import examIndex from "../exams.json";
+import index from "../index.json";
 
 async function getExam(
   school: string,
@@ -8,10 +8,19 @@ async function getExam(
   examName: string,
 ): Promise<Question[]> {
   try {
-    const url = `/data/${school.toLowerCase()}/${course.toLowerCase()}/${examName}.json`;
+    const examData = index.schools
+      .find((s) => s.abbreviation.toLowerCase() === school.toLowerCase())
+      ?.courses.find((c) => c.code.toLowerCase() === course.toLowerCase())
+      ?.exams.find((e) => e.name === examName);
+
+    if (!examData) {
+      return [];
+    }
+
+    const url = `/data/${school.toLowerCase()}/${course.toLowerCase()}/${examData.fileName}`;
     const response = await fetch(url);
-    const questions = (await response.json()) as Question[];
-    return questions;
+    const exam = (await response.json()) as { questions: Question[] };
+    return exam.questions;
   } catch {
     return [];
   }
@@ -23,13 +32,10 @@ async function getRandom(
   maxDocs: number,
 ): Promise<Question[]> {
   const exams = await Promise.all(
-    examIndex
-      .filter(
-        (exam) =>
-          exam.school === school.toLowerCase() &&
-          exam.course === course.toLowerCase(),
-      )
-      .map((exam) => getExam(school, course, exam.name)),
+    index.schools
+      .find((s) => s.abbreviation.toLowerCase() === school.toLowerCase())
+      ?.courses.find((c) => c.code.toLowerCase() === course.toLowerCase())
+      ?.exams.map((exam) => getExam(school, course, exam.name)) || [],
   );
 
   const allQuestions = exams.flat();

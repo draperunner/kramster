@@ -6,25 +6,25 @@ import { LoadingSpinner } from "../../components";
 
 import styles from "./Exams.module.css";
 
-import examsIndex from "../../exams.json";
+import index from "../../index.json";
 
 function Exams() {
   const { school = "", course = "" } = useParams();
 
-  const exams = examsIndex.filter(
-    (exam) =>
-      exam.school === school.toLowerCase() &&
-      exam.course === course.toLowerCase(),
-  );
+  const courseData = index.schools
+    .find((s) => s.abbreviation.toLowerCase() === school.toLowerCase())
+    ?.courses.find((c) => c.code.toLowerCase() === course.toLowerCase());
 
-  if (!exams.length) {
+  const exams = courseData?.exams || [];
+
+  if (!courseData || !exams.length) {
     return <LoadingSpinner />;
   }
 
   return (
     <div className={styles.wrapper}>
       <h1>
-        {exams[0].course.toUpperCase()} – {exams[0].courseName}
+        {courseData.code.toUpperCase()} – {courseData.name}
       </h1>
 
       <div className={styles.categoriesRow}>

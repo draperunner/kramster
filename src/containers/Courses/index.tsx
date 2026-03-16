@@ -3,8 +3,7 @@ import { useNavigate, useParams } from "react-router";
 import { Kitem, LoadingSpinner } from "../../components";
 import styles from "./Courses.module.css";
 
-import courseIndex from "../../courses.json";
-import schoolIndex from "../../schools.json";
+import index from "../../index.json";
 
 function Courses() {
   const { school } = useParams();
@@ -14,12 +13,10 @@ function Courses() {
     return null;
   }
 
-  const courses = courseIndex.filter(
-    (course) => course.school === school.toLowerCase(),
-  );
-  const schoolData = schoolIndex.find(
+  const schoolData = index.schools.find(
     (s) => s.abbreviation.toLowerCase() === school,
   );
+  const courses = schoolData?.courses || [];
 
   if (!courses.length) {
     return <LoadingSpinner />;

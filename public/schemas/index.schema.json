@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kramster Index",
+  "type": "object",
+  "required": ["schools"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schools": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/school"
+      }
+    }
+  },
+  "$defs": {
+    "school": {
+      "type": "object",
+      "required": ["abbreviation", "name", "courses"],
+      "additionalProperties": false,
+      "properties": {
+        "abbreviation": {
+          "type": "string",
+          "description": "Short identifier for the school"
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name of the school"
+        },
+        "courses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/course"
+          }
+        }
+      }
+    },
+    "course": {
+      "type": "object",
+      "required": ["code", "name", "exams"],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Course code identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name of the course"
+        },
+        "exams": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/exam"
+          }
+        }
+      }
+    },
+    "exam": {
+      "type": "object",
+      "required": ["mode", "name", "fileName"],
+      "additionalProperties": false,
+      "properties": {
+        "fileName": {
+          "type": "string",
+          "description": "Filename of the exam data JSON file"
+        },
+        "mode": {
+          "type": "string",
+          "enum": ["MC", "TF"],
+          "description": "Exam mode: MC = Multiple Choice, TF = True/False"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name or identifier of the exam"
+        }
+      }
+    }
+  }
+}

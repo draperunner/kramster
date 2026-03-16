@@ -1,0 +1,150 @@
+{
+  "$schema": "https://kramster.it/schemas/exam.schema.json",
+  "questions": [
+    {
+      "question": "Hvor mange assemblerinstruksjoner er det i en mikroinstruksjon?",
+      "answers": [1],
+      "options": [
+        "Dette er avhengig av instruksjonssettarkitekturen (ISA)",
+        "Spørsmålet gir ikke mening fordi en assemblerinstruksjon består av flere mikroinstruksjoner",
+        "Tre, en for hver fase (load, execute, store)",
+        "Dette er avhengig av størrelse på hurtiglager (eng. cache)"
+      ]
+    },
+    {
+      "question": "Enkelte maskiner har noe som heter segmentregister, hva brukes det til?",
+      "answers": [2],
+      "options": [
+        "Peker på register som skal leses i en registerfil",
+        "Brukes av hurtiglager for å vite hvor data skal ligge i hovedlager",
+        "Holder øverste bit i en adresse for å få større adresserom",
+        "Holder nederste bit i en adresse for å vite relasjon til hurtiglager"
+      ]
+    },
+    {
+      "question": "Hva er riktig om samlebånd (eng. pipelines)?",
+      "answers": [2],
+      "options": [
+        "Samlebånd øker hastigheten for hver enkelt instruksjon isolert sett",
+        "Samlebånd i prosessorer benyttes ikke lengre, dette er gammel teknologi",
+        "Målet med et samlebånd er å utføre instruksjoner i parallell",
+        "Samlebånd gjør at prosessoren gjør ferdig flere instruksjoner per klokkesykel"
+      ]
+    },
+    {
+      "question": "Hva er FEIL om samlebånd?",
+      "answers": [0],
+      "options": [
+        "Klokkefrekvensen til en prosessor med samlebånd er begrenset av summen av tiden samlebåndet bruker i de ulike trinnene",
+        "Klokkefrekvensen til en prosessor med samlebånd er begrenset av det tregeste trinnet",
+        "Ved å innføre samlebånd kan frekvensen skrus opp fordi hvert enkelt trinn blir enklere",
+        "En prosessor har samme klokkefrekvens for de ulike trinnene"
+      ]
+    },
+    {
+      "question": "Dersom du har et vanlig (in-order execution) samlebånd, hvilke dataavhengigheter vil\nskape problemer i følgende program (Dark-syntaks)?<pre>\nADD $1, $2, $3\nADD $4, $2, $3</pre>",
+      "answers": [3],
+      "options": [
+        "Avhengigheten på grunn av register 2",
+        "Avhengigheten på grunn av register 3",
+        "Avhengigheten på grunn av register 1",
+        "Det finnes ingen avhengighet"
+      ]
+    },
+    {
+      "question": "Hva skiller indirekte adresseringsmodus fra direkte adresseringsmodus (velg det alternativet som er mest riktig)?",
+      "answers": [3],
+      "options": [
+        "Indirekte er enklere enn direkte adressering fordi indirekte adressering krever et ekstra oppslag",
+        "Indirekte adressering adresserer relativt til stakkregisteret, mens direkte adressering adresserer relativt til instruksjonsregisteret",
+        "Direkte adressering gir lengre kildekode, og moderne prosessorer benytter kun indirekte adressering",
+        "Ved indirekte adressering beregnes adressen som skal aksesseres ved kjøretid,\nmens ved direkte adressering er adressen gitt av assemblerkoden"
+      ]
+    },
+    {
+      "question": "Hvorfor snakker man om 1ers komplement og 2ers komplement?",
+      "answers": [1],
+      "options": [
+        "De to måtene å kode tall på benyttes i forskjellige regneoperasjoner",
+        "Det er lettere for en datamaskin å addere to tall som er på 2ers komplement enn\n1ers komplement",
+        "1ers komplement har større tallområde enn 2ers komplement",
+        "1ers komplement er tenkt til 1-tallssystemet, mens 2ers komplement er tenkt til 2-tallssystemet"
+      ]
+    },
+    {
+      "question": "Hvilken prosessortype har som oftest kortest instruksjonsord?",
+      "answers": [2],
+      "options": ["Akkumulatormaskin", "Load/store-maskin", "Stakkmaskin"]
+    },
+    {
+      "question": "Hva er et instruksjonsregister?",
+      "answers": [0],
+      "options": [
+        "Mikroprosessoren leser instruksjonen som skal utføres til dette registret",
+        "Instruksjonen benytter dette registret til å lagre heltall",
+        "Instruksjonen benytter dette registret til å lagre både heltall og flyttall",
+        "Instruksjonsregisteret angir adressen til neste instruksjon som skal utføres."
+      ]
+    },
+    {
+      "question": "Hvordan lagres data i hurtigminnet (SRAM) på en PC?",
+      "answers": [2],
+      "options": [
+        "Hver bit ligger lagret som strøm i en transistor",
+        "Hver bit ligger lagret som ladning i en kondensator",
+        "Hver bit ligger lagret i to invertere som er koblet mot hverandre for å låse data",
+        "Data ligger lagret som strøm i magnetspoler\n1"
+      ]
+    },
+    {
+      "question": "Hvis man har to ulike datamaskiner som utfører like mange instruksjoner per sekund, hva\nkan man si om de to maskinene?",
+      "answers": [0],
+      "options": [
+        "Antall MIPS (millions of instructions per second) for de to maskinene er like",
+        "Ytelsen er lik",
+        "Maskinene er like",
+        "Den maskinen som er nyest er sannsynligvis raskest\n1"
+      ]
+    },
+    {
+      "question": "Hvordan programmerer man en mikroprosessor med samlebånd?",
+      "answers": [0],
+      "options": [
+        "Man må passe seg for ”farer” (eng. hazards) i enkelte arkitekturer",
+        "Man må spesifisere rekkefølgen på de ulike trinnene for hver instruksjon",
+        "Til dette benyttes mikrokode",
+        "Det skjer alltid i et høynivå språk som Java eller C (++)."
+      ]
+    },
+    {
+      "question": "Hvilket av følgende utsagn er mest FEIL om harddisker?",
+      "answers": [1],
+      "options": [
+        "Harddisker er mekaniske og tåler dårlig støt",
+        "Harddisker er basert på optiske plater som roterer relativt raskt (ca 7200 RPM).",
+        "Harddisker inneholder tosidige plater der data lagres",
+        "Harddisker har roterende plater, og man må vente til den har rotert til riktig plass før data kan leses"
+      ]
+    },
+    {
+      "question": "Hvordan henter en datamaskin vanligvis informasjon fra omgivelsene?",
+      "answers": [2],
+      "options": [
+        "Dette skjer ved at DRAM brikken er koblet til eksterne linjer",
+        "Dette skjer ved at ALU enheten er koblet til eksterne linjer",
+        "Dette skjer ved at porter er koblet på adresse og data bussen",
+        "Statusregisteret blir oppdatert med eksterne verdier"
+      ]
+    },
+    {
+      "question": "Hva er ulempen til USB?",
+      "answers": [1],
+      "options": [
+        "Man kan ikke ta utstyr fra en maskin og forvente at det fungerer på en annen maskin",
+        "Protokollen er ikke laget for overføring av store datamengder, her er firewire raskere",
+        "Det er lite datautstyr som støtter denne protokollen",
+        "USB kablene blir dyre fordi det er mange ledere i selve kabelen"
+      ]
+    }
+  ]
+}

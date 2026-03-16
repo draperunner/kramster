@@ -1,0 +1,365 @@
+{
+  "$schema": "https://kramster.it/schemas/exam.schema.json",
+  "questions": [
+    {
+      "question": "En pasient har en hematokrit på 0,45. Hva betyr det? / En pasient har en hematokrit\npå 0,45. Kva betyr det? / A patient has a hematocrit of 0.45. What does that mean?",
+      "answers": [3],
+      "options": [
+        "At det er 45 millioner røde blodlegemer pr 10 μl blod / At det er 45\nmillionar røde blodlekam pr 10 μl blod / That it is 45 mill. Erythrocytes per 10\nμl blod",
+        "At hemoglobinkonsentrasjonen i blodet er 45% av det som er normalt / That\nthe hemoglobin concentration in the blood is 45% of whet is normal",
+        "At det er 45 g hemoglobin pr l blod / That the hemoglobin concentration is\n45 g/l",
+        "At 45% av blodvolumet er erythrocytter / At 45% av blodvolumet er\nerythrocyttar / That 45% of the blood volume is erythrocytes"
+      ]
+    },
+    {
+      "question": "Hvordan aktiveres hjertemuskelen til å kontrahere? / Korleis blir hjertemuskelen\naktivert til å kontrahere / How is the heart muscel activated to contract?",
+      "answers": [2],
+      "options": [
+        "Innstrømmende blod i diastole strekker hjertemuskelcellene, og strekket\nutløser aksjonspotensialer / Blod som strøymer inn i diastolen strekker\nhjertemuskelcellene og strekket utløyser et aksjonspotensial / In flowing blood\nduring diastole stretches the heart muscle cells and the stretching triggers an\naction potential",
+        "Aksjonspotensialene utløses av synaptisk stimulering på motoriske\nendeplater / aksjonspotensiala blir utløyst av synaptisk stimulering på\nmotoriske endeplater / The action potentials are triggered by synaptic\nstimulation on the neuromuscular junctions",
+        "Hjertet har egne muskelceller som generer aksjonspotensialer, som deretter\nbrer seg utover hjertemuskelen direkte fra muskelcelle til muskelcelle / Hjertet\nhar egne muskelceller som generer aksjonspotensial, som deretter brer seg\nutover hjertemuskelen direkte frå muskelcelle til muskelcelle / The heart has\nspecialised muscle cells that generate action potentials, which then propagate\nin the heart directly from muscle cell to muscle cell",
+        "Adrenalin og noradrenalin fra det sympatiske nervesystem virker på\ncellemembranen og fører til at kalsium lekker ut av cellen slik at det trigger et\naksjonspotensial / Adrenalin og noradrenalin frå det sympatiske nervesystemet\nverker på cellemembranen og fører til at kalsium lekker ut av cellen slik at det\nutløyser et aksjonspotensial / Epinephrine and norepinephrine from the\nsympathetic nerve system interacts with the cell membrane, causing calcium to\nleak out of the cell and this triggers an action potential."
+      ]
+    },
+    {
+      "question": "Bilirubin er et avfallsstoff som dannes i levra. Hva er det et nedbrytningsprodukt\nav? / Bilirubin er et avfallsstoff som blir danna i levra. Kva er det et\nnedbrytingsprodukt av? / Bilirubin is a waste product that is produced in the liver.\nWhat is is a degradation product of?",
+      "answers": [0],
+      "options": [
+        "Hemoglobin / Haemoglobin",
+        "Cholesterol",
+        "RNA",
+        "Membranlipider / Membrane lipids"
+      ]
+    },
+    {
+      "question": "Omtrent hvor stor andel av vannmengden som filtreres ut i glomeruli blir igjen i\nden ferdige urinen? / Omtrent kor stor del av vassmengda som blir filtrert ut glomeruli\nblir igjen i den ferdige urinen? / About how large part of the water that is filtrated out\nin the glomeruli remains as urine in the finished product?",
+      "answers": [0],
+      "options": ["Ca 1%", "Ca 10%", "Ca 25%", "Ca 50%"]
+    },
+    {
+      "question": "I en nødssituasjon kan en måtte gi blodlegemer fra en annen blodgruppe enn den\npasienten tilhører. Hvilken blodgruppe kan ta imot blodlegemer fra alle blodgrupper i\nABO systemet? / I ein naudssituasjon kan ein måtte gi blodlegemer frå ein annen\nblodgruppe enn den pasienten tilhører. Kva for blodgruppe kan ta imot blodlekam fra\nalle blodgrupper i ABO systemet? /\nIn an emergency may it be necessary to tranfuse a patient with erythrocytes from a\ndifferent blood group. Which blood group can receive erythrocytes from any blood\ngroup in the ABO system?",
+      "answers": [2],
+      "options": ["A", "B", "AB", "0"]
+    },
+    {
+      "question": "Hvordan er lufttrykket i alveolene under ekspirasjon i forhold til atmosfæretrykket?\n/Korleis er lufttrykket i alveolane under ekspirasjon i forhold til atmosfæretrykket? /\nWhat is the alveolar air pressure during expiration in relation to the atmospheric\npressure?",
+      "answers": [2],
+      "options": [
+        "Lavere / Lågare / Lower",
+        "Likt / Equal",
+        "Høyere / Høgare / Higher",
+        "Høyere i startekspirasjon og lavere i endeekspirasjon / Høgare i startekspirasjon og\nlågare i endeekspirasjon / Higher in start inspiration and lower in end inspiration"
+      ]
+    },
+    {
+      "question": "Botulisme forårsakes av en bakteriegift som kan produseres av bakterier i mat\nunder visse betingelser. Gifta blokkerer synaptisk transmisjon på motoriske endeplater\nog kan være dødelig. Hva vil dødsmekanismen i tilfelle være? / Botulisme blir\nforårsaka av ein bakteriegift som kan produserest av bakteriar i mat under visse\nbetingelser. Gifta blokkerer synaptisk transmisjon på motoriske endeplater og kan\nvære dødelig. Kva vil dødsmekanismen i så fall være? / Botulism is caused by a\nbacterial toxin that is produced by bacteria in food under certain conditions, and may\nbe lethal. What will the mechanism of death in that case be?",
+      "answers": [2],
+      "options": [
+        "Hemme hjertemuskelkontraksjon og resultere i hjertesvikt / Inhibit cardiac muscle\ncontraction and cause heart failure",
+        "Hemme glatt muskelfunksjon i blodårer som gir vasodilatasjon og dermed\nsirkulasjonssjokk / Inhibit smooth muscle function in blood vessels, leading to\nvasodilation ans subsequent ciculatory shock",
+        "Hemme skjelettmuskelfunksjon inkludert respirasjonsmuskler og resultere i\nrespirasjonsstans / Hemme skjelettmuskelfunksjon inkludert respirasjonsmusklar og\nresultere i respirasjonsstans / Inhibit skeletal musculature including respiratory\nmuscles, leading to respiratory failure",
+        "Hemme det autonome nervesystem, som kan resultere i blodtrykksfall og sjokk /\nInhibit the autonomic nervous system, resulting in blood pressure drop and shock"
+      ]
+    },
+    {
+      "question": "Ejeksjonsfraksjonen er et mål for systolisk hjertefunksjon. En pasient har en\nvenstreventrikkel med et endediastolisk volum på 128 ml, endesystolisk volum på 51\nml. Hva er ejeksjonsfraksjonen?/ Ejeksjonsfraksjonen er eit mål for systolisk\nhjertefunksjon. Ein pasient har en venstre ventrikkel med et endediastolisk volum på\n128 ml, endesystolisk volum på 51 ml. Kva er ejeksjonsfraksjonen? / The ejection\nfraction is a measure of ventricular function. A patient has a left ventricular end\ndiastolic volume of 128 ml, an end systolic volume of 51 ml. What is the ejection\nfraction?",
+      "answers": [1],
+      "options": ["77%", "60%", "51%", "40%"]
+    },
+    {
+      "question": "Hvilket kammer i hjertet har det høyeste (middel-) trykket? / Kva for kammer i\nhjertet har det høgaste (middel-) trykket? / What chamber in the heart has the highest\n(mean)pressure?",
+      "answers": [3],
+      "options": [
+        "Høyre atrium / Right atrium",
+        "Høyre ventrikkel / Right ventricle",
+        "Venstre atrium / Left atrium",
+        "Venstre ventrikkel / Left ventricle"
+      ]
+    },
+    {
+      "question": "Maksimalt oksygenopptak er et mål på den aerobe kondisjonen (kalles ofte\nkondisjonstallet på norsk). Hva begrenser maksimalt oksygenopptak hos friske? /\nMaksimalt oksygenopptak er et mål på den aerobe kondisjonen, (blir ofte kalla\nkondisjonstalet på norsk). Kva begrensar maksimalt oksygenopptak hos friske? /\nMaximum oxygen uptake is a measure of aerobic fitness. What limits the maximal\noxygen uptake in healthy individuals?",
+      "answers": [0],
+      "options": [
+        "Hjertets maksimale pumpekapasitet / The maximal pumping capacity of the\nheart",
+        "Lungenes maksimale ventilasjonskapasitet / The maximal ventilatory\ncapacity of the lungs",
+        "Den maksimale gassdiffusjonskapasiteten i alveolene / The maximal gas\ndiffusion capacity of the alveoli",
+        "Musklenes anaerobe terskel / The anaerobic threshold of the muscles"
+      ]
+    },
+    {
+      "question": "Gjennomsnittlig insidens av influensa I Norge uke 8, 2012 var 3%. Vi kan anta en\ngjennomsnittlig sykdomsvarighet på 5 dager for denne epidemien. Hva var\ngjennomsnittlig prevalens av influenza I den uka? / Gjennomsnittleg insidens av\ninfluensa I Noreg uke 8 2012 var 3%. Vi kan anta en gjennomsnittlig\nsjukdomsvarighet på 5 dager for denne epidemien. Kva var gjennomsnittlig prevalens\nav influensa I den veka? / Mean incidence of influenza in Norway in week 8 in 2012\nwas 3%. We may consider that the duration of influenza to be on the average 5 days\nfor that epidemic. What was the mean prevalence of influenza during that week?",
+      "answers": [0],
+      "options": ["2.1%", "3%", "6%", "14%"]
+    },
+    {
+      "question": "Ved slutten av aksjonspotensialet blir Calcium pumpet fra cytoplasma inn i\nsarcoplasmatisk reticulum. Hva slags transport er det? / Ved slutten av\naksjonspotensialet blir Calcium pumpet fra cytoplasma inn i sarcoplasmatisk\nreticulum. Kva slag transport er det? / At the end of a cardiac action potential,\ncalcium is pumped from the cytoplasm into the sarcoplasmatic recticulum. What kind\nof transport is this?",
+      "answers": [0],
+      "options": [
+        "Aktiv transport / Active transport",
+        "Mediert Diffusjon / Mediated diffusion",
+        "Diffusjon / Diffusion",
+        "Osmose/ Osmosis"
+      ]
+    },
+    {
+      "question": "Likevektsorganet sanser akselerasjon og tyngdekraft. Hvor finnes sansecellene til\ndette? / Likevektsorganet sansar akselerasjon og tyngdekraft. Kor finn ein sansecellene til\ndette? / The balance organ senses acceleration and gravity. Where are the sensory cells\nfor this located?",
+      "answers": [0],
+      "options": [
+        "Det indre øret / The inner ear",
+        "Hjernestammen / The brain stem",
+        "Thalamus",
+        "Halsarteriene / The carotid arteries"
+      ]
+    },
+    {
+      "question": "Hvilken hovedfunksjon har gallesalter? / Kva for hovedfunksjon har gallesalt? / What\nis the main function of bile salts?",
+      "answers": [2],
+      "options": [
+        "Skille ut overskudd av Na + til tarmen / Skilje ut overskudd av Na + til tarmen / Secrete\nexcess Na + to the intestine",
+        "Skille ut overskudd av kolesterol til tarmen / Skilje ut overskudd av kolesterol til\ntarmen / secrete excess cholesterol to the intestine",
+        "Emulgere fettstoffer i tarmen så de kan fordøyes / Emulgere feittstoff i tarmen så de\nkan bli fordøydd / Emulsify lipids in the intestine for digestion",
+        "Stimulere ventrikkelen til å tømme seg til tolvfingertarmen / Stimulate the ventricle to\nempty it’s contents into the duodenum"
+      ]
+    },
+    {
+      "question": "En pasient kommer inn på sykehus med følgende blodstatus: PO 2 : nedsatt, PCO 2 : økt,\npH: nedsatt. Hva er dette? / En pasient kommer inn på sjukehus med følgjande blodstatus:\nPO 2 : nedsett, PCO 2 : auka, pH: nedsett. Kva er dette? / A patient is admitted into hospital\nwith the following blood status: PO 2 decreased, PCO 2 : increased and pH: decreased.\nWhat is this?",
+      "answers": [0],
+      "options": [
+        "Respiratorisk acidose / Respiratory acidosis",
+        "Respiratorisk alkalose / Respiratory alkalosis",
+        "Metabolsk acidose / Metabolic acidosis",
+        "Metabolsk alkalose / Metabolic alcalosis"
+      ]
+    },
+    {
+      "question": "Hvilken mekanisme bevirker at Na har høyere konsentrasjon ekstra- enn\n+\nintracellulært? / Kva for mekanisme gjør at at Na + har høgare konsentrasjon ekstra- enn\nintracellulært? / What mechanism causes Na + to be higher in concentration extra- than\nintracellularly?",
+      "answers": [2],
+      "options": [
+        "Osmose / Osmosis",
+        "Fasilitert diffusjon / Facilitated diffusion",
+        "Aktiv transport / Active transport",
+        "Pinocytose / Pinocytosis"
+      ]
+    },
+    {
+      "question": "Antidiuretisk hormon (ADH) øker reabsorbsjon av vann i nyrene. Hva er\nmekanismen? / Antidiuretisk hormon (ADH) aukar reabsorbsjon av vann i nyrene. Kva er\nmekanismen? / Antiduretic hormone(ADH) increases the reabsorbtion of water in the\nkidneys. What is the mechanism?",
+      "answers": [2],
+      "options": [
+        "Ved å redusere glomerulær filtrasjon / By reducing glomerular filtration",
+        "Ved å hemme aktiv transport av vann i proximale tubuli / By inhibiting active\ntransport of water in proximal tubules",
+        "Ved å øke permeabiliteten for vann i distale tubuli og samlerør, så mer vann\nabsorberes ved osmose / Ved å auke permeabiliteten for vann i distale tubuli og samlerør,\nså meir vann blir absorbert ved osmose / By increasing the permeability of water in the\ndistal tubules and collection ducts, causing more water to be absorbed by osmosis",
+        "Ved å hemme blæretømminga / By inhibiting emptying of the urinary bladder"
+      ]
+    },
+    {
+      "question": "Og hvor produseres ADH? / Og kor blir ADH produsert? / And where is ADH\nproduced?",
+      "answers": [0],
+      "options": [
+        "Hypofysen / The hypophysis",
+        "Tyroidea / The thyroid",
+        "Binyrene / The adrenal glands",
+        "Nyrene / The kidneys"
+      ]
+    },
+    {
+      "question": "Ved alvorlig systemisk inflammasjon kan sirkulatorisk sjokk inntreffe. Hva er\nhyppigste årsak / Ved alvorleg systemisk inflammasjon kan sirkulatorisk sjokk inntreffe.\nKva er hyppigaste årsak / Severe systemic inflammation can cause circulatory shock.\nWhat is the most frequent reason?",
+      "answers": [0],
+      "options": [
+        "Økt vaskulær permeabilitet / Auka vaskulær permeabilitet / Increased vascular\npermeability",
+        "Diaré / Diarrhea",
+        "Blodtap / Loss of blood",
+        "Fagocytose / Phagocytosis"
+      ]
+    },
+    {
+      "question": "En pasient får en kraftig blødning slik at blodtrykket faller. Hva skjer med\nhjertefrekvensen? / Ein pasient får ein kraftig blødning slik at blodtrykket fell. Kva skjer\nmed hjertefrekvensen? / A patient bleeds heavily, so the blood pressure drops. What\nhappens to the heart rate?",
+      "answers": [0],
+      "options": [
+        "Øker / Aukar / Increases",
+        "Avtar / Avtek / Decreases",
+        "Blir uregelmessig / Becomes irregular",
+        "Påvirkes ikke / Påverkes ikkje / Is not affected"
+      ]
+    },
+    {
+      "question": "Hvordan dannes røntgenstråler i et medisinsk røntgenapparat? / Korleis blir\nrøntgenstrålar danna i et medisinsk røntgenapparat? / How are –rays in a medical X-ray\nmachine created?",
+      "answers": [1],
+      "options": [
+        "Ved radioaktiv nedbrytning av atomkjerner / Ved radioaktiv nedbrytning av\natomkjernar / By radioactive degradation of atomic nuclei",
+        "Ved nedbremsning av elektroner i en anode / Ved nedbremsing av elektron i en anode\n/ By retardation of electrons in an anode",
+        "Ved variasjoner i feltstyrken i et magnetfelt / Ved variasjonar i feltstyrken i et\nmagnetfelt / By variations of the field strength in a magnetic field",
+        "Ved vibrasjoner i en krystall / Ved vibrasjonar i en krystall / By vibrations in a\nchrystal"
+      ]
+    },
+    {
+      "question": "Ved diabeteskoma hopes det opp ketoner i blodet. Dette påvirker pH, og sekundært\nCO 2 konsentrasjonen. På hvilken måte? / Ved diabeteskoma hopast det opp keton i blodet.\nDette påverkar pH, og sekundært CO 2 konsentrasjonen. På kva for måte? / In a diabetic\ncoma there is an accumulation of ketones in the blood. This affects pH and secondary\nCO 2 concentration on the blood. In what way?",
+      "answers": [3],
+      "options": ["pH↑, CO 2 ↑", "pH↑, CO 2 ↓", "pH↓, CO 2 ↑", "pH↓, CO 2 ↓"]
+    },
+    {
+      "question": "<img src=\"images/a3ptwo.webp\"/>\nEn pasient på hjerteovervåkning får plutselig omslag av rytmen som vist på figuren\nover. Hva er mekanismen? / Ein pasient på hjerteovervåkning får plutselig omslag av\nrytmen som vist på figuren over. Kva er mekanismen? / A patient in the coronary care\nunit suddenly displays a change in the heart rhythm as shown in the figure. What is the\nmechanism?",
+      "answers": [2],
+      "options": [
+        "Atriene begynner plutselig å slå ukoordinert / Atria begynner plutselig å slå\nukoordinert / The atria suddenly starts to beat in an uncoordinated manner",
+        "AV-knuten slutter plutselig å lede impulsene fra atriene til ventrikler / AV-knuten\nsluttar plutselig å lede impulsane frå atria til ventriklane / The AV-node suddenly stops\nconducting the impulses from the atria to the ventricles",
+        "Ventriklene begynner plutselig å slå ukoordinert / Ventriklane begynner plutselig å slå\nukoordinert / The ventricles suddenly starts to beat in an uncoordinated manner",
+        "Det skjer ikke noe elektrisk i hjertet, men den mekaniske pumpingen stopper plutselig\nopp / Det skjer ikkje noe elektrisk i hjertet, men den mekaniske pumpinga stopper\nplutselig opp / Nothing happens electrically, but the mechanic pumping stops abruptly"
+      ]
+    },
+    {
+      "question": "Det finnes flere typer doping (prestasjonsfremmende medikamenter) innen\nforskjellige idretter. Et av dem er erythropoietin. Dette virker ved å: / Det finnes fleire\ntypar doping (prestasjonsfremmende medikament) innan forskjellige idrett. Et av dei\ner erythropoietin. Dette verker ved å: / There are different types of doping (prestation\nenhancers) in sports. One of them is erythropoietin, which works by:",
+      "answers": [2],
+      "options": [
+        "Stimulere muskelvekst / Stimulating muscle growth",
+        "Øke hjertets pumpekraft og dermed minuttvolumet / Auke hjertets pumpekraft og\ndermed minuttvolumet / Increasing cardiac pumping power and thus cardiac output",
+        "Øke hemoglobinet og dermed blodets oksygentransportkapasitet / Auke\nhemoglobinet og dermed blodets oksygentransportkapasitet / Increasing the\nhaemoglobin and thus the transport capacity of blood for oxygen",
+        "Øke musklenes anaerobe terskel ved å øke mitochondriekapasiteten/ Auke\nmusklanes anaerobe terskel ved å ake mitochondriekapasiteten / Increasing the\nanaerobic threshold of muscles by increasing mitochondrial capacity"
+      ]
+    },
+    {
+      "question": "Deler av synsnerven krysser (skifter over til motsatt side) i synsnervekrysningen.\nDenne ligger nær hypofysen. En svulst i hypofysen kan trykke på\nsynsnervekrysningen. Da er de fibrene som krysser over til motsatt side mest utsatt for\nskade. Hva slags synsfeltutfall vil i så fall dette gi? / Deler av synsnerven kryssar\n(skifter over til motsatt side) i synsnervekrysningen. Denne ligger nær hypofysen. En\nsvulst i hypofysen kan trykke på chiasma. Da er de fibrane som kryssar over til\nmotsatt side mest utsett for skade. Kva slag synsfeltutfall vil i så fall dette gje? / Parts\nof the optic nerve cross over to the opposite side in the optic chiasm. A tumour in the\nhypophysis may press on the chiasm. In that case, the fibres that are crossing over,\nare most vulnerable to damage. What kind of visual defect will this give?",
+      "answers": [2],
+      "options": [
+        "Tap av synsfeltet på høyre side / Tap av synsfeltet på høgre side / Loss of right\nvisual field",
+        "Tap av synsfeltet på venstre side / Tap av synsfeltet på venstre side / Loss of left\nvisual field",
+        "Tap av temporalt (ytre) synsfelt på begge sider / Loss of temporal (outer) visual\nfield on both eyes",
+        "Tap av nasalt ( indre) synsfelt på begge sider / Loss of nasal (inner) visual field on\nboth eyes"
+      ]
+    },
+    {
+      "question": "Hvordan vil D-vitaminmangel virke på calcium og PTH-nivået i blod? / Korleis\nvil D-vitaminmangel virke på calcium og PTH-nivået i blod? / How will lack of\nvitamin D influence the levels of calcium and PTH?",
+      "answers": [2],
+      "options": [
+        "Ca2+↑ / PTH↑",
+        "Ca2+↑ / PTH↓",
+        "Ca2+↓ / PTH↑",
+        "Ca2+↓ / PTH↓"
+      ]
+    },
+    {
+      "question": "Hva skjer når linsen stivner ved normal aldring? / Kva skjer når linsen stivner ved\nnormal aldring? / What happens when the lens looses its flexibility in normal ageing?",
+      "answers": [2],
+      "options": [
+        "Den slipper gjennom mindre lys / It allows less light to pass",
+        "Trykket i øyet øker / Trykket i auet aukar / The pressure in the eye increases",
+        "Øyet mister evnen til å fokusere på nært hold / Auget mister evnen til å fokusere på\nnært hald / The eye looses the ability to focus in close vision",
+        "Nattsynet forsvinner. / Nattsynet f orsvinn. / The nigh vision disappears"
+      ]
+    },
+    {
+      "question": "Når vi sender en ultralydstråle mot et objekt i kroppen, vil lydfrekvensen på det\nreflekterte ekkoet kunne endre seg. Hva er det som avgjør denne frekvensendringen? /\nNår vi sender en ultralydstråle mot et objekt i kroppen, vil lydfrekvensen på det\nreflekterte ekkoet kunne endre seg. Kva er det som avgjør denne frekvensendringa? /\nWhen we send an ultrasound beam towards an object in the body, the frequency of\nreflected ultrasound may change. What determines this frequency shift?",
+      "answers": [0],
+      "options": [
+        "Hastigheten til objektet / The velocity of the object",
+        "Avstanden fra proben til objektet / The distance from the probe to the object",
+        "Tettheten til objektet / The density of the object",
+        "Størrelsen til objektet / The size of the object"
+      ]
+    },
+    {
+      "question": "Blodtrykket reguleres blant annet av perifer motstand. Hvilke kar er ansvarlige for\nden største delen av denne motstanden? / Blodtrykket blir mellom anna regulert av\nperifer motstand. Kva for kar er ansvarlige for den største delen av denne motstanden?\n/ The blood pressure is among other things regulated by peripheral resistance. Which\nvessels are responsible for most of this resistance?",
+      "answers": [1],
+      "options": [
+        "Arterier / Arteries",
+        "Arterioler / Arterioles",
+        "Kapillærer / Capillaries",
+        "Venyler / Venules"
+      ]
+    },
+    {
+      "question": "Hva er viktigste stimulus for utskillelse av insulin? / Kva er viktigaste stimulus for\nutskiljing av insulin? / What is the most important stimulus for the secretion of\ninsulin?",
+      "answers": [1],
+      "options": [
+        "Pancreaticotropt hormon fra hypofysen / Pancreaticotropc hormone from the\npituitary",
+        "Blodsukkernivået i systemsirkulasjonen / Blood sugar lever in the sustems\ncirculation",
+        "Blodsukkernivået i portvenen / Blood sugar level in the portal vein",
+        "Blodtrykket i portvenen / Blood pressure in the portal vein"
+      ]
+    },
+    {
+      "question": "Hvor i thorax er trykket laves under inspirasjon? / Kor i thorax er trykket lågast\nunder inspirasjon? / Where in thorax is the pressure lowest during inspiration?",
+      "answers": [3],
+      "options": [
+        "Trachea",
+        "Bronkiene / Bronkiane / The bronchii",
+        "Alveolene / Alveolane / The alveoli",
+        "Pleura"
+      ]
+    },
+    {
+      "question": "<img src=\"images/snjnu7.webp\"/>\nBildet viser et 2-dimensjonalt ultralydbilde av et hjerte. Hva kalles denne\nultralydmodaliteten? / Bildet viser eit 2-dimensjonalt ultralydbilde av eit hjerte. Kva\nblir denne ultralydmodaliteten kalla? / The picture shows a 2-dimensional ultrasound\npicture of a heart. What is this ultrasound modality called?",
+      "answers": [1],
+      "options": ["A-mode", "B-mode", "M-mode", "Doppler mode"]
+    },
+    {
+      "question": "Ved pneumothorax kommer det luft inn i pleurahulen. Hva fører dette til? / Ved\npneumothorax kommer det luft inn i pleurahulen. Kva fører dette til? / In\npneumothorax there is air in the pleural cavity. What will this cause?",
+      "answers": [1],
+      "options": [
+        "Lungen blåses opp på grunn av økt trykk i pleura / Lunga blåses opp på grunn av\nauka trykk i pleura / The lung is inflated due to increased pleural pressure",
+        "Lungen kollapser på grunn av tap av vakuum i pleura / Lunga kollapsar på grunn\nav tap av vakuum i pleura / The lung collapses due to loss of vacuum in the pleura",
+        "Brystkassen blåses opp på grunn av økt trykk i pleura / The chest is inflated due to\nincreased pleural pressure.",
+        "Brystkassen kollapser på grunn av tap av vakuum i pleura / The chest collapses\ndue to loss of vacuum in the pleura"
+      ]
+    },
+    {
+      "question": "Krebs syklus er en biokjemisk kjedereaksjon som er grunnlaget for det meste av\nenergiproduksjonen. Hvor i cellen foregår denne prosessen? / Krebs syklus er en\nbiokjemisk kjedereaksjon som er grunnlaget for det meiste av energiproduksjonen.\nKor i cellen går denne prosessen føre seg? / Krebs’ cycle is a biochemical process that\nis the basis for most of the energy production. Where in the cell does this process take\nplace?",
+      "answers": [3],
+      "options": [
+        "Cytoplasma / The cytoplasm",
+        "Glatt endoplasmatisk reticulum / Smooth endoplasmatic reticulum",
+        "Golgi apparatet / The Golgi apparatus",
+        "Mitokondriene / The mitochondria"
+      ]
+    },
+    {
+      "question": "Hva slags muskelkontraksjon brukes når en løfter en gjenstand opp fra gulvet? /\nKva slag muskelkontraksjon blir brukt når ein løfter ein gjenstand opp frå golvet? /\nWhat kind of muscle contraction is used when an object is lifted from the floor?",
+      "answers": [1],
+      "options": [
+        "Isometrisk / Isometric",
+        "Konsentrisk / Concentric",
+        "Eksentrisk / Eccentric",
+        "Antagonistisk / Antagonistic"
+      ]
+    },
+    {
+      "question": "Hvilken påstand er korrekt? / Kva for påstand er korrekt? / What statement is\ncorrect?",
+      "answers": [3],
+      "options": [
+        "Translasjon beskriver produksjon av DNA fra RNA / Translasjon beskriv\nproduksjon av DNA frå RNA / Translation describes production of DNA from RNA",
+        "Translasjon beskriver produksjon av RNA fra DNA / Translasjon beskriv\nproduksjon av RNA fra DNA / Translation describes production of RNA from DNA",
+        "Transkripsjon beskriver produksjon av DNA fra RNA / Transkripsjon beskriv\nproduksjon av DNA frå RNA / Trancription describes production of DNA from RNA",
+        "Transkripsjon beskriver produksjon av RNA fra DNA / Transkripsjon beskriv\nproduksjon av RNA frå DNA / Trancription describes production of RNA from DNA"
+      ]
+    },
+    {
+      "question": "Antistoff-mediert immunitet er en viktig del av immunforsvaret. Hvor produseres\nantistoff? / Antistoff-mediert immunitet er ein viktig del av immunforsvaret. Kor vert\nantistoff produsert? / Antibody-mediated immunity is an important part of the immune\ndefence. Where is antibody produced?",
+      "answers": [2],
+      "options": [
+        "I neutrofile granulocytter / In the neutrophils",
+        "I T-lymfocytter / In T-lymphocytes",
+        "I B-lymfocytter / In B-lymphocytes",
+        "I makrofager / In macrophages"
+      ]
+    },
+    {
+      "question": "En pasient får massiv hudblødninger. Denne tendensen kan skyldes sykdom i et\nbestemt organ. Hvilket? / Ein pasient får massive hudblødingar. Denne tendensen kan\nskyldast sjukdom i eit bestemt organ. Kva for eit? / A patient gets massive skin\nhaemorrhages. This tendency can be due disease in a specific organ. Which one",
+      "answers": [1],
+      "options": [
+        "Milten / The spleen",
+        "Levra / The liver",
+        "Nyrene / The kidneys",
+        "Hjertet / The heart"
+      ]
+    },
+    {
+      "question": "Erythrocytter transporterer oksygen. Kva for annen funksjon har de? / Erythrocytes\nErythrocytter transporterer oksygen. Hvilken annen funksjon har de? /\ntransports oxygen. What other function do they have?",
+      "answers": [1],
+      "options": [
+        "Transporterer sirkulerende antistoffer / Transporterer sirkulerande antistoff\n/Transport circulating antibodies",
+        "Fasiliterer transport av karbondioksyd / Facilitates transport of carbon dioxide",
+        "Binder seg til albumin og plugger skader i blodkar / Binder seg til albumin og\npluggar skader i blodkar / Binds to albumin and tightens injury to blood vessels",
+        "Transporterer insulin på celleoverflata / Transports insulin on the cell surface"
+      ]
+    }
+  ]
+}

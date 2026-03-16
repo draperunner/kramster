@@ -2,7 +2,7 @@ import { useNavigate } from "react-router";
 
 import { Kitem, Jumbotron } from "../../components";
 import styles from "./Schools.module.css";
-import schools from "../../schools.json";
+import index from "../../index.json";
 
 function Schools() {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ function Schools() {
       <Jumbotron />
 
       <div className={styles.schoolsGrid}>
-        {schools.map((school) => (
+        {index.schools.map((school) => (
           <div key={school.abbreviation}>
             <Kitem
               head={school.abbreviation}

@@ -1,0 +1,989 @@
+{
+  "$schema": "https://kramster.it/schemas/index.schema.json",
+  "schools": [
+    {
+      "abbreviation": "NTNU",
+      "name": "Norges teknisk-naturvitenskapelige universitet",
+      "courses": [
+        {
+          "code": "bev1012",
+          "name": "Forskningsmetoder i bevegelsesvitenskap",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "Eksempler på eksamensoppgaver 1",
+              "fileName": "Eksempler på eksamensoppgaver 1.acea1a5d.json"
+            }
+          ]
+        },
+        {
+          "code": "bi1001",
+          "name": "Celle- og molekylærbiologi",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2013 Vår",
+              "fileName": "2013 Vår.e9c634a1.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2014 Vår",
+              "fileName": "2014 Vår.983992f4.json"
+            }
+          ]
+        },
+        {
+          "code": "hls0001",
+          "name": "Helsepsykologi og helsefremming",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2009",
+              "fileName": "2009.777f8174.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Ukjent år 1",
+              "fileName": "Ukjent år 1.0c015699.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Ukjent år 2",
+              "fileName": "Ukjent år 2.487dfec2.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Ukjent år 3",
+              "fileName": "Ukjent år 3.436f1334.json"
+            }
+          ]
+        },
+        {
+          "code": "mfel1010",
+          "name": "Medisin for ikke-medisinere",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2007 Vår",
+              "fileName": "2007 Vår.f360c10e.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2006 Høst",
+              "fileName": "2006 Høst.4564f379.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2009 Høst",
+              "fileName": "2009 Høst.114e4d81.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2009 Vår",
+              "fileName": "2009 Vår.9ed05449.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2008 Høst",
+              "fileName": "2008 Høst.914debbf.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Vår",
+              "fileName": "2012 Vår.d6deef05.json"
+            }
+          ]
+        },
+        {
+          "code": "mfel1050",
+          "name": "Innføring i idrettsfysiologi",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2017 Vår",
+              "fileName": "2017 Vår.b541e111.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2014 Vår",
+              "fileName": "2014 Vår.72415694.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Vår",
+              "fileName": "2013 Vår.b81c0439.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Vår",
+              "fileName": "2012 Vår.cc321326.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Høst",
+              "fileName": "2011 Høst.03ad0e81.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2009 Høst",
+              "fileName": "2009 Høst.0f5934f0.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2006 Høst",
+              "fileName": "2006 Høst.062711b7.json"
+            }
+          ]
+        },
+        {
+          "code": "mfel3010",
+          "name": "Medicine for Students of Natural Sciences and Technology",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2017 Fall",
+              "fileName": "2017 Fall.cc241081.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2018 Spring",
+              "fileName": "2018 Spring.b99cb23c.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Nervous System",
+              "fileName": "Nervous System.8649ad49.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Clinical Research and Epidemiology",
+              "fileName": "Clinical Research and Epidemiology.2ddb3b74.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Medical Diagnosis",
+              "fileName": "Medical Diagnosis.4543c792.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2014 Spring",
+              "fileName": "2014 Spring.74716008.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Spring",
+              "fileName": "2013 Spring.34182398.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Fall",
+              "fileName": "2013 Fall.a3873667.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Fall",
+              "fileName": "2012 Fall.1adf72f0.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Spring",
+              "fileName": "2012 Spring.d37f9682.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Fall",
+              "fileName": "2011 Fall.0c2a4999.json"
+            }
+          ]
+        },
+        {
+          "code": "tdt4110",
+          "name": "Informasjonsteknologi Grunnkurs",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2014 Kont",
+              "fileName": "2014 Kont.3c8fe024.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Høst",
+              "fileName": "2012 Høst.5632563e.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Høst",
+              "fileName": "2013 Høst.33590e2c.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Kont",
+              "fileName": "2013 Kont.c9630295.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Kont",
+              "fileName": "2012 Kont.cc75a613.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Høst",
+              "fileName": "2011 Høst.43dd402c.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Kont",
+              "fileName": "2011 Kont.635efff2.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2010 Høst",
+              "fileName": "2010 Høst.72b916db.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2010 Kont",
+              "fileName": "2010 Kont.f43ec2da.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2009 Høst",
+              "fileName": "2009 Høst.667bcbc9.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2008 Høst",
+              "fileName": "2008 Høst.8df0fd3b.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2014 Høst",
+              "fileName": "2014 Høst.abf83d53.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kont",
+              "fileName": "2015 Kont.1b069db5.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Høst",
+              "fileName": "2015 Høst.b7f706d9.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2016 Kont",
+              "fileName": "2016 Kont.8540d312.json"
+            }
+          ]
+        },
+        {
+          "code": "tdt4117",
+          "name": "Informasjonsgjenfinning",
+          "exams": [
+            {
+              "mode": "TF",
+              "name": "2013 Høst",
+              "fileName": "2013 Høst.fff1df77.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2009 Vår",
+              "fileName": "2009 Vår.0b09a209.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2007 Vår",
+              "fileName": "2007 Vår.1f210343.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Høst",
+              "fileName": "2015 Høst.99cb2193.json"
+            }
+          ]
+        },
+        {
+          "code": "tdt4136",
+          "name": "Introduction to Artificial Intelligence",
+          "exams": [
+            {
+              "mode": "TF",
+              "name": "2014 Fall",
+              "fileName": "2014 Fall.01b6c6f7.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2014 Continuation Exam",
+              "fileName": "2014 Continuation Exam.6b3c9379.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2012 Fall",
+              "fileName": "2012 Fall.ddc586af.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Fall",
+              "fileName": "2015 Fall.885e36ad.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2016 Fall",
+              "fileName": "2016 Fall.a258b352.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Fall",
+              "fileName": "2013 Fall.b402fefe.json"
+            }
+          ]
+        },
+        {
+          "code": "tdt4160",
+          "name": "Datamaskiner grunnkurs",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "Eksamen 2010 Høst",
+              "fileName": "Eksamen 2010 Høst.5cd995b7.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Eksamen 2009 Kont",
+              "fileName": "Eksamen 2009 Kont.35bdaa22.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Eksamen 2009 Høst",
+              "fileName": "Eksamen 2009 Høst.f332945c.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Eksamen 2008 Høst",
+              "fileName": "Eksamen 2008 Høst.818b942d.json"
+            },
+            {
+              "mode": "TF",
+              "name": "Eksamen 2007 Kont",
+              "fileName": "Eksamen 2007 Kont.f14f7c6a.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Eksamen 2007 Høst",
+              "fileName": "Eksamen 2007 Høst.0a20ee88.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Eksamen 2005 Kont",
+              "fileName": "Eksamen 2005 Kont.7aae3b1f.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Eksamen 2005 Høst",
+              "fileName": "Eksamen 2005 Høst.2d03b9c8.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: ALU",
+              "fileName": "Age of Computers: ALU.1960828b.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Assemblyprogrammering",
+              "fileName": "Age of Computers: Assemblyprogrammering.4e2fdc6e.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Beregninger",
+              "fileName": "Age of Computers: Beregninger.2341a9c2.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Digitalteknikk",
+              "fileName": "Age of Computers: Digitalteknikk.36ec09e3.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Eksempler, prosessorer",
+              "fileName": "Age of Computers: Eksempler, prosessorer.45c7e421.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Ekstern buss",
+              "fileName": "Age of Computers: Ekstern buss.d7345197.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: England",
+              "fileName": "Age of Computers: England.c660d98f.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Faktaspørsmål",
+              "fileName": "Age of Computers: Faktaspørsmål.02603513.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Flervalg adressemodi",
+              "fileName": "Age of Computers: Flervalg adressemodi.a2a9a4fc.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Generelt om buss",
+              "fileName": "Age of Computers: Generelt om buss.f9122798.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Generelt om lager",
+              "fileName": "Age of Computers: Generelt om lager.05c13b78.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Historiespørsmål",
+              "fileName": "Age of Computers: Historiespørsmål.f0e40785.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Hurtigbuffer",
+              "fileName": "Age of Computers: Hurtigbuffer.7121abeb.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: IO-kontroller",
+              "fileName": "Age of Computers: IO-kontroller.43e09bbe.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: IO",
+              "fileName": "Age of Computers: IO.e117625b.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Instruksjoner",
+              "fileName": "Age of Computers: Instruksjoner.a8223b24.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Instruksjonsett",
+              "fileName": "Age of Computers: Instruksjonsett.14314ecd.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Magnetisk plate",
+              "fileName": "Age of Computers: Magnetisk plate.ce095791.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Primærlager",
+              "fileName": "Age of Computers: Primærlager.28774d72.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Prosessorens oppbygning",
+              "fileName": "Age of Computers: Prosessorens oppbygning.f44d75b0.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: RAM",
+              "fileName": "Age of Computers: RAM.a50d5e83.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: RISC-CISC",
+              "fileName": "Age of Computers: RISC-CISC.d8b4e198.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: ROM",
+              "fileName": "Age of Computers: ROM.bb7fbe1e.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Register",
+              "fileName": "Age of Computers: Register.1883acf9.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Samlebånd",
+              "fileName": "Age of Computers: Samlebånd.dcbd1b6c.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Sekundærlageret",
+              "fileName": "Age of Computers: Sekundærlageret.3179f512.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Styreenheten",
+              "fileName": "Age of Computers: Styreenheten.d1c2896b.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Tallsystemer",
+              "fileName": "Age of Computers: Tallsystemer.9c65f952.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Teoretikerne",
+              "fileName": "Age of Computers: Teoretikerne.653a51ea.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Test og ubrukte",
+              "fileName": "Age of Computers: Test og ubrukte.1c461322.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Age of Computers: Trender og forskning",
+              "fileName": "Age of Computers: Trender og forskning.4707685b.json"
+            }
+          ]
+        },
+        {
+          "code": "tdt4171",
+          "name": "Artificial Intelligence Methods",
+          "exams": [
+            {
+              "mode": "TF",
+              "name": "2015 Spring",
+              "fileName": "2015 Spring.b3ef3eaa.json"
+            }
+          ]
+        },
+        {
+          "code": "tdt4240",
+          "name": "Software Architecture",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 01: Introduction",
+              "fileName": "2015 Kahoot 01: Introduction.298762fc.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 02: Structures and Views",
+              "fileName": "2015 Kahoot 02: Structures and Views.e359cfa2.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 03: Architectural Patterns Intro",
+              "fileName": "2015 Kahoot 03: Architectural Patterns Intro.c0cc8409.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 04: Life Cycle",
+              "fileName": "2015 Kahoot 04: Life Cycle.9b1859aa.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 05: Influences",
+              "fileName": "2015 Kahoot 05: Influences.3955ba26.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 06: Requirements and Quality Attributes",
+              "fileName": "2015 Kahoot 06: Requirements and Quality Attributes.e0bdc1d2.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 07: Tactics Mega Quiz",
+              "fileName": "2015 Kahoot 07: Tactics Mega Quiz.65dffecd.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 08: Design patterns",
+              "fileName": "2015 Kahoot 08: Design patterns.b7ab2e82.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 09: Design patterns II",
+              "fileName": "2015 Kahoot 09: Design patterns II.9f6f75a2.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 10: Architectural Patterns",
+              "fileName": "2015 Kahoot 10: Architectural Patterns.ad0aceb1.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 11: Modeling and Analysis",
+              "fileName": "2015 Kahoot 11: Modeling and Analysis.69eb4208.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 12: Modeling and Analysis II",
+              "fileName": "2015 Kahoot 12: Modeling and Analysis II.7ec16a75.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 13: 4+1 View Model",
+              "fileName": "2015 Kahoot 13: 4+1 View Model.25f37aa6.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 14: Evaluation",
+              "fileName": "2015 Kahoot 14: Evaluation.67888364.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 15: Evaluation + ATAM",
+              "fileName": "2015 Kahoot 15: Evaluation + ATAM.fe6e15e5.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 16: CBAM",
+              "fileName": "2015 Kahoot 16: CBAM.ed9408e6.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 17: Summary",
+              "fileName": "2015 Kahoot 17: Summary.5f588b26.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 18: Patterns and Tactics",
+              "fileName": "2015 Kahoot 18: Patterns and Tactics.8d04f443.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 19: Requirements",
+              "fileName": "2015 Kahoot 19: Requirements.18c06ea4.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 20: Implementation and Testing",
+              "fileName": "2015 Kahoot 20: Implementation and Testing.478a5ff6.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 21: Software Product Line",
+              "fileName": "2015 Kahoot 21: Software Product Line.5f689651.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 22: Edge",
+              "fileName": "2015 Kahoot 22: Edge.db8bdc48.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kahoot 23: Cloud",
+              "fileName": "2015 Kahoot 23: Cloud.8f7d961c.json"
+            }
+          ]
+        },
+        {
+          "code": "tfy4125",
+          "name": "Fysikk",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2016 Vår",
+              "fileName": "2016 Vår.b8c634b5.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Vår",
+              "fileName": "2015 Vår.c403127a.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kont",
+              "fileName": "2015 Kont.01c8ecb0.json"
+            }
+          ]
+        },
+        {
+          "code": "tiø4258",
+          "name": "Teknologiledelse",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2014 Høst",
+              "fileName": "2014 Høst.14ff32c0.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2009 Høst",
+              "fileName": "2009 Høst.15e43a41.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2010 Høst",
+              "fileName": "2010 Høst.7fb87c6b.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2010 Kont",
+              "fileName": "2010 Kont.ae22b7a8.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2010 Vår",
+              "fileName": "2010 Vår.7dadc1bb.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Høst",
+              "fileName": "2011 Høst.15c469cb.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Kont",
+              "fileName": "2011 Kont.f2ac3f9a.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Vår",
+              "fileName": "2011 Vår.9e5b17db.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Høst",
+              "fileName": "2012 Høst.ea41c577.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Kont",
+              "fileName": "2012 Kont.0ef4670c.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Vår",
+              "fileName": "2012 Vår.67d2f3f6.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Høst",
+              "fileName": "2013 Høst.4a4e369c.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2014 Kont",
+              "fileName": "2014 Kont.b4a0aa70.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2014 Vår",
+              "fileName": "2014 Vår.1c126fb3.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Kont",
+              "fileName": "2015 Kont.0662adf7.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2015 Vår",
+              "fileName": "2015 Vår.c48051b4.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2017 Vår",
+              "fileName": "2017 Vår.82ae2ea7.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2016 Høst",
+              "fileName": "2016 Høst.61ff90a7.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2016 Vår",
+              "fileName": "2016 Vår.13a2b8f7.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2017 Høst",
+              "fileName": "2017 Høst.c2ddad48.json"
+            }
+          ]
+        },
+        {
+          "code": "ttm4100",
+          "name": "Communication Services and Networks",
+          "exams": [
+            {
+              "mode": "TF",
+              "name": "2014 Spring",
+              "fileName": "2014 Spring.f44d8d44.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2013 Spring",
+              "fileName": "2013 Spring.f0e623ea.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2012 Spring",
+              "fileName": "2012 Spring.1d9e5bec.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2011 Spring",
+              "fileName": "2011 Spring.ecac5cd1.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2010 Spring",
+              "fileName": "2010 Spring.d6642f02.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2015 Spring",
+              "fileName": "2015 Spring.049d8505.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2009 Spring",
+              "fileName": "2009 Spring.a1b135e9.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2008 Spring",
+              "fileName": "2008 Spring.495e2f87.json"
+            },
+            {
+              "mode": "TF",
+              "name": "2007 Spring",
+              "fileName": "2007 Spring.7ca79859.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2016 Spring",
+              "fileName": "2016 Spring.5890cb1d.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2017 Spring",
+              "fileName": "2017 Spring.1832b561.json"
+            }
+          ]
+        },
+        {
+          "code": "ttm4137",
+          "name": "Wireless Security",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "2015 Fall",
+              "fileName": "2015 Fall.de401cfe.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2014 Fall",
+              "fileName": "2014 Fall.e3b3226a.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2013 Fall",
+              "fileName": "2013 Fall.a801e3f7.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2012 Fall",
+              "fileName": "2012 Fall.a6557dd1.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2010 Fall",
+              "fileName": "2010 Fall.329600e6.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2011 Fall",
+              "fileName": "2011 Fall.05a9f1bf.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2009 Fall",
+              "fileName": "2009 Fall.4762f9b3.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2007 Fall",
+              "fileName": "2007 Fall.25b032dc.json"
+            },
+            {
+              "mode": "MC",
+              "name": "2008 Fall",
+              "fileName": "2008 Fall.97516307.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "abbreviation": "OsloMet",
+      "name": "Storbyuniversitetet",
+      "courses": [
+        {
+          "code": "syba1010",
+          "name": "Anatomi, fysiologi og biokjemi",
+          "exams": [
+            {
+              "mode": "MC",
+              "name": "Blod og immun",
+              "fileName": "Blod og immun.c263cc54.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Celler og vev",
+              "fileName": "Celler og vev.d5067b6e.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Endokrinologi",
+              "fileName": "Endokrinologi.dc972dc6.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Hud og temperatur",
+              "fileName": "Hud og temperatur.52b108ac.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Muskler og skjelett",
+              "fileName": "Muskler og skjelett.19cdb265.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Nyrer og urinveier",
+              "fileName": "Nyrer og urinveier.985ccde6.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Reproduksjon",
+              "fileName": "Reproduksjon.9e247878.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Respirasjonssystemet",
+              "fileName": "Respirasjonssystemet.2067c5ef.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Sansene",
+              "fileName": "Sansene.483608ff.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Sirkulasjonssystemet",
+              "fileName": "Sirkulasjonssystemet.e8778396.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Fordøyelsessystemet",
+              "fileName": "Fordøyelsessystemet.75ecfa73.json"
+            },
+            {
+              "mode": "MC",
+              "name": "Nervesystemet",
+              "fileName": "Nervesystemet.954eb0f3.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

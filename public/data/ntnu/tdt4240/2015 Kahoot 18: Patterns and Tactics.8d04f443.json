@@ -1,0 +1,35 @@
+{
+  "$schema": "https://kramster.it/schemas/exam.schema.json",
+  "questions": [
+    {
+      "question": "Which of these architectural patterns should be used for this scenario? <img src=\"images/9ubka7.webp\"/>",
+      "answers": [3],
+      "options": [
+        "Map-Reduce Pattern",
+        "Peer-to-Peer Pattern",
+        "Broker Pattern",
+        "Model-View-Controller Pattern"
+      ]
+    },
+    {
+      "question": "Which of these architectural patterns should be used for this scenario? <img src=\"images/q7lag.webp\"/>",
+      "answers": [0],
+      "options": [
+        "Pipe-and-Filter Pattern",
+        "Broker Pattern",
+        "Model-View-Controller Pattern",
+        "Peer-to-Peer Pattern"
+      ]
+    },
+    {
+      "question": "Which of these architectural patterns should be used for this scenario? <img src=\"images/rgmrc.webp\"/>",
+      "answers": [2],
+      "options": [
+        "Broker Pattern",
+        "Client-Server Pattern",
+        "Peer-to-Peer Pattern",
+        "Map-Reduce Pattern"
+      ]
+    }
+  ]
+}

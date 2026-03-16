@@ -1,0 +1,440 @@
+{
+  "$schema": "https://kramster.it/schemas/exam.schema.json",
+  "questions": [
+    {
+      "question": "Tidd & Bessant (2009) beskriver metoder for å forutse framtidige innovasjoner. Disse er:",
+      "answers": [0],
+      "options": [
+        "Kunde og markedsundersøkelser, interne analyser, ekspertuttalelser, scenarioer.",
+        "Stol på deg selv og dine egne ferdigheter.",
+        "Internanalyser, eksternanalyser inklusiv PESTEL.",
+        "Markedsanalyser og konkurrentanalyser."
+      ]
+    },
+    {
+      "question": "Hvordan oppstår Bandwagon jfr. Tidd & Bessant (2009)?",
+      "answers": [1],
+      "options": [
+        "I tilfeller der små kunder følger større kunder.",
+        "I tilfeller der innovasjon blir adoptert på bakgrunn av mengden brukere snarere enn individuelle vurderinger av innovasjonens fortreffelighet.",
+        "I tilfeller der store kunder følger mindre kunder.",
+        "I tilfeller der nye løsninger introduseres gjennom store markedskampanjer."
+      ]
+    },
+    {
+      "question": "Hvordan definerer Osnabrugge (1998) en Business Angel?",
+      "answers": [2],
+      "options": [
+        "En privatperson som spesialiserer seg på å redde bedrifter fra konkurs",
+        "En utenlandsk investor som investerer i tidlig fase gründerbedrifter.",
+        "En privatperson som tilbyr kapital direkte til unoterte bedrifter Hvor de ikke har noen tidligere formell eller familiær forbindelse.",
+        "En person som bruker private midler, og som investerer penger i tidlig. fase bedrifter, og som ønsker størst mulig avkastning på investeringen."
+      ]
+    },
+    {
+      "question": "Hvilke investeringsrisiki har ventureinvestorer (jfr. forelesningsfoil fra 24.02.10)?",
+      "answers": [1],
+      "options": [
+        "Produksjonsrisko, politisk risiko, markedsrisiko",
+        "Teknologisk risiko, markedsrisiko og agent risiko.",
+        "Teknologisk risiko, management risiko, distribusjonsrisiko.",
+        "Teknologisk risiko, konkurrentrisiko, likviditetsrisiko."
+      ]
+    },
+    {
+      "question": "Tidd & Bessant (2009) beskriver to ytterpunkter for hvordan man kan organisere innovasjon (R&D) globalt. Hvilke?",
+      "answers": [1],
+      "options": [
+        "Innkjøp eller internt.",
+        "Spesialisert eller integrert.",
+        "Sammen med global partner eller internt.",
+        "Produktorientert eller generisk."
+      ]
+    },
+    {
+      "question": "Hvilke alternative exit-muligheter har ventureinvestorer (jfr. forelesningsfoil fra 24.02.10)?",
+      "answers": [3],
+      "options": [
+        "Børsnotering.",
+        "Børsnotering, salg til konkurrent.",
+        "Nettverks-exit, fiendtlig exit.",
+        "Finansiell exit, industriell, management buy-out."
+      ]
+    },
+    {
+      "question": "Tidd & Bessant (2009) beskriver flere faktorer som påvirker beslutningen om å bli entreprenør. Hvilke inngår i deres beskrivelse?",
+      "answers": [1],
+      "options": [
+        "Ønske om å tjene penger.",
+        "Personlighet, teknologi og marked, arbeidsmarked.",
+        "Arbeidsløshet, tilgang til innovative løsninger.",
+        "Patenter."
+      ]
+    },
+    {
+      "question": "Peter Drucker (1985) i Tidd & Bessant (2009) mener at NTBFs har gjentakende behov for finansiell restrukturering. Hvor ofte?",
+      "answers": [0],
+      "options": ["Hvert 3. år.", "Hvert år.", "Hvert 7. år.", "Hvert 10. år."]
+    },
+    {
+      "question": "I boken til Tidd og Bessant (2009) brukes begrepene exploitation og exploration. Hva mener de med dem?",
+      "answers": [1],
+      "options": [
+        "Exploitation handler om å utnytte andres ressurser, mens exploration handler om å utnytte egne ressurser.",
+        "Exploitation handler om å bruke og videreutvikle de ressursene de har, mens exploration handler om å ta i bruk ressurser som ligger utenfor deres domene.",
+        "Exploitation handler om å bruke sjeldne ressurser, mens exploration handler om å kombinere sjeldne ressurser.",
+        "Exploitation handler om å bruke og videreutvikle de ressursene de har, mens exploration handler om å bruke den kunnskapen de har."
+      ]
+    },
+    {
+      "question": "Teece og Pisano (1994) bruker begrepet dynamiske kapabiliteter. Hvilke kriterier mener de må ligge til grunn for at kapabilitetene kan omtales som strategiske?",
+      "answers": [2],
+      "options": [
+        "De må være dynamiske, de må være verdifulle for bedriften og de må være skalerbare.",
+        "De må være dynamiske og vanskelig å kopiere.",
+        "De må være knyttet til kundenytte, unike og vanskelige å imitere.",
+        "De må være sjeldne, de må kunne brukes i ett internasjonalt marked, og de må være kunnskapsbaserte."
+      ]
+    },
+    {
+      "question": "Tidd & Bessant (2009) refererer til Winthers (1997) som har undersøkt hvor mange store engelske bedrifter som hadde investert i eksterne nye bedrifter. Hvor mange?",
+      "answers": [2],
+      "options": ["0,3 %.", "1,7 %.", "15 %", "35 %"]
+    },
+    {
+      "question": "I følge Tidd & Bessant (2009)består organisatorisk læring av følgende elementer:",
+      "answers": [3],
+      "options": [
+        "Kunnskapstilgang, læringslooper.",
+        "Utvikling av R&D, utvikling av kunderelasjoner.",
+        "Utvikling av prosesser som foredler kunnskap fra data via informasjon til kunnskap.",
+        "Kunnskapstilgang, informasjonstolking, informasjonsspredning, organisatorisk hukommelse."
+      ]
+    },
+    {
+      "question": "Tidd & Bessant (2009) peker på tre farer ved samarbeid med andre industrielle aktører. Hvilke?",
+      "answers": [1],
+      "options": [
+        "Ulik teknologi, ulik markedsplan, ulik finansielle muskler.",
+        "Informasjonslekkasje, tap av kontroll, ulik måloppfatning.",
+        "Ulike ambisjoner, tap av kunder, tap av framdrift.",
+        "Tap av direktekontakt med markedet, tap av framdrift, tap av medarbeidere."
+      ]
+    },
+    {
+      "question": "En av følgende påstander om innovative løsninger harmonerer bra med pensum. Hvilken?",
+      "answers": [1],
+      "options": [
+        "I store selskaper er forskningsavdelingene den viktigste kilden til nye og innovative løsninger.",
+        "Eksisterende brukere/kunder er for mange bedrifter den viktigste kilden til innovasjon.",
+        "For at en løsning skal bli betraktet som en innovasjon må den oppfattes som ny i alle markeder.",
+        "Idékonkurranser er den beste måten for å stimulere genereringen av innovative ideer."
+      ]
+    },
+    {
+      "question": "Hvilken av påstandene står i konflikt med en åpen innovasjon tilnærming?",
+      "answers": [0],
+      "options": [
+        "Man oppnår alltid god lønnsomhet fra forskning og utvikling dersom bedriften oppdager og utvikler løsningen selv.",
+        "Det er bedre å utvikle en robust forretningsmodell enn å komme ut i markedet først.",
+        "Man må nyttiggjøre seg av interne og eksterne innovasjons ideer.",
+        "Det er ikke alltid du finner de flinkeste folkene internt i bedriften."
+      ]
+    },
+    {
+      "question": "Hva menes med at organisasjoner er rasjonelle?",
+      "answers": [0],
+      "options": [
+        "At de har et system av roller som koordineres for å oppnå et felles mål.",
+        "At de viser risikoaversjon ved store investeringer.",
+        "At enhver arbeidsoperasjon underlegges systematisk, vitenskapelig analyse.",
+        "At religion og kultur ikke får spillerom i organisasjonen."
+      ]
+    },
+    {
+      "question": "Hva innebærer det å forstå ledelse som funksjon?",
+      "answers": [1],
+      "options": [
+        "Å fokusere på interaksjonen mellom leder og underordnede.",
+        "Å forstå ledelse som overordnede design av roller og prosesser uten å vektlegge hvem som faktisk gjør det.",
+        "At hvem som helst i en organisasjon kan fylle lederrollen.",
+        "At ledelsen må fungere optimalt mhp. på organisasjonens eksplisitt mål, i likhet med den faktiske utførelsen av arbeidsprosessene."
+      ]
+    },
+    {
+      "question": "Hva er Watsons (2006; K2) hovedpoeng når det gjelder lederadferd (managerial work)?",
+      "answers": [3],
+      "options": [
+        "At ledere må kjenne godt til de teknologiske aspektene ved de underordnedes arbeid.",
+        "At det å lede (mental work) er fundamentalt forskjellig fra det å utføre (manual work).",
+        "At ledere gjennom sin adferd påvirker underordnede gjennom eksempelets makt.",
+        "At leder bruker mye av tiden på å håndtere sine avhengigheter av andre, men at denne aktiviteten ikke er formålsløs."
+      ]
+    },
+    {
+      "question": "Hvilken av disse egenskapene er IKKE et kjennetegn på organisasjonstypen fagbyråkrati (professional bureaucracy)?",
+      "answers": [3],
+      "options": [
+        "De ansatte er faglig kompetente.",
+        "Standarder brukes for koordinering av aktivitet.",
+        "Det gjøres bruk av team hvor medlemmer har ulik spisskompetanse.",
+        "Makt er konsentrert i en liten, men faglig kompetent ledelse."
+      ]
+    },
+    {
+      "question": "Hva er den generelle sammenhengen mellom organisasjonsstruktur og virksomhetenes innovasjonsevne?",
+      "answers": [1],
+      "options": [
+        "Innovasjon foregår best i dedikerte innovasjonsavdelinger, slik som store organisasjoners avdelinger for Forskning og Utvikling (Research and Development, R&D).",
+        "Organiske eller fleksible organisasjonsformer er bedre til innovasjon og fornyelse når omgivelsene er preget av kompleksitet og usikkerhet.",
+        "Sentralistiske organisasjoner er bedre til å innovere, fordi ledelsen har reell makt og myndighet til å reorganisere når omgivelsene krever det.",
+        "Innovasjoner oppstår når organisasjonsstrukturene tilrettelegger for at hver ansatt kan fungere som en gründer og forfølge sine ideer."
+      ]
+    },
+    {
+      "question": "Hva mener Tidd og Bessant (2009) med nøkkelpersoner (key individuals) i forbindelse med innovative organisasjoner?",
+      "answers": [2],
+      "options": [
+        "Nøkkelpersonene er de ansatte i organisasjonen som har de gode ideene og som må få slippe til.",
+        "Nøkkelpersoner er de medlemmene av organisasjonen som har et naturlig talent for kreativitet og innovasjon, uavhengig av makt og status.",
+        "Nøkkelpersoner er ansatte med energi og entusiasme som kan tale saken til en lovende innovasjon overfor andre i organisasjonen.",
+        "Nøkkelpersoner er ansatte med høy teknologisk kompetanse (typisk PhD-nivå eller lang erfaring), som organisasjonen må forsøke beholde, så de ikke forsvinner til konkurrenter eller andre bransjer."
+      ]
+    },
+    {
+      "question": "Hva menes med begrepet organisasjonskultur (Tidd og Bessant 2009)?",
+      "answers": [0],
+      "options": [
+        "Organisasjonskultur er et mønster av verdier, overbevisninger og normer som former ansattes adferd.",
+        "Organisasjonskultur er et ledelsesverktøy, som brukes til fremme innovasjon ved at ledelsen lager visjoner og trekker frem eksempler på kreative innovasjoner.",
+        "Organisasjonskultur er tilbakevendende mønster av adferd, holdninger og følelser som er karakteristisk for organisasjonen.",
+        "Organisasjonskultur beskriver hvordan formelle sider av organisasjonen tolkes ulikt i ulike nasjonale eller andre ulike sosiokulturelle kontekster."
+      ]
+    },
+    {
+      "question": "Hvilke av disse egenskapene er et kjennetegn på indirekte kontroll (Watson 2006; K3)?",
+      "answers": [0],
+      "options": [
+        "Ansatte må selv stå ansvarlig for kvaliteten på eget arbeid.",
+        "Arbeidsoperasjoner er beskrevet i formelle rutiner.",
+        "Ledelsens overvåkning av arbeidet skjer på en subtil og gjerne skjult måte.",
+        "Den tekniske arbeidsdelingen (technical division of labour) er høy."
+      ]
+    },
+    {
+      "question": "Hva er essensen i Business process re-engineering (BPR)?",
+      "answers": [3],
+      "options": [
+        "Vitenskapelig analyse med hensyn på inkrementell forbedring av hvert steg i arbeidsprosessen.",
+        "Å dele opp arbeidsprosessen i enkle (simple) og komplekse (complex) oppgaver (tasks), og deretter legge til rette slik at de enkle oppgavene kan automatiseres.",
+        "Ved større reorganisering samles representanter fra ulike funksjoner og hierarkiske nivåer i dedikerte endringsteam. Innenfor disse teamene må designavgjørelser tas ved konsensus, slik at man unngår dominans av formelle ledere og tekniske eksperter.",
+        "At organisasjoner restruktureres med hensyn på prosesser og ikke funksjoner. IT og teamarbeid er vanlige virkemidler for å oppnå økt effektivitet."
+      ]
+    },
+    {
+      "question": "Kaizen eller kontinuerlig forbedring trekkes frem av Tidd og Bessant (2009) som et virkemiddel for å oppnå høy involvering av ansatte i innovasjonsprosessen. Fra hvilken type organisasjon stammer tenkningen og systematikken rundt kaizen?",
+      "answers": [0],
+      "options": [
+        "Maskinbyråkrati (machine bureaucracy)",
+        "Fagbyråkrati (professional bureaucracy)",
+        "Adhockrati (adhocracy)",
+        "Oppdragsorienterte organisasjoner (mission-oriented organizations)"
+      ]
+    },
+    {
+      "question": "Hva kaller Nonaka omforming fra eksplisitt til taus kunnskap?",
+      "answers": [1],
+      "options": [
+        "Integrering",
+        "Internalisering",
+        "Indoktrinering",
+        "Innrullering"
+      ]
+    },
+    {
+      "question": "Hvilken kunnskapsform er ifølge Blackler mest viktig i organisasjoner som vektlegger kollektivt arbeid rundt kjente problemstillinger?",
+      "answers": [2],
+      "options": ["Embodied", "Embrained", "Embedded", "Enhanced"]
+    },
+    {
+      "question": "Hvilken tilnærming til KM sammenfaller mest med et praksisnært kunnskapssyn?",
+      "answers": [0],
+      "options": [
+        "Utvikle sosial interaksjon som bidrar til kunnskapsspredning",
+        "Utvikle og implementere IKT-løsninger for lagring av kunnskap",
+        "Kodifisering og sammenstilling av store mengder data",
+        "Fokus på å gjøre kunnskap eksplisitt"
+      ]
+    },
+    {
+      "question": "Hvilket av nedenstående beskrivelser passer for praksisfellsskap (community of practice)?",
+      "answers": [1],
+      "options": [
+        "En fagskole med vekt på praktisk trening",
+        "Et uformelt nettverk mellom mennesker som jobber med likeartede arbeidsoppgaver",
+        "En fagforening med spesielt ansvar for å forhandle om kompetansebasert lønn",
+        "Et produksjonsteam i en industriell virksomhet"
+      ]
+    },
+    {
+      "question": "Hva kalles, innen KM, objekter som kommuniserer på tvers av ulike praksisfellesskap eller kunnskapsområder?",
+      "answers": [3],
+      "options": [
+        "Kunnskapsobjekter",
+        "Kommunikasjonsobjekter",
+        "Eksternaliseringsobjekter",
+        "Grenseobjekter"
+      ]
+    },
+    {
+      "question": "Hvilken av følgende påstander om Knowledge Push er sann?",
+      "answers": [1],
+      "options": [
+        "Knowledge Push kan ikke gjøres samtidig med Market Pull",
+        "Knowledge Push er forskningsintensiv og krever at vi benytter mye ressurser på egen forskning og på å ha kontakt med eksterne forskningsressurser",
+        "Knowledge Push passer best for prosessbedrifter",
+        "Knowledge Push krever god kontakt med kunder og markedet"
+      ]
+    },
+    {
+      "question": "For hvilken av disse fire oppgavene er det minst viktig å ha et tverrfaglig team til å jobbe med innovasjon?",
+      "answers": [3],
+      "options": [
+        "Utvikling av et nytt material til en flyvinge",
+        "Utvikling av en ny strategiplan for bedriften",
+        "Utvikling av en ny distribusjonsmåte for datamaskiner",
+        "Utvikling av en skattemodul til eksisterende regnskapssystem"
+      ]
+    },
+    {
+      "question": "Pensum nevner fire hovedårsaker til å inngå i innovasjonsnettverk. Nedenfor nevnes tre av disse, mens den fjerde er feil. Hvilken?",
+      "answers": [0],
+      "options": [
+        "Innovasjonsnettverk gir muligheter for kollektiv produksjon",
+        "Innovasjonsnettverk gir muligheter for risikodeling",
+        "Innovasjonsnettverk gir muligheter kollektiv læring",
+        "Innovasjonsnettverk utnytter ressursene mer effektivt"
+      ]
+    },
+    {
+      "question": "Bedriften LOCO har nettopp utviklet det nye elektriske lokomotivet ALVIN. I pensum snakker vi om et sentralt begrep som heter Embeddedness. Hvilken av følgende uttalelser fra bedriften er ikke relatert til at dette lokomotivet er embedded?",
+      "answers": [1],
+      "options": [
+        "ALVIN er laget parallelt med utviklingen av bedre teknologi for å hente ned kjørestrøm til lokomotivet",
+        "Andelen av innkjøpte varer og tjenester i LOCO er i gjennomsnitt 68%, men for ALVIN utgjør den hele 83%.",
+        "En sentral samarbeidspartner i prosjektet er BATCO, som lager batterier som samvirker med den elektriske motoren.",
+        "ALVIN er så kraftig at det reiser behovet for lengre plattformer fordi ALVIN kan dra flere fullastede vogner enn eksisterende lokomotiver."
+      ]
+    },
+    {
+      "question": "Møbelbedriften GODSTOLEN jobber tett sammen med andre norske møbelbedrifter i et innovasjonsnettverk. Hvilken type nettverk vil dette regnes som (jfr tabell 6.2 i pensum)?",
+      "answers": [2],
+      "options": [
+        "Entreprenørbasert nettverk",
+        "Standardiseringsgrupper",
+        "Sektornettverk",
+        "Supply-chain-læring"
+      ]
+    },
+    {
+      "question": "La <math><mi>P</mi></math> være pris og <math><mi>Q</mi></math> mengde; <math><mi>a</mi></math> og <math><mi>b</mi></math> er positive konstanter. Etterspørselen er gitt ved <math><mi>Q</mi><mo>=</mo><mi>a</mi><msup><mi>P</mi><mo>-</mo><mi>b</mi></msup></math>. Hva blir absoluttverdien av etterspørselselastisiteten?",
+      "answers": [0],
+      "options": [
+        "<math><mi>b</mi></math>",
+        "<math><mi>a</mi></math>",
+        "<math><mi>b</mi><mi>a</mi><msup><mi>P</mi><mrow><mo>-</mo><mi>b</mi><mo>-</mo><mn>1</mn></mrow></msup></math>",
+        "<math><mfrac><mi>b</mi><mi>a</mi></mfrac></math>"
+      ]
+    },
+    {
+      "question": "En bedrift som produserer 100 000 enheter av produktet sitt pr periode, regner med at ved å redusere prisen fra 1 000 til 995, vil den kunne selge 1 000 enheter ekstra. Hva er et naturlig anslag på marginalinntekten (også kalt grenseinntekten)?",
+      "answers": [3],
+      "options": ["500 000", "100 000", "5 000", "500"]
+    },
+    {
+      "question": "En bedrift som produserer 100 000 enheter av produktet sitt pr periode, regner med at ved å redusere prisen fra 1 000 til 995, vil den kunne selge 1 000 enheter ekstra. Hva er et naturlig anslag på (absoluttverdien av) etterspørselselastisiteten til bedriften?",
+      "answers": [2],
+      "options": ["0,5", "1,0", "2,0", "2,5"]
+    },
+    {
+      "question": "En bedrift selger produktet sitt i et frikonkurransemarked. Etter å ha analysert kostnadsstrukturen, finner ledelsen ut at marginalkostnaden er høyere enn prisen på produktet. Hva er implikasjonen av dette?",
+      "answers": [2],
+      "options": [
+        "Bedriften kan øke profitten ved å produsere mer.",
+        "Bedriften bør slutte å produsere produktet.",
+        "Bedriften kan øke profitten ved å produsere mindre.",
+        "Ikke noe spesielt. Må kjenne marginalinntekten for å si noe om optimal tilpasning."
+      ]
+    },
+    {
+      "question": "Tabellen under viser et forenklet regnskap for en bedrift for årene 2008 og 2009. Hva blir bedriftens totalkapitalrentabilitet etter skatt for 2009?\n<img src=\"images/q866h.webp\"/>",
+      "answers": [3],
+      "options": ["30 %", "34 %", "10 %", "17 %"]
+    },
+    {
+      "question": "Tabellen under viser et forenklet regnskap for en bedrift for årene 2008 og 2009. Hva blir likviditetsgrad 1 og 2 for bedriften for 2009?\n<img src=\"images/xaiuc.webp\"/>",
+      "answers": [0],
+      "options": ["3,0 og 1,5", "9,5 og 8,0", "3,0 og 0,9", "1,5 og 1,3"]
+    },
+    {
+      "question": "En båtprodusent produserer og leverer en båt til et oppdrettsanlegg mot slutten av året 2010, men avtaler at oppdrettsanlegget ikke skal betale før i januar 2011. Hvordan vil denne transaksjonen påvirke båtprodusentens regnskap for 2010?",
+      "answers": [2],
+      "options": [
+        "Transaksjonen vil ikke påvirke båtprodusentens regnskap for 2010.",
+        "Kostnadene knyttet til produksjonen av båten blir regnskapsførte i 2010, mens inntektene ikke blir det.",
+        "Kostnader og inntekter føres i regnskapet for 2010 samtidig som inntektene blir en del av utestående fordringer i balansen.",
+        "Kostnader føres i regnskapet for 2010 samtidig som inntektene blir en del av utestående fordringer i balansen. Inntektene påvirker ikke resultatregnskapet for 2010."
+      ]
+    },
+    {
+      "question": "Et prosjekt innebærer en investering på 1 000 000. Etter ett år forventes investeringen å gi en positiv kontantstrøm på 500 000. Prosjektet avsluttes etter to år og gir da en posi­tiv kontantstrøm på 750 000. Dersom diskonteringsrenten er 10 %, hva er pro­sjektets nettonåverdi?",
+      "answers": [1],
+      "options": ["Ca 250 000", "Ca 74 000", "Ca 136 000", "Ca 0"]
+    },
+    {
+      "question": "Person A og B inngår en avtale om at A skal betale B 350 000 kroner mot at A skal kaste en vanlig terning én gang og få 100 000 kroner fra B for hver prikk terningen viser. De deler på kostnaden på 10 000 kroner for advokaten som sikrer at avtalen respekteres etter at terningen er kastet. Hva kan vi si om de to personenes holdning til risiko i denne situasjonen?",
+      "answers": [1],
+      "options": [
+        "Begge må være risikonøytrale for å gå med på en slik avtale.",
+        "Begge må være risikosøkende for å gå med på en slik avtale.",
+        "Person A må være risikosøkende, mens B må være risikoavers.",
+        "Person A må være risikoavers, mens B må være risikosøkende."
+      ]
+    },
+    {
+      "question": "Hva kjennetegner en diversifisert portefølje verdipapirer?",
+      "answers": [0],
+      "options": [
+        "Forventet avkastning er lik det veide snittet av forventet avkastning til verdipapirene, og risikoen er lavere enn det veide snittet av risikoene til verdipapirene i porteføljen.",
+        "Forventet avkastning er lik det veide snittet av forventet avkastning til verdipapirene, og risikoen er høyere enn det veide snittet av risikoene til verdipapirene i porteføljen.",
+        "Forventet avkastning er mindre enn det veide snittet av forventet avkastning til verdipapirene, og risikoen er lavere enn det veide snittet av risikoene til verdipapirene i porteføljen.",
+        "Forventet avkastning er mindre det veide snittet av forventet avkastning til verdipapirene, og risikoen er høyere enn det veide snittet av risikoene til verdipapirene i porteføljen."
+      ]
+    },
+    {
+      "question": "Normalt kan man ikke diversifisere bort all risiko i en verdipapirportefølje. Hva kalles den risikoen som det ikke er mulig å diversifisere bort?",
+      "answers": [3],
+      "options": [
+        "Valutarisiko",
+        "Unik risiko",
+        "Konkursrisiko",
+        "Markedsrisiko"
+      ]
+    },
+    {
+      "question": "Forventet markedsavkastning er 8 %, risikofri rente er 3 % og en aksje har forventet avkastning på 13 %. I kapitalverdimodellen (Capital Asset Pricing Model - CAPM) kalles en parameter for beta. Hva er tallverdien for beta for nevnte aksje?",
+      "answers": [2],
+      "options": ["1,0", "1,5", "2,0", "2,5"]
+    },
+    {
+      "question": "Beta i CAPM (kapitalverdimodellen) er relatert til ikke-diversifiserbar risiko. Hva er en korrekt definisjon av beta for en aksje?",
+      "answers": [1],
+      "options": [
+        "Varians til aksjens avkastning dividert med markedsvariansen.",
+        "Kovarians mellom aksjens og markedets avkastning dividert med markedsvariansen.",
+        "Korrelasjonskoeffisienten mellom aksjens og markedets avkastning dividert med aksjens standardavvik.",
+        "Produktet av standardavviket til aksjens og markedets avkastning dividert med for­ventet markedsavkastning."
+      ]
+    }
+  ]
+}

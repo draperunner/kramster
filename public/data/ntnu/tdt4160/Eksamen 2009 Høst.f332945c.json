@@ -1,0 +1,40 @@
+{
+  "$schema": "https://kramster.it/schemas/exam.schema.json",
+  "questions": [
+    {
+      "question": "Er det mogleg å kopiere innehalde i MAR til PC? Sjå figur 6.\n<img src=\"images/dre3v.webp\"/>",
+      "answers": [1],
+      "options": ["Ja", "Nei"]
+    },
+    {
+      "question": "Kva påstand er ikkje korrekt for ein ein-brikke multiprosessor (CMP)?",
+      "answers": [3],
+      "options": [
+        "Kan ha felles hovudminne.",
+        "Kan dele cache.",
+        "Er av type homogen eller heterogen.",
+        "Kan berre nytte ILP som parallelliserings strategi."
+      ]
+    },
+    {
+      "question": "Figur 5(a) har ein funksjon som gitt i sanningstabellen i figur5(b).\n<img src=\"images/nv2mfi.webp\"/>",
+      "answers": [0],
+      "options": ["Korrekt", "Ikkje korrekt"]
+    },
+    {
+      "question": "Ved å auke mengda samlebandstrinn aukar ILP.",
+      "answers": [0],
+      "options": ["Korrekt", "Ikkje korrekt"]
+    },
+    {
+      "question": "Under følgjer ein rekke påstandar om datamaskinkomponentar. Kva\npåstand er korrekt?",
+      "answers": [1],
+      "options": [
+        "Multipleksa adresse/data buss halverar adresserommet saman-\nlikna med system med dedikerte adresse- og databusar.",
+        "Ein prosessor som har ein ALU som kan utføre NAND-operasjon,\nkan programmerast til å utføre alle logiske operasjonar.",
+        "PROM og flash-minne kan slettast og programmerast fleire gon-\nger.",
+        "Ein dekodarkrets har fleire inngangar enn utgangar."
+      ]
+    }
+  ]
+}

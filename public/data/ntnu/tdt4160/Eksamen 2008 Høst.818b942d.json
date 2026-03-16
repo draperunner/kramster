@@ -1,0 +1,50 @@
+{
+  "$schema": "https://kramster.it/schemas/exam.schema.json",
+  "questions": [
+    {
+      "question": "Kva ligg i Addr-feltet i MIR? Sjå figur 5.\n<img src=\"images/rhth3d.webp\"/>",
+      "answers": [0],
+      "options": [
+        "Adressa til neste mikroinstruksjon i control store.",
+        "Inneheld kun gyldig adresse viss det skal gjerast eit betinga hopp, aktivt J-bit.",
+        "Til ei kvar tid ein kopi av innhaldet i MBR.",
+        "Control store start- og sluttadresse for aktiv mikroinstruksjon."
+      ]
+    },
+    {
+      "question": "Kva påstand er korrekt for ein ein-brikke mulitiprosessorer (CMP)?",
+      "answers": [2],
+      "options": [
+        "Er ein \"Array computer\".",
+        "Er type SIMD.",
+        "Er av type homogen eller heterogen.",
+        "Er av type MIMD og nyttar alltid ein \"crossbar\" for kommunikasjon mellom prosessorkjernane."
+      ]
+    },
+    {
+      "question": "Kva er skissert i figur 3?\n<img src=\"images/6vh8m.webp\"/>",
+      "answers": [0],
+      "options": [
+        "Fulladder.",
+        "Halvadder.",
+        "Statisk RAM-celle.",
+        "Multipleksar."
+      ]
+    },
+    {
+      "question": "Korleis er einingane i figur 4 prioritert? Nivå 1 (level 1 er prioritert\nover nivå 2 (level 2). Rekkefølgja er gitt frå høgaste til lågaste.\n<img src=\"images/0xvaj.webp\"/>",
+      "answers": [1],
+      "options": ["1, 2, 3, 4", "2, 3, 1, 4.", "1, 4, 2, 3.", "3, 2, 4, 1."]
+    },
+    {
+      "question": "Under følgjer ei rekke påstandar om datamaskinkomponentar. Kva påstand er korrekt?",
+      "answers": [1],
+      "options": [
+        "Asynkron bussoverføring må nytte ei global klokke.",
+        "Ein ALU som kan utføre addisjon og invertere kan utføre subtraksjon.",
+        "EPROM og flash-minne har ekvivalent funksjonalitet.",
+        "EEPROM og flash-minne har ekvivalent funksjonalitet."
+      ]
+    }
+  ]
+}
