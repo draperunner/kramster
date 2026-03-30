@@ -25,7 +25,7 @@
   "author": "Mats Byrkjeland",
   "license": "Apache-2.0",
   "dependencies": {
-    "dompurify": "^3.3.1",
+    "dompurify": "^3.3.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router": "^7.13.1"
