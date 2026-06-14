@@ -3,10 +3,6 @@
   "version": "3.0.0",
   "description": "Kramster is a quiz app for making exam preparation more fun",
   "type": "module",
-  "engines": {
-    "node": "22",
-    "npm": ">=10"
-  },
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
@@ -29,7 +25,7 @@
     "react-router": "^7.15.0"
   },
   "devDependencies": {
-    "@types/node": "^22.19.18",
+    "@types/node": "^24.13.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.3.1",
