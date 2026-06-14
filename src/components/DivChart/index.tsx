@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styles from "./DivChart.module.css";
 
-const HEIGHTS = new Array(6).fill(0).map(() => 100 * Math.random());
+const HEIGHTS = Array.from({ length: 6 }, () => 100 * Math.random());
 
 const DivChart: FC = () => {
   return (
