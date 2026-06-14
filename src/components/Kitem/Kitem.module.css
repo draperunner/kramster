@@ -1,9 +1,5 @@
 .hyphenate {
   overflow-wrap: break-word;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
   hyphens: auto;
 }
 
@@ -32,10 +28,6 @@ a.kitem:hover {
 
 .clickable:hover,
 .clickable:focus {
-  -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  -o-transform: scale(1.03);
   transform: scale(1.03);
 }
 
@@ -148,7 +140,7 @@ a.kitem:hover {
   background-color: var(--red-light);
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
   .kitem {
     margin: 5px 0;
   }

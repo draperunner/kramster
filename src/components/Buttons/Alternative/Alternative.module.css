@@ -38,7 +38,7 @@
   composes: darkGrayHover from "../../../base-styles/colors.module.css";
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
   .alternativeBase {
     padding: 10px;
   }

@@ -1,15 +1,11 @@
 .result {
   composes: base from "../BaseButton.module.css";
   background-color: var(--green);
-  padding: 8px;
+  font-family: var(--font-header);
+  padding: 10px;
   color: black;
 
   &:hover {
     background-color: var(--green-light);
   }
-}
-
-.result {
-  padding: 10px;
-  font-family: var(--font-header);
 }

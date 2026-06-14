@@ -1,0 +1,9 @@
+export default {
+  extends: "stylelint-config-standard",
+  rules: {
+    "property-no-unknown": [true, { ignoreProperties: ["composes"] }],
+    "selector-class-pattern": null,
+    "selector-pseudo-class-no-unknown": null,
+    "value-keyword-case": ["lower", { ignoreProperties: ["composes", "font-family"] }],
+  },
+};

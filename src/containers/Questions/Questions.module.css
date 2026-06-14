@@ -27,7 +27,7 @@
   margin: 3px;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
   .wrapper h1 {
     font-size: 1rem;
   }

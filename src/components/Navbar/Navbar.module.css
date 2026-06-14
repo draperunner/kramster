@@ -47,7 +47,7 @@
   float: right;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
   .navbar {
     padding: 8px 0;
     margin-bottom: 0;

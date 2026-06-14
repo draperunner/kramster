@@ -34,14 +34,14 @@
   animation-delay: 500ms;
 }
 
-.divChartBar:hover .divChartLabel {
-  opacity: 1;
-}
-
 .divChartLabel {
   padding: 1rem;
   opacity: 0;
   transition: opacity 300ms;
+}
+
+.divChartBar:hover .divChartLabel {
+  opacity: 1;
 }
 
 @keyframes slide-in {
@@ -54,7 +54,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
   .divChart {
     height: 200px;
   }

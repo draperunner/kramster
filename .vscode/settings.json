@@ -1,4 +1,6 @@
 {
+  "css.lint.validProperties": ["composes"],
+  "cssModules.camelCase": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.oxc": "always"
   },
