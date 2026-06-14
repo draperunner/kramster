@@ -7,9 +7,7 @@ interface Props {
   color: string;
   minHeight?: boolean;
   onClick?: (
-    event:
-      | React.MouseEvent<HTMLAnchorElement>
-      | React.KeyboardEvent<HTMLAnchorElement>,
+    event: React.MouseEvent<HTMLAnchorElement> | React.KeyboardEvent<HTMLAnchorElement>,
   ) => void;
 }
 

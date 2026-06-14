@@ -4,12 +4,7 @@
     {
       "question": "What does architectural patterns define to solve a problem?",
       "answers": [1, 2],
-      "options": [
-        "Class diagrams",
-        "Element types",
-        "Forms of interaction",
-        "Procedures"
-      ]
+      "options": ["Class diagrams", "Element types", "Forms of interaction", "Procedures"]
     },
     {
       "question": "What Type of architectural pattern has been used here? <img src=\"images/k7mc09.webp\"/>",
@@ -59,12 +54,7 @@
     {
       "question": "What are the main elements in the definition of software architecture?",
       "answers": [0, 1, 2, 3],
-      "options": [
-        "Set of strutures",
-        "Software elements",
-        "Relations",
-        "Properties"
-      ]
+      "options": ["Set of strutures", "Software elements", "Relations", "Properties"]
     }
   ]
 }

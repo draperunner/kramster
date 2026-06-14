@@ -114,12 +114,7 @@
     {
       "question": "Maximum oxygen uptake (VO2max) is a measure of aerobic fitness. Oxygen uptake is related to cardiac output by the formula: VO2 = CO x O2 extraction. During maximal exercise, the oxygen extraction (= arteriovenous O2 difference) may be as high as 90% (i.e. arterial oxygen saturation of 100%, venous saturation of 10%). One gram of hemoglobin binds 1.4 ml O2. Given a body weight of 85 kg and hemoglobin\nof 15.4 g/dl, what is then his VO2max?",
       "answers": [1],
-      "options": [
-        "99 ml/kg/min",
-        "88 ml/kg/min",
-        "79 ml/kg/min",
-        "70 ml/kg/min"
-      ]
+      "options": ["99 ml/kg/min", "88 ml/kg/min", "79 ml/kg/min", "70 ml/kg/min"]
     },
     {
       "question": "The mitral valve may become incompetent (leaking) due to disease. This will give a murmur that can be heard through a stethoscope. When in the ECG cycle is this murmur heard?",
@@ -219,12 +214,7 @@
     {
       "question": "Systematic reviews, takes many studies into account, to calculate more robustly the significance and size of treatment effects, and is often considered a higher level of evidence. What may be the main problem with systematic reviews?",
       "answers": [1],
-      "options": [
-        "Patient selection",
-        "Publication bias",
-        "Reviewer expertise",
-        "Study durations"
-      ]
+      "options": ["Patient selection", "Publication bias", "Reviewer expertise", "Study durations"]
     },
     {
       "question": "<img src=\"images/ojfkg9.webp\" />\nA patient in the coronary care unit suddenly displays a change in the heart rhythm and pulse as shown in the figure.\nWhat is the mechanism?",
@@ -304,12 +294,7 @@
     {
       "question": "A recent study from NTNU of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening rate per length unit) – 1.1 s-1To compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
       "answers": [2],
-      "options": [
-        "Limits of agreement",
-        "Correlation",
-        "Mean error",
-        "kappa coefficient"
-      ]
+      "options": ["Limits of agreement", "Correlation", "Mean error", "kappa coefficient"]
     },
     {
       "question": "<img src=\"images/ifkwk4.webp\" />\nIn this chest X-ray image we see an abnormal shadow that looks like a tumor (arrows). A solid tumor and In this chest X-ray image we see an abnormal shadow that looks like a tumor (arrows). A solid tumor and the heart have about the same X-ray density. What does it mean that we can see the contour of the heart through the tumor?",

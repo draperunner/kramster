@@ -4,12 +4,7 @@
     {
       "question": "How can an architecture affect business goals of a system?",
       "answers": [0, 2],
-      "options": [
-        "Add value",
-        "Support cloud computing",
-        "Faster to market",
-        "Less system crash"
-      ]
+      "options": ["Add value", "Support cloud computing", "Faster to market", "Less system crash"]
     },
     {
       "question": "What are the main influences of the stakeholders related to software architectures?",

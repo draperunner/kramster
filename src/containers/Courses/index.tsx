@@ -13,23 +13,14 @@ function Courses() {
     return null;
   }
 
-  const schoolData = index.schools.find(
-    (s) => s.abbreviation.toLowerCase() === school,
-  );
+  const schoolData = index.schools.find((s) => s.abbreviation.toLowerCase() === school);
   const courses = schoolData?.courses || [];
 
   if (!courses.length) {
     return <LoadingSpinner />;
   }
 
-  const availableColors = [
-    "orange",
-    "green",
-    "red",
-    "blue",
-    "purple",
-    "yellow",
-  ];
+  const availableColors = ["orange", "green", "red", "blue", "purple", "yellow"];
   const assignedColors: { [depCode: string]: string } = {};
   let colorIndex = 0;
 
@@ -41,8 +32,7 @@ function Courses() {
       : courseCode.length;
     const departmentCode = courseCode.slice(0, indexOfFirstDigit);
     if (assignedColors[departmentCode]) return assignedColors[departmentCode];
-    assignedColors[departmentCode] =
-      availableColors[colorIndex % availableColors.length];
+    assignedColors[departmentCode] = availableColors[colorIndex % availableColors.length];
     colorIndex += 1;
     return assignedColors[departmentCode];
   };

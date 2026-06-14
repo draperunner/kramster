@@ -104,12 +104,7 @@
     {
       "question": "Systematic reviews, takes many studies into account, to calculate more robustly the significance and size of treatment effects, and is often considered a higher level of evidence. What may be the main problem with systematic reviews?",
       "answers": [1],
-      "options": [
-        "Patient selection",
-        "Publication bias",
-        "Reviewer expertise",
-        "Study durations"
-      ]
+      "options": ["Patient selection", "Publication bias", "Reviewer expertise", "Study durations"]
     },
     {
       "question": "What is evidence based medical practice?",
@@ -209,12 +204,7 @@
     {
       "question": "What's this?\n<img src=\"images/hrti5f.webp\" />",
       "answers": [1],
-      "options": [
-        "False positive test",
-        "False negative test",
-        "Over diagnosis",
-        "Over treatment"
-      ]
+      "options": ["False positive test", "False negative test", "Over diagnosis", "Over treatment"]
     },
     {
       "question": "The Power of a controlled study result, is often given as a percentage. What does this percentage mean?",

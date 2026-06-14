@@ -15,17 +15,9 @@ async function hashFile(filePath: string): Promise<string> {
 }
 
 async function main() {
-  const dataDir = path.join(
-    path.dirname(new URL(import.meta.url).pathname),
-    "public",
-    "data",
-  );
+  const dataDir = path.join(path.dirname(new URL(import.meta.url).pathname), "public", "data");
 
-  const indexPath = path.join(
-    path.dirname(new URL(import.meta.url).pathname),
-    "src",
-    "index.json",
-  );
+  const indexPath = path.join(path.dirname(new URL(import.meta.url).pathname), "src", "index.json");
   const indexData = JSON.parse(await readFile(indexPath, "utf-8"));
 
   const schools = await readdir(dataDir);
@@ -71,11 +63,7 @@ async function main() {
   }
 
   // Save file with updated index.json
-  await writeFile(
-    indexPath,
-    JSON.stringify(indexData, null, 2) + "\n",
-    "utf-8",
-  );
+  await writeFile(indexPath, JSON.stringify(indexData, null, 2) + "\n", "utf-8");
 }
 
 main().catch(console.error);

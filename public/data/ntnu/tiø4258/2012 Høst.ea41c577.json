@@ -54,12 +54,7 @@
     {
       "question": "Det finnes fire ulike læringssystemer for innovasjon som alle baserer seg en eller flere former for læring. Tre av læringssystemene baserer seg på forventningslæring, enten alene eller i kombinasjon. Hvilket læringssystem baserer seg utelukkende på erfaringslæring?",
       "answers": [0],
-      "options": [
-        "Fremkommende strategier",
-        "Kompetansebygging",
-        "Forbedring",
-        "Verdiskaping"
-      ]
+      "options": ["Fremkommende strategier", "Kompetansebygging", "Forbedring", "Verdiskaping"]
     },
     {
       "question": "En bedrift opplever at de ikke utnytter mange nye forretningsmuligheter som dukker opp som en følge av at ansatte ikke tar risiko og ansvar. Hvilken av de fundamentale organisasjonsdesignsutfordringene er det denne bedriften står ovenfor?",

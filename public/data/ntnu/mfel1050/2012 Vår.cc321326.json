@@ -34,12 +34,7 @@
     {
       "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
       "answers": [1],
-      "options": [
-        "Bli ca 5% mindre",
-        "Forbli uendret",
-        "Bli ca. 5% større",
-        "Bli ca 10% større"
-      ]
+      "options": ["Bli ca 5% mindre", "Forbli uendret", "Bli ca. 5% større", "Bli ca 10% større"]
     },
     {
       "question": "For KOLS (COPD) pasienter er intervalltrening av ett og ett bein på sykkel mer effektivt enn trening av begge beina samtidig fordi:",
@@ -209,12 +204,7 @@
     {
       "question": "Muskulær styrke er relatert til",
       "answers": [1],
-      "options": [
-        "Muskelens volum",
-        "Muskelens tverrsnitt",
-        "Muskelens lengde",
-        "Alle tre ovenfor"
-      ]
+      "options": ["Muskelens volum", "Muskelens tverrsnitt", "Muskelens lengde", "Alle tre ovenfor"]
     },
     {
       "question": "Blodstrøm i kapillærer i muskel begrenses ved muskelarbeid fra:",
@@ -319,12 +309,7 @@
     {
       "question": "Q eller hjertets minuttvolum er bestemt av følgende faktorer:",
       "answers": [2],
-      "options": [
-        "SVmax og VCmax",
-        "HRmax og VEmax",
-        "HRmax og SVmax",
-        "HDLmax og CKmax"
-      ]
+      "options": ["SVmax og VCmax", "HRmax og VEmax", "HRmax og SVmax", "HDLmax og CKmax"]
     },
     {
       "question": "Hvordan trene maksimalt oksygenopptak på en effektiv måte?",

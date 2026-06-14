@@ -64,12 +64,7 @@
     {
       "question": "Mesteparten av glukose reabsorberes i:",
       "answers": [1],
-      "options": [
-        "Henles sløyfe",
-        "Proksimale tubulus",
-        "Distale tubulus",
-        "Glomerulus"
-      ]
+      "options": ["Henles sløyfe", "Proksimale tubulus", "Distale tubulus", "Glomerulus"]
     },
     {
       "question": "Hva er det aktivering av Renin-angiotensin II- aldosteron-systement (RAAS) fører til?",

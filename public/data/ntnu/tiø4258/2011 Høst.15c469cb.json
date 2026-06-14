@@ -64,12 +64,7 @@
     {
       "question": "Hvilken av de følgende motivasjonsteoriene mener at det som er viktig i forhold til motivasjon er hvordan en ansatt oppfatter forholdet mellom sin resultat/input-ratio og andres resultat/input-ratio?",
       "answers": [2],
-      "options": [
-        "Behovsteorier",
-        "Forventningsteori",
-        "Samsvarteori",
-        "Rettferdighetsteori"
-      ]
+      "options": ["Behovsteorier", "Forventningsteori", "Samsvarteori", "Rettferdighetsteori"]
     },
     {
       "question": "Hvilken av de følgende påstandene beskriver en reell forskjell mellom en produktdivisjonsstruktur og en multidivisjonsstruktur?",

@@ -254,12 +254,7 @@
     {
       "question": "Hvilken av Minitzbergs seks organisasjonstyper har kreativitet som sin fremste styrke?",
       "answers": [3],
-      "options": [
-        "Divisjonalisert struktur.",
-        "Maskinbyråkrati.",
-        "Fagbyråkrati.",
-        "Adhockrati."
-      ]
+      "options": ["Divisjonalisert struktur.", "Maskinbyråkrati.", "Fagbyråkrati.", "Adhockrati."]
     },
     {
       "question": "Hva menes med mønster av overbærenhet (indulgency pattern)?",

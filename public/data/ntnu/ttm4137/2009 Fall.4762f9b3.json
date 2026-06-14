@@ -44,12 +44,7 @@
     {
       "question": "Which 802.11 frame type is cryptographically protected by the 802.11w standard?",
       "answers": [0],
-      "options": [
-        "Management frames",
-        "Control frames",
-        "Data frames",
-        "Beacon frames"
-      ]
+      "options": ["Management frames", "Control frames", "Data frames", "Beacon frames"]
     },
     {
       "question": "How is the 128 bits start value of the counter for CCMP encryption initialized in RSN?",

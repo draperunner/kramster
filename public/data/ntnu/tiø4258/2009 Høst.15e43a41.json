@@ -419,12 +419,7 @@
     {
       "question": "Den andelen av risiko som ikke kan elimineres ved diversifisering kalles:",
       "answers": [3],
-      "options": [
-        "Unik risiko.",
-        "Konkursrisiko.",
-        "Renterisiko.",
-        "Markedsrisiko."
-      ]
+      "options": ["Unik risiko.", "Konkursrisiko.", "Renterisiko.", "Markedsrisiko."]
     },
     {
       "question": "Beta for et selskaps aktiva er 2. Beta for gjelden er 0,5. Markedsverdien for gjeld er 50 % av markedsverdien til selskapets aktiva. Hva er beta for selskapets aksjer?",

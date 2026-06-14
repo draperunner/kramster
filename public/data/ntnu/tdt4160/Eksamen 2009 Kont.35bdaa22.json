@@ -19,12 +19,7 @@
     {
       "question": "Hva er skissert i Figur 4?\n<img src=\"images/mola09.webp\"/>",
       "answers": [2],
-      "options": [
-        "Dynamisk RAM-celle.",
-        "Halvadder.",
-        "Statisk RAM-celle.",
-        "Multiplekser."
-      ]
+      "options": ["Dynamisk RAM-celle.", "Halvadder.", "Statisk RAM-celle.", "Multiplekser."]
     },
     {
       "question": "Hvilken påstand for mikrokontrollersystemet i Figur 5 er korrekt?\n<img src=\"images/cl1fqt.webp\"/>",

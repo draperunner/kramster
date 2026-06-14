@@ -4,12 +4,7 @@
     {
       "question": "Term used to specify places in the architecture that capture the variation in a product line...",
       "answers": [1],
-      "options": [
-        "Scope",
-        "Variation point",
-        "Specialization point",
-        "Scope point"
-      ]
+      "options": ["Scope", "Variation point", "Specialization point", "Scope point"]
     },
     {
       "question": "Too narrow scoping in a software product line will result in...",
@@ -54,12 +49,7 @@
     {
       "question": "One software product line may vary in terms of:",
       "answers": [0, 1, 3],
-      "options": [
-        "Quality attributes",
-        "Behavior",
-        "Software architecture",
-        "Platform"
-      ]
+      "options": ["Quality attributes", "Behavior", "Software architecture", "Platform"]
     }
   ]
 }

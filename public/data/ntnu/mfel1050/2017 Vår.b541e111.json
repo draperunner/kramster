@@ -134,12 +134,7 @@
     {
       "question": "Muskulær styrke er relatert til",
       "answers": [1],
-      "options": [
-        "Muskelens volum",
-        "Muskelens tverrsnitt",
-        "Muskelens lengde",
-        "Alle tre ovenfor"
-      ]
+      "options": ["Muskelens volum", "Muskelens tverrsnitt", "Muskelens lengde", "Alle tre ovenfor"]
     },
     {
       "question": "Hva ble gjort i studiet til Helgerud et al. (2007) for å sikre at de fire treningsgruppene\nhadde omtrent det samme omfanget av trening til tross for forskjeller i treningens\nvarighet?",
@@ -264,12 +259,7 @@
     {
       "question": "For høye kraftkontraksjoner som varer i 1-2 sekund, så er den innledende energikilden:",
       "answers": [3],
-      "options": [
-        "Phosphocreatinelagre",
-        "Myoglobinlagre",
-        "Glykolyselagre",
-        "ATPlagre"
-      ]
+      "options": ["Phosphocreatinelagre", "Myoglobinlagre", "Glykolyselagre", "ATPlagre"]
     },
     {
       "question": "Langkjøring ga følgende økning i <math><mover><mtext>V</mtext><mo>&#x02D9;</mo></mover><msub><mtext>O</mtext><mn>2</mn></msub><mtext> max</mtext></math> hos friske mannlige studenter som trente i 2\nmåneder:",
@@ -314,12 +304,7 @@
     {
       "question": "Følgende signifikante endringer ble funnet etter maksimal styrketrening hos\ndistanseløpere",
       "answers": [3],
-      "options": [
-        "CR↓, tMAS↑, RFD↓",
-        "CR↑, tMAS↓, RFD↑",
-        "CR↑, tMAS↑, RFD↓",
-        "CR↓, tMAS↑, RFD↑"
-      ]
+      "options": ["CR↓, tMAS↑, RFD↓", "CR↑, tMAS↓, RFD↑", "CR↑, tMAS↑, RFD↓", "CR↓, tMAS↑, RFD↑"]
     },
     {
       "question": "Når en KOLS-pasient forbedrer lungefunksjonen med maksimal styrketrening, hvorfor\nskjer det?",

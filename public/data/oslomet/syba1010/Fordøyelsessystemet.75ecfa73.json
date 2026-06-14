@@ -49,12 +49,7 @@
     {
       "question": "Hvor skjer hovedsakelig absorbsjon av næringsstoffer?",
       "answers": [1],
-      "options": [
-        "I magesekken",
-        "I tynntarmen",
-        "I tykktarmen",
-        "I endetarmen"
-      ]
+      "options": ["I magesekken", "I tynntarmen", "I tykktarmen", "I endetarmen"]
     },
     {
       "question": "Hvor blir galle tømt ut i mage/tarm-kanalen?",

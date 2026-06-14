@@ -4,12 +4,7 @@
     {
       "question": "A recent study of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening velocity per length unit) – 1.1 s-1To compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
       "answers": [2],
-      "options": [
-        "Limits of agreement",
-        "Correlation",
-        "Mean error",
-        "kappa coefficient"
-      ]
+      "options": ["Limits of agreement", "Correlation", "Mean error", "kappa coefficient"]
     },
     {
       "question": "Ejection fraction measured by ultrasound has a high variability. Limits of agreement are ± 10% points. A patient who has had an infarct had an ejection fraction of 45% (slightly reduced) when he left the hospital. Two months later, he was admitted because of dyspnea, but had no new infarction. During the second stay, a new echocardiography was made, and they now found an EF of 38%. The diagnosis of worsening heart failure (HF) was made, and medical treatment for heart failure was started. The conclusion that the patient had worsening heart failure was:",

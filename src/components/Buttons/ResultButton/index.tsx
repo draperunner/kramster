@@ -5,9 +5,7 @@ import styles from "./ResultButton.module.css";
 interface Props {
   href: string;
   onClick?: (
-    event:
-      | React.KeyboardEvent<HTMLAnchorElement>
-      | React.MouseEvent<HTMLAnchorElement>,
+    event: React.KeyboardEvent<HTMLAnchorElement> | React.MouseEvent<HTMLAnchorElement>,
   ) => void;
   children?: ReactNode;
 }

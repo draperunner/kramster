@@ -84,12 +84,7 @@
     {
       "question": "Hvilken av følgende motivasjonsteorier er opptatt av at resultatene den enkelte får oppfattes å stå i forhold til den input en har bidratt med?",
       "answers": [1],
-      "options": [
-        "Rettferdighetsteori.",
-        "Samsvarsteori.",
-        "Behovsteori.",
-        "Forventningsteori."
-      ]
+      "options": ["Rettferdighetsteori.", "Samsvarsteori.", "Behovsteori.", "Forventningsteori."]
     },
     {
       "question": "Hvilken av påstandene om personlighetstrekket nevrotisisme er riktig?",
@@ -234,12 +229,7 @@
     {
       "question": "Renten på gjelden til et selskap er 4 %. Selskapsskattesatsen er 25 %, og selskapet betaler selskapsskatt alle år. Hvis gjelden et gitt år er på 1 milliard gjennom hele året, hva blir skattefordelen av gjeld dette året?",
       "answers": [0],
-      "options": [
-        "10 millioner",
-        "20 millioner",
-        "25 millioner",
-        "40 millioner"
-      ]
+      "options": ["10 millioner", "20 millioner", "25 millioner", "40 millioner"]
     },
     {
       "question": "Markedsverdien av egenkapitalen til et selskap er 2 milliarder og selskapet har gjeld på 3 milliarder. Forventet avkastning på selskapets aksjer er 10 % og avkastningen på gjelden er 6 %. Selskapsskattesatsen er 28 %. Hva blir WACC, det vil si totalkapitalens forventede avkastning etter skatt?",

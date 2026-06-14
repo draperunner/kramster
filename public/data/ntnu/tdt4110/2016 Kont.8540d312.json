@@ -54,12 +54,7 @@
     {
       "question": "Hva får vi med like mengder av rødt, grønt og blått i et punkt på en skjerm?",
       "answers": [0],
-      "options": [
-        "Sort, hvitt eller gråtoner.",
-        "Cyan, magenta og gult.",
-        "Brunt.",
-        "Fiolett."
-      ]
+      "options": ["Sort, hvitt eller gråtoner.", "Cyan, magenta og gult.", "Brunt.", "Fiolett."]
     },
     {
       "question": "Hva menes med 'sampling rate' under digitalisering av lyd?",
@@ -104,12 +99,7 @@
     {
       "question": "Hvilke av disse enhetene er vanligvis involvert i ”Fetch/Execute Cycle”?",
       "answers": [0],
-      "options": [
-        "ALU, CU (Control Unit), RAM.",
-        "ROM, ALU, RAM.",
-        "CU, RAM, ROM.",
-        "OS, ALU, CU."
-      ]
+      "options": ["ALU, CU (Control Unit), RAM.", "ROM, ALU, RAM.", "CU, RAM, ROM.", "OS, ALU, CU."]
     },
     {
       "question": "Hva går aktiviteten arkitekturdesign (architectural design) ut på?",

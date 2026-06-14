@@ -19,12 +19,7 @@
     {
       "question": "Spare: A standby spare configured to replace many different failed components.",
       "answers": [0],
-      "options": [
-        "Availability",
-        "Interoperability",
-        "Modifiability",
-        "Testability"
-      ]
+      "options": ["Availability", "Interoperability", "Modifiability", "Testability"]
     },
     {
       "question": "Polymorphism: Late binding of method calls.",
@@ -49,12 +44,7 @@
     {
       "question": "Increase available resources: Faster and more processors, more memory, faster network.",
       "answers": [3],
-      "options": [
-        "Availiability",
-        "Interoperability",
-        "Modifiability",
-        "Performance"
-      ]
+      "options": ["Availiability", "Interoperability", "Modifiability", "Performance"]
     },
     {
       "question": "Shadow operation to mimic the behavior of the working components before restoring service.",
@@ -84,12 +74,7 @@
     {
       "question": "Scheduling policy: Scheduling of resources based on priority assignment and dispatching.",
       "answers": [3],
-      "options": [
-        "Availability",
-        "Interoperability",
-        "Modifiability",
-        "Performance"
-      ]
+      "options": ["Availability", "Interoperability", "Modifiability", "Performance"]
     },
     {
       "question": "Checkpoint/rollback: A recording of a consistent state that can later be restored.",
@@ -109,22 +94,12 @@
     {
       "question": "Removal from service to undergo some activities to prevent anticipated failures.",
       "answers": [0],
-      "options": [
-        "Availability",
-        "Interoperability",
-        "Modifiability",
-        "Performance"
-      ]
+      "options": ["Availability", "Interoperability", "Modifiability", "Performance"]
     },
     {
       "question": "Control frequency of sampling for queued requests possibly resulting in loss of requests.",
       "answers": [3],
-      "options": [
-        "Availability",
-        "Interoperability",
-        "Modifiability",
-        "Performance"
-      ]
+      "options": ["Availability", "Interoperability", "Modifiability", "Performance"]
     },
     {
       "question": "Maintain a model of the system: Determines the expected system behavior enabling feedback.",
@@ -139,12 +114,7 @@
     {
       "question": "Heartbeat:Component emits a heartbeat message periodically and another component listens for it",
       "answers": [0],
-      "options": [
-        "Availability",
-        "Interoperability",
-        "Modifiability",
-        "Performance"
-      ]
+      "options": ["Availability", "Interoperability", "Modifiability", "Performance"]
     },
     {
       "question": "Restrict communication paths: Restrict the modules with which a given module shares data.",

@@ -81,22 +81,12 @@
     {
       "question": "Hva blir resultatet når 81 kodes binært (i 2-tallsystemet)?",
       "answers": [2],
-      "options": [
-        "1011011",
-        "1010101",
-        "1010001",
-        "Ingen av alternativene i a, b og c er riktige."
-      ]
+      "options": ["1011011", "1010101", "1010001", "Ingen av alternativene i a, b og c er riktige."]
     },
     {
       "question": "Hva tilsvarer ABCD i det heksadesimale tallsystemet (16-tallsystemet) i 10-tallsystemet?",
       "answers": [1],
-      "options": [
-        "42561",
-        "43981",
-        "44981",
-        "Ingen av alternativene i a, b og c er riktige."
-      ]
+      "options": ["42561", "43981", "44981", "Ingen av alternativene i a, b og c er riktige."]
     },
     {
       "question": "QoS er forkortelse for:",

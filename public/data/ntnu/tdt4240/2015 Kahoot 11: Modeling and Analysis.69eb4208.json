@@ -4,12 +4,7 @@
     {
       "question": "What parameters are typically used in performance models?",
       "answers": [0, 1, 3],
-      "options": [
-        "Arrival rate",
-        "Network bandwidth",
-        "Recovery time",
-        "Schedule algorithm"
-      ]
+      "options": ["Arrival rate", "Network bandwidth", "Recovery time", "Schedule algorithm"]
     },
     {
       "question": "What is the main cost of performance modelling?",
@@ -34,12 +29,7 @@
     {
       "question": "Modeling of architecture for availability is typically carried out for determining...",
       "answers": [0, 2],
-      "options": [
-        "Failure rates",
-        "Latency",
-        "Recovery times",
-        "Parallell processes"
-      ]
+      "options": ["Failure rates", "Latency", "Recovery times", "Parallell processes"]
     },
     {
       "question": "The probability that two independent servers A or B will fail is:",
@@ -54,12 +44,7 @@
     {
       "question": "What analysis models exist for Usability?:",
       "answers": [2],
-      "options": [
-        "Conceptual framework",
-        "Markov models",
-        "None",
-        "Real-time scheduling"
-      ]
+      "options": ["Conceptual framework", "Markov models", "None", "Real-time scheduling"]
     },
     {
       "question": "What analysis models exist for Performance?:",
@@ -74,22 +59,12 @@
     {
       "question": "What analysis models exist for Availability?:",
       "answers": [2, 3],
-      "options": [
-        "Coupling metrics",
-        "Cost models",
-        "Markov models",
-        "Statistical models"
-      ]
+      "options": ["Coupling metrics", "Cost models", "Markov models", "Statistical models"]
     },
     {
       "question": "What analysis models exist for Security?:",
       "answers": [3],
-      "options": [
-        "Conceptual frameworks",
-        "Component interaction metrics",
-        "Cost models",
-        "None"
-      ]
+      "options": ["Conceptual frameworks", "Component interaction metrics", "Cost models", "None"]
     }
   ]
 }

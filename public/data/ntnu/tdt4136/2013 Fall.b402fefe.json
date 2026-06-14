@@ -4,10 +4,7 @@
     {
       "question": "Which one of these does a rule-based agent system (like the one on a classical expert system) have in its agent function?",
       "answers": [1],
-      "options": [
-        "Contention scheduling algorithm",
-        "Conflict resolution algorithm"
-      ]
+      "options": ["Contention scheduling algorithm", "Conflict resolution algorithm"]
     },
     {
       "question": "In a rule based system, when there are more than one rules that match the current situation and when the agent wants to explore a new/different (than the one in focus last time) hypothesis, the agent prefers the rule that has in its left side (of the a -> b) elements that are most recently updated in the working memory of the agent.",

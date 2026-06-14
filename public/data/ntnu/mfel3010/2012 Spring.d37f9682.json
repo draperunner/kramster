@@ -9,12 +9,7 @@
     {
       "question": "Where are most of the coagulation factors produced?",
       "answers": [2],
-      "options": [
-        "The bone marrow",
-        "The spleen",
-        "The liver",
-        "The lymph nodes"
-      ]
+      "options": ["The bone marrow", "The spleen", "The liver", "The lymph nodes"]
     },
     {
       "question": "What are the main regulators of ventilation during basal conditions?",
@@ -94,12 +89,7 @@
     {
       "question": "At the end of a cardiac action potential, calcium is pumped from the cytoplasm into the sarcoplasmatic recticulum against a concentration gradient. What kind of transport is this?",
       "answers": [0],
-      "options": [
-        "Active transport",
-        "Mediated diffusion",
-        "Diffusion",
-        "Osmosis"
-      ]
+      "options": ["Active transport", "Mediated diffusion", "Diffusion", "Osmosis"]
     },
     {
       "question": "Mean incidence of influenza in Norway in week 8 in 2012 was 3%. We may consider that the duration of influenza to be on the average 5 days for that epidemic. What was the mean prevalence of influenza during that week?",
@@ -134,12 +124,7 @@
     {
       "question": "How much filtrate is produced in all nephrons of both kidneys during 24 hours?",
       "answers": [3],
-      "options": [
-        "Ca 1,6 litres",
-        "Ca 3 litres",
-        "Ca 20 litres",
-        "Ca 180 litres"
-      ]
+      "options": ["Ca 1,6 litres", "Ca 3 litres", "Ca 20 litres", "Ca 180 litres"]
     },
     {
       "question": "A clinical study of a certain disease, comparing treatment A with treatment B, found a difference in mortality between treatment A and treatment B (A<B) with a significance of <1%. What does that mean?",
@@ -154,12 +139,7 @@
     {
       "question": "In MRI, the atomic nuclei of hydrogen atoms in a patient have aligned their spin with the magnetic field they are placed in. To make images, the nuclei are first brought into a higher energy state by beaming in energy (excitation to a higher energy state) and then capturing the energy as it escapes again afterwards. What kind of energy is beamed in?",
       "answers": [3],
-      "options": [
-        "Alpha ray beams",
-        "Gamma ray beams",
-        "X-ray beams",
-        "Radio wave beams"
-      ]
+      "options": ["Alpha ray beams", "Gamma ray beams", "X-ray beams", "Radio wave beams"]
     },
     {
       "question": "Ultrasound Doppler can measure blood velocity. We are interested in measuring the blood velocity at a certain depth. This is done by pulsed Doppler. How is the depth selectivity achieved?",
@@ -269,12 +249,7 @@
     {
       "question": "Water is reabsorbed along most of the nephron. Which mechanism is mainly responsible for reabsorbtion of water?",
       "answers": [0],
-      "options": [
-        "Osmosis",
-        "Facilitated diffusion",
-        "Active transport",
-        "Pinocytosis"
-      ]
+      "options": ["Osmosis", "Facilitated diffusion", "Active transport", "Pinocytosis"]
     },
     {
       "question": "Which of the marked volumes on the diagram below represents the inpiratory reserve volume?\n<img src=\"images/fwf5r.webp\" />",
@@ -304,12 +279,7 @@
     {
       "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
       "answers": [2],
-      "options": [
-        "The Esophagus",
-        "The stomach",
-        "The small intestine",
-        "The large intestine"
-      ]
+      "options": ["The Esophagus", "The stomach", "The small intestine", "The large intestine"]
     },
     {
       "question": "In diabetes is glucose found in the urine as a sign of elevated blood sugar. What is the mechanism for this?",

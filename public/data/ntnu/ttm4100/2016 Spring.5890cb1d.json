@@ -288,13 +288,7 @@
     {
       "question": "How large bursts errors (i.e. consecutive bit errors) can be detected by using a CRC, using the generator G=10011?\nFig. 1:\n<pre>1 1 1 0 y\n0 0 1 1 y\n1 0 1 0 y\n0 1 1 0 y\nx x x x z</pre>",
       "answers": [2],
-      "options": [
-        "0 (none)",
-        "2 or less",
-        "4 or less",
-        "5 or less",
-        "6 or less"
-      ]
+      "options": ["0 (none)", "2 or less", "4 or less", "5 or less", "6 or less"]
     },
     {
       "question": "Which of the following statements are true?",

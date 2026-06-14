@@ -54,12 +54,7 @@
     {
       "question": "A recent study of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue\nvelocity: 9.1 cm/s and mean systolic strain rate (shortening velocity per length unit) – 1.1 s-1To compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be\nbest here for comparison of the accuracy of the different measures?",
       "answers": [2],
-      "options": [
-        "Limits of agreement",
-        "Correlation",
-        "Mean error",
-        "kappa coefficient"
-      ]
+      "options": ["Limits of agreement", "Correlation", "Mean error", "kappa coefficient"]
     },
     {
       "question": "The meshwork that forms the fabric of a blood clot is:",
@@ -339,12 +334,7 @@
     {
       "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
       "answers": [2],
-      "options": [
-        "The Esophagus",
-        "The stomach",
-        "The small intestine",
-        "The large intestine"
-      ]
+      "options": ["The Esophagus", "The stomach", "The small intestine", "The large intestine"]
     },
     {
       "question": "A marathon runner wants to increase his oxygen uptake by increasing his hemoglobin as much as possible. How can he achieve this in an efficient manner?",

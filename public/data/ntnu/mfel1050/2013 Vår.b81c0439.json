@@ -99,12 +99,7 @@
     {
       "question": "”Acetylene uptake” er en metode for mål på:",
       "answers": [1],
-      "options": [
-        "Anaerob terskel",
-        "Hjertets minuttvolum",
-        "VO2max",
-        "Arbeidsøkonomi"
-      ]
+      "options": ["Anaerob terskel", "Hjertets minuttvolum", "VO2max", "Arbeidsøkonomi"]
     },
     {
       "question": "Når en KOLS pasient forbedrer lungefunksjonen med maksimal styrketrening, hvorfor skjer det?",
@@ -214,12 +209,7 @@
     {
       "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
       "answers": [1],
-      "options": [
-        "Bli ca 5% mindre",
-        "Forbli uendret",
-        "Bli ca. 5% større",
-        "Bli ca 10% større"
-      ]
+      "options": ["Bli ca 5% mindre", "Forbli uendret", "Bli ca. 5% større", "Bli ca 10% større"]
     },
     {
       "question": "Hvor langt løper en elite fotballspiller i løpet av en kamp?",
@@ -259,12 +249,7 @@
     {
       "question": "5% forbedret løpsøkonomi betyr hvor mange % forbedret hastighet i en løpskonkurranse?",
       "answers": [2],
-      "options": [
-        "50%",
-        "20%",
-        "5%",
-        "Betyr ingen ting for hastigheten i en løpskonkurranse"
-      ]
+      "options": ["50%", "20%", "5%", "Betyr ingen ting for hastigheten i en løpskonkurranse"]
     },
     {
       "question": "Hvis du forbedrer løpsøkonomien din med 5%, hvor mange sekunder fortere vil du løpe et løp som tidligere tok en time?",
@@ -294,12 +279,7 @@
     {
       "question": "Hva forventer du at en gjennomsnittlig frisk 70 årig mann vil ha i VO2max?",
       "answers": [1],
-      "options": [
-        "15 ml/kgxmin",
-        "25 ml/kgxmin",
-        "35 ml/kgxmin",
-        "45 ml/kgxmin"
-      ]
+      "options": ["15 ml/kgxmin", "25 ml/kgxmin", "35 ml/kgxmin", "45 ml/kgxmin"]
     },
     {
       "question": "Hvis du gjennomfører effektiv intervalltrening (4x4 min) med en gruppe eldre menn på ca 70 år 3x i uka i 8 uker, hva forventer du at VO2max vil øke i %?",
@@ -324,12 +304,7 @@
     {
       "question": "Hva forklarer Helgerud og medarbeidere (2007) framgangen i VO2max i intervallgruppene med?",
       "answers": [3],
-      "options": [
-        "Økt maksimal puls",
-        "Økt lungevolum",
-        "Økt muskelstyrke",
-        "Økt slagvolum"
-      ]
+      "options": ["Økt maksimal puls", "Økt lungevolum", "Økt muskelstyrke", "Økt slagvolum"]
     },
     {
       "question": "Hva ble gjort i studiet til Helgerud og medarbeidere (2007) for å sikre at de fire treningsgruppene hadde omtrent det samme omfanget av trening til tross for forskjeller i treningens varighet?",

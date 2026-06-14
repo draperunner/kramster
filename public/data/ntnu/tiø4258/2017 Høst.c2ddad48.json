@@ -194,12 +194,7 @@
     {
       "question": "Som del av en nettonåverdiberegning har en bedrift estimert følgende: Kontantstrøm om ett år er 10 millioner med sannsynlighet 40 % og 7 millioner med sannsynlighet 60 %. Dersom kontantstrøm blir 10 millioner om ett år, er det 70 % sannsynlighet for kontantstrøm på 12 millioner og 30 % sannsynlighet for kontantstrøm på 5 millioner om to år. Dersom kontantstrøm blir 7 millioner om ett år, er det 20 % sannsynlighet for kontantstrøm på 9 millioner og 80 % sannsynlighet for kontantstrøm på 2 millioner om to år. Avkastningskravet er 10 %. Hva blir forventet nåverdi av de nevnte kontantstrømmene?",
       "answers": [0],
-      "options": [
-        "12,4 millioner.",
-        "13,6 millioner.",
-        "14,2 millioner.",
-        "15,1 millioner."
-      ]
+      "options": ["12,4 millioner.", "13,6 millioner.", "14,2 millioner.", "15,1 millioner."]
     },
     {
       "question": "En bedrift regner med å få kontantstrømmen <math><mi>k</mi></math> om ett år, samme kontantstrøm etter ytterligere ett år, samme kontantstrøm året etter det igjen og så videre i totalt 20 år slik at siste kontantstrøm kommer 20 år fra nå. Gitt at diskonteringsrenten er <math><mi>r</mi></math>, hva er et korrekt uttrykk for nåverdien av disse kontantstrømmene?",
@@ -249,12 +244,7 @@
     {
       "question": "Et selskap forventer å ha overskudd etter skatt neste år. Det forventer å betale 200 millioner kroner i renter neste år. Selskapsskattesatsen er 24 %. Selskapet regner med et avkastningskrav på 6 % for skattefordel av gjeld. Hva er nåverdien av skattefordelen av gjeld neste år?",
       "answers": [2],
-      "options": [
-        "200 millioner.",
-        "48 millioner.",
-        "45 millioner.",
-        "24 millioner."
-      ]
+      "options": ["200 millioner.", "48 millioner.", "45 millioner.", "24 millioner."]
     },
     {
       "question": "Avkastningen på aktiva før skatt for et selskap er 10 %. Avkastningen på selskapets gjeld er 5 % og gjeldsandelen er 50 %. Selskapsskattesatsen er 24 %. Hva er da selskapets kapitalkostnad for totalkapital etter skatt, WACC?",
@@ -264,12 +254,7 @@
     {
       "question": "I forbindelse med planer om å kjøpe en annen bedrift for 3 milliarder kroner, utarbeider et selskap estimater for hvilken kontantstrøm oppkjøpet vil bidra med når det tas hensyn til synergier. Antagelsen som gjøres er at kontantstrømmen vil være 400 millioner kroner før finanskostnader og skatt første år, så 2 % mer, altså 408 millioner kroner året deretter, så ytterligere 2 % mer neste år osv. slik at kontantstrømmen vokser med 2 % fra år til år. Selskapet regner som om første kontantstrøm kommer ett år etter oppkjøpet, den andre etter to år osv. og regner som om det er et uendelig antall perioder. Selskapet forutsetter at renter på gjeld relatert til oppkjøpet vil utgjøre en konstant andel av kontantstrømmen i alle perioder. Nærmere bestemt antar selskapet at rentene vil utgjøre 30 % av kontantstrøm i alle perioder. Selskapet bruker avkastningskravet til totalkapitalen etter skatt, WACC, til å beregne nettonåverdien til det planlagte oppkjøpet. WACC er estimert til 12 %. Selskapsskattesatsen er 25 %. Med de gitte forutsetningene, hva er nettonåverdien til oppkjøpet?",
       "answers": [1],
-      "options": [
-        "– 500 millioner.",
-        "0 millioner.",
-        "300 millioner.",
-        "1 000 millioner."
-      ]
+      "options": ["– 500 millioner.", "0 millioner.", "300 millioner.", "1 000 millioner."]
     }
   ]
 }

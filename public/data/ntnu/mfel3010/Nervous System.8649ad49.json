@@ -44,12 +44,7 @@
     {
       "question": "Where in the central nervous system is pulse and blood pressure controlled?",
       "answers": [2],
-      "options": [
-        "The cerebral cortex",
-        "The cerebellum",
-        "The brainstem",
-        "The spinal cord"
-      ]
+      "options": ["The cerebral cortex", "The cerebellum", "The brainstem", "The spinal cord"]
     },
     {
       "question": "What is the function of myelin sheaths around nerve axons?",

@@ -229,12 +229,7 @@
     {
       "question": "Hvordan vil D-vitaminmangel virke på calcium og PTH-nivået i blod? / Korleis\nvil D-vitaminmangel virke på calcium og PTH-nivået i blod? / How will lack of\nvitamin D influence the levels of calcium and PTH?",
       "answers": [2],
-      "options": [
-        "Ca2+↑ / PTH↑",
-        "Ca2+↑ / PTH↓",
-        "Ca2+↓ / PTH↑",
-        "Ca2+↓ / PTH↓"
-      ]
+      "options": ["Ca2+↑ / PTH↑", "Ca2+↑ / PTH↓", "Ca2+↓ / PTH↑", "Ca2+↓ / PTH↓"]
     },
     {
       "question": "Hva skjer når linsen stivner ved normal aldring? / Kva skjer når linsen stivner ved\nnormal aldring? / What happens when the lens looses its flexibility in normal ageing?",

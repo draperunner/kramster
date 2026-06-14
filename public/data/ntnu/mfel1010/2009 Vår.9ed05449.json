@@ -54,12 +54,7 @@
     {
       "question": "Ved nyresvikt får en lavere nivå av aktivt vitamin D. Hvordan vil dette virke på\ncalcium og PTH-nivået i blod? / Ved nyresvikt får ein lågare nivå av aktivt vitamin\nD. Korleis vil dette virke på calcium og PTH-nivået i blod? / In renal failure will\nthere be lower levels of active vitamin D. How will that influence the levels of calcium\nand PTH?",
       "answers": [2],
-      "options": [
-        "Ca 2+ ↑ / PTH↑",
-        "Ca 2+ ↑ / PTH↓",
-        "Ca 2+ ↓ / PTH↑",
-        "Ca 2+ ↓ / PTH↓"
-      ]
+      "options": ["Ca 2+ ↑ / PTH↑", "Ca 2+ ↑ / PTH↓", "Ca 2+ ↓ / PTH↑", "Ca 2+ ↓ / PTH↓"]
     },
     {
       "question": "Hyperventilering (økt ventilasjon) kan skje som følge av for eksempel smerter eller\nstress. Hva skjer med blodets pH? / Hyperventilering (auka ventilasjon) kan skje som\nfølgje av for eksempel smerter eller stress. Kva skjer med blodets pH? /\nHyperventilation may happen as a result of pain or stress. What happens to the pH in\nthe blood?",
@@ -84,12 +79,7 @@
     {
       "question": "Næringsstoffer som suges opp i tarmen samles i portvenen. Hvilket organ tar imot\nblodet fra portvenen? / Næringsstoff som blir sugd opp i tarmen blir samla i\nportvenen. Kva for organ tar imot blodet frå portvenen? / Nutrients that are absorbed\nin the intestine are collected by the portal vein. What organ receives the blood from\nthe portal vein?",
       "answers": [2],
-      "options": [
-        "Pancreas",
-        "Milten / The spleen",
-        "Levra / The liver",
-        "Lungene / The lungs"
-      ]
+      "options": ["Pancreas", "Milten / The spleen", "Levra / The liver", "Lungene / The lungs"]
     },
     {
       "question": "Sekretoriske vesikler er en vanlig metode for en celle til å skille ut aktive substanser.\nHvilken organelle danner sekretoriske vesikler? / Sekretoriske vesiklar er en vanlig\nmetode for en celle til å skilje ut aktive substansar. Kva for organelle dannar\nsekretoriske vesiklar? / Secretory vesicles is a common method for a cell to excrete\nactive substances. Which organelle produces secretory vesicles?",
@@ -214,12 +204,7 @@
     {
       "question": "Intravenøst narkotikamisbruk med bruk av urene sprøyter kan føre til at en kan\ninjisere bakterier intravenøst. Disse kan slå seg ned i indre organer og gi infeksjon. Ut\nfra kunnskap om sirkulasjonen, hvilket organ er det mest sannsynlige målorgan for en\nslik infeksjon? / Intravenøst narkotikamisbruk med bruk av urene sprøyter kan føre til\nat en kan injisere bakteriar intravenøst. Disse kan slå seg ned i indre organ og gje\ninfeksjon. Ut frå kunnskap om sirkulasjonen, kva for organ er det mest sannsynlege\nmålorgan for ein slik infeksjon? / Intravenous drug abuse with polluted syringes can\nresult in intravenous injection of bacteria. The bacteria can settle in internal organs\nand result in infection. From a knowledge of the circulation, which organ is the most\nlikely target organ for such an infection?",
       "answers": [1],
-      "options": [
-        "Lever / Liver",
-        "Lunge / Lung",
-        "Nyre / Kidney",
-        "Hjerne / Brain"
-      ]
+      "options": ["Lever / Liver", "Lunge / Lung", "Nyre / Kidney", "Hjerne / Brain"]
     },
     {
       "question": "Hvordan aktiveres hjertemuskelen til å kontrahere? / Korleis blir hjertemuskelen\naktivert til å kontrahere / How is the heart muscel activated to contract?",
@@ -299,12 +284,7 @@
     {
       "question": "Hva er viktigste stimulus for respirasjonen hos friske? / Kva er viktigaste stimulus for\nrespirasjonen hos friske? / What is the most important stimulus for the respiration in\nhealthy persons?",
       "answers": [2],
-      "options": [
-        "PO2",
-        "Osmolaritet / Osmolarity",
-        "PCO2",
-        "Blodtrykket / The blood pressure"
-      ]
+      "options": ["PO2", "Osmolaritet / Osmolarity", "PCO2", "Blodtrykket / The blood pressure"]
     },
     {
       "question": "Hva er viktigste stimulus for utskillelse av insulin? / Kva er viktigaste stimulus for\nutskiljing av insulin? / What is the most important stimulus for the secretion of\ninsulin?",
@@ -319,12 +299,7 @@
     {
       "question": "Hvilke hormonendringer skjer etter menopause? / Kva for hormonelle endringar skjer\netter menopause? / Which hormonal changes happens after menopause?",
       "answers": [3],
-      "options": [
-        "Estrogen↑, FSH↓",
-        "Estrogen↑, FSH↑",
-        "Estrogen↓, FSH↓",
-        "Estrogen↓, FSH↑"
-      ]
+      "options": ["Estrogen↑, FSH↓", "Estrogen↑, FSH↑", "Estrogen↓, FSH↓", "Estrogen↓, FSH↑"]
     },
     {
       "question": "Hva er funksjonen til myelinskjedene rundt aksonene? / Kva er funksjonen til\nmyelinskjedene rundt aksonene? / What is the function of the myelin sheaths around\nthe axons?",
@@ -389,12 +364,7 @@
     {
       "question": "Bestråling av skjoldbruskkjertelen kan føre til hypothyreose. Hva skjer med\nproduksjonen av thyroxin og TSH? / Bestråling av skjoldbruskkjertelen kan føre til\nhypothyreose. Kva skjer med produksjonen av thyroxin og TSH? / Irradiation of the\nthyroid gland can lead to hypothyreosis. What happens to the production of thyroxin\nand TSH?",
       "answers": [2],
-      "options": [
-        "Thyroxin↑, TSH↑",
-        "Thyroxin↑, TSH↓",
-        "Thyroxin↓, TSH↑",
-        "Thyroxin↓, TSH↓"
-      ]
+      "options": ["Thyroxin↑, TSH↑", "Thyroxin↑, TSH↓", "Thyroxin↓, TSH↑", "Thyroxin↓, TSH↓"]
     },
     {
       "question": "En blodåre har en innsnevring i et kort område. Hva skjer med blodstrømmen i denne\ninnsnevringen? / Ein blodåre har ei innsnevring i et kort område. Kva skjer med\nblodstraumen i denne innsnevringa? / A blood vessel has a narrowing in a short\nsegment. What happens to the blood flow in this narrow segment?",
@@ -474,12 +444,7 @@
     {
       "question": "Bilirubin er et avfallsstoff som blir skilt ut i gallen. Hvis avløpet for galle er blokkert,\nfører det til gul farge i huden. Hvilket stoff brytes ned til bl. a. bilirubin? / Bilirubin er\net avfallsstoff som blir skilt ut i gallen. Om avløpet for galle er blokkert, fører det til\ngul farge i huda. Kva for stoff blir brutt ned til m. a. bilirubin? / Bilirubin is a waste\nproduct that is secreted in the bile. If the bile draainage is blocked, it leads to yellow\nskin colour. What substance is broken down to among other things, bilirubin?",
       "answers": [2],
-      "options": [
-        "Kolesterol / Cholesterol",
-        "Albumin",
-        "Hemoglobin",
-        "Cholecysteokinin"
-      ]
+      "options": ["Kolesterol / Cholesterol", "Albumin", "Hemoglobin", "Cholecysteokinin"]
     },
     {
       "question": "En pasient har symptomer som tyder på et skiveprolaps i nakkeregionen. Hvilken\nundersøkelse kan legen da bruke? / Ein pasient har symptom som tyder på eit\nskiveprolaps i nakkeregionen. Kva for undersøking kan legen da bruke? / A patient\nhas symptoms that are suspect of a prolapse of a cervical disc. Which examination\nwould the doctor use?",

@@ -203,12 +203,7 @@
     {
       "question": "Hva er <em>ikke</em> prinsipielt en I/O teknikk?",
       "answers": [3],
-      "options": [
-        "programmert I/O",
-        "avbruddsdreven I/O",
-        "polling",
-        "maskindreven I/O"
-      ]
+      "options": ["programmert I/O", "avbruddsdreven I/O", "polling", "maskindreven I/O"]
     },
     {
       "question": "Hvorfor driver I/O-modulen med databufring?",

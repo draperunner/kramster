@@ -4,11 +4,7 @@
     {
       "question": "Hvilken systemutviklingsprosess vil fungere best i følge læreboka hvis kunden er svært\nusikker på kravene og hvordan det endelige systemet skal bli?",
       "answers": [1],
-      "options": [
-        "Vannfallsmodellen",
-        "Inkrementell utvikling",
-        "Motstrømsmodellen"
-      ]
+      "options": ["Vannfallsmodellen", "Inkrementell utvikling", "Motstrømsmodellen"]
     },
     {
       "question": "Til sammen bruker X mennesker internettet. Rundt år 2009 fins det over Y mobiltelefoner",
@@ -63,20 +59,12 @@
     {
       "question": "TCP/IP er en samling av protokoller som inneholder protokollene:",
       "answers": [1],
-      "options": [
-        "HTTP, HTML, PHP, TCP, SMTP",
-        "HTTP, FTP, TCP, IP, SMTP",
-        "Kun TCP og IP"
-      ]
+      "options": ["HTTP, HTML, PHP, TCP, SMTP", "HTTP, FTP, TCP, IP, SMTP", "Kun TCP og IP"]
     },
     {
       "question": "Hvilket av følgende alternativer blir IKKE i følge loven ansett som sensitive\npersonopplysninger ved opprettelse av personregistre i følge læreboka?",
       "answers": [2],
-      "options": [
-        "Etnisk bakgrunn",
-        "Politisk oppfatning",
-        "Økonomiske opplysninger"
-      ]
+      "options": ["Etnisk bakgrunn", "Politisk oppfatning", "Økonomiske opplysninger"]
     },
     {
       "question": "Hvor mange bits trengs for å kode det norske alfabetet med enkel koding (hver\nbokstav/tegn er representert med like mange bit)?",

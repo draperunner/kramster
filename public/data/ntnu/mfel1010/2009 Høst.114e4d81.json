@@ -309,22 +309,12 @@
     {
       "question": "Både ved lever- og galleveissykdommer blir avløpet av galle til tarmen hindret. \nDette fører til opphopning av et stoff gir gul hudfarge (gulsott). Hvilket stoff? / Både \nved lever- og gallevegssjukdomar blir avløpet av galle til tarmen hindra. Dette fører til \nopphoping av et stoff gir gul hudfarge (gulsott). Kva for stoff? / Both in liver- and bile \nduct disease is the drainage of bile to the intestine hindered. This leads to \naccumulation of a substance that gives yellow skin (jaundice). Which substance?",
       "answers": [3],
-      "options": [
-        "Cholesterol",
-        "Cholecystokinin",
-        "Gallesalt (Bile salts)",
-        "Bilirubin"
-      ]
+      "options": ["Cholesterol", "Cholecystokinin", "Gallesalt (Bile salts)", "Bilirubin"]
     },
     {
       "question": "Ved en form for thyreotoxicose (høyt stoffskifte) opptrer et antistoff mot TSH \nreseptorer i skjoldkjertelen som stimulerer reseptorene i stedet for å blokkere eller \nødelegge dem. Hva skjer da med nivåene av TSH og thyroxin? / Ved ein form for \nthyreotoxicose (høgt stoffskifte) opptrer et antistoff mot TSH reseptorar i \nskjoldkjertelen som stimulerer reseptorane i staden for å blokkere eller øydelegge dei. \nKva skjer då med nivåa av TSH og thyroxin? / In one kind of hyperthyroidism, there \nis present an antibody against TSH receptors that stimulates TSH receptors in the \nthyroid instead of blocking or destroying them. What happens then to the levels of \nThyroxin and TSH?",
       "answers": [1],
-      "options": [
-        "Thyroxin↑, TSH↑",
-        "Thyroxin↑, TSH↓",
-        "Thyroxin↓, TSH↑",
-        "Thyroxin↓, TSH↓"
-      ]
+      "options": ["Thyroxin↑, TSH↑", "Thyroxin↑, TSH↓", "Thyroxin↓, TSH↑", "Thyroxin↓, TSH↓"]
     },
     {
       "question": "En pasient har hudblødninger som skyldes mangel på en bestemt celletype i blodet. \nHvilken? / Ein pasient har hudblødningar som skyldes mangel på ein bestemt \ncelletype i blodet. Kva for ein? / A patient has skin haemorrhages caused by lack of a \ncertain cell type in the blood. Which?",
@@ -474,12 +464,7 @@
     {
       "question": "En pasient oppsøker legen med utslett over hele kroppen. Det kommer fram at han \nnoen måneder tidligere hadde et sår på penis, som imidlertid grodde av seg selv. \nLegen mistenker kjønnssykdom. Hvilken? / Ein pasient oppsøker legen med utslett \nover hele kroppen. Det kommer fram at han noen månader tidligare hadde et sår på \npenis, som imidlertid grodde av seg sjølv. Legen mistenker kjønssjuke. Kva for ein? / \nA patient sees his doctor with a rash all over his body. It comes to light that he some \nmonths earlier had an ulcer at the penis, which, however, healed spontaneously. The \ndoctor suspect a venereal disease. Which?",
       "answers": [0],
-      "options": [
-        "Syfilis / Syphilis",
-        "Gonorré / Gonorrhoea",
-        "Chlamydia",
-        "Herpes"
-      ]
+      "options": ["Syfilis / Syphilis", "Gonorré / Gonorrhoea", "Chlamydia", "Herpes"]
     },
     {
       "question": "<img src=\"images/krog0u.webp\"/>\nBildet viser et 2-dimensjonalt ultralydbilde av et hjerte. Hva kalles denne\nultralydmodaliteten? / Bildet viser eit 2-dimensjonalt ultralydbilde av eit hjerte. Kva \nblir denne ultralydmodaliteten kalla? / The picture shows a 2-dimensional ultrasound \npicture of a heart. What is this ultrasoun modality called?",

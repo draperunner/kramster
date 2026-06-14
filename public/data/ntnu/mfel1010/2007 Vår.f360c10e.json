@@ -9,12 +9,7 @@
     {
       "question": "Hvilken av disse prosessene skjer i mitochondriene?",
       "answers": [1, 2],
-      "options": [
-        "Proteinsyntese",
-        "DNA syntese",
-        "ATP syntese",
-        "Kalsium lagring og frisetting"
-      ]
+      "options": ["Proteinsyntese", "DNA syntese", "ATP syntese", "Kalsium lagring og frisetting"]
     },
     {
       "question": "Hvilken vevstype er beinvev?",
@@ -29,12 +24,7 @@
     {
       "question": "Hoveddelen av cellas DNA finnes i cellekjernen. Hvilke organeller har også DNA?",
       "answers": [3],
-      "options": [
-        "Golgi apparatet",
-        "Endoplasmatisk reticulum",
-        "Centrosomer",
-        "Mitochondriene"
-      ]
+      "options": ["Golgi apparatet", "Endoplasmatisk reticulum", "Centrosomer", "Mitochondriene"]
     },
     {
       "question": "Hva er knoklene i leddflatene kledd med?",
@@ -69,12 +59,7 @@
     {
       "question": "Hva slags ledd er skulderleddet?",
       "answers": [2],
-      "options": [
-        "Glideledd",
-        "Hengselledd",
-        "Kuleledd",
-        "Fibrøst (falskt) ledd"
-      ]
+      "options": ["Glideledd", "Hengselledd", "Kuleledd", "Fibrøst (falskt) ledd"]
     },
     {
       "question": "Eksitasjon av en muskelcelle utløser en kontraksjon (eksitasjons- kontraksjonskopling) ved at en intracellulært signalsubstans binder seg til troponinhodene på actinmolekylet. Hva er signalsubstansen?",
@@ -114,22 +99,12 @@
     {
       "question": "Balanseorganet oppfatter bevegelse og posisjon i rommet. Hvor ligger sansecellene for dette?",
       "answers": [1],
-      "options": [
-        "Hjerneventriklene",
-        "Det indre øret",
-        "Mellomøret",
-        "Bihulene"
-      ]
+      "options": ["Hjerneventriklene", "Det indre øret", "Mellomøret", "Bihulene"]
     },
     {
       "question": "Hva er presbyopi?",
       "answers": [2],
-      "options": [
-        "Nærsynthet",
-        "Langsynthet",
-        "Manglende nærinstilling",
-        "Uklar linse"
-      ]
+      "options": ["Nærsynthet", "Langsynthet", "Manglende nærinstilling", "Uklar linse"]
     },
     {
       "question": "Et slag skader synshjernebarken på høyre side, og gir et synsfeltutfall. Hvor?",
@@ -189,22 +164,12 @@
     {
       "question": "En lekkasje i aortaklaffen gir opphav til en bilyd. Når i hjertesyklus vil den høres?",
       "answers": [1],
-      "options": [
-        "I systole",
-        "I diastole",
-        "Både i systole og diastole",
-        "I PQ-intervallet"
-      ]
+      "options": ["I systole", "I diastole", "Både i systole og diastole", "I PQ-intervallet"]
     },
     {
       "question": "Hva er den viktigste regulator for hjerteaksjonen i hvile?",
       "answers": [0],
-      "options": [
-        "Blodtrykket",
-        "Oksygenmetningen",
-        "Blodets pH",
-        "Temperaturen"
-      ]
+      "options": ["Blodtrykket", "Oksygenmetningen", "Blodets pH", "Temperaturen"]
     },
     {
       "question": "Hva er mekanismen for et hjerteinfarkt?",
@@ -334,12 +299,7 @@
     {
       "question": "Hvilke typer energi gir billeddannelsen ved CT?",
       "answers": [1],
-      "options": [
-        "Gammastråler",
-        "Røntgenstråler",
-        "Ultralydbølger",
-        "Radiobølger"
-      ]
+      "options": ["Gammastråler", "Røntgenstråler", "Ultralydbølger", "Radiobølger"]
     },
     {
       "question": "Hvilken av disse begrepene har en endelse som viser at det dreier seg om smerter?",
@@ -369,12 +329,7 @@
     {
       "question": "Hva består hjertets ledningssystem av?",
       "answers": [1],
-      "options": [
-        "Autonome nerver",
-        "Spesialiserte muskelceller",
-        "Bindevevsfibre",
-        "Blodbanen"
-      ]
+      "options": ["Autonome nerver", "Spesialiserte muskelceller", "Bindevevsfibre", "Blodbanen"]
     },
     {
       "question": "Hva er hovedproblemet med et skiveprolaps?",
@@ -399,12 +354,7 @@
     {
       "question": "Hva er mekanismen for revmatoid arthritt?",
       "answers": [2],
-      "options": [
-        "Infeksjon",
-        "Aldersdegenerasjon",
-        "Atoimmun betennelse",
-        "Utfelling av urinsyre"
-      ]
+      "options": ["Infeksjon", "Aldersdegenerasjon", "Atoimmun betennelse", "Utfelling av urinsyre"]
     },
     {
       "question": "Dykkersyke er en tilstand som kan inntreffe etter dykk til store dyp. Hva er mekanismen for dette?",

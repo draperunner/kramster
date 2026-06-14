@@ -14,12 +14,7 @@
     {
       "question": "Hva kalles den avsluttende aktiviteten i programvarevalideringsfasen?",
       "answers": [3],
-      "options": [
-        "Utviklingstesting.",
-        "Systemtesting.",
-        "Totaltesting.",
-        "Akseptansetesting."
-      ]
+      "options": ["Utviklingstesting.", "Systemtesting.", "Totaltesting.", "Akseptansetesting."]
     },
     {
       "question": "Hvilken sikkerhetsutfordring er ”pharming”?",
@@ -94,12 +89,7 @@
     {
       "question": "Alle eksterne enheter som skal kommunisere med en datamaskin krever en ... for å fungere",
       "answers": [0],
-      "options": [
-        "Driver.",
-        "ASCII-tabell.",
-        "Ledning.",
-        "Internett-forbindelse."
-      ]
+      "options": ["Driver.", "ASCII-tabell.", "Ledning.", "Internett-forbindelse."]
     },
     {
       "question": "Sekundærminne.",
@@ -139,12 +129,7 @@
     {
       "question": "Syv-bits kode for E er 1000101 og for S 1010011. Hvis man skal legge til en paritetsbit\n(parity bit) til disse to, blir denne paritetsbiten",
       "answers": [2],
-      "options": [
-        "0 for både E og S",
-        "0 for E, 1 for S",
-        "1 for E, 0 for S",
-        "1 for både E og S"
-      ]
+      "options": ["0 for både E og S", "0 for E, 1 for S", "1 for E, 0 for S", "1 for både E og S"]
     },
     {
       "question": "I forbindelse med pensumstoffet om nettverkskommunikasjon står forkortelsen ISP for",

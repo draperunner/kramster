@@ -13,11 +13,9 @@ const ProgressBar: FC<Props> = (props) => {
       ? Math.round((100 * props.history.length) / props.questions.length)
       : 0;
 
-  const itemWidth =
-    props.questions.length > 0 ? 100 / props.questions.length : 0;
+  const itemWidth = props.questions.length > 0 ? 100 / props.questions.length : 0;
 
-  const type = (index: number): "correct" | "wrong" =>
-    props.history[index] ? "correct" : "wrong";
+  const type = (index: number): "correct" | "wrong" => (props.history[index] ? "correct" : "wrong");
 
   return (
     <div
@@ -32,11 +30,7 @@ const ProgressBar: FC<Props> = (props) => {
       </p>
       <div className={styles.progress}>
         {props.history.map((_answer, i) => (
-          <div
-            key={i}
-            className={styles[type(i)]}
-            style={{ width: `${itemWidth.toString()}%` }}
-          />
+          <div key={i} className={styles[type(i)]} style={{ width: `${itemWidth.toString()}%` }} />
         ))}
       </div>
     </div>

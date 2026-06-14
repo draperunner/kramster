@@ -17,12 +17,7 @@ const Navbar: FC = () => {
       <div className={styles.pullRight}>
         <ul>
           <li>
-            <Link
-              className={styles.link}
-              to="/about"
-              tabIndex={0}
-              viewTransition
-            >
+            <Link className={styles.link} to="/about" tabIndex={0} viewTransition>
               About
             </Link>
           </li>

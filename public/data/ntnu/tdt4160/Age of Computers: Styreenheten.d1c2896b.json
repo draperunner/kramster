@@ -63,13 +63,7 @@
     {
       "question": "Hvilket av følgende flagg er <em>ikke</em> et betingelsesflagg (condition code flag) (satt i prosessorens statusregister)?",
       "answers": [2],
-      "options": [
-        "N (negativ)",
-        "Z (null)",
-        "D (data)",
-        "V (overflyt)",
-        "C (carry)"
-      ]
+      "options": ["N (negativ)", "Z (null)", "D (data)", "V (overflyt)", "C (carry)"]
     },
     {
       "question": "Hva er mest dekkende om oppgaven til styreenheten i prosessoren?",
@@ -95,12 +89,7 @@
     {
       "question": "Hva er <em>ikke</em> et typisk input til styreenheten?",
       "answers": [3],
-      "options": [
-        "Instruksjoner",
-        "Klokkesignal",
-        "Statusflagg",
-        "Programteller"
-      ]
+      "options": ["Instruksjoner", "Klokkesignal", "Statusflagg", "Programteller"]
     },
     {
       "question": "En mikroprogrammert styreenhet (eng. control unit) vil normalt være",

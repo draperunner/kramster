@@ -64,12 +64,7 @@
     {
       "question": "Hvor er musculus deltoideus plassert?",
       "answers": [1],
-      "options": [
-        "På magen",
-        "På utsiden av skulderleddet",
-        "På setet",
-        "I låret"
-      ]
+      "options": ["På magen", "På utsiden av skulderleddet", "På setet", "I låret"]
     },
     {
       "question": "Hva er hovedfunksjonen til musculus gluteus maximus?",

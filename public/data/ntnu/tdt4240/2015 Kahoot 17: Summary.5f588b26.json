@@ -4,12 +4,7 @@
     {
       "question": "What are the main elements in the definition of software architecture?",
       "answers": [0, 1, 2, 3],
-      "options": [
-        "Set of structures",
-        "Software elements",
-        "Relations",
-        "Properties"
-      ]
+      "options": ["Set of structures", "Software elements", "Relations", "Properties"]
     },
     {
       "question": "Structures that can answer which CPUs software elements are executed on are named...",
@@ -64,12 +59,7 @@
     {
       "question": "What parameters are typically used in performance models?",
       "answers": [0, 1, 3],
-      "options": [
-        "Arrival rate",
-        "Network bandwidth",
-        "Recovery time",
-        "Schedule algorithm"
-      ]
+      "options": ["Arrival rate", "Network bandwidth", "Recovery time", "Schedule algorithm"]
     },
     {
       "question": "What view is most relevant for the end user? (4+1 view model)",
@@ -79,22 +69,12 @@
     {
       "question": "What is important for getting a good object-oriented design?",
       "answers": [0, 1, 3],
-      "options": [
-        "Abstraction/generalization",
-        "Delegation",
-        "High coupling",
-        "High cohesion"
-      ]
+      "options": ["Abstraction/generalization", "Delegation", "High coupling", "High cohesion"]
     },
     {
       "question": "What do you call a collection of patterns that build on each other to generate a system?",
       "answers": [2],
-      "options": [
-        "Architectural Pattern",
-        "Idioms",
-        "Pattern Language",
-        "Pattern styles"
-      ]
+      "options": ["Architectural Pattern", "Idioms", "Pattern Language", "Pattern styles"]
     },
     {
       "question": "What Type of architectural pattern has been used here? <img src=\"images/c0tacc.webp\"/>",
@@ -114,12 +94,7 @@
     {
       "question": "What analysis models exist for Usability?",
       "answers": [2],
-      "options": [
-        "Conceptual frameworks",
-        "Markov models",
-        "None",
-        "Real-time scheduling"
-      ]
+      "options": ["Conceptual frameworks", "Markov models", "None", "Real-time scheduling"]
     },
     {
       "question": "Which structures from the textbook can be classified as allocation structures?",
@@ -149,42 +124,22 @@
     {
       "question": "Description of patterns specific to a programming language is called...",
       "answers": [2],
-      "options": [
-        "Architectural pattern",
-        "Design pattern",
-        "Idioms",
-        "Tactics"
-      ]
+      "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
     },
     {
       "question": "How can an architecture affect business goals of a system?",
       "answers": [0, 2],
-      "options": [
-        "Add value",
-        "Support cloud computing",
-        "Faster to market",
-        "Less system crash"
-      ]
+      "options": ["Add value", "Support cloud computing", "Faster to market", "Less system crash"]
     },
     {
       "question": "Description of fundamental structural organization or schema for software systems is called...",
       "answers": [0],
-      "options": [
-        "Architectural pattern",
-        "Design pattern",
-        "Idioms",
-        "Tactics"
-      ]
+      "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
     },
     {
       "question": "What pattern can be used to ensure that single and multiple objects can be treated similarly?",
       "answers": [1],
-      "options": [
-        "Abstract Factory",
-        "Composite",
-        "Singleton",
-        "Template Method"
-      ]
+      "options": ["Abstract Factory", "Composite", "Singleton", "Template Method"]
     },
     {
       "question": "In what view can ER-modeling typically be used? (4+1 view model)",
@@ -209,32 +164,17 @@
     {
       "question": "What is this? <img src=\"images/l57v9n.webp\"/>",
       "answers": [3],
-      "options": [
-        "Risk themes",
-        "Sensitivity points",
-        "Tradeoff points",
-        "Utility tree"
-      ]
+      "options": ["Risk themes", "Sensitivity points", "Tradeoff points", "Utility tree"]
     },
     {
       "question": "What pattern can be used to implement/maintain several almost identical pieces of code?",
       "answers": [3],
-      "options": [
-        "Abstract Factory",
-        "Composite",
-        "Observer",
-        "Template Method"
-      ]
+      "options": ["Abstract Factory", "Composite", "Observer", "Template Method"]
     },
     {
       "question": "What pattern can be used to ensure that a change of one object influences other objects?",
       "answers": [2],
-      "options": [
-        "Abstract Factory",
-        "Composite",
-        "Observer",
-        "Template Method"
-      ]
+      "options": ["Abstract Factory", "Composite", "Observer", "Template Method"]
     },
     {
       "question": "A decision that will affect two or more fighting quality attributes is named:",
@@ -254,22 +194,12 @@
     {
       "question": "How can you implement variation points for software product line in code?",
       "answers": [1, 2],
-      "options": [
-        "Client-server pattern",
-        "Generalization",
-        "Overloading",
-        "Singleton Pattern"
-      ]
+      "options": ["Client-server pattern", "Generalization", "Overloading", "Singleton Pattern"]
     },
     {
       "question": "Modeling of architecture for availability is typically carried out for determining...",
       "answers": [0, 2],
-      "options": [
-        "Failure rates",
-        "Latency",
-        "Recovery times",
-        "Parallel processes"
-      ]
+      "options": ["Failure rates", "Latency", "Recovery times", "Parallel processes"]
     },
     {
       "question": "How is the scoping of the variation points in the software product line for this scenario? \"Have you developed something on our software product line?\" \"Yeah I tried. The software product line did not help much. Had to implement most of it from scratch!\"",
@@ -284,12 +214,7 @@
     {
       "question": "What analysis models exist for Availability?",
       "answers": [2, 3],
-      "options": [
-        "Coupling metrics",
-        "Cost models",
-        "Markov models",
-        "Statistical models"
-      ]
+      "options": ["Coupling metrics", "Cost models", "Markov models", "Statistical models"]
     },
     {
       "question": "The term for a representation of a coherent set of architectural elements is...",
@@ -329,12 +254,7 @@
     {
       "question": "What are typical outputs of the ATAM?",
       "answers": [0, 1, 2],
-      "options": [
-        "Set of nonrisks",
-        "Set of risks",
-        "Set of risk themes",
-        "Set of technologies"
-      ]
+      "options": ["Set of nonrisks", "Set of risks", "Set of risk themes", "Set of technologies"]
     },
     {
       "question": "What is this? <img src=\"images/xwu69d.webp\"/>",
@@ -394,12 +314,7 @@
     {
       "question": "What is the main characteristic from an Edge dominant system?",
       "answers": [1],
-      "options": [
-        "Many users",
-        "Depend on input from users",
-        "Agile development",
-        "Guitar-based"
-      ]
+      "options": ["Many users", "Depend on input from users", "Agile development", "Guitar-based"]
     },
     {
       "question": "Categorize the following characteristic: \"Heterogeneous clients\"",
@@ -419,12 +334,7 @@
     {
       "question": "What is important when designing the architecture for the CORE of an Edge dominant system?",
       "answers": [0, 2],
-      "options": [
-        "Highly modular",
-        "Provide many services",
-        "Highly robust",
-        "Large team"
-      ]
+      "options": ["Highly modular", "Provide many services", "Highly robust", "Large team"]
     },
     {
       "question": "Categorize the following characteristic: \"FAT file system\"",
@@ -434,12 +344,7 @@
     {
       "question": "Requirements in Edge dominant systems are usually established from...",
       "answers": [2],
-      "options": [
-        "Interviews",
-        "Talking to customers",
-        "Web forums",
-        "Company management"
-      ]
+      "options": ["Interviews", "Talking to customers", "Web forums", "Company management"]
     },
     {
       "question": "What is the total benefit obtained from architectural strategy 2? <img src=\"images/dygp3m.webp\"/>",

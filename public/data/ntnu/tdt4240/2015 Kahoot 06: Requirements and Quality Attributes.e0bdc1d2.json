@@ -34,12 +34,7 @@
     {
       "question": "Which part of a quality attribute scenario specifies the part of the system being affected?",
       "answers": [0],
-      "options": [
-        "Artefact",
-        "Environment",
-        "Response measure",
-        "Source of stimulus"
-      ]
+      "options": ["Artefact", "Environment", "Response measure", "Source of stimulus"]
     },
     {
       "question": "Tactics are in a software architecture context...",

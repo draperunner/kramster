@@ -129,12 +129,7 @@
     {
       "question": "Hvem fant opp hullkortet?",
       "answers": [0],
-      "options": [
-        "Jacquard",
-        "Charles Babbage",
-        "Herman Hollerith",
-        "Ada Augusta Brown"
-      ]
+      "options": ["Jacquard", "Charles Babbage", "Herman Hollerith", "Ada Augusta Brown"]
     }
   ]
 }

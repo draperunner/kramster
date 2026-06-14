@@ -114,12 +114,7 @@
     {
       "question": "Which information is sent from the AuC to the VLR/SGSN during 3G/UMTS authentication?",
       "answers": [1],
-      "options": [
-        "IMSI",
-        "RAND, AUTN, XRES, CK, IK",
-        "RAND, AUTN",
-        "RAND, AUTN, XRES, Kc"
-      ]
+      "options": ["IMSI", "RAND, AUTN, XRES, CK, IK", "RAND, AUTN", "RAND, AUTN, XRES, Kc"]
     },
     {
       "question": "Which UTRAN layers provide encryption?",

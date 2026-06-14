@@ -214,12 +214,7 @@
     {
       "question": "Which of these factors are important for the resolution in an ultrasound image?",
       "answers": [3],
-      "options": [
-        "The wavelength",
-        "The frequency",
-        "The probe aperture size",
-        "All of the others"
-      ]
+      "options": ["The wavelength", "The frequency", "The probe aperture size", "All of the others"]
     },
     {
       "question": "What are the main biological effects of diagnostic ultrasound?",
@@ -269,12 +264,7 @@
     {
       "question": "We do a heart catheterization at rest, and measure a hemoglobin of 13.5 g/dl, an arterial oxygen saturation of 100%, and a mixed venous saturation of 70%. One gram of hemoglobin binds 1.4 ml of oxygen. The patient weighs 67 kg. What is her oxygen uptake during the procedure?",
       "answers": [1],
-      "options": [
-        "3,5 ml/kg/min",
-        "3,8 ml/kg/min",
-        "8,9 ml/kg/min",
-        "12,7 ml/kg/min"
-      ]
+      "options": ["3,5 ml/kg/min", "3,8 ml/kg/min", "8,9 ml/kg/min", "12,7 ml/kg/min"]
     },
     {
       "question": "A certain clinical study shows treatment 1 to be better to reduce the mortality (number of deaths) than treatment 2 for a certain disease with a p value (significance) of 15%. What does this mean?",
@@ -349,12 +339,7 @@
     {
       "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
       "answers": [2],
-      "options": [
-        "The Esophagus",
-        "The stomach",
-        "The small intestine",
-        "The large intestine"
-      ]
+      "options": ["The Esophagus", "The stomach", "The small intestine", "The large intestine"]
     },
     {
       "question": "A marathon runner wants to increase his oxygen uptake by increasing his hemoglobin as much as possible. How can he achieve this?",

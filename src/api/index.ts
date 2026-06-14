@@ -2,11 +2,7 @@ import { Question } from "../interfaces";
 
 import index from "../index.json";
 
-async function getExam(
-  school: string,
-  course: string,
-  examName: string,
-): Promise<Question[]> {
+async function getExam(school: string, course: string, examName: string): Promise<Question[]> {
   try {
     const examData = index.schools
       .find((s) => s.abbreviation.toLowerCase() === school.toLowerCase())
@@ -26,11 +22,7 @@ async function getExam(
   }
 }
 
-async function getRandom(
-  school: string,
-  course: string,
-  maxDocs: number,
-): Promise<Question[]> {
+async function getRandom(school: string, course: string, maxDocs: number): Promise<Question[]> {
   const exams = await Promise.all(
     index.schools
       .find((s) => s.abbreviation.toLowerCase() === school.toLowerCase())

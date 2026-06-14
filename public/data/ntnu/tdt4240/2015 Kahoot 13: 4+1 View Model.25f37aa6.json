@@ -4,12 +4,7 @@
     {
       "question": "What are the keywords in the definition of software architecture in the textbook?",
       "answers": [0, 1, 2, 3],
-      "options": [
-        "Software components",
-        "Properties",
-        "Structures",
-        "Relationships"
-      ]
+      "options": ["Software components", "Properties", "Structures", "Relationships"]
     },
     {
       "question": "A representation of a whole system from the perspective of a related set of concerns is called?",
@@ -39,12 +34,7 @@
     {
       "question": "What view is most relevant for the end user?",
       "answers": [1],
-      "options": [
-        "Developer view",
-        "Logical view",
-        "Process view",
-        "Physical view"
-      ]
+      "options": ["Developer view", "Logical view", "Process view", "Physical view"]
     },
     {
       "question": "What view represents an abstraction of the most important requirements?",
@@ -59,12 +49,7 @@
     {
       "question": "What view has the main focus on non-functional requirements such as availability & scalability?",
       "answers": [2, 3],
-      "options": [
-        "Development view",
-        "Logical view",
-        "Process view",
-        "Physical view"
-      ]
+      "options": ["Development view", "Logical view", "Process view", "Physical view"]
     },
     {
       "question": "What characteristics should be identified when going from the logical to process view?",

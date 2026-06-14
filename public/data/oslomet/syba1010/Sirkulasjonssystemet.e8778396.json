@@ -39,12 +39,7 @@
     {
       "question": "Pacemakercellene i de ulike stedene i hjertet har ulik depolariseringsfrekvens. Dersom pacemakercellene i sinusknuten blir ødelagt overtar pacemakercellene i AV-knuten reguleringen av hjertekontraksjonen. Hva skjer mht. hvilepulsen?",
       "answers": [2],
-      "options": [
-        "Pulsen blir uendret",
-        "Pulsen øker",
-        "Pulsen avtar",
-        "Pulsen blir ustabil"
-      ]
+      "options": ["Pulsen blir uendret", "Pulsen øker", "Pulsen avtar", "Pulsen blir ustabil"]
     },
     {
       "question": "Et EKG består normalt av en P-takk, et QRS-kompleks og en T-takk. Hva uttrykker P-takken?",
@@ -59,12 +54,7 @@
     {
       "question": "Hvilken ligning beskriver riktig sammenheng mellom hjertets minuttvolum (MV), blodtrykk (BT) og motstanden i karsystemet (TPM)?",
       "answers": [3],
-      "options": [
-        "MV = TPM x BT",
-        "MV = TPM / BT",
-        "BT = MV / TPM",
-        "BT = MV x TPM"
-      ]
+      "options": ["MV = TPM x BT", "MV = TPM / BT", "BT = MV / TPM", "BT = MV x TPM"]
     },
     {
       "question": "Hvilken hovedoppgave har bindevevsplaten (anulus fibrosus) i hjertet?",
@@ -89,12 +79,7 @@
     {
       "question": "Hvor får hjertets muskulatur sin blodtilførsel fra?",
       "answers": [2],
-      "options": [
-        "Venstre ventrikkel",
-        "Aorta",
-        "Koronararteriene",
-        "Venstre atrium"
-      ]
+      "options": ["Venstre ventrikkel", "Aorta", "Koronararteriene", "Venstre atrium"]
     }
   ]
 }

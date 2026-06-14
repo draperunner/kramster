@@ -24,12 +24,7 @@
     {
       "question": "Hva heter hjernenerven som leder sensoriske nervefibrer fra øynene?",
       "answers": [0],
-      "options": [
-        "Nervus opticus",
-        "Nervus facialis",
-        "Nervus vagus",
-        "Nervus vestibulocochlearis"
-      ]
+      "options": ["Nervus opticus", "Nervus facialis", "Nervus vagus", "Nervus vestibulocochlearis"]
     },
     {
       "question": "Hva er cerebellums (lillehjernens) funksjoner?",
@@ -44,12 +39,7 @@
     {
       "question": "Hvor i hjernen er respirasjonssenteret?",
       "answers": [2],
-      "options": [
-        "I frontallappen",
-        "I parietallappen",
-        "I hjernestammen",
-        "I talamus"
-      ]
+      "options": ["I frontallappen", "I parietallappen", "I hjernestammen", "I talamus"]
     },
     {
       "question": "Hvilken del av nervesystemet aktiveres ved fysiske påkjenninger og stress?",

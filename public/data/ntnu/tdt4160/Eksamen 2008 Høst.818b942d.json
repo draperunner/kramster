@@ -24,12 +24,7 @@
     {
       "question": "Kva er skissert i figur 3?\n<img src=\"images/6vh8m.webp\"/>",
       "answers": [0],
-      "options": [
-        "Fulladder.",
-        "Halvadder.",
-        "Statisk RAM-celle.",
-        "Multipleksar."
-      ]
+      "options": ["Fulladder.", "Halvadder.", "Statisk RAM-celle.", "Multipleksar."]
     },
     {
       "question": "Korleis er einingane i figur 4 prioritert? Nivå 1 (level 1 er prioritert\nover nivå 2 (level 2). Rekkefølgja er gitt frå høgaste til lågaste.\n<img src=\"images/0xvaj.webp\"/>",

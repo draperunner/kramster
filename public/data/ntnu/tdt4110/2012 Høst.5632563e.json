@@ -89,12 +89,7 @@
     {
       "question": "Hvilke av alternativene under er mulige tolkninger av PandA-mønstre?",
       "answers": [3],
-      "options": [
-        "True og False.",
-        "Ja og Nei.",
-        "+ og –.",
-        "Alle alternativene a-c er riktige."
-      ]
+      "options": ["True og False.", "Ja og Nei.", "+ og –.", "Alle alternativene a-c er riktige."]
     },
     {
       "question": "Når vi studerer algoritmers effektivitet, ser vi på hvordan kjøretiden utvikler seg i forhold til mengden av input. Vi gjør analyser av bestefall, verstefall og gjennomsnittstilfellet. Hvorfor er det spesielt interessant å analysere en algoritmes kjøretid i verste fall?",

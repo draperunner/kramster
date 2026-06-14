@@ -25,13 +25,7 @@ function Questions() {
   // String representing the doc fetch mode. 'random' if Random X is clicked, etc.
   let mode: "all" | "exam" | "random" = "exam";
 
-  const {
-    school = "",
-    course = "",
-    exam = "",
-    number = "",
-    mode: paramMode,
-  } = useParams<Params>();
+  const { school = "", course = "", exam = "", number = "", mode: paramMode } = useParams<Params>();
 
   if (!exam && !paramMode) {
     mode = "all";
@@ -39,16 +33,12 @@ function Questions() {
     mode = paramMode;
   }
 
-  const examName = exam
-    ? decodeURIComponent(exam)
-    : `${number || ""} ${mode}`.trim();
+  const examName = exam ? decodeURIComponent(exam) : `${number || ""} ${mode}`.trim();
 
   const [loading, setLoading] = useState<boolean>(false);
   const [answerGiven, setAnswerGiven] = useState<boolean>(false);
   const [questions, setQuestions] = useState<QuestionType[]>([]);
-  const [currentQuestion, setCurrentQuestion] = useState<QuestionType | null>(
-    null,
-  );
+  const [currentQuestion, setCurrentQuestion] = useState<QuestionType | null>(null);
   const [history, setHistory] = useHistory();
 
   const questionRef = useRef<HTMLDivElement>(null);
@@ -75,10 +65,7 @@ function Questions() {
       });
   }, [course, exam, mode, school, number, setHistory]);
 
-  const answerIsCorrect = (
-    givenAnswer: string,
-    currentQuestion: QuestionType,
-  ): boolean => {
+  const answerIsCorrect = (givenAnswer: string, currentQuestion: QuestionType): boolean => {
     const q = currentQuestion;
     return q.answers.indexOf(q.options.indexOf(givenAnswer)) >= 0;
   };
@@ -95,11 +82,7 @@ function Questions() {
     const previousQuestion = questions[history.length - 1];
 
     // Check if the option the button represents is one of the correct answers.
-    if (
-      previousQuestion.answers.indexOf(
-        previousQuestion.options.indexOf(option),
-      ) >= 0
-    ) {
+    if (previousQuestion.answers.indexOf(previousQuestion.options.indexOf(option)) >= 0) {
       return "correctAnswer";
     }
 
@@ -143,10 +126,7 @@ function Questions() {
         {course.toUpperCase()} – {examName}
       </h1>
 
-      <ProgressBar
-        history={history.map((q) => q.wasCorrect)}
-        questions={questions}
-      />
+      <ProgressBar history={history.map((q) => q.wasCorrect)} questions={questions} />
 
       {questions.length ? (
         <div ref={questionRef} className={styles.questionRow} tabIndex={-1}>

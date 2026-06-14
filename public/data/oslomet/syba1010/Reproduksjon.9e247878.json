@@ -14,12 +14,7 @@
     {
       "question": "Hvor modnes og lagres sædcellene?",
       "answers": [1],
-      "options": [
-        "I testiklene",
-        "I bitestiklene",
-        "I prostata",
-        "I sædblærene"
-      ]
+      "options": ["I testiklene", "I bitestiklene", "I prostata", "I sædblærene"]
     },
     {
       "question": "I hvilken fase av menstruasjonssyklus er det høyest produksjon av progesteron?",
@@ -49,12 +44,7 @@
     {
       "question": "Hva er epididymis?",
       "answers": [1],
-      "options": [
-        "Testikkelen",
-        "Bitestikkelen",
-        "Pungen",
-        "Blærehalskjertelen"
-      ]
+      "options": ["Testikkelen", "Bitestikkelen", "Pungen", "Blærehalskjertelen"]
     },
     {
       "question": "Hvilket utsagn om sædceller er riktig?",
@@ -94,12 +84,7 @@
     {
       "question": "Hvor foregår eggcelleproduksjon?",
       "answers": [0],
-      "options": [
-        "I ovariene",
-        "I endometriet",
-        "I fimbriene",
-        "I corpus uteri"
-      ]
+      "options": ["I ovariene", "I endometriet", "I fimbriene", "I corpus uteri"]
     },
     {
       "question": "Hva er follikkelfasen?",

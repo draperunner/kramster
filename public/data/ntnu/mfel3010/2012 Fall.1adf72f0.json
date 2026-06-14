@@ -44,12 +44,7 @@
     {
       "question": "And how much pre urine is produced in all nephrons of both kidneys during 24 hours?",
       "answers": [3],
-      "options": [
-        "Ca 1,6 litres",
-        "Ca 3 litres",
-        "Ca 20 litres",
-        "Ca 180 litres"
-      ]
+      "options": ["Ca 1,6 litres", "Ca 3 litres", "Ca 20 litres", "Ca 180 litres"]
     },
     {
       "question": "What is the effect of antidiuretic hormone?",
@@ -74,12 +69,7 @@
     {
       "question": "Which characteristics of the hippocampus can be studied with MRI?",
       "answers": [3],
-      "options": [
-        "3D shape",
-        "memory-related activation",
-        "blood flow",
-        "all of the above"
-      ]
+      "options": ["3D shape", "memory-related activation", "blood flow", "all of the above"]
     },
     {
       "question": "The structural and functional organization of the human body can be described on several different levels. Cells are the basic unit of life, yet cells can differ fundamentally when it comes to form, protein and organelle content, and function. How can such differences between to cell types be explained?",
@@ -139,12 +129,7 @@
     {
       "question": "Maximum oxygen uptake (VO2max) is a measure of aerobic fitness. During maximal exercise, the oxygen extraction (= arteriovenous O2 difference) may be as high as 90% (i.e. arterial oxygen saturation of 100%, venous saturation of 10%). One gram of hemoglobin binds 1.4 ml O2. Given a body weight of 85 kg and hemoglobin of 15.4 g/dl, what is then his VO2max?",
       "answers": [1],
-      "options": [
-        "99 ml/kg/min",
-        "89 ml/kg/min",
-        "79 ml/kg/min",
-        "70 ml/kg/min"
-      ]
+      "options": ["99 ml/kg/min", "89 ml/kg/min", "79 ml/kg/min", "70 ml/kg/min"]
     },
     {
       "question": "Endurance training increases the maximal oxygen uptake. What is the factor that is increased by training, and thus responsible for increased fitness?",
@@ -189,12 +174,7 @@
     {
       "question": "A recent study of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening velocity per length unit) – 1.1 s-1\nTo compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
       "answers": [2],
-      "options": [
-        "Limits of agreement",
-        "Correlation",
-        "Mean error",
-        "kappa coefficient"
-      ]
+      "options": ["Limits of agreement", "Correlation", "Mean error", "kappa coefficient"]
     },
     {
       "question": "Ultrasound Doppler can measure blood velocity. We are interested in measuring the blood velocity at a certain depth. This is done by pulsed Doppler. How is the depth selectivity achieved?",
@@ -209,12 +189,7 @@
     {
       "question": "Which of these factors are important for the resolution in an ultrasound image?",
       "answers": [3],
-      "options": [
-        "The wavelength",
-        "The frequency",
-        "The probe aperture size",
-        "All of the others"
-      ]
+      "options": ["The wavelength", "The frequency", "The probe aperture size", "All of the others"]
     },
     {
       "question": "What are the main biological effects of diagnostic ultrasound?",
@@ -289,12 +264,7 @@
     {
       "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
       "answers": [2],
-      "options": [
-        "The Esophagus",
-        "The stomach",
-        "The small intestine",
-        "The large intestine"
-      ]
+      "options": ["The Esophagus", "The stomach", "The small intestine", "The large intestine"]
     },
     {
       "question": "In diabetes glucose is found in the urine as a sign of elevated blood sugar. What is the mechanism for this?",

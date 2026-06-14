@@ -64,12 +64,7 @@
     {
       "question": "Bruken av integreringsmekanismer må sees i sammenheng med organisasjonsstrukturen. Hvilken integreringsmekanisme er mest passende i en organisasjon som har liten differensiering?",
       "answers": [0],
-      "options": [
-        "Direkte kontakt",
-        "Midlertidig task-force",
-        "Team",
-        "Integrasjonsrolle"
-      ]
+      "options": ["Direkte kontakt", "Midlertidig task-force", "Team", "Integrasjonsrolle"]
     },
     {
       "question": "Hvilken av de følgende påstandene beskriver en viktig implikasjon som følger av høy grad av differensiering kontra lav grad av differensiering i en organisasjon?",
@@ -84,12 +79,7 @@
     {
       "question": "Det finnes en rekke tiltak som kan settes i gang for å redusere behovet for direkte kontroll av ansatte. Hvilken av følgende tiltakene kan ikke brukes for å redusere behovet for direkte kontroll av ansatte?",
       "answers": [2],
-      "options": [
-        "Regler",
-        "Sosiale normer",
-        "Sentralisering",
-        "Standardisering"
-      ]
+      "options": ["Regler", "Sosiale normer", "Sentralisering", "Standardisering"]
     },
     {
       "question": "Ansattes personlighet spiller naturligvis en rolle på arbeidsplassen, men når er det sannsynlig at personligheten til en ansatt spiller størst rolle i forhold til jobbprestasjonen? Er det:",

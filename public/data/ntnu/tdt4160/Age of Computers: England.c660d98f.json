@@ -19,11 +19,7 @@
     {
       "question": "Hva er et hullkort?",
       "answers": [2],
-      "options": [
-        "Et regneverktøy",
-        "En del av prosessoren",
-        "En lagringsenhet"
-      ]
+      "options": ["Et regneverktøy", "En del av prosessoren", "En lagringsenhet"]
     }
   ]
 }

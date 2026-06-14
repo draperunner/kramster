@@ -79,12 +79,7 @@
     {
       "question": "Which security mechanism is NOT present in GSM:",
       "answers": [3],
-      "options": [
-        "Authentication",
-        "Confidentiality",
-        "Anonymity",
-        "Authorization"
-      ]
+      "options": ["Authentication", "Confidentiality", "Anonymity", "Authorization"]
     },
     {
       "question": "In GSM, what is the role of A8 algorithm:",
@@ -134,12 +129,7 @@
     {
       "question": "Which two ciphers are used in UEA1 and UEA2",
       "answers": [3],
-      "options": [
-        "AES and KASUMI",
-        "AES and RC4",
-        "AES and SNOW 3G",
-        "KASUMI and SNOW 3G"
-      ]
+      "options": ["AES and KASUMI", "AES and RC4", "AES and SNOW 3G", "KASUMI and SNOW 3G"]
     },
     {
       "question": "In UMTS, the function f9( ) is used for:",
@@ -219,12 +209,7 @@
     {
       "question": "In RFID, the usual budget for implementation of the cryptographic primitives is:",
       "answers": [3],
-      "options": [
-        "100 – 200 gates",
-        "200 – 500 gates",
-        "500 – 1000 gates",
-        "200 – 2000 gates"
-      ]
+      "options": ["100 – 200 gates", "200 – 500 gates", "500 – 1000 gates", "200 – 2000 gates"]
     }
   ]
 }

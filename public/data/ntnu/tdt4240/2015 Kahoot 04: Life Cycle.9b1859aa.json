@@ -19,12 +19,7 @@
     {
       "question": "Examples of dominant software development processes are:",
       "answers": [1, 3],
-      "options": [
-        "Ad-hoc development",
-        "Model-driven",
-        "Pair-programming",
-        "Waterfall"
-      ]
+      "options": ["Ad-hoc development", "Model-driven", "Pair-programming", "Waterfall"]
     },
     {
       "question": "What is the first architecture activity in the life-cycle?",

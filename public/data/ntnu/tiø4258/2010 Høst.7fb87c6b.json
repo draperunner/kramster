@@ -64,12 +64,7 @@
     {
       "question": "Hva opplever ofte entreprenører i vekstbedrifter som den mest sentrale utfordringen i forhold til å lykkes med oppstarten av en potensiell vekstbedrift?",
       "answers": [0],
-      "options": [
-        "Finansiering",
-        "Markedsintroduksjon",
-        "Personalressurser",
-        "Ledelseskompetanse"
-      ]
+      "options": ["Finansiering", "Markedsintroduksjon", "Personalressurser", "Ledelseskompetanse"]
     },
     {
       "question": "Hvordan kan man dele inn nyetablerte bedrifter i forhold til ressursbehov?",
@@ -454,12 +449,7 @@
     {
       "question": "Den andelen av risiko som ikke kan elimineres ved diversifisering kalles:",
       "answers": [1],
-      "options": [
-        "Unik risiko.",
-        "Markedsrisiko.",
-        "Renterisiko.",
-        "Valutarisiko."
-      ]
+      "options": ["Unik risiko.", "Markedsrisiko.", "Renterisiko.", "Valutarisiko."]
     },
     {
       "question": "Følgende endring i kontantstrøm skal ikke med direkte i nettonåverdiberegningen når en bilprodusent vurderer å sette i gang utviklingen av en elektrisk bil:",

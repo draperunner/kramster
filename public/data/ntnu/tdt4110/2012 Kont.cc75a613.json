@@ -4,12 +4,7 @@
     {
       "question": "Hva kalles typen datamaskin som typisk brukes til tyngre oppgaver som værberegninger?",
       "answers": [3],
-      "options": [
-        "Arbeidsstasjon.",
-        "Mikrodatamaskin.",
-        "Stormaskin.",
-        "Superdatamaskin."
-      ]
+      "options": ["Arbeidsstasjon.", "Mikrodatamaskin.", "Stormaskin.", "Superdatamaskin."]
     },
     {
       "question": "Hvilket av disse alternativene beskriver IKKE en mikrokontroller?",
@@ -34,12 +29,7 @@
     {
       "question": "Hvilket alternativ beskriver sekundærminne?",
       "answers": [3],
-      "options": [
-        "Harddisk.",
-        "CD/DVD.",
-        "Minnepenn.",
-        "Alle alternativene er riktig."
-      ]
+      "options": ["Harddisk.", "CD/DVD.", "Minnepenn.", "Alle alternativene er riktig."]
     },
     {
       "question": "Hvilket alternativ beskriver IKKE en utenhet (output) i en datamaskin?",
@@ -49,12 +39,7 @@
     {
       "question": "Hvor mange bytes er 1 kilobyte?",
       "answers": [1],
-      "options": [
-        "1000 bytes.",
-        "1024 bytes.",
-        "1048 bytes.",
-        "Ingen av alternativene er riktig."
-      ]
+      "options": ["1000 bytes.", "1024 bytes.", "1048 bytes.", "Ingen av alternativene er riktig."]
     },
     {
       "question": "Hva er korrekt angående systemprogramvaren i en datamaskin?",
@@ -144,12 +129,7 @@
     {
       "question": "Omtrent hvor mange unike adresser tilbyr IPv4 (Internet Protocol ver. 4)?",
       "answers": [2],
-      "options": [
-        "4,29 millioner.",
-        "429 millioner.",
-        "4,29 milliarder.",
-        "429 milliarder."
-      ]
+      "options": ["4,29 millioner.", "429 millioner.", "4,29 milliarder.", "429 milliarder."]
     },
     {
       "question": "Hva består den første delen av en Uniform Resource Locator (URL) av?",
@@ -234,12 +214,7 @@
     {
       "question": "Hva kalles den siste fasen i livssyklusen til systemutvikling av informasjonssystemer?",
       "answers": [2],
-      "options": [
-        "Design.",
-        "Utvikling.",
-        "Vedlikehold.",
-        "Ingen av alternativene er riktig."
-      ]
+      "options": ["Design.", "Utvikling.", "Vedlikehold.", "Ingen av alternativene er riktig."]
     }
   ]
 }

@@ -34,12 +34,7 @@
     {
       "question": "Hva finner alle burst-feil med lengde n bit, gitt en n-bit maske, men er uegnet til kryptografi?",
       "answers": [3],
-      "options": [
-        "Enkel sjekksum",
-        "HASH-funksjoner",
-        "Paritet",
-        "Syklisk sjekksum (CRC)"
-      ]
+      "options": ["Enkel sjekksum", "HASH-funksjoner", "Paritet", "Syklisk sjekksum (CRC)"]
     },
     {
       "question": "I TCP/IP-protokollen …",
@@ -114,12 +109,7 @@
     {
       "question": "Dersom tekststreng 'Hallo' i ASCII representeres som følgende tall heksadesimalt: 48 61\n6c 6c 6f, hvordan representerer man på samme måte 'Morna'?",
       "answers": [2],
-      "options": [
-        "4e 65 69 64 61",
-        "4e 54 4e 55 21",
-        "4d 6f 72 6e 61",
-        "55 66 6g 7h 61"
-      ]
+      "options": ["4e 65 69 64 61", "4e 54 4e 55 21", "4d 6f 72 6e 61", "55 66 6g 7h 61"]
     },
     {
       "question": "En fordel med vannfallsmodellen kan være:",
@@ -169,12 +159,7 @@
     {
       "question": "Hva er det Boehm’s spiralmodell inneholder, som man ikke finner i vannfallsmodellen eller\ninkrementell utvikling?",
       "answers": [0],
-      "options": [
-        "Risikoanalyse.",
-        "Testing/Validering.",
-        "Kravspesifisering.",
-        "Vedlikehold."
-      ]
+      "options": ["Risikoanalyse.", "Testing/Validering.", "Kravspesifisering.", "Vedlikehold."]
     }
   ]
 }

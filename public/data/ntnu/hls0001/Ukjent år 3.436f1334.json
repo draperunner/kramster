@@ -4,12 +4,7 @@
     {
       "question": "Type A atferdsmønster er blitt forbundet med utviklingen av en bestemt sykdom. Det er:",
       "answers": [2],
-      "options": [
-        "Sukkersyke",
-        "Obstruktive lungelidelser",
-        "Hjerteinfarkt",
-        "Musesyken"
-      ]
+      "options": ["Sukkersyke", "Obstruktive lungelidelser", "Hjerteinfarkt", "Musesyken"]
     },
     {
       "question": "I Oslo har det ofte tidligere vært snakk om at forventet levetid er høyere vest i byen enn øst i byen. I de nyeste undersøkelsene viser det seg at nå er dette slik at:",
@@ -34,12 +29,7 @@
     {
       "question": "Det synspunktet at menneskelige fenomener (som for eksempel ærlighet og depresjon)\ner grunnleggende sett det samme (kvalitativt) i alle kulturer kalles:",
       "answers": [3],
-      "options": [
-        "Absolutisme",
-        "Relativisme",
-        "Instrumentalisme",
-        "Universalisme"
-      ]
+      "options": ["Absolutisme", "Relativisme", "Instrumentalisme", "Universalisme"]
     },
     {
       "question": "En person med type B atferdsmønster",
@@ -109,12 +99,7 @@
     {
       "question": "Den mest anerkjente og brukte definisjonen på utbrenthet er laget av Maslach. Hun deler utbrenthet inn i?",
       "answers": [2],
-      "options": [
-        "En dimensjon",
-        "To dimensjoner",
-        "Tre dimensjoner",
-        "Fire dimensjoner"
-      ]
+      "options": ["En dimensjon", "To dimensjoner", "Tre dimensjoner", "Fire dimensjoner"]
     },
     {
       "question": "Nyere oppsummering av forskningsstatus vedrørende strategier for reduksjon av\nalkoholrelaterte skader i samfunnet viser at en strategi som har høy grad av effekt er:",

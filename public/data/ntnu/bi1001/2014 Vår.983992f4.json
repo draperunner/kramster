@@ -15,13 +15,7 @@
     {
       "question": "Hydrolyttiske enzymer må være adskilt og innpakket for å hindre generell destruksjon av cellekomponenter. Hvilken av de følgende organellene inneholder slike hydrolyttiske enzymer i dyreceller?",
       "answers": [1],
-      "options": [
-        "kloroplast",
-        "lysosom",
-        "sentral vakuole",
-        "peroksisom",
-        "glyoxysom"
-      ]
+      "options": ["kloroplast", "lysosom", "sentral vakuole", "peroksisom", "glyoxysom"]
     },
     {
       "question": "Mennesker kan fordøye stivelse, men ikke cellulose fordi",
@@ -174,13 +168,7 @@
     {
       "question": "Proteiner som er involvert i regulering av cellesyklus og som varierer i konsentrasjon gjennom cellecyklus kalles",
       "answers": [4],
-      "options": [
-        "ATPaser.",
-        "kinetokorer.",
-        "kinaser.",
-        "protonpumper.",
-        "cykliner."
-      ]
+      "options": ["ATPaser.", "kinetokorer.", "kinaser.", "protonpumper.", "cykliner."]
     },
     {
       "question": "Ved siden av evna som noen kreftceller har til å ha økt vekstrate, hva ellers kan, logisk sett, føre til en kreftsvulst?",

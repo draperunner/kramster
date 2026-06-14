@@ -89,12 +89,7 @@
     {
       "question": "PAD pasienter bør først begynne med trening...",
       "answers": [1],
-      "options": [
-        "På tredemølle",
-        "Av leggene",
-        "Sykling",
-        "Utendørs i motbakke"
-      ]
+      "options": ["På tredemølle", "Av leggene", "Sykling", "Utendørs i motbakke"]
     },
     {
       "question": "Langkjøring ga følgende økning i VO2max hos friske mannlige studenter som trente i 2 måneder:",
@@ -129,22 +124,12 @@
     {
       "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
       "answers": [1],
-      "options": [
-        "Bli ca 5% mindre",
-        "Forbli uendret",
-        "Bli ca. 5% større",
-        "Bli ca 10% større"
-      ]
+      "options": ["Bli ca 5% mindre", "Forbli uendret", "Bli ca. 5% større", "Bli ca 10% større"]
     },
     {
       "question": "Maksimal styrketrening virker på:",
       "answers": [2],
-      "options": [
-        "VO2max og arbeidsøkonomi",
-        "VO2max",
-        "Arbeidsøkonomi",
-        "Muskeltverrsnittet"
-      ]
+      "options": ["VO2max og arbeidsøkonomi", "VO2max", "Arbeidsøkonomi", "Muskeltverrsnittet"]
     },
     {
       "question": "Hva er hovedårsaken til endringer i muskelstyrke som følge av maksimal styrketrening:",
@@ -269,12 +254,7 @@
     {
       "question": "Med maksimal styrketrening forbedrer KOLS-pasienter",
       "answers": [2],
-      "options": [
-        "lungeinflammasjon",
-        "maksimalt oksygenopptak",
-        "gangfunksjon",
-        "blodflow"
-      ]
+      "options": ["lungeinflammasjon", "maksimalt oksygenopptak", "gangfunksjon", "blodflow"]
     },
     {
       "question": "Med maksimal styrketrening forbedrer fotballspillere",

@@ -85,13 +85,7 @@
     {
       "question": "The original 802.11 standard operated on the following frequencies:",
       "answers": [0],
-      "options": [
-        "2.4 GHz",
-        "2.4 - 5.0 GHz",
-        "900 MHz",
-        "1.2 GHz",
-        "900 MHz – 1.3 GHz"
-      ]
+      "options": ["2.4 GHz", "2.4 - 5.0 GHz", "900 MHz", "1.2 GHz", "900 MHz – 1.3 GHz"]
     },
     {
       "question": "The maximal data rate per channel in the original 802.11 standard was:",
@@ -145,13 +139,7 @@
     {
       "question": "What is the length of the user's secret key in GSM technology?",
       "answers": [4],
-      "options": [
-        "There is no such a security in GSM",
-        "56 bits",
-        "64 bits",
-        "96 bits",
-        "128 bits"
-      ]
+      "options": ["There is no such a security in GSM", "56 bits", "64 bits", "96 bits", "128 bits"]
     },
     {
       "question": "In GSM, when a mobile is switched on, it registers its current location in a",
@@ -167,13 +155,7 @@
     {
       "question": "\"Protect against someone tracking the location of the user or identifying calls made to or from the user by eavesdropping on the radio path\" is the following GSM security feature:",
       "answers": [4],
-      "options": [
-        "Encryption",
-        "Handover",
-        "Authentication",
-        "Confidentiality",
-        "Anonymity"
-      ]
+      "options": ["Encryption", "Handover", "Authentication", "Confidentiality", "Anonymity"]
     },
     {
       "question": "In UMTS what kind of protection provides the \"Protection mode 2\" of MPSec?",

@@ -14,12 +14,7 @@
     {
       "question": "Hvor mye plass tar 20 minutter med (ukomprimert) stereo lyd av CD-kvalitet?",
       "answers": [0],
-      "options": [
-        "Omtrent 200 MB",
-        "Omtrent 500 MB",
-        "Omtrent 20 MB",
-        "Omtrent 1 GB"
-      ]
+      "options": ["Omtrent 200 MB", "Omtrent 500 MB", "Omtrent 20 MB", "Omtrent 1 GB"]
     },
     {
       "question": "Anta IEEE floating-point representation av tall. Hvilken påstand er riktig?",

@@ -6,9 +6,7 @@ interface Props {
   text: string;
   type: "alternativeMobile" | "alternative" | "correctAnswer" | "wrongAnswer";
   onClick?: (
-    event:
-      | React.KeyboardEvent<HTMLButtonElement>
-      | React.MouseEvent<HTMLButtonElement>,
+    event: React.KeyboardEvent<HTMLButtonElement> | React.MouseEvent<HTMLButtonElement>,
   ) => void;
   children?: ReactNode;
 }

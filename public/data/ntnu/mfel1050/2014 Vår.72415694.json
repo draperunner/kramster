@@ -94,12 +94,7 @@
     {
       "question": "Lungene er en stor begrensning i oksygentransporten for:",
       "answers": [2],
-      "options": [
-        "Eldre",
-        "Fotballspillere",
-        "KOLS-pasienter",
-        "Alle 3 ovenfor"
-      ]
+      "options": ["Eldre", "Fotballspillere", "KOLS-pasienter", "Alle 3 ovenfor"]
     },
     {
       "question": "Ved bedret maksimalt oksygenopptak vil følgende tilpasninger finne sted i hvile:",
@@ -164,12 +159,7 @@
     {
       "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
       "answers": [1],
-      "options": [
-        "Bli ca 5% mindre",
-        "Forbli uendret",
-        "Bli ca. 5% større",
-        "Bli ca 10% større"
-      ]
+      "options": ["Bli ca 5% mindre", "Forbli uendret", "Bli ca. 5% større", "Bli ca 10% større"]
     },
     {
       "question": "Hvordan bør eldre trene utholdenhet?",
@@ -334,12 +324,7 @@
     {
       "question": "Følgende signifikante endringer ble funnet etter maksimal styrketrening hos distanseløpere",
       "answers": [3],
-      "options": [
-        "CR↓, tMAS↑, RFD↓",
-        "CR↑, tMAS↓, RFD↑",
-        "CR↑, tMAS↑, RFD↓",
-        "CR↓, tMAS↑, RFD↑"
-      ]
+      "options": ["CR↓, tMAS↑, RFD↓", "CR↑, tMAS↓, RFD↑", "CR↑, tMAS↑, RFD↓", "CR↓, tMAS↑, RFD↑"]
     },
     {
       "question": "Følgende fysiologiske mål er det beste man kjenner til for kardiorespiratorisk kapasitet:",

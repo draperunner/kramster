@@ -2,22 +2,22 @@
   "name": "kramster",
   "version": "3.0.0",
   "description": "Kramster is a quiz app for making exam preparation more fun",
+  "license": "Apache-2.0",
+  "author": "Mats Byrkjeland",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/draperunner/Kramster.git"
+  },
   "type": "module",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
     "lint": "oxlint .",
     "stylelint": "stylelint src/**/*.css",
-    "format": "prettier . --write",
-    "format:check": "prettier . --check",
+    "format": "oxfmt .",
+    "format:check": "oxfmt . --check",
     "test": "npm run lint && npm run stylelint && npm run format:check"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/draperunner/Kramster.git"
-  },
-  "author": "Mats Byrkjeland",
-  "license": "Apache-2.0",
   "dependencies": {
     "dompurify": "^3.4.2",
     "react": "^19.2.6",
@@ -29,9 +29,9 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.3.1",
+    "oxfmt": "^0.54.0",
     "oxlint": "^1.69.0",
     "oxlint-tsgolint": "^0.23.0",
-    "prettier": "^3.8.3",
     "stylelint": "^16.26.1",
     "stylelint-config-standard": "^37.0.0",
     "typescript": "^5.9.3",

@@ -4,12 +4,7 @@
     {
       "question": "What is important for getting a good object-oriented design?",
       "answers": [0, 1, 2, 3],
-      "options": [
-        "Abstraction/generalization",
-        "Delegation",
-        "Loose coupling",
-        "High cohesion"
-      ]
+      "options": ["Abstraction/generalization", "Delegation", "Loose coupling", "High cohesion"]
     },
     {
       "question": "Important keywords related to the description of a design pattern are...",
@@ -19,22 +14,12 @@
     {
       "question": "Description of patterns specific to a programming language is called..",
       "answers": [2],
-      "options": [
-        "Architectural pattern",
-        "Design pattern",
-        "Idioms",
-        "Tactics"
-      ]
+      "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
     },
     {
       "question": "Description of fundamental structural organisation or schema for software systems is called...",
       "answers": [0],
-      "options": [
-        "Architectural pattern",
-        "Design pattern",
-        "Idioms",
-        "Tactics"
-      ]
+      "options": ["Architectural pattern", "Design pattern", "Idioms", "Tactics"]
     },
     {
       "question": "What type of pattern is the Singleton pattern?",

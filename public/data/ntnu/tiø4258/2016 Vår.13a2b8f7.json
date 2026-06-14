@@ -209,12 +209,7 @@
     {
       "question": "Et produktutviklingsprosjekt er tenkt å gjennomføres i tre faser. Dersom det er vellykket hele veien, forventes det å gi en positiv kontantstrøm på 100 millioner med sannsynlighet 75 % og 50 millioner med sannsynlighet 25 % om tre år. Imidlertid vil det kunne bli avsluttet etter ett eller etter to år. Da blir det ingen kontantstrøm etter tre år. Sannsynligheten for at det avsluttes etter ett år er 20 %. Gitt at det ikke avsluttes da, er sannsynligheten for at det avsluttes etter to år på 30 %. Avkastningskravet er 10 % pr år. Hva er forventet nåverdi av de mulige kontantstrømmene om tre år?",
       "answers": [1],
-      "options": [
-        "32,9 millioner",
-        "36,8 millioner",
-        "44,5 millioner",
-        "49,0 millioner"
-      ]
+      "options": ["32,9 millioner", "36,8 millioner", "44,5 millioner", "49,0 millioner"]
     },
     {
       "question": "En investor kan kombinere bankinnskudd eller lån til samme rente på 3% med en andel i nøyaktig ett av aksjefondene A, B, C eller D. Tabellen under viser forventet avkastning og risiko målt med standardavvik for fondene.\n<img src=\"images/q94duq.webp\" />\nHvilket av aksjefondene vil investoren velge?",
@@ -224,12 +219,7 @@
     {
       "question": "Den andelen av risiko som kan elimineres ved diversifisering kalles:",
       "answers": [0],
-      "options": [
-        "Unik risiko.",
-        "Markedsrisiko.",
-        "Systematisk risiko.",
-        "Konkursrisiko."
-      ]
+      "options": ["Unik risiko.", "Markedsrisiko.", "Systematisk risiko.", "Konkursrisiko."]
     },
     {
       "question": "Hva er den mest korrekte beskrivelsen av hva investorer forventes å ville oppnå ved diversifisering?",

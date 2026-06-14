@@ -5,9 +5,7 @@ interface Props {
   className?: string;
   href: string;
   onClick?: (
-    event:
-      | React.KeyboardEvent<HTMLAnchorElement>
-      | React.MouseEvent<HTMLAnchorElement>,
+    event: React.KeyboardEvent<HTMLAnchorElement> | React.MouseEvent<HTMLAnchorElement>,
   ) => void;
   children?: ReactNode;
 }

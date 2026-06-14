@@ -24,22 +24,12 @@
     {
       "question": "What are typical outputs of the ATAM?",
       "answers": [0, 1, 2],
-      "options": [
-        "Set of nonrisks",
-        "Set of risks",
-        "Set of risk themes",
-        "Set of technologies"
-      ]
+      "options": ["Set of nonrisks", "Set of risks", "Set of risk themes", "Set of technologies"]
     },
     {
       "question": "What is the first phase of the ATAM process?",
       "answers": [2],
-      "options": [
-        "Analysis",
-        "Investigation and Analysis",
-        "Presentation",
-        "Testing"
-      ]
+      "options": ["Analysis", "Investigation and Analysis", "Presentation", "Testing"]
     },
     {
       "question": "What is the second phase of the ATAM process?",
@@ -109,12 +99,7 @@
     {
       "question": "What is this? <img src=\"images/w6pe0e.webp\"/>",
       "answers": [3],
-      "options": [
-        "Risk themes",
-        "Sensitivity points",
-        "Tradeoff points",
-        "QA Utility Tree"
-      ]
+      "options": ["Risk themes", "Sensitivity points", "Tradeoff points", "QA Utility Tree"]
     },
     {
       "question": "What is this? <img src=\"images/vaahds.webp\"/>",

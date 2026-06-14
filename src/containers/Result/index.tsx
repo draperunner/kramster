@@ -41,9 +41,7 @@ function Result() {
       </div>
 
       <div className={styles.buttons}>
-        <ResultButton
-          href={"/" + [school, course, exam, number].filter(Boolean).join("/")}
-        >
+        <ResultButton href={"/" + [school, course, exam, number].filter(Boolean).join("/")}>
           Try again
         </ResultButton>
         <ResultButton href={`/${school}/${course}`}>Try another</ResultButton>

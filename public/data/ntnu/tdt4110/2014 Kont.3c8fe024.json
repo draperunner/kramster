@@ -149,12 +149,7 @@
     {
       "question": "En byte hukommelse kan lagre",
       "answers": [2],
-      "options": [
-        "ett av 1024 forskjellige tall",
-        "et ord",
-        "et ASCII-tegn",
-        "en blokk"
-      ]
+      "options": ["ett av 1024 forskjellige tall", "et ord", "et ASCII-tegn", "en blokk"]
     },
     {
       "question": "Hvor mange steg er det i Fetch/Execute syklusen",
@@ -164,12 +159,7 @@
     {
       "question": "Programtelleren endres direkte av instruksjoner som kalles",
       "answers": [1],
-      "options": [
-        "Add and Multiply",
-        "Branch and Jump",
-        "Input and Output",
-        "Now and Next"
-      ]
+      "options": ["Add and Multiply", "Branch and Jump", "Input and Output", "Now and Next"]
     },
     {
       "question": "Hvordan representeres det heksadesimale tallet A8 binært?",

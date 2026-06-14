@@ -29,23 +29,17 @@ function Exams() {
 
       <div className={styles.categoriesRow}>
         <div>
-          <CategoryButton href={`/${school}/${course}/random/10`}>
-            10 Random
-          </CategoryButton>
+          <CategoryButton href={`/${school}/${course}/random/10`}>10 Random</CategoryButton>
         </div>
         <div>
-          <CategoryButton href={`/${school}/${course}/random/30`}>
-            30 Random
-          </CategoryButton>
+          <CategoryButton href={`/${school}/${course}/random/30`}>30 Random</CategoryButton>
         </div>
       </div>
 
       <div className={styles.examsGrid}>
         {exams.map(({ name }) => (
           <div key={name}>
-            <StandardButton
-              href={`/${school}/${course}/${encodeURIComponent(name)}`}
-            >
+            <StandardButton href={`/${school}/${course}/${encodeURIComponent(name)}`}>
               {name}
             </StandardButton>
           </div>

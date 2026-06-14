@@ -59,12 +59,7 @@
     {
       "question": "Intravenøst narkotikamisbruk med bruk av urene sprøyter kan føre til at en kan\ninjisere bakterier intravenøst. Disse kan slå seg ned i indre organer og gi infeksjon. Ut\nfra kunnskap om sirkulasjonen, hvilket organ er det mest sannsynlige målorgan for en\nslik infeksjon? / Intravenøst narkotikamisbruk med bruk av urene sprøyter kan føre til\nat en kan injisere bakteriar intravenøst. Disse kan slå seg ned i indre organ og gje\ninfeksjon. Ut frå kunnskap om sirkulasjonen, kva for organ er det mest sannsynlege\nmålorgan for ein slik infeksjon? / Intravenous drug abuse with polluted syringes can\nresult in intravenous injection of bacteria. The bacteria can settle in internal organs\nand result in infection. From a knowledge of the circulation, which organ is the most\nlikely target organ for such an infection?",
       "answers": [1],
-      "options": [
-        "Lever / Liver",
-        "Lunge / Lung",
-        "Nyre / Kidney",
-        "Hjerne / Brain"
-      ]
+      "options": ["Lever / Liver", "Lunge / Lung", "Nyre / Kidney", "Hjerne / Brain"]
     },
     {
       "question": "Hvor produseres antidiuretisk hormon? / Kor blir antidiuretisk hormon produsert /\nWhere is antidiuretic hormone produced?",
@@ -169,12 +164,7 @@
     {
       "question": "Ved nyresvikt får en lavere nivå av aktivt vitamin D. Hvordan vil dette virke på\ncalcium og PTH-nivået i blod? / Ved nyresvikt får ein lågare nivå av aktivt vitamin\nD. Korleis vil dette virke på calcium og PTH-nivået i blod? / In renal failure will\nthere be lower levels of active vitamin D. How will that influence the levels of calcium\nand PTH?",
       "answers": [2],
-      "options": [
-        "Ca 2+ ↑ / PTH↑",
-        "Ca 2+ ↑ / PTH↓",
-        "Ca 2+ ↓ / PTH↑",
-        "Ca 2+ ↓ / PTH↓"
-      ]
+      "options": ["Ca 2+ ↑ / PTH↑", "Ca 2+ ↑ / PTH↓", "Ca 2+ ↓ / PTH↑", "Ca 2+ ↓ / PTH↓"]
     },
     {
       "question": "Hvilken påstand er korrekt? / Kva for påstand er korrekt? / What statement is correct?",
@@ -389,12 +379,7 @@
     {
       "question": "Normal koagulasjon er avhengig av interaksjon mellom et vitamin og et ion. Hvilket\nvitamin og ion? / Normal koagulasjon er avhengig av interaksjon mellom et vitamin\nog et ion. Kva for vitamin og ion? / Normal coagulation is dependent on the\ninteraction between an ion and a vitamin. Which vitamin and which ion?",
       "answers": [2],
-      "options": [
-        "Vitamin C – Na +",
-        "Vitamin D – K +",
-        "Vitamin K – Ca 2+",
-        "Vitamin E – Mg 2+"
-      ]
+      "options": ["Vitamin C – Na +", "Vitamin D – K +", "Vitamin K – Ca 2+", "Vitamin E – Mg 2+"]
     },
     {
       "question": "Kondisjonstrening øker det maksimale oksygenopptaket under arbeid. Hva er det først\nog fremst som trenes hos friske? / Kondisjonstrening aukar det maksimale\noksygenopptaket under arbeid. Kva er det først og fremst som blir trent hos friske? /\nEndurance training increases tha maximal oxygen uptake during exercise. What is\nprimarily the factor that is trained in healthy individuals?",
@@ -464,12 +449,7 @@
     {
       "question": "Hva heter den innerste, tynneste av hjernehinnene? / Kva heter den innerste,\ntynnaste av hjernehinnene? / What is the name of the innermost, thinnest of the\nmeninges (brain membranes)?",
       "answers": [1],
-      "options": [
-        "Dura mater",
-        "Pia mater",
-        "Arachnoidea",
-        "Hjernebarken / The cerebral cortex"
-      ]
+      "options": ["Dura mater", "Pia mater", "Arachnoidea", "Hjernebarken / The cerebral cortex"]
     },
     {
       "question": "Kjemoreceptorer er viktige i regulering av respirasjonen. Hvor sitter de? /\nKjemoreceptorer er viktige i reguleringa av respirasjonen. Kor sitt dei? /\nChemoreceptors are essential in regulation of respiration. Where are they localized?",
@@ -509,12 +489,7 @@
     {
       "question": "Hvordan er hormonforstyrrelsene ved hypothyreose? / Korleis er hormon\nforstyrringene ved hypothyreose? / How are the hormonal changes in\nhypothyroidism?",
       "answers": [2],
-      "options": [
-        "Thyroxin↑, TSH↑",
-        "Thyroxin↑, TSH↓",
-        "Thyroxin↓, TSH↑",
-        "Thyroxin↓, TSH↓"
-      ]
+      "options": ["Thyroxin↑, TSH↑", "Thyroxin↑, TSH↓", "Thyroxin↓, TSH↑", "Thyroxin↓, TSH↓"]
     },
     {
       "question": "Bildet viser et opptak av et hjerte der en enkelt ultralydstråle er brukt til å ta opp ekko\nsom skrives ut langs en tidsakse, slik at vi får et diagram av bevegelsen til strukturer i\nhjertet. Hva kalles denne ultralydmodaliteten? / Bildet viser eit opptak av eit hjerte der\nein enkelt ultralydstråle er brukt til å ta opp ekko som skrives ut langs en tidsakse, slik\nat vi får eit diagram av bevegelsen til strukturer i hjertet. Kva blir denne\nultralydmodaliteten kalla? / The picture shows an ultrasound recording from a heart\nwhere a single ultrasound beam is used to record an echo that is printed along a time\naxis, giving a diagrom of the motion of structures in the heart. What is this ultrasound\nmodality called?",

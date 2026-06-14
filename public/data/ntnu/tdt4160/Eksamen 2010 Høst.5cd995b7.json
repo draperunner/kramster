@@ -64,12 +64,7 @@
     {
       "question": "Anta en prosessor med ett nivå hurtigbuffer (eng: cache), en hurtigbufferaksesstid på 3\nklokkesykler og en minnelatens på 400 klokkesykler. Hva blir den gjennomsnittlige minneaksesstiden når 95% av\nforespørslene treffer i hurtigbufferet?",
       "answers": [1],
-      "options": [
-        "3 klokkesykler",
-        "23 klokkesykler",
-        "380 klokkesykler",
-        "400 klokkesykler"
-      ]
+      "options": ["3 klokkesykler", "23 klokkesykler", "380 klokkesykler", "400 klokkesykler"]
     },
     {
       "question": "Mystisk Dark stakkmaskinkode:\n<pre>\n    push 4\na:  dup\n    push 2\n    lt\n    jtrue e\n    push 1\n    sub\n    jmp a\ne:\n</pre>\nHusk at:<br />\n• lt: resultat ← nest øverst < øverst<br />\n• sub: resultat ← nest øverst − øverst<br />\n\nDark stakkmaskinprogrammet over kjøres på en tom stakk. Hvilken verdi ligger igjen på\nstakken når programmet har kjørt ferdig?",

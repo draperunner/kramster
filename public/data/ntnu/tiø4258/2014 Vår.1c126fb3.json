@@ -119,12 +119,7 @@
     {
       "question": "Etterspørselen til en bedrift er gitt av P = 1 000 - 2Q der P er prisen og Q er mengden. Hva blir et korrekt uttrykk for marginalinntekten, MR, for bedriften?",
       "answers": [3],
-      "options": [
-        "MR = 1 000 - Q",
-        "MR = 2 000 - 4Q",
-        "MR = 2 000 - 2Q",
-        "MR = 1 000 - 4Q"
-      ]
+      "options": ["MR = 1 000 - Q", "MR = 2 000 - 4Q", "MR = 2 000 - 2Q", "MR = 1 000 - 4Q"]
     },
     {
       "question": "Etterspørselen til en bedrift er gitt av P = 1 000 - 2Q der P er prisen og Q er mengden. For hvilken mengde, Q, er (absoluttverdien av) etterspørselselastisiteten bedriften ser lik 1?",
@@ -204,12 +199,7 @@
     {
       "question": "Hva kalles risikoen en investor sitter igjen med til tross for at han/hun diversifiserer så mye som mulig?",
       "answers": [0],
-      "options": [
-        "Markedsrisiko.",
-        "Diversifiserbar risiko.",
-        "Unik risiko.",
-        "Konkursrisiko."
-      ]
+      "options": ["Markedsrisiko.", "Diversifiserbar risiko.", "Unik risiko.", "Konkursrisiko."]
     },
     {
       "question": "La <math><mi>r</mi></math> være forventet avkastning for et verdipapir, la <math><mi>β</mi></math> være verdipapirets beta, la <math><msub><mi>r</mi><mi>f</mi></msub></math> være risikofri avkastning og la <math><msub><mi>r</mi><mi>m</mi></msub></math> være forventet markedsavkastning. Hva er da et korrekt uttrykk for Capital Asset Pricing Model, dvs. kapitalverdimodellen?",

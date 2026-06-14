@@ -125,13 +125,7 @@
     {
       "question": "Anta at vi har to ladninger med ladning +q og -q plassert på x-aksen, symmetrisk om origo. I hvilken\nretning peker det elektrisk feltet i et punkt på y-aksen?",
       "answers": [0],
-      "options": [
-        "x-retning",
-        "y-retning",
-        "z-retning",
-        "45 grader på x-aksen",
-        "Feltet er null"
-      ]
+      "options": ["x-retning", "y-retning", "z-retning", "45 grader på x-aksen", "Feltet er null"]
     },
     {
       "question": "Det elektriske feltet rundt en veldig lang leder med en uniform ladningsfordeling kan skrives som\n<math><mi>E</mi><mo>(</mo><mi>r</mi><mo>)</mo><mo>=</mo><mfrac><mi>k</mi><mi>r</mi></mfrac><msub><mi>a</mi><mi>r</mi></msub></math>, hvor <math><msub><mi>a</mi><mi>r</mi></msub></math> er den radielle enhetsvektor (positiv retning utover). Om vi lar <math><mi>k</mi><mo>=</mo><mn>1.0</mn><mi>V</mi></math>, hva blir det elektriske potensialet ved\n<math><mi>r</mi><mo>=</mo><mn>0.50</mn><mi>m</mi></math>, relativt til <math><mi>r</mi><mo>=</mo><mn>1.0</mn><mi>m</mi></math>?",

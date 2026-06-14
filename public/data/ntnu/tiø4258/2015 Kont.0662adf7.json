@@ -39,12 +39,7 @@
     {
       "question": "Hvilken av følgende finansieringskilder vil normalt regnes som «hard funding»?",
       "answers": [3],
-      "options": [
-        "Etablererstipend",
-        "Venner og bekjente",
-        "Såkornfond",
-        "Venture-selskaper"
-      ]
+      "options": ["Etablererstipend", "Venner og bekjente", "Såkornfond", "Venture-selskaper"]
     },
     {
       "question": "Hvilket av de følgende utsagnene beskriver ikke en del av motivasjonsligningen?",

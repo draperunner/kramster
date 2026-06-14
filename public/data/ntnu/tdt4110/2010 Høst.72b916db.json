@@ -66,11 +66,7 @@
     {
       "question": "En melding består av resultatet av 100 myntkast (mynt/krone). En annen melding består av resultatet av 100 terningkast (1–6 øyne). Hvilken melding har høyest entropi?",
       "answers": [1],
-      "options": [
-        "Mynt-meldingen.",
-        "Terning-meldingen.",
-        "De har samme entropi."
-      ]
+      "options": ["Mynt-meldingen.", "Terning-meldingen.", "De har samme entropi."]
     },
     {
       "question": "Hvilket av alternativene er gyldig CSS?",
@@ -181,11 +177,7 @@
     {
       "question": "A && (B || C) er true (sant) for:",
       "answers": [0],
-      "options": [
-        "A true, B true, C false",
-        "A true, B false, C false",
-        "A false, B true, C true"
-      ]
+      "options": ["A true, B true, C false", "A true, B false, C false", "A false, B true, C true"]
     },
     {
       "question": "Hovedgrunnen til at vi deler opp lengre programmer ved å bruke metoder:",

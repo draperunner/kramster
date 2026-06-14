@@ -209,12 +209,7 @@
     {
       "question": "Hva kalles risikoen som reflekteres i begrepet beta som er en del av Capital Asset Pricing Model, dvs. kapitalverdimodellen?",
       "answers": [0],
-      "options": [
-        "Markedsrisiko.",
-        "Diversifiserbar risiko.",
-        "Unik risiko.",
-        "Konkursrisiko."
-      ]
+      "options": ["Markedsrisiko.", "Diversifiserbar risiko.", "Unik risiko.", "Konkursrisiko."]
     },
     {
       "question": "Forventet avkastning til aksjen til et selskap er 12 %. Markedsrisikopremien er 6 % og risikofri rente er 3 %. Anta at Capital Asset Prising Model, dvs. kapitalverdimodellen er korrekt. Hva er da beta til selskapets aksjer?",

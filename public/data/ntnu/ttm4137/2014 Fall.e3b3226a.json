@@ -89,12 +89,7 @@
     {
       "question": "What is the speci\ffied length of the permanent subscriber key K in EPS/LTE?",
       "answers": [0],
-      "options": [
-        "No standard length specifi\fed",
-        "128 bits",
-        "192 bits",
-        "256 bits"
-      ]
+      "options": ["No standard length specifi\fed", "128 bits", "192 bits", "256 bits"]
     },
     {
       "question": "The end points of user data encryption in EPS are",

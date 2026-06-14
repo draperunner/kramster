@@ -4,22 +4,12 @@
     {
       "question": "Muskulær hypertrofi er assosiert med en stor økning i:",
       "answers": [2],
-      "options": [
-        "Neurale tilpasninger",
-        "Muskelfibre",
-        "Myofibriller",
-        "Makrofilamenter"
-      ]
+      "options": ["Neurale tilpasninger", "Muskelfibre", "Myofibriller", "Makrofilamenter"]
     },
     {
       "question": "Muskulær styrke er relatert til",
       "answers": [1],
-      "options": [
-        "Muskelens volum",
-        "Muskelens tverrsnitt",
-        "Muskelens lengde",
-        "Alle tre ovenfor"
-      ]
+      "options": ["Muskelens volum", "Muskelens tverrsnitt", "Muskelens lengde", "Alle tre ovenfor"]
     },
     {
       "question": "”Hennemans size principle” sier at:",
@@ -39,12 +29,7 @@
     {
       "question": "Blodstrøm i kapillærer i muskel begrenses ved muskelarbeid fra:",
       "answers": [0],
-      "options": [
-        "15% av 1RM og opp",
-        "30% av 1RM og opp",
-        "45%av1RMogopp",
-        "70%av1RMogopp"
-      ]
+      "options": ["15% av 1RM og opp", "30% av 1RM og opp", "45%av1RMogopp", "70%av1RMogopp"]
     },
     {
       "question": "Nevrale tilpasninger etter maksimal styrketrening inkluderer",
@@ -139,12 +124,7 @@
     {
       "question": "Hvor mye kan terskeltrening forbedre anaerob terskel?",
       "answers": [0],
-      "options": [
-        "Ingenting",
-        "Litt",
-        "Mye",
-        "Svært mye, det er derfor det heter terskeltrening"
-      ]
+      "options": ["Ingenting", "Litt", "Mye", "Svært mye, det er derfor det heter terskeltrening"]
     },
     {
       "question": "Hva er hovedårsaken til endringer i muskelstyrke som følge av maksimal styrketrening:",
@@ -159,12 +139,7 @@
     {
       "question": "Lungene er en stor begrensning i oksygentransporten for:",
       "answers": [2],
-      "options": [
-        "Eldre",
-        "Fotballspillere",
-        "KOLS-pasienter",
-        "Alle 3 ovenfor"
-      ]
+      "options": ["Eldre", "Fotballspillere", "KOLS-pasienter", "Alle 3 ovenfor"]
     },
     {
       "question": "Ved bedret maksimalt oksygenopptak vil følgende tilpasninger finne sted i hvile:",
@@ -324,12 +299,7 @@
     {
       "question": "Etter intervalltrening i 8 uker vil det totale blodvolumet i kroppen:",
       "answers": [1],
-      "options": [
-        "Bli ca 5% mindre",
-        "Forbli uendret",
-        "Bli ca. 5% større",
-        "Bli ca 10% større"
-      ]
+      "options": ["Bli ca 5% mindre", "Forbli uendret", "Bli ca. 5% større", "Bli ca 10% større"]
     },
     {
       "question": "[La-]b betyr:",

@@ -29,12 +29,7 @@
     {
       "question": "Tiden mellom hodet når rikig spor og lesingen kan begynnes, kalles:",
       "answers": [1],
-      "options": [
-        "Søketid",
-        "Rotasjonsforsinkelse",
-        "Aksesstid",
-        "Overføringstid"
-      ]
+      "options": ["Søketid", "Rotasjonsforsinkelse", "Aksesstid", "Overføringstid"]
     },
     {
       "question": "Hva er forskjellen på CAV (constant angular velocity) og MZR (multiple zoned recording) disklayout?",
@@ -76,12 +71,7 @@
     {
       "question": "Hva er <em>ikke</em> en nøkkelegenskap til halvlederlager?",
       "answers": [3],
-      "options": [
-        "Har to stabile tilstander",
-        "Kan skrives til",
-        "Kan leses fra",
-        "Er persistente"
-      ]
+      "options": ["Har to stabile tilstander", "Kan skrives til", "Kan leses fra", "Er persistente"]
     },
     {
       "question": "Hvilket utsagn om dataorganisering og formatering på en disk er <em>ikke</em> sant?",

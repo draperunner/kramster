@@ -114,12 +114,7 @@
     {
       "question": "Which GSM entities store the secret user keys K?",
       "answers": [2],
-      "options": [
-        "MS and HLR.",
-        "VLR, and AuC",
-        "SIM and AuC",
-        "SIM, BS and VLR"
-      ]
+      "options": ["MS and HLR.", "VLR, and AuC", "SIM and AuC", "SIM, BS and VLR"]
     },
     {
       "question": "What is the output of the GSM authentication function A3?",
@@ -194,12 +189,7 @@
     {
       "question": "Which UMTS entities implement the functions fl-f5, f1* and fS*?",
       "answers": [2],
-      "options": [
-        "USIM, UE and BS",
-        "SGSN and AuC",
-        "USIM and AuC",
-        "USIM, BSC and AuC"
-      ]
+      "options": ["USIM, UE and BS", "SGSN and AuC", "USIM and AuC", "USIM, BSC and AuC"]
     }
   ]
 }

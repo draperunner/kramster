@@ -4,12 +4,7 @@
     {
       "question": "What are Quality Attribute Checklists used for?",
       "answers": [0, 1],
-      "options": [
-        "Auditing",
-        "Checking requirements",
-        "Modeling system",
-        "Restrict coding"
-      ]
+      "options": ["Auditing", "Checking requirements", "Modeling system", "Restrict coding"]
     },
     {
       "question": "Quality attribute checklists have typically two types of requirements:",
@@ -24,12 +19,7 @@
     {
       "question": "What is the purpose of checking software architecture thought experiments?",
       "answers": [0],
-      "options": [
-        "Analyze scenarios",
-        "Choose patterns",
-        "Find requirements",
-        "Sketch design"
-      ]
+      "options": ["Analyze scenarios", "Choose patterns", "Find requirements", "Sketch design"]
     },
     {
       "question": "How would you classify the Cost and Confidence of doing a Back-of-the-envelope analysis?",
@@ -59,12 +49,7 @@
     {
       "question": "How would you classify the Cost and Confidence of doing an Experiment analysis?",
       "answers": [0, 1, 2, 3],
-      "options": [
-        "Medium, Medium",
-        "Medium, High",
-        "High, Medium",
-        "High, High"
-      ]
+      "options": ["Medium, Medium", "Medium, High", "High, Medium", "High, High"]
     }
   ]
 }

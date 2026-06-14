@@ -244,12 +244,7 @@
     {
       "question": "Hva kaller Nonaka omforming fra eksplisitt til taus kunnskap?",
       "answers": [1],
-      "options": [
-        "Integrering",
-        "Internalisering",
-        "Indoktrinering",
-        "Innrullering"
-      ]
+      "options": ["Integrering", "Internalisering", "Indoktrinering", "Innrullering"]
     },
     {
       "question": "Hvilken kunnskapsform er ifølge Blackler mest viktig i organisasjoner som vektlegger kollektivt arbeid rundt kjente problemstillinger?",
@@ -414,12 +409,7 @@
     {
       "question": "Normalt kan man ikke diversifisere bort all risiko i en verdipapirportefølje. Hva kalles den risikoen som det ikke er mulig å diversifisere bort?",
       "answers": [3],
-      "options": [
-        "Valutarisiko",
-        "Unik risiko",
-        "Konkursrisiko",
-        "Markedsrisiko"
-      ]
+      "options": ["Valutarisiko", "Unik risiko", "Konkursrisiko", "Markedsrisiko"]
     },
     {
       "question": "Forventet markedsavkastning er 8 %, risikofri rente er 3 % og en aksje har forventet avkastning på 13 %. I kapitalverdimodellen (Capital Asset Pricing Model - CAPM) kalles en parameter for beta. Hva er tallverdien for beta for nevnte aksje?",

@@ -39,12 +39,7 @@
     {
       "question": "Type A atferdsmønster er blitt forbundet med utviklingen av en bestemt sykdom. Det er:",
       "answers": [2],
-      "options": [
-        "Sukkersyke",
-        "Obstruktive lungelidelser",
-        "Hjerteinfarkt",
-        "Musesyken"
-      ]
+      "options": ["Sukkersyke", "Obstruktive lungelidelser", "Hjerteinfarkt", "Musesyken"]
     },
     {
       "question": "I Oslo har det ofte tidligere vært snakk om at forventet levetid er høyest vest i byen enn øst i byen. I de nyeste undersøkelsene viser det sg at nå er dette slik at:",
@@ -129,12 +124,7 @@
     {
       "question": "Den mest anerkjente og brukte definisjonen på utbrenthet er forfattet av Maslach. Hun deler utbrenthet inn i?",
       "answers": [2],
-      "options": [
-        "En dimensjon",
-        "To dimensjoner",
-        "Tre dimensjoner",
-        "Fire dimensjoner"
-      ]
+      "options": ["En dimensjon", "To dimensjoner", "Tre dimensjoner", "Fire dimensjoner"]
     },
     {
       "question": "Hvilke av personlighetstrekkene nedenfor er sterkest relatert til rapportering av symptomer?",
@@ -194,22 +184,12 @@
     {
       "question": "For de fleste kvinner som får fjernet livmoren blir helsen:",
       "answers": [0],
-      "options": [
-        "Bedre",
-        "Dårligere",
-        "Uforandret",
-        "Først bedre, så dårligere"
-      ]
+      "options": ["Bedre", "Dårligere", "Uforandret", "Først bedre, så dårligere"]
     },
     {
       "question": "Å fjerne livmoren fører ofte til komplikasjoner som:",
       "answers": [3],
-      "options": [
-        "Depresjon",
-        "Seksuelle problemer",
-        "Smerter",
-        "Ingen komplikasjoner"
-      ]
+      "options": ["Depresjon", "Seksuelle problemer", "Smerter", "Ingen komplikasjoner"]
     },
     {
       "question": "De fleste «cancer survivors» opplever en god livskvalitet fordi:",

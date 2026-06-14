@@ -14,12 +14,7 @@
     {
       "question": "At the end of a cardiac action potential, calcium is pumped from the cytoplasm into the sarcoplasmatic recticulum against a concentration gradient. What kind of transport is this?",
       "answers": [0],
-      "options": [
-        "Active transport",
-        "Mediated diffusion",
-        "Diffusion",
-        "Osmosis"
-      ]
+      "options": ["Active transport", "Mediated diffusion", "Diffusion", "Osmosis"]
     },
     {
       "question": "What are the main regulators of ventilation during basal conditions?",
@@ -89,12 +84,7 @@
     {
       "question": "Which of these factors can be changed to change the depth resolution in ultrasound?",
       "answers": [1],
-      "options": [
-        "Sound intensity",
-        "Sound frequency",
-        "Sound velocity",
-        "The Doppler effect"
-      ]
+      "options": ["Sound intensity", "Sound frequency", "Sound velocity", "The Doppler effect"]
     },
     {
       "question": "The coagulation process happens as specialised proteins in plasma; coagulation factors reacts in a cascade reaction. What is the end product of this reaction; the main ingredient in a clot?",
@@ -104,12 +94,7 @@
     {
       "question": "Where are most of the coagulation factors produced?",
       "answers": [2],
-      "options": [
-        "The bone marrow",
-        "The spleen",
-        "The liver",
-        "The lymph nodes"
-      ]
+      "options": ["The bone marrow", "The spleen", "The liver", "The lymph nodes"]
     },
     {
       "question": "Hyperventilation may happen as a result of pain or stress. What happens to the pH in the blood?",
@@ -149,12 +134,7 @@
     {
       "question": "In MRI, the atomic nuclei in a patient have aligned their spin with the magnetic field they are placed in. To make images, the nuclei are first brought into a higher energy state by beaming in energy (excitation to a higher energy state) and then capturing the energy as it escapes again afterwards. What kind of energy is beamed in?",
       "answers": [3],
-      "options": [
-        "Electron beams",
-        "Gamma ray beams",
-        "X-ray beams",
-        "Radio wave beams"
-      ]
+      "options": ["Electron beams", "Gamma ray beams", "X-ray beams", "Radio wave beams"]
     },
     {
       "question": "What does the cytoskeleton consist of?",
@@ -244,12 +224,7 @@
     {
       "question": "How much filtrate is produced in all nephrons of both kidneys during 24 hours?",
       "answers": [3],
-      "options": [
-        "Ca 1,6 litres",
-        "Ca 3 litres",
-        "Ca 20 litres",
-        "Ca 180 litres"
-      ]
+      "options": ["Ca 1,6 litres", "Ca 3 litres", "Ca 20 litres", "Ca 180 litres"]
     },
     {
       "question": "ELISA is a method for biochemical analysis of blood components. What is true about the ELISA method?",
@@ -274,12 +249,7 @@
     {
       "question": "Water is reabsorbed along most of the nephron. Which mechanism is mainly responsible for reabsorbtion of water?",
       "answers": [0],
-      "options": [
-        "Osmosis",
-        "Facilitated diffusion",
-        "Active transport",
-        "Pinocytosis"
-      ]
+      "options": ["Osmosis", "Facilitated diffusion", "Active transport", "Pinocytosis"]
     },
     {
       "question": "Which of the marked volumes on the diagram below represents the expiratory reserve volume?\n<img src=\"images/d9wmm.webp\" />",
@@ -309,12 +279,7 @@
     {
       "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
       "answers": [2],
-      "options": [
-        "The Esophagus",
-        "The stomach",
-        "The small intestine",
-        "The large intestine"
-      ]
+      "options": ["The Esophagus", "The stomach", "The small intestine", "The large intestine"]
     },
     {
       "question": "In diabetes is glucose found in the urine as a sign of elevated blood sugar. What is the mechanism for this?",

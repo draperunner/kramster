@@ -28,11 +28,7 @@
     {
       "question": "En tjenestenivåavtale (Service Level Agreement, SLA) vil ofte inneholde en rekke QoS-parametere (Quality of Service). Hva beskriver disse parametrene?",
       "answers": [1],
-      "options": [
-        "Funksjonelle krav",
-        "Ikke-funksjonelle krav",
-        "Ruter-kapasitet"
-      ]
+      "options": ["Funksjonelle krav", "Ikke-funksjonelle krav", "Ruter-kapasitet"]
     },
     {
       "question": "Du jobber som programmerer i firmaet Opptur. Hvem eier opphavsretten til programvaren du utvikler?",

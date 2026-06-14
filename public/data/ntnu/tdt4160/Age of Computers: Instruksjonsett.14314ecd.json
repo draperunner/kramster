@@ -33,33 +33,17 @@
     {
       "question": "En liste av instruksjoner som utfører en oppgave er...",
       "answers": [0],
-      "options": [
-        "...et program",
-        "...en operasjon",
-        "...en datasti",
-        "...et instruksjonsett"
-      ]
+      "options": ["...et program", "...en operasjon", "...en datasti", "...et instruksjonsett"]
     },
     {
       "question": "Anta at et instruksjonsett som bruker en fast instrukjonslengde på 16 bit. Operandfeltene har en lengde på 6 bit. Hva er det maksimale antall en-operand instruksjoner et slikt oppsett kan støtte?",
       "answers": [2],
-      "options": [
-        "2<sup>6</sup>",
-        "2<sup>8</sup>",
-        "2<sup>10</sup>",
-        "2<sup>12</sup>"
-      ]
+      "options": ["2<sup>6</sup>", "2<sup>8</sup>", "2<sup>10</sup>", "2<sup>12</sup>"]
     },
     {
       "question": "Hvilket felt er <em>ikke</em> vanlig å ha i instruksjonsordet?",
       "answers": [3],
-      "options": [
-        "Opkode",
-        "Destinasjonsoperand",
-        "Kildeoperander",
-        "Akkumulator",
-        "Funksjonskode"
-      ]
+      "options": ["Opkode", "Destinasjonsoperand", "Kildeoperander", "Akkumulator", "Funksjonskode"]
     },
     {
       "question": "Hva er ikke et typisk element i en instruksjon?",

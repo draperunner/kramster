@@ -137,13 +137,7 @@
     {
       "question": "Which of the following researchers did not participate in the Dartmouth conference where the name \"artificial intelligence\" was coined?",
       "answers": [4],
-      "options": [
-        "John McCarthy",
-        "Marvin Minsky",
-        "Herbert Simon",
-        "Allen Newell",
-        "Alan Turing"
-      ]
+      "options": ["John McCarthy", "Marvin Minsky", "Herbert Simon", "Allen Newell", "Alan Turing"]
     },
     {
       "question": "Which of the following is the main inference mechanism in semantic networks?",

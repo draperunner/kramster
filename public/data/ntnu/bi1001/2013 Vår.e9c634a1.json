@@ -26,35 +26,17 @@
     {
       "question": "Alle disse forekommer i en prokaryot celle utenom",
       "answers": [4],
-      "options": [
-        "DNA.",
-        "cellevegg.",
-        "plasmamembran.",
-        "ribosomer.",
-        "endoplasmisk retikulum."
-      ]
+      "options": ["DNA.", "cellevegg.", "plasmamembran.", "ribosomer.", "endoplasmisk retikulum."]
     },
     {
       "question": "Store mengder ribosomer er til stede i celler som er spesialiserte for å produsere hvilke av de følgende molekyler?",
       "answers": [2],
-      "options": [
-        "lipider",
-        "glykogen",
-        "proteiner",
-        "cellulose",
-        "nukleinsyrer"
-      ]
+      "options": ["lipider", "glykogen", "proteiner", "cellulose", "nukleinsyrer"]
     },
     {
       "question": "Hvilken organelle tar ofte opp mye av volumet i en plantecelle?",
       "answers": [1],
-      "options": [
-        "lysosomer",
-        "vakuole",
-        "mitochondrier",
-        "Golgiapparatet",
-        "peroxisomer"
-      ]
+      "options": ["lysosomer", "vakuole", "mitochondrier", "Golgiapparatet", "peroxisomer"]
     },
     {
       "question": "I en plantecelle kan DNA finnes",

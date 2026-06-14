@@ -59,12 +59,7 @@
     {
       "question": "Hvordan skjer gassutvekslingen av O2 og CO2 mellom alveolene og lungekapillærene?",
       "answers": [0],
-      "options": [
-        "Ved diffusjon",
-        "Ved osmose",
-        "Ved aktiv transport",
-        "Ved eksocytose"
-      ]
+      "options": ["Ved diffusjon", "Ved osmose", "Ved aktiv transport", "Ved eksocytose"]
     },
     {
       "question": "Hvilken anatomisk struktur avgrenser IKKE brystkassen/thorax?",

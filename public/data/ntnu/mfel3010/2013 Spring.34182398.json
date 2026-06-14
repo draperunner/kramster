@@ -34,22 +34,12 @@
     {
       "question": "The kidney produces urine to get rid of waste products. What is the mechanism best describing how the \"pre-urine\" is produced in the glomerulus?",
       "answers": [1],
-      "options": [
-        "Osmosis",
-        "Filtration",
-        "Electrostatic pressure",
-        "Active transport"
-      ]
+      "options": ["Osmosis", "Filtration", "Electrostatic pressure", "Active transport"]
     },
     {
       "question": "The kidney produces urine to get rid of waste products. How much pre urine is produced in all nephrons of both kidneys during 24 hours?",
       "answers": [3],
-      "options": [
-        "Ca 1,6 litres",
-        "Ca 3 litres",
-        "Ca 20 litres",
-        "Ca 180 litres"
-      ]
+      "options": ["Ca 1,6 litres", "Ca 3 litres", "Ca 20 litres", "Ca 180 litres"]
     },
     {
       "question": "What is the effect of antidiuretic hormone?",
@@ -74,12 +64,7 @@
     {
       "question": "Which characteristics of the hippocampus can be studied with MRI?",
       "answers": [3],
-      "options": [
-        "3D shape",
-        "memory-related activation",
-        "blood flow",
-        "all of the others"
-      ]
+      "options": ["3D shape", "memory-related activation", "blood flow", "all of the others"]
     },
     {
       "question": "The structural and functional organization of the human body can be described on several different levels. Cells are the basic unit of life, yet cells can differ fundamentally when it comes to form, protein and organelle content, and function. How can such differences between cell types be explained?",
@@ -164,12 +149,7 @@
     {
       "question": "A recent study of different measures of left ventricular function gave the following results for mean values in the (healthy) study group: Mean ejection fraction 59%, mean systolic shortening of the left ventricle: 17 mm, mean systolic tissue velocity: 9.1 cm/s and mean systolic strain rate (shortening velocity per length unit) – 1.1 s-1\nTo compare the usefulness of the different measures, we look at the reproducibility of the results, doing repeated measurements. Which measure of repeatability would be best here for comparison of the accuracy of the different measures?",
       "answers": [2],
-      "options": [
-        "Limits of agreement",
-        "Correlation",
-        "Mean error",
-        "kappa coefficient"
-      ]
+      "options": ["Limits of agreement", "Correlation", "Mean error", "kappa coefficient"]
     },
     {
       "question": "Ultrasound Doppler can measure blood velocity. We are interested in measuring the blood velocity at a certain depth. This is done by pulsed Doppler. How is the depth selectivity achieved?",
@@ -184,12 +164,7 @@
     {
       "question": "Which of these factors are important for the resolution in an ultrasound image?",
       "answers": [3],
-      "options": [
-        "The wavelength",
-        "The frequency",
-        "The probe aperture size",
-        "All of the above"
-      ]
+      "options": ["The wavelength", "The frequency", "The probe aperture size", "All of the above"]
     },
     {
       "question": "What are the main biological effects of MR?",
@@ -264,12 +239,7 @@
     {
       "question": "7 – 9l water per day enters the digestive system from food, drink and from local secretion. Only 1 – 2 dl is excreted in the feces. Where is the main part absorbed?",
       "answers": [2],
-      "options": [
-        "The Esophagus",
-        "The stomach",
-        "The small intestine",
-        "The large intestine"
-      ]
+      "options": ["The Esophagus", "The stomach", "The small intestine", "The large intestine"]
     },
     {
       "question": "In diabetes glucose is found in the urine as a sign of elevated blood sugar. What is the mechanism for this?",

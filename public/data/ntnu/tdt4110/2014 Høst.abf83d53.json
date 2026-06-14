@@ -34,12 +34,7 @@
     {
       "question": "Omtrent hvor mange ganger raskere er en 1 GHz - prosessor i forhold til en på 2 MHz.",
       "answers": [3],
-      "options": [
-        "Halvparten så rask.",
-        "Like rask.",
-        "Dobbelt så rask.",
-        "500 ganger så rask."
-      ]
+      "options": ["Halvparten så rask.", "Like rask.", "Dobbelt så rask.", "500 ganger så rask."]
     },
     {
       "question": "Hva sier Nyquist-regelen?",
@@ -194,12 +189,7 @@
     {
       "question": "Hva kalles aktiviteten som har fokus på å identifisere den overordnede strukturen for et system inkludert dets sub-systemer?",
       "answers": [1],
-      "options": [
-        "Hoveddesign.",
-        "Arkitekturdesign.",
-        "Interfacedesign.",
-        "Komponentdesign."
-      ]
+      "options": ["Hoveddesign.", "Arkitekturdesign.", "Interfacedesign.", "Komponentdesign."]
     },
     {
       "question": "MODEM er en forkortelse for",

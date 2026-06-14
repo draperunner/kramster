@@ -4,12 +4,7 @@
     {
       "question": "Hva er <em>ikke</em> en ulempe med radiorør?",
       "answers": [3],
-      "options": [
-        "Trege",
-        "Upålitelige",
-        "Bruker mye strøm",
-        "Produserer lite varme"
-      ]
+      "options": ["Trege", "Upålitelige", "Bruker mye strøm", "Produserer lite varme"]
     },
     {
       "question": "Hva hadde Robert Noyce og Jack Kilby til felles?",
@@ -25,14 +20,7 @@
     {
       "question": "Hvilken datamaskin ble brukt under den TV-sendte folketellingen i 1952 (USA)?",
       "answers": [2],
-      "options": [
-        "ENIAC",
-        "PDP-1",
-        "UNIVAC",
-        "Analytical Engine",
-        "Z3",
-        "650-maskinen"
-      ]
+      "options": ["ENIAC", "PDP-1", "UNIVAC", "Analytical Engine", "Z3", "650-maskinen"]
     },
     {
       "question": "Digital Equipment Corporation lagde PDP-1. Hva er PDP-1?",
@@ -64,12 +52,7 @@
     {
       "question": "Hva er NUSSE?",
       "answers": [1],
-      "options": [
-        "Et hovedkort",
-        "En datamaskin",
-        "En professor",
-        "Kallenavnet til Hysing"
-      ]
+      "options": ["Et hovedkort", "En datamaskin", "En professor", "Kallenavnet til Hysing"]
     },
     {
       "question": "Hva var SAM?",
@@ -94,13 +77,7 @@
     {
       "question": "Hva er en transistor laget av?",
       "answers": [1],
-      "options": [
-        "Radiorør",
-        "Halvledere",
-        "Integrerte kretser",
-        "Hel-ledere",
-        "Kondensatorer"
-      ]
+      "options": ["Radiorør", "Halvledere", "Integrerte kretser", "Hel-ledere", "Kondensatorer"]
     }
   ]
 }

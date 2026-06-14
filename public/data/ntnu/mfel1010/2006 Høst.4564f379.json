@@ -44,12 +44,7 @@
     {
       "question": "Hvilken kjønnssykdom kan gi skade på sentralnervesystemet? / Kva for ein kjønnssjuke kan gje skade på sentralnervesystemet? / What venereal disease can lead to damage of the central nervous system?",
       "answers": [3],
-      "options": [
-        "Gonoré / Gonorrhoea",
-        "Chlamydia",
-        "Trichomonas",
-        "Syfilis / Syphilis"
-      ]
+      "options": ["Gonoré / Gonorrhoea", "Chlamydia", "Trichomonas", "Syfilis / Syphilis"]
     },
     {
       "question": "Hvilke celler i blodet er ansvarlige for at blodet koagulerer? / Kva for celler i blodet er ansvarlige for at blodet koagulerer? / Which blood cells are responsible for the coagulation of the blood?",
@@ -194,12 +189,7 @@
     {
       "question": "Hva er den viktigste respirasjonsmuskelen? / Kva er den viktigaste respirasjonsmuskelen? / Which is the most important respiratory muscle?",
       "answers": [1],
-      "options": [
-        "Biceps",
-        "Diafragma",
-        "Gluteus maximus",
-        "Kvadriceps / Quadriceps"
-      ]
+      "options": ["Biceps", "Diafragma", "Gluteus maximus", "Kvadriceps / Quadriceps"]
     },
     {
       "question": "Hvilket organ begrenser den maksimale oksygentransporten under arbeid hos friske? / Kva for organ avgrensar den maksimale oksygentransporten under arbeid hos friske? / Which organ limits the oxygen transport during work in healthy persons?",
@@ -359,12 +349,7 @@
     {
       "question": "Hvilket hormon styrer kroppens calciumnivå? / Kva for eit hormon styrer kroppens calciumnivå? / Which hormone regulates the body level of calcium?",
       "answers": [2],
-      "options": [
-        "Thyroxin",
-        "Cortisol",
-        "Parathyroid hormon (PTH)",
-        "Aldosteron"
-      ]
+      "options": ["Thyroxin", "Cortisol", "Parathyroid hormon (PTH)", "Aldosteron"]
     },
     {
       "question": "Hvilket av disse hormonene er med på å regulere blodtrykket? / Kva for eit av disse hormonene er med på å regulere blodtrykket? / Which of these hormones takes part in the blood pressure regulation?",
@@ -514,12 +499,7 @@
     {
       "question": "Hvilket av disse organene består hovedsakelig av epitelvev?/ Kva for av disse organa består hovudsakelig av epitelvev?/ Which of these organs consists mainly of epithelial tissue?",
       "answers": [0],
-      "options": [
-        "Pancreas",
-        "Hjertet / The heart",
-        "Aorta",
-        "Kraniet / The cranium"
-      ]
+      "options": ["Pancreas", "Hjertet / The heart", "Aorta", "Kraniet / The cranium"]
     }
   ]
 }

@@ -414,12 +414,7 @@
     {
       "question": "Et investeringsprosjekt kan (litt forenklet) beskrives som følger: Investering på 600 millioner nå gir 1000 millioner med sannsynlighet 50 % om et år, og et tap på 100 millioner med samme sannsynlighet. Dersom prosjektet går med tap det første året, avsluttes det. Dersom det går med de nevnte 1000 millioner i overskudd, fortsetter det i ett år til. Gitt at det fortsetter, er sannsynligheten 75 % for positiv kontantstrøm på 1000 milllioner mens det er 25 % sannsynlighet for et tap på 100 millioner dette andre året. Avkastningskravet er 10 %. Hva blir nettonåverdien til prosjektet?",
       "answers": [1],
-      "options": [
-        "Ca 0",
-        "Ca 100 millioner",
-        "Ca 500 millioner",
-        "Ca 1000 millioner"
-      ]
+      "options": ["Ca 0", "Ca 100 millioner", "Ca 500 millioner", "Ca 1000 millioner"]
     },
     {
       "question": "En investor vurderer å sette sammen to aksjer til en portefølje. I hvilket tilfelle blir diversifiseringseffekten størst?",

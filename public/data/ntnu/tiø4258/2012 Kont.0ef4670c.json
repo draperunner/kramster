@@ -84,12 +84,7 @@
     {
       "question": "De fleste tilnærminger til jobbdesign fokuserer til en viss grad på de ansattes indre motivasjonsfaktorer. Hvilken av de følgende tilnærmingene er overhodet ikke opptatt av de ansattes indre motivasjon?",
       "answers": [2],
-      "options": [
-        "Jobberikelse",
-        "Jobbklassifisering",
-        "Scientific management",
-        "Jobbutvidelse"
-      ]
+      "options": ["Jobberikelse", "Jobbklassifisering", "Scientific management", "Jobbutvidelse"]
     },
     {
       "question": "I forventningsteori står begrepet valens sentralt. Hvilken av følgende påstander om hvordan en ansatt vil forholde seg hvis han eller hennes valens er negativ, er riktig?",
@@ -219,12 +214,7 @@
     {
       "question": "Dersom mange verdipapirer kombineres i en portefølje blir mye risiko borte og det meste av den risikoen vi står igjen med kan knyttes til kovariasjonen mellom verdipapirene i porteføljen. Hva kalles den delen av risikoen som ikke reduseres ved dannelse av porteføljer?",
       "answers": [3],
-      "options": [
-        "Unik risiko.",
-        "Diversifiserbar risiko.",
-        "Konkursrisiko.",
-        "Markedsrisiko."
-      ]
+      "options": ["Unik risiko.", "Diversifiserbar risiko.", "Konkursrisiko.", "Markedsrisiko."]
     },
     {
       "question": "Anta at forventet markedsavkastning er 8,0 % og risikofri rente er 3,0 %. En aksje har en beta på 1,5. Hva blir da forventet avkastning for aksjen i følge CAPM?",

@@ -7,10 +7,7 @@ interface Props {
 }
 
 const Question: FC<Props> = (props) => (
-  <p
-    className={styles.question}
-    dangerouslySetInnerHTML={{ __html: sanitize(props.text) }}
-  />
+  <p className={styles.question} dangerouslySetInnerHTML={{ __html: sanitize(props.text) }} />
 );
 
 export default Question;

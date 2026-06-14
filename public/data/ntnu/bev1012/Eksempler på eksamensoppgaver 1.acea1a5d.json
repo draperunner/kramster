@@ -44,12 +44,7 @@
     {
       "question": "Den enkeltverdien som best representerer alle de andre verdiene i en fordeling defineres som:",
       "answers": [0],
-      "options": [
-        "sentraltendens",
-        "standardavvik",
-        "variabilitet",
-        "utvalgsstørrelse"
-      ]
+      "options": ["sentraltendens", "standardavvik", "variabilitet", "utvalgsstørrelse"]
     },
     {
       "question": "I en kji-kvadrattest ser man på sammenhengen mellom:",

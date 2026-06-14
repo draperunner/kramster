@@ -49,12 +49,7 @@
     {
       "question": "What is the motivation for doing an ATAM evaluation?",
       "answers": [0, 2],
-      "options": [
-        "Assurance",
-        "Faster design",
-        "Find problems early",
-        "Optimize algorithms"
-      ]
+      "options": ["Assurance", "Faster design", "Find problems early", "Optimize algorithms"]
     },
     {
       "question": "When should an architecture be evaluated?",
