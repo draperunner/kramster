@@ -19,7 +19,7 @@
     "test": "npm run lint && npm run stylelint && npm run format:check"
   },
   "dependencies": {
-    "dompurify": "^3.4.2",
+    "dompurify": "^3.4.11",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router": "^7.15.0"
