@@ -35,7 +35,7 @@ function Questions() {
 
   const examName = exam ? decodeURIComponent(exam) : `${number || ""} ${mode}`.trim();
 
-  const [loading, setLoading] = useState<boolean>(false);
+  const [loading, setLoading] = useState<boolean>(true);
   const [answerGiven, setAnswerGiven] = useState<boolean>(false);
   const [questions, setQuestions] = useState<QuestionType[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<QuestionType | null>(null);
@@ -44,7 +44,6 @@ function Questions() {
   const questionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setLoading(true);
     setHistory([]);
 
     getQuestions(school, course, {

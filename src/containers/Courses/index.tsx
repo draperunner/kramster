@@ -5,37 +5,48 @@ import styles from "./Courses.module.css";
 
 import index from "../../index.json";
 
+const COLORS = ["orange", "green", "red", "blue", "purple", "yellow"];
+
+function departmentFromCourseCode(courseCode: string): string {
+  const firstDigitMatch = courseCode.match(/\d/);
+  const indexOfFirstDigit = firstDigitMatch
+    ? firstDigitMatch.index || courseCode.length
+    : courseCode.length;
+  return courseCode.slice(0, indexOfFirstDigit);
+}
+
 function Courses() {
   const { school } = useParams();
   const navigate = useNavigate();
+
+  const schoolData = index.schools.find((s) => s.abbreviation.toLowerCase() === school);
+  const courses = schoolData?.courses || [];
+
+  const departmentColors: { [courseCode: string]: string } = courses.reduce(
+    (assignedColors, { code }) => {
+      const departmentCode = departmentFromCourseCode(code);
+
+      if (assignedColors[departmentCode]) {
+        return assignedColors;
+      }
+
+      const colorIndex = Object.keys(assignedColors).length % COLORS.length;
+      const newColor = COLORS[colorIndex];
+
+      assignedColors[departmentCode] = newColor;
+
+      return assignedColors;
+    },
+    {} as { [courseCode: string]: string },
+  );
 
   if (!school) {
     return null;
   }
 
-  const schoolData = index.schools.find((s) => s.abbreviation.toLowerCase() === school);
-  const courses = schoolData?.courses || [];
-
   if (!courses.length) {
     return <LoadingSpinner />;
   }
-
-  const availableColors = ["orange", "green", "red", "blue", "purple", "yellow"];
-  const assignedColors: { [depCode: string]: string } = {};
-  let colorIndex = 0;
-
-  // Assign different colors to each department
-  const assignColor = (courseCode: string): string => {
-    const firstDigitMatch = courseCode.match(/\d/);
-    const indexOfFirstDigit = firstDigitMatch
-      ? firstDigitMatch.index || courseCode.length
-      : courseCode.length;
-    const departmentCode = courseCode.slice(0, indexOfFirstDigit);
-    if (assignedColors[departmentCode]) return assignedColors[departmentCode];
-    assignedColors[departmentCode] = availableColors[colorIndex % availableColors.length];
-    colorIndex += 1;
-    return assignedColors[departmentCode];
-  };
 
   return (
     <div className={styles.container}>
@@ -48,7 +59,7 @@ function Courses() {
             <Kitem
               head={code.toUpperCase()}
               body={name}
-              color={assignColor(code)}
+              color={departmentColors[departmentFromCourseCode(code)]}
               minHeight
               onClick={() => {
                 void navigate(`/${school}/${code}`, { viewTransition: true });
